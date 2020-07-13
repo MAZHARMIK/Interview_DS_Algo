@@ -1,0 +1,59 @@
+/*
+Company Tags : Amazon, Flipkart, Walmart, Paytm, MakeMyTrip, Dell, Grofers, BrowserStack, Netskope
+*/
+
+#include <iostream>
+#include <map>
+#include <queue>
+using namespace std;
+
+struct Node {
+	int data;
+	Node *left, *right;
+	Node(int data) {
+        this->data = data;
+        this->left = this->right = NULL;
+	}
+};
+
+Node* newNode(int data) {
+	return new Node(data);
+}
+
+void verticalOrder(Node* root, int d, map<int, vector<int>>& mp) {
+    if(!root)
+        return;
+    if(mp.count(d)) {
+        mp[d].push_back(root->data);
+    } else {
+        mp.insert({d, {}});
+        mp[d].push_back(root->data);
+    }
+
+    verticalOrder(root->left, d-1, mp);
+    verticalOrder(root->right, d+1, mp);
+}
+
+int main() {
+    Node *root = newNode(1);
+    root->left = newNode(2);
+    root->right = newNode(3);
+    root->left->left = newNode(4);
+    root->left->right = newNode(5);
+    root->right->left = newNode(6);
+    root->right->right = newNode(7);
+    root->right->left->right = newNode(8);
+    root->right->right->right = newNode(9);
+
+    cout << "Vertical order traversal is \n";
+    map<int, vector<int>> mp;
+    verticalOrder(root, 0, mp);
+
+    for(auto it:mp) {
+        for(int i: it.second)
+            cout << i << " ";
+        cout << endl;
+    }
+
+    return 0;
+}
