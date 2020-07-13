@@ -1,0 +1,77 @@
+/*
+Company Tags : Amazon, Flipkart, Walmart, Paytm, MakeMyTrip, Dell, Grofers, BrowserStack, Netskope
+*/
+
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <map>
+using namespace std;
+
+struct Node {
+	int data;
+	Node *left, *right;
+	Node(int data) {
+        this->data = data;
+        this->left = this->right = NULL;
+	}
+};
+
+Node* newNode(int data) {
+	return new Node(data);
+}
+
+
+void verticalPrint(Node* root) {
+    if(!root)
+        return;
+    map<int, vector<int>> mp;
+    queue<pair<Node*, int>> que;
+    que.push({root, 0});
+
+    while(!que.empty()) {
+        auto curr      = que.front();
+        que.pop();
+        Node* currNode = curr.first;
+        int d          = curr.second;
+
+        if(mp.count(d)) {
+            mp[d].push_back(currNode->data);
+        } else {
+            mp.insert({d, {}});
+            mp[d].push_back(currNode->data);
+        }
+
+        if(currNode->left) {
+            que.push({currNode->left, d-1});
+        }
+
+        if(currNode->right) {
+            que.push({currNode->right, d+1});
+        }
+    }
+
+    for(auto it:mp) {
+        vector<int> vec = it.second;
+        for(int i:vec)
+            cout << i << " ";
+        cout << endl;
+    }
+}
+
+int main()
+{
+	Node* root = newNode(8);
+	root->left = newNode(3);
+	root->right = newNode(10);
+	root->left->left = newNode(1);
+	root->left->right = newNode(6);
+	root->right->right = newNode(14);
+	root->right->right->left = newNode(13);
+	root->left->right->left = newNode(4);
+	root->left->right->right = newNode(7);
+
+	verticalPrint(root);
+
+	return 0;
+}
