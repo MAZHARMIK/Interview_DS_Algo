@@ -1,0 +1,32 @@
+/*
+  Company Tags : Amazon, MakeMyTrip, Paytm, Zoho
+  Leetcode-179 (Link : https://leetcode.com/problems/largest-number/)
+*/
+
+class Solution {
+public:
+    static bool myFunction(string s1, string s2) {
+        string ij = s1+s2;
+        string ji = s2+s1;
+        
+        return ij>ji;
+    }
+    string largestNumber(vector<int>& nums) {
+        int n = nums.size();
+        vector<string> result(n);
+        
+        for(int i = 0; i<n; i++) {
+            result[i] = to_string(nums[i]);
+        }
+        
+        sort(result.begin(), result.end(), myFunction);
+        if(result[0] == "0")
+            return "0";
+        string output = "";
+        for(string str: result){
+            output += str;
+        }
+        
+        return output;
+    }
+};
