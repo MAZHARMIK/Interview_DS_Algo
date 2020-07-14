@@ -1,0 +1,33 @@
+/*
+Company tags : Amazon, Paytm, Infinera, Salesforce
+*/
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+ {
+	int T;
+	double hour, minute;
+	cin >> T;
+	while(T--) {
+	    cin >> hour >> minute;
+	    if(minute == 60)
+	        minute = 0;
+
+	    double ha= (30*hour)+(minute/2);
+        double ma= (minute*6);
+
+        double result;
+        if(ha > ma)
+            result = ha-ma;
+        else
+            result = ma-ha;
+        if(result > 180)
+            cout << floor(360-result);
+        else
+            cout << floor(result);
+        cout << endl;
+	}
+	return 0;
+}
