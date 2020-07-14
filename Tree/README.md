@@ -21,7 +21,8 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Boundary%20Traversal%20of%20binary%20tree">Boundary Traversal of binary tree</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master
+/Tree/Boundary%20Traversal%20of%20binary%20tree">Boundary Tree Traversal</a>
 				</td>
 			</tr>
 		</tbody>
