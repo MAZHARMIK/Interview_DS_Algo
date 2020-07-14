@@ -1,0 +1,90 @@
+/*
+  Company Tags : Microsoft, Amazon, Samsung, Snapdeal, PayU, Accolite, OYO Rooms, Hike, FactSet, Kritikal Solutions
+  Seems pretty important :-)
+*/
+
+#include <iostream>
+#include<vector>
+using namespace std;
+
+struct Node {
+	int data;
+	Node *left, *right;
+	Node(int data) {
+        this->data = data;
+        this->left = this->right = NULL;
+	}
+};
+
+Node* newNode(int data) {
+	return new Node(data);
+}
+
+void leftSideTraversal(Node* root, vector<int>& result) {
+    if(root == NULL)
+        return;
+    if(root->left == NULL && root->right == NULL)
+        return;
+    if(root->left) {
+        result.push_back(root->data);
+        leftSideTraversal(root->left, result);
+    } else if (root->right) {
+        result.push_back(root->data);
+        leftSideTraversal(root->right, result);
+    }
+}
+
+void leafTraversal(Node* root, vector<int>& result) {
+    if(root == NULL)
+        return;
+    leafTraversal(root->left, result);
+    leafTraversal(root->right, result);
+    if(root->left == NULL && root->right == NULL)
+        result.push_back(root->data);
+}
+
+void rightSideReverseTraversal(Node* root, vector<int>& result) {
+    if(root == NULL)
+        return;
+    if(root->left == NULL && root->right == NULL)
+        return;
+    if(root->right) {
+        rightSideReverseTraversal(root->right, result);
+        result.push_back(root->data);
+    } else if(root->left) {
+        rightSideReverseTraversal(root->left, result);
+        result.push_back(root->data);
+    }
+}
+
+vector <int> printBoundary(Node *root)
+{
+    if(root == NULL)
+        return {};
+    vector<int> result;
+    result.push_back(root->data);
+    leftSideTraversal(root->left, result);
+    leafTraversal(root, result);
+    rightSideReverseTraversal(root->right, result);
+    return result;
+}
+
+int main()
+{
+	Node* root = newNode(1);
+	root->left = newNode(2);
+	root->right = newNode(3);
+	root->left->left = newNode(4);
+	root->left->right = newNode(5);
+	root->right->left = newNode(6);
+	root->left->right->left = newNode(7);
+	root->left->right->right = newNode(8);
+    root->right->left->left = newNode(9);
+	root->right->left->right = newNode(10);
+
+	vector<int> result = printBoundary(root);
+	for(int i:result)
+        cout << i << " ";
+
+	return 0;
+}
