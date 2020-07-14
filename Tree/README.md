@@ -19,5 +19,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Vertical%20Tree%20Traversal%20(Recursive:%20using%20map)">Vertical Tree Traversal</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Boundary%20Traversal%20of%20binary%20tree">Boundary Traversal of binary tree</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
