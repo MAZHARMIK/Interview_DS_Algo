@@ -79,7 +79,7 @@ int main()
 	root->right->left = newNode(6);
 	root->left->right->left = newNode(7);
 	root->left->right->right = newNode(8);
-    root->right->left->left = newNode(9);
+    	root->right->left->left = newNode(9);
 	root->right->left->right = newNode(10);
 
 	vector<int> result = printBoundary(root);
