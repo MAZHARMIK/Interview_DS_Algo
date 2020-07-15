@@ -1,0 +1,86 @@
+#include <iostream>
+#include <algorithm>
+#include <queue>
+using namespace std;
+
+struct Node
+{
+    int data;
+    Node *left, *right;
+    Node(int data) {
+        this->data = data;
+        this->left = this->right = NULL;
+    }
+};
+
+Node *newNode(int data)
+{
+    return new Node(data);
+}
+
+void printLeaves(Node* root, vector<int>& result) {
+    if(root == NULL)
+        return;
+    queue<Node*> que;
+    que.push(root);
+    while(!que.empty()) {
+        Node* curr = que.front();
+        que.pop();
+
+        if(curr->left == NULL && curr->right == NULL)
+            result.push_back(curr->data);
+        if(curr->left)
+            que.push(curr->left);
+        if(curr->right)
+            que.push(curr->right);
+    }
+}
+
+vector<int> boundaryTraversal(Node* root) {
+    if(root == NULL)
+        return {};
+    vector<int> result;
+    result.push_back(root->data);
+    if(root->left == NULL && root->right == NULL)
+        return result;
+
+    Node* L = root->left;
+    while(L->left) {
+        result.push_back(L->data);
+        L = L->left;
+    }
+    printLeaves(root, result);
+
+
+
+    vector<int> right_side;
+    Node* R = root->right;
+    while(R->right) {
+        right_side.push_back(R->data);
+        R = R->right;
+    }
+    reverse(right_side.begin(), right_side.end());
+    result.insert(result.end(), right_side.begin(), right_side.end());
+    return result;
+}
+
+int main()
+{
+    Node* root = newNode(20);
+
+    root->left = newNode(8);
+    root->right = newNode(22);
+
+    root->left->left = newNode(4);
+    root->left->right = newNode(12);
+
+    root->right->left = newNode(10);
+    root->right->right = newNode(25);
+
+    vector<int> result = boundaryTraversal(root);
+
+    for(int i : result)
+        cout << i << " ";
+
+    return 0;
+}
