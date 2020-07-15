@@ -84,7 +84,7 @@ int main()
 
 	vector<int> result = printBoundary(root);
 	for(int i:result)
-        cout << i << " ";
+        	cout << i << " ";
 
 	return 0;
 }
