@@ -43,16 +43,17 @@ vector<int> boundaryTraversal(Node* root) {
     result.push_back(root->data);
     if(root->left == NULL && root->right == NULL)
         return result;
-
+    
+    //Left side
     Node* L = root->left;
     while(L->left) {
         result.push_back(L->data);
         L = L->left;
     }
+    
     printLeaves(root, result);
-
-
-
+    
+    //Right side
     vector<int> right_side;
     Node* R = root->right;
     while(R->right) {
