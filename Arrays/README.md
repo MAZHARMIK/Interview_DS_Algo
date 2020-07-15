@@ -14,5 +14,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Largest%20Number%20(Leetcode-179)">Largest Number (Leetcode-179)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Rotating%20an%20Array%20(Reversal%20Algorithm)">Rotating an Array (Reversal Algorithm:Leetcode-189)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
