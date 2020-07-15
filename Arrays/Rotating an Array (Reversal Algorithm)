@@ -1,0 +1,50 @@
+/*
+  Company Tags : codenation, Amazon, MakeMyTrip, MAQ Software, Wipro, SAP Labs
+*/
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+void reverse(vector<int> &arr, int l, int r) {
+    int temp;
+    while(l <= r) {
+        temp = arr[l];
+        arr[l] = arr[r];
+        arr[r] = temp;
+        l++;
+        r--;
+    }
+}
+
+int main()
+ {
+	int T, N;
+	cin >> T;
+	while(T--) {
+	    cin >> N;
+	    vector<int> vec(N);
+	    for(int i = 0; i<N; i++) {
+	        cin >> vec[i];
+	    }
+	    int d;
+	    cin >> d;
+	    d = d%N;
+	    
+      //left rotation
+	    reverse(vec, 0, d-1);
+	    reverse(vec, d, N-1);
+	    reverse(vec, 0, N-1);
+      
+      //right rotation
+      /*
+	    reverse(vec, 0, N-1);
+	    reverse(vec, 0, d-1);
+	    reverse(vec, d, N-1);
+      */
+	    for(int i:vec)
+	        cout << i << " ";
+	    cout << endl;
+	}
+	return 0;
+}
