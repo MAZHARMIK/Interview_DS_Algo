@@ -1,0 +1,102 @@
+/*
+  Company Tags : Amazon
+  Link to Qn : https://www.geeksforgeeks.org/perfect-binary-tree-specific-level-order-traversal-set-2/?ref=rp
+*/
+
+#include <iostream>
+#include <queue>
+#include <stack>
+using namespace std;
+
+struct Node
+{
+    int data;
+    Node *left, *right;
+    Node(int data) {
+        this->data = data;
+        this->left = this->right = NULL;
+    }
+};
+
+Node *newNode(int data)
+{
+    return new Node(data);
+}
+
+void printSpecificLevelOrder(Node* root) {
+    if(root == NULL)
+        return;
+    stack<Node*> st;
+    st.push(root);
+    if(root->left == NULL && root->right == NULL) {
+        cout << st.top()->data;
+        st.pop();
+        return;
+    }
+    queue<Node*> que;
+    que.push(root->right);
+    que.push(root->left);
+
+    while(!que.empty()) {
+        Node* r = que.front();
+        que.pop();
+        Node* l = que.front();
+        que.pop();
+        st.push(r);
+        st.push(l);
+
+        if(l->left) {
+            que.push(r->left);
+            que.push(l->right);
+            que.push(r->right);
+            que.push(l->left);
+        }
+    }
+    while(!st.empty()) {
+        cout << st.top()->data << " ";
+        st.pop();
+    }
+}
+
+int main() {
+    Node *root = newNode(1);
+
+    root->left        = newNode(2);
+    root->right       = newNode(3);
+
+    root->left->left  = newNode(4);
+    root->left->right = newNode(5);
+    root->right->left  = newNode(6);
+    root->right->right = newNode(7);
+
+    root->left->left->left  = newNode(8);
+    root->left->left->right  = newNode(9);
+    root->left->right->left  = newNode(10);
+    root->left->right->right  = newNode(11);
+    root->right->left->left  = newNode(12);
+    root->right->left->right  = newNode(13);
+    root->right->right->left  = newNode(14);
+    root->right->right->right  = newNode(15);
+
+    root->left->left->left->left  = newNode(16);
+    root->left->left->left->right  = newNode(17);
+    root->left->left->right->left  = newNode(18);
+    root->left->left->right->right  = newNode(19);
+    root->left->right->left->left  = newNode(20);
+    root->left->right->left->right  = newNode(21);
+    root->left->right->right->left  = newNode(22);
+    root->left->right->right->right  = newNode(23);
+    root->right->left->left->left  = newNode(24);
+    root->right->left->left->right  = newNode(25);
+    root->right->left->right->left  = newNode(26);
+    root->right->left->right->right  = newNode(27);
+    root->right->right->left->left  = newNode(28);
+    root->right->right->left->right  = newNode(29);
+    root->right->right->right->left  = newNode(30);
+    root->right->right->right->right  = newNode(31);
+
+    cout << "Specific Level Order traversal of binary tree is \n";
+    printSpecificLevelOrder(root);
+
+    return 0;
+}
