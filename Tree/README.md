@@ -26,7 +26,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Perfect%20Binary%20Tree%20Specific%20Level%20Order%20Traversal">Perfect Binary Tree Specific Level Order Traversal</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Perfect%20Binary%20Tree%20Specific%20Level%20Order%20Traversal">Perfect Binary Tree Specific Level Order Traversal-I</a>
 				</td>
 			</tr>
 			<tr>
