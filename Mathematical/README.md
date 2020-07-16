@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Angle%20between%20hour%20and%20minute%20hand">Angle between hour and minute hand</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Angle%20Between%20Hands%20of%20a%20Clock">Angle Between Hands of a Clock-Leetcode-1344</a>
 				</td>
 			</tr>
 			<tr>
