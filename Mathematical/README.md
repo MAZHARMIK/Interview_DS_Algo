@@ -14,5 +14,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Angle%20between%20hour%20and%20minute%20hand">Angle between hour and minute hand</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Pow(x%2C%20n)">Pow(x, n)-Leetcode-50</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
