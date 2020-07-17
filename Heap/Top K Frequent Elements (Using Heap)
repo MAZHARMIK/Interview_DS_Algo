@@ -1,0 +1,36 @@
+/*
+  Company Tags  : Amazon
+  Leetcode Link : https://leetcode.com/problems/top-k-frequent-elements/
+*/
+
+typedef pair<int, int> P;
+class Solution {
+public:
+    static bool myFunction(P &p1, P &p2) {
+        if(p1.second == p2.second)
+            return p1.first < p2.first;
+        return p1.second < p2.second;
+    }
+
+    vector<int> topKFrequentFind(vector<int>& nums, int k) {
+        map<int, int> mp;
+        for(int i :nums) 
+            mp[i]++;
+        priority_queue <P, vector<P>, function<bool(P&, P&)>> pq(myFunction);
+        for(auto p:mp)
+            pq.push(p);
+        
+        vector<int> final_result;
+        while(k--){
+            final_result.push_back(pq.top().first);
+            pq.pop();
+        }
+        
+        return final_result;
+    }
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        if(k == 0)
+            return {};
+        return topKFrequentFind(nums, k);
+    }
+};
