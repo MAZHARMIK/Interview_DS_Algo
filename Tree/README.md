@@ -39,5 +39,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Boundary%20Traversal%20of%20Complete%20Binary%20tree(Iterative)">Boundary Traversal of Complete Binary tree(Iterative)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Tree%20Zigzag%20Level%20Order%20Traversal">Binary Tree Zigzag Level Order Traversal - (Leetcode-103)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
