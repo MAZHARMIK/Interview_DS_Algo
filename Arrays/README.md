@@ -19,5 +19,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Rotating%20an%20Array%20(Reversal%20Algorithm)">Rotating an Array (Reversal Algorithm:Leetcode-189)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Product%20of%20Array%20Except%20Self(3%20Approaches-Leetcode:238)">Product of Array Except Self(3 Approaches-Leetcode:238)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
