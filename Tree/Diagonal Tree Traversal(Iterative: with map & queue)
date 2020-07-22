@@ -29,32 +29,20 @@ void diagonalPrint(Node* root) {
     que.push({root, 0});
 
     while(!que.empty()) {
-        auto curr      = que.front();
+        Node* curr = que.front().first;
+        int level = que.front().second;
         que.pop();
-        Node* currNode = curr.first;
-        int d          = curr.second;
-
-        if(mp.count(d)) {
-            mp[d].push_back(currNode->data);
-        } else {
-            vector<int> vec;
-            vec.push_back(currNode->data);
-            mp.insert({d, vec});
-        }
-
-        if(currNode->left) {
-            que.push({currNode->left, d+1});
-        }
-
-        if(currNode->right) {
-            que.push({currNode->right, d});
-        }
+        if(curr->left)
+            que.push({curr->left, level+1});
+        if(curr->right)
+            que.push({curr->right, level});
+        mp[level].push_back(curr->data);
     }
 
     for(auto it:mp) {
-        vector<int> vec = it.second;
-        for(int i:vec)
+        for(int i:it.second) {
             cout << i << " ";
+        }
         cout << endl;
     }
 }
