@@ -19,20 +19,13 @@ Node* newNode(int data) {
 	return new Node(data);
 }
 
-
-void diagonalUtil(Node* root, map<int, vector<int>>& mp, int d) {
+void diagonalUtil(Node* root, map<int, vector<int>>& mp, int level) {
     if(!root)
         return;
-    if(mp.count(d)) {
-        mp[d].push_back(root->data);
-    } else {
-        vector<int> vec;
-        vec.push_back(root->data);
-        mp.insert({d, vec});
-    }
 
-    diagonalUtil(root->left, mp, d+1);
-    diagonalUtil(root->right, mp, d);
+    mp[level].push_back(root->data);
+    populateDiagonal(root->left, mp, level+1);
+    populateDiagonal(root->right, mp, level);
 }
 
 void diagonalPrint(Node* root) {
