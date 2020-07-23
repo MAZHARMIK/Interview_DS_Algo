@@ -15,5 +15,11 @@
 Boolean Parenthesization(Memoized) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Scramble%20String%20(Leetcode-87)">
+Scramble String (Leetcode-87) (Memoized) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
