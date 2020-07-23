@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Tree%20Zigzag%20Level%20Order%20Traversal">Binary Tree Zigzag Level Order Traversal - (Leetcode-103)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree%20(Leetcode-987)">Vertical Order Traversal of a Binary Tree (Leetcode-987)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
