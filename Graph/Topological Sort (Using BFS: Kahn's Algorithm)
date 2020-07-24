@@ -1,5 +1,10 @@
 /*
-    Company Tags : Accolite, Amazon, Flipkart, Microsoft, Moonfrog Labs, OYO Rooms
+    Company Tags                        : Accolite, Amazon, Flipkart, Microsoft, Moonfrog Labs, OYO Rooms
+    Related Leetcode Qn                 : Course Schedule, Course Schedule II
+    Course Schedule (Leetcode - 207)    : https://leetcode.com/problems/course-schedule/
+    Course Schedule II (Leetcode - 210) : https://leetcode.com/problems/course-schedule-ii/
+    Solution (Course Schedule)          : https://github.com/MAZHARMIK/Leetcode-May-Challenge-2020/blob/master/Course%20Schedule%20(C%2B%2B)
+    Solution (Course Schedule II)       : https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Course%20Schedule%20II%20(C%2B%2B)
 */
 
 #include <iostream>
