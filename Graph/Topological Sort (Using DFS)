@@ -9,64 +9,6 @@ void addEdge(map<int, vector<int>>& adj, int u, int v) {
     adj[u].push_back(v);
 }
 
-void BFS(map<int, vector<int>>& adj, int V, int start) {
-    vector<int> visited(V, 0);
-    queue<int> que;
-
-    que.push(start);
-    visited[start] = 1;
-    while(!que.empty()) {
-        int curr = que.front();
-        cout << curr << " ";
-        que.pop();
-        for(auto i:adj[curr]) {
-            if(visited[i] == 0) {
-                que.push(i);
-                visited[i] = 1;
-            }
-        }
-    }
-}
-
-void DFS_UTIL(map<int, vector<int>>& adj, int start, vector<bool>& visited) {
-    visited[start] = true;
-    cout << start << " ";
-    for(auto i:adj[start]) {
-        if(visited[i] == false)
-            DFS_UTIL(adj, i, visited);
-    }
-}
-
-void DFS(map<int, vector<int>>& adj, int V) {
-    vector<bool> visited(V, false);
-
-//    for(int i = 0 ; i < V; i++) {
-//            if(visited[i] == false)
-                DFS_UTIL(adj, 2, visited);
-    //}
-}
-
-
-void DFSIter(map<int, vector<int>>& adj, int V) {
-    vector<bool> visited(V, false);
-    stack<int> stk;
-    int start = 2;
-    stk.push(start);
-    while(!stk.empty()) {
-        int curr = stk.top();
-        stk.pop();
-        if(visited[curr] == false) {
-            cout << curr << " ";
-            visited[curr] = true;
-        }
-        for(int i : adj[curr]) {
-            if(visited[i] == false) {
-                stk.push(i);
-            }
-        }
-    }
-}
-
 void topologicalSortUtil(map<int, vector<int>>& adj, int start, stack<int>& stk, vector<bool>& visited) {
     visited[start] = true;
 
