@@ -1,7 +1,10 @@
+/*
+    Company Tags : Accolite, Amazon, Flipkart, Microsoft, Moonfrog Labs, OYO Rooms
+*/
+
 #include <iostream>
 #include <vector>
 #include <queue>
-#include <stack>
 #include <map>
 using namespace std;
 
