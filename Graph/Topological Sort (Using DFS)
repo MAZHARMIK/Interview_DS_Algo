@@ -1,6 +1,9 @@
+/*
+    Company Tags : Moonfrog Labs, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
+*/
+
 #include <iostream>
 #include <vector>
-#include <queue>
 #include <stack>
 #include <map>
 using namespace std;
