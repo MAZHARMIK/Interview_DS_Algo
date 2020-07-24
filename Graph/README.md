@@ -19,5 +19,15 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/DFS%20Traversal%20(Iterative%20%26%20Recursive)">DFS Traversal (Iterative & Recursive)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sort%20(Using%20DFS)">Topological Sort (Using DFS)</a>
+				</td>
+			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sort%20(Using%20BFS:%20Kahn's%20Algorithm)">Topological Sort (Using BFS: Kahn's Algorithm)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
