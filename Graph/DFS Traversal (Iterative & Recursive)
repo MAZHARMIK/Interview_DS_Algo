@@ -1,3 +1,7 @@
+/*
+    Company Tags : Amazon, Samsung, Accolite, Intuit
+*/
+
 #include <iostream>
 #include <vector>
 #include <stack>
