@@ -21,5 +21,10 @@ Boolean Parenthesization(Memoized) </a>
 Scramble String (Leetcode-87) (Memoized) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Egg%20Dropping%20Problem%20(Memoized)">Egg Dropping Problem (Memoized)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
