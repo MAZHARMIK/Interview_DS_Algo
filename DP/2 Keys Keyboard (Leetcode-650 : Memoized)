@@ -1,0 +1,28 @@
+/*
+  Company Tags     : LinkedIn, Amazon
+  Leetcode Qn Link : https://leetcode.com/problems/2-keys-keyboard/
+*/
+
+class Solution {
+public:
+    int findMin(int current_A, int n, int buffer_count, vector<vector<int>>& t) {        
+        if(current_A > n)
+            return 10001;
+        if(current_A == n)
+            return 0;
+        
+        if(t[current_A][buffer_count] != -1)
+            return t[current_A][buffer_count];
+        
+        int copy  = 2 + findMin(current_A*2, n, current_A, t); //copy and paste
+        int paste = 1 + findMin(current_A+buffer_count, n, buffer_count, t);
+        
+        return t[current_A][buffer_count] = min(copy, paste);
+    }
+    int minSteps(int n) {
+        if(n == 1)
+            return 0;
+        vector<vector<int>> t(n+1, vector<int>(n+1, -1));
+        return 1 + findMin(1, n, 1, t);
+    }
+};
