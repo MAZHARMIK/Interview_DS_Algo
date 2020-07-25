@@ -36,5 +36,15 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Egg%20Dropping%20Problem%20(Iterative:%20Binary%20Search)">Egg Dropping Problem (Iterative: Binary Search) - Leetcode : 887</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/2%20Keys%20Keyboard%20(Leetcode-650%20:%20Memoized)">2 Keys Keyboard (Memoized) - Leetcode : 650</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/2%20Keys%20Keyboard%20(Leetcode-650%20:%20Iterative)">2 Keys Keyboard(Iterative)- Leetcode : 650</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
