@@ -1,0 +1,57 @@
+/*
+  This is the iterative approach for Egg Dropping Problem
+  Leetcode Qn Link : https://leetcode.com/problems/super-egg-drop/
+*/
+
+class Solution {
+public:
+    int solve(int e, int f) {
+        vector<vector<int>> t(e+1, vector<int>(f+1)); //t[i][j] = min attempts with 'i' eggs and 'f' floors
+        
+        //if # of floors = 0, attempts = 0
+        for(int row = 0; row<e+1; row++) {
+            t[row][0] = 0;
+        }
+        
+        //if # of eggs = 0, attempts = 0
+        for(int col = 0; col<f+1; col++) {
+            t[0][col] = 0;
+        }
+        
+        //if # of eggs = 1, attempts = number of floors in worst case
+        for(int col = 0; col<f+1; col++) {
+            t[1][col] = col;
+        }
+        
+        for(int i = 2; i<e+1; i++) {
+            for(int j = 1; j<f+1; j++) {
+                int ans = INT_MAX;
+                
+                int lower_floor = 1, higher_floor = j; //from 1 to j, we will apply binary search and try to find min attemts
+                while(lower_floor <= higher_floor) {
+                    int mid = lower_floor + (higher_floor-lower_floor)/2;
+                    
+                    int left  = t[i-1][mid-1]; //egg breaks, we go down
+                    int right = t[i][j-mid];   //egg doesn't break, we go up for remaining floors
+                    
+                    int temp = 1 + max(left, right); //worst case
+                    ans = min(ans, temp);
+                    
+                    if(left == right)
+                        break;
+                    
+                    if(left < right) 
+                        lower_floor = mid+1;  //go for worst case
+                    
+                    if(left > right)
+                        higher_floor = mid-1;
+                }
+                t[i][j] = ans;
+            }
+        }
+        return t[e][f];
+    }
+    int superEggDrop(int K, int N) {
+        return solve(K, N);
+    }
+};
