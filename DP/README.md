@@ -26,5 +26,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Egg%20Dropping%20Problem%20(Memoized)">Egg Dropping Problem (Memoized)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Egg%20Dropping%20Problem%20(Memoized%20:%20Binary%20Search)">Egg Dropping Problem (Memoized : Binary Search) - Leetcode : 887</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
