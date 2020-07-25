@@ -14,11 +14,11 @@ public:
         int ans = INT_MAX;
         
         int low = 1, high = f;
-        while(low<high) {
+        while(low <= high) {
             int mid   = low+(high-low)/2;
             
-            int left  = solve(e-1, mid-1, t);
-            int right = solve(e, f-mid, t);
+            int left  = solve(e-1, mid-1, t); //egg breaks
+            int right = solve(e, f-mid, t);   //egg doesn't break
             
             int temp = 1 + max(left, right);
             ans = min(ans, temp);
@@ -28,7 +28,7 @@ public:
             else if(left < right) //go to worst case
                 low = mid+1;
             else
-                high = mid;
+                high = mid-1;
         }
         return t[e][f] = ans;
     }
