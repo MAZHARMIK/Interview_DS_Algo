@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Group%20Anagrams">Group Anagrams(2 Approaches-Leetcode:49)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II%20(Leetcode-154)">Find Minimum in Rotated Sorted Array II (Leetcode-154)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
