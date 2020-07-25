@@ -1,0 +1,29 @@
+/*
+  Company Tags     : LinkedIn, Amazon
+  Leetcode Qn Link : https://leetcode.com/problems/2-keys-keyboard/
+*/
+
+class Solution {
+public:
+    int minSteps(int n) {
+        if(n == 1)
+            return 0;
+        
+        int buffer_copied = 0;
+        int count_A    = 1;
+        int remaining_A;
+        int operations = 0;
+        while(count_A < n) {
+            remaining_A = n - count_A;
+            if(remaining_A % count_A == 0) { //copy and paste
+                buffer_copied = count_A;
+                count_A += count_A;
+                operations += 2; //CP
+            } else { //Paste
+                count_A += buffer_copied;
+                operations += 1; //P
+            }
+        }
+        return operations;
+    }
+};
