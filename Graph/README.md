@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sort%20(Using%20BFS:%20Kahn's%20Algorithm)">Topological Sort (Using BFS: Kahn's Algorithm)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/All%20Paths%20From%20Source%20to%20Target%20(DFS%20Leetcode-797)">All Paths From Source to Target (DFS Leetcode-797)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
