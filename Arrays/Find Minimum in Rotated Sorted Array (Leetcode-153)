@@ -22,3 +22,15 @@ public:
         return findPivot(nums);
     }
 };
+
+/*
+NOTE : 
+What's wring with below logic : 
+if(nums[mid] > nums[l])
+  l = mid+1;
+else
+  r = mid;
+ 
+Because, you are moving away from minimum element here.
+We should converge towards the side of array where the minimum element resides.
+*/
