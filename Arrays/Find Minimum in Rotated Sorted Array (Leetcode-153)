@@ -1,0 +1,24 @@
+/*
+  Company Tags     : Amazon
+  Leetcode Qn Link : https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+*/
+
+class Solution {
+public:
+    int findPivot(vector<int>& nums) {
+        int mid;
+        int l = 0, r = nums.size()-1;
+        while(l < r) {
+            mid = l + (r-l)/2;
+            if(nums[mid] < nums[r])
+                r  = mid;
+            else
+                l = mid+1;
+        }
+        return nums[l];
+    }
+    
+    int findMin(vector<int>& nums) {
+        return findPivot(nums);
+    }
+};
