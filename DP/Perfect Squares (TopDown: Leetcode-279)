@@ -1,0 +1,43 @@
+/*
+  Leetcode Qn Link : https://leetcode.com/problems/perfect-squares/
+*/
+class Solution {
+public:
+    int minSquares(vector<int> squares, int n, int S) {        
+        vector<vector<int>> t(n+1, vector<int>(S+1));
+        for(int j = 0; j<S+1; j++) {
+            t[0][j] = INT_MAX-1;
+        }
+        
+        for(int i = 1; i<n+1; i++) {
+            t[i][0] = 0;
+        }
+        
+        for(int j = 1; j<S+1; j++) {
+            if(j % squares[0] == 0)
+                t[1][j] = j/squares[0];
+            else
+                t[1][j] = INT_MAX-1;
+        }
+        
+        for(int i = 2; i<n+1; i++) {
+            for(int j = 1; j<S+1; j++) {
+                if(squares[i-1] <= j)
+                    t[i][j] = min(1+t[i][j-squares[i-1]], t[i-1][j]);
+                else
+                    t[i][j] = t[i-1][j];
+            }
+        }
+        return t[n][S];
+    }
+    int numSquares(int S) {
+        if(S == 0 || S == 1)
+            return S;
+        vector<int> squares;
+        for(int i = 1; i*i<=S; i++) {
+            squares.push_back(i*i);
+        }
+        int n = squares.size();
+        return minSquares(squares, n, S);
+    }
+};
