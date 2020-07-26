@@ -46,5 +46,15 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/2%20Keys%20Keyboard%20(Leetcode-650%20:%20Iterative)">2 Keys Keyboard(Iterative)- Leetcode : 650</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Perfect%20Squares%20(Memoized%20:%20Leetcode-279)">Perfect Squares(Memoized) - Leetcode : 650</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Perfect%20Squares%20(TopDown:%20Leetcode-279)">Perfect Squares(TopDown) - Leetcode : 650</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
