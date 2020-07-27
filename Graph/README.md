@@ -36,6 +36,11 @@
 			</tr>
 			<tr>
         <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Cycle%20Detection%20(Using%20DFS)">Cycle Detection (Using DFS)</a>
+				</td>
+			</tr>
+			<tr>
+        <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Cycle%20Detection%20(Color%20Technique)">Cycle Detection (Color Technique)</a>
 				</td>
 			</tr>
