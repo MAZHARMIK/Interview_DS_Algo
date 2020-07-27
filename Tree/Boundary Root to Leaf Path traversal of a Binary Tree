@@ -1,0 +1,94 @@
+/*
+  This question tests your knowledge on how efficiently you can use Data Structures
+  Qn Link : https://www.geeksforgeeks.org/boundary-root-to-leaf-path-traversal-of-a-binary-tree/?ref=rp
+  I have posted here a better and simple solution.
+  
+Input:  
+                 1
+                /  \ 
+              15    13 
+             /     /   \ 
+            11    7     29 
+                   \    / 
+                   2   3  
+Output:  1 15 11
+         3 29 13 1
+         1 13 7 2
+
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
+
+struct Node {
+    int key;
+    struct Node *left, *right;
+};
+
+Node* newNode(int key) {
+    Node* temp = new Node;
+    temp->key = key;
+    temp->left = temp->right = NULL;
+    return (temp);
+}
+
+void populatePath(Node* root, vector<vector<int>>& allPath, vector<int>& currPath) {
+    if(!root)
+        return;
+
+    currPath.push_back(root->key);
+    populatePath(root->left,  allPath, currPath);
+    populatePath(root->right, allPath, currPath);
+
+    if(root->left == NULL && root->right == NULL) {
+        allPath.push_back(currPath);
+    }
+    currPath.pop_back();
+}
+
+void PrintPath(Node* root) {
+    if(!root)
+        return;
+    vector<vector<int>> allPath;
+    vector<int> currPath;
+
+    populatePath(root, allPath, currPath);
+
+    int Srow = 0;
+    int Erow = allPath.size()-1;
+    while(Srow < Erow) {
+        for(int j = 0; j<allPath[Srow].size(); j++) {
+            cout << allPath[Srow][j] << " ";
+        }
+        cout << endl;
+        for(int j = allPath[Erow].size()-1; j>=0; j--) {
+            cout << allPath[Erow][j] << " ";
+        }
+        cout << endl;
+        Srow++;
+        Erow--;
+    }
+    if(Srow == Erow) {
+        for(int j = 0; j<allPath[Srow].size(); j++) {
+            cout << allPath[Srow][j] << " ";
+        }
+    }
+}
+
+int main() {
+    Node* root = newNode(10);
+    root->left = newNode(13);
+    root->right = newNode(11);
+
+    root->right->left = newNode(19);
+    root->right->right = newNode(23);
+
+    root->right->left->left = newNode(21);
+    root->right->left->right = newNode(29);
+    root->right->right->left = newNode(43);
+    root->right->right->right = newNode(15);
+    root->right->right->right->left = newNode(7);
+
+    PrintPath(root);
+    return 0;
+}
