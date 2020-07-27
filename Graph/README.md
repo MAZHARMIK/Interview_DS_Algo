@@ -46,12 +46,12 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Course%20Schedule%20II%20(C%2B%2B)">Course Schedule (Leetcode - 207)</a>
+					<a href="https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Course%20Schedule%20II%20(C%2B%2B)">Course Schedule (Cycle Detection : Leetcode - 207)</a>
 				</td>
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Course%20Schedule%20II%20(C%2B%2B)">Course Schedule II (Leetcode - 210)</a>
+					<a href="https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Course%20Schedule%20II%20(C%2B%2B)">Course Schedule II (Topological Sort : Leetcode - 210)</a>
 				</td>
 			</tr>
 		</tbody>
