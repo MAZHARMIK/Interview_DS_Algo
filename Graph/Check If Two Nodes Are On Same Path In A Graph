@@ -1,0 +1,58 @@
+/*
+  Company Tags : Samsung
+  Qn Link      : https://www.geeksforgeeks.org/check-if-two-nodes-are-on-same-path-in-a-tree/ 
+*/
+
+#include <iostream>
+#include <vector>
+#include <map>
+using namespace std;
+
+void addEdge(map<int, vector<int>>& adj, int u, int v) {
+    adj[u].push_back(v);
+}
+
+void dfs(map<int, vector<int>>& adj, int start, int &timer, vector<int>& inTime, vector<int>& outTime, vector<bool>& visited) {
+    visited[start] = true;
+    inTime[start] = ++timer;
+
+    for(auto x:adj[start]) {
+        if(visited[x] == false)
+            dfs(adj, x, timer, inTime, outTime, visited);
+    }
+
+    outTime[start] = ++timer;
+}
+
+bool onSamePath(int u, int v, vector<int>& inTime, vector<int>& outTime) {
+    return ((inTime[u] < inTime[v] && outTime[u] > outTime[v])
+            ||
+            (inTime[v] < inTime[u] && outTime[v] > outTime[u]));
+}
+
+int main() {
+    int V = 9;
+    map<int, vector<int>> adj;
+    addEdge(adj, 1, 2);
+    addEdge(adj, 1, 3);
+    addEdge(adj, 3, 6);
+    addEdge(adj, 2, 4);
+    addEdge(adj, 2, 5);
+    addEdge(adj, 5, 7);
+    addEdge(adj, 5, 8);
+    addEdge(adj, 5, 9);
+
+    vector<int> inTime(V, 0);
+    vector<int> outTime(V, 0);
+    vector<bool> visited(V, false);
+
+    //Start Node is 1
+    int timer = 0;
+    dfs(adj, 1, timer, inTime, outTime, visited);
+
+    // Queries to check if following pairs on same path or not
+    onSamePath(1, 5, inTime, outTime)? cout << "Yes\n" : cout << "No\n";
+    onSamePath(2, 9, inTime, outTime)? cout << "Yes\n" : cout << "No\n";
+    onSamePath(2, 6, inTime, outTime)? cout << "Yes\n" : cout << "No\n";
+    return 0;
+}
