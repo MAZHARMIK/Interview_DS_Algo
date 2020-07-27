@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree%20(Leetcode-987)">Vertical Order Traversal of a Binary Tree (Leetcode-987)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Boundary%20Root%20to%20Leaf%20Path%20traversal%20of%20a%20Binary%20Tree">Boundary Root to Leaf Path traversal of a Binary Tree</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
