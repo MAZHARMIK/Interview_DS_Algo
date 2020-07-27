@@ -41,7 +41,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Check%20If%20Two%20Nodes%20Are%20On%20Same%20Path%20In%20A%20Graph">Check If Two Nodes Are On Same Path In A Graph</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Check%20If%20Two%20Nodes%20Are%20On%20Same%20Path%20In%20A%20Graph">Check If Two Nodes Are On Same Path In A Graph (DFS)</a>
 				</td>
 			</tr>
 			<tr>
