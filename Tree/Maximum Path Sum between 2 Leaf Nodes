@@ -1,0 +1,38 @@
+/*
+  Company Tags  : Accolite, Amazon, Directi, Facebook, FactSet, Microsoft, OYO Rooms
+  Question Link : https://practice.geeksforgeeks.org/problems/maximum-path-sum/1
+*/
+
+int PathSum(Node* root, int &result) {
+    if(!root)
+        return 0;
+    if(root->left == NULL && root->right == NULL)
+        return root->data;
+        
+    int l = PathSum(root->left, result);
+    int r = PathSum(root->right, result);
+    
+    if(root->left && root->right) {
+        int temp = max(l, r) + root->data;
+        //we can't choose "temp" for the result as we need max path sum only between two leaves
+        //So, result will be update only if (l+r+root->data > result)
+        result = max(result, l+r+root->data);
+        
+        return temp;
+    }
+    
+    if(root->left == NULL){
+        return root->data + r; //because we only need from leaf to leaf
+    } else
+        return root->data + l; //because we only need from leaf to leaf
+    
+}
+
+int maxPathSum(Node* root)
+{ 
+    if(root == NULL)
+        return 0;
+    int result = INT_MIN;
+    PathSum(root, result);
+    return result;
+}
