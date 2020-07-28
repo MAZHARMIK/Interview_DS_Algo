@@ -59,5 +59,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20Path%20Sum%20between%202%20Leaf%20Nodes">Maximum Path Sum between 2 Leaf Nodes</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20Path%20Sum%20in%20a%20Binary%20Tree">Maximum Path Sum in a Binary Tree</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
