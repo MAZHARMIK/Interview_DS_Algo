@@ -1,0 +1,27 @@
+/*
+  Company Tags  : Accolite, Amazon, Directi, Facebook, FactSet, Microsoft, OYO Rooms
+  Question Link : https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/
+*/
+
+int PathSum(Node* root, int &result) {
+    if(!root)
+        return 0;
+        
+    int l = PathSum(root->left, result);
+    int r = PathSum(root->right, result);
+    
+    int temp = max(max(l, r)+root->data, root->data);
+    int ans  = max(temp, l+r+root->data);
+    result   = max(result, ans);
+    
+    return temp;
+}
+
+int maxPathSum(Node* root)
+{ 
+    if(root == NULL)
+        return 0;
+    int result = INT_MIN;
+    PathSum(root, result);
+    return result;
+}
