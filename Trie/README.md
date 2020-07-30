@@ -14,5 +14,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Insert%20and%20Search">Insert and Search</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Delete%20a%20key">Delete a key</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
