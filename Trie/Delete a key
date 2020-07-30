@@ -1,0 +1,97 @@
+/*
+  Question : Delete a key from a trie
+*/
+
+#include <iostream>
+#include <vector>
+#include <map>
+using namespace std;
+
+struct trieNode{
+    bool isWordEnd;
+    trieNode* children[26];
+};
+
+trieNode* getNode() {
+    trieNode* temp = new trieNode();
+    temp->isWordEnd = false;
+    for(int i = 0; i<26; i++) {
+        temp->children[i] = NULL;
+    }
+    return temp;
+}
+
+void insertTrie(trieNode* root, string str) {
+    trieNode* pcrawl = root;
+    for(char ch:str) {
+        int idx = ch-'a';
+        if(pcrawl->children[idx] == NULL)
+            pcrawl->children[idx] = getNode();
+        pcrawl = pcrawl->children[idx];
+    }
+    pcrawl->isWordEnd = true;
+}
+
+bool searchTrie(trieNode* root, string key) {
+    trieNode* pcrawl = root;
+    for(char ch: key) {
+        int idx = ch-'a';
+        if(pcrawl->children[idx] == NULL)
+            return false;
+        pcrawl = pcrawl->children[idx];
+    }
+    return (pcrawl != NULL && pcrawl->isWordEnd == true);
+}
+
+bool isRootEmpty(trieNode* root) {
+    for(int i = 0; i<26; i++) {
+        if(root->children[i] != NULL)
+            return false; //not empty
+    }
+    return true;
+}
+
+trieNode* deleteTrie(trieNode* root, string key, int depth) {
+    if(!root)
+        return NULL;
+
+    if(depth == key.size()) {
+        if(root->isWordEnd == true)
+            root->isWordEnd = false;
+
+        if(isRootEmpty(root)) { //then delete the root
+            delete(root);
+            root = NULL;
+        }
+        return root;
+    }
+
+    int idx = key[depth] - 'a';
+    root->children[idx] = deleteTrie(root->children[idx], key, depth+1);
+
+    //recursively delete until we have empty nodes and wordEnd  = false;
+    //isRootEmpty(root)           :  it's not prefix of any further word
+    //root->isWordEnd == false    :  No word ends at root
+    if(isRootEmpty(root) && root->isWordEnd == false) {
+        delete(root);
+        root = NULL;
+    }
+    return root;
+}
+
+int main() {
+    string keys[] = { "there", "answer", "any", "by",
+                      "bye", "their", "hero", "heroplane" };
+    int n = sizeof(keys) / sizeof(keys[0]);
+
+    trieNode* root = getNode();
+
+    for (int i = 0; i < n; i++)
+        insertTrie(root, keys[i]);
+
+    searchTrie(root, "heroplane") ? cout << "Yes\n" : cout << "No\n";
+
+    deleteTrie(root, "heroplane", 0);
+    searchTrie(root, "heroplane") ? cout << "Yes\n" : cout << "No\n";
+    return 0;
+}
