@@ -1,0 +1,67 @@
+/*
+  Company Tags : Amazon, D-E-Shaw, Factset, Accolite
+  Question Link      : https://practice.geeksforgeeks.org/problems/trie-insert-and-search/0
+*/
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+struct trieNode{
+    bool wordEnd;
+    trieNode* children[26];
+};
+
+trieNode* getNode() {
+    trieNode* temp = new trieNode();
+    temp->wordEnd = false;
+    for(int i = 0; i<26; i++) {
+        temp->children[i] = NULL;
+    }
+    return temp;
+}
+
+void insertTrie(trieNode* root, string key) {
+    trieNode* pcrawl = root;
+    for(char ch:key) {
+        int idx = ch-'a';
+        if(pcrawl->children[idx] == NULL)
+            pcrawl->children[idx] = getNode();
+        
+        pcrawl = pcrawl->children[idx];
+    }
+    pcrawl->wordEnd = true;
+}
+
+bool searchTrie(trieNode* root, string key) {
+    trieNode* pcrawl = root;
+    for(char ch:key) {
+        int idx = ch-'a';
+        if(pcrawl->children[idx] == NULL)
+            return false;
+        pcrawl = pcrawl->children[idx];
+    }
+    
+    return (pcrawl != NULL && pcrawl->wordEnd == true);
+}
+
+int main()
+ {
+	int T;
+	cin >> T;
+	while(T--) {
+	    int N;
+	    cin >> N;
+	    string elements;
+	    trieNode* root = getNode();
+	    for(int i = 0; i<N; i++) {
+	        cin >> elements;
+	        insertTrie(root, elements);
+	    }
+	    string key;
+	    cin >> key;
+	    
+	    cout << searchTrie(root, key) << endl;
+	}
+	return 0;
+}
