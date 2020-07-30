@@ -1,0 +1,42 @@
+/*
+  Company Tags           : Amazon, Google, IBM, MAQ Software, Microsoft, Walmart, Zoho
+  Leetcode Question Link : https://leetcode.com/problems/word-break/
+*/
+
+class Solution {
+public:
+    bool solveMemoized(string s, unordered_set<string>& st, unordered_map<string, bool>& mp) {
+        if(s.length() == 0)
+            return true;
+        if(mp.count(s))
+            return mp[s];
+        for(int k = 1; k<=s.length(); k++) {
+            if(st.count(s.substr(0, k)) && solveMemoized(s.substr(k), st, mp))
+                return mp[s] = true;
+        }
+        return mp[s] = false;
+    }
+    
+    bool solveDP(string s, unordered_set<string>& st) {
+        vector<bool> t(s.length()+1, false);
+        t[0] = true;
+        
+        for(int i = 1; i<=s.length(); i++) {
+            for(int j = 0; j<i; j++) {
+                if(t[j] && st.count(s.substr(j, i-j))) {
+                    t[i] = true;
+                    break;
+                }
+            }
+        }
+        return t[s.length()];
+    }
+    
+    bool wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> st(wordDict.begin(), wordDict.end());
+        unordered_map<string, bool> mp;
+        return solveMemoized(s, st, mp);
+        
+        //return solveDP(s, st);
+    }
+};
