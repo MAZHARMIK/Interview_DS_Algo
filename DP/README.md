@@ -62,5 +62,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Perfect%20Squares%20(TopDown:%20Leetcode-279)">Perfect Squares(TopDown) - Leetcode : 279</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Word%20Break%20(Memoized+DP%20:%20Leetcode-139)">Word Break (Memoized & TopDown) - Leetcode : 139</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
