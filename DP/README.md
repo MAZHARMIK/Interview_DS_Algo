@@ -67,5 +67,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Word%20Break%20(Memoized+DP%20:%20Leetcode-139)">Word Break (Memoized & TopDown) - Leetcode : 139</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20sum%20partition%20(Memoization%20and%20TopDown)">Minimum sum partition (Memoization and TopDown)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
