@@ -59,5 +59,10 @@
 					<a href="https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Course%20Schedule%20II%20(C%2B%2B)">Course Schedule II (Topological Sort : Leetcode - 210)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Detect%20cycle%20in%20an%20undirected%20graph%20(DFS)">Detect cycle in an undirected graph (DFS)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
