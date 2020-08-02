@@ -79,5 +79,15 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Detect%20cycle%20in%20an%20undirected%20graph%20(Disjoint%20Set:%20Union%20by%20rank%20and%20path%20compression)">Detect cycle in an undirected graph (Disjoint Set: Union by rank and path compression)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number%20of%20Islands%20(Using%20DFS)">Number of Islands (Using DFS) : Leetcode-200</a>
+				</td>
+			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number%20of%20Islands%20(Using%20BFS)">Number of Islands (Using BFS) : Leetcode-200</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
