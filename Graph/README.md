@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Detect%20cycle%20in%20an%20undirected%20graph%20(BFS)">Detect cycle in an undirected graph (BFS)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Detect%20cycle%20in%20an%20undirected%20graph%20(Disjoint%20Set)">Detect cycle in an undirected graph (Disjoint Set)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
