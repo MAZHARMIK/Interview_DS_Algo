@@ -1,0 +1,52 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+void addEdge(int u, int v, vector<vector<int>>& edge) {
+    edge.push_back({u,v});
+}
+
+int find(vector<int> parent, int i)
+{
+    if (parent[i] == -1)
+        return i;
+    return find(parent, parent[i]);
+}
+
+void Union(vector<int>& parent, int x, int y)
+{
+    int xset = find(parent, x);
+    int yset = find(parent, y);
+    if(xset != yset)
+    {
+        parent[xset] = yset;
+    }
+}
+
+bool isCycle(vector<vector<int>> edge, int V) {
+    vector<int> parent(V, -1);
+
+    for(int i = 0; i<edge.size(); i++) {
+        int x = find(parent, edge[i][0]);
+        int y = find(parent, edge[i][1]);
+
+        if(x == y)
+            return true;
+        Union(parent, x, y);
+    }
+    return false;
+}
+
+int main() {
+    int V = 3, E = 2;
+    vector<vector<int>> edge;
+    addEdge(0, 1, edge);
+    addEdge(1, 2, edge);
+    addEdge(0, 2, edge);
+
+    if (isCycle(edge, V))
+        cout<<"graph contains cycle";
+    else
+        cout<<"graph doesn't contain cycle";
+    return 0;
+}
