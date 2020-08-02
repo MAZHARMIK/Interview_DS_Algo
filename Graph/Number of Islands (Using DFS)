@@ -1,0 +1,36 @@
+/*
+  Company Tags     : Paytm, Amazon, Microsoft, Samsung, Snapdeal, Citrix, D-E-Shaw, Ola Cabs, Visa, Linkedin, Opera, Streamoid Technologies, Informatica
+  Leetcode Qn Link : https://leetcode.com/problems/number-of-islands/
+*/
+
+class Solution {
+public:
+    vector<pair<int, int>> directions{ {-1, 0}, {1, 0}, {0, 1}, {0, -1} };
+    void dfs(vector<vector<char>>& grid, vector<vector<bool>>& visited, int i, int j) {
+        if(i < 0 || i >= grid.size() || j < 0 || j>=grid[i].size() || visited[i][j] == true || grid[i][j] == '0')
+            return;
+        
+        visited[i][j] = true;
+        for(auto dir:directions) {
+            int x = i + dir.first;
+            int y = j + dir.second;
+            dfs(grid, visited, x, y);
+        }
+    }
+    int numIslands(vector<vector<char>>& grid) {
+        if(grid.size() == 0)
+            return 0;
+        
+        vector<vector<bool>> visited(grid.size(), vector<bool>(grid[0].size(), false));
+        int islands = 0;
+        for(int i = 0; i<grid.size(); i++) {
+            for(int j = 0; j<grid[i].size(); j++) {
+                if(grid[i][j] == '1' && visited[i][j] == false) {
+                    islands++;
+                    dfs(grid, visited, i, j);
+                }
+            }
+        }
+        return islands;
+    }
+};
