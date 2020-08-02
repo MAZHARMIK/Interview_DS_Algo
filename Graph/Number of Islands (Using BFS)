@@ -5,37 +5,33 @@
 
 class Solution {
 public:
-    vector<pair<int, int>> directions{ {-1, 0}, {1, 0}, {0, 1}, {0, -1} };
     int numIslands(vector<vector<char>>& grid) {
-        ios_base::sync_with_stdio(false);
-        cin.tie(NULL);
         if(grid.size() == 0)
             return 0;
         
+        vector<pair<int, int>> directions{ {-1, 0}, {1, 0}, {0, 1}, {0, -1} };
         int islands = 0;
-        
+        queue<pair<int, int>> que;
         int row = grid.size();
         int col = grid[0].size();
-        vector<vector<bool>> visited(row, vector<bool>(col));
         auto isSafe = [&](int x, int y) {
-            return x >= 0 && x < row && y >= 0 && y < col;
+            return x >=0 && x<row && y >= 0 && y < col  ;
         };
         for(int i = 0; i<row; i++) {
             for(int j = 0; j<col; j++) {
-                if(!visited[i][j] && grid[i][j] == '1') {
+                if(grid[i][j] == '1') {
                     islands++;
-                    queue<pair<int, int>> que;
                     que.push({i,j});
-                    visited[i][j] = true;
+                    grid[i][j] = '0';
                     while(!que.empty()) {
                         pair<int, int> p = que.front();
                         que.pop();
-                        for(pair<int, int> dir:directions) {
+                        for(auto dir:directions) {
                             int x = p.first  + dir.first;
                             int y = p.second + dir.second;
-                            if(isSafe(x, y) && grid[x][y] == '1' && !visited[x][y]) {
+                            if(isSafe(x, y) && grid[x][y] == '1') {
                                 que.push({x, y});
-                                visited[i][j] = true;
+                                grid[x][y] = '0';
                             }
                         }
                     }
