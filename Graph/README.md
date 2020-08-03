@@ -94,5 +94,15 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number%20of%20Distinct%20Islands">Number of Distinct Islands : Leetcode-694</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Clone%20Graph%20(BFS)">Clone Graph(BFS) : Leetcode-133</a>
+				</td>
+			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Clone%20Graph%20(DFS)">Clone Graph(DFS) : Leetcode-133</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
