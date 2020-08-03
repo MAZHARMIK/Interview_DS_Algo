@@ -1,0 +1,34 @@
+class Solution {
+public:
+    void dfs(Node* node, Node* curr, vector<Node*>& visited) {
+        visited[node->val] = curr;
+        for(auto it:node->neighbors) {
+            if(visited[it->val] == NULL) {
+                Node* copy = new Node(it->val);
+                curr->neighbors.push_back(copy);
+                dfs(it, copy, visited);
+            } else {
+                (curr->neighbors).push_back(visited[it->val]);
+            }
+        }
+    }
+    Node* cloneGraph(Node* node) {
+        if(!node)
+            return NULL;
+        vector<Node*> visited(101, NULL);
+        Node* clone = new Node(node->val);
+        visited[node->val] = clone;
+        
+        for(auto it: node->neighbors) {
+            if(visited[it->val] == NULL) {
+                Node* newN = new Node(it->val);
+                (clone->neighbors).push_back(newN);
+                dfs(it, newN, visited);
+            } else {
+                (clone->neighbors).push_back(visited[it->val]);
+            }
+        }
+        
+        return clone;
+    }
+};
