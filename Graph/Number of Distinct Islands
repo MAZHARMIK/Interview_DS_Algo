@@ -1,0 +1,37 @@
+/*
+    Company Tags     : Amazon
+    Leetcode Qn Link : https://leetcode.com/problems/number-of-distinct-islands/
+*/
+
+/*
+    Time : O(rows*cols)
+    Space : O(number of islands)
+*/
+string dfs(vector<vector<int>>& grid, int i, int j, string pattern) {
+    if(i < 0 || i >= grid.size() || j < 0 || j >= grid[0].size() || grid[i][j] == 0)
+        return "O";
+
+    grid[i][j] = 0;
+    pattern += dfs(grid, i+1, j, "D"); //D : Down
+    pattern += dfs(grid, i-1, j, "U"); //U : Up
+    pattern += dfs(grid, i, j-1, "L"); //L : Left
+    pattern += dfs(grid, i, j+1, "R"); //R : Right
+
+    return pattern;
+}
+
+int countDistinctIslands(vector<vector<int>> grid) {
+    int row = grid.size();
+    int col = grid[0].size();
+
+    set<string> st;
+    for(int i = 0; i<row; i++) {
+        for(int j = 0; j<col; j++) {
+            if(grid[i][j] == 1) {
+                string island_pattern = dfs(grid, i, j, "X");
+                st.insert(island_pattern);
+            }
+        }
+    }
+    return st.size();
+}
