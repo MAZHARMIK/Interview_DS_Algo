@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20Depth%20of%20N-ary%20Tree%20(DFS%20%26%20BFS)">Maximum Depth of N-ary Tree (DFS & BFS) (Leetcode-559)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum%20II">Path Sum II (Leetcode-113)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
