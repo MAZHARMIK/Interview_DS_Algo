@@ -104,5 +104,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Clone%20Graph%20(DFS)">Clone Graph(DFS) : Leetcode-133</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Strongly%20Connected%20Components%20(Kosaraju's%20Algo)">Strongly Connected Components (Kosaraju's Algo)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
