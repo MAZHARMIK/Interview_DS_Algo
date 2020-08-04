@@ -1,0 +1,92 @@
+/*
+    Company Tags  : Amazon, Visa
+    Question Link : https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+*/
+
+#include<iostream>
+#include<vector>
+#include<stack>
+#include<map>
+using namespace std;
+
+void addEdge(map<int, vector<int>>& adj, int u, int v) {
+    adj[u].push_back(v);
+}
+
+void dfsFill(map<int, vector<int>>& adj, int start, vector<bool>& visited, stack<int>& s) {
+    visited[start] = true;
+
+    for(auto x:adj[start]) {
+        if(!visited[x])
+            dfsFill(adj, x, visited, s);
+    }
+    s.push(start);
+}
+
+map<int, vector<int>> getTranspose(map<int, vector<int>> adj, int V) {
+    map<int, vector<int>> adjPrime;
+
+    for(int i = 0; i<V; i++) {
+        for(auto x:adj[i]) {
+            adjPrime[x].push_back(i);
+        }
+    }
+    return adjPrime;
+}
+
+void dfs(map<int, vector<int>>& adj, int start, vector<bool>& visited) {
+    visited[start] = true;
+    cout << start << " ";
+
+    for(auto x:adj[start]) {
+        if(!visited[x]) {
+            dfs(adj, x, visited);
+        }
+    }
+}
+
+void printSCCs(map<int, vector<int>>& adj, int V) {
+    stack<int> s;
+    vector<bool> visited(V, false);
+
+    //step-1 Push stack in decreasing order of time of completion of each vertex
+    for(int i = 0; i<V; i++) {
+        if(!visited[i])
+            dfsFill(adj, i, visited, s);
+    }
+
+    //step-2 Create a transpose of graph
+    map<int, vector<int>> adjPrime = getTranspose(adj, V);
+
+    //step-3 Pop from stack and call DFS on each of them
+    for(int i = 0; i<V; i++)
+        visited[i] = false;
+        
+    int count = 0;
+    while(!s.empty()) {
+        int curr = s.top();
+        s.pop();
+
+        if(!visited[curr]) {
+            dfs(adjPrime, curr, visited);
+            count++;
+            cout << endl;
+        }
+    }
+    cout << "Number of SCCs  = " << count << endl;
+}
+
+int main() {
+    int V = 5;
+    map<int, vector<int>> adj;
+    addEdge(adj, 1, 0);
+    addEdge(adj, 0, 2);
+    addEdge(adj, 2, 1);
+    addEdge(adj, 0, 3);
+    addEdge(adj, 3, 4);
+
+    cout << "The strongly Connected Components are\n" ;
+
+    printSCCs(adj, V);
+
+}
