@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum%20II">Path Sum II (Leetcode-113)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Top%20View%20of%20Binary%20Tree">Top View of Binary Tree</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
