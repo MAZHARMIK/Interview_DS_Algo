@@ -1,0 +1,31 @@
+/*
+    Company Tags  : Amazon, Flipkart, Walmart, OYO, Accolite, Paytm, CouponDuniya
+    Question Link : https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1/
+*/
+
+vector <int> bottomView(Node *root)
+{
+    vector<int> result;
+   map<int, vector<int>> mp;
+   queue<pair<Node*, int>> que;
+   que.push({root, 0});
+   while(!que.empty()) {
+       Node* curr = que.front().first;
+       int d = que.front().second;
+        que.pop();
+        mp[d].push_back(curr->data);
+        
+        if(curr->left) {
+            que.push({curr->left, d-1});
+        }
+        
+        if(curr->right) {
+            que.push({curr->right, d+1});
+        }
+   }
+   
+   for(auto itr:mp) {
+       result.push_back(itr.second.back());
+   }
+   return result;
+}
