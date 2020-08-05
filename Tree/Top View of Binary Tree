@@ -1,0 +1,29 @@
+/*
+    Company Tags  : Amazon, OLA, Paytm, Samsung, Walmart
+    Question Link : https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1
+*/
+
+void topView(struct Node * root) {
+    if(!root)
+        return;
+    map<int, int> st;
+    queue<pair<Node*, int>> que;
+    que.push({root, 0});
+    while(!que.empty()) {
+        Node* curr = que.front().first;
+        int idx    = que.front().second;
+        que.pop();
+        if(!st.count(idx)) {
+            st.insert({idx, curr->data});
+        }
+        if(curr->left) {
+            que.push({curr->left, idx-1});
+        }
+        if(curr->right) {
+            que.push({curr->right, idx+1});
+        }
+    }
+    for(auto itr:st) {
+        cout << itr.second << " ";
+    }
+}
