@@ -19,5 +19,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Delete%20a%20key">Delete a key</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Add%20and%20Search%20Word%20-%20Data%20structure%20design">Add and Search Word - Data structure design : (Leetcode-211)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
