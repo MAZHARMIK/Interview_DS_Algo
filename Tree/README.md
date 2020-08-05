@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Top%20View%20of%20Binary%20Tree">Top View of Binary Tree</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Bottom%20View%20of%20Binary%20Tree">Bottom View of Binary Tree</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
