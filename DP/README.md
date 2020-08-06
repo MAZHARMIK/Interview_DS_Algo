@@ -72,5 +72,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20sum%20partition%20(Memoization%20and%20TopDown)">Minimum sum partition (Memoization and TopDown)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Coin%20Change%20(Top%20Down%20Approach)">Coin Change (Top Down Approach) - Leetcode : 322</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
