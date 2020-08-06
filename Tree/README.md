@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Bottom%20View%20of%20Binary%20Tree">Bottom View of Binary Tree</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Construct%20Binary%20Tree%20from%20Parent%20Array">Construct Binary Tree from Parent Array</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
