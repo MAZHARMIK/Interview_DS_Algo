@@ -1,0 +1,42 @@
+/*
+    Company Tags     : Amazon, Morgan Stanley, Oracle, Paytm, Accolite, Samsung, Snapdeal, Synopsys, visa
+    Leetcode Qn Link : https://leetcode.com/problems/coin-change/
+*/
+
+class Solution {
+public:
+    int solve(vector<int>& coins, int n, int s) {
+        vector<vector<int>> t(n+1, vector<int>(s+1));
+    
+        for(int col = 0; col<s+1; col++)
+            t[0][col] = INT_MAX-1;
+        for(int row = 1; row<n+1; row++)
+            t[row][0] = 0;
+        
+        for(int col = 1; col<s+1; col++) {
+            if(col%coins[0] == 0)
+                t[1][col] = col/coins[0];
+            else
+                t[1][col] = INT_MAX-1;
+        }
+        
+        for(int i = 2; i<n+1; i++) {
+            for(int j = 1; j<s+1; j++) {
+                if(coins[i-1] <= j) {
+                    t[i][j] = min(1+t[i][j-coins[i-1]], t[i-1][j]);
+                } else {
+                    t[i][j] = t[i-1][j];
+                }
+            }
+        }
+        
+        return t[n][s];
+    }
+    
+    int coinChange(vector<int>& coins, int amount) {
+        int result = solve(coins, coins.size(), amount);
+        if(result == INT_MAX-1)
+            return -1;
+        return result;
+    }
+};
