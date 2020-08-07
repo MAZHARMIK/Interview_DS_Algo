@@ -1,6 +1,8 @@
 /*
-    Company Tags     : 
+    Company Tags     : Amazon, MakeMyTrip, Wipro
     Leetcode Qn Link : https://leetcode.com/problems/transpose-matrix/
+    
+    Note: This can be done in-place also but only for square matrix.
 */
 
 class Solution {
