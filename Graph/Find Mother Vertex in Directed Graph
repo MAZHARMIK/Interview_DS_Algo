@@ -1,0 +1,34 @@
+/*
+    Company Tags  : Not yet found till now (will update)
+    Question Link : https://practice.geeksforgeeks.org/problems/mother-vertex/1
+*/
+
+void DFS(vector<int> g[], int start, vector<bool>& visited) {
+    visited[start] = true;
+    
+    vector<int>::iterator itr;
+    for(itr = g[start].begin(); itr!=g[start].end(); itr++) {
+        if(visited[*itr] == false)
+            DFS(g, *itr, visited);
+    }
+}
+
+int findMother(int V, vector<int> g[]) 
+{ 
+    vector<bool> visited(V, false);
+    int m = 0;
+    for(int i = 0; i<V; i++) {
+        if(visited[i] == false) {
+            DFS(g, i, visited);
+            m = i;
+        }
+    }
+    
+    fill(visited.begin(), visited.end(), false);
+    DFS(g, m, visited);
+    for(bool b:visited) {
+        if(b == false)
+            return -1;
+    }
+    return m;
+} 
