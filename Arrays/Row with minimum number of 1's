@@ -1,0 +1,45 @@
+/*
+    Company Tags  : Amazon
+    Question Link : https://practice.geeksforgeeks.org/problems/row-with-minimum-number-of-1s/0/
+*/
+
+#include<iostream>
+#include<vector>
+#include<climits>
+using namespace std;
+int main()
+ {
+	int T, m, n;
+	cin >> T;
+	while(T--) {
+	    cin >> m >> n;
+	    vector<vector<int>> t(m, vector<int>(n));
+	    for(int i = 0; i<m; i++) {
+	        for(int j = 0; j<n; j++) {
+	            cin >> t[i][j];
+	        }
+	    }
+	    
+	    
+	    bool no_one = true;
+      int min_one_count = INT_MAX;
+      int row;
+	    for(int i = 0; i<m; i++) {
+            int temp_count = 0;
+            for(int j = n-1; j>=0; j--) {
+                if(t[i][j] == 0)
+                    break;
+                no_one = false;
+                temp_count++;
+            }
+            if(t[i][n-1] == 1 && temp_count < min_one_count) {
+                min_one_count = temp_count;
+                row = i;
+            }
+        }
+        if(no_one == true)
+            cout << -1 << endl;
+        else
+            cout << row << endl;
+	}
+}
