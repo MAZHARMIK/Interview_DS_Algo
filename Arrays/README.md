@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Find%20All%20Duplicates%20in%20an%20Array%20(C%2B%2B:%20O(n))">Find All Duplicates in an Array (O(N)) (Leetcode-442)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Transpose%20Matrix">Transpose Matrix</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
