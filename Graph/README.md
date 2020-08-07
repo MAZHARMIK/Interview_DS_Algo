@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Strongly%20Connected%20Components%20(Kosaraju's%20Algo)">Strongly Connected Components (Kosaraju's Algo)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Find%20Mother%20Vertex%20in%20Directed%20Graph">Find Mother Vertex in Directed Graph</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
