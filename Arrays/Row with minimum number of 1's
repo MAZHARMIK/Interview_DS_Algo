@@ -22,8 +22,8 @@ int main()
 	    
 	    
 	    bool no_one = true;
-      int min_one_count = INT_MAX;
-      int row;
+      	    int min_one_count = INT_MAX;
+            int row;
 	    for(int i = 0; i<m; i++) {
             int temp_count = 0;
             for(int j = n-1; j>=0; j--) {
