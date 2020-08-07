@@ -1,0 +1,42 @@
+/*
+    Company Tags     : Accolite, Amazon, OYO Rooms, Samsung, Snapdeal, Citrix, Walmart, MAQ Software, Cisco, Apple
+    Leetcode Qn Link : https://leetcode.com/problems/permutations-ii/
+*/
+
+class Solution {
+public:
+    void permutations(vector<int> str, vector<int> count, vector<int> result, vector<vector<int>>& final_result, int level) {
+        if(level == result.size()) {
+            final_result.push_back(result);
+        }
+        
+        for(int i = 0; i<str.size(); i++) {
+            if(count[i] == 0)
+                continue;
+            count[i]--;
+            result[level] = str[i];
+            permutations(str, count, result, final_result, level+1);
+            count[i]++;
+        }
+    }
+    vector<vector<int>> permuteUnique(vector<int>& nums) {
+        map<int, int> mp;
+        int n = nums.size();
+        for(int ch:nums)
+            mp[ch]++;
+        vector<int> count(mp.size());
+        vector<int> str(mp.size());
+        vector<int> result(n);
+        
+        int i = 0;
+        for(auto it:mp) {
+            str[i]   = it.first;
+            count[i] = it.second;
+            i++;
+        }
+        
+        vector<vector<int>> final_result;
+        permutations(str, count, result, final_result, 0);
+        return final_result;
+    }
+};
