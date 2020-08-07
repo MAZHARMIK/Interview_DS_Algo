@@ -13,5 +13,11 @@
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Permutations%20II">Permutations II (Leetcode : 47)</a>
 				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Permutations">Permutations (Leetcode : 46)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
