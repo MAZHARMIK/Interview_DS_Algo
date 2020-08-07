@@ -1,0 +1,25 @@
+/*
+    Compnay Tags     : Accolite, Amazon, OYO Rooms, Samsung, Snapdeal, Citrix, Walmart, MAQ Software, Cisco, Apple
+    Leetcode Qn Link : https://leetcode.com/problems/permutations/
+*/
+
+class Solution {
+public:
+    void permutations(int left, int right, vector<int> nums, vector<vector<int>>& result) {
+        if(left == right)
+            result.push_back(nums);
+        
+        for(int i = left; i<=right; i++) {
+            swap(nums[i], nums[left]);
+            permutations(left+1, right, nums, result);
+            swap(nums[i], nums[left]);
+        }
+    }
+    
+    vector<vector<int>> permute(vector<int>& nums) {
+        vector<vector<int>> result;
+        int n = nums.size();
+        permutations(0, n-1, nums, result);
+        return result;
+    }
+};
