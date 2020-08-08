@@ -99,5 +99,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum%20III%20(O(N))">Path Sum III (Leetcode-437)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20the%20Closest%20Element%20in%20BST">Find the Closest Element in BST</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
