@@ -1,0 +1,24 @@
+/*
+    Company Tags     : Amazon, Microsoft
+    Leetcode Qn Link : https://leetcode.com/problems/subarray-sums-divisible-by-k/
+*/
+
+class Solution {
+public:
+    int subarraysDivByK(vector<int>& A, int K) {
+        map<int, int> mp;
+        mp[0] = 1;
+        int cumSum = 0;
+        int res = 0;
+        
+        for(int i:A) {
+            cumSum  += i;
+            int rem = (cumSum%K+K)%K;
+            
+            if(mp.count(rem))
+                res += mp[rem];
+            mp[rem]++;
+        }
+        return res;
+    }
+};
