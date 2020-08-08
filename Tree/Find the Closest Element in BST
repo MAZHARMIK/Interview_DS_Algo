@@ -1,0 +1,22 @@
+/*
+    Company Tags  : Amazon, MAQ Software
+    Question Link : https://practice.geeksforgeeks.org/problems/find-the-closest-element-in-bst/1
+*/
+
+int minDiff(Node *root, int k)
+{
+    if(root->data < k && root->right) {
+        int r = minDiff(root->right, k);
+        if(r < abs(root->data-k))
+            return r;
+        return abs(root->data - k);
+    }
+    if(root->data > k && root->left) {
+        int l = minDiff(root->left, k);
+        if(l < abs(root->data-k))
+            return l;
+        return abs(root->data - k);
+    }
+
+    return abs(root->data-k);
+}
