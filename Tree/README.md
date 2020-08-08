@@ -94,5 +94,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum">Path Sum (Leetcode-112)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum%20III%20(O(N))">Path Sum III (Leetcode-437)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
