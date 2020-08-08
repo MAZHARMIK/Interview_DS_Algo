@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Construct%20Binary%20Tree%20from%20Parent%20Array">Construct Binary Tree from Parent Array</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum">Path Sum (Leetcode-112)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
