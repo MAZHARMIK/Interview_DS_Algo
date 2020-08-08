@@ -1,0 +1,60 @@
+#include<algorithm>
+#include<iostream>
+#include<vector>
+#include<set>
+using namespace std;
+
+int lcs(string s1, string s2, int m , int n, vector<vector<int>>& t) {
+    for(int i = 0; i<m+1; i++) {
+        for(int j = 0; j<n+1; j++) {
+            if(i == 0|| j == 0)
+                t[i][j] = 0;
+            else if(s1[i-1] == s2[j-1])
+                t[i][j] = 1 + t[i-1][j-1];
+            else
+                t[i][j] = max(t[i][j-1], t[i-1][j]);
+        }
+    }
+
+    return t[m][n];
+}
+
+set<string> findLCS(string s1, string s2, int m , int n, vector<vector<int>> t) {
+    set<string> st;
+    if(m == 0 || n == 0) {
+        st.insert("");
+        return st;
+    }
+
+    if(s1[m-1] == s2[n-1]) {
+        set<string> temp = findLCS(s1, s2, m-1, n-1, t);
+
+        for(string str:temp) {
+            st.insert(str+s1[m-1]); //Add the equal character(s1[m-1] or s2[n-1] to all strings
+        }
+    } else {
+        if(t[m-1][n] >= t[m][n-1]) {
+            st = findLCS(s1, s2, m-1, n, t); //find all the LCS from up
+        }
+
+        if(t[m][n-1] >= t[m-1][n]) {
+            set<string> temp = findLCS(s1, s2, m, n-1, t);
+            st.insert(temp.begin(), temp.end()); //append other LCS from left to final result
+        }
+    }
+    return st;
+}
+
+int main() {
+    string s1 = "AGTGATG";
+    string s2 = "GTTAG";
+    int m = s1.length();
+    int n = s2.length();
+    vector<vector<int>> t(m+1, vector<int>(n+1));
+    cout << "LCS = " << lcs(s1, s2, m, n, t) << endl;
+
+    set<string> st = findLCS(s1, s2, m, n, t);
+
+    for(auto str: st)
+        cout << str << endl;
+}
