@@ -1,0 +1,25 @@
+class Solution {
+public:
+    int total = 0;
+    void pathSumUtil(TreeNode* root, int sum, int curr, map<int, int>& mp) {
+        if(!root)
+            return;
+        curr += root->val;
+        if(mp.count(curr-sum))
+            total += mp[curr-sum];
+        mp[curr]++;
+        pathSumUtil(root->left, sum, curr, mp);
+        pathSumUtil(root->right, sum, curr, mp);
+        mp[curr]--;
+    }
+    
+    int pathSum(TreeNode* root, int sum) {
+        if(!root)
+            return 0;
+
+        map<int, int> mp;
+        mp[0] = 1;
+        pathSumUtil(root, sum, 0, mp);
+        return total;
+    }
+};
