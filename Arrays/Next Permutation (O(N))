@@ -1,0 +1,28 @@
+/*
+    Company Tags     : Amazon
+    Leetcode Qn Link : https://leetcode.com/problems/next-permutation/
+*/
+
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        int n = nums.size();
+        
+        int i = n-1;
+        for(; i>0; i--) {
+            if(nums[i] > nums[i-1]) {
+                break;
+            }
+        }
+        if(i != 0) {
+            int index = i;
+            for(int j = i; j<n; j++) {
+                if(nums[j] > nums[i-1]) {
+                    index = j;
+                }
+            }
+            swap(nums[i-1], nums[index]);
+        }
+        reverse(nums.begin()+i, nums.end());
+    }
+};
