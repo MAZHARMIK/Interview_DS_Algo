@@ -77,5 +77,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Coin%20Change%20(Top%20Down%20Approach)">Coin Change (Top Down Approach) - Leetcode : 322</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Print%20the%20longest%20common%20substring">Print the longest common substring</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
