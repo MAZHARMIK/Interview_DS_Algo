@@ -87,5 +87,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Printing%20All%20Longest%20Common%20Subsequences">Printing All Longest Common Subsequences</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximize%20The%20Cut%20Segments%20(5%20approaches)">Maximize The Cut Segments (5 approaches)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
