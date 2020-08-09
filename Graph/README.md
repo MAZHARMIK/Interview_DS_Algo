@@ -114,5 +114,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Find%20Mother%20Vertex%20in%20Directed%20Graph">Find Mother Vertex in Directed Graph</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Rotting%20Oranges%20(C%2B%2B)">Rotting Oranges (Leetcode - 994)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
