@@ -1,0 +1,20 @@
+/*
+    Company Tags     :  Flipkart, VMWare, Accolite, Amazon, Microsoft, Snapdeal, ABCO, SAP Labs, Cisco, Rockstand
+    Leetcode Qn Link :  https://leetcode.com/problems/kth-largest-element-in-an-array/
+*/
+
+class Solution {
+public:
+    int findKthLargest(vector<int>& nums, int k) {
+        //largest : make min heap
+        priority_queue<int, vector<int>, greater<int>> minh;
+        
+        for(int i:nums) {
+            minh.push(i);
+            if(minh.size() > k)
+                minh.pop();
+        }
+        
+        return minh.top();
+    }
+};
