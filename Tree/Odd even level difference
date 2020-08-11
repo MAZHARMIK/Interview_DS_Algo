@@ -1,0 +1,20 @@
+/*
+    Company Tags  : Amazon
+    Question Link : https://practice.geeksforgeeks.org/problems/odd-even-level-difference/1/
+*/
+
+void findDiff(Node* root, vector<int>& sum, int level) {
+    if(!root)
+        return;
+    sum[level%2] += root->data;
+    findDiff(root->left, sum, level+1);
+    findDiff(root->right, sum, level+1);
+}
+
+/*You are required to complete this function*/
+int getLevelDiff(Node *root)
+{
+   vector<int> sum(2, 0);
+   findDiff(root, sum, 1);
+   return sum[1]-sum[0];
+}
