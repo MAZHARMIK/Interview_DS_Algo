@@ -1,0 +1,27 @@
+/*
+    Company Tags  : Amazon, Intuit
+    Question Link : https://practice.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1/
+*/
+
+Node * removeDuplicates( Node *head) 
+{
+    if(!head || !head->next)
+        return head;
+    
+    set<int> st;
+    Node* curr = head;
+    Node* prev = NULL;
+    while(curr) {
+        if(!st.count(curr->data)) {
+            st.insert(curr->data);
+            prev = curr;
+            curr = curr->next;
+        } else {
+            prev->next = curr->next;
+            delete(curr);
+            curr = prev->next;
+        }
+    }
+    
+    return head;
+}
