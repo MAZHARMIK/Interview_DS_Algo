@@ -1,0 +1,37 @@
+/*
+    Company Tags       : Accolite, Amazon, Flipkart, Knowlarity, MakeMyTrip, Ola Cabs, Open Solutions, OYO ROoms, Paytm, Qualcomm, Samsung, Snapdeal, Twitter
+    Leetcode Qn Link   : https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1/
+    Approach           : Use DFS.
+    Time Complexity    : O(n)
+*/
+
+
+class Solution {
+public:
+    int getLevel(TreeNode* root) {
+        if(!root)
+            return 0;
+        
+        return 1 + max(getLevel(root->left), getLevel(root->right));
+    }
+    void getRightSideView(TreeNode* root, vector<int>& levels, int level, vector<int>& result) {
+        if(!root)
+            return;
+        if(levels[level] == 0) {
+            result.push_back(root->val);
+            levels[level] = 1;
+        }
+        getRightSideView(root->right, levels, level+1, result);
+        getRightSideView(root->left, levels, level+1, result);
+        
+    }
+    vector<int> rightSideView(TreeNode* root) {
+        if(!root)
+            return {};
+        int maxLevel = getLevel(root);
+        vector<int> result;
+        vector<int> levels(maxLevel, 0);
+        getRightSideView(root, levels, 0, result);
+        return result;
+    }
+};
