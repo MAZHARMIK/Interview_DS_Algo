@@ -104,5 +104,15 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20the%20Closest%20Element%20in%20BST">Find the Closest Element in BST</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Tree%20Right%20Side%20View%20(DFS)">Binary Tree Right Side View (DFS) (Leetcode-199)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Left%20View%20of%20Binary%20Tree%20(DFS)">Left View of Binary Tree (DFS)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
