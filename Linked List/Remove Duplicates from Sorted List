@@ -1,0 +1,22 @@
+/*
+    Company Tags     : Amazon, Microsoft
+    Leetcode Qn Link : https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+*/
+
+class Solution {
+public:
+    ListNode* deleteDuplicates(ListNode* head) {
+        if(head == NULL || head->next == NULL)
+            return head;
+        ListNode* curr = head, *temp = NULL;
+        while(curr && curr->next) {
+            if(curr->val == curr->next->val) {
+                temp = curr->next;
+                curr->next = curr->next->next;
+                delete(temp);
+            } else
+                curr = curr->next;
+        }
+        return head;
+    }
+};
