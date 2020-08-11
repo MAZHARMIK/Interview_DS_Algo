@@ -1,0 +1,29 @@
+/*
+    Company Tags    : Accolite, Amazon, Flipkart, Knowlarity, MakeMyTrip, Ola Cabs, Open Solutions, OYO ROoms, Paytm, Qualcomm, Samsung, Snapdeal, Twitter
+    Question Link   : https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1/
+    Approach        : Use DFS.
+    Time Complexity : O(n)
+*/
+
+
+
+void leftViewUtil(Node* root, vector<int>& levels, int level) {
+    if(!root)
+        return;
+    if(levels[level] == 0) {
+        cout << root->data << " ";
+        levels[level] = 1;
+    }
+    
+    leftViewUtil(root->left, levels, level+1);
+    leftViewUtil(root->right, levels, level+1);
+}
+
+//driver function
+void leftView(Node *root)
+{
+   if(!root)
+        return;
+    vector<int> levels(100, 0); //Assuming max level as 100 (depending on the contraint given in the question)
+    leftViewUtil(root, levels, 0);
+}
