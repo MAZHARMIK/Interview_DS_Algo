@@ -114,5 +114,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Left%20View%20of%20Binary%20Tree%20(DFS)">Left View of Binary Tree (DFS)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Odd%20even%20level%20difference">Odd even level difference</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
