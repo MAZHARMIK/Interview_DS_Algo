@@ -14,5 +14,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Remove%20duplicates%20from%20an%20unsorted%20linked%20list">Remove duplicates from an unsorted linked list</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Remove%20Duplicates%20from%20Sorted%20List">Remove duplicates from List (Leetcode-83)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
