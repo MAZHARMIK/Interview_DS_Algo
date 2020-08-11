@@ -1,0 +1,28 @@
+/*
+    Company Tags    : Accolite, Amazon, Flipkart, Knowlarity, MakeMyTrip, Ola Cabs, Open Solutions, OYO ROoms, Paytm, Qualcomm, Samsung, Snapdeal, Twitter
+    Question Link   : https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1/
+    Approach        : Use level order traversal.
+    Time Complexity : O(n)
+*/
+
+void leftView(Node *root)
+{
+   if(!root)
+        return;
+    queue<Node*> que;
+    que.push(root);
+    while(!que.empty()) {
+        int n = que.size();
+        cout << que.front()->data << " ";
+        while(n--) {
+            Node* curr = que.front();
+            que.pop();
+            if(curr->left) {
+                que.push(curr->left);
+            }
+            if(curr->right) {
+                que.push(curr->right);
+            }
+        }
+    }
+}
