@@ -19,5 +19,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Kth%20Largest%20Element%20in%20an%20Array">Kth Largest Element in an Array (Using Heap)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Sort%20a%20k%20sorted%20array%20(Nearly%20Sorted%20Algorithm)">Sort a k sorted array (Nearly Sorted Algorithm)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
