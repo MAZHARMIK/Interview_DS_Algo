@@ -1,0 +1,35 @@
+/*
+    Company Tags     : Flipkart (2020)
+    Link to Quesiton : https://practice.geeksforgeeks.org/problems/nearly-sorted-algorithm/0
+*/
+
+#include<iostream>
+#include<queue>
+using namespace std;
+int main()
+ {
+	int T, N, K;
+	cin >> T;
+	while(T--) {
+	    cin >> N >> K;
+	    vector<int> vec(N);
+	    for(int i = 0; i<N; i++) {
+	        cin >> vec[i];
+	    }
+	    
+	    priority_queue<int, vector<int>, greater<int>> pq;
+	    for(int i = 0; i<N; i++){
+	        pq.push(vec[i]);
+	        if(pq.size() > K) {
+	            cout << pq.top() << " ";
+	            pq.pop();
+	        }
+	    }
+	    while(pq.size() > 0) {
+	        cout << pq.top() << " ";
+	        pq.pop();
+	    }
+	    cout << endl;
+	}
+	return 0;
+}
