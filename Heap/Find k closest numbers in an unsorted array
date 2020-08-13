@@ -1,0 +1,30 @@
+/*
+    Company Tags : Amazon
+    QN Link      : https://www.geeksforgeeks.org/find-k-closest-numbers-in-an-unsorted-array/
+*/
+
+#include <iostream>
+#include <queue>
+using namespace std;
+
+void printKclosest(vector<int> arr, int x, int k) {
+    priority_queue<pair<int, int>> pq;
+
+    for(int i:arr) {
+        pq.push({abs(x-i), i});
+        if(pq.size() > k)
+            pq.pop();
+    }
+
+    while(!pq.empty()) {
+        cout << pq.top().second << " ";
+        pq.pop();
+    }
+}
+
+int main() {
+	vector<int> arr { -10, -50, 20, 17, 80 };
+	int x = 20, k = 2;
+	printKclosest(arr, x, k);
+	return 0;
+}
