@@ -1,0 +1,51 @@
+/*
+    Company Tags : Amazon, Google, Microsoft
+    Link to Qn   : https://practice.geeksforgeeks.org/problems/jumping-numbers/0
+*/
+
+#include<iostream>
+#include<set>
+using namespace std;
+
+set<int> st;
+void jump(int num, int x) {
+    if(num > x)
+        return;
+
+    st.insert(num);
+    int ld = num%10;
+    if(ld == 0) {
+        num = (num*10)+(ld+1);
+        jump(num, x);
+    }
+    else if(ld == 9) {
+        num = (num*10)+(ld-1);
+        jump(num, x);
+    } else {
+        int temp = num;
+        num = (num*10)+(ld-1);
+        jump(num, x);
+        num = (temp*10)+(ld+1);
+        jump(num, x);
+    }
+}
+
+int main()
+ {
+	int T, x;
+	cin >> T;
+
+	while(T--) {
+	    cin >> x;
+	    st.clear();
+	    cout << 0 << " ";
+	    for(int i = 1; i<=9; i++)
+	        jump(i, x);
+	    set<int>::iterator it;
+      for(it = st.begin(); it!=st.end(); it++){
+          cout << *it << " ";
+      }
+      cout << "\n";
+	}
+	return 0;
+}
