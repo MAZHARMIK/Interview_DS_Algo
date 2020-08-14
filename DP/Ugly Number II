@@ -1,0 +1,29 @@
+/*
+    Company Tags     : GoldmanSachs, Google, Paytm, Walmart
+    Leetcode Qn Link : https://leetcode.com/problems/ugly-number-ii/
+*/
+
+class Solution {
+public:
+    int nthUglyNumber(int n) {
+        vector<int> Ugly(n+1);
+        Ugly[0] = 0;
+        Ugly[1] = 1;
+        int i2 = 1, i3 = 1, i5 = 1;
+        for(int i=2; i<n+1; i++) {
+            int x2 = Ugly[i2]*2;
+            int x3 = Ugly[i3]*3;
+            int x5 = Ugly[i5]*5;
+            
+            int minU = min({x2, x3, x5});
+            if(minU == x2)
+                i2++;
+            if(minU == x3)
+                i3++;
+            if(minU == x5)
+                i5++;
+            Ugly[i] = minU;
+        }
+        return Ugly[n];
+    }
+};
