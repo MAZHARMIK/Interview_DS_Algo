@@ -1,0 +1,28 @@
+/*
+    Company Tags     :  Amazon, Accolite
+    Leetcode Qn Link :  https://leetcode.com/problems/top-k-frequent-elements/
+*/
+
+typedef pair<int, int> p;
+class Solution {
+public:
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        priority_queue<p, vector<p>, greater<p>> mh;
+        
+        map<int, int> mp;
+        for(int i : nums)
+            mp[i]++;
+        
+        for(auto it:mp) {
+            mh.push({it.second, it.first});
+            if(mh.size() > k)
+                mh.pop();
+        }
+        vector<int> result;
+        while(!mh.empty()) {
+            result.push_back(mh.top().second);
+            mh.pop();
+        }
+        return result;
+    }
+};
