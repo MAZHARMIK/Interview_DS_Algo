@@ -6,7 +6,7 @@
 class Solution {
 public:
     int solve(int e, int f) {
-        vector<vector<int>> t(e+1, vector<int>(f+1)); //t[i][j] = min attempts with 'i' eggs and 'f' floors
+        vector<vector<int>> t(e+1, vector<int>(f+1)); //t[i][j] = min attempts with 'i' eggs and 'j' floors
         
         //if # of floors = 0, attempts = 0
         for(int row = 0; row<e+1; row++) {
