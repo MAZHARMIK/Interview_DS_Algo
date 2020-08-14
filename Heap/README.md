@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Find%20k%20closest%20numbers%20in%20an%20unsorted%20array">Find k closest numbers in an unsorted array</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Top%20k%20numbers%20in%20a%20stream">Top k numbers in a stream</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
