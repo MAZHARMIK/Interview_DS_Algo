@@ -30,7 +30,7 @@ void DFS(map<int, vector<int>>& adj, int V) {
     For that, we can use this commented code below
     for(int i = 0 ; i < V; i++) {
           if(visited[i] == false)
-                DFS_UTIL(adj, 2, visited);
+                DFS_UTIL(adj, i, visited);
     }
     */
 }
