@@ -24,5 +24,10 @@
 					<a href="https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Word%20Search%20(C++)">Word Search (Leetcode : 79)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Max%20Area%20of%20Island">Max Area of Island (Leetcode : 695)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
