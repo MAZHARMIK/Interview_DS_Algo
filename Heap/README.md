@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Top%20k%20numbers%20in%20a%20stream">Top k numbers in a stream</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Sorting%20Elements%20of%20an%20Array%20by%20Frequency%20(Frequence%20Sort)">Sorting Elements of an Array by Frequency</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
