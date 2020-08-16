@@ -11,12 +11,12 @@
 		<tbody>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Top%20K%20Frequent%20Elements%20(Using%20Heap)">Top K Frequent Elements (Using Heap)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Top%20K%20Frequent%20Elements%20(Using%20Heap)">Top K Frequent Elements (Using Heap) (Leetcode-347)</a>
 				</td>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Kth%20Largest%20Element%20in%20an%20Array">Kth Largest Element in an Array (Using Heap)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Kth%20Largest%20Element%20in%20an%20Array">Kth Largest Element in an Array (Using Heap) (Leetcode-215)</a>
 				</td>
 			</tr>
 			<tr>
@@ -41,7 +41,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Last%20Stone%20Weight">Last Stone Weight</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Last%20Stone%20Weight">Last Stone Weight (Leetcode -1046)</a>
 				</td>
 			</tr>
 		</tbody>
