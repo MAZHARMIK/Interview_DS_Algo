@@ -13,7 +13,8 @@ public:
             pq.pop();
             int b = pq.top();
             pq.pop();
-            pq.push(abs(a-b));
+            if(a != b)
+                pq.push(abs(a-b));
         }
         
         if(pq.size())
