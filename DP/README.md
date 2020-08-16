@@ -97,5 +97,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Last%20Stone%20Weight%20II">Last Stone Weight II (Leetcode-1049)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III">Best Time to Buy and Sell Stock III (Leetcode-123)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
