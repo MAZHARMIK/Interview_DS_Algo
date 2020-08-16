@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Last%20Stone%20Weight">Last Stone Weight (Leetcode -1046)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/K%20Closest%20Points%20to%20Origin">K Closest Points to Origin (Leetcode -973)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
