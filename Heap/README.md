@@ -39,5 +39,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Sorting%20Elements%20of%20an%20Array%20by%20Frequency%20(Frequence%20Sort)">Sorting Elements of an Array by Frequency</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Last%20Stone%20Weight">Last Stone Weight</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
