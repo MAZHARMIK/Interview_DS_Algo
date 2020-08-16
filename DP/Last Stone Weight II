@@ -36,9 +36,7 @@ public:
     }
     
     int lastStoneWeightII(vector<int>& stones) {
-        int sum = 0;
-        for(int i:stones)
-            sum += i;
+        int sum = accumulate(stones.begin(),stones.end(),0);
         int n = stones.size();
         return minDiffSubset(stones, n, sum);
     }
