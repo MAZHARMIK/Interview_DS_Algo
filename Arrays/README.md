@@ -91,5 +91,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/K%20closest%20elements">K closest elements</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/3Sum">3Sum (Leetcode - 15)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
