@@ -119,5 +119,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Odd%20even%20level%20difference">Odd even level difference</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Delete%20Nodes%20And%20Return%20Forest">Delete Nodes And Return Forest (Leetcode-1110)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
