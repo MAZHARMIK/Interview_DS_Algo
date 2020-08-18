@@ -1,0 +1,29 @@
+/*
+    Company Tags     : Amazon, Accolite, D-E-Shaw, FactSet, MakeMyTrip, Microsoft, Samsung
+    Leetcode Qn Link : https://leetcode.com/problems/majority-element/
+*/
+
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int count = 1;
+        int majority_element = nums[0];
+        for(int i = 1; i<nums.size(); i++) {
+            if(nums[i] == majority_element)
+                count++;
+            else
+                count--;
+            if(count == 0) {
+                majority_element = nums[i];
+                count = 1;
+            }
+        }
+        count = 0;
+        for(int i:nums) {
+            if(i == majority_element)
+                count++;
+        }
+        
+        return (count>nums.size()/2)?majority_element:-1;
+    }
+};
