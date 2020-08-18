@@ -119,5 +119,10 @@
 					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Rotting%20Oranges%20(C%2B%2B)">Rotting Oranges (Leetcode - 994)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Spanning%20Tree%20(Prim's)">Minimum Spanning Tree (Prim's)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
