@@ -1,0 +1,42 @@
+/*
+    Company Tags : Amazon, Cisco, Samsung
+    Qn Link      : https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
+*/
+
+int minKey(int V, vector<bool> inMST, vector<int> key) {
+    int minValue  = INT_MAX;
+    int min_index;
+    for(int v = 0; v<V; v++) {
+        if(inMST[v] == false && key[v] < minValue) {
+            min_index = v;
+            minValue  = key[v];
+        }
+    }
+    return min_index;
+}
+
+int spanningTree(int V, int E, vector<vector<int>> &graph) {
+    vector<int> key(V, INT_MAX);
+    vector<int> parent(V);
+    vector<bool> inMST(V, false);
+    
+    parent[0] = -1;
+    key[0] = 0;
+    
+    for(int count = 0; count < V; count++) {
+        int u = minKey(V, inMST, key);
+        inMST[u] = true;
+        
+        for(int v = 0; v<V; v++) {
+            if(graph[u][v] != 0 && inMST[v] == false && graph[u][v] < key[v]) {
+                key[v]    = graph[u][v];
+                parent[v] = u;
+            }
+        }
+    }
+    int sum = 0;
+    for(int i = 1; i<V; i++) {
+        sum += key[i];
+    }
+    return sum;
+}
