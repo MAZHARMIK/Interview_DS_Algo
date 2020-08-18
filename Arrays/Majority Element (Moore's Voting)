@@ -6,24 +6,29 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        int count = 1;
-        int majority_element = nums[0];
-        for(int i = 1; i<nums.size(); i++) {
-            if(nums[i] == majority_element)
+        int n = nums.size();
+        if(n == 1)
+            return nums[0];
+        
+        int count = 0;
+        int maj = NULL;
+        for(int i = 0; i<n; i++) {
+            if(maj != NULL && nums[i] == maj)
                 count++;
+            else if(count == 0) {
+                count = 1;
+                maj = nums[i];
+            }
             else
                 count--;
-            if(count == 0) {
-                majority_element = nums[i];
-                count = 1;
-            }
         }
+        
         count = 0;
         for(int i:nums) {
-            if(i == majority_element)
+            if(i == maj)
                 count++;
         }
         
-        return (count>nums.size()/2)?majority_element:-1;
+        return (count > n/2)?maj:-1;
     }
 };
