@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/K%20Closest%20Points%20to%20Origin">K Closest Points to Origin (Leetcode -973)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Minimum%20Cost%20of%20ropes">Minimum Cost of ropes (Leetcode -Premium)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
