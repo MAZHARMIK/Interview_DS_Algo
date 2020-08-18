@@ -1,0 +1,59 @@
+/*
+    Company Tags     : Amazon
+    Leetcode Qn Link : https://leetcode.com/problems/majority-element-ii/
+*/
+
+class Solution {
+public:
+    vector<int> majorityElement(vector<int>& nums) {
+        int n = nums.size();
+        if(n == 0)
+            return {};
+        if(n == 1) {
+            return {nums[0]};
+        }
+        int count1 = 0;
+        int maj1   = NULL;
+        
+        int count2 = 0;
+        int maj2   = NULL;
+        
+        
+        for(int i = 0; i<n; i++) {
+            if(maj1 != NULL && nums[i] == maj1)
+                count1++;
+            else if(maj2 != NULL && nums[i] == maj2)
+                count2++;
+            else if(count1 == 0) {
+                count1 = 1;
+                maj1 = nums[i];
+            } else if (count2 == 0) {
+                count2 = 1;
+                maj2 = nums[i];
+            } else {
+                count1--;
+                count2--;
+            }
+        }
+        count1 = 0;
+        count2 = 0;
+        vector<int> result;
+        for(int i:nums) {
+            if(i == maj1) {
+                count1++;
+            }
+            
+            if(i == maj2) {
+                count2++;
+            }
+        }
+        
+        if(count1 > n/3) {
+            result.push_back(maj1);
+        }
+        if(count2 > n/3 && maj1 != maj2) {
+            result.push_back(maj2);
+        }
+        return result;
+    }
+};
