@@ -51,7 +51,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Minimum%20Cost%20of%20ropes">Minimum Cost of ropes (Leetcode -Premium)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Minimum%20Cost%20of%20ropes">Minimum Cost to Connect Sticks (Leetcode -1167)</a>
 				</td>
 			</tr>
 		</tbody>
