@@ -1,0 +1,31 @@
+/*
+    Company Tags  : Google
+    Leetcode Link : https://leetcode.com/problems/insert-interval/
+*/
+class Solution {
+public:
+    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
+        int n = intervals.size();
+        if(n == 0)
+            return {newInterval};
+        if(newInterval[0] < intervals[0][0] && newInterval[1] > intervals[n-1][1])
+            return {newInterval};
+        int i = 0;
+        while(i < intervals.size()) {
+            if(newInterval[0] > intervals[i][1]) {
+                i++;
+            } else if(newInterval[1] < intervals[i][0]) {
+                intervals.insert(intervals.begin()+i, newInterval);
+                break;
+            } else {
+                newInterval[0] = min(newInterval[0], intervals[i][0]);
+                newInterval[1] = max(newInterval[1], intervals[i][1]);
+                intervals.erase(intervals.begin()+i);
+            }
+        }
+        
+        if(i == intervals.size())
+            intervals.push_back(newInterval);
+        return intervals;
+    }
+};
