@@ -1,34 +1,23 @@
 /*
-    Company Tags : Amazon, Goldman Sachs
-    Link to Qn   : https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes/0
+    Company Tags     : Amazon, Goldman Sachs
+    Leetcode Qn Link : https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 */
 
-#include<iostream>
-#include<vector>
-#include<queue>
-using namespace std;
-int main()
- {
-	int T, n;
-	cin >> T;
-	while(T--) {
-	    cin >> n;
-	    vector<int> vec(n);
-	    priority_queue<int, vector<int>, greater<int>> pq;
-	    for(int i = 0; i<n; i++) {
-	        cin >> vec[i];
-	        pq.push(vec[i]);
-	    }
-	    unsigned long long sum = 0;
-	    while(pq.size() >= 2) {
-	        int first = pq.top();
-	        pq.pop();
-	        int second = pq.top();
-	        pq.pop();
-	        sum += first + second;
-	        pq.push(first+second);
-	    }
-	    cout << sum << endl;
-	}
-	return 0;
-}
+class Solution {
+public:
+    int MinimumCost(vector<int> &sticks) {
+        priority_queue<int, vector<int>, greater<int>> pq(sticks.begin(), sticks.end()); //min heap
+        
+        int cost = 0;
+        while(pq.size() > 1) {
+            int first = pq.top();
+            pq.pop();
+            int second = pq.top();
+            pq.pop();
+            
+            cost += first+second;
+            pq.push(first+second);
+        }
+        return cost;
+    }
+};
