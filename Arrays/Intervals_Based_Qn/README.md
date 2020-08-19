@@ -24,5 +24,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Insert%20Interval">Insert Interval (Leetcode-57)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Meeting%20Rooms">Meeting Rooms (Leetcode-252)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
