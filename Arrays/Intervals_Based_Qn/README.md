@@ -10,13 +10,18 @@
 		</thead>
 		<tbody>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Merge%20Intervals">Merge Intervals (Leetcode-56)</a>
 				</td>
 			</tr>
-      <tr>
-        <td>
+      			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Non-overlapping%20Intervals%20(C%2B%2B)">Non-overlapping Intervals (Leetcode-435)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Insert%20Interval">Insert Interval (Leetcode-57)</a>
 				</td>
 			</tr>
 		</tbody>
