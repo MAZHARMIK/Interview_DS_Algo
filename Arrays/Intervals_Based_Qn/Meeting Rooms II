@@ -1,0 +1,37 @@
+/*
+    Company Tags     : Uber, Facebook, Microsoft, Yelp, Google, Snapchat, Amazon, Cisco
+    Leetcode Qn Link : https://leetcode.com/problems/meeting-rooms-ii/
+*/
+
+class Solution {
+public:
+    struct myComp {
+        bool operator()(Interval& i1, Interval& i2) {
+            //one that ends earliest
+            return i1.end > i2.end;
+        }
+    };
+    static bool myFunction(Interval& i1, Interval& i2) {
+        return i1.start < i2.start;
+    }
+    int minMeetingRooms(vector<Interval> &intervals) {
+        int n = intervals.size();
+        if(n == 1)
+            return 1;
+        sort(intervals.begin(), intervals.end(), myFunction);
+        priority_queue<Interval, vector<Interval>, myComp> pq;
+        pq.push(intervals[0]);
+        for(int i = 1; i<n; i++) {
+            Interval current_meeting = intervals[i];
+            Interval earliest_end    = pq.top();
+            pq.pop();
+            if(current_meeting.start >= earliest_end.end) {
+                earliest_end = current_meeting;
+            } else {
+                pq.push(current_meeting);
+            }
+            pq.push(earliest_end);
+        }
+        return (int)pq.size();
+    }
+};
