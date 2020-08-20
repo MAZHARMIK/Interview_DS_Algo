@@ -20,8 +20,13 @@
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Remove%20Duplicates%20from%20Sorted%20List%20II">Remove duplicates from Sorted List II(Leetcode-82)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Reorder%20List%20:%20O(1)%20space">Reorder List (Leetcode-143)</a>
 				</td>
 			</tr>
 		</tbody>
