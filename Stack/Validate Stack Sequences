@@ -1,0 +1,36 @@
+/*
+    Company Tags  : Amazon
+    Leetcode Link : https://leetcode.com/problems/validate-stack-sequences/
+*/
+
+class Solution {
+public:
+    bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
+        int n = pushed.size();
+        stack<int> st;
+        int i = 0;
+        int j = 0;
+        
+        while(i < n) {
+            if(st.empty()) {
+                st.push(pushed[i]);
+                i++;
+                continue;
+            }
+            
+            while(!st.empty() && st.top() == popped[j]) {
+                st.pop();
+                j++;
+            }
+            
+            st.push(pushed[i]);
+            i++;
+        }
+       
+        while(!st.empty() && st.top() == popped[j]) {
+            st.pop();
+            j++;
+        }
+        return st.empty();
+    }
+};
