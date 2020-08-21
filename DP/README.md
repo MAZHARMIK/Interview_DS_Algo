@@ -107,5 +107,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Print%20Longest%20Repeating%20Subsequence">Print Longest Repeating Subsequence</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Edit%20Distance">Edit Distance (Leetcode - 72)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
