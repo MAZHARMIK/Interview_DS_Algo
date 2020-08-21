@@ -1,0 +1,44 @@
+/*
+    Company Tags  : Accolite, Amazon, Groupon, MakeMyTrip, Microsoft, Qualcomm, Samsung, Visa, Walmart, Zoho
+    Leetcode Link : https://leetcode.com/problems/longest-palindromic-substring/
+*/
+
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        int n = s.length();
+        vector<vector<bool>> t(n, vector<bool>(n, false));
+        int start = 0;
+        int maxL = 1;
+        
+        //length = 1
+        for(int i = 0; i<n; i++)
+            t[i][i] = true;
+        
+        //length = 2
+        for(int i = 0; i<n; i++) {
+            if(s[i] == s[i+1]) {
+                t[i][i+1] = true;
+                maxL = 2;
+                start = i;
+            }
+        }
+        
+        //length = 3+
+        for(int L = 3; L<=n; L++) {
+            for(int i = 0; i<n-L+1; i++) {
+                int j = i+L-1;
+                
+                if(s[i] == s[j] && t[i+1][j-1]) {
+                    t[i][j] = true;
+                    if(L > maxL) {
+                        maxL = L;
+                        start = i;
+                    }
+                }
+            }
+        }
+        
+        return s.substr(start, maxL);
+    }
+};
