@@ -124,5 +124,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Delete%20Nodes%20And%20Return%20Forest">Delete Nodes And Return Forest (Leetcode-1110)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Populating%20Next%20Right%20Pointers%20in%20Each%20Node">Populating Next Right Pointers in Each Node (Leetcode-116)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
