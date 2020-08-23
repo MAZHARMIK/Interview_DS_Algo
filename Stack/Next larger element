@@ -1,0 +1,42 @@
+/*
+    Company Tags : Amazon, Flipkart, OYO Rooms, Snapdeal, Samsung, Zoho
+    Qn Link      : https://practice.geeksforgeeks.org/problems/next-larger-element/0
+*/
+
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+int main()
+ {
+	int T, n;
+	cin >> T;
+	while(T--) {
+	    cin >> n;
+	    vector<ll> input(n);
+	    vector<ll> output(n);
+	    stack<ll> st;
+	    for(int i = 0; i<n; i++) {
+	        cin >> input[i];
+	    }
+	    
+	    for(int i = n-1; i>=0; i--) {
+            if(st.empty()) {
+                output[i] = -1;
+            } else if(st.top() > input[i]) {
+                output[i] = st.top();
+            } else {
+                while(!st.empty() && st.top() <= input[i])
+                    st.pop();
+                if(st.empty())
+                    output[i] = -1;
+                else
+                    output[i] = st.top();
+            }
+            st.push(input[i]);
+    	}
+    	for(ll x:output)
+    	    cout << x << " ";
+    	cout << endl;
+	}
+	return 0;
+}
