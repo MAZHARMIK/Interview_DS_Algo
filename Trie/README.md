@@ -15,18 +15,23 @@
 				</td>
 			</tr>
 			<tr>
-        <td>
+       				 <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Delete%20a%20key">Delete a key</a>
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Add%20and%20Search%20Word%20-%20Data%20structure%20design">Add and Search Word - Data structure design : (Leetcode-211)</a>
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Word%20Search%20II">Word Search II : (Leetcode-212)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Detect%20Capital%20(C%2B%2B)">Stream of Characters : (Leetcode-1032)</a>
 				</td>
 			</tr>
 		</tbody>
