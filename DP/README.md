@@ -122,5 +122,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Palindromic%20Substrings">Palindromic Substrings (Leetcode - 647)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Palindrome%20Partitioning%20II">Palindrome Partitioning II (Leetcode - 132)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
