@@ -1,0 +1,27 @@
+/*
+    Company Tags        : Amazon
+    Leetcode Premium Qn : https://leetcode.com/problems/find-leaves-of-binary-tree/ 
+*/
+
+typedef TreeNode Node;
+class Solution {
+public:
+    int getHeightNodes(Node* root, map<int, vector<int>>& mp) {
+        if(!root)
+            return 0;
+        
+        int height = max(getHeightNodes(root->left, mp), getHeightNodes(root->right, mp)) + 1;
+        
+        mp[height].push_back(root->val);
+        return height;
+    }
+    vector<vector<int>> findLeaves(TreeNode * root) {
+        vector<vector<int>> result;
+        map<int, vector<int>> mp;
+        int h = getHeightNodes(root, mp);
+        for(int i = 1; i<=h; i++) {
+            result.push_back(mp[i]);
+        }
+        return result;
+    }
+};
