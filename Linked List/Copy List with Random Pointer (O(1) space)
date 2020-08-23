@@ -1,0 +1,43 @@
+/*
+    Company Tags  : Morgan Stanley, Amazon, Microsoft, Snapdeal, MakeMyTrip, Ola Cabs, BankBazaar
+    Leetcode Link : https://leetcode.com/problems/copy-list-with-random-pointer/
+*/
+
+class Solution {
+public:
+    Node* copyRandomList(Node* head) {
+        if(!head)
+            return NULL;
+        Node* curr = head, *temp;
+        while(curr) {
+            temp = curr->next;
+            curr->next = new Node(curr->val);
+            curr->next->next = temp;
+            curr = temp;
+        }
+        curr = head;
+        while(curr) {
+            if(curr->next)
+                curr->next->random = curr->random?curr->random->next:curr->random;
+            
+            if(curr->next)
+                curr = curr->next->next;
+            else
+                curr = curr->next;
+        }
+        
+        Node* newHead = head->next;
+        curr = head;
+        Node* copy = newHead;
+        while(curr && copy) {
+            curr->next = curr->next?curr->next->next:curr->next;
+            
+            copy->next = copy->next?copy->next->next:copy->next;
+            
+            curr = curr->next;
+            copy = copy->next;
+            
+        }
+        return newHead;
+    }
+};
