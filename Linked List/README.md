@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Reorder%20List%20:%20O(1)%20space">Reorder List (Leetcode-143)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Copy%20List%20with%20Random%20Pointer%20(O(1)%20space)">Copy List with Random Pointer (Leetcode-138)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
