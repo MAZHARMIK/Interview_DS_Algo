@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Populating%20Next%20Right%20Pointers%20in%20Each%20Node">Populating Next Right Pointers in Each Node (Leetcode-116)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20Leaves%20Of%20Binary%20Tree">Find Leaves Of Binary Tree (Leetcode-366)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
