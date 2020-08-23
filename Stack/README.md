@@ -10,8 +10,13 @@
 		</thead>
 		<tbody>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Validate%20Stack%20Sequences">Validate Stack Sequences (Leetcode : 946)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Next%20larger%20element">Next larger element</a>
 				</td>
 			</tr>
 		</tbody>
