@@ -1,0 +1,27 @@
+/*
+    Company Tags  : Amazon, Flipkart, OYO Rooms, Snapdeal, Samsung, Zoho
+    Leetcode Link : https://leetcode.com/problems/next-greater-element-ii/
+    ALERT : In this, you have to find next greater element in Circular Array
+*/
+
+class Solution {
+public:
+    vector<int> nextGreaterElements(vector<int>& input) {
+        int n = input.size();
+	    vector<int> output(n);
+	    
+        for(int i = 0; i<n; i++) {
+            int j = (i+1)%n;
+            while(j != i) {
+                if(input[j] > input[i]) {
+                    output[i] = input[j];
+                    break;
+                }
+                j = (j+1)%n;
+            }
+            if(j == i)
+                output[i] = -1;
+    	}
+        return output;
+    }
+};
