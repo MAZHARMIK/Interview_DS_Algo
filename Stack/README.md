@@ -19,5 +19,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Next%20larger%20element">Next larger element</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Next%20Greater%20Element%20II%20(O(n2))">Next Greater Element ii (O(n2)) (Leetcode - 503)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
