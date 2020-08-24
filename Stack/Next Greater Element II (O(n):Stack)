@@ -1,0 +1,40 @@
+class Solution {
+public:
+    vector<int> nextGreaterElements(vector<int>& input) {
+        int n = input.size();
+	    vector<int> output(n);
+	    stack<int> st;
+        for(int i = n-1; i>=0; i--) {
+            if(st.empty()) {
+                output[i] = -1;
+            } else {
+                while(!st.empty() && st.top() <= input[i])
+                    st.pop();
+                if(st.empty()) {
+                    output[i] = -1;
+                } else {
+                    output[i] = st.top();
+                }
+            }
+            st.push(input[i]);
+    	}
+        
+      //Do it once more and you'll get the correct answer for circular array
+      for(int i = n-1; i>=0; i--) {
+          if(st.empty()) {
+              output[i] = -1;
+          } else {
+              while(!st.empty() && st.top() <= input[i])
+                  st.pop();
+              if(st.empty()) {
+                  output[i] = -1;
+              } else {
+                  output[i] = st.top();
+              }
+          }
+          st.push(input[i]);
+    	}
+        
+        return output;
+    }
+};
