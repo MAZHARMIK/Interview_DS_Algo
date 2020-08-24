@@ -75,8 +75,6 @@ int solve(string& expr, int i, int j, bool isTrue) {
 
 int main()
  {
-    ios::sync_with_stdio(NULL);
-    cin.tie(NULL);
     int T, N;
     string expr;
     cin >> T;
