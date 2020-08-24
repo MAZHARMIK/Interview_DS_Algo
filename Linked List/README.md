@@ -39,5 +39,10 @@
 					<a href="https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Flatten%20a%20Multilevel%20Doubly%20Linked%20List(C++%20DFS)">Flatten a Multilevel Doubly Linked List (DFS) (Leetcode-430)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Flatten%20a%20Multilevel%20Doubly%20Linked%20List(C%2B%2B%20using%20stack)">Flatten a Multilevel Doubly Linked List (using stack) (Leetcode-430)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
