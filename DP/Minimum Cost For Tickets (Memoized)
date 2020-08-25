@@ -1,27 +1,33 @@
 /*
     Leetcode Qn Link : https://leetcode.com/problems/minimum-cost-for-tickets/
 */
+int t[366];
 class Solution {
 public:
+    int minCost(vector<int>& days, vector<int>& costs, int idx) {
+        if(idx >= days.size())
+            return 0;
+        
+        if(t[idx] != -1)
+            return t[idx];
+        
+        int x = costs[0] + minCost(days, costs, idx+1);
+        
+        int i = idx;
+        for(;i<days.size() && days[i]<days[idx]+7; i++);
+        
+        int y = costs[1] + minCost(days, costs, i);
+        
+        int j = idx;
+        for(;j < days.size() && days[j] < days[idx]+30; j++);
+        
+        int z = costs[2] + minCost(days, costs, j);
+        
+        return t[idx] = min({x, y, z});
+    }
     int mincostTickets(vector<int>& days, vector<int>& costs) {
-        int n = days[days.size()-1];
-        set<int> st;
-        for(int day:days)
-            st.insert(day);
-        vector<int> t(n+1);
-        //t[i] = min cost till day i
-        t[0] = 0;
-        for(int i = 1; i<n+1; i++) {
-            if(!st.count(i)) {
-                t[i] = t[i-1];
-                continue;
-            }
-            
-            int day_1_pass  = costs[0] + t[i-1];
-            int day_7_pass  = costs[1] + t[max(0, i-7)];
-            int day_30_pass = costs[2] + t[max(0, i-30)];
-            t[i] = min({day_1_pass, day_7_pass, day_30_pass});
-        }
-        return t[n];
+        int cost = 0;
+        memset(t, -1, sizeof(t));
+        return minCost(days, costs, 0);
     }
 };
