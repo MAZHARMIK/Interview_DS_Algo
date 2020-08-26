@@ -20,23 +20,23 @@ int main()
 	    }
 	    
 	    for(int i = n-1; i>=0; i--) {
-            if(st.empty()) {
-                output[i] = -1;
-            } else if(st.top() > input[i]) {
-                output[i] = st.top();
-            } else {
-                while(!st.empty() && st.top() <= input[i])
-                    st.pop();
-                if(st.empty())
-                    output[i] = -1;
-                else
-                    output[i] = st.top();
-            }
-            st.push(input[i]);
-    	}
-    	for(ll x:output)
-    	    cout << x << " ";
-    	cout << endl;
-	}
+		    if(st.empty()) {
+			output[i] = -1;
+		    } else if(st.top() > input[i]) {
+			output[i] = st.top();
+		    } else {
+			while(!st.empty() && st.top() <= input[i])
+			    st.pop();
+			if(st.empty())
+			    output[i] = -1;
+			else
+			    output[i] = st.top();
+            	   }
+            	st.push(input[i]);
+    	   }
+	   for(ll x:output)
+	      cout << x << " ";
+	      cout << endl;
+	    }
 	return 0;
 }
