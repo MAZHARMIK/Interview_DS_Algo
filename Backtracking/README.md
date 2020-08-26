@@ -29,5 +29,15 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Max%20Area%20of%20Island">Max Area of Island (Leetcode : 695)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Generate%20Parentheses%20(O(n*2%5En))">Generate Parentheses (O(n*2^n)) (Leetcode : 22)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Generate%20Parentheses%20(O(2%5En))">Generate Parentheses (O(2^n)) (Leetcode : 22)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
