@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Next%20Greater%20Element%20II%20(O(n):Stack)">Next Greater Element II (O(n) : Stack) (Leetcode - 503)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Online%20Stock%20Span">Online Stock Span (Leetcode - 901)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
