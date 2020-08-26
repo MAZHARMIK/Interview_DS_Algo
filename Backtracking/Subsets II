@@ -1,0 +1,29 @@
+/*
+    Company Tags  : Snapdeal
+    Leetcode Link : https://leetcode.com/problems/subsets-ii/
+*/
+
+class Solution {
+public:
+    set<vector<int>> st;
+    void generateAll(vector<int>& nums, vector<vector<int>>& result, vector<int> temp, int idx) {
+        if(!st.count(temp)) {
+            result.push_back(temp);
+            st.insert(temp);
+        }
+        
+        for(int i = idx; i<nums.size(); i++) {
+            temp.push_back(nums[i]);
+            generateAll(nums, result, temp, i+1);
+            temp.pop_back();
+        }
+    }
+    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        vector<vector<int>> result;
+        st.clear();
+        vector<int> temp;
+        generateAll(nums, result, temp, 0);
+        return result;
+    }
+};
