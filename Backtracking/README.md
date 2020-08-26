@@ -51,7 +51,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://leetcode.com/problems/subsets-ii/">Subsets II (Leetcode : 90)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Subsets%20II">Subsets II (Leetcode : 90)</a>
 				</td>
 			</tr>
 		</tbody>
