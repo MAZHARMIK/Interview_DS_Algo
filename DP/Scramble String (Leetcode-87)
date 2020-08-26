@@ -9,11 +9,11 @@ public:
     bool solve(string s1, string s2) {
         if(s1 == s2)
             return true;
-        if(s1.length() <= 1)
+        if(s1.length() != s2.length())
             return false;
         
         string key = s1 + "_" + s2;
-        if(mp.find(key) != mp.end())
+        if(mp.count(key))
             return mp[key];
         
         int n = s1.length();
@@ -32,10 +32,6 @@ public:
         return mp[key] = flag;
     }
     bool isScramble(string s1, string s2) {
-        if(s1.length() != s2.length())
-            return false;
-        if(s1.length() == 0 && s2.length() == 0)
-            return true;
         mp.clear();
         return solve(s1, s2);
     }
