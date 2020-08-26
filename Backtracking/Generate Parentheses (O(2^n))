@@ -1,0 +1,24 @@
+/*
+    Company Tags     : Samsung
+    Leetcode Qn Link : https://leetcode.com/problems/generate-parentheses/
+*/
+
+class Solution {
+public:
+    void generateAll(int n, string current, int open, int close, vector<string>& result) {
+        if(current.length() == 2*n) {
+            result.push_back(current);
+            return;
+        }
+        
+        if(open < n)
+            generateAll(n, current+"(", open+1, close, result);
+        if(close < open)
+            generateAll(n, current+")", open, close+1, result);
+    }
+    vector<string> generateParenthesis(int n) {
+        vector<string> result;
+        generateAll(n, "", 0, 0, result);
+        return result;
+    }
+};
