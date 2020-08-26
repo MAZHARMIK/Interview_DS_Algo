@@ -1,0 +1,40 @@
+/*
+    Company Tags     : Samsung
+    Leetcode Qn Link : https://leetcode.com/problems/generate-parentheses/
+*/
+
+class Solution {
+public:
+    int x;
+    bool isValid(string str) {
+        int sum = 0;
+        for(int i = 0; i<str.size(); i++) {
+            if(str[i] == '(')
+                sum++;
+            else
+                sum--;
+            if(sum < 0)
+                return false;
+        }
+        return sum==0;
+    }
+    void generateAll(string str, int index, vector<string>& result) {
+        if(index == 2*x) {
+            if(isValid(str)) {
+                result.push_back(str);
+            }
+        } else {
+            str.push_back('(');
+            generateAll(str, index+1, result);
+            str.pop_back();
+            str.push_back(')');
+            generateAll(str, index+1, result);
+        }
+    }
+    vector<string> generateParenthesis(int n) {
+        x = n;
+        vector<string> result;
+        generateAll("", 0, result);
+        return result;
+    }
+};
