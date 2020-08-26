@@ -39,5 +39,20 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Generate%20Parentheses%20(O(2%5En))">Generate Parentheses (O(2^n)) (Leetcode : 22)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Subsets%20(C%2B%2B%20iterative)">Subsets (C++ iterative) (Leetcode : 78)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Leetcode-July-Challenge-2020/blob/master/Subsets%20(C%2B%2B)">Subsets (C++ Backtracking) (Leetcode : 78)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://leetcode.com/problems/subsets-ii/">Subsets II (Leetcode : 90)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
