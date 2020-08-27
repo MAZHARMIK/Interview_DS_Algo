@@ -1,0 +1,33 @@
+/*
+    Company Tags  : 24*7 Innovation Labs, Amazon, Drishti-Soft, Flipkart, Goldman Sachs, Microsoft, Paytm, Payu, Snapdeal, Visa
+    Leetcode Link : https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
+*/
+
+Node* merge(Node* a, Node* b) {
+    if(!a)
+        return b;
+    if(!b)
+        return a;
+    
+    Node* head = new Node(-1);
+    Node* temp = head;
+    while(a && b) {
+        if (a->data < b->data) { 
+            temp->bottom = a; 
+            a = a->bottom;
+        } else { 
+            temp->bottom = b; 
+            b = b->bottom; 
+        }
+        temp = temp->bottom;
+    }
+    temp->bottom = (a)?a:b;
+    return head->bottom;
+}
+
+Node* flatten (Node* root) { 
+    if (!root || !root->next) 
+        return root; 
+  
+    return merge( root, flatten(root->next) ); 
+}
