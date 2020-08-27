@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Online%20Stock%20Span">Online Stock Span (Leetcode - 901)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Largest%20Rectangle%20in%20Histogram">Largest Rectangle in Histogram (Leetcode - 84)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
