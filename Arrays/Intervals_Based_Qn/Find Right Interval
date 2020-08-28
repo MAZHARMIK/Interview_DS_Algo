@@ -1,0 +1,44 @@
+/*
+    Leetcode August Challenge Qn
+    Leetcode Qn Link : https://leetcode.com/problems/find-right-interval/
+*/
+
+class Solution {
+public:
+    int binary_s(vector<vector<int>>& intervals, int l, int r, int key) {
+        while(l<=r) {
+            int mid = l+(r-l)/2;
+            if(intervals[mid][0] == key)
+                return mid;
+            if(intervals[mid][0] < key)
+                l = mid+1;
+            else
+                r = mid-1;
+        }
+        if(l >= intervals.size())  //[[1,2], [2,3], [4,5]] //while finding for [2,3] r becomes less than l. So we need to send l but we need to check if l<n or not
+            return -1;  
+        return l;
+    }
+    vector<int> findRightInterval(vector<vector<int>>& intervals) {
+        int n = intervals.size();
+        if(n == 1)
+            return {-1};
+        map<vector<int>, int> mp;
+        for(int i = 0; i<n; i++) {
+            mp[intervals[i]] = i;
+        }
+        vector<int> result(n, -1);
+        sort(intervals.begin(), intervals.end());
+        
+        for(int i = 0; i<n-1; i++) {
+            int index = binary_s(intervals, i+1, n-1, intervals[i][1]);
+            if(index == -1) {
+                result[mp[intervals[i]]] = -1;
+            } else {
+                result[mp[intervals[i]]] = mp[intervals[index]];
+            }
+        }
+        
+        return result;
+    }
+};
