@@ -14,7 +14,7 @@ public:
         int ans = INT_MAX;
         
         int low = 1, high = f;
-        while(low <= high) {
+        while(low <= high) { //equality sign is used so that we don't miss a floor (e = 3, f = 25)
             int mid   = low+(high-low)/2;
             
             int left  = solve(e-1, mid-1, t); //egg breaks
