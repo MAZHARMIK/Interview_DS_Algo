@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Meeting%20Rooms%20II">Meeting Rooms II (Leetcode-253)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Find%20Right%20Interval">Find Right Interval (Leetcode-436)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
