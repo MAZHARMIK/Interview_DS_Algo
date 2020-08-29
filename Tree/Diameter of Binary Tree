@@ -1,0 +1,25 @@
+/*
+    COmpany Tags  : Amazon, Cadence India, Directi, MakeMyTrip, Microsoft, Oracle, OYO Rooms, Philips, Salesforce, Snapdeal, VMWare
+    Leetcode Link : https://leetcode.com/problems/diameter-of-binary-tree/
+*/
+class Solution {
+public:
+    int diameter(TreeNode* root, int& result) {
+        if(!root)
+            return 0;
+        int left  = diameter(root->left, result);
+        int right = diameter(root->right, result);
+        
+        int temp = max(left, right) + 1;
+        int ans  = max(temp, left+1+right);
+        result = max(result, ans);
+        return temp;
+    }
+    int diameterOfBinaryTree(TreeNode* root) {
+        if(!root)
+            return 0;
+        int result = INT_MIN;
+        diameter(root, result);
+        return result-1;
+    }
+};
