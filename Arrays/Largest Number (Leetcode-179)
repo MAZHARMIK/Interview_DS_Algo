@@ -5,28 +5,22 @@
 
 class Solution {
 public:
-    static bool myFunction(string s1, string s2) {
-        string ij = s1+s2;
-        string ji = s2+s1;
+    static bool myFunction(int a, int b) {
+        string s1 = to_string(a);
+        string s2 = to_string(b);
         
-        return ij>ji;
+        return (s1+s2) > (s2+s1);
     }
     string largestNumber(vector<int>& nums) {
-        int n = nums.size();
-        vector<string> result(n);
+        sort(nums.begin(), nums.end(), myFunction);
         
-        for(int i = 0; i<n; i++) {
-            result[i] = to_string(nums[i]);
-        }
         
-        sort(result.begin(), result.end(), myFunction);
-        if(result[0] == "0")
+        if(nums[0] == 0)
             return "0";
-        string output = "";
-        for(string str: result){
-            output += str;
-        }
+        string result = "";
+        for(int i:nums)
+            result += to_string(i);
+        return result;
         
-        return output;
     }
 };
