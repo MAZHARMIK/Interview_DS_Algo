@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20Leaves%20Of%20Binary%20Tree">Find Leaves Of Binary Tree (Leetcode-366)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Diameter%20of%20Binary%20Tree">Diameter of Binary Tree (Leetcode-543)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
