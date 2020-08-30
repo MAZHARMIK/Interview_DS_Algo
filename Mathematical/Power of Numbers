@@ -1,0 +1,45 @@
+/*
+    Company Tags : Amazon, Walmart
+    Link to Qn   : https://practice.geeksforgeeks.org/problems/power-of-numbers/0
+*/
+
+#include<iostream>
+using namespace std;
+typedef unsigned long long ll;
+#define m 1000000007
+
+ll myPow(ll x, ll n) {
+    if(n == 0)
+        return 1;
+    if(x == 1)
+        return 1;
+    
+    ll result = myPow(x, n/2);
+    result = (result%m * result%m)%m;
+    if(n%2 != 0)
+        result = (result%m * x%m)%m;
+    return result;
+}
+
+ll reverse(ll N) {
+    ll sum = 0;
+    while(N) {
+        ll last = N%10;
+        sum  = sum*10 + last;
+        N = N/10;
+    }
+    return sum;
+}
+
+int main()
+ {
+	int T;
+	cin >> T;
+	while(T--) {
+	    ll N;
+	    cin >> N;
+	    ll R = reverse(N);
+	    cout << myPow(N, R)%m << endl;
+	}
+	return 0;
+}
