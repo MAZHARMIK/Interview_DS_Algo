@@ -36,16 +36,17 @@ int main()
 	cin >> T;
 
 	while(T--) {
-	    cin >> x;
-	    st.clear();
-	    cout << 0 << " ";
-	    for(int i = 1; i<=9; i++)
-	        jump(i, x);
-	    set<int>::iterator it;
-      for(it = st.begin(); it!=st.end(); it++){
-          cout << *it << " ";
-      }
-      cout << "\n";
+        cin >> x;
+        st.clear();
+        cout << 0 << " ";
+        for(int i = 1; i<=9; i++) {
+            jump(i, x);
+        }
+        set<int>::iterator it;
+        for(it = st.begin(); it!=st.end(); it++){
+            cout << *it << " ";
+        }
+        cout << "\n";
 	}
-	return 0;
+return 0;
 }
