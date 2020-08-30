@@ -1,0 +1,30 @@
+/*
+    Company Tags  : Accolite, Adobe, Amazon, D-E-Shaw, MakeMyTrip, Microsoft, Payu
+    Leetcode Link : https://leetcode.com/problems/trapping-rain-water/
+*/
+
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        int n = height.size();
+        if(n == 1 || n == 0)
+            return 0;
+        stack<int> st;
+        int water = 0;
+        for(int i = 0; i<n; i++) {
+            while(!st.empty() && height[st.top()] < height[i]) {
+                int pop_height = height[st.top()];
+                st.pop();
+                if(st.empty())
+                    break;
+                
+                int distance  = i - st.top() - 1;
+                int minHeight = min(height[st.top()], height[i])-pop_height;
+                water += (distance*minHeight);
+            }
+            st.push(i);
+        }
+        
+        return water;
+    }
+};
