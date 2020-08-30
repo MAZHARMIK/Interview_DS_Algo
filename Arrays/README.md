@@ -92,18 +92,23 @@
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/3Sum">3Sum (Leetcode - 15)</a>
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Majority%20Element%20(Moore's%20Voting)">Majority Element (Moore's Voting) (Leetcode - 169)</a>
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Majority%20Element%20II">Majority Element II (Moore's Voting) (Leetcode - 229)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Trapping%20Rain%20Water%20(without%20stack)">Trapping Rain Water (without stack) (Leetcode - 42)</a>
 				</td>
 			</tr>
 		</tbody>
