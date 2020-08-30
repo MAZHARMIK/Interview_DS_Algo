@@ -15,8 +15,13 @@
 				</td>
 			</tr>
 			<tr>
-        <td>
+       				 <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Pow(x%2C%20n)">Pow(x, n)-Leetcode-50</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Power%20of%20Numbers">Power of Numbers</a>
 				</td>
 			</tr>
 		</tbody>
