@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Find%20whether%20path%20exist%20(DFS)">Find whether path exist (DFS)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Find%20whether%20path%20exist%20(BFS)">Find whether path exist (BFS)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
