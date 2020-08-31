@@ -120,8 +120,13 @@
 				</td>
 			</tr>
 			<tr>
-        <td>
+       				 <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Spanning%20Tree%20(Prim's)">Minimum Spanning Tree (Prim's)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Largest%20Component%20Size%20by%20Common%20Factor">Largest Component Size by Common Factor : Leetcode-952 </a>
 				</td>
 			</tr>
 		</tbody>
