@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Trapping%20Rain%20Water%20(using%20stack)">Trapping Rain Water (using stack) (Leetcode - 42)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Min%20Stack%20(O(n)%20space)">Min Stack (O(n) space) (Leetcode - 155)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
