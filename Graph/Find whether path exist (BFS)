@@ -1,0 +1,78 @@
+/*
+    Company Tags : Adobe, Amazon, Morgan Stanley, Samsung
+    Link of Qn   : https://practice.geeksforgeeks.org/problems/find-whether-path-exist/0/
+*/
+
+#include<iostream>
+#include<vector>
+#include<queue>
+using namespace std;
+vector<vector<int>> directions{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+bool isSafe(vector<vector<int>>& grid, int i, int j, int n) {
+    if(i < 0 || i >= n || j < 0 || j>= n || 
+        grid[i][j] == -1 || grid[i][j] == 0)
+        return false;
+    return true;
+}
+
+bool BFS(vector<vector<int>>& grid, pair<int, int> source, pair<int, int> dest, int n) {
+    queue<pair<int, int>> que;
+    que.push(source);
+    while(!que.empty()) {
+        pair<int, int> curr = que.front();
+        que.pop();
+        
+        if(curr == dest)
+            return true;
+        
+        int i = curr.first;
+        int j = curr.second;
+        grid[i][j] = -1;
+        for(vector<int> dir:directions) {
+            int new_i = i + dir[0];
+            int new_j = j + dir[1];
+            if(isSafe(grid, new_i, new_j, n))
+                que.push({new_i, new_j});
+        }
+    }
+    return false;
+}
+
+int main()
+ {
+	int T;
+	cin >> T;
+	while(T--) {
+	    int n;
+	    cin >> n;
+	    vector<vector<int>> grid(n, vector<int>(n));
+	    for(int i = 0; i<n; i++) {
+	        for(int j = 0; j<n; j++) {
+	            cin >> grid[i][j];
+	        }
+	    }
+	    
+	    bool source_found = false;
+	    bool dest_dound   = false;
+	    pair<int, int> source;
+	    pair<int, int> dest;
+	    for(int i = 0; i<n; i++) {
+	        for(int j = 0; j<n; j++) {
+	            if(grid[i][j] == 1 && !source_found) {
+	                source.first  = i;
+	                source.second = j;
+	            } else if(grid[i][j] == 2 && !dest_dound) {
+	                dest.first  = i;
+	                dest.second = j;
+	            }
+	            if(source_found && dest_dound)
+	                break;
+	        }
+	        if(source_found && dest_dound)
+	                break;
+	    }
+	    
+	    cout << BFS(grid, source, dest, n) << endl;
+	}
+	return 0;
+}
