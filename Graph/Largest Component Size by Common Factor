@@ -1,0 +1,44 @@
+/*
+    Company Tags  : Google
+    Leetcode Link : 
+*/
+
+class Solution {
+public:
+    int Find(int x, vector<int>& parent) {
+        if(parent[x] == -1)
+            return x;
+        
+        return parent[x] = Find(parent[x], parent);
+    }
+    
+    void Union(int x, int y, vector<int>& parent) {
+        int s1 = Find(x, parent);
+        int s2 = Find(y, parent);
+        if(s1 != s2) {
+            parent[s2] = s1;
+        }
+    }
+    
+    int largestComponentSize(vector<int>& A) {
+        vector<int> parent(100001, -1);
+        for(int x:A) {
+            int srt = sqrt(x);
+            for(int i = 2; i<=srt; i++) {
+                if(x%i == 0) {
+                    Union(i, x, parent);
+                    Union(x, x/i, parent);
+                }
+            }
+        }
+        
+        int count = 0;
+        unordered_map<int, int> mp;
+        for(int x:A) {
+            int set = Find(x, parent);
+            count = max(count, 1+mp[set]);
+            mp[set]++;
+        }
+        return count;
+    }
+};
