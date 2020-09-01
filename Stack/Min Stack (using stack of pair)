@@ -1,0 +1,40 @@
+class MinStack {
+public:
+    /** initialize your data structure here. */
+    stack<pair<long long int, long long int>> s;
+    long long minElement = INT_MAX;
+    MinStack() {
+        
+    }
+    
+    void push(int x) {
+        if(x < minElement) {
+            s.push({x, x});
+            minElement = x;
+        } else {
+            if(s.empty()) {
+                s.push({x, x});
+            } else {
+                s.push({x, s.top().second});
+            }
+        }
+    }
+    
+    void pop() {
+        s.pop();
+        if(s.empty()) {
+            minElement = INT_MAX;
+            return;
+        }
+        
+        minElement = s.top().second;
+    }
+    
+    int top() {
+        return s.top().first;
+    }
+    
+    int getMin() {
+        return minElement;
+    }
+};
