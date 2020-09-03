@@ -1,0 +1,34 @@
+/*
+    Company Tags    : Microsoft
+    Link to Qn      : https://practice.geeksforgeeks.org/problems/prime-factors/0
+    Time Complexity : O(sqrt(n) + log(n)) = O(sqrt(n)) :  Because, for all i, the inner loop will run for log(n) times.
+*/
+
+#include<iostream>
+#include<math.h>
+#include<set>
+using namespace std;
+int main()
+ {
+	int T;
+	cin >> T;
+	while(T--) {
+	    int n;
+	    cin >> n;
+	    int x = sqrt(n);
+	    set<int> st;
+	    for(int i = 2; i<=x; i++) {
+	        while(n%i == 0) {
+	            st.insert(i);
+	            n = n/i;
+	        }
+	    }
+	    if(n != 1)
+	        st.insert(n);
+	    for(int i:st) {
+	        cout << i << " ";
+	    }
+	    cout << endl;
+	}
+	return 0;
+}
