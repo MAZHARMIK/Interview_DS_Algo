@@ -24,5 +24,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Power%20of%20Numbers">Power of Numbers</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Prime%20Factors">Prime Factors</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
