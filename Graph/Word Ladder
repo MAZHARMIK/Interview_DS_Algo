@@ -1,0 +1,47 @@
+/*
+    Company Tags  : Microsoft, Amazon
+    Leetcode Link : https://leetcode.com/problems/word-ladder/
+*/
+class Solution {
+public:
+    void collectAdjacentWords(queue<string>& que, map<string, bool>& mp, string curr) {
+        int n = curr.length();
+        for(int i = 0; i<n; i++) {
+            char temp = curr[i];
+            for(char c='a'; c<='z'; c++) {
+                curr[i] = c;
+                if(mp.count(curr) && mp[curr] == false) {
+                    que.push(curr);
+                    mp[curr] = true;
+                } 
+            }
+            curr[i] = temp;
+        }
+    }
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+        if(wordList.size() == 0)
+            return 0;
+        map<string, bool> mp;
+        for(string str:wordList) {
+            mp[str] = false;
+        }
+        if(!mp.count(endWord))
+            return 0;
+        
+        queue<string> que;
+        que.push(beginWord);
+        int level = 0;
+        while(!que.empty()) {
+            int n = que.size();
+            level++;
+            while(n--) {
+                string curr = que.front();
+                que.pop();
+                if(curr == endWord)
+                    return level;
+                collectAdjacentWords(que, mp, curr);   
+            }
+        }
+        return 0;
+    }
+};
