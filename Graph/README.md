@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Find%20whether%20path%20exist%20(BFS)">Find whether path exist (BFS)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Word%20Ladder">Word Ladder</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
