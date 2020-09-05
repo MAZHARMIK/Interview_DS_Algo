@@ -1,0 +1,21 @@
+/*
+    Company Tags  : Amazon, Microsoft, Ola Cabs, Qualcomm
+    Leetcode Link : https://leetcode.com/problems/single-number-ii/
+*/
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int result = 0;
+        for(int i = 0; i<32; i++) {
+            int x = 1 << i;
+            int sum = 0;
+            for(int j:nums) {
+                if(j&x)
+                    sum++;
+            }
+            if(sum%3 != 0)
+                result |= x;
+        }
+        return result;
+    }
+};
