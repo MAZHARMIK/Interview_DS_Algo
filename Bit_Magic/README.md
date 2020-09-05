@@ -3,8 +3,6 @@
 
 # Bit_Magic : :triangular_flag_on_post:
 
-<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Intervals_Based_Qn">:file_folder:Intervals_Based_Qn</a>
-
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
 		<thead>
