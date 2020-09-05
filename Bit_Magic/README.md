@@ -10,8 +10,13 @@
 		</thead>
 		<tbody>
 			<tr>
-        <td>
+       				 <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Single%20Number%20III">Single Number III (Leetcode-260)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Single%20Number%20II">Single Number II (Leetcode-137)</a>
 				</td>
 			</tr>
 		</tbody>
