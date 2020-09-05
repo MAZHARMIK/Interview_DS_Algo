@@ -1,0 +1,27 @@
+/*
+    Company Tags  : Amazon, Microsoft, Ola Cabs, Qualcomm
+    Leetcode Link : https://leetcode.com/problems/single-number-iii/ 
+*/
+
+class Solution {
+public:
+    vector<int> singleNumber(vector<int>& A) {
+        int xor_r = 0;
+        for(int i:A)
+            xor_r ^= i;
+        
+        int mask = (xor_r)&(-xor_r);
+        int group1  = 0;
+        int group2  = 0;
+        
+        for(int i:A) {
+            if(i&mask) {
+                group1 ^= i;
+            } else {
+                group2 ^= i;
+            }
+        }
+        
+        return {group1, group2};
+    }
+};
