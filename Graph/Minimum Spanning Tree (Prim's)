@@ -22,8 +22,9 @@ int spanningTree(int V, int E, vector<vector<int>> &graph) {
     
     parent[0] = -1;
     key[0] = 0;
-    
-    for(int count = 0; count < V; count++) {
+    //since we need all V vertices in out MST
+    //we have already included 0 , so we will start count from 1 to V-1 vertices
+    for(int count = 1; count <= V-1; count++) {
         int u = minKey(V, inMST, key);
         inMST[u] = true;
         
