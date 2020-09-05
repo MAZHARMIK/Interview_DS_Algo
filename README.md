@@ -14,5 +14,6 @@ So, Look for <strong><em>COMPANY TAGS</em></strong> above every solution. :dizzy
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph">Graph :earth_asia:</a></li>
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Trie">Trie 🌳</a></li>
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Backtracking">Backtracking :end:</a></li>
-   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Stack">Stack :books:</a></li>
+  <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Stack">Stack :books:</a></li>
+  <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Bit_Magic">Bit_Magic :keycap_ten:</a></li>
 </ul>
