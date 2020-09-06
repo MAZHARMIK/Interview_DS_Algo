@@ -111,5 +111,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Trapping%20Rain%20Water%20(without%20stack)">Trapping Rain Water (without stack) (Leetcode - 42)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Number%20of%20Ways%20Where%20Square%20of%20Number%20Is%20Equal%20to%20Product%20of%20Two%20Numbers">Number of Ways Where Square of Number Is Equal to Product of Two Numbers (Leetcode - 1577)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
