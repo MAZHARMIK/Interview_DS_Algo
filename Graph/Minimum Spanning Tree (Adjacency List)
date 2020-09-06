@@ -1,0 +1,225 @@
+//For Prim's algorithm, we need a Min Binary Heap which supports :
+// * Data structure to support following operations
+// * extracMin - O(logn)
+// * addToHeap - O(logn)
+// * containsKey - O(1)
+// * decreaseKey - O(logn)
+// * getKeyWeight - O(1)
+
+#include<bits/stdc++.h>
+using namespace std;
+
+//just like linked list
+struct AdjListNode {
+    int dest;
+    int weight;
+    AdjListNode* next;
+};
+
+struct AdjList {
+    AdjListNode* head; //pointer to head node of an adjacency list
+};
+
+struct Graph {
+    int V;
+    AdjList* array;
+};
+
+AdjListNode* newAdjListNode(int dest, int weight) {
+    AdjListNode* newNode = new AdjListNode();
+    newNode->weight  = weight;
+    newNode->dest    = dest;
+    newNode->next    = NULL;
+    return newNode;
+}
+
+Graph* createGraph(int V) {
+    Graph* graph = new Graph();
+    graph->V     = V;
+
+    graph->array = (AdjList*)malloc(V*sizeof(AdjList));
+    for(int i = 0; i<V; i++) {
+        graph->array[i].head = NULL;
+    }
+    return graph;
+}
+
+void addEdge(Graph* graph, int src, int dest, int weight) {
+    //u--->v
+    AdjListNode* newNode = newAdjListNode(dest, weight);
+    newNode->next = graph->array[src].head;
+    graph->array[src].head = newNode;
+
+    //v--->u
+    newNode = newAdjListNode(src, weight);
+    newNode->next = graph->array[dest].head;
+    graph->array[dest].head = newNode;
+}
+
+struct MinHeapNode {
+    int v;
+    int key;
+};
+
+struct MinHeap {
+    int size;
+    int capacity;
+    int* pos;
+    MinHeapNode** array; //an array of pointers to MinHeapNode
+};
+
+MinHeapNode* newMinHeapNode(int v, int key) {
+    MinHeapNode* minHeapNode = new MinHeapNode();
+    minHeapNode->v = v;
+    minHeapNode->key = key;
+    return minHeapNode;
+}
+
+MinHeap* createMinHeap(int capacity) {
+    MinHeap* minHeap  = new MinHeap();
+    minHeap->size     = 0;
+    minHeap->capacity = capacity;
+    minHeap->pos      = (int*)malloc(capacity*sizeof(int));
+    minHeap->array    = (struct MinHeapNode**)malloc(capacity*sizeof(MinHeapNode*));
+}
+
+void swapMinHeapNode(MinHeapNode** a, MinHeapNode** b) {
+    MinHeapNode* temp = *a;
+    *a                = *b;
+    *b                = temp;
+}
+
+void minHeapify(MinHeap* minHeap, int idx) {
+    int smallest = idx;
+    int left     = 2*idx + 1;
+    int right    = 2*idx + 2;
+
+    if(left < minHeap->size && minHeap->array[left]->key < minHeap->array[idx]->key)
+        smallest = left;
+    if(right < minHeap->size && minHeap->array[right]->key < minHeap->array[smallest]->key)
+        smallest = right;
+
+    if(smallest != idx) {
+        //we need to swap minHeap node at idx and at smallest
+        MinHeapNode* smallestNode = minHeap->array[smallest];
+        MinHeapNode* idxNode      = minHeap->array[idx];
+
+        //swap positions
+        minHeap->pos[smallestNode->v] = idx;
+        minHeap->pos[idxNode->v]      = smallest;
+
+        //swap nodes
+        swapMinHeapNode(&minHeap->array[smallest], &minHeap->array[idx]);
+
+        minHeapify(minHeap, smallest);
+    }
+}
+
+int isEmpty(MinHeap* minHeap) {
+    return minHeap->size == 0;
+}
+
+MinHeapNode* extractMin(MinHeap* minHeap) {
+    if(isEmpty(minHeap))
+        return NULL;
+
+    //root to be extracted
+    MinHeapNode* root = minHeap->array[0];
+
+    MinHeapNode* lastNode  = minHeap->array[minHeap->size-1];
+    minHeap->array[0]      = lastNode;
+
+    //update position of lastNode;
+    minHeap->pos[lastNode->v] = 0;
+    minHeap->pos[root->v] = minHeap->size-1;
+
+    minHeap->size--;
+    minHeapify(minHeap, 0);
+
+    return root;
+}
+
+void decreaseKey(MinHeap* minHeap, int v, int key) {
+    int i = minHeap->pos[v];
+    minHeap->array[i]->key = key;
+
+    while(i && minHeap->array[i]->key < minHeap->array[(i-1)/2]->key) {
+        minHeap->pos[minHeap->array[i]->v]      = (i-1)/2;
+        minHeap->pos[minHeap->array[(i-1)/2]->v] = i;
+        swapMinHeapNode(&minHeap->array[i], &minHeap->array[(i-1)/2]);
+
+        i = (i-1)/2;
+    }
+}
+
+bool isInMinHeap(MinHeap* minHeap, int v) {
+    return minHeap->pos[v] < minHeap->size;
+}
+
+void printMST(vector<int>& parent, int V) {
+    for(int i = 1; i<V; i++)
+        cout << parent[i] << " -> " << i << endl;
+}
+
+void printMST(Graph* graph) {
+    int V = graph->V;
+    vector<int> parent(V);
+    vector<int> key(V);
+
+    MinHeap* minHeap = createMinHeap(V);
+    for(int v = 1; v<V; v++) {
+        parent[v] = -1;
+        key[v] = INT_MAX;
+        minHeap->array[v] = newMinHeapNode(v, key[v]);
+        minHeap->pos[v] = v;
+    }
+    key[0] = 0;
+    minHeap->array[0] = newMinHeapNode(0, key[0]);
+
+    minHeap->size = V;
+    while(!isEmpty(minHeap)) {
+        //extract the node with minimum key value
+        MinHeapNode* minHeapNode = extractMin(minHeap);
+        //store the extracted vertex number
+        int u = minHeapNode->v;
+
+        //traverse through all adjacent vertices of u
+        AdjListNode* pCrawl = graph->array[u].head;
+        while(pCrawl) {
+            int v = pCrawl->dest;
+
+            if(isInMinHeap(minHeap, v) && pCrawl->weight < key[v]) {
+                key[v] = pCrawl->weight;
+                parent[v] = u;
+                decreaseKey(minHeap, v, key[v]);
+            }
+            pCrawl = pCrawl->next;
+        }
+    }
+    printMST(parent, V);
+}
+
+int main()
+{
+    // Let us create the graph given in above fugure
+    int V = 9;
+    struct Graph* graph = createGraph(V);
+    addEdge(graph, 0, 1, 4);
+    addEdge(graph, 0, 7, 8);
+    addEdge(graph, 1, 2, 8);
+    addEdge(graph, 1, 7, 11);
+    addEdge(graph, 2, 3, 7);
+    addEdge(graph, 2, 8, 2);
+    addEdge(graph, 2, 5, 4);
+    addEdge(graph, 3, 4, 9);
+    addEdge(graph, 3, 5, 14);
+    addEdge(graph, 4, 5, 10);
+    addEdge(graph, 5, 6, 2);
+    addEdge(graph, 6, 7, 1);
+    addEdge(graph, 6, 8, 6);
+    addEdge(graph, 7, 8, 7);
+
+    printMST(graph);
+
+    return 0;
+}
