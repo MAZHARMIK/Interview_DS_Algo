@@ -1,0 +1,27 @@
+/*
+    Company Tags  : Google
+    Leetcode Link : https://leetcode.com/problems/boats-to-save-people/
+*/
+
+class Solution {
+public:
+    int numRescueBoats(vector<int>& people, int limit) {
+        int boats = 0;
+        sort(people.begin(), people.end());
+        int n = people.size();
+        int i = 0, j = n-1;
+        while(i <= j) {
+            if(people[i] + people[j] <= limit) {
+                i++;
+                j--;
+            } else {
+                if(people[i] < people[j])
+                    j--;
+                else
+                    i++;
+            }
+            boats++;
+        }
+        return boats;
+    }
+};
