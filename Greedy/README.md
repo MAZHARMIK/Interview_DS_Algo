@@ -10,8 +10,13 @@
 		</thead>
 		<tbody>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Boats%20to%20Save%20People">Boats to Save People (Leetcode-881)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Deletion%20Cost%20to%20Avoid%20Repeating%20Letters">Minimum Deletion Cost to Avoid Repeating Letters (Leetcode-1578)</a>
 				</td>
 			</tr>
 		</tbody>
