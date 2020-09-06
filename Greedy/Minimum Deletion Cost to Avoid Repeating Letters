@@ -1,0 +1,28 @@
+/*
+    Leetcode Weekly Contest-205 
+    Link : https://leetcode.com/contest/weekly-contest-205/
+*/
+
+class Solution {
+public:
+    int minCost(string s, vector<int>& cost) {
+        int n = cost.size();
+        stack<pair<int, int>> st;
+        int sum = 0;
+        
+        for(int i = 0; i<n; i++) {
+            if(!st.empty() && st.top().first == s[i]) {
+                if(cost[st.top().second] < cost[i]) {
+                    sum += cost[st.top().second];
+                    st.pop();
+                    st.push({s[i], i});
+                } else {
+                    sum += cost[i];
+                }
+            } else {
+                st.push({s[i], i});
+            }
+        }
+        return sum;
+    }
+};
