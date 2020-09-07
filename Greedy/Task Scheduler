@@ -1,0 +1,28 @@
+/*
+    Company Tags  : Facebook
+    Leetcode Link : https://leetcode.com/problems/task-scheduler/
+*/
+
+class Solution {
+public:
+    int leastInterval(vector<char>& tasks, int n) {
+        vector<int> count(26);
+        for(char ch:tasks) {
+            count[ch-'A']++;
+        }
+        
+        sort(count.begin(), count.end());
+        
+        int max_val        = count[25]-1;
+        int max_idle_spots = n*max_val;
+        
+        for(int i = 24; i>=0; i--) {
+            max_idle_spots -= min(count[i], max_val);
+        }
+        
+        if(max_idle_spots > 0)
+            return max_idle_spots + tasks.size();
+        
+        return tasks.size();
+    }
+};
