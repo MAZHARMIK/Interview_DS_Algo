@@ -116,5 +116,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Number%20of%20Ways%20Where%20Square%20of%20Number%20Is%20Equal%20to%20Product%20of%20Two%20Numbers">Number of Ways Where Square of Number Is Equal to Product of Two Numbers (Leetcode - 1577)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Image%20Overlap">Image Overlap (Leetcode - 835)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
