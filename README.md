@@ -7,7 +7,7 @@ So, Look for <strong><em>COMPANY TAGS</em></strong> above every solution. :dizzy
 <h3>Contents : :pencil:</h3>
 <ul>
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Tree">Tree 🌳</a></li>
-  <li><a href="href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays"> Arrays :slot_machine:</a></li>
+  <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays"> Arrays :slot_machine:</a></li>
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Mathematical">Mathematical :straight_ruler:</a></li>
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Heap">Heap :warning:</a></li>
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/DP">DP :calendar:</a></li>
