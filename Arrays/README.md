@@ -7,6 +7,8 @@
 
 <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/2-D%20Array">:file_folder:2-D Array</a>
 
+<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Binary%20Search">:file_folder:Binary Search</a>
+
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
 		<thead>
