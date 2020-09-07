@@ -1,0 +1,23 @@
+class Solution {
+public:
+    int maxOverlap(vector<vector<int>>& A, vector<vector<int>>& B) {
+        int n = A.size();
+        int count = 0;
+        for(int x_shift = 0; x_shift<n; x_shift++) {
+            for(int y_shift = 0; y_shift<n; y_shift++) {
+                int temp = 0;
+                for(int i = y_shift; i<n; i++) { //because y-shift changes row
+                    for(int j = x_shift; j<n; j++) { //because x-shift changes column
+                        if(A[i][j] == 1 && B[i-y_shift][j-x_shift] == 1)
+                            temp++;
+                    }
+                }
+                count = max(count, temp);
+            }
+        }
+        return count;
+    }
+    int largestOverlap(vector<vector<int>>& A, vector<vector<int>>& B) {
+        return max(maxOverlap(A, B), maxOverlap(B, A));
+    }
+};
