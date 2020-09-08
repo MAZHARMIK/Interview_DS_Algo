@@ -64,5 +64,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Task%20Scheduler%20(using%20Heap)">Task Scheduler (Leetcode -621)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Heap%20Sort">Heap Sort</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
