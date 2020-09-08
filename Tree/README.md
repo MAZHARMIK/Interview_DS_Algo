@@ -144,5 +144,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/All%20Elements%20in%20Two%20Binary%20Search%20Trees">All Elements in Two Binary Search Trees (Leetcode-1305)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Modify%20tree%20for%20preorder%20using%20only%20right%20pointers">Modify tree for preorder using only right pointers</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
