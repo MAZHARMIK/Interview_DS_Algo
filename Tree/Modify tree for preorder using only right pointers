@@ -1,0 +1,56 @@
+/*
+  Questions based on flattenning a tree, flatenning a LinkedList, flattening a Doubly linked list are mainly based on writing a proper recursive function just
+  like a story and forget everything and leave recursion to do your rest of the work.
+*/
+
+//Method - 1
+//Using reverser PreOrder
+
+void modifyTree(Node* root, Node* &next) {
+    if(!root)
+        return;
+
+    modifyTree(root->left);
+    modifyTree(root->right);
+
+    if(next == NULL) {
+        next = root;
+    } else {
+        root->right = next;
+        next = root;
+    }
+}
+
+//Method-2
+void modifyTree(Node* root) {
+    if(!root)
+        return;
+
+    modifyTree(root->left);
+    modifyTree(root->right);
+    
+    Node* temp  = root->right;
+    root->right = root->left;
+    root->left  = NULL;
+    while(root->right) {
+        root = root->right;
+    }
+    root->right = temp;
+}
+
+//Method-3
+void modifyTree(Node* root) {
+    if(!root)
+        return;
+
+    if(root->left) {
+        Node* temp = root->left;
+        while(temp->right) {
+            temp = temp->right);
+        }
+        temp->right = root->right;
+        root->right = root->left;
+        root->left  = NULL;
+    }
+    modifyTree(root->right);
+}
