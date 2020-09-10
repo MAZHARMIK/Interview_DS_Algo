@@ -137,5 +137,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Cost%20For%20Tickets%20(Top%20Down)">Minimum Cost For Tickets (Top Down) (Leetcode - 983)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20II%20(Brute%20Force%20-%3E%20Memoized(DP)%20-%3EBest)">Jump Game II (Brute Force -> Memoized(DP) ->Best) (Leetcode - 45)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
