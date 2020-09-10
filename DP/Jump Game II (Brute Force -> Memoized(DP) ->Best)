@@ -1,0 +1,75 @@
+/*
+    Company Tags  : Adobe, Amazon, Housing.com, Moonfrog Labs, OYO Rooms, Saplabs, Walmart
+    Leetcode Link : https://leetcode.com/problems/jump-game-ii/
+*/
+
+class Solution {
+public:
+    int optimal(vector<int>& nums, int n) {
+        int maxReachable  = nums[0];
+        int jumps = 1;
+        int stepsPossible = nums[0];
+        
+        for(int i = 1; i<n; i++) {
+            if(i == n-1)
+                return jumps;
+            
+            maxReachable = max(maxReachable, nums[i]+i);
+            stepsPossible--;
+            if(stepsPossible < 0)
+                return -1;
+            
+            if(stepsPossible == 0) {
+                jumps++;
+                if(i >= maxReachable)
+                    return -1;
+                stepsPossible = maxReachable - i;
+            }
+        }
+        return jumps;
+    }
+    
+    
+    int bruteForce(int idx, vector<int>& nums, int n) {
+        if(idx >= n)
+            return INT_MAX;
+        
+        if(idx == n-1)
+            return 0;
+        
+        int minS = 10000000;
+        for(int i = 1; i<=nums[idx]; i++) {
+            minS = min(minS, solve(idx+i, nums, n));
+        }
+        
+        return 1 + minS;
+    }
+    
+    
+    int Memoized(vector<int>& nums, int n) {
+        vector<int> t(n);
+        //t[i] = min steps to reach i from 0
+        t[0] = 0;
+        for(int i = 1; i<n; i++) {
+            int minS = INT_MAX;
+            for(int j = 0; j<i; j++) {
+                if(nums[j]+j >= i) { //if i is reachable from i
+                    minS = min(minS, t[j]);
+                }
+            }
+            if(minS == INT_MAX)
+                t[i] = INT_MAX;
+            else
+                t[i] = 1 + minS;
+        }
+        return t[n-1];
+    }
+    int jump(vector<int>& nums) {
+        int n = nums.size();
+        if(n == 0 || n == 1)
+            return 0;
+        //return Memoized(nums, n);       //TLE on leetcode
+        //return bruteForce(0, nums, n);  //TLE leetcode
+        return   optimal();               //Accepted on Leetcode
+    }
+};
