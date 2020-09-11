@@ -1,0 +1,32 @@
+/*
+    Company Tags  : Amazon, Microsoft, Morgan Stanley, Myntra, Myntra-Question
+    Leetcode Link : https://leetcode.com/problems/maximum-product-subarray/
+*/
+
+class Solution {
+public:
+    int maxProduct(vector<int>& nums) {
+        int n = nums.size();
+        if(n == 1)
+            return nums[0];
+        
+        int max_prev_p = nums[0];
+        int min_prev_p = nums[0];
+        int ans = nums[0];
+        
+        int max_curr_p = nums[0];
+        int min_curr_p = nums[0];
+        
+        for(int i = 1; i<n; i++) {
+            max_curr_p = max({max_prev_p*nums[i],  min_prev_p*nums[i],  nums[i]});
+            
+            min_curr_p = min({max_prev_p*nums[i], min_prev_p*nums[i], nums[i]});
+            
+            ans = max(ans, max_curr_p);
+            
+            max_prev_p = max_curr_p;
+            min_prev_p = min_curr_p;
+        }
+        return ans;
+    }
+};
