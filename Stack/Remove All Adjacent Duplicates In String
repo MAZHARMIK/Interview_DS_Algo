@@ -1,0 +1,44 @@
+/*
+    Company Tags  : Microsoft
+    Leetcode Link : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+*/
+
+class Solution {
+public:
+    string removeDupUsingStack(string S) {
+        stack<char> st;
+        
+        for(int i = S.length()-1; i>=0; i--) {
+            if(st.empty())
+                st.push(S[i]);
+            else if(st.top() == S[i]) {
+                st.pop();
+            } else {
+                st.push(S[i]);
+            }
+        }
+        string result = "";
+        while(!st.empty()) {
+            result += st.top();
+            st.pop();
+        }
+        return result;
+    }
+    string removeDupWithoutStack(string S) {
+        string result = "";
+        
+        for(char ch:S) {
+            if(result == "")
+                result += ch;
+            else if(result.back() == ch)
+                result.pop_back();
+            else
+                result += ch;
+        }
+        return result;
+    }
+    string removeDuplicates(string S) {
+        //return removeDupWithoutStack(S);
+        return removeDupUsingStack(S);
+    }
+};
