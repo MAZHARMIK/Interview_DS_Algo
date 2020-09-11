@@ -125,7 +125,6 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Image%20Overlap">Image Overlap (Leetcode - 835)</a>
 				</td>
 			</tr>
-			
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum%20Product%20Subarray">Maximum Product Subarray (Leetcode - 152)</a>
