@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Subsets%20II">Subsets II (Leetcode : 90)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combination%20Sum%20(Method-2)">Combination Sum (Leetcode : 39)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
