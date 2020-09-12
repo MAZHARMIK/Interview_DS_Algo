@@ -1,3 +1,7 @@
+/*
+    Company Tags  : Adobe, Amazon, Microsoft, Morgan Stanley, Samsung, Snapdeal, Times Internet
+    Leetcode Link : https://leetcode.com/problems/search-in-rotated-sorted-array/
+*/
 class Solution {
 public:
     int find_pivot(vector<int>& nums, int l, int r) {
