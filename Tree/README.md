@@ -149,5 +149,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Modify%20tree%20for%20preorder%20using%20only%20right%20pointers">Modify tree for preorder using only right pointers</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20Binary%20Tree">Maximum Binary Tree (Leetcode-654)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
