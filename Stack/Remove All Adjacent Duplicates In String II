@@ -1,0 +1,33 @@
+/*
+    Company Tags  : Samsung, Microsoft
+    Leetcode Link : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
+*/
+class Solution {
+public:
+    string removeDuplicates(string s, int k) {
+        stack<pair<char, int>> st;
+        int n = s.length();
+        for(int i = n-1; i>=0; i--) {
+            if(st.empty()) {
+                st.push({s[i], 1});
+            } else {
+                if(st.top().first != s[i]) {
+                    st.push({s[i], 1});
+                } else {
+                    st.top().second++;
+                    if(st.top().second == k)
+                        st.pop();
+                }
+            }
+        }
+        string result = "";
+        while(!st.empty()) {
+            int x   = st.top().second;
+            char ch = st.top().first;
+            while(x--)
+                result += ch;
+            st.pop();
+        }
+        return result;
+    }
+};
