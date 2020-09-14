@@ -1,0 +1,77 @@
+/*
+    Company Tags : Amazon, Fab.com, Flipkart, Google, Microsoft, One97, United Health Group, Zoho
+    Link to Qn   : https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1
+*/
+
+//using stack
+int getId(int M[MAX][MAX], int n) {
+    stack<int> st;
+    for(int i = 0; i<n; i++)
+        st.push(i);
+    
+    while(st.size() > 1) {
+        int p1 = st.top();
+        st.pop();
+        int p2 = st.top();
+        st.pop();
+        
+        if(M[p1][p2]) //p1 knows p2 means p1 can't be a celebrity
+            st.push(p2);
+        else
+            st.push(p1);
+    }
+    int c = st.top();
+    st.pop();
+    for(int col = 0; col<n; col++) {
+        if(col != c && (M[c][col] == 1 || M[col][c] == 0))
+            return -1;
+    }
+    return c;
+}
+
+
+/**********************************************/
+//O(n2) solution : Using indegree and outdegree approach
+int getId(int M[MAX][MAX], int n) {
+    vector<int> in_degree(n, 0);
+    vector<int> out_degree(n, 0);
+    
+    for(int i = 0; i<n; i++) {
+        for(int j = 0; j<n; j++) {
+            if(M[i][j] == 1) {
+                out_degree[i]++;
+                in_degree[j]++;
+            }
+        }
+    }
+    
+    for(int i = 0; i<n; i++) {
+        if(in_degree[i] == n-1 && out_degree[i] == 0)
+            return i;
+    }
+    return -1;
+}
+
+/**********************************************/
+//O(n) solution : Using Two pointers approach
+int getId(int M[MAX][MAX], int n) {
+    int left  = 0;
+    int right = n-1;
+    
+    while(left < right) {
+        if(M[left][right] == 1) {
+            left++;
+        } else {
+            right--;
+        }
+    }
+    
+    for(int col = 0; col<n; col++) {
+        //col != left      : We shouldn't compare a person with itself
+        //M[left][col] = 1 : Means "left" is not a celebrity because it knows "col"
+        //M[col][left] = 0 : Means "left" is not a celebrity because "col" doesn't know "left"
+        if(col != left && (M[left][col] == 1 || M[col][left] == 0))
+            return -1;
+    }
+    return left;
+}
