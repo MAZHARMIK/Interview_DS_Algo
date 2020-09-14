@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/The%20Celebrity%20Problem%20-%20I%20(O(n2))">The Celebrity Problem - I (O(n2))</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/The%20Celebrity%20Problem%20-%20I%20(O(n))">The Celebrity Problem - I (O(n))</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
