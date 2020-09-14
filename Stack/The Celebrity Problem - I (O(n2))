@@ -1,0 +1,24 @@
+/*
+    Company Tags : Amazon, Fab.com, Flipkart, Google, Microsoft, One97, United Health Group, Zoho
+    Link to Qn   : https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1
+*/
+
+int getId(int M[MAX][MAX], int n) {
+    vector<int> in_degree(n, 0);
+    vector<int> out_degree(n, 0);
+    
+    for(int i = 0; i<n; i++) {
+        for(int j = 0; j<n; j++) {
+            if(M[i][j] == 1) {
+                out_degree[i]++;
+                in_degree[j]++;
+            }
+        }
+    }
+    
+    for(int i = 0; i<n; i++) {
+        if(in_degree[i] == n-1 && out_degree[i] == 0)
+            return i;
+    }
+    return -1;
+}
