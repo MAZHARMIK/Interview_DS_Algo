@@ -13,7 +13,7 @@ public:
             return possiblePartition(0, nums, 0, targetSum, k-1);
         
         for(int i = index; i<nums.size(); i++) {
-            if(!visited[i]) {
+            if(!visited[i] && currSum+nums[i] <= targetSum) {
                 visited[i] = true;
                 if(possiblePartition(i+1, nums, currSum+nums[i], targetSum, k))
                     return true;
