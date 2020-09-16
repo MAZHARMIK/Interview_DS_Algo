@@ -5,48 +5,54 @@
 
 class Solution {
 public:
-    bool possible(vector<int>& A, int subsets[], bool visited[], int targetSum, int K, int N, int idx, int lastIndex) {
-        if(subsets[idx] == targetSum) {
-            if(idx == K-2)
+    bool possible(vector<int>& nums, int subset[], bool visited[], int targetSum, int idx, int k, int n, int lastIndex) {
+        if(subset[idx] == targetSum) {
+            if(idx == k-2)
                 return true;
-            return possible(A, subsets, visited, targetSum, K, N, idx+1, N-1);
+            
+            return possible(nums, subset, visited, targetSum, idx+1, k, n, n-1);
         }
+        
         for(int i = lastIndex; i>=0; i--) {
-            if(!visited[i] && subsets[idx]+A[i] <= targetSum) {
-                subsets[idx] += A[i];
+            if(!visited[i] && subset[idx]+nums[i] <= targetSum) {
                 visited[i] = true;
-                if(possible(A, subsets, visited, targetSum, K, N, idx, i-1))
+                subset[idx] += nums[i];
+                if(possible(nums, subset, visited, targetSum, idx, k, n, i-1))
                     return true;
-                subsets[idx] -= A[i];
                 visited[i] = false;
+                subset[idx] -= nums[i];
             }
         }
         return false;
     }
-    bool canPartitionKSubsets(vector<int>& A, int K) {
-        if(K == 1)
+    
+    bool canPartitionKSubsets(vector<int>& nums, int k) {
+        if(k == 0)
             return true;
-        int N = A.size();
-        if(K > N)
+        int n = nums.size();
+        if(k > n)
             return false;
+        
         int sum = 0;
-        for(int i = 0; i<N; i++) {
-            sum += A[i];
-        }
-
-        if(sum%K != 0)
+        for(int i:nums)
+            sum +=i;
+        
+        if(sum%k != 0)
             return false;
-        int targetSum = sum/K;
-        bool visited[N];
-        int subsets[K];
-        for(int i = 0; i<N; i++)
+        
+        int targetSum = sum/k;
+        int subset[k];
+        bool visited[n];
+        for(int i = 0; i<n; i++) {
             visited[i] = false;
-        for(int i = 0; i<K; i++)
-            subsets[i] = 0;
-
-        subsets[0]   = A[N-1];
-        visited[N-1] = true;
-
-        return possible(A, subsets, visited, targetSum, K, N, 0, N-1);
+        }
+        
+        for(int i = 0; i<k; i++) {
+            subset[i] = 0;
+        }
+        
+        subset[0] = nums[n-1];
+        visited[n-1] = true;
+        return possible(nums, subset, visited, targetSum, 0, k, n, n-1);
     }
 };
