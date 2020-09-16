@@ -1,0 +1,52 @@
+/*
+    Company Tags  : Microsoft, Amazon
+    Leetcode Link : https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+*/
+
+class Solution {
+public:
+    bool possible(vector<int>& A, int subsets[], bool visited[], int targetSum, int K, int N, int idx, int lastIndex) {
+        if(subsets[idx] == targetSum) {
+            if(idx == K-2)
+                return true;
+            return possible(A, subsets, visited, targetSum, K, N, idx+1, N-1);
+        }
+        for(int i = lastIndex; i>=0; i--) {
+            if(!visited[i] && subsets[idx]+A[i] <= targetSum) {
+                subsets[idx] += A[i];
+                visited[i] = true;
+                if(possible(A, subsets, visited, targetSum, K, N, idx, i-1))
+                    return true;
+                subsets[idx] -= A[i];
+                visited[i] = false;
+            }
+        }
+        return false;
+    }
+    bool canPartitionKSubsets(vector<int>& A, int K) {
+        if(K == 1)
+            return true;
+        int N = A.size();
+        if(K > N)
+            return false;
+        int sum = 0;
+        for(int i = 0; i<N; i++) {
+            sum += A[i];
+        }
+
+        if(sum%K != 0)
+            return false;
+        int targetSum = sum/K;
+        bool visited[N];
+        int subsets[K];
+        for(int i = 0; i<N; i++)
+            visited[i] = false;
+        for(int i = 0; i<K; i++)
+            subsets[i] = 0;
+
+        subsets[0]   = A[N-1];
+        visited[N-1] = true;
+
+        return possible(A, subsets, visited, targetSum, K, N, 0, N-1);
+    }
+};
