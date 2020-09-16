@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combination%20Sum%20III">Combination Sum III(Leetcode : 216)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Partition%20to%20K%20Equal%20Sum%20Subsets%20(Method-1)">Partition to K Equal Sum Subsets(Leetcode : 698)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
