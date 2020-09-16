@@ -28,7 +28,7 @@ public:
         }
     }
     
-    int findMaxZor(trieNode* head, vector<int>& nums, int n) {
+    int findMaxZor(trieNode* head, vector<int>& nums) {
         int maX = INT_MIN;
         for(int num:nums) {
             int tempSum = 0;
@@ -61,10 +61,9 @@ public:
     
     int findMaximumXOR(vector<int>& nums) {
         trieNode* head = new trieNode();
-        int n = nums.size();
         for(int num:nums) {
             insert(num, head);
         }
-        return findMaxZor(head, nums, n);
+        return findMaxZor(head, nums);
     }
 };
