@@ -6,7 +6,7 @@ enum color{WHITE, GRAY, BLACK};
 /*
   WHITE = unvisited
   GRAY  = Its adjacent nodes are being visited
-  BLACK = Allits adjacent nodes are visited
+  BLACK = All its adjacent nodes are visited
 */
 void addEdge(map<int, vector<int>>& adj, int u, int v) {
     adj[u].push_back(v);
