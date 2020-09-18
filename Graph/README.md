@@ -154,5 +154,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Find%20the%20Celebrity">Find the Celebrity (Leetcode-277)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Spanning%20Tree%20(Kruskal's%20Algorithm)">Minimum Spanning Tree (Kruskal's Algorithm)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
