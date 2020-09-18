@@ -54,7 +54,7 @@ bool isCycle(vector<vector<int>> edge, int V) {
 }
 
 int main() {
-    int V = 3, E = 2;
+    int V = 3, E = 3;
     vector<vector<int>> edge;
     addEdge(0, 1, edge);
     addEdge(1, 2, edge);
