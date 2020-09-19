@@ -13,15 +13,13 @@ void addEdge(map<int, vector<int>>& adj, int u, int v) {
 }
 
 bool isCycleUtil(map<int, vector<int>>& adj, int start, vector<int>& NodeColor) {
-    if(NodeColor[start] == WHITE) {
-        NodeColor[start] = GRAY;
+    NodeColor[start] = GRAY;
 
-        for(auto x:adj[start]) {
-            if(NodeColor[x] == GRAY)
-                return true;
-            if(NodeColor[x] == WHITE && isCycleUtil(adj, x, NodeColor))
-                return true;
-        }
+    for(auto x:adj[start]) {
+        if(NodeColor[x] == GRAY)
+            return true;
+        if(NodeColor[x] == WHITE && isCycleUtil(adj, x, NodeColor))
+            return true;
     }
 
     NodeColor[start] = BLACK;
