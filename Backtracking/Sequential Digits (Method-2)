@@ -1,0 +1,23 @@
+/*
+    Leetcode Link : https://leetcode.com/problems/sequential-digits/submissions/
+*/
+class Solution {
+public:
+    vector<int> sequentialDigits(int low, int high) {
+        string digits = "123456789";
+        vector<int> result;
+        for(int i = 0; i<8; i++) {
+            for(int j = i+1; j<9; j++) {
+                string s_num = digits.substr(i, j-i+1);
+                
+                int i_num = stoi(s_num);
+                
+                if(i_num >= low && i_num <= high) {
+                    result.push_back(i_num);
+                }
+            }
+        }
+        sort(result.begin(), result.end());
+        return result;
+    }
+};
