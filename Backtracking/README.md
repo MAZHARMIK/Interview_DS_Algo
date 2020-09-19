@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Partition%20to%20K%20Equal%20Sum%20Subsets%20(Method-1)">Partition to K Equal Sum Subsets(Leetcode : 698)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Sequential%20Digits">Sequential Digits(Leetcode : 1291)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
