@@ -3,20 +3,16 @@
     Question Link : https://practice.geeksforgeeks.org/problems/find-the-closest-element-in-bst/1
 */
 
-int minDiff(Node *root, int k)
+// Return the minimum absolute difference between any tree node and the integer K
+int minDiff(Node *root, int K)
 {
-    if(root->data < k && root->right) {
-        int r = minDiff(root->right, k);
-        if(r < abs(root->data-k))
-            return r;
-        return abs(root->data - k);
+    if(!root)
+        return INT_MAX;
+    if(K > root->data) { 
+        int x = abs(K - root->data);
+        return min(x, minDiff(root->right, K));
+    } else {
+        int y = abs(K - root->data);
+        return min(y, minDiff(root->left, K));
     }
-    if(root->data > k && root->left) {
-        int l = minDiff(root->left, k);
-        if(l < abs(root->data-k))
-            return l;
-        return abs(root->data - k);
-    }
-
-    return abs(root->data-k);
 }
