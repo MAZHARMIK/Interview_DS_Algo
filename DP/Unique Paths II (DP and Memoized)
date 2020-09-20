@@ -1,0 +1,68 @@
+/*
+    Company Tags : Amazon, Cisco, Paytm, OLA Cabs, Walmart, LinkedIn
+    Letcode Link : https://leetcode.com/problems/unique-paths-ii/
+*/
+
+class Solution {
+public:
+    //Memoized Approach
+    int solveMemoized(vector<vector<int>>& obstacleGrid, int m, int n, int i, int j, vector<vector<int>>& t) {
+        if(i >=m || j >= n)
+            return 0;
+        if(t[i][j] != -1)
+            return t[i][j];
+        if(obstacleGrid[i][j] == 1)
+            return t[i][j] = 0;
+        if(i == m-1 && j == n-1)
+            return t[i][j] = 1;
+
+        return t[i][j] = solveMemoized(obstacleGrid, m, n, i+1, j, t) + solveMemoized(obstacleGrid, m, n, i, j+1, t);
+    }
+    
+    //Tabular approach
+    int DP(vector<vector<int>>& obstacleGrid, int m, int n) {
+        vector<vector<int>> t(m, vector<int>(n, 0));
+        if(obstacleGrid[0][0] == 1)
+            return 0;
+        
+        for(int col = 0; col<n; col++) {
+            if(col > 0 && obstacleGrid[0][col-1] == 1) {
+                t[0][col] = 0;
+                obstacleGrid[0][col] = 1; //Bcz now it's not possible to reach any cell in this row 0
+            }
+            else if(obstacleGrid[0][col] == 1)
+                t[0][col] = 0;
+            else
+                t[0][col] = 1;
+        }
+        
+        for(int row = 0; row<m; row++) {
+            if(row > 0 && obstacleGrid[row-1][0] == 1) {
+                t[row][0] = 0;
+                obstacleGrid[row][0] = 1; //Bcz now it's not possible to reach any cell in this col 0
+            }
+            else if(obstacleGrid[row][0] == 1)
+                t[row][0] = 0;
+            else
+                t[row][0] = 1;
+        }
+        
+        for(int i = 1; i<m; i++) {
+            for(int j = 1; j<n; j++) {
+                if(obstacleGrid[i][j] == 1)
+                    t[i][j] = 0;
+                else
+                    t[i][j] = t[i-1][j] + t[i][j-1];
+            }
+        }
+        return t[m-1][n-1];
+    }
+    
+    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+        int m = obstacleGrid.size();
+        int n = obstacleGrid[0].size();
+        vector<vector<int>> t(m, vector<int>(n, -1));
+        return solveMemoized(obstacleGrid, m, n, 0, 0, t);
+        //return DP(obstacleGrid, m, n);
+    }
+};
