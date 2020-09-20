@@ -179,5 +179,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra%E2%80%99s%20Algorithm%20(Adjacency%20List)">Dijkstra’s Algorithm (Adjacency List)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Unique%20Paths%20III%20(DFS)">Unique Paths III (DFS (Leetcode : 980)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
