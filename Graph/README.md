@@ -174,5 +174,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra%E2%80%99s%20Algorithm%20(Adjacency%20Martix)">Dijkstra’s Algorithm (Adjacency Martix)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra%E2%80%99s%20Algorithm%20(Adjacency%20List)">Dijkstra’s Algorithm (Adjacency List)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
