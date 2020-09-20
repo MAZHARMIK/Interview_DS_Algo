@@ -1,89 +1,95 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-class AdjListNode{
-	int v;
-	int weight;
-	public:
-		AdjListNode(int _v,int _w){
-			v = _v;
-			weight = _w;
-		}
-		int getV(){
-			return v;
-		}
-		int getW(){
-			return weight;
-		}
+
+class AdjListNode {
+public:
+    int v, wt;
+    AdjListNode(int _v, int _w) {
+        v  = _v;
+        wt = _w;
+    }
+    int getV() {
+        return v;
+    }
+    int getWt() {
+        return wt;
+    }
 };
-class Graph{
-	int V;
-	vector<AdjListNode> *adj;
-	void printMST(int* ,int*);
-	public:
-		Graph(int V);
-		~Graph();
-		void addEdge(int u,int v,int w);
-		void primMST();
+
+
+class Graph {
+    int V;
+    vector<AdjListNode> *adj;
+    void printMST(vector<int>&, vector<int>&);
+public :
+    Graph(int);
+    ~Graph();
+    void addEdge(int, int , int);
+    void primMST();
 };
-Graph::Graph(int V){
-	this->V = V;
-	adj = new vector<AdjListNode> [V];
+
+Graph::Graph(int V) {
+    this->V = V;
+    this->adj = new vector<AdjListNode> [V];
 }
-Graph::~Graph(){
-	delete[] adj;
+
+Graph::~Graph() {
+    delete[] adj;
 }
-void Graph::addEdge(int u,int v,int w){
-	adj[u].push_back(AdjListNode(v,w));
-	adj[v].push_back(AdjListNode(u,w));
+
+void Graph::addEdge(int u, int v, int wt) {
+    adj[u].push_back(AdjListNode(v, wt));
+    adj[v].push_back(AdjListNode(u, wt));
 }
-struct comp{
-	bool operator()(AdjListNode p1,AdjListNode p2){
-		if(p1.getW()!=p2.getW()){
-			return p1.getW()>p2.getW();
-		}
-	}
+
+struct myComp{
+    bool operator()(AdjListNode& adj1, AdjListNode& adj2) {
+        if(adj1.getWt() != adj2.getWt())
+            return adj1.getWt() > adj2.getWt();
+    }
 };
-void Graph::printMST(int parent[],int key[]){
-	cout<<"Edge \t Weight\n";
-	for(int i=1;i<V;i++){
-		cout<<parent[i]<<"-"<<i<<"\t"<<key[i]<<endl;
-	}
+
+void Graph::printMST(vector<int>& parent, vector<int>& key) {
+    for(int i = 1; i<V; i++) {
+        cout << parent[i] << "->" << i << " : " << key[i] << endl;
+    }
 }
-void Graph::primMST(){
-	vector<bool> mstSet(V,false);
-	int key[V]={INT_MAX};
-	for(int i=0;i<V;i++){
-		key[i]=INT_MAX;
-	}
-	priority_queue<AdjListNode,vector<AdjListNode>,comp> pq;
-	key[0]=0;
-	int parent[V]={-1};
-	pq.push(AdjListNode(0,key[0]));
-	while(!pq.empty()){
-		AdjListNode t = pq.top();
-		pq.pop();
-		mstSet[t.getV()]=true;
-		for(AdjListNode u: adj[t.getV()]){
-			if(mstSet[u.getV()]==false&&u.getW()<key[u.getV()]){
-				parent[u.getV()]=t.getV();
-				key[u.getV()]=u.getW();
-				pq.push(u);
-			}
-		}
-		
-	}
-	printMST(parent,key);
-	
+
+void Graph::primMST() {
+    vector<bool> inMST(V, false);
+    vector<int> key(V, INT_MAX);
+    vector<int> parent(V);
+
+    parent[0] = -1;
+    key[0]    = 0;
+    inMST[0]  = true;
+    priority_queue<AdjListNode, vector<AdjListNode>, myComp>pq;
+    pq.push(AdjListNode(0, key[0]));
+    while(!pq.empty()) {
+        AdjListNode u = pq.top();
+        pq.pop();
+        inMST[u.getV()] = true;
+        for(AdjListNode v:adj[u.getV()]) {
+            if(!inMST[v.getV()] && v.getWt() < key[v.getV()]) {
+                parent[v.getV()] = u.getV();
+                key[v.getV()] = v.getWt();
+                pq.push(v);
+            }
+        }
+    }
+    printMST(parent, key);
 }
-int main(){
-	Graph g(5);
-	g.addEdge(0,1,2);
+
+int main() {
+    int V = 5;
+    Graph g(V);
+    g.addEdge(0,1,2);
 	g.addEdge(0,3,6);
 	g.addEdge(1,2,3);
 	g.addEdge(1,3,8);
 	g.addEdge(1,4,5);
 	g.addEdge(2,4,7);
 	g.addEdge(3,4,9);
-	g.primMST(); 
+	g.primMST();
 	return 0;
 }
