@@ -159,5 +159,15 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Spanning%20Tree%20(Kruskal's%20Algorithm)">Minimum Spanning Tree (Kruskal's Algorithm)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Spanning%20Tree%20(Adjacency%20List%20%2C%20priority_queue)">Minimum Spanning Tree (Prim's Algorithm (Adjacency List))</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Spanning%20Tree%20(Prim's)">Minimum Spanning Tree (Prim's Algorithm (Adjacency Matrix))</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
