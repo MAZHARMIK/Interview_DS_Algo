@@ -142,5 +142,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20II%20(Brute%20Force%20-%3E%20Memoized(DP)%20-%3EBest)">Jump Game II (Brute Force -> Memoized(DP) ->Best) (Leetcode - 45)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Unique%20Paths%20(DP%20and%20Memoized)">Unique Paths (DP and Memoized) (Leetcode - 62)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
