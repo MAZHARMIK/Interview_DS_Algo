@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Sequential%20Digits">Sequential Digits(Leetcode : 1291)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Split%20a%20String%20Into%20the%20Max%20Number%20of%20Unique%20Substrings">Split a String Into the Max Number of Unique Substrings(Leetcode : 1593)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
