@@ -10,8 +10,13 @@
 		</thead>
 		<tbody>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/K-th%20Symbol%20in%20Grammar">K-th Symbol in Grammar (Leetcode:779)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Tower%20of%20Hanoi">Tower of Hanoi</a>
 				</td>
 			</tr>
 		</tbody>
