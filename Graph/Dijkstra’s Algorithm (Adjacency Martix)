@@ -1,0 +1,67 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int minKey(int V, vector<bool> inMST, vector<int> key) {
+    int minValue  = INT_MAX;
+    int min_index;
+    for(int v = 0; v<V; v++) {
+        if(inMST[v] == false && key[v] < minValue) {
+            min_index = v;
+            minValue  = key[v];
+        }
+    }
+    return min_index;
+}
+
+void printShortestPath(vector<int>& key, int source) {
+    int V = 9;
+    cout << "vertex  -> Distance from source "<< source << endl;
+    for(int i = 1; i<V; i++) {
+        cout << i << "       ->       " << key[i] << endl;
+    }
+}
+
+void dijkstra(vector<vector<int>> &graph, int V, int source) {
+    vector<int> key(V, INT_MAX);
+    vector<int> parent(V); //You can keep track of parent to get the path
+    vector<bool> inMST(V, false);
+
+    parent[source] = -1;
+    key[source] = 0;
+
+    // // Find shortest path for all remaining vertices
+    for(int count = 1; count <= V-1; count++) {
+        int u = minKey(V, inMST, key);
+        inMST[u] = true;
+
+        // Update dist value of the adjacent vertices of the picked vertex.
+        for(int v = 0; v<V; v++) {
+            if(graph[u][v] != 0 && inMST[v] == false && key[u] + graph[u][v] < key[v]) {
+                key[v]    = key[u] + graph[u][v];
+                parent[v] = u;
+            }
+        }
+    }
+
+    printShortestPath(key, source);
+}
+
+int main()
+{
+    int V = 9;
+    vector<vector<int>> graph
+                        { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
+                        { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
+                        { 0, 8, 0, 7, 0, 4, 0, 0, 2 },
+                        { 0, 0, 7, 0, 9, 14, 0, 0, 0 },
+                        { 0, 0, 0, 9, 0, 10, 0, 0, 0 },
+                        { 0, 0, 4, 14, 10, 0, 2, 0, 0 },
+                        { 0, 0, 0, 0, 0, 2, 0, 1, 6 },
+                        { 8, 11, 0, 0, 0, 0, 1, 0, 7 },
+                        { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
+
+    int source = 0;
+    dijkstra(graph, V, source);
+
+    return 0;
+}
