@@ -1,0 +1,35 @@
+/*
+    Company Tags : OYO Rooms, Samsung, Goldman Sachs
+    Qn Link      : https://practice.geeksforgeeks.org/problems/tower-of-hanoi/0 
+*/
+#include<iostream>
+using namespace std;
+int count = 0;
+void toh(int n, int s, int d, int h) {
+    if(n == 1) {
+        cout << "move disk " << n << " from rod " << s << " to rod " << d << endl;
+        count++;
+        return;
+    }
+    toh(n-1, s, h, d);
+    cout << "move disk " << n << " from rod " << s << " to rod " << d << endl;
+    count++;
+    toh(n-1, h, d, s);
+    return;
+}
+int main()
+ {
+	int T;
+	cin >> T;
+	while(T--) {
+	    int n;
+	    cin >> n;
+	    int s = 1;
+	    int h = 2;
+	    int d = 3;
+	    count = 0;
+	    toh(n, s, d, h);
+	    cout << count << endl;
+	}
+	return 0;
+}
