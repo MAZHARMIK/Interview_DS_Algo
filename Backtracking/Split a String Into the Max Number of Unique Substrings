@@ -1,0 +1,23 @@
+/*
+    Leetcode Contest 207 : https://leetcode.com/contest/weekly-contest-207/
+*/
+class Solution {
+public:
+    int backtrack(string s, set<string> st) {
+        
+        int maxN = 0;
+        for(int i = 1; i<=s.length(); i++) {
+            string temp = s.substr(0, i);
+            if(!st.count(temp)) {
+                st.insert(temp);
+                maxN = max(maxN, 1 + backtrack(s.substr(i), st));
+                st.erase(temp);
+            }
+        }
+        return maxN;
+    }
+    int maxUniqueSplit(string s) {
+        set<string> st;
+        return backtrack(s, st);
+    }
+};
