@@ -1,0 +1,103 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class AdjListNode {
+public:
+    int v, wt;
+    AdjListNode(int _v, int _w) {
+        v  = _v;
+        wt = _w;
+    }
+    int getV() {
+        return v;
+    }
+    int getWt() {
+        return wt;
+    }
+};
+
+
+class Graph {
+    int V;
+    vector<AdjListNode> *adj;
+    void printMST(vector<int>&);
+public :
+    Graph(int);
+    ~Graph();
+    void addEdge(int, int , int);
+    void primMST(int);
+};
+
+Graph::Graph(int V) {
+    this->V = V;
+    this->adj = new vector<AdjListNode> [V];
+}
+
+Graph::~Graph() {
+    delete[] adj;
+}
+
+void Graph::addEdge(int u, int v, int wt) {
+    adj[u].push_back(AdjListNode(v, wt));
+    adj[v].push_back(AdjListNode(u, wt));
+}
+
+struct myComp{
+    bool operator()(AdjListNode& adj1, AdjListNode& adj2) {
+        if(adj1.getWt() != adj2.getWt())
+            return adj1.getWt() > adj2.getWt();
+    }
+};
+
+void Graph::printMST(vector<int>& key) {
+    for(int i = 0; i<V; i++) {
+        cout << i << " -> " << key[i] << endl;
+    }
+}
+
+void Graph::primMST(int source) {
+    vector<bool> inMST(V, false);
+    vector<int> key(V, INT_MAX);
+    vector<int> parent(V);
+
+    parent[source] = -1;
+    key[source]    = 0;
+    inMST[source]  = true;
+    priority_queue<AdjListNode, vector<AdjListNode>, myComp>pq;
+    pq.push(AdjListNode(source, key[source]));
+    while(!pq.empty()) {
+        AdjListNode u = pq.top();
+        pq.pop();
+        inMST[u.getV()] = true;
+        for(AdjListNode v:adj[u.getV()]) {
+            if(!inMST[v.getV()] && key[u.getV()] != INT_MAX && key[u.getV()]+v.getWt() < key[v.getV()]) {
+                parent[v.getV()] = u.getV();
+                key[v.getV()] = key[u.getV()]+v.getWt();
+                pq.push(v);
+            }
+        }
+    }
+    printMST(key);
+}
+
+int main() {
+    int V = 9;
+    Graph g(V);
+    g.addEdge(0, 1, 4);
+    g.addEdge( 0, 7, 8);
+    g.addEdge( 1, 2, 8);
+    g.addEdge( 1, 7, 11);
+    g.addEdge( 2, 3, 7);
+    g.addEdge( 2, 8, 2);
+    g.addEdge( 2, 5, 4);
+    g.addEdge( 3, 4, 9);
+    g.addEdge( 3, 5, 14);
+    g.addEdge( 4, 5, 10);
+    g.addEdge( 5, 6, 2);
+    g.addEdge( 6, 7, 1);
+    g.addEdge( 6, 8, 6);
+    g.addEdge( 7, 8, 7);
+    int source = 0;
+	g.primMST(source);
+	return 0;
+}
