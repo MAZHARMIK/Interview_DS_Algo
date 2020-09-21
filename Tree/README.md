@@ -169,5 +169,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree">Lowest Common Ancestor Of a Binary Search Tree (Leetcode-235)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Min%20distance%20between%20two%20given%20nodes%20of%20a%20Binary%20Tree">Min distance between two given nodes of a Binary Tree</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
