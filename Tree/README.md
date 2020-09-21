@@ -154,5 +154,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20Binary%20Tree">Maximum Binary Tree (Leetcode-654)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/All%20Nodes%20Distance%20K%20in%20Binary%20Tree%20(2%20approaches)">All Nodes Distance K in Binary Tree (2 approaches) (Leetcode-863)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
