@@ -32,11 +32,13 @@ public:
                 result.push_back(root->val);
             } else {
                 collectKDown(root->right, result, K-2-leftDist);
-                //whye K-2-leftDist
+                //whye K-2-leftDist ?
                 //Ans: root->right is 2 edges away from root->left. So, K-2
                 //Also, target may be leftDist away from root->left, so that distance needs to be subtracted as well from K
             }
             return leftDist+1;
+            //why leftDist+1
+            //Ans: Because, when it recurses back, the distance of node (where recursion goes back)  from target node is +1 more
         }
         
         int rightDist = collectKNodes(root->right, target, K, result);
