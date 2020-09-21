@@ -159,5 +159,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/All%20Nodes%20Distance%20K%20in%20Binary%20Tree%20(2%20approaches)">All Nodes Distance K in Binary Tree (2 approaches) (Leetcode-863)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20in%20a%20Binary%20Tree">Lowest Common Ancestor in a Binary Tree</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
