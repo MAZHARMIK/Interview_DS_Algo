@@ -1,0 +1,42 @@
+/*
+    Company Tags : Amazon, LinkedIn, MakeMyTrip, OLA Cabs, Qualcomm, Samsung
+    Link to Qn   : https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1
+    It was aked in Amazon Online coding round in Hackerrank, 2020
+*/
+
+int findD(Node* root, int key, int dist) {
+    if(!root)
+        return 0;
+    
+    if(root->data == key)
+        return dist;
+    
+    int l = findD(root->left, key, dist+1);
+    if(l)
+        return l;
+    
+    return findD(root->right, key, dist+1);
+}
+
+Node* lca(Node* root, int a, int b) {
+    if(!root)
+        return NULL;
+    
+    if(root->data == a || root->data == b)
+        return root;
+    
+    Node* l = lca(root->left, a, b);
+    Node* r = lca(root->right, a, b);
+    if(l && r)
+        return root;
+    
+    return l?l:r;
+}
+
+int findDist(Node* root, int a, int b) {
+    Node* lcaNode = lca(root, a, b);
+    
+    int d1 = findD(lcaNode, a, 0);
+    int d2 = findD(lcaNode, b, 0);
+    return d1+d2;
+}
