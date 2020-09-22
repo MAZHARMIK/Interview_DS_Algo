@@ -35,25 +35,20 @@ public:
                 count2--;
             }
         }
+        
+        vector<int> result; //because atmost two elements can occur more than ⌊ n/3 ⌋ in an array of length n
         count1 = 0;
         count2 = 0;
-        vector<int> result;
-        for(int i:nums) {
-            if(i == maj1) {
+        for(int num:nums) {
+            if(num == maj1)
                 count1++;
-            }
-            
-            if(i == maj2) {
+            else if(num == maj2)
                 count2++;
-            }
         }
-        
-        if(count1 > n/3) {
+        if(count1 > floor(n/3))
             result.push_back(maj1);
-        }
-        if(count2 > n/3 && maj1 != maj2) {
+        if(count2 > floor(n/3))
             result.push_back(maj2);
-        }
         return result;
     }
 };
