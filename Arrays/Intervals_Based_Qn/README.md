@@ -39,5 +39,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Find%20Right%20Interval%20(Good%20and%20Clean%20Approach)">Find Right Interval (Leetcode-436)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Car%20Pooling%20(2%20approaches)">Car Pooling (2 approaches) (Leetcode-1094)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
