@@ -1,0 +1,41 @@
+/*
+    Company Tags  : Amazon
+    Leetcode Link : https://leetcode.com/problems/permutation-in-string/
+*/
+
+class Solution {
+public:
+    bool checkInclusion(string s1, string s2) {
+        if(s1.length() > s2.length() || s1.length() == 0)
+            return false;
+        int n = s2.length();
+        vector<int> mp(26, 0);
+        
+        for(char ch:s1)
+            mp[ch-'a']++;
+        
+        int i = 0, j = 0;
+        int count = s1.length();
+        
+        while(j < n) {
+            if(mp[s2[j] - 'a'] > 0) {
+                count--;
+            }
+            
+            mp[s2[j] - 'a']--;
+            j++;
+            if(count==0) {
+                return true;
+            }
+            
+            if(j - i == s1.length()) {
+                if(mp[s2[i]-'a'] >= 0) {
+                    count++;
+                }
+                mp[s2[i]-'a']++;
+                i++;
+            }
+        }
+        return false;
+    }
+};
