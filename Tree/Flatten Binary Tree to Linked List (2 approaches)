@@ -1,0 +1,60 @@
+/*
+    Company Tags  : Adobe, Amazon, Microsoft
+    Leetcode Link : https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+*/
+
+class Solution {
+public:
+    //APPROACH-1
+    void getListUsingStack(TreeNode* root) {
+        if(!root)
+            return;
+        stack<TreeNode*> st;
+        st.push(root);
+        TreeNode* prev = NULL;
+        
+        while(!st.empty()) {
+            TreeNode* curr = st.top();
+            st.pop();
+            
+            if(curr->right)
+                st.push(curr->right);
+            
+            if(curr->left)
+                st.push(curr->left);
+            
+            if(prev != NULL) {
+                prev->left  = NULL;
+                prev->right = curr; 
+            }
+            
+            prev = curr;
+        }
+    }
+    
+    //APPROACH-2
+    TreeNode* getList(TreeNode* root) {
+        if(!root)
+            return NULL;
+        
+        TreeNode* leftTemp  = root->left;
+        TreeNode* rightTemp = root->right;
+        root->left = NULL;
+        root->right = getList(leftTemp);
+        
+        
+        
+        TreeNode* temp = root;
+        while(temp && temp->right) {
+            temp = temp->right;
+        }
+        
+        temp->right = getList(rightTemp);
+        return root;
+    }
+    void flatten(TreeNode* root) {
+        //getList(root);
+        
+        getListUsingStack(root);
+    }
+};
