@@ -14,5 +14,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Permutation%20in%20String">Permutation in String (Leetcode-567)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20All%20Anagrams%20in%20a%20String%20(2%20approaches)">Find All Anagrams in a String (2 approaches) (Leetcode-438)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
