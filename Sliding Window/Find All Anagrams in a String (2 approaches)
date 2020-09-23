@@ -1,0 +1,97 @@
+/*
+    Company Tags  : Microsoft, Google, Amazon
+    Leetcode Link : https://leetcode.com/problems/find-all-anagrams-in-a-string/
+*/
+
+class Solution {
+public:
+    //Approach - 1
+    vector<int> Method1(string s, string p) {
+        if(p.length() == 0 || p.length() > s.length())
+            return {};
+        
+        vector<int> result;
+        vector<int> freq(26, 0);
+        for(char ch:p) {
+            freq[ch-'a']++;
+        }
+        
+        int pLength = p.length();
+        int sLength = s.length();
+        
+        int i = 0;
+        for(; i<pLength; i++) {
+            freq[s[i]-'a']--;
+        }
+        
+        bool found  = true;
+        for(int j:freq) {
+            if(j != 0) {
+                found = false;
+                break;
+            }
+        }
+        if(found)
+            result.push_back(0);
+        int j = i;
+        i = 1;
+        while(j < sLength) {
+            freq[s[i-1]-'a']++;
+            freq[s[j]-'a']--;
+            found  = true;
+            for(int j:freq) {
+                if(j != 0) {
+                    found = false;
+                    break;
+                }
+            }
+            if(found)
+                result.push_back(i);
+            j++;
+            i++;
+        }
+        return result;
+    }
+    
+    //Approach - 1
+    vector<int> Method2(string s, string p) {
+        if(p.length() == 0 || p.length() > s.length())
+            return {};
+        
+        vector<int> result;
+        vector<int> freq(26, 0);
+        for(char ch:p) {
+            freq[ch-'a']++;
+        }
+        
+        int pLength = p.length();
+        int sLength = s.length();
+        int i = 0, j = 0;
+        int count = pLength;
+        
+        while(j < sLength) {
+            if(freq[s[j]-'a'] > 0) {
+                count--;
+            }
+            freq[s[j]-'a']--;
+            j++;
+            
+            if(count == 0)
+                result.push_back(i);
+            
+            if(j-i == pLength) {
+                if(freq[s[i]-'a'] >=0)
+                    count++;
+                freq[s[i]-'a']++;
+                i++;
+            }
+        }
+        return result;
+    }
+    
+    vector<int> findAnagrams(string s, string p) {
+        return Method1(s, p);
+        
+        //return Method2(s, p);
+    }
+};
