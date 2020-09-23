@@ -174,5 +174,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Min%20distance%20between%20two%20given%20nodes%20of%20a%20Binary%20Tree">Min distance between two given nodes of a Binary Tree</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Flatten%20Binary%20Tree%20to%20Linked%20List%20(2%20approaches)">Flatten Binary Tree to Linked List (Leetcode-114)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
