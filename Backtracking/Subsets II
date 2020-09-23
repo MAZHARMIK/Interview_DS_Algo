@@ -5,25 +5,22 @@
 
 class Solution {
 public:
-    set<vector<int>> st;
-    void generateAll(vector<int>& nums, vector<vector<int>>& result, vector<int> temp, int idx) {
-        if(!st.count(temp)) {
-            result.push_back(temp);
-            st.insert(temp);
-        }
+    void generate(vector<int>& nums, vector<int> sub, vector<vector<int>>& result, int start) {
+        result.push_back(sub);
         
-        for(int i = idx; i<nums.size(); i++) {
-            temp.push_back(nums[i]);
-            generateAll(nums, result, temp, i+1);
-            temp.pop_back();
+        for(int i = start; i<nums.size(); i++) {
+            if(i > start && nums[i] == nums[i-1])
+                continue;
+            sub.push_back(nums[i]);
+            generate(nums, sub, result, i+1);
+            sub.pop_back();
         }
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
         vector<vector<int>> result;
-        st.clear();
-        vector<int> temp;
-        generateAll(nums, result, temp, 0);
+        vector<int> sub;
+        sort(nums.begin(), nums.end());
+        generate(nums, sub, result, 0);
         return result;
     }
 };
