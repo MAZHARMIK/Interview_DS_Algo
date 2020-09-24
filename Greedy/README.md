@@ -24,5 +24,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Task%20Scheduler">Task Scheduler (Leetcode-621)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Gas%20Station">Gas Station (Leetcode-134)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
