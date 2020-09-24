@@ -1,0 +1,54 @@
+/*
+    Company Tags  : Amazon, Uber, Microsoft
+    Leetcode Link : https://leetcode.com/problems/gas-station/
+*/
+
+class Solution {
+public:
+    int greedy(vector<int>& gas, vector<int>& cost) {
+        int n = gas.size();
+        int sum = 0;
+        
+        for(int i = 0; i<n; i++) {
+            sum += gas[i] - cost[i];
+        }
+        
+        if(sum < 0)
+            return -1;
+        int index = 0;
+        int tank = 0;
+        for(int i = 0; i<n; i++) {
+            tank += gas[i] - cost[i];
+            
+            if(tank < 0) {
+                index = i+1;
+                tank = 0;
+            }
+        }
+        
+        return index;
+    }
+    int bruteForce(vector<int>& gas, vector<int>& cost) {
+        int n = gas.size();
+
+        for(int i = 0; i<n; i++) {
+            int total = 0;
+            int j = i;
+            int stations = 0;
+            while(stations < n) {
+                total += gas[j%n]-cost[j%n];
+                if(total < 0)
+                    break;
+                j++;
+                stations++;
+            }
+            if(stations == n && total >= 0)
+                return i;
+        }
+        return -1;
+    }
+    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+        //return bruteForce(gas, cost);
+        return greedy(gas, cost);
+    }
+};
