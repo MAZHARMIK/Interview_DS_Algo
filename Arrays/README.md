@@ -9,6 +9,8 @@
 
 <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Binary%20Search">:file_folder:Binary Search</a>
 
+<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Two%20Pointer">:file_folder:Two Pointer</a>
+
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
 		<thead>
