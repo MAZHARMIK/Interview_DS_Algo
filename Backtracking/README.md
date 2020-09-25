@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Permutation%20with%20Spaces%20(2%20Approaches)">Permutation with Spaces (2 Approaches)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Permutation%20with%20Case%20Change%20(2%20approaches)">Permutation with Case Change (2 approaches)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
