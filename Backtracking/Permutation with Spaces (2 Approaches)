@@ -15,9 +15,8 @@ void generate(string input, string output) {
 
     string op1 = output + input[0];
     string op2 = output + " " + input[0];
-    input.erase(input.begin()+0);
-    generate(input, op2);
-    generate(input, op1);
+    generate(input.substr(1), op2);
+    generate(input.substr(1), op1);
 
 }
 
@@ -29,8 +28,7 @@ int main() {
 	    cin >> s;
 
 	    string output = string(1, s[0]);
-	    s.erase(s.begin()+0);
-	    generate(s, output);
+	    generate(s.substr(1), output);
 	    cout << endl;
 	}
 	return 0;
