@@ -19,5 +19,15 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/LRU%20Cache%20(Optimized)">LRU Cache (Optimized) (Leetcode-146)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Min%20Stack%20(O(n)%20space)">Min Stack (O(n) space) (Leetcode-155)</a>
+				</td>
+			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Min%20Stack%20(using%20stack%20of%20pair)">Min Stack (using stack of pair) (Leetcode-155)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
