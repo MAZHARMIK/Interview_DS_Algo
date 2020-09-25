@@ -94,5 +94,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Permutation%20with%20Case%20Change%20(2%20approaches)">Permutation with Case Change (2 approaches)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Letter%20Case%20Permutation%20(2%20approaches)">Letter Case Permutation (2 approaches) (Leetcode-784)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
