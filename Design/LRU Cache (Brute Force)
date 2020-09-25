@@ -1,0 +1,52 @@
+class LRUCache {
+public:
+    vector<vector<int>> cache;
+    int n;
+    LRUCache(int capacity) {
+        n = capacity;
+    }
+    
+    //O(n)
+    int get(int key) {
+        if(cache.size() == 0) {
+            return -1;
+        }
+        int val = -1;
+        int i = 0;
+        for(; i<cache.size(); i++) {
+            if(cache[i][0] == key) {
+                val = cache[i][1];
+                break;
+            }
+        }
+        if(i == cache.size()) {
+            return -1;
+        }
+        cache.erase(cache.begin()+i);
+        cache.push_back({key, val});
+        return val;
+    }
+    
+    //O(n)
+    void put(int key, int value) {
+        if(cache.size() == 0) {
+            cache.push_back({key, value});
+            return;
+        }
+        for(int i = 0; i<cache.size(); i++) {
+            if(cache[i][0] == key) {
+                cache[i][1] = value;
+                cache.erase(cache.begin()+i);
+                cache.push_back({key, value});
+                return;
+            }
+        }
+        if(cache.size() < n) {
+            cache.push_back({key, value});
+            return;
+        } else {
+            cache.erase(cache.begin());
+            cache.push_back({key, value});
+        }
+    }
+};
