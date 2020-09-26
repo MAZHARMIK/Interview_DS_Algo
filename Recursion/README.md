@@ -19,5 +19,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Tower%20of%20Hanoi">Tower of Hanoi</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/N-bit%20binary%20numbers%20having%20more%201s%20than%200s">N-bit binary numbers having more 1s than 0s</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
