@@ -24,5 +24,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/N-bit%20binary%20numbers%20having%20more%201s%20than%200s">N-bit binary numbers having more 1s than 0s</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Game%20of%20Death%20in%20a%20circle%20(Josephus%20Problem)">Game of Death in a circle (Josephus Problem)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
