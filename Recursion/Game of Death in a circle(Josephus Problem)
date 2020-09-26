@@ -1,0 +1,39 @@
+/*
+    Company Tags : NIL
+    Qn Link      : https://practice.geeksforgeeks.org/problems/game-of-death-in-a-circle/0
+*/
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+void solve(int k, vector<int> arr, int& ans, int index) {
+    if(arr.size() == 1) {
+        ans = arr[0];
+        return;
+    }
+    
+    index = (index+k)%arr.size();
+    arr.erase(arr.begin()+index);
+    
+    solve(k, arr, ans, index);
+}
+
+int main()
+ {
+	int T;
+	cin >> T;
+	while(T--) {
+	    int n, k;
+	    cin >> n >> k;
+	    vector<int> arr(n);
+	    int ans = -1;
+	    for(int i = 0; i<n; i++) {
+	        arr[i] = i+1;
+	    }
+	    k--;
+	    solve(k, arr, ans, 0);
+	    cout << ans << endl;
+	}
+	return 0;
+}
