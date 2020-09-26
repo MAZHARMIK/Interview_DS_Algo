@@ -1,0 +1,40 @@
+/*
+    Company Tags  : Microsoft, Facebook, Epic Systems
+    Leetcode Link : https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+*/
+
+class Solution {
+public:
+    void generate(string curr, int idx, string digits, vector<string>& result, unordered_map<int, string>& mp) {
+        if(idx == digits.length()) {
+            result.push_back(curr);
+            return;
+        }
+        
+        string str = mp[digits[idx]-'0'];
+        
+        for(int i = 0; i<str.length(); i++) {
+            curr.push_back(str[i]);
+            generate(curr, idx+1, digits, result, mp);
+            curr.pop_back();
+        }
+    }
+    
+    vector<string> letterCombinations(string digits) {
+        if(digits.length() == 0)
+            return {};
+        vector<string> result;
+        unordered_map<int, string> mp;
+        mp[2] = "abc";
+        mp[3] = "def";
+        mp[4] = "ghi";
+        mp[5] = "jkl";
+        mp[6] = "mno";
+        mp[7] = "pqrs";
+        mp[8] = "tuv";
+        mp[9] = "wxyz";
+        generate("", 0, digits, result, mp);
+        
+        return result;
+    }
+};
