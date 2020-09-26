@@ -25,6 +25,8 @@ public:
             return {};
         vector<string> result;
         unordered_map<int, string> mp;
+        mp[0] = "0";
+        mp[1] = "1";
         mp[2] = "abc";
         mp[3] = "def";
         mp[4] = "ghi";
