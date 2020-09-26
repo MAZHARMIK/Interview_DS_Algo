@@ -5,6 +5,7 @@
 
 class Solution {
 public:
+    //Approach-1
     int usingStack(string s) {
         stack<int> st;
         st.push(-1);
@@ -25,6 +26,7 @@ public:
         return maxL;
     }
     
+    //Approach-2
     int withoutStack(string s) {
         int n = s.length();
         int open = 0, close = 0;
@@ -62,8 +64,8 @@ public:
     }
     
     int longestValidParentheses(string s) {
-        //return usingStack(s);
+        return usingStack(s);
         
-        return withoutStack(s);
+        //return withoutStack(s);
     }
 };
