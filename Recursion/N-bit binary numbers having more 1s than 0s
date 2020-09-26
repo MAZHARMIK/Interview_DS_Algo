@@ -1,0 +1,31 @@
+/*
+    Company Tags : NIL
+    Qn Link      : https://practice.geeksforgeeks.org/problems/print-n-bit-binary-numbers-having-more-1s-than-0s0252/1
+*/
+
+class Solution{
+public:	
+    void generate(int zeros, int ones, string curr, int N, vector<string>& result) {
+        if(N == 0) {
+            result.push_back(curr);
+            return;
+        }
+        
+        string temp = curr;
+        temp.push_back('1'); //we can't start with '0' because this prefix will be violating
+        generate(zeros, ones+1, temp, N-1, result);
+        
+        if(ones>zeros) {
+            temp = curr;
+            temp.push_back('0');
+            generate(zeros+1, ones, temp, N-1, result);
+        }
+    }
+    
+	vector<string> NBitBinary(int N)
+	{
+	    vector<string> result;
+	    generate(0, 0, "", N, result);
+	    return result;
+	}
+};
