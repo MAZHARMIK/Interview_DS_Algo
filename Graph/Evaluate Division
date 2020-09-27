@@ -1,0 +1,54 @@
+/*
+    Company Tags  : Amazon
+    Leetcode Link : https://leetcode.com/problems/evaluate-division/
+*/
+
+class Solution {
+public:
+    void dfs(unordered_map<string, vector<pair<string, double>>>& adj, string src, string dest, double& ans, double temp, unordered_set<string>& visited) {
+            if(visited.count(src)) {
+                return; //if src is already visited, dont' go ahead
+            } else {
+                if(src == dest) {
+                    ans = temp;
+                    return;
+                }
+                visited.insert(src);
+                for(auto it:adj[src]) {
+                    string adjacent = it.first;
+                    double value    = it.second;
+                    dfs(adj, adjacent, dest, ans, temp*value, visited);
+                }
+            }
+    }
+    vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
+        unordered_map<string, vector<pair<string, double>>> adj;
+        int n = equations.size();
+        
+        //build the graph
+        for(int i = 0; i<n; i++) {
+            string u     = equations[i][0];
+            string v     = equations[i][1];
+            double value = values[i];
+            adj[u].push_back({v, value});    //to handle queries like a/b
+            adj[v].push_back({u, 1.0/value});  //to handle queries like b/a
+            cout << values[i] << endl;
+            cout << 1/values[i] << endl;
+        }
+        
+        vector<double> result;
+        
+        for(vector<string> que:queries) {
+            string src  = que[0];
+            string dest = que[1];
+            double ans  = -1.0;
+            double curr = 1.0;
+            unordered_set<string> visited;
+            if(adj.count(src)) //only call if query exists or is valid
+                dfs(adj, src, dest, ans, curr, visited);
+            result.push_back(ans);
+        }
+        
+        return result;
+    }
+};
