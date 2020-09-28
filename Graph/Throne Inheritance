@@ -1,0 +1,41 @@
+/*
+    Company Tags  : NIL
+    Leetcode Link : https://leetcode.com/problems/throne-inheritance/
+*/
+
+class ThroneInheritance {
+public:
+    unordered_map<string, vector<string>> mp;
+    set<string> st;
+    string king;
+    ThroneInheritance(string kingName) {
+        mp[kingName] = {};
+        king = kingName;
+    }
+    
+    void birth(string parentName, string childName) {
+        mp[parentName].push_back(childName);
+    }
+    
+    void death(string name) {
+        st.insert(name);
+    }
+    
+    vector<string> getInheritanceOrder() {
+        vector<string> result;
+        
+        DFS(king, mp, result);
+        
+        return result;
+    }
+    
+    void DFS(string start, unordered_map<string, vector<string>>& adj, vector<string>& result) {
+        if(!st.count(start)) {
+            result.push_back(start);
+        }
+        
+        for(string str:adj[start]) {
+            DFS(str, adj, result);
+        }
+    }
+};
