@@ -189,5 +189,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Evaluate%20Division">Evaluate Division (Leetcode : 399)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Throne%20Inheritance">Throne Inheritance (Leetcode : 1600)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
