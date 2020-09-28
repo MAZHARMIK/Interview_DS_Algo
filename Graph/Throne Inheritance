@@ -1,6 +1,7 @@
 /*
     Company Tags  : NIL
     Leetcode Link : https://leetcode.com/problems/throne-inheritance/
+    It was asked in leetcode weekly contest - 208
 */
 
 class ThroneInheritance {
