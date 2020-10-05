@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Car%20Pooling%20(2%20approaches)">Car Pooling (2 approaches) (Leetcode-1094)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Remove%20Covered%20Intervals">Remove Covered Intervals (Leetcode-1288)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
