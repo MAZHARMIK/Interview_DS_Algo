@@ -1,0 +1,17 @@
+class Solution {
+public:
+    int bitwiseComplement(int N) {
+        if(N == 0)
+            return 1;
+        
+        int result = 0;
+        int counter = 0;
+        while(N) {
+            int r = N%2;
+            result += (pow(2,counter)*!r);
+            counter++;
+            N = N>>1;
+        }
+        return result;
+    }
+};
