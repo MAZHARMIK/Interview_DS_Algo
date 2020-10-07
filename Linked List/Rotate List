@@ -1,0 +1,49 @@
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        if(!head || !head->next)
+            return head;
+        
+        ListNode* last = reverseList(head->next);
+        head->next->next = head;
+        head->next = NULL;
+        return last;
+    }
+    int getListLength(ListNode* head) {
+        int count = 0;
+        ListNode* temp = head;
+        while(temp) {
+            count++;
+            temp = temp->next;
+        }
+        return count;
+    }
+    ListNode* rotateRight(ListNode* head, int k) {
+        if(!head)
+            return head;
+        int length = getListLength(head);
+        k = k%length;
+        if(k == 0)
+            return head;
+        head = reverseList(head);
+        
+        ListNode* prev = NULL;
+        ListNode* curr = head;
+        while(curr && curr->next && k > 0) {
+            k--;
+            prev = curr;
+            curr = curr->next;
+        }
+        if(prev)
+            prev->next = NULL;
+        curr = reverseList(curr);
+        ListNode* newHead = reverseList(head);
+        ListNode* temp = newHead;
+        while(temp && temp->next) {
+            temp = temp->next;
+        }
+        if(temp)
+            temp->next = curr;
+        return newHead;
+    }
+};
