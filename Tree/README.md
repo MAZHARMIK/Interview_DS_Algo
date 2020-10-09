@@ -179,5 +179,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Flatten%20Binary%20Tree%20to%20Linked%20List%20(2%20approaches)">Flatten Binary Tree to Linked List (Leetcode-114)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Serialize%20and%20Deserialize%20BST%20(C%2B%2B)">Serialize and Deserialize BST (Leetcode-449)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
