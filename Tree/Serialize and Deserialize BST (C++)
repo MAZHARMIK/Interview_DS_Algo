@@ -1,0 +1,51 @@
+/*
+    Company Tags  : Accolite, Adobe, Amazon, Flipkart, InMobi, Linkedin, MAQ Software, Microsoft, Paytm, Quikr, Yahoo
+    Leetcode Link : https://leetcode.com/problems/serialize-and-deserialize-bst/
+*/
+
+class Codec {
+public:
+    // Encodes a tree to a single string.
+    void inOrder(TreeNode* root, string& tree) {
+        if(!root)
+            return;
+        tree += to_string(root->val) + " ";
+        inOrder(root->left, tree);
+        inOrder(root->right, tree);
+    }
+    string serialize(TreeNode* root) {
+        string tree = "";
+        inOrder(root, tree);
+        return tree;
+    }
+    
+    TreeNode* makeTree(int l, int r, vector<string>& data) {
+        if(l > r)
+            return NULL;
+        int val = stoi(data[l]);
+        TreeNode* root = new TreeNode(val);
+
+        int i = l+1;
+        for(; i<=r; i++) {
+            if(stoi(data[i]) > val)
+                break;
+        }
+        
+        root->left  = makeTree(l+1, i-1, data);
+        root->right = makeTree(i, r, data);
+        
+        return root;
+    }
+    
+    // Decodes your encoded data to tree.
+    TreeNode* deserialize(string data) {
+        stringstream s(data);
+        vector<string> vec;
+        string token;
+        while(getline(s, token, ' ')) {
+            vec.push_back(token);
+        }
+        int n = vec.size();
+        return makeTree(0, n-1, vec);
+    }
+};
