@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Gas%20Station">Gas Station (or, Circular Tour) (Leetcode-134)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons">Minimum Number of Arrows to Burst Balloons (Leetcode-452)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
