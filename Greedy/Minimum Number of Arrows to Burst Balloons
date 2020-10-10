@@ -1,0 +1,29 @@
+/*
+    Company Tags  : Facebook
+    Leetcode Link : https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+*/
+
+class Solution {
+public:
+    static bool myFunction(vector<int>& v1, vector<int>& v2) {
+        return v1[1] < v2[1];
+    }
+    int findMinArrowShots(vector<vector<int>>& points) {
+        sort(points.begin(), points.end(), myFunction);
+        
+        int n = points.size();
+        if(n == 0 || n == 1)
+            return n;
+        
+        int count = 1;
+        int x_max = points[0][1];
+        
+        for(vector<int> vec:points) {
+            if(vec[0] > x_max) {
+                x_max = vec[1];
+                count++;
+            }
+        }
+        return count;
+    }
+};
