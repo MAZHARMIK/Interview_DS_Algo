@@ -1,0 +1,39 @@
+/*
+    Company Tags  : Google
+    Leetcode Link : https://leetcode.com/problems/remove-duplicate-letters/
+*/
+
+class Solution {
+public:
+    string removeDuplicateLetters(string s) {
+        string result = "";
+        vector<int> lastIndex(26, 0);
+        int n = s.length();
+        
+        for(int i = 0; i<n; i++) {
+            lastIndex[s[i]-'a'] = i;
+        }
+        
+        vector<bool> visited(26, false);
+        
+        for(int i = 0; i<n; i++) {
+            if(result.length() == 0) {
+                result.push_back(s[i]);
+                visited[s[i]-'a'] = true;
+                continue;
+            } else if(visited[s[i]-'a']) {
+                continue;
+            }
+            
+            while(result.length() != 0 && s[i] < result.back() && lastIndex[result.back()-'a'] > i ) {
+                char ch = result.back();
+                visited[ch-'a'] = false;
+                result.pop_back();
+            }
+            result.push_back(s[i]);
+            visited[s[i]-'a'] = true;
+        }
+                
+        return result;
+    }
+};
