@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Rotate%20List">Rotate List (Leetcode-61)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Sort%20List">Sort List (Leetcode-148)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
