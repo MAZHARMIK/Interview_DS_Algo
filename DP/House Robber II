@@ -1,0 +1,36 @@
+/*
+    Company Tags  : NIL
+    Leetcode Link : https://leetcode.com/problems/house-robber-ii/
+*/
+
+class Solution {
+public:
+    int robMoney(vector<int>& nums) {
+        int n =  nums.size();
+        vector<int> t(n+1, 0);
+        
+        if(n == 0)
+            return 0;
+        if(n == 1)
+            return nums[0];
+        if(n == 2)
+            return max(nums[0], nums[1]);
+        
+        t[0] = 0;
+        t[1] = nums[0];
+        t[2] = max(nums[0], nums[1]);
+        
+        for(int i = 3; i<n+1; i++) {
+            t[i] = max(t[i-2] + nums[i-1], t[i-1]);
+        }
+        return t[n];
+    }
+    int rob(vector<int>& nums) {
+        int n = nums.size();
+        if(n == 1)
+            return nums[0];
+        vector<int> A(nums.begin(), nums.end()-1);
+        vector<int> B(nums.begin()+1, nums.end());
+        return max(robMoney(A), robMoney(B));
+    }
+};
