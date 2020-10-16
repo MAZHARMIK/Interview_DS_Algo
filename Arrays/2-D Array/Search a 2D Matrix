@@ -1,5 +1,5 @@
 /*
-    Company Tags    : MentorGraphics, 
+    Company Tags    : MentorGraphics, Yahoo
     Leetcode Link   : https://leetcode.com/problems/search-a-2d-matrix/
     Time Complexity : O(log(m*n))
 */
