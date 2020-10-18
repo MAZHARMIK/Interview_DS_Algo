@@ -1,0 +1,38 @@
+class Solution {
+public:
+    int maxP(vector<int>& prices, int i, int n, int k, bool toBuy, vector<vector<vector<int>>> &t) {
+        if(i >= n || k == 0)
+            return 0;
+    
+        if(t[i][toBuy][k] != -1)
+            return t[i][toBuy][k];
+        
+        int profit = 0;
+        if(toBuy) {
+            int buys   = maxP(prices, i+1, n, k, false, t) - prices[i];
+            int noBuy  = maxP(prices, i+1, n, k, true, t);
+            profit     = max(buys, noBuy);
+        } else {
+            int sells  = maxP(prices, i+1, n, k-1, true, t) + prices[i];
+            int noSell = maxP(prices, i+1, n, k, false, t);
+            profit     = max(sells, noSell);
+        }
+        return t[i][toBuy][k] = profit;
+    }
+    int maxProfit(int k, vector<int>& prices) {
+        int n = prices.size();
+    
+        //There is an edge case : What if we can't do k transactions at all
+        //i.e. 2*k > n
+        //So, buy the stock in i-1th day and sell it at ith day.
+        if (2 * k > prices.size()) {
+            int res = 0;
+            for (int i = 1; i < prices.size(); i++) {
+                res += max(0, prices[i] - prices[i - 1]);
+            }
+            return res;
+        }
+        vector<vector<vector<int>>> t(n+1,vector<vector<int>>(2,vector<int>(k+1,-1)));
+        return maxP(prices, 0, n, k, true, t);
+    }
+};
