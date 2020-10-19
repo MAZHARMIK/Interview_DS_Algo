@@ -39,5 +39,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Remove%20Duplicate%20Letters">Remove Duplicate Letters (Leetcode-316)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Domino%20Rotations%20For%20Equal%20Row">RMinimum Domino Rotations For Equal Row (Leetcode-1007)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
