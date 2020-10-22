@@ -184,5 +184,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Serialize%20and%20Deserialize%20BST%20(C%2B%2B)">Serialize and Deserialize BST (Leetcode-449)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Minimum%20Depth%20of%20Binary%20Tree">Minimum Depth of Binary Tree (Leetcode-111)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
