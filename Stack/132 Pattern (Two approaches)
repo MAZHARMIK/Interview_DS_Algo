@@ -1,0 +1,48 @@
+/*
+    Company Tags  : Amazon
+    Leetcode Link : https://leetcode.com/problems/132-pattern/
+*/
+
+//using stack
+class Solution {
+public:
+    bool find132pattern(vector<int>& nums) {
+        int n = nums.size();
+        if(n < 3)
+            return false;
+        stack<int> st;
+        vector<int> min_i_for_j(n);
+        min_i_for_j[0] = nums[0];
+        
+        for(int i = 1; i<n; i++)
+            min_i_for_j[i] = min(min_i_for_j[i-1], nums[i]);
+        
+        for(int j = n-1; j > 0; j--) {
+            while(!st.empty() && nums[st.top()] < nums[j]) {
+                if(nums[st.top()] > min_i_for_j[j-1])
+                    return true;
+                st.pop();
+            }
+            st.push(j);
+        }
+        return false;
+    }
+};
+
+
+//Brute Force
+class Solution {
+public:
+    bool find132pattern(vector<int>& nums) {
+        int min_i = INT_MAX;
+        int n = nums.size();
+        for(int j = 0; j<n-1; j++) {
+            min_i = min(min_i, nums[j]);
+            for(int k = j+1; k<n; k++) {
+                if(min_i < nums[k] && nums[k] < nums[j])
+                    return true;
+            }
+        }
+        return false;
+    }
+};
