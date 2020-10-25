@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Domino%20Rotations%20For%20Equal%20Row">Minimum Domino Rotations For Equal Row (Leetcode-1007)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Bag%20of%20Tokens">Bag of Tokens (Leetcode-948)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
