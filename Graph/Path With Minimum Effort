@@ -1,0 +1,53 @@
+/*
+    Leetcode Weekly contest 212
+    Leetcode Link : https://leetcode.com/problems/path-with-minimum-effort/
+*/
+
+class Solution {
+public:
+    bool DFS(int i, int j, int m, int n, vector<vector<int>>& grid, int minEffort, int visited[100][100]) {
+        if(i == m-1 && j == n-1)
+            return true;
+        if(i < 0 || i >= m || j < 0 || j >= n)
+            return false;
+        
+        int temp = grid[i][j];
+        visited[i][j] = 1;
+        bool path = false;
+        if(visited[max(0, i-1)][j] == 0 && abs(grid[max(0, i-1)][j]-temp) <= minEffort) {
+            path = path || DFS(i-1, j, m, n, grid, minEffort, visited);
+        }
+        
+        if(visited[min(m-1, i+1)][j] == 0 && abs(grid[min(m-1, i+1)][j]-temp) <= minEffort) {
+            path = path || DFS(i+1, j, m, n, grid, minEffort, visited);
+        }
+        
+        if(visited[i][max(0, j-1)] == 0 && abs(grid[i][max(0, j-1)]-temp) <= minEffort) {
+            path = path || DFS(i, j-1, m, n, grid, minEffort, visited);
+        }
+        
+        if(visited[i][min(n-1, j+1)] == 0 && abs(grid[i][min(n-1, j+1)]-temp) <= minEffort) {
+            path = path || DFS(i, j+1, m, n, grid, minEffort, visited);
+        }
+        return path;
+    }
+    
+    int minimumEffortPath(vector<vector<int>>& grid) {
+        int m = grid.size();
+        int n = grid[0].size();
+        int l = 0, r = INT_MAX;
+        int result = INT_MAX;
+        while(l <= r) {
+            int mid = l + (r-l)/2;
+            int visited[100][100];
+            memset(visited, 0, sizeof(visited));
+            if(DFS(0, 0, m, n, grid, mid, visited)) {
+                result = min(result, mid);
+                r = mid-1;
+            } else {
+                l = mid+1;
+            }
+        }
+        return result;
+    }
+};
