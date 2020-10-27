@@ -19,7 +19,7 @@ public:
                 break;
         }
         
-        if(!fast || !(fast->next))
+        if(fast != slow)
             return NULL;
         
         slow = head;
