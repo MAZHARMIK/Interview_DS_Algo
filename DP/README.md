@@ -167,5 +167,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV">Best Time to Buy and Sell Stock IV (Leetcode - 188)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Longest%20Increasing%20Subsequence">Number of Longest Increasing Subsequence (Leetcode - 673)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
