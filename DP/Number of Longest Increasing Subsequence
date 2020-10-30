@@ -1,0 +1,39 @@
+/*
+    Company Tags  : Facebook
+    Leetcode Link : https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+*/
+
+class Solution {
+public:
+    int findNumberOfLIS(vector<int>& nums) {
+        int n = nums.size();
+        if (n <= 1) 
+            return n;
+        vector<int> lengths(n);
+        vector<int> counts(n, 1);
+
+        for (int j = 0; j < n; ++j) {
+            for (int i = 0; i < j; ++i) {
+                if (nums[i] < nums[j]) {
+                    if (lengths[i] >= lengths[j]) {
+                        lengths[j] = lengths[i] + 1;
+                        counts[j] = counts[i];
+                    } else if (lengths[i] + 1 == lengths[j]) {
+                        counts[j] += counts[i];
+                    }
+                }
+            }
+        }
+
+        int longest = 0, ans = 0;
+        for (int length: lengths) {
+            longest = max(longest, length);
+        }
+        for (int i = 0; i < n; ++i) {
+            if (lengths[i] == longest) {
+                ans += counts[i];
+            }
+        }
+        return ans;
+    }
+};
