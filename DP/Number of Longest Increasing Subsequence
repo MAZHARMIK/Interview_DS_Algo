@@ -21,6 +21,7 @@ public:
         //We realise that this is one more subsequnce that can append lis[j] i.e. 4 to it
         //So, we will add count[j] to count[i] i.e. all subsequence count ending at count[j]
         //will be added
+        //So, 'x' above will become (1+1) = 2
         
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i; j++) {
