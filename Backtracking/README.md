@@ -104,5 +104,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Letter%20Combinations%20of%20a%20Phone%20Number">Letter Combinations of a Phone Number (Leetcode-17)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Count%20Sorted%20Vowel%20Strings">Count Sorted Vowel Strings (Leetcode-1641)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
