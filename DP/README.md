@@ -182,5 +182,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Furthest%20Building%20You%20Can%20Reach">Furthest Building You Can Reach (Leetcode - 1642)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20Submatrices%20With%20All%20Ones">Count Submatrices With All Ones (Leetcode - 1504)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
