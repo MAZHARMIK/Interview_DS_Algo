@@ -27,6 +27,7 @@ public:
             return;
         
         inOrder(root);
-        swap(firstStartPoint->val, lastEndPoint->val);
+        if(firstStartPoint && lastEndPoint)
+            swap(firstStartPoint->val, lastEndPoint->val);
     }
 };
