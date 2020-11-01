@@ -1,0 +1,32 @@
+/*
+    Company Tags  : Facebook
+    Leetcode Link : https://leetcode.com/problems/recover-binary-search-tree/
+*/
+
+class Solution {
+public:
+    TreeNode* firstStartPoint = NULL;
+    TreeNode* lastEndPoint    = NULL;
+    TreeNode* prev            = NULL;
+    void inOrder(TreeNode* root) {
+        if(!root)
+            return;
+        inOrder(root->left);
+        
+        if(prev != NULL && prev->val > root->val) {
+            if(firstStartPoint == NULL) {
+                firstStartPoint = prev;
+            }
+            lastEndPoint = root;
+        }
+        prev = root;
+        inOrder(root->right);
+    }
+    void recoverTree(TreeNode* root) {
+        if(!root)
+            return;
+        
+        inOrder(root);
+        swap(firstStartPoint->val, lastEndPoint->val);
+    }
+};
