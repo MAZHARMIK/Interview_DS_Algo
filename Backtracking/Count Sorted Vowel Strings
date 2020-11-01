@@ -1,0 +1,27 @@
+/*
+    Leetcode Weekly Contest : 213 (https://leetcode.com/contest/weekly-contest-213/)
+*/
+
+class Solution {
+public:
+    int count = 0;
+    void generate(vector<char>& v, int index, int len, int n) {
+        if(len == n) {
+            count++;
+            return;
+        }
+        
+        for(int i = index; i<5; i++) {
+            len++;
+            generate(v, i, len, n);
+            len--;
+        }
+    }
+    
+    int countVowelStrings(int n) {
+        vector<char> v{'a', 'e', 'i', 'o', 'u'};
+        count = 0; 
+        generate(v, 0, 0, n);
+        return count;
+    }
+};
