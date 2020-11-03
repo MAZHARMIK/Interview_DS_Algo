@@ -94,5 +94,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Linked%20List%20Cycle%20II">Linked List Cycle II (Leetcode-142)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Insertion%20Sort%20List">Insertion Sort List (Leetcode-147)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
