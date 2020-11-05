@@ -194,5 +194,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Recover%20Binary%20Search%20Tree">Recover Binary Search Tree (Leetcode-99)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Minimum%20Height%20Trees">Minimum Height Trees (Leetcode-310)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
