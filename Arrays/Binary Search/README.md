@@ -29,5 +29,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Search%20in%20Rotated%20Sorted%20Array%20II">Search in Rotated Sorted Array II (Leetcode-81)</a>
 				  </td>
       </tr>
+			<tr>
+          <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20the%20Smallest%20Divisor%20Given%20a%20Threshold">Find the Smallest Divisor Given a Threshold (Leetcode-1283)</a>
+				  </td>
+      </tr>
 		</tbody>
 </table>
