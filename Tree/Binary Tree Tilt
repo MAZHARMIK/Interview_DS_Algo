@@ -1,0 +1,23 @@
+/*
+    Company Tags  : Indeed
+    Leetcode Link : https://leetcode.com/problems/binary-tree-tilt/
+*/
+
+class Solution {
+public:
+    int sum = 0;
+    int findSum(TreeNode* root) {
+        if(!root)
+            return 0;
+        
+        int l = findSum(root->left);
+        int r = findSum(root->right);
+        
+        sum += abs(l-r);
+        return l + root->val + r;
+    }
+    int findTilt(TreeNode* root) {
+        findSum(root);
+        return sum;
+    }
+};
