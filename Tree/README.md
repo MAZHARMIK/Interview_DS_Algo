@@ -204,5 +204,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Tree%20Tilt">Binary Tree Tilt (Leetcode-563)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum Difference Between Node and Ancestor">Maximum Difference Between Node and Ancestor (Leetcode-1026)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
