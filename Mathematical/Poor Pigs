@@ -1,0 +1,16 @@
+/*
+    Company Tags  : NIL
+    Leetcode Link : https://leetcode.com/problems/poor-pigs/
+*/
+
+class Solution {
+public:
+    int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
+        int T = minutesToTest/minutesToDie;
+        //(T+1)^pigs = buckets
+        //pigs = log(buckets)/log(T+1)
+        
+        int pigs = (ceil)(log(buckets)/log(T+1));
+        return pigs;
+    }
+};
