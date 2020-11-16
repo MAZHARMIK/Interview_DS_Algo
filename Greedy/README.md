@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Bag%20of%20Tokens">Bag of Tokens (Leetcode-948)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Operations%20to%20Reduce%20X%20to%20Zero">Minimum Operations to Reduce X to Zero (Leetcode-1658)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
