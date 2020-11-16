@@ -192,5 +192,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Matrix%20Chain%20Multiplication%20(3%20approaches)">Matrix Chain Multiplication (3 approaches)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Brackets%20in%20Matrix%20Chain%20Multiplication">Brackets in Matrix Chain Multiplication</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
