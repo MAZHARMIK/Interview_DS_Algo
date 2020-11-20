@@ -5,26 +5,26 @@
 
 class Solution {
 public:
-    int find_pivot(vector<int>& nums, int n) {
-        int l = 0, r = n-1;
+    int findPivot(vector<int>& nums) {
+        int mid;
+        int l = 0, r = nums.size()-1;
         while(l < r) {
-            int mid = l + (r-l)/2;
-            if(nums[mid] < nums[r]) {
+            //eliminating duplicates from left side
+            while(l < nums.size()-1 && nums[l] == nums[l+1])
+                l++;
+            //eliminating duplicates from right side
+            while(r > 0 && nums[r] == nums[r-1])
+                r--;
+            
+            mid = l + (r-l)/2;
+            if(nums[mid] < nums[r])
                 r = mid;
-            } else if(nums[mid] > nums[r]) {
+            else
                 l = mid+1;
-            } else {
-                while(l < r && nums[mid] == nums[r]) {
-                    r--;
-                }
-                while(l < r && nums[mid] == nums[l]) {
-                    l++;
-                }
-            }
         }
         return r;
     }
-    bool bin_search(vector<int>& nums, int l, int r, int target) {
+    bool b_search(vector<int>& nums, int l, int r, int target) {
         while(l <= r) {
             int mid = l + (r-l)/2;
             if(nums[mid] == target)
@@ -36,21 +36,14 @@ public:
         }
         return false;
     }
-    
     bool search(vector<int>& nums, int target) {
-        int n = nums.size();
-        if(n == 0)
+        if(nums.size() == 0)
             return false;
-        int pivot = find_pivot(nums, n);
+        int pivot = findPivot(nums);
         
-        if(nums[pivot] == target)
+        if(b_search(nums, 0, pivot-1, target))
             return true;
         
-        bool found = bin_search(nums, 0, pivot-1, target);
-        
-        if(found)
-            return true;
-        
-        return bin_search(nums, pivot, n-1, target);
+        return b_search(nums, pivot, nums.size()-1, target);
     }
 };
