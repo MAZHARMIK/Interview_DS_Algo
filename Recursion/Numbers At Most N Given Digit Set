@@ -1,0 +1,25 @@
+/*
+    Company Tags  : NIL
+    Leetcode Link : https://leetcode.com/problems/numbers-at-most-n-given-digit-set/
+*/
+
+class Solution {
+public:
+    int count = 0;
+    void solve(vector<string>& digits, int n, int curr) {
+        if(curr > n)
+            return;
+        if(curr > 0 && curr <= n)
+            count++;
+        
+        for(string digit:digits) {
+            solve(digits, n, curr*10+(digit[0]-'0'));
+        }
+        
+    }
+    int atMostNGivenDigitSet(vector<string>& digits, int n) {
+        count = 0;
+        solve(digits, n, 0);
+        return count;
+    }
+};
