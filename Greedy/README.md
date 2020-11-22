@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Operations%20to%20Reduce%20X%20to%20Zero">Minimum Operations to Reduce X to Zero (Leetcode-1658)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Smallest%20String%20With%20A%20Given%20Numeric%20Value">Smallest String With A Given Numeric Value (Leetcode-1663)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
