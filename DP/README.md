@@ -197,5 +197,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Brackets%20in%20Matrix%20Chain%20Multiplication">Brackets in Matrix Chain Multiplication</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Ways%20to%20Make%20a%20Fair%20Array">Ways to Make a Fair Array (Leetcode-1664)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
