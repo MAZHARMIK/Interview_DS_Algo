@@ -1,0 +1,29 @@
+/*
+    Leetcode Weekly Contest-216
+    Contest Link  :  https://leetcode.com/contest/weekly-contest-216/
+*/
+
+class Solution {
+public:
+    string getSmallestString(int n, int k) {
+        string result;
+        int N = n;
+        while(N--) {
+            result += "a";
+        }
+        //Example : n=3, k = 27
+        //result = "aaa", whose value is 3
+        k = k-n;
+        //Now, k = 27-3 = 24 : We need 24 now
+        
+        int i = n-1;
+        //Now, start from end of result and convert them to get 24
+        while(k > 0) {
+            int temp   = min(k, 25); //25 is for getting 'z' after adding with 'a'
+            result[i] += temp;       //result = "aay"; because temp = 24
+            k         -= temp;       //Now, we need k-24 = 24-24 = 0
+            i          = i-1;
+        }
+        return result;
+    }
+};
