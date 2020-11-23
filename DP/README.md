@@ -202,5 +202,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Ways%20to%20Make%20a%20Fair%20Array">Ways to Make a Fair Array (Leetcode-1664)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/House%20Robber%20III">House Robber III (Leetcode-337)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
