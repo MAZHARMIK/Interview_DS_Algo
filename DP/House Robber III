@@ -5,8 +5,8 @@
 
 class Solution {
 public:
-    map<TreeNode*, int> mp_rob;
-    map<TreeNode*, int> mp_not_rob;
+    unordered_map<TreeNode*, int> mp_rob;
+    unordered_map<TreeNode*, int> mp_not_rob;
     int solve(TreeNode* root, bool parentRobbed) {
         if(!root)
             return 0;
