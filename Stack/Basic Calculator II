@@ -1,0 +1,46 @@
+/*
+    Company Tags  : Airbnb
+    Leetcode Link : https://leetcode.com/problems/basic-calculator-ii/
+*/
+
+class Solution {
+public:
+    int calculate(string s) {
+        int n = s.length();
+        
+        int currNum = 0;
+        char prevOp = '+';
+        stack<int> st;
+        for(int i = 0; i<n; i++) {
+            if(isdigit(s[i])) {
+                currNum = currNum*10 + (s[i]-'0');
+            }
+            
+            if(s[i] != ' ' && !isdigit(s[i]) || i == n-1) {
+                if(prevOp == '+') {
+                    st.push(currNum);
+                } else if(prevOp == '-') {
+                    st.push(-currNum);
+                } else if(prevOp == '/') {
+                    int x = st.top();
+                    st.pop();
+                    st.push(x/currNum);
+                } else if(prevOp == '*') {
+                    int x = st.top();
+                    st.pop();
+                    st.push(currNum*x);
+                }
+                
+                currNum = 0;
+                prevOp = s[i];
+            }
+        }
+        
+        int result = 0;
+        while(!st.empty()) {
+            result += st.top();
+            st.pop();
+        }
+        return result;
+    }
+};
