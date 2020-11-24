@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Decode%20String">Decode String (Leetcode-394)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Basic%20Calculator%20II">Basic Calculator II (Leetcode-227)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
