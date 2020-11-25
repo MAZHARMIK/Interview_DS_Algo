@@ -13,8 +13,8 @@ public:
         
         int N = 0;
         for(int i = 1; i<=K; i++) {
-            N = (N*10 + 1)%K; //%K to avoid overflow
-            if(N == 0) //since we need to check the remainder only. The above step does our job
+            N = (N*10 + 1)%K; //%K will also avoid overflow
+            if(N == 0)        //since we need to check the remainder with K only. The above step does our job
                 return i;
         }
         return -1;
