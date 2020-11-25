@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Numbers%20At%20Most%20N%20Given%20Digit%20Set">Numbers At Most N Given Digit Set (Leetcode : 902)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Smallest%20Integer%20Divisible%20by%20K">Smallest Integer Divisible by K (Leetcode : 1015)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
