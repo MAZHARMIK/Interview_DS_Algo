@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Game%20of%20Death%20in%20a%20circle%20(Josephus%20Problem)">Game of Death in a circle (Josephus Problem)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters">Longest Substring with At Least K Repeating Characters (Leetcode-395)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
