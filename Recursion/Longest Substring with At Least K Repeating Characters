@@ -1,0 +1,43 @@
+/*
+    Company Tags  : Baidu
+    Leetcode Link : https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
+*/
+
+class Solution {
+public:
+    int longestSubstring(string s, int k) {
+        int n = s.length();
+        if(n == 0 || k>n)
+            return 0;
+        if(k<=1)
+            return n;
+        
+        vector<int> count(26);
+        for(char ch:s) {
+            count[ch-'a']++;
+        }
+        
+        int i = 0;
+        //Go until you find the character whose frequency is less than k
+        //Because that can never be a part of our result substring
+        while(i < n && count[s[i]-'a']>=k)
+            i++;
+        
+        if(i >= n-1)
+            return i;
+        
+        int left_len  = longestSubstring(s.substr(0, i), k); //left valid part of string 
+        
+        while(i < n && count[s[i]-'a']<k) //to eliminate if there are any unwanted characters
+            i++;
+        
+        int right_len = 0;
+        if(i >= n-1)
+            right_len = 0;
+        else
+            right_len = longestSubstring(s.substr(i), k); //right valid part of string 
+        
+        return max(left_len, right_len);
+    }
+};
+
