@@ -1,6 +1,6 @@
 /*
-  Company Tags : Amazon, D-E-Shaw, Factset, Accolite
-  Question Link      : https://practice.geeksforgeeks.org/problems/trie-insert-and-search/0
+  Company Tags  : Amazon, D-E-Shaw, Factset, Accolite
+  Question Link : https://practice.geeksforgeeks.org/problems/trie-insert-and-search/0
 */
 
 #include<iostream>
