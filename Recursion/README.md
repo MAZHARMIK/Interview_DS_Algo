@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters">Longest Substring with At Least K Repeating Characters (Leetcode-395)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Jump%20Game%20III%20(Recursive(DFS)%20-%3E%20BFS)">Jump Game III  (Leetcode-1306)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
