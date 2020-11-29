@@ -212,5 +212,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Partition%20Equal%20Subset%20Sum">Partition Equal Subset Sum (Leetcode-416)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20(Rcursive%20-%3E%20Optimal)">Jump Game (Leetcode-55)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
