@@ -1,0 +1,36 @@
+/*
+    Company Tags  : Zoho, Flipkart, Amazon, Directi, SAP Labs
+    Leetcode Link : https://leetcode.com/problems/sliding-window-maximum/
+*/
+
+class Solution {
+public:
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        int n = nums.size();
+        deque<int> deq;
+        
+        int i = 0;
+        vector<int> result;
+        for(; i<k; i++) {
+            while(!deq.empty() && nums[i] >= nums[deq.back()])
+                deq.pop_back();
+            
+            deq.push_back(i);
+        }
+        
+        for(; i<n; i++) {
+            result.push_back(nums[deq.front()]);
+            
+            while(!deq.empty() && deq.front() <= i-k)
+                deq.pop_front();
+            
+            while(!deq.empty() && nums[i] >= nums[deq.back()])
+                deq.pop_back();
+            
+            deq.push_back(i);
+        }
+        
+        result.push_back(nums[deq.front()]);
+        return result;
+    }
+};
