@@ -1,0 +1,27 @@
+/*
+    Leetcode weekly contest 217 (https://leetcode.com/contest/weekly-contest-217/problems/find-the-most-competitive-subsequence/)    
+*/
+
+class Solution {
+public:
+    vector<int> mostCompetitive(vector<int>& nums, int k) {
+        vector<int> result;
+        
+        deque<int> deq;
+        
+        int n = nums.size();
+        for(int i = 0; i<n; i++) {
+            while(!deq.empty() && nums[i] < deq.back())
+                deq.pop_back();
+            if(deq.size() < k)
+                deq.push_back(nums[i]);
+            
+            if(i >= n-k) {
+                result.push_back(deq.front());
+                deq.pop_front();
+            }
+        }
+        
+        return result;
+    }
+};
