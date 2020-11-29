@@ -1,0 +1,48 @@
+/*
+    Company Tags  : NIL
+    Leetcode Link : https://leetcode.com/problems/jump-game-iii/
+*/
+
+class Solution {
+public:
+    bool solve_dfs(vector<int>& arr, int pos, int n) {
+        if(pos < 0 || pos >= n || arr[pos] < 0)
+            return false;
+        if(arr[pos] == 0)
+            return true;
+        
+        arr[pos] = -arr[pos]; //mark it as visited
+        return solve_dfs(arr, pos+arr[pos], n) || solve_dfs(arr, pos-arr[pos], n);
+    }
+    
+    bool solve_bfs(vector<int>& arr, int start, int n) {
+        queue<int> que;
+        que.push(start);
+        
+        while(!que.empty()) {
+            int curr = que.front();
+            que.pop();
+            if(arr[curr] == 0)
+                return true;
+            if(arr[curr] < 0)
+                continue;
+            
+            if(curr + arr[curr] < n)
+                que.push(curr+arr[curr]);
+            
+            if(curr - arr[curr] >= 0)
+                que.push(curr-arr[curr]);
+            
+            arr[curr] = -arr[curr];
+        }
+        
+        return false;
+    }
+    
+    bool canReach(vector<int>& arr, int start) {
+        int n = arr.size();
+        
+        //return solve_dfs(arr, start, n);
+        return solve_bfs(arr, start, n);
+    }
+};
