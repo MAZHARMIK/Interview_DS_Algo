@@ -59,5 +59,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Smallest%20String%20With%20A%20Given%20Numeric%20Value">Smallest String With A Given Numeric Value (Leetcode-1663)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Find%20the%20Most%20Competitive%20Subsequence">Find the Most Competitive Subsequence (Leetcode-1673)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
