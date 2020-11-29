@@ -6,27 +6,23 @@
 class Solution {
 public:
     int optimal(vector<int>& nums, int n) {
-        int maxReachable  = nums[0];
-        int jumps = 1;
-        int stepsPossible = nums[0];
+        int currPos  = 0;
+        int maxReach = 0;
+        int jump     = 0;
+        int n        = nums.size();
         
-        for(int i = 1; i<n; i++) {
-            if(i == n-1)
-                return jumps;
+        for(int i = 0; i<n-1; i++) {
+            maxReach = max(maxReach, nums[i]+i);
             
-            maxReachable = max(maxReachable, nums[i]+i);
-            stepsPossible--;
-            if(stepsPossible < 0)
-                return -1;
-            
-            if(stepsPossible == 0) {
-                jumps++;
-                if(i >= maxReachable)
-                    return -1;
-                stepsPossible = maxReachable - i;
+            if(i == currPos) {
+                jump++;
+                currPos = maxReach;
             }
         }
-        return jumps;
+        
+        if(pos >= n-1)
+            return jump;
+        return -1;
     }
     
     
