@@ -50,10 +50,11 @@ public:
         vector<int> t(n);
         //t[i] = min steps to reach i from 0
         t[0] = 0;
+        //I will go from 0 to i and ask at every spot (can I reach to i from you)
         for(int i = 1; i<n; i++) {
             int minS = INT_MAX;
             for(int j = 0; j<i; j++) {
-                if(nums[j]+j >= i) { //if i is reachable from i
+                if(nums[j]+j >= i) { //if i is reachable from you
                     minS = min(minS, t[j]);
                 }
             }
