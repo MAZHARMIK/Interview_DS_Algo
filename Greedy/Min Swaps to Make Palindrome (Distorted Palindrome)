@@ -1,0 +1,60 @@
+/*
+    Company Tags            : Microsoft Online Assessment (1st Round)
+    Question Link(codechef) : https://www.codechef.com/problems/ENCD12
+*/
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	while(1) {
+	    string s;
+	    cin >> s;
+	    if(s[0] == '0')
+	        break;
+	    int n = s.length();
+	    int left  = 0;
+	    int right = n-1;
+	    int count = 0;
+	    bool found_middle = false;
+	    bool possible = true;
+	    while(left < right) {
+	        int search = right;
+	        while(search > 0 && s[search] != s[left])
+	            search--;
+	        if(search != left) {
+	            //keep swapping until right
+	            while(search != right) {
+	                swap(s[search], s[search+1]);
+	                search++;
+	                count++;
+	            }
+	        } else {
+	            if(found_middle && islower(s[search])) {
+	                //it means I had already found the mid element and made it Upper case
+	                //So, this can't be a middle letter now and so it's not possible
+	                cout << "Impossible\n";
+	                possible = false;
+	                break;
+	            } else {
+	                found_middle = true;
+	                int mid = n/2;
+	                while(search != mid) {
+	                    swap(s[search], s[search+1]);
+	                    search++;
+	                    count++;
+	                }
+	                s[mid] = toupper(s[mid]);
+	            }
+	        }
+	        left++;
+	        right--;
+	    }
+	    if(possible) {
+	        cout << count << endl;
+	    }
+	}
+    
+    return 0;
+}
