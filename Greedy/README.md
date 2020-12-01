@@ -64,5 +64,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Find%20the%20Most%20Competitive%20Subsequence">Find the Most Competitive Subsequence (Leetcode-1673)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Min%20Swaps%20to%20Make%20Palindrome%20(Distorted%20Palindrome)">Min Swaps to Make Palindrome (Distorted Palindrome) (Microsoft)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
