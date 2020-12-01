@@ -2,6 +2,7 @@
     Company Tags : NIL
     Leetcode Weekly Contest
     Leetcode Qn Link : https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/
+    Similar  Qn GfG  : https://www.geeksforgeeks.org/minimum-swaps-to-make-two-strings-equal-by-swapping-only-with-third-string/
 */
 
 class Solution {
