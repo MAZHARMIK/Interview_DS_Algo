@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Min%20Swaps%20to%20Make%20Palindrome%20(Distorted%20Palindrome)">Min Swaps to Make Palindrome (Distorted Palindrome) (Microsoft)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Swaps%20to%20Make%20Strings%20Equal">Minimum Swaps to Make Strings Equal (Leetcode-1247)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
