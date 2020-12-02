@@ -20,4 +20,5 @@ So, Look for <strong><em>COMPANY TAGS</em></strong> above every solution. :dizzy
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Recursion">Recursion :cyclone:</a></li>
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Sliding%20Window">Sliding Window :bus:</a></li>
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Design">Design :scissors::triangular_ruler:</a></li>
+ <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/strings">Strings :bookmark_tabs:</a></li>
 </ul>
