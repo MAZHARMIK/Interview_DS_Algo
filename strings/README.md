@@ -14,5 +14,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20Substrings%20That%20Differ%20by%20One%20Character">Count Substrings That Differ by One Character (Leetcode-1638)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Determine%20if%20Two%20Strings%20Are%20Close">Determine if Two Strings Are Close (Leetcode-1657)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
