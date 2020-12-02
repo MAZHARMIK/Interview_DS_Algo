@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Smallest%20Integer%20Divisible%20by%20K">Smallest Integer Divisible by K (Leetcode : 1015)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Linked%20List%20Random%20Node%20(2%20approaches)">Linked List Random Node (2 approaches) (Leetcode : 382)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
