@@ -1,0 +1,33 @@
+/*
+    Leetcode Weekly Contest Qn
+    Leecode Link : https://leetcode.com/problems/determine-if-two-strings-are-close/
+*/
+
+class Solution {
+public:
+    bool closeStrings(string word1, string word2) {
+        vector<int> freq1(26, 0);
+        vector<int> freq2(26, 0);
+        
+        vector<int> character1(26, 0);
+        vector<int> character2(26, 0);
+        
+        for(char ch:word1) {
+            freq1[ch-'a']++;
+            character1[ch-'a'] = 1;
+        }
+        
+        for(char ch:word2) {
+            freq2[ch-'a']++;
+            character2[ch-'a'] = 1;
+        }
+        
+        sort(freq1.begin(), freq1.end());
+        sort(freq2.begin(), freq2.end());
+
+        //Two conditions for word1 and word2 to be close
+        //1) The frequencies of characters should be same (irrespective of character)
+        //2) Same characters should be present in word1 and word2
+        return freq1==freq2 && character1==character2;
+    }
+};
