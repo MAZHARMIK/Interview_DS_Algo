@@ -1,7 +1,36 @@
 /*
+    Two approaches
     Leetcode weekly contest 217 (https://leetcode.com/contest/weekly-contest-217/problems/find-the-most-competitive-subsequence/)    
 */
 
+//Using concept of monotonic stack
+class Solution {
+public:
+    vector<int> mostCompetitive(vector<int>& nums, int k) {
+        vector<int> result;
+        
+        stack<int> st;
+        int n = nums.size();
+        int to_remove = n-k;
+        
+        for(int i = 0; i<n; i++) {            
+            while(result.size() > 0 && to_remove > 0 && nums[i] < result.back()) {
+                result.pop_back();
+                to_remove--;
+            }
+            result.push_back(nums[i]);
+        }
+        while(to_remove > 0) {
+            to_remove--;
+            result.pop_back();
+        }
+        
+        
+        return result;
+    }
+};
+
+//Using deque
 class Solution {
 public:
     vector<int> mostCompetitive(vector<int>& nums, int k) {
