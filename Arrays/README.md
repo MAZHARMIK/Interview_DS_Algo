@@ -3,7 +3,7 @@
 
 # Arrays : :triangular_flag_on_post:
 <details>
-  <summary>Click to exapnd sub-topics (Example : Binary Search, Two Pointer etc.)</summary>
+  <summary>Click to :mag: and :dizzy_face: the sub-topics (Example : Binary Search, Two Pointer etc.)</summary>
   
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Intervals_Based_Qn">:file_folder:Intervals_Based_Qn</a>
 
