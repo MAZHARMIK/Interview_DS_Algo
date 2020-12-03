@@ -1,0 +1,26 @@
+/*
+    Company Tags  : 
+    Leetcode Link : https://leetcode.com/problems/increasing-order-search-tree/
+*/
+
+class Solution {
+public:
+    TreeNode* increasingBST(TreeNode* root) {
+        if(!root)
+            return NULL;
+        
+        TreeNode* l = increasingBST(root->left);
+        root->right = increasingBST(root->right);
+        root->left = NULL;
+        
+        TreeNode* temp = l;
+        while(temp && temp->right) {
+            temp = temp->right;
+        }
+        if(l) {
+            temp->right = root;
+            return l;
+        }
+        return root;
+    }
+};
