@@ -2,14 +2,17 @@
 <img src="https://ecdn.teacherspayteachers.com/thumbitem/Hooray-for-Arrays-Second-Grade-Common-Core-Mega-Pack-2OAC4-1528408502/750-598355-1.jpg" width="600" height="250">
 
 # Arrays : :triangular_flag_on_post:
+<details>
+  <summary>Click to exapnd sub-topics (Example : Binary Search, Two Pointer etc.)</summary>
+  
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Intervals_Based_Qn">:file_folder:Intervals_Based_Qn</a>
 
-<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Intervals_Based_Qn">:file_folder:Intervals_Based_Qn</a>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/2-D%20Array">:file_folder:2-D Array</a>
 
-<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/2-D%20Array">:file_folder:2-D Array</a>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Binary%20Search">:file_folder:Binary Search</a>
 
-<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Binary%20Search">:file_folder:Binary Search</a>
-
-<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Two%20Pointer">:file_folder:Two Pointer</a>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Two%20Pointer">:file_folder:Two Pointer</a>
+</details>
 
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
