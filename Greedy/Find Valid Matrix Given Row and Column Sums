@@ -1,0 +1,29 @@
+/*
+    Company Tags  : Facebook, Uber, Google, Microsoft
+    Leetcode Link : https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/
+*/
+
+class Solution {
+public:
+    vector<vector<int>> restoreMatrix(vector<int>& rowSum, vector<int>& colSum) {
+        int row = rowSum.size();
+        int col = colSum.size();
+        vector<vector<int>> valid(row, vector<int>(col));
+        
+        int i = 0, j = 0;
+        while(i < row && j < col) {
+            if(rowSum[i] < colSum[j]) {
+                valid[i][j] = rowSum[i];
+                colSum[j] -= rowSum[i];
+                rowSum[i] = 0;
+                i++;
+            } else {
+                valid[i][j] = colSum[j];
+                rowSum[i] -= colSum[j];
+                colSum[j]  = 0;
+                j++;
+            }
+        }
+        return valid;
+    }
+};
