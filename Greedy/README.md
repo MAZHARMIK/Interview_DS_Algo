@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Swaps%20to%20Make%20Strings%20Equal">Minimum Swaps to Make Strings Equal (Leetcode-1247)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Find%20Valid%20Matrix%20Given%20Row%20and%20Column%20Sums">Find Valid Matrix Given Row and Column Sums (Leetcode-1605)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
