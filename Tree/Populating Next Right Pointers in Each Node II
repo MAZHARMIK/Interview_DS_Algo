@@ -3,6 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
 */
 
+//ITERATIVE solution
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -36,6 +37,35 @@ public:
             head = next_level_head;
         }
         
+        return root;
+    }
+};
+
+//RECURSIVE solution
+class Solution {
+public:
+    void helper(Node* root) {
+        if(!root)
+            return;
+        
+        Node* curr = root;
+        Node* nextLevel = new Node();
+        Node* prev = nextLevel;
+        while(curr) {
+            if(curr->left) {
+                prev->next = curr->left;
+                prev = prev->next;
+            }
+            if(curr->right) {
+                prev->next = curr->right;
+                prev = prev->next;
+            }
+            curr = curr->next;
+        }
+        helper(nextLevel->next);
+    }
+    Node* connect(Node* root) {
+        helper(root);
         return root;
     }
 };
