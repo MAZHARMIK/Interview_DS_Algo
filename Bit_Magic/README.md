@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Complement%20of%20Base%2010%20Integer">Complement of Base 10 Integer (Leetcode-1009)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Concatenation%20of%20Consecutive%20Binary%20Numbers">Concatenation of Consecutive Binary Numbers (Leetcode-1680)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
