@@ -19,6 +19,7 @@ public:
         int remain_0  = mod[0];
         int remain_30 = mod[30];
         
+        //choosing 2 from n elements = nC2 = n(n-1)/2;
         count += (remain_0*(remain_0-1))/2  +  (remain_30*(remain_30-1))/2;
         
         //for other remainders
