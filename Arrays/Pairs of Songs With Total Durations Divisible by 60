@@ -1,0 +1,32 @@
+/*
+    Company Tags  : Microsoft qn's variation
+    Leetcode Link : https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/
+*/
+
+class Solution {
+public:
+    int numPairsDivisibleBy60(vector<int>& time) {
+        int count = 0;
+        int n = time.size();
+        
+        vector<float> mod(60, 0);
+        
+        for(int i = 0; i<n; i++) {
+            mod[time[i]%60]++;
+        }
+        
+        //for remainder 0 and 30
+        int remain_0  = mod[0];
+        int remain_30 = mod[30];
+        
+        count += (remain_0*(remain_0-1))/2  +  (remain_30*(remain_30-1))/2;
+        
+        //for other remainders
+        for(int i = 1; i<=29; i++) {
+            //mod[i] and mod[i-1] will together be divisible by 60
+            count += mod[i]*mod[60-i];
+        }
+        
+        return count;
+    }
+};
