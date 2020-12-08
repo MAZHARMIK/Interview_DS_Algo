@@ -130,5 +130,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum%20Product%20Subarray">Maximum Product Subarray (Leetcode - 152)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Pairs%20of%20Songs%20With%20Total%20Durations%20Divisible%20by%2060">Pairs of Songs With Total Durations Divisible by 60 (Leetcode - 1010)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
