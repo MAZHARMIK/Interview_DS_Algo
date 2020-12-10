@@ -219,5 +219,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II">Populating Next Right Pointers in Each Node II (Leetcode-117)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Search%20Tree%20Iterator">Binary Search Tree Iterator (Leetcode-173)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
