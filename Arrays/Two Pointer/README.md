@@ -24,5 +24,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Longest%20Mountain%20in%20Array">Longest Mountain in Array (Leetcode-845)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Remove%20Duplicates%20from%20Sorted%20Array%20II">Remove Duplicates from Sorted Array II (Leetcode-80)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
