@@ -1,0 +1,41 @@
+/*
+    Company Tags : NIL
+    Leetcode Weekly Contest-219 (https://leetcode.com/contest/weekly-contest-219)
+*/
+
+/*
+    [5,3,1,4,2]
+    A = 13  - (Ye kaise aaya hoga ? (sum-2) kiya hoga
+    B = 8   - similarly all 
+    A = 5
+    B = 4
+    A = 0
+    Answer = A + A - (B+B)
+    or,
+    Answer = A - B + A - B (just writing the scores in order as shown above)
+    Recursion : 13 - (recursive call aage par)
+    where 13 = sum-2 tha
+*/
+class Solution {
+public:
+    int solve(vector<int>& stones, int l, int r, int sum, vector<vector<int>>& t) {
+        if(l+1 == r)
+            return max(stones[l], stones[r]);
+        if(t[l][r] != -1)
+            return t[l][r];
+        
+        int leftPick  = solve(stones, l+1, r, sum-stones[l], t);
+        int rightPick = solve(stones, l, r-1, sum-stones[r], t);
+        
+        return t[l][r] = max(sum-stones[l]-leftPick, sum-stones[r]-rightPick);
+    }
+    int stoneGameVII(vector<int>& stones) {
+        int n = stones.size();
+        int sum = 0;
+        for(int s:stones)
+            sum += s;
+        
+        vector<vector<int>> t(n+1, vector<int>(n+1, -1));
+        return solve(stones, 0, n-1, sum, t);
+    }
+};
