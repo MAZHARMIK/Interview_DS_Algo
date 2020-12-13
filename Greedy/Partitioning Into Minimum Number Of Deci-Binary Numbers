@@ -1,0 +1,78 @@
+/*
+    Company Tags : NIL
+    Leetcode Weekly Contest-219 (https://leetcode.com/contest/weekly-contest-219)
+*/
+
+//Method-1 (This method explains why Method-2 worked)
+class Solution {
+public:
+    char getChar(int num) {
+        switch(num) {
+            case 0:
+                return '0';
+            case 1:
+                return '1';
+            case 2:
+                return '2';
+            case 3:
+                return '3';
+            case 4:
+                return '4';
+            case 5:
+                return '5';
+            case 6:
+                return '6';
+            case 7:
+                return '7';
+            case 8:
+                return '8';
+            case 9:
+                return '9';
+        }
+        return  ' ';
+    }
+    void subtract(string& temp, string& str, int n) {
+        for(int i = 0; i<n; i++) {
+            if(temp[i] == '0')
+                continue;
+            
+            int diff = (str[i]-'0') - (temp[i] - '0');
+            str[i] = getChar(diff);
+        }
+    }
+    int minPartitions(string str) {
+        int n = str.length();
+        if(n < 2)
+            return stoi(str);
+        int count = 0;
+        string allZeros(n, '0');
+        while(str != allZeros) {
+            count++;
+            string temp = "";
+            int i = 0;
+            while(i < n) {
+                if(str[i] == '0') {
+                    temp.push_back('0');
+                } else {
+                    temp.push_back('1');
+                }
+                i++;
+            }
+            subtract(temp, str, n);
+        }
+        return count;
+    }
+};
+
+
+//Method-2
+class Solution {
+public:
+    int minPartitions(string str) {
+        char max_ch = '0';
+        for(char ch:str) {
+            max_ch = max(max_ch, ch);
+        }
+        return max_ch-'0';
+    }
+};
