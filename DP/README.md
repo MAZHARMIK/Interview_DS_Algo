@@ -217,5 +217,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20(Rcursive%20-%3E%20Optimal)">Jump Game (Leetcode-55)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Stone%20Game%20VII">Stone Game VII (Leetcode-1690)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
