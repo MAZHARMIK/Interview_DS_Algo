@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Find%20Valid%20Matrix%20Given%20Row%20and%20Column%20Sums">Find Valid Matrix Given Row and Column Sums (Leetcode-1605)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers">Partitioning Into Minimum Number Of Deci-Binary Numbers (Leetcode-1689)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
