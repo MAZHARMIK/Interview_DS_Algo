@@ -71,7 +71,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Reorganize%20String">Reorganize String 9Leetcode-767)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Reorganize%20String">Reorganize String (Leetcode-767)</a>
 				</td>
 			</tr>
 		</tbody>
