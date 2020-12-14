@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Heap%20Sort">Heap Sort</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Reorganize%20String">Reorganize String</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
