@@ -1,0 +1,51 @@
+/*
+    Company Tags  : Amazon
+    Leetcode Link : https://leetcode.com/problems/reorganize-string/
+*/
+
+typedef pair<int, char> P;
+class Solution {
+public:
+    string reorganizeString(string S) {
+        vector<int> count(26, 0);
+        int n = S.length();
+        for(char ch:S) {
+            int idx = ch-'a';
+            count[idx]++;
+            if(count[idx] > (n+1)/2)
+                return "";
+        }
+        
+        priority_queue<P, vector<P>> pq;
+        for(int i = 0; i<26; i++) {
+            if(count[i] > 0) {
+                pq.push({count[i], i+'a'});
+            }
+        }
+        
+        string result = "";
+        while(pq.size() >= 2) {
+            P p1 = pq.top();
+            pq.pop();
+            P p2 = pq.top();
+            pq.pop();
+            result.push_back(p1.second);
+            result.push_back(p2.second);
+            p1.first = p1.first-1;
+            p2.first = p2.first-1;
+            if(p1.first > 0) {
+                pq.push({p1.first, p1.second});
+            }
+            if(p2.first > 0) {
+                pq.push({p2.first, p2.second});
+            }
+        }
+        
+        while(!pq.empty()) {
+            result.push_back(pq.top().second);
+            pq.pop();
+        }
+        
+        return result;
+    }
+};
