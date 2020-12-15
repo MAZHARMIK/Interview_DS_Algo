@@ -99,5 +99,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Insertion%20Sort%20List">Insertion Sort List (Leetcode-147)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Plus%20One%20Linked%20List">Plus One Linked List (Leetcode-369)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
