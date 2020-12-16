@@ -224,5 +224,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Search%20Tree%20Iterator">Binary Search Tree Iterator (Leetcode-173)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Validate%20Binary%20Search%20Tree">Validate Binary Search Tree (Leetcode-98)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
