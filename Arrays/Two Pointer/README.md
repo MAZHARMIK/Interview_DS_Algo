@@ -29,5 +29,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Remove%20Duplicates%20from%20Sorted%20Array%20II">Remove Duplicates from Sorted Array II (Leetcode-80)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/4Sum">4Sum (Leetcode-18)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
