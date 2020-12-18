@@ -1,0 +1,54 @@
+/*
+    Company Tags : Facebook
+    Letcode Link : https://leetcode.com/problems/increasing-triplet-subsequence/
+*/
+
+//Using Concept of Longest Increasing Subsequence
+// Time : O(n^2), Space : O(n)
+class Solution {
+public:
+    bool increasingTriplet(vector<int>& nums) {
+        int n = nums.size();
+        
+        vector<int> t(n, 1);
+        
+        int max_val = 0;
+        for(int i = 0; i<n; i++) {
+            for(int j = 0; j<i; j++) {
+                if(nums[j] < nums[i])
+                    t[i] = max(t[i], t[j]+1);
+            }
+            max_val = max(max_val, t[i]);
+            if(max_val >= 3)
+                break;
+        }
+        
+        return max_val>=3?true:false;
+    }
+};
+
+
+// Time : O(n), Space : O(1)
+class Solution {
+public:
+    bool increasingTriplet(vector<int>& nums) {
+        int num1 = INT_MAX;
+        int num2 = INT_MAX;
+        
+        //we need to find num such that
+        // num1 < num2 < num
+        for(int num:nums) {
+            if(num <= num1) { 
+                //this will find the first smallest
+                //For avoiding duplicates we have used = sign also
+                num1 = num;
+            } else if(num <= num2) { //this will find the second smallest
+                num2 = num;
+            } else {
+                //I found a num which is greater than num1 and num2
+                return true;
+            }
+        }
+        return false;
+    }
+};
