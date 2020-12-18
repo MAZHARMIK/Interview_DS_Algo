@@ -232,5 +232,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Palindrome%20Partitioning">Palindrome Partitioning (Leetcode-131)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Increasing%20Triplet%20Subsequence">Increasing Triplet Subsequence (Leetcode-334)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
