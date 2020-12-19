@@ -1,0 +1,43 @@
+/*
+    Company Tags  : Uber, Adobe, Google, Mathworks
+    Leetcode Link : https://leetcode.com/problems/cherry-pickup-ii/
+*/
+
+class Solution {
+public:
+    int t[80][80][80];
+    vector<int> dir{-1, 0, 1};
+    int solve(vector<vector<int>>& grid, int row, int l, int r) {
+        if(row >= grid.size())
+            return 0;
+        if(t[row][l][r] != -1)
+            return t[row][l][r];
+        
+        int cherries = grid[row][l];
+        if(l != r)
+            cherries += grid[row][r];
+        
+        int ans = 0;
+        
+        //for every move taken by left robot, we have 3 possibilities for right robots
+        //so, nested loop to try all possibilities
+        for(int x:dir) {
+            for(int y:dir) {
+                if(l+x >=0 && l+x<grid[0].size() && r+y >= 0 && r+y<grid[0].size())
+                    ans = max(ans, solve(grid, row+1, l+x, r+y));
+            }
+        }
+        
+        cherries += ans;
+        return t[row][l][r] = cherries;
+    }
+    int cherryPickup(vector<vector<int>>& grid) {
+        int row = grid.size();
+        int col = grid[0].size();
+        
+        memset(t, -1, sizeof(t));
+        
+        return solve(grid, 0, 0, col-1);
+        
+    }
+};
