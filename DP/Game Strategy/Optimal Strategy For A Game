@@ -1,0 +1,45 @@
+/*
+    Company Tags      : Amazon, Google, Microsoft, Salesforce
+    Question Link     : https://practice.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1#
+    Similar Qn        :
+    - Coins in a Line : https://www.interviewbit.com/problems/coins-in-a-line/
+*/
+//TWO APPROACHES
+
+int t[101][101];
+//Memoized
+int solve_memoize(int arr[], int l, int r) {
+    if(t[l][r] != -1)
+        return t[l][r];
+    if(l > r)
+        return 0;
+    if(l == r)
+        return t[l][r] = arr[l];
+    if(r-l == 1)
+        return t[l][r] = max(arr[l], arr[r]);
+    
+    int sum_l = arr[l] + min(solve_memoize(arr, l+2, r), solve_memoize(arr, l+1, r-1));
+    int sum_r = arr[r] + min(solve_memoize(arr, l+1, r-1), solve_memoize(arr, l, r-2));
+    
+    return t[l][r] = max(sum_l, sum_r);
+}
+
+//Top Down
+long long maximumAmount(int arr[], int n) {
+    memset(t, -1, sizeof(t));
+    for(int gap = 0; gap<=n; gap++) {
+        for(int i = 0, j = gap; j<n; i++, j++) {
+            if(gap == 0)
+                t[i][j] = arr[i];
+            else if(gap == 1) {
+                t[i][j] = max(arr[i], arr[j]);
+            } else {
+                int pick_left  = arr[i] + min(t[i+2][j], t[i+1][j-1]);  //opponent can select (i+1)th or jth
+                int pick_right = arr[j] + min(t[i+1][j-1], t[i][j-2]); //opponent can select ith or (j-1)st
+                t[i][j] = max(pick_left, pick_right);
+            }
+        }
+    }
+    return t[0][n-1];
+    //return solve_memoize(arr, 0, n-1);
+}
