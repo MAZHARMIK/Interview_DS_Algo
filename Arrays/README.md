@@ -145,5 +145,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/4Sum%20II">4Sum II (Leetcode - 454)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20N%20Unique%20Integers%20Sum%20up%20to%20Zero">Find N Unique Integers Sum up to Zero (Leetcode - 1304)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
