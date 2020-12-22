@@ -34,5 +34,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/4Sum">4Sum (Leetcode-18)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Maximum%20Erasure%20Value">Maximum Erasure Value (Leetcode-1695)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
