@@ -19,5 +19,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Search%20a%202D%20Matrix">Search a 2D Matrix (Leetcode-74)</a>
 				  </td>
       </tr>
+			<tr>
+          <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Diagonal%20Traverse">Diagonal Traverse (Leetcode-498)</a>
+				  </td>
+      </tr>
 		</tbody>
 </table>
