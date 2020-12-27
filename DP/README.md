@@ -242,5 +242,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Cherry%20Pickup%20II">Cherry Pickup II (Leetcode-1463)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Decode%20Ways">Decode Ways (Leetcode-91)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
