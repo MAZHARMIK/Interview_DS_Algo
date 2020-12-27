@@ -24,5 +24,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Diagonal%20Traverse">Diagonal Traverse (Leetcode-498)</a>
 				  </td>
       </tr>
+			<tr>
+          <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Where%20Will%20the%20Ball%20Fall">Where Will the Ball Fall (Leetcode-1706)</a>
+				  </td>
+      </tr>
 		</tbody>
 </table>
