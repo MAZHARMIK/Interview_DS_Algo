@@ -199,5 +199,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Path%20With%20Minimum%20Effort">Path With Minimum Effort (Leetcode : 1631)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Jump%20Game%20IV">Jump Game IV (Leetcode : 1345)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
