@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Reorganize%20String">Reorganize String (Leetcode-767)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Maximum%20Number%20of%20Eaten%20Apples">Maximum Number of Eaten Apples (Leetcode-1705)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
