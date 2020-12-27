@@ -1,0 +1,43 @@
+/*
+    Company Tags            : NIL (Let me know if you get it :-))
+    Leetcode Weekly Contest : 221
+    Leetcode Link           : https://leetcode.com/problems/maximum-number-of-eaten-apples/ 
+*/
+
+typedef pair<int, int> P;
+class Solution {
+public:
+    static bool myFunction(P& p1, P& p2) {
+        return p1.first > p2.first;
+        //I want the apples with least days of rotting to be at the top
+    }
+    int eatenApples(vector<int>& apples, vector<int>& days) {
+        //we want a min heap so that we eat those apples which rot first
+        priority_queue<P, vector<P>, function<bool(P&, P&)>> pq(myFunction);
+        int n      = apples.size();
+        int day    = 1;
+        int result = 0;
+        int i      = 0;
+        while(i < n || !pq.empty()) {
+            if(i < n)
+                pq.push({day+days[i], apples[i]});
+            
+            while(!pq.empty() && pq.top().first <= day) {//rotten apples are removed whose deadline already passed
+                pq.pop();
+            }
+            
+            if(!pq.empty()) {
+                auto temp = pq.top();
+                pq.pop();
+                temp.second -= 1;
+                result++;
+                if(temp.second > 0) {
+                    pq.push(temp);
+                }
+            }
+            day++;
+            i++;
+        }
+        return result;
+    }
+};
