@@ -1,0 +1,54 @@
+/*
+    Company Tags  : NIL (Please let me know if you get it :-) )
+    Leetcode Link : https://leetcode.com/problems/jump-game-iv/
+*/
+
+class Solution {
+public:
+    int minJumps(vector<int>& arr) {
+        int l = arr.size();
+        
+        //It's basically a BFS traversal of graph
+        map<int, vector<int>> mp; //why ?  Because, we need to access those indices where arr[i] == arr[j]
+        queue<int> que;
+        vector<bool> visited(l, false);
+        
+        for(int i = 0; i<l; i++)
+            mp[arr[i]].push_back(i);
+        
+        que.push(0);
+        visited[0] = true;
+        
+        int steps = 0;
+        while(!que.empty()) {
+            int n = que.size();
+            while(n--) {
+                int idx = que.front();
+                que.pop();
+                
+                if(idx == l-1)
+                    return steps;
+                
+                if(idx-1 >=0 && !visited[idx-1]) {
+                    que.push(idx-1);
+                    visited[idx-1] = true;
+                }
+                
+                if(idx+1 < l && !visited[idx+1]) {
+                    que.push(idx+1);
+                    visited[idx+1] = true;
+                }
+                
+                for(auto it:mp[arr[idx]]) {
+                    if(!visited[it]) {
+                        visited[it] = true;
+                        que.push(it);
+                    }
+                }
+                mp.erase(arr[idx]);
+            }
+            steps++;
+        }
+        return steps;
+    }
+};
