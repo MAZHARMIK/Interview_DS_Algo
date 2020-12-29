@@ -1,0 +1,36 @@
+/*
+    Company Tags  : NIL (Please let me know if you get it :-) )
+    Leetcode Link : https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
+*/
+
+class Solution {
+public:
+    int result = 0;
+    void solve(TreeNode* root, vector<int> freq) {
+        if(!root)
+            return;
+        if(!root->left && !root->right) {
+            freq[root->val]++;
+            int count = 0;
+            for(int i = 1; i<10; i++) {
+                if(freq[i]%2 != 0) { //odd freq
+                    count++;
+                }
+            }
+            if(count <= 1)
+                result++;
+            
+            return;
+        }
+        
+        freq[root->val]++;
+        solve(root->left, freq);
+        solve(root->right, freq);
+    }
+    int pseudoPalindromicPaths (TreeNode* root) {
+        vector<int> freq(10, 0);
+        result = 0;
+        solve(root, freq);
+        return result;
+    }
+};
