@@ -229,5 +229,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Validate%20Binary%20Search%20Tree">Validate Binary Search Tree (Leetcode-98)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree">Pseudo-Palindromic Paths in a Binary Tree (Leetcode-1457)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
