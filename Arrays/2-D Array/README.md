@@ -29,5 +29,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Where%20Will%20the%20Ball%20Fall">Where Will the Ball Fall (Leetcode-1706)</a>
 				  </td>
       </tr>
+			<tr>
+          <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Game%20of%20Life">Game of Life (Leetcode-289)</a>
+				  </td>
+      </tr>
 		</tbody>
 </table>
