@@ -1,0 +1,58 @@
+/*
+    Company Tags  : Google, Dropbox
+    Leetcode Link : https://leetcode.com/problems/game-of-life/
+*/
+
+class Solution {
+public:
+    void gameOfLife(vector<vector<int>>& board) {
+        int rows = board.size();
+        int cols = board[0].size();
+                
+        vector<int> dir{0, 1, -1};
+        
+        for(int row = 0; row<rows; row++) {
+            for(int col = 0; col<cols; col++) {
+                
+                int alive = 0;
+                
+                for(int i = 0; i<3; i++) {
+                    for(int j = 0; j<3; j++) {
+                        if(dir[i] == 0 && dir[j] == 0) //same cell
+                            continue;
+                        
+                        int r = row+dir[i];
+                        int c = col+dir[j];
+                        
+                        if(r>=0 && r<rows && c>=0 && c<cols && abs(board[r][c]) == 1)
+                            alive++;
+                    }
+                }
+                
+                //Any live cell with fewer than two live neighbors dies as if caused by under-population.
+                //Any live cell with more than three live neighbors dies, as if by over-population.
+                if(board[row][col] == 1 && (alive < 2 || alive > 3)) {
+                    // live --> die as -1
+                    board[row][col] = -1;
+                }
+                
+                //Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+                if(board[row][col] == 0 && alive == 3) {
+                    // die --> live as 2
+                    board[row][col] = 2;
+                }
+                
+            }
+        }
+        
+        for(int row = 0; row<rows; row++) {
+            for(int col = 0; col<cols; col++) {
+                if(board[row][col] == -1)
+                    board[row][col] = 0;
+                else if(board[row][col] == 2)
+                    board[row][col] = 1;
+                    
+            }
+        }
+    }
+};
