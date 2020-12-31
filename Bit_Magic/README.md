@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Concatenation%20of%20Consecutive%20Binary%20Numbers">Concatenation of Consecutive Binary Numbers (Leetcode-1680)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20XOR%20With%20an%20Element%20From%20Array">Maximum XOR With an Element From Array (Leetcode-1707)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
