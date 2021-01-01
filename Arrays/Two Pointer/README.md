@@ -39,5 +39,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Maximum%20Erasure%20Value">Maximum Erasure Value (Leetcode-1695)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Two%20Sum%20II%20-%20Input%20array%20is%20sorted">Two Sum II - Input array is sorted (Leetcode-167)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
