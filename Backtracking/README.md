@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Count%20Sorted%20Vowel%20Strings">Count Sorted Vowel Strings (Leetcode-1641)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Beautiful%20Arrangement">Beautiful Arrangement (Leetcode-526)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
