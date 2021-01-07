@@ -1,0 +1,48 @@
+/*
+    Company Tags  : 
+    Leetcode Link : https://leetcode.com/problems/longest-substring-without-repeating-characters/
+*/
+
+//Using set data structure and two pointer technique
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        set<char> st;
+        int l = 0;
+        
+        int n = s.length();
+        int i = 0;
+        int j = 0;
+        while(j < n) {
+            if(!st.count(s[j])) {
+                st.insert(s[j]);
+                l = max(l, (int)st.size());
+                j++;
+            } else {
+                st.erase(s[i]);
+                i++;
+            }
+        }
+        return l;
+    }
+};
+
+//Using map data strcture and two pointer technique
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        int n = s.length();
+        if(n == 0)
+            return 0;
+        map<char, int> mp;
+        int start = 0;
+        int maxL  = 0;
+        
+        for(int end = 0; end<n; end++) {
+            start = max(start, mp[s[end]]);
+            maxL  = max(maxL, end-start+1);
+            mp[s[end]] = end+1;
+        }
+        return maxL;
+    }
+};
