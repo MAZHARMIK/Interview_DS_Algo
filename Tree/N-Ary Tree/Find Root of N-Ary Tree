@@ -1,0 +1,82 @@
+/*
+This is a Premium Question. So, I am providing here the question as well.
+Given all the nodes of an N-ary tree as an array  Node[] tree where each node has a unique value.
+
+Find and return the root of the N-ary tree.
+
+Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value (See examples).
+
+Follow up: Can you find the root of the tree with O(1) additional memory space?
+
+Notes:
+
+    The following input is only given to testing purposes.
+    You will receive as input a list of all nodes of the n-ary tree in any order.
+
+Example 1:
+Input: [1,null,3,2,4,null,5,6]
+Output: [1,null,3,2,4,null,5,6]
+
+Example 2:
+Input: [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
+Output: [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
+
+    Company Tags  : Google On site
+    Leetcode Link : https://leetcode.com/problems/find-root-of-n-ary-tree/
+/*
+
+class Solution {
+    public Node findRoot(vector<Node> tree) {
+        set<Node> parents;
+        set<Node> children;
+        
+        for(Node node:tree) {
+            if(!children.count(node)) {
+                parents.insert(node);
+            }
+            
+            for(Node* child:node->children) {
+                if(parents.count(child)) {
+                    parents.erase(child);
+                }
+                children.insert(child);
+            }
+        }
+        
+        Node* root = NULL;
+        for(Node node:parents) {
+            root = node;
+            break;
+        }
+        return root;
+    }
+};
+
+//Follow up: Can you find the root of the tree with O(1) additional memory space?
+/*
+    Concept : Each node will be visited twice during iteration (1st time in the list and 2nd time as a child of another node) expect the root.
+              So find the sum of the vals of all nodes, then subtract all the children's vals, and finally the result will be the id of the root.
+              Use it to find the corresponding node in the list. To avoid overflow xor all the vals instead.
+*/
+class Solution {
+    public Node findRoot(vector<Node> tree) {
+        int root = 0;
+        for(Node node:tree) {
+            root ^= node->val;
+            
+            for(Node* child:node->children) {
+                root ^= child->val;
+            }
+        }
+        
+        Node* root_node = NULL;
+        for(Node node:tree) {
+            if(node->val == root) {
+                root_node = node;
+                break;
+            }
+        }
+        
+        return root_node;
+    }
+};
