@@ -2,6 +2,12 @@
 <img src="https://i.ytimg.com/vi/qH6yxkw0u78/maxresdefault.jpg" width="600" height="250">
 
 # Tree : :triangular_flag_on_post:
+<details>
+  <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics (Example : N-Ary Tree etc.)</summary>
+  
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Tree/N-Ary%20Tree">:file_folder:N-Ary Tree</a>
+</details>
+
 
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
