@@ -5,34 +5,27 @@
 
 class Solution {
 public:
-    int minOperations(vector<int>& nums, int x) {
-        int n = nums.size();
+    int minOperations(vector<int>& nums, int x) {        
+        int n    = nums.size();
+        int sum  = 0;
         unordered_map<int, int> mp;
-        vector<int> cs(n);
-        cs[0]       = nums[0];
-        mp[0]       = -1;
-        mp[nums[0]] = 0;
-        
-        for(int i = 1; i<n; i++) {
-            cs[i]     = cs[i-1] + nums[i];
-            mp[cs[i]] = i;
+        mp[0] = -1;
+        for(int i = 0; i<n; i++) {
+            sum += nums[i];
+            mp[sum] = i;
         }
-                
-        int count = INT_MAX;
-        int back_sum = 0;
-        for(int i = n-1; i>=0; i--) {
-            int x_temp = x;
-            back_sum += nums[i];
-            x_temp -= back_sum;
-            if(nums[i] == x) {
-                count = 1;
-            } else if(mp.count(x_temp) && mp[x_temp] < i) {
-                int c = n-i + (mp[x_temp] + 1);
-                count = min(count, c);
+        if(sum < x)
+            return -1;
+        int restSum  = sum-x;
+        int longest  = INT_MIN;
+        sum = 0;
+        for(int i = 0; i<n; i++) {
+            sum += nums[i];
+            if(mp.count(sum-restSum)) {
+                longest = max(longest, i-mp[sum-restSum]);
             }
-            
         }
         
-        return count==INT_MAX?-1:count;
+        return longest==INT_MIN?-1:n-longest;
     }
 };
