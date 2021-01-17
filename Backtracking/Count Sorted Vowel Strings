@@ -4,24 +4,22 @@
 
 class Solution {
 public:
-    int count = 0;
-    void generate(vector<char>& v, int index, int len, int n) {
-        if(len == n) {
-            count++;
-            return;
-        }
+    int count(string s, int len, int n, int index) {
+        if(len == n)
+            return 1;
         
+        int c = 0;
         for(int i = index; i<5; i++) {
             len++;
-            generate(v, i, len, n);
+            c += count(s, len, n, i);
             len--;
         }
+        
+        return c;
     }
-    
     int countVowelStrings(int n) {
-        vector<char> v{'a', 'e', 'i', 'o', 'u'};
-        count = 0; 
-        generate(v, 0, 0, n);
-        return count;
+        string s     = "aeiou";
+        string temp  = "";
+        return count(s, 0, n, 0);
     }
 };
