@@ -1,0 +1,71 @@
+/*
+    As this is a Premium question. Hence, I am providing here the question as well.
+    Link Leetcode-339 : https://leetcode.com/problems/one-edit-distance/
+    Company Tags : Uber, Twitter, Facebook, Snapchat
+    
+    Description
+
+    Given two strings S and T, determine if they are both one edit distance apart.
+    One ediit distance means doing one of these operation:
+
+    (*) insert one character in any position of S
+    (*) delete one character in S
+    (*) change one character in S to other character
+
+
+    
+    Example
+
+    Example 1:
+
+    Input: s = "aDb", t = "adb" 
+    Output: true
+
+    Example 2:
+
+    Input: s = "ab", t = "ab" 
+    Output: false
+    Explanation:
+    s=t ,so they aren't one edit distance apart
+
+*/
+
+class Solution {
+public:
+    bool isOneEditDistance(string &s, string &t) {
+        int m = s.length();
+        int n = t.length();
+        
+        if(abs(m-n) > 1) //If length differ by 1, then we can never get one edit distance
+            return false;
+            
+        int i = 0, j = 0;
+        int count = 0;
+        while(i < m && j < n) {
+            if(s[i] == t[j]) {
+                i++;
+                j++;
+            } else {
+                //if there was already an edit distance, we are more than one now, so return false
+                if(count == 1)
+                    return false;
+                
+                if(m > n) {
+                    i++;
+                } else if(m < n) {
+                    j++;
+                } else {
+                    i++;
+                    j++;
+                }
+                count++;
+            }
+        }
+        
+        if(i < m || j < n) {
+            count++;
+        }
+        
+        return count==1;
+    }
+};
