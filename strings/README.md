@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Next%20Greater%20Element%20III">Next Greater Element III (Leetcode-556)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/One%20Edit%20Distance">One Edit Distance (Leetcode-161)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
