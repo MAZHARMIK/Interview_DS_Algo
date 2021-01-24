@@ -34,5 +34,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Game%20of%20Life">Game of Life (Leetcode-289)</a>
 				  </td>
       </tr>
+			<tr>
+          <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Sort%20the%20Matrix%20Diagonally">Sort the Matrix Diagonally (Leetcode-1329)</a>
+				  </td>
+      </tr>
 		</tbody>
 </table>
