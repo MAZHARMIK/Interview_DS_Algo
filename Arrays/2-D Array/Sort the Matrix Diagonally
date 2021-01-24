@@ -1,0 +1,33 @@
+/*
+    Company Tags  : If you get to know, please let me know :-)
+    Leetcode Link : https://leetcode.com/problems/sort-the-matrix-diagonally/
+*/
+
+class Solution {
+public:
+    vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
+        int m = mat.size();
+        int n = mat[0].size();
+        for (int d = 0; d < n + m; ++d) {
+            vector<int> temp;
+            
+            int d_i;
+            if(d < m)
+                d_i = d;
+            else
+                d_i = 0;
+            int d_j;
+            d_j = max(0, d - m + 1);
+            for (int i = d_i, j = d_j; i < m && j < n; ++i, ++j)
+                temp.push_back(mat[i][j]);
+            
+            //sort them
+            sort(temp.begin(), temp.end());
+            
+            //put them back after sorting
+            for (int i = d_i, j = d_j, d_p = 0; i < m && j < n; ++i, ++j, ++d_p)
+                mat[i][j] = temp[d_p];        
+        }
+        return mat;
+    }
+};
