@@ -1,0 +1,23 @@
+/*
+    Company Tags  : 
+    Leetcode Link : https://leetcode.com/problems/convert-bst-to-greater-tree/
+*/
+
+class Solution {
+public:
+    int sum = 0;
+    void GreaterTree(TreeNode* root) {
+        if(!root)
+            return;
+        
+        GreaterTree(root->right);
+        sum += root->val;
+        root->val = sum;
+        GreaterTree(root->left);
+    }
+    TreeNode* convertBST(TreeNode* root) {
+        sum = 0;
+        GreaterTree(root);
+        return root;
+    }
+};
