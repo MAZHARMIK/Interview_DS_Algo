@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20a%20stack%20with%20operations%20on%20middle%20element">Design a stack with operations on middle element</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Peeking%20Iterator">Peeking Iterator</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
