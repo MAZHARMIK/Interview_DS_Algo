@@ -209,5 +209,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Shortest%20Path%20in%20Binary%20Matrix">Shortest Path in Binary Matrix (Leetcode : 1091)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Is%20Graph%20Bipartite%3F">Is Graph Bipartite? (Leetcode : 785)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
