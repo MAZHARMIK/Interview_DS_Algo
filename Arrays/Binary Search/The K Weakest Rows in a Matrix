@@ -1,0 +1,43 @@
+/*
+    Company Tags  : Amazon (Same variation : They just want to chec if you go for Binary Search as an improvement)
+    Leetcode Link : https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
+*/
+
+class Solution {
+public:
+    static bool myFunction(pair<int, int> p1, pair<int, int> p2) {
+        if(p1.first == p2.first)
+            return p1.second < p2.second;
+        return p1.first < p2.first;
+    }
+    vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
+        int rows = mat.size();
+        if(rows == 0)
+            return {};
+        int cols = mat[0].size();
+        
+        vector<pair<int, int>> result;
+        for(int i = 0; i<rows; i++) {
+            int low = 0, high = cols-1;
+            while(high > low){
+                int mid = low + (high-low)/2;
+                if(mat[i][mid] > 0){
+                    low = mid+1;
+                }
+                else
+                    high = mid;
+                    
+            }
+            if(mat[i][low] != 1)
+                low--;
+            result.push_back({low+1, i});
+        }
+        
+        sort(result.begin(), result.end(), myFunction);
+        vector<int> count(k);
+        for(int i = 0; i<k; i++) {
+            count[i] = result[i].second;
+        }
+        return count;
+    }
+};
