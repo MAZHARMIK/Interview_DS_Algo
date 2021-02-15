@@ -34,5 +34,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20the%20Smallest%20Divisor%20Given%20a%20Threshold">Find the Smallest Divisor Given a Threshold (Leetcode-1283)</a>
 				  </td>
       </tr>
+			<tr>
+          <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/The%20K%20Weakest%20Rows%20in%20a%20Matrix">The K Weakest Rows in a Matrix (Leetcode-1337)</a>
+				  </td>
+      </tr>
 		</tbody>
 </table>
