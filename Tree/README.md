@@ -240,5 +240,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree">Pseudo-Palindromic Paths in a Binary Tree (Leetcode-1457)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Kill%20Process">Kill Process (Leetcode-582)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
