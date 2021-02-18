@@ -247,5 +247,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Decode%20Ways">Decode Ways (Leetcode-91)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Arithmetic%20Slices">Arithmetic Slices (Leetcode-413)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
