@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/One%20Edit%20Distance">One Edit Distance (Leetcode-161)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Remove%20to%20Make%20Valid%20Parentheses">Minimum Remove to Make Valid Parentheses (Leetcode-1249)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
