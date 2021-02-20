@@ -1,4 +1,4 @@
-# Interview_DS_Algo <img src="https://github.com/matiassingers/awesome-readme/blob/master/icon.png" align="right" />
+# Interview_DS_Algo <img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icon.png" align="right" />
 🦸🏻‍♂️On a mission to make a Super Repository for Interview Prep for everyone. :checkered_flag: One stop Solution.  
 It contains solutions to questions asked in various coding interviews.
 At the top of the solutions, you will find the link to the question and also list of the Companies who have asked the question in interviews.<br>
