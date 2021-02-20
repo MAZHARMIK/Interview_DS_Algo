@@ -23,3 +23,11 @@ So, Look for <strong><em>COMPANY TAGS</em></strong> above every solution. :dizzy
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Design">Design :scissors::triangular_ruler:</a></li>
  <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/strings">Strings :bookmark_tabs:</a></li>
 </ul>
+
+
+
+# Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+ [<img src="https://avatars0.githubusercontent.com/u/17107752?s=400&v=4" width="100px;"/>](https://github.com/MAZHARMIK)
+<!-- ALL-CONTRIBUTORS-LIST:END -->
