@@ -49,5 +49,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Container%20With%20Most%20Water">Container With Most Water (Leetcode-11)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Longest%20Word%20in%20Dictionary%20through%20Deleting">Longest Word in Dictionary through Deleting (Leetcode-524)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
