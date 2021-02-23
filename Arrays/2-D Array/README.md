@@ -39,5 +39,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Sort%20the%20Matrix%20Diagonally">Sort the Matrix Diagonally (Leetcode-1329)</a>
 				  </td>
       </tr>
+			<tr>
+          <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Search%20a%202D%20Matrix%20II">Search a 2D Matrix II (Leetcode-240)</a>
+				  </td>
+      </tr>
 		</tbody>
 </table>
