@@ -1,0 +1,45 @@
+/*
+    Company Tags  : Facebook, Google, Amazon, Uber
+    Leetcode Link : https://leetcode.com/problems/score-of-parentheses/
+*/
+
+//Approach with explanation of logic
+ //Logic : 
+        //For '(', put -1 in the stack
+        //For ')', pop from stack until you find -1 and keep adding those popped numbers in "sum"
+        //Now, If sum==0, it means that you had "()" case. So, in that case push(1) on stack for 1 point.
+        //if sum!=0 , it means that you had something nested "(())", so push(2*sum) on stack
+        //At the end just simply add all the numbers on stack
+        //Just do a simple dry run on this code with "(()(()))" and you will understand everything so easliy.
+        
+class Solution {
+public:
+    int scoreOfParentheses(string S) {
+        stack<int> st;
+        
+        int score = 0;
+        for(char ch: S) {
+            if(ch == '(') {
+                st.push(-1);
+            } else {
+                int sum = 0;
+                while(!st.empty() && st.top() != -1) {
+                    sum += st.top();
+                    st.pop();
+                }
+                
+                st.pop(); //I am alway safe to do this because S is balanced parentheses string
+                if(sum)
+                    st.push(2*sum);
+                else
+                    st.push(1);
+            }
+        }
+        
+        while(!st.empty()) {
+            score += st.top();
+            st.pop();
+        }
+        return score;
+    }
+};
