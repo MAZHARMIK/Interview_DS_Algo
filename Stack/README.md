@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Baseball%20Game">Baseball Game (Leetcode-682)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Score%20of%20Parentheses">Score of Parentheses (Leetcode-856)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
