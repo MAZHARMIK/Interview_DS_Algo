@@ -39,5 +39,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Peeking%20Iterator">Peeking Iterator (Leetcode - 284)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Maximum%20Frequency%20Stack">Maximum Frequency Stack (Leetcode - 895)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
