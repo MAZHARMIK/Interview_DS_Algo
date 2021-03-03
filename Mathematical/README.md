@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Linked%20List%20Random%20Node%20(2%20approaches)">Linked List Random Node (2 approaches) (Leetcode : 382)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Missing%20Number">Missing Number (3 approaches) (Leetcode : 268)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
