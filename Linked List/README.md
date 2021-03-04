@@ -114,5 +114,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Merge%20k%20Sorted%20Lists">Merge k Sorted Lists (Leetcode-23)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Intersection%20of%20Two%20Linked%20Lists">Intersection of Two Linked Lists (Leetcode-160)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
