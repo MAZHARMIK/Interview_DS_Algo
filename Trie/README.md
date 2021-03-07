@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Stream%20of%20Characters%20(C%2B%2B)">Stream of Characters : (Leetcode-1032)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Short%20Encoding%20of%20Words">Short Encoding of Words : (Leetcode-820)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
