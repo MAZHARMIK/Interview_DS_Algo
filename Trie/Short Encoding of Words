@@ -1,0 +1,50 @@
+/*
+    Company Tags  : Let me know when you gte it :-)  (It's an important Question)
+    Leetcode Link : https://leetcode.com/problems/short-encoding-of-words/
+*/
+
+class Solution {
+public:
+    static bool myFunction(string a, string b) {
+        return a.length()>b.length();
+    }
+    
+    //Approach-1
+    int getLength_1(vector<string>& words) {
+        sort(words.begin(), words.end(), myFunction);
+        
+        string encoding = "";
+        for(string word:words) {
+            if(encoding.find(word+"#") == string::npos)
+                encoding += word+"#";
+        }
+        
+        return encoding.length();
+    }
+    
+    //Approach-2
+    int getLength_2(vector<string>& words) {
+        set<string> st(words.begin(), words.end());
+        
+        for(string word:words) {
+            for(int i = 1; i<word.length(); i++) {
+                st.erase(word.substr(1));
+            }
+        }
+        
+        int l = 0;
+        for(string word:st) {
+            l += word.length()+1;
+        }
+        
+        return l;
+    }
+    
+    int minimumLengthEncoding(vector<string>& words) {
+        return getLength_1(words);
+        
+        return getLength_2(words);
+        
+        //return getLiength_3(words); //Using Trie (Important) Coming soon (Little occupied this eek)
+    }
+};
