@@ -245,5 +245,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Kill%20Process">Kill Process (Leetcode-582)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Add%20One%20Row%20to%20Tree">Add One Row to Tree (Leetcode-623)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
