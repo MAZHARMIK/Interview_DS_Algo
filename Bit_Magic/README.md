@@ -39,5 +39,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20XOR%20With%20an%20Element%20From%20Array">Maximum XOR With an Element From Array (Leetcode-1707)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K">Check If a String Contains All Binary Codes of Size K (Leetcode-1461)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
