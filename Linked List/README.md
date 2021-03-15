@@ -119,5 +119,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Intersection%20of%20Two%20Linked%20Lists">Intersection of Two Linked Lists (Leetcode-160)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Swapping%20Nodes%20in%20a%20Linked%20List">Swapping Nodes in a Linked List (Leetcode-1721)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
