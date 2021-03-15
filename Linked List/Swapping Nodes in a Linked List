@@ -1,0 +1,25 @@
+/*
+    Company Tags  : Microsoft, Amazon
+    Leetcode Link : https://leetcode.com/problems/swapping-nodes-in-a-linked-list/
+*/
+
+class Solution {
+public:
+    ListNode* swapNodes(ListNode* head, int k) {
+        ListNode* i = head;
+        ListNode* j = head; 
+        ListNode* target = NULL;
+        while (--k)
+            i = i->next;
+        
+        target = i;
+        i = i->next;
+        
+        while (i) {
+            i = i->next;
+            j = j->next;
+        }
+        swap(j->val, target->val);
+        return head;
+    }
+};
