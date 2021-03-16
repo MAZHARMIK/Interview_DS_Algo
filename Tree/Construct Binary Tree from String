@@ -1,0 +1,108 @@
+/*
+    Company Tags  : Amazon, Facebook
+    Leetcode Link : https://leetcode.com/problems/construct-binary-tree-from-string/
+*/
+
+/*
+    Since, it's a premium question, I am posting the question and examples also
+    Description
+    You need to construct a binary tree from a string consisting of parenthesis and integers.
+    The whole input represents a binary tree. It contains an integer followed by zero, one or
+    two pairs of parenthesis. The integer represents the root's value and a pair of parenthesis
+    contains a child binary tree with the same structure.You always start to construct the left child node of the parent first if it exists.
+    
+    There will only be '(', ')', '-' and '0' ~ '9' in the input string.
+    An empty tree is represented by "" instead of "()".
+
+    Example
+
+    Example 1:
+
+    Input: "-4(2(3)(1))(6(5))"
+    Output: {-4,2,6,3,1,5}
+    Explanation:
+    The output is look like this:
+          -4
+         /  \
+        2    6
+       / \   / 
+      3   1 5   
+
+    Example 2:
+
+    Input: "1(-1)"
+    Output: {1,-1}
+    Explanation:
+    The output is look like this:
+         1
+        /
+      -1
+*/
+
+/**
+ * Definition of TreeNode:
+ * class TreeNode {
+ * public:
+ *     int val;
+ *     TreeNode *left, *right;
+ *     TreeNode(int val) {
+ *         this->val = val;
+ *         this->left = this->right = NULL;
+ *     }
+ * }
+ */
+
+class Solution {
+public:
+    int i = 0, n = 0;
+    TreeNode* constructTree(string& s) {
+        if(i >= n)
+            return NULL;
+        bool isNeg = false;
+        if(s[i] == '-') {
+            isNeg++;
+            i++;
+        }
+
+        int num = 0;
+        while(i < n && (s[i] != '(' && s[i] != ')')) {
+            num = num*10 + (s[i]-'0');
+            i++;
+        }
+        if(isNeg)
+            num = -num;
+        TreeNode* root = new TreeNode(num);
+
+        if(i >= n)
+            return root;
+
+        if(i < n && s[i] == '(') {
+            i++;
+            root->left = constructTree(s);
+        }
+        if(i < n && s[i] == ')') {
+            i++;
+            return root; //-4(2(3)   I have to get back to 2 now for making its right subtree
+        }
+
+        if(i < n && s[i] == '(') {
+            i++;
+            root->right = constructTree(s); //Making right subtree
+        }
+
+        if(i < n && s[i] == ')') {
+            i++;
+            return root;  //End
+        }
+
+        return root;
+    }
+    TreeNode * str2tree(string &s) {
+        n = s.length();
+        if(n == 0)
+            return NULL;
+        
+        return constructTree(s);
+    }
+};
+
