@@ -1,0 +1,29 @@
+/*
+    Company Tags  : Please let me know when you get it
+    Leetcode Link : https://leetcode.com/problems/generate-random-point-in-a-circle/
+*/
+
+class Solution {
+public:
+    double r;
+    double x;
+    double y;
+    Solution(double radius, double x_center, double y_center) {
+        r = radius;
+        x = x_center;
+        y = y_center;
+    }
+    
+    vector<double> randPoint() {
+        double x_, y_;
+        
+        do{
+            double rand_double_x = (double)rand() / RAND_MAX; // Gets random double between [0,1]
+            double rand_double_y = (double)rand() / RAND_MAX;
+            x_ = (2*(rand_double_x) - 1.0) * r;   //To get [-1, 1]
+            y_ = (2*(rand_double_y) - 1.0) * r;   //To get [-1, 1]
+        } while(x_*x_ + y_*y_ > r*r);
+        
+        return {x+x_, y+y_};
+    }
+};
