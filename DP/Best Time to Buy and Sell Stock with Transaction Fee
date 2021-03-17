@@ -1,0 +1,22 @@
+/*
+    Company Tags  : Facebook
+    Leetcode Link : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+*/
+
+//I will come up with a better explanation to this solution sooon (Travelling now :-( )
+class Solution {
+public:
+    int maxProfit(vector<int>& prices, int fee) {
+        int s0 = 0;
+        int s1 = INT_MIN;
+        int temp = 0;
+        for(int price:prices) {
+            temp = s0;
+            
+            s0 = max(s0, s1+price);
+            
+            s1 = max(s1, temp-price-fee);
+        }
+        return s0;
+    }
+};
