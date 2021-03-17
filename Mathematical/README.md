@@ -64,5 +64,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Integer%20to%20Roman">Integer to Roman (Leetcode : 12)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Generate%20Random%20Point%20in%20a%20Circle">Generate Random Point in a Circle (Leetcode : 478)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
