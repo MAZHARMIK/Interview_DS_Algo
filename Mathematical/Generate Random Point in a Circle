@@ -3,6 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/generate-random-point-in-a-circle/
 */
 
+//Approach-1 (Non Mathematical)
 class Solution {
 public:
     double r;
@@ -25,5 +26,35 @@ public:
         } while(x_*x_ + y_*y_ > r*r);
         
         return {x+x_, y+y_};
+    }
+};
+
+//Approach-2 (Mathematical)
+class Solution {
+public:
+    double x_r, y_r, rad;
+    Solution(double radius, double x_center, double y_center) {
+        x_r = x_center;
+        y_r = y_center;
+        rad = radius;
+    }
+    
+    vector<double> randPoint() {
+        //we need to return (x_r + l*cos(@), y_r + l*sin(@))
+        //Let's find a random l first;
+        double l;
+        //l = (double)rand()/RAND_MAX*rad; No this because you will get densely populated points near origin only
+        
+        l   = sqrt((double)rand()/RAND_MAX)*rad;
+        
+        //Let's find a random @
+        double theta;
+        theta = (double)rand()/RAND_MAX *2*3.141592653589793238;
+        //What that strange line above ? :-(
+        //Ans : rand()/RAND_MAX returns number between [0,1], and we want to get @  between [0, 360 degree] i.e. [0,2*pie]
+        //So, we multiply it by 2*pie :-)
+        
+        return {x_r + l*cos(theta), y_r+l*sin(theta)};
+        
     }
 };
