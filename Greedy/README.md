@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Broken%20Calculator">Broken Calculator (Leetcode-991)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Wiggle%20Subsequence">Wiggle Subsequence (Leetcode-376)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
