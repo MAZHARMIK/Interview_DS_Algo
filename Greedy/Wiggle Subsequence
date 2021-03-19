@@ -4,7 +4,7 @@
 */
 
 //Can be solved using DP as well. Here I have provided Greedy approach
-//We only look for peaks
+//We only look for peaks greedily
 class Solution {
 public:
     int wiggleMaxLength(vector<int>& nums) {
