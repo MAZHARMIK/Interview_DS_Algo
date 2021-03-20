@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Encode%20and%20Decode%20TinyURL">Encode and Decode TinyURL (Leetcode - 535)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Underground%20System">Design Underground System (Leetcode - 1396)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
