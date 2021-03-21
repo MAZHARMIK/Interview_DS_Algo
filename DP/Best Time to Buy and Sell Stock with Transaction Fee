@@ -3,20 +3,26 @@
     Leetcode Link : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 */
 
-//I will come up with a better explanation to this solution sooon (Travelling now :-( )
 class Solution {
 public:
     int maxProfit(vector<int>& prices, int fee) {
-        int s0 = 0;
-        int s1 = INT_MIN;
-        int temp = 0;
-        for(int price:prices) {
-            temp = s0;
+        int n = prices.size();
+        if(n < 1)
+            return 0;
+        
+        int noStock_state  = 0;
+        int oneStock_state = -prices[0];
+        
+        for(int i = 1; i<n; i++) {
+            //To come in new noStock_state, either you stay in previous noStock_state or,
+            //you sell a stock from previous oneStockState and see which is profitable
+            noStock_state   = max(noStock_state, oneStock_state+prices[i]-fee);
             
-            s0 = max(s0, s1+price);
-            
-            s1 = max(s1, temp-price-fee);
+            //To come in new oneStock_state, either you stay in previous oneStock_state or,
+            //you buy one stock from previous noStock_state profit and see which is profitable
+            oneStock_state  = max(oneStock_state, noStock_state-prices[i]);
         }
-        return s0;
+        
+        return noStock_state; //complete transaction. So at the end you end up with no stocks
     }
 };
