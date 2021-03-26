@@ -2,6 +2,11 @@
 <img src="https://www.101computing.net/wp/wp-content/uploads/javascript-2d-array.png" width="600" height="250">
 
 # Arrays/2-D Array : :triangular_flag_on_post:
+<details>
+  <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics (Example : DFS, BFS)</summary>
+  
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/2-D%20Array/DFS">:file_folder:DFS</a>
+</details>
 
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
