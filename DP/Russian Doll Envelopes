@@ -1,0 +1,28 @@
+/*
+    Company Tags  : Salesforce, Miscrosoft, Facebook, Google
+    Leetcode Link : https://leetcode.com/problems/russian-doll-envelopes/
+*/
+
+class Solution {
+public:
+    int maxEnvelopes(vector<vector<int>>& envelopes) {
+        int n = envelopes.size();
+        sort(envelopes.begin(), envelopes.end());
+        
+        //Now, find LIS keeping width and height both in consideration
+                
+        vector<int> lis(n, 1);
+        int result = 1;
+        for(int i = 1; i<n; i++) {
+            for(int j = 0; j<i; j++) {
+                if(envelopes[i][0] > envelopes[j][0] && 
+                   envelopes[i][1] > envelopes[j][1]) {
+                    lis[i] = max(lis[i], lis[j]+1);
+                    result = max(result, lis[i]);
+                }
+            }
+        }
+        
+        return result;
+    }
+};
