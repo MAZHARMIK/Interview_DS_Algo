@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Word%20Subsets">Word Subsets (Leetcode-916)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Stamping%20The%20Sequence">Stamping The Sequence (Leetcode-936)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
