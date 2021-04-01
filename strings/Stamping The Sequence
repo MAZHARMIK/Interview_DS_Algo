@@ -1,0 +1,52 @@
+/*
+    Company Tags  : Let me know if you get it :-)  (Any help will be highly appreciated)
+    Leetcode Link : https://leetcode.com/problems/stamping-the-sequence/
+*/
+
+class Solution {
+public:
+    bool canReplace(string& stamp, string& target, int& pos) {
+        for(int i = 0; i<stamp.length(); i++) {
+            if(target[i+pos] != '?' && target[i+pos] != stamp[i])
+                return false;
+        }
+        
+        return true;
+    }
+    
+    void replaceChar(string& stamp, string& target, int& pos, int& count) {
+        for(int i = 0; i<stamp.length(); i++) {
+            if(target[i+pos] != '?') {
+                target[i+pos] = '?';
+                count++;
+            }
+        }
+    }
+    
+    vector<int> movesToStamp(string stamp, string target) {
+        vector<int> result;
+        int count = 0;
+        vector<bool> visited(target.length(), false);
+        
+        while(count != target.length()) {
+            bool isChanged = false;
+            
+            for(int i = 0; i<=target.length()-stamp.length(); i++) {
+                if(!visited[i] && canReplace(stamp, target, i)) {
+                    replaceChar(stamp, target, i, count);
+                    isChanged = true;
+                    result.push_back(i);
+                    visited[i] = true;
+                    if(count == target.length())
+                        break;
+                }
+            }
+            
+            if(!isChanged)
+                return {};
+        }
+        
+        reverse(result.begin(), result.end());
+        return result;
+    }
+};
