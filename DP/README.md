@@ -262,5 +262,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Russian%20Doll%20Envelopes">Russian Doll Envelopes (Leetcode-354)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Ones%20and%20Zeroes">Ones and Zeroes (Leetcode-474)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
