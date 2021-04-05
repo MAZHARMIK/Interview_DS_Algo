@@ -59,5 +59,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Underground%20System">Design Underground System (Leetcode - 1396)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Circular%20Queue">Design Circular Queue (Leetcode - 622)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
