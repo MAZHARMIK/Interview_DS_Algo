@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Reordered%20Power%20of%202">Reordered Power of 2(Leetcode : 869)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Global%20and%20Local%20Inversions">Global and Local Inversions(Leetcode : 775)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
