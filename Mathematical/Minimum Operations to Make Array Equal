@@ -1,0 +1,40 @@
+/*
+    Company Tags  : Google, Microsoft (variation), Facebook, Apple
+    Leetcode Link : https://leetcode.com/problems/minimum-operations-to-make-array-equal/
+*/
+
+class Solution {
+public:
+    int minOperations(int n) {
+        
+        //Approach-1
+        if(n%2 == 0) {//even
+            return (n*n)/4;
+        }
+        n = (n-1)/2;
+        return n*(n+1);
+        
+        
+        //Approach-2
+        vector<int> arr(n);
+        int sum = 0;
+        for(int i = 0; i<n; i++) {
+            arr[i] = (2*i)+1;
+            sum   += arr[i];
+        }
+        int target = sum/n; //because I want minimum operations. I will make every element equal to mid element
+        int result = 0;
+        
+        int i = 0, j = n-1;
+        while(i < j) {
+            result += (arr[j]-target);
+            cout << arr[j]-target << " ";
+            //The pattern lies here. Try to print this and see for every value of n
+            //result = (sum of first n/2 odd numbers when n is even)     = (n*n)/4     (Apply Arithmetic progression)
+            //result = (sum of first (n-1)/2 even numbers when n is odd) = n*(n-1)/2 (Apply Arithmetic progression)
+            i++;
+            j--;
+        }
+        return result;
+    }
+};
