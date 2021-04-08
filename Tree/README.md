@@ -255,5 +255,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Construct%20Binary%20Tree%20from%20String">Construct Binary Tree from String (Leetcode-536)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Inorder%20Successor%20in%20BST">Inorder Successor in BST (Leetcode-285)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
