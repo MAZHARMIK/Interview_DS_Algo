@@ -1,6 +1,8 @@
 /*
-    Since it's a premium question on Leetcode. I am providing here the question
+    Company Tags  : Microsoft, Morgan Stanley, Amazon, Facebook, Pocket Gems
+    Leetcode Link : https://leetcode.com/problems/inorder-successor-in-bst/
     
+    Since it's a premium question on Leetcode. I am providing here the question
     Description
 
     Given a binary search tree (See Definition) and a node in it, find the in-order successor of that node in the BST.
@@ -29,9 +31,6 @@
 
     Challenge
     O(h), where h is the height of the BST.
-    
-    Company Tags : Microsoft, Morgan Stanley, Amazon, Facebook, Pocket Gems
-
 */
 
 class Solution {
