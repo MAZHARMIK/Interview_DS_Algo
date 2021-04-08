@@ -1,0 +1,60 @@
+/*
+    Since it's a premium question on Leetcode. I am providing here the question
+    
+    Description
+
+    Given a binary search tree (See Definition) and a node in it, find the in-order successor of that node in the BST.
+    If the given node has no in-order successor in the tree, return null.
+    It's guaranteed p is one node in the given tree. (You can directly compare the memory address to find p)
+    
+    Example
+
+    Example 1:
+
+    Input: {1,#,2}, node with value 1
+    Output: 2
+    Explanation:
+      1
+       \
+        2
+
+    Example 2:
+
+    Input: {2,1,3}, node with value 1
+    Output: 2
+    Explanation: 
+        2
+       / \
+      1   3
+
+    Challenge
+    O(h), where h is the height of the BST.
+    
+    Company Tags : Microsoft, Morgan Stanley, Amazon, Facebook, Pocket Gems
+
+*/
+
+class Solution {
+public:
+    TreeNode* minNode(TreeNode* root) {
+        TreeNode* temp = root;
+        while(temp->left)
+          temp = temp->left;
+        return temp;
+    }
+    TreeNode* parent = NULL;
+    TreeNode * inorderSuccessor(TreeNode * root, TreeNode * p) {
+        if(!root)
+          return NULL;
+        if(root->val  == p->val) {
+          if(root->right) {
+            return minNode(root->right);
+          }
+          return parent;
+        } else if(root->val > p->val) {
+            parent = root;
+            return inorderSuccessor(root->left, p);
+        }
+        return inorderSuccessor(root->right, p);
+    }
+};
