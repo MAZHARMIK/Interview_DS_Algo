@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Verifying%20an%20Alien%20Dictionary">Verifying an Alien Dictionary (Leetcode-953)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Verifying_an_Alien_Dictionary.cpp">Verifying an Alien Dictionary (Leetcode-953)</a>
 				</td>
 			</tr>
 		</tbody>
