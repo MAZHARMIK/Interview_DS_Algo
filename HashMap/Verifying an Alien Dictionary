@@ -21,6 +21,7 @@ public:
             int    n2    = word2.length();
             
             for(int j = 0; j<n1; j++) {
+                //for case like "apple", "app"
                 if(j >= n2)
                     return false;
                 
