@@ -9,9 +9,14 @@
 		</thead>
 		<tbody>
 			<tr>
-          <td>
+          			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Pacific%20Atlantic%20Water%20Flow">Pacific Atlantic Water Flow (Leetcode-417)</a>
 				  </td>
-      </tr>
+      			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Longest_Increasing_Path_in_a_Matrix.cpp">Longest Increasing Path in a Matrix (Leetcode-329)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
