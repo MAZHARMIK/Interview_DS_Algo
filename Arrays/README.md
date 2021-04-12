@@ -155,5 +155,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Shortest%20Unsorted%20Continuous%20Subarray">Shortest Unsorted Continuous Subarray (Leetcode - 581)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Beautiful_Arrangement_II.cpp">Beautiful Arrangement II (Leetcode - 667)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
