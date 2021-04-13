@@ -3,7 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/flatten-nested-list-iterator/
 */
 
-//Approaches-1
+//Approach-1
 class NestedIterator {
 public:
     //Always remember, if there is a nested structure and you need to flatten it, 
@@ -38,7 +38,7 @@ public:
     }
 };
 
-//Approaches-2
+//Approach-2
 //If you notice, hasNext() is being called before every call to next(), and doing so much operation in
 //hasNext() is not good as it is frequently called. So, it's better to pre save the result.
 //It will make next() and hasNext() a O(1) call.
