@@ -5,54 +5,45 @@
 
 class Solution {
 public:
-    bool possible(vector<int>& nums, int subset[], bool visited[], int targetSum, int idx, int k, int n, int lastIndex) {
-        if(subset[idx] == targetSum) {
-            if(idx == k-2)
+    bool solve(vector<int>& nums, vector<int>& subsetSum, vector<bool>& visited, int& sum, int k, int subsetSum_index, int nums_index) {
+
+        if(subsetSum[subsetSum_index] == sum) {
+            //I have found that subsetSum which is of size k has been filled till index k-2, so the last subset need not be checked because it will definitely contain "sum" (since, sum%k == 0)
+            if(subsetSum_index == k-2)
                 return true;
-            
-            return possible(nums, subset, visited, targetSum, idx+1, k, n, n-1);
+            return solve(nums, subsetSum, visited, sum, k, subsetSum_index+1, nums.size()-1); //fill next subset
         }
         
-        for(int i = lastIndex; i>=0; i--) {
-            if(!visited[i] && subset[idx]+nums[i] <= targetSum) {
+        for(int i = nums_index; i>=0; i--) {
+            if(!visited[i] && nums[i]+subsetSum[subsetSum_index] <= sum) {
                 visited[i] = true;
-                subset[idx] += nums[i];
-                if(possible(nums, subset, visited, targetSum, idx, k, n, i-1))
+                subsetSum[subsetSum_index] += nums[i];
+                if(solve(nums, subsetSum, visited, sum, k, subsetSum_index, i-1))
                     return true;
                 visited[i] = false;
-                subset[idx] -= nums[i];
+                subsetSum[subsetSum_index] -= nums[i];
             }
         }
         return false;
     }
-    
     bool canPartitionKSubsets(vector<int>& nums, int k) {
-        if(k == 0)
-            return true;
-        int n = nums.size();
-        if(k > n)
-            return false;
-        
         int sum = 0;
-        for(int i:nums)
-            sum +=i;
+        int n = nums.size();
+        if(k == 1)
+            return true;
+        for(const int& x:nums)
+            sum += x;
         
-        if(sum%k != 0)
+        if(k > n || sum%k != 0)
             return false;
         
-        int targetSum = sum/k;
-        int subset[k];
-        bool visited[n];
-        for(int i = 0; i<n; i++) {
-            visited[i] = false;
-        }
-        
-        for(int i = 0; i<k; i++) {
-            subset[i] = 0;
-        }
-        
-        subset[0] = nums[n-1];
+        sum = sum/k;
+        vector<bool> visited(n, false);
+        vector<int> subsetSum(k, 0);
+        subsetSum[0] = nums[n-1];
         visited[n-1] = true;
-        return possible(nums, subset, visited, targetSum, 0, k, n, n-1);
+        int subsetSum_index = 0;
+        int nums_index      = n-1;
+        return solve(nums, subsetSum, visited, sum, k, subsetSum_index, nums_index);
     }
 };
