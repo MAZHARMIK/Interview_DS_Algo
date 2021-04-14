@@ -114,5 +114,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Beautiful%20Arrangement">Beautiful Arrangement (Leetcode-526)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Tug_Of_War.cpp">Tug Of War</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
