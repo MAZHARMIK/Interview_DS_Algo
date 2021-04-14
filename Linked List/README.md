@@ -124,5 +124,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Swapping%20Nodes%20in%20a%20Linked%20List">Swapping Nodes in a Linked List (Leetcode-1721)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Partition_List.cpp">Partition List (Leetcode-86)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
