@@ -3,6 +3,8 @@
   Question Link : https://practice.geeksforgeeks.org/problems/minimum-sum-partition/0
 */
 
+//Two Approaches
+
 #include <iostream>
 #include <vector>
 using namespace std;
