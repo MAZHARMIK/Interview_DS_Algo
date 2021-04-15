@@ -29,5 +29,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Sliding%20Window%20Maximum">Sliding Window Maximum (Leetcode-239)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Minimum_Swaps_to_Group_All_1s_Together.cpp">Minimum Swaps to Group All 1's Together (Leetcode-1151)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
