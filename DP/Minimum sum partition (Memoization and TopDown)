@@ -1,5 +1,5 @@
 /*
-  Company Tags  : Amazon, Samsung
+  Company Tags  : Amazon, Samsung,  Tower Research, Uber 
   Question Link : https://practice.geeksforgeeks.org/problems/minimum-sum-partition/0
 */
 
@@ -60,7 +60,7 @@ int main() {
             sum += i;
         vector<vector<int>> t(n+1, vector<int>(sum+1, -1));
         cout << minSubsetDiffMemoized(nums, n, 0, sum, t) << endl;
-        cout << minSubsetDiffMemoized(nums, n, sum) << endl;
+        cout << minSubsetDiffTopDown(nums, n, sum) << endl;
 	}
 	return 0;
 }
