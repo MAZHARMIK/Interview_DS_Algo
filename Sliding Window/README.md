@@ -2,7 +2,7 @@
 <img src="https://miro.medium.com/max/1744/1*oWSgrZvYpCCzfgCC79oRaw.png" width="600" height="250">
 
 # Sliding Window : :triangular_flag_on_post:
-
+TIP : Whenever any question asks us t minimize or maximize something but in a contiguous place.
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
 		<thead>
