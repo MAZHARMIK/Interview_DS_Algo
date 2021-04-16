@@ -267,5 +267,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Ones%20and%20Zeroes">Ones and Zeroes (Leetcode-474)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Cutting_a_Rod.cpp">Cutting a Rod (3 Approaches)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
