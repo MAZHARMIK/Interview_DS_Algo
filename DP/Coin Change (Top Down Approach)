@@ -3,6 +3,28 @@
     Leetcode Qn Link : https://leetcode.com/problems/coin-change/
 */
 
+//Approach-1 (Recusrion+Memoized)
+class Solution {
+public:
+    int solve(vector<int>& S, int n, int sum, vector<vector<int>>& t) {
+        if(sum == 0)
+            return t[n][sum] = 1;
+        if(n == 0 || sum < 0)
+            return 0;
+        
+        if(t[n][sum] != -1)
+            return t[n][sum];
+        
+        return t[n][sum] = (solve(S, n, sum-S[n-1], t) + solve(S, n-1, sum, t));
+    }
+    int change(int amount, vector<int>& coins) {
+        int n = coins.size();
+        vector<vector<int>> t(n+1, vector<int>(amount+1, -1));
+        return solve(coins, n, amount, t);
+    }
+};
+
+//Approach-2 (Top Down)
 class Solution {
 public:
     int solve(vector<int>& coins, int n, int s) {
@@ -38,5 +60,35 @@ public:
         if(result == INT_MAX-1)
             return -1;
         return result;
+    }
+};
+
+
+//Approach-3 (Bottom up)
+class Solution {
+public:
+    int change(int amount, vector<int>& coins) {
+        int n = coins.size();
+        
+        vector<int> ways(amount+1);
+        //ways[i] = total # ways to get amount = i;
+        //so, for amount = 0, we have one way {}
+        ways[0] = 1;
+        
+        //take each coin one by one and see
+        for(int i = 0; i<n; i++) {
+            //I select a coin coins[i] and find # ways to get coins[i], coins[i]+1...until amount
+            int curr_coin = coins[i];
+            for(int j = curr_coin; j<=amount ; j++) {
+                int remain_amount = j-curr_coin;
+                
+                //ways[remain_amount] = # ways to get remain_amount
+                
+                //ways[j] = # to get amount j
+                ways[j] = ways[j] + ways[remain_amount];
+            }
+        }
+                
+        return ways[amount];
     }
 };
