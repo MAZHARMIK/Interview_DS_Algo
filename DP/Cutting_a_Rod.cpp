@@ -15,6 +15,7 @@ int cutRod_memoization(vector<int>& prices, int n, vector<int>& t) {
         return t[n];
 
     int maxVal = -1;
+    //Cutting in different sizes and looking for max
     for(int i = 0; i<n; i++) {
         maxVal = max(maxVal, prices[i] + cutRod_memoization(prices, n-i-1, t));
     }
