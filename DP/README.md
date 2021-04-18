@@ -269,7 +269,12 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Coin_Change_II_(3%20Approaches).cpp">Coin Change (3 Approaches)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Coin_Change_II_(3%20Approaches).cpp">Coin Change II (3 Approaches) (Leetcode-518)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Coin_Change_(2%20Approaches).cpp">Coin Change (2 approaches) (Leetcode-322)</a>
 				</td>
 			</tr>
 		</tbody>
