@@ -1,6 +1,6 @@
 /*
     Company Tags     : Amazon, Morgan Stanley, Oracle, Paytm, Accolite, Samsung, Snapdeal, Synopsys, visa
-    Leetcode Qn Link : https://leetcode.com/problems/coin-change/
+    Leetcode Qn Link : https://leetcode.com/problems/coin-change-2/
 */
 
 //Approach-1 (Recusrion+Memoized)
@@ -24,42 +24,32 @@ public:
     }
 };
 
-//Approach-2 (Top Down)
+////Approach-2 (Top Down)
 class Solution {
 public:
-    int solve(vector<int>& coins, int n, int s) {
-        vector<vector<int>> t(n+1, vector<int>(s+1));
-    
-        for(int col = 0; col<s+1; col++)
-            t[0][col] = INT_MAX-1;
-        for(int row = 1; row<n+1; row++)
-            t[row][0] = 0;
+    int combi(vector<int>& coins, int amount, int n) {
+        vector<vector<int>> t(n+1, vector<int>(amount+1));
         
-        for(int col = 1; col<s+1; col++) {
-            if(col%coins[0] == 0)
-                t[1][col] = col/coins[0];
-            else
-                t[1][col] = INT_MAX-1;
-        }
-        
-        for(int i = 2; i<n+1; i++) {
-            for(int j = 1; j<s+1; j++) {
-                if(coins[i-1] <= j) {
-                    t[i][j] = min(1+t[i][j-coins[i-1]], t[i-1][j]);
+        for(int i = 0; i<n+1; i++) {
+            for(int j = 0; j<amount+1; j++) {
+                if(j == 0) {
+                    t[i][j] = 1;
+                } else if(i == 0) {
+                    t[i][j] = 0;
+                } else if(coins[i-1] <= j) {
+                    t[i][j] = t[i][j-coins[i-1]] + t[i-1][j];
                 } else {
                     t[i][j] = t[i-1][j];
                 }
             }
         }
         
-        return t[n][s];
+        return t[n][amount];
     }
-    
-    int coinChange(vector<int>& coins, int amount) {
-        int result = solve(coins, coins.size(), amount);
-        if(result == INT_MAX-1)
-            return -1;
-        return result;
+    int change(int amount, vector<int>& coins) {
+        int n = coins.size();
+        
+        return combi(coins, amount, n);
     }
 };
 
@@ -80,11 +70,11 @@ public:
             //I select a coin coins[i] and find # ways to get coins[i], coins[i]+1...until amount
             int curr_coin = coins[i];
             for(int j = curr_coin; j<=amount ; j++) {
-                int remain_amount = j-curr_coin;
+                int remain_amount = j-curr_coin; //Kis kis amount me tumne curr_coin add kara hoga to reach j
                 
-                //ways[remain_amount] = # ways to get remain_amount
+                //ways[remain_amount] = # ways to get amount "remain_amount"
                 
-                //ways[j] = # to get amount j
+                //ways[j] = # ways to get amount "j"
                 ways[j] = ways[j] + ways[remain_amount];
             }
         }
