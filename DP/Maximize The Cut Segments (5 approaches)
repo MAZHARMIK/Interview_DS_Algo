@@ -52,7 +52,7 @@ int maxSeg2(vector<int> pieces, int n, int Sum) {
         }
     }
     
-    return t[n][Sum];
+    return t[n][sum] < 0 ? 0 : t[n][sum];
 }
 
 //APPROACH-3
