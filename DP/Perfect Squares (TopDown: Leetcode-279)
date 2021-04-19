@@ -1,6 +1,9 @@
 /*
-  Leetcode Qn Link : https://leetcode.com/problems/perfect-squares/
+    Company Tags  :  Google
+    Leetcode Link : https://leetcode.com/problems/perfect-squares/
+    This question is nothing but just similar to of "Minimum Coins to get sum S (COIN CHANGE - Leetcode : 322"
 */
+
 class Solution {
 public:
     int minSquares(vector<int> squares, int n, int S) {        
