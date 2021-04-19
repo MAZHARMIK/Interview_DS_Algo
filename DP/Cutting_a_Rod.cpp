@@ -60,6 +60,7 @@ int cutRod_bottom_up(vector<int>& arr)
     for(int j = 1; j<=n; j++) {
         int maxVal = -1;
         //Try cutting the rod of length j in different lengths i of sizes (1, 2, 3, 4, ... j)
+        //why <=j ? Because we can't cut a rod of size j more than its length
         for(int i = 1; i<=j; i++) {
             int cost_to_cut_i                   = prices[i];
             int remaining_rod_length            = j-i;
