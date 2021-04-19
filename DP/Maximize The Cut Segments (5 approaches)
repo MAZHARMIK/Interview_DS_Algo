@@ -132,7 +132,8 @@ int main() {
         cout << maxSeg3(N, x, y, z) << endl;   //APPROACH-3 : Simple DP
         
         vector<int> t(N+1, -1);
-        cout << maxSeg4(N, x, y, z, t) << endl; //APPROACH-4 : Simple recursion with Memoization
+        int result = maxSeg4(N, x, y, z, t); //APPROACH-4 : Simple recursion with Memoization
+        cout <<  result < 0 ? 0 : result << endl;
         
         cout << maxSeg5(pieces, 3, N) << endl;  //APPROACH-5 : Using rod cutting concept
     }
