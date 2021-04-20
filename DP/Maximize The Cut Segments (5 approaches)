@@ -7,7 +7,7 @@
 #include <climits>
 using namespace std;
 
-//APPROACH-1
+//APPROACH-1 (Using Simple Maths)
 int maxSeg1(int N, int x, int y, int z) {
     int maxR = 0;
     for(int a = 0; a<=N; a++) {
@@ -25,7 +25,7 @@ int maxSeg1(int N, int x, int y, int z) {
     return maxR;
 }
 
-//APPROACH-2
+//APPROACH-2 (Usin concept of Coin Change)
 int maxSeg2(vector<int> pieces, int n, int Sum) {
     vector<vector<int>> t(n+1, vector<int>(Sum+1));
     for(int col = 0; col<Sum+1; col++) {
@@ -73,7 +73,7 @@ int maxSeg3(int a, int b, int c, int N) {
     return t[N];
 }
 
-//APPROACH-4
+//APPROACH-4 (Using recursion with Memoization)
 int maxSeg4(int N, int x, int y, int z, vector<int>& t) {
     if(N < 0)
         return INT_MIN;
@@ -88,7 +88,7 @@ int maxSeg4(int N, int x, int y, int z, vector<int>& t) {
     return t[N] = max(a, max(b, c));
 }
 
-//APPROACH-5
+//APPROACH-5 (Using concept of Rod Cutting)
 int maxSeg5(vector<int>& pieces, int n, int Sum) {
     vector<vector<int>> t(n+1, vector<int>(Sum+1));
     for(int i = 0; i<n+1; i++) {
@@ -101,7 +101,7 @@ int maxSeg5(vector<int>& pieces, int n, int Sum) {
     for(int i = 1; i<n+1; i++) {
         for(int j = 1; j<Sum+1; j++) {
             if(pieces[i-1] <= j) {
-                if(pieces[i-1] == j || t[i][j-pieces[i-1]] != 0)
+                if(pieces[i-1] == j || t[i][j-pieces[i-1]] != 0) //It checks for a valid peice (If we cut a segment, then remaining segment length should also be valid)
                     t[i][j] = max(1 + t[i][j-pieces[i-1]], t[i-1][j]);
                 else
                     t[i][j] = t[i-1][j];
