@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Paytm, Morgan Stanley, Accolite, Amazon, Samsung, Snapdeal, Oracle, Synopsys
+    Company Tags  : Apple, Paytm, Morgan Stanley, Accolite, Amazon, Samsung, Snapdeal, Oracle, Synopsys
     Leetcode Link : https://leetcode.com/problems/coin-change/
 */
 
