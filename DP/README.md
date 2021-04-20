@@ -274,7 +274,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Coin_Change_(2%20Approaches).cpp">Coin Change (2 approaches) (Leetcode-322)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Coin_Change_(3%20Approaches).cpp">Coin Change (3 approaches) (Leetcode-322)</a>
 				</td>
 			</tr>
 		</tbody>
