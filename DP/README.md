@@ -277,5 +277,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Coin_Change_(3%20Approaches).cpp">Coin Change (3 approaches) (Leetcode-322)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest_Common_Subsequence.cpp">Longest Common Subsequence (3 approaches) (Leetcode-1143)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
