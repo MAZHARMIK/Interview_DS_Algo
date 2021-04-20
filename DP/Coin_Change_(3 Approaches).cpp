@@ -70,11 +70,33 @@ public:
         
     }
     
+     //Approach-3 (Bottum Up)
+     int minCoinsToGetAmount_BottomUp(vector<int>& coins, int& amount, int& n) {
+        vector<int> minCoins(amount+1, INT_MAX-1);
+        //minCoins[i] = minimum # coins to get amount = i
+        
+        minCoins[0] = 0;
+        
+        for(int i = 1; i<=amount; i++) {
+            for(int j = 0; j<n; j++) {
+                
+                if(i >= coins[j])
+                    minCoins[i] = min(minCoins[i], 1 + minCoins[i-coins[j]]);
+                
+            }
+        }
+        
+        return minCoins[amount];
+    }
+    
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
         memset(t, -1, sizeof(t));
         //int minCoins = minCoinsToGetAmount_Memoized(coins, amount, n);
-        int minCoins = minCoinsToGetAmount_TopDown(coins, amount, n);
+        
+        //int minCoins = minCoinsToGetAmount_TopDown(coins, amount, n);
+        
+        int minCoins = minCoinsToGetAmount_BottomUp(coins, amount, n);
         
         return minCoins==(INT_MAX-1)?-1:minCoins;
     }
