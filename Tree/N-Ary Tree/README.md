@@ -15,9 +15,14 @@
 				  </td>
       </tr>
 			<tr>
-          <td>
+          			  <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/Maximum%20Depth%20of%20N-ary%20Tree%20(DFS%20%26%20BFS)">Maximum Depth of N-ary Tree (DFS & BFS) (Leetcode-559)</a>
 				  </td>
-      </tr>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/N-ary_Tree_Preorder_Traversal.cpp">N-ary Tree Preorder Traversal (Leetcode-589)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
