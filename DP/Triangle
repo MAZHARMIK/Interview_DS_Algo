@@ -1,0 +1,74 @@
+/*
+    Company Tags  : Let me know if you get it :-)
+    Leetcode Link : https://leetcode.com/problems/triangle/
+    
+    Solve "Minimum Falling Path Sum" (Leetcode-931) before this question
+*/
+
+//Approach-1 Recursion with Memoization
+class Solution {
+public:
+    vector<vector<int>> t;
+    map<string, int> mp;
+    int solve(int row, int col) {
+        string key = to_string(row) + "_" + to_string(col);
+        
+        if(mp.count(key))
+            return mp[key];
+        
+        int minPath = t[row][col];
+        if(row < t.size()-1) {
+            minPath += min(solve(row+1, col), solve(row+1, col+1));
+        }
+        
+        return mp[key] = minPath;
+    }
+    int minimumTotal(vector<vector<int>>& triangle) {
+        t = triangle;
+        return solve(0, 0);
+    }
+};
+
+//Approach-2 : Manipulating the input array-DP
+class Solution {
+public:
+    int minimumTotal(vector<vector<int>>& triangle) {
+        int rows = triangle.size();
+        
+        for(int row = 1; row<rows; row++) {
+            for(int col = 0; col<triangle[row].size(); col++) {
+                int prev_up_val  = triangle[row-1][min(col, (int)triangle[row-1].size()-1)];
+                int prev_up_left = triangle[row-1][max(col-1, 0)];
+                
+                triangle[row][col] += min(prev_up_val, prev_up_left);
+            }
+        }
+        
+        return *min_element(triangle[rows-1].begin(), triangle[rows-1].end());
+        
+    }
+};
+
+//Approach-3 : Without Manipulating the input array O(n) space-DP
+class Solution {
+public:
+    int minimumTotal(vector<vector<int>>& triangle) {
+        int rows = triangle.size();
+        
+        vector<int> prevRow = triangle[0];
+        
+        for(int row = 1; row<rows; row++) {
+            vector<int> currRow;
+            for(int col = 0; col<triangle[row].size(); col++) {
+                int prev_up_val  = prevRow[min(col, (int)triangle[row-1].size()-1)];
+                int prev_up_left = prevRow[max(col-1, 0)];
+                
+                currRow.push_back(triangle[row][col] + min(prev_up_val, prev_up_left));
+            }
+            
+            prevRow = currRow;
+        }
+        
+        return *min_element(prevRow.begin(), prevRow.end());
+    }
+};
