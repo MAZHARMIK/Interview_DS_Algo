@@ -282,5 +282,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest_Common_Subsequence.cpp">Longest Common Subsequence (3 approaches) (Leetcode-1143)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum_Length_of_Repeated_Subarray.cpp">Maximum Length of Repeated Subarray (2 approaches) (Leetcode-718)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
