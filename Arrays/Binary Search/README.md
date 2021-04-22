@@ -35,9 +35,14 @@
 				  </td>
       </tr>
 			<tr>
-          <td>
+          			  <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/The%20K%20Weakest%20Rows%20in%20a%20Matrix">The K Weakest Rows in a Matrix (Leetcode-1337)</a>
 				  </td>
-      </tr>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Missing%20Number%20In%20Arithmetic%20Progression">Missing Number In Arithmetic Progression (Leetcode-1228)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
