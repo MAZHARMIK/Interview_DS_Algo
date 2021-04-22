@@ -26,14 +26,13 @@ int LCSubstring(string s1, string s2, int m, int n) {
         }
     }
 
-    string res = "";
+    string res("", maxL);
     while(t[row][col] != 0) {
         res += s1[row-1];
         //move diagonally only because of t[i][j] = 1 + t[i-1][j-1];
         row--;
         col--;
     }
-    reverse(res.begin(), res.end());
     cout << res << endl;
     return maxC;
 }
