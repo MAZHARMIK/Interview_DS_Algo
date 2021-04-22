@@ -1,0 +1,30 @@
+/*
+    Company Tags  : Let me know when you get it :-)
+    Leetcode Link : https://leetcode.com/problems/brick-wall/
+*/
+
+class Solution {
+public:
+    int leastBricks(vector<vector<int>>& wall) {
+        //Map of position(sum) -> count_edges
+        unordered_map<int, int> mp;
+        
+        int maxEdges_sum = 0;
+        
+        for(int i = 0; i<wall.size(); i++) {
+            int curr_edge_sum = 0;
+            
+            for(int j = 0; j<wall[i].size()-1; j++) {
+                
+                curr_edge_sum += wall[i][j];
+                
+                mp[curr_edge_sum]++;
+                
+                
+                maxEdges_sum = max(maxEdges_sum, mp[curr_edge_sum]);
+            }
+        }
+        
+        return wall.size()-maxEdges_sum;
+    }
+};
