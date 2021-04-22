@@ -10,8 +10,13 @@
 		</thead>
 		<tbody>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Verifying_an_Alien_Dictionary.cpp">Verifying an Alien Dictionary (Leetcode-953)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Brick%20Wall">Brick Wall (Leetcode-554)</a>
 				</td>
 			</tr>
 		</tbody>
