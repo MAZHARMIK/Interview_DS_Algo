@@ -19,7 +19,7 @@ int lcs(string s1, string s2, int m , int n, vector<vector<int>>& t) {
     return t[m][n];
 }
 
-set<string> findLCS(string s1, string s2, int m , int n, vector<vector<int>> t) {
+set<string> findLCS(string& s1, string& s2, int m , int n, vector<vector<int>>& t) {
     set<string> st;
     if(m == 0 || n == 0) {
         st.insert("");
@@ -30,16 +30,20 @@ set<string> findLCS(string s1, string s2, int m , int n, vector<vector<int>> t) 
         set<string> temp = findLCS(s1, s2, m-1, n-1, t);
 
         for(string str:temp) {
-            st.insert(str+s1[m-1]); //Add the equal character(s1[m-1] or s2[n-1] to all strings
+            st.insert(str+s1[m-1]); //Add the equal character s1[m-1] or s2[n-1] to all strings
+            // Why ?
+            //Because, if two characters are equal then it will be present in all the subsequences
         }
     } else {
+        set<string> temp ;
         if(t[m-1][n] >= t[m][n-1]) {
-            st = findLCS(s1, s2, m-1, n, t); //find all the LCS from up
+            temp = findAllLcs(s1, s2, m-1, n, t);
+            st.insert(temp.begin(), temp.end());
         }
 
-        if(t[m][n-1] >= t[m-1][n]) {
-            set<string> temp = findLCS(s1, s2, m, n-1, t);
-            st.insert(temp.begin(), temp.end()); //append other LCS from left to final result
+        if(t[m-1][n] <= t[m][n-1]) {
+            temp = findAllLcs(s1, s2, m, n-1, t);
+            st.insert(temp.begin(), temp.end());
         }
     }
     return st;
