@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Google, Airbnb, Microsoft
+    Company Tags  : Microsoft
     Leetcode Link : https://leetcode.com/problems/shortest-common-supersequence/
 */
 
