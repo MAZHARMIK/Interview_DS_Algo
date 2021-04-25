@@ -1,0 +1,59 @@
+/*
+    Company Tags  : Amazon
+    Leetcode Link : https://leetcode.com/problems/critical-connections-in-a-network/
+*/
+
+class Solution {
+public:
+    unordered_map<int,vector<int>> adj; //Adj list
+    void DFS(int u, vector<int>& disc, vector<int>& low, vector<int>& parent, vector<vector<int>>& criticals) {
+        static int time = 0;
+        disc[u] = low[u] = time;
+        time += 1;
+
+        for(int v: adj[u]) {
+            if(v == parent[u])
+                continue; // if parent vertex, ignore as it's a cycle
+            if(disc[v]==-1)	//If v is not visited
+            {
+                parent[v] = u;
+                DFS(v,disc,low,parent, criticals);
+                low[u] = min(low[u],low[v]);
+                //low[v] = earliest visited vertex time (minimum disc time) that can be reached from v
+                //So, if disc[u] > low[v], it means that v cannot reach u
+                if(low[v] > disc[u]) //Then u - v is critical, there is no path for v to reach back to u or previous vertices of u
+                    criticals.push_back(vector<int>({u, v}));
+            }
+            else { // if v discovered and is not parent of u, update low[u], cannot use low[v] because u is not subtree of v
+                low[u] = min(low[u],disc[v]);
+            }
+        }
+
+    }
+
+    void tarjansAlgo(int& V, vector<vector<int>>& criticals) {
+        vector<int> disc(V, -1);
+        vector<int> low(V, -1);
+        vector<int> parent(V,-1);
+        
+        for(int i=0;i<V;++i) {
+		    if(disc[i] == -1) {
+			    DFS(i, disc, low, parent, criticals);
+            }
+        }
+    }
+    vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
+        adj.clear();
+        for(int i = 0; i<connections.size(); i++) {
+            int u = connections[i][0];
+            int v = connections[i][1];
+            adj[u].push_back(v);
+            adj[v].push_back(u);
+        }
+        
+        vector<vector<int>> criticals;
+        tarjansAlgo(n, criticals);
+        
+        return criticals;
+    }
+};
