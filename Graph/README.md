@@ -224,5 +224,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Parallel%20Courses">Parallel Courses (Leetcode : 1136)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Critical%20Connections%20in%20a%20Network">Critical Connections in a Network (Leetcode : 1192)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
