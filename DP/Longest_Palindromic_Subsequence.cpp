@@ -67,16 +67,7 @@ public:
                 }
             }
         }
-        
-        for(int i = 0; i<n; i++) {
-            for(int j = 0; j<n; j++) {
-                cout << t[i][j] << " ";
-            }
-            cout << endl;
-        }
-        
         return t[0][n-1];
-        
     }
     
     int longestPalindromeSubseq(string s) {
