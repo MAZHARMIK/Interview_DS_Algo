@@ -54,5 +54,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Number%20of%20Submatrices%20That%20Sum%20to%20Target">Number of Submatrices That Sum to Target (Leetcode-1074)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Rotate%20Image">Rotate Image (Leetcode-48)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
