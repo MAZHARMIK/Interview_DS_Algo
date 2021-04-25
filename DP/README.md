@@ -297,5 +297,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Shortest_Common_Supersequence.cpp">Shortest Common Supersequence  (2 approaches) (Leetcode-1092)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest_Palindromic_Subsequence.cpp">Longest Palindromic Subsequence  (3 approaches) (Leetcode-516)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
