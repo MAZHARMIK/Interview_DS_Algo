@@ -40,7 +40,7 @@ public:
     }
 };
 
-//Approach : Expand Around Possible Centers (Fastest solution)
+//Approach-2 : Expand Around Possible Centers (Fastest solution)
 class Solution {
 public:
     int count = 0;
