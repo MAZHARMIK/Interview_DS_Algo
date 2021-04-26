@@ -3,6 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/palindromic-substrings/
 */
 
+//Approach-1 (DP)
 class Solution {
 public:
     int countSubstrings(string s) {
@@ -35,6 +36,33 @@ public:
             }
         }
         
+        return count;
+    }
+};
+
+//Approach : Expand Around Possible Centers (Fastest solution)
+class Solution {
+public:
+    int count = 0;
+    void check(string s, int i, int j) {
+        while(i >=0 && j < s.length() && s[i] == s[j]) {
+            count++;
+            i--; //expanding from center   <---i  j--->
+            j++; //expanding from center
+        }
+    }
+    int countSubstrings(string s) {
+        int n = s.length();
+        count = 0;
+        
+        /*
+            Every single character in the string is a center for possible odd-length palindromes: check(s, i, i);
+            Every pair of consecutive characters in the string is a center for possible even-length palindromes: check(s, i, i+1);.
+        */
+        for(int i = 0; i<n; i++) {
+            check(s, i, i);
+            check(s, i, i+1);
+        }
         return count;
     }
 };
