@@ -81,7 +81,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Furthest%20Building%20You%20Can%20Reach">Furthest Building You Can Reach (Leetcode-1642)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Furthest_Building_You_Can_Reach.cpp">Furthest Building You Can Reach (Leetcode-1642)</a>
 				</td>
 			</tr>
 		</tbody>
