@@ -9,24 +9,30 @@ public:
     int t[1005][1005];
     int maxC = 0;
     int recur_memo(vector<int>& nums1, vector<int>& nums2, int m, int n) {
-        if(m == 0 || n == 0)
-            return 0;
-            
         if(t[m][n] != -1)
             return t[m][n];
         
+        if(m == 0 || n == 0)
+            return 0;
+        
+        int max_substring_ending_here = 0;
         if(nums1[m-1] == nums2[n-1]) {
-            t[m][n] = 1 + recur_memo(nums1, nums2, m-1, n-1);
-            maxC = max(maxC, t[m][n]);
+            max_substring_ending_here = 1 + recur_memo(nums1, nums2, m-1, n-1);
         }
         
-        //these below we have to call anyway because we are talking about substring.
-        recur_memo(nums1, nums2, m-1, n);
-        recur_memo(nums1, nums2, m, n-1);
+		//May be you find better results if you do (m-1, n) and you end up updating maxC with some LAAARGEST COMMON SUBSTRING LENGTH
+        int decrease_m = recur_memo(nums1, nums2, m-1, n);
+		
+		//OR,
+		//May be you find better results if you do (m, n-1) and you end up updating maxC with some LAAARGEST COMMON SUBSTRING LENGTH
+        int decrease_n  = recur_memo(nums1, nums2, m, n-1);
         
-        if(t[m][n] == -1)
-            t[m][n] = 0;
-        return  t[m][n];
+		//Like I said, you need to keep on finding the maxC in every call you make throughout your journey.
+        maxC = max({maxC, max_substring_ending_here, decrease_m, decrease_n});
+        
+		
+		//BUT BUT BUT, you need to return the best you found at this ending stage
+        return t[m][n] = max_substring_ending_here;
     }
     
     int dp(vector<int>& nums1, vector<int>& nums2, int m, int n) {
