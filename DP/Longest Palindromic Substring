@@ -8,6 +8,7 @@ public:
     string longestPalindrome(string s) {
         int n = s.length();
         vector<vector<bool>> t(n, vector<bool>(n, false));
+        //t[i][j] = true means substring [i,j] is a pallindrome
         int start = 0;
         int maxL = 1;
         
