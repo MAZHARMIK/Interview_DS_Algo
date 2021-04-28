@@ -28,7 +28,7 @@ public:
         for(int col = 0; col<n; col++) {
             if(col > 0 && obstacleGrid[0][col-1] == 1) {
                 t[0][col] = 0;
-                obstacleGrid[0][col] = 1; //Bcz now it's not possible to reach any cell in this row 0
+                obstacleGrid[0][col] = 1; //Bcz now it's not possible to reach any cell in first row from this cell onwards
             }
             else if(obstacleGrid[0][col] == 1)
                 t[0][col] = 0;
@@ -39,7 +39,7 @@ public:
         for(int row = 0; row<m; row++) {
             if(row > 0 && obstacleGrid[row-1][0] == 1) {
                 t[row][0] = 0;
-                obstacleGrid[row][0] = 1; //Bcz now it's not possible to reach any cell in this col 0
+                obstacleGrid[row][0] = 1; //Bcz now it's not possible to reach any cell in first col from this cell onwards
             }
             else if(obstacleGrid[row][0] == 1)
                 t[row][0] = 0;
