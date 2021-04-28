@@ -1,0 +1,53 @@
+/*
+    Company Tags  : Amazon, Paytm, Microsoft, Walmart, Linkedin
+    Leetcode Link : https://leetcode.com/problems/unique-paths/
+*/
+
+class Solution {
+public:
+    vector<vector<int>> t;
+    int solve_memoize(int m, int n, int i, int j) {
+        if(i >= m || j >= n || i < 0 || j < 0)
+            return 0;
+        if(i == m-1 && j == n-1)
+            return 1;
+        
+        if(t[i][j] != -1)
+            return t[i][j];
+        return t[i][j] = solve_memoize(m, n, i+1, j) + solve_memoize(m, n, i, j+1);
+        
+    }
+    
+    int solve_dp(int m, int n) {
+        vector<vector<int>> t(m, vector<int>(n, 0));
+        //t[i][j] = total ways to reach at [i][j]
+        
+        //Since we start from[0][0], we move right and right
+        //so, there is only one way to reach each cell in the first row
+        for(int col = 0; col<n; col++) {
+            t[0][col] = 1;
+        }
+        
+        //Since we start from[0][0], we move down and down
+        //so, there is only one way to reach each cell in the first column
+        for(int row = 0; row<m; row++) {
+            t[row][0] = 1;
+        }
+        
+        for(int i = 1; i<m; i++) {
+            for(int j = 1; j<n; j++) {
+                //ways to reach [i][j] will be from up [i-1][j] or from left [i][j-1]
+                t[i][j] = t[i-1][j] + t[i][j-1];
+            }
+        }
+        
+        return t[m-1][n-1];//return total ways to reach [m-1][n-1] which is our Finish
+    }
+    
+    int uniquePaths(int m, int n) {
+        t.resize(m, vector<int>(n, -1));
+        //return solve_memoize(m, n, 0, 0);
+        
+        return solve_dp(m, n);
+    }
+};
