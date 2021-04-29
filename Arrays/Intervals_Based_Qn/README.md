@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Remove%20Covered%20Intervals">Remove Covered Intervals (Leetcode-1288)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Meeting_Scheduler.cpp">Meeting Scheduler (Leetcode-1229)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
