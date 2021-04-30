@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Minimum%20Operations%20to%20Make%20Array%20Equal">Minimum Operations to Make Array Equal(Leetcode : 1551)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Powerful_Integers.cpp">Powerful Integers(Leetcode : 970)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
