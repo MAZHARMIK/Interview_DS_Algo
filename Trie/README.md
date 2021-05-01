@@ -39,5 +39,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Short%20Encoding%20of%20Words">Short Encoding of Words : (Leetcode-820)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Prefix%20and%20Suffix%20Search">Prefix and Suffix Search : (Leetcode-745)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
