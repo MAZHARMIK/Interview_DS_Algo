@@ -1,0 +1,78 @@
+/*
+    Company Tags  : 
+    Leetcode Link : https://leetcode.com/problems/prefix-and-suffix-search/
+*/
+
+class trieNode {
+public:
+    trieNode* children[26] = {NULL};
+    vector<int> indices;
+};
+
+class WordFilter {
+private:
+    trieNode* root_prefix;
+    trieNode* root_suffix;
+public:
+    WordFilter(vector<string>& words) {
+        root_prefix = new trieNode();
+        root_suffix = new trieNode();
+        
+        for (int index = 0; index < words.size(); index++) {
+            string str = words[index];
+            insert(root_prefix, str, index);
+            reverse(str.begin(), str.end());
+            insert(root_suffix, str, index);
+        }
+            
+    }
+    
+    void insert(trieNode* pCrawl, string str, int index) {
+        for(char& ch:str) {
+            if(pCrawl->children[ch-'a'] == NULL) {
+                pCrawl->children[ch-'a'] = new trieNode();
+            }
+            pCrawl = pCrawl->children[ch-'a'];
+            pCrawl->indices.push_back(index);
+        }    
+    }
+
+    vector<int> search(trieNode* pCrawl, string key) {
+        for(char& ch:key) {
+            if(!pCrawl->children[ch-'a'])
+                return {};
+            pCrawl = pCrawl->children[ch-'a'];
+        }
+
+        return pCrawl->indices;
+    }
+    
+    int f(string prefix, string suffix) {
+        vector<int> prefix_s = search(root_prefix, prefix);
+        reverse(suffix.begin(), suffix.end());
+        vector<int> suffix_s = search(root_suffix, suffix);
+        
+        int pi = prefix_s.size()-1;
+        int si = suffix_s.size()-1;
+        
+        while(pi >= 0 && si >= 0) {
+            int p_index_val = prefix_s[pi];
+            int s_index_val = suffix_s[si];
+            
+            if(p_index_val == s_index_val) //both pointing to same word in words
+                return p_index_val;
+            
+            if(p_index_val < s_index_val)
+                si--;
+            else
+                pi--;
+        }
+        return -1;
+    }
+};
+
+/**
+ * Your WordFilter object will be instantiated and called as such:
+ * WordFilter* obj = new WordFilter(words);
+ * int param_1 = obj->f(prefix,suffix);
+ */
