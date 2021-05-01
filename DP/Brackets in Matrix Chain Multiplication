@@ -34,7 +34,10 @@ void MCM(vector<int>& arr, int n) {
             
             t[i][j] = INT_MAX;
             for(int k = i; k<=j-1; k++) {
-                int temp = t[i][k]+t[k+1][j]+(arr[i-1]*arr[k]*arr[j]);
+                int temp = t[i][k] +    //just like(solve(i, k))
+			   t[k+1][j] +  //just like (solve(k+1, j))
+			   (arr[i-1]*arr[k]*arr[j]);
+			   
                 if(t[i][j] > temp) {
                     t[i][j] = temp;
                     bracket[i][j] = k;
