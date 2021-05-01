@@ -42,6 +42,7 @@ int MCM_Memoized(vector<int>& arr, int i, int j, vector<vector<int>>& t) {
     return t[i][j] = ans;
 }
 
+//Simply derived from Recursive solution
 int MCM_Topdown(vector<int>& arr, int n) {
     vector<vector<int>> t(n, vector<int>(n));
     //t[i][j] = min cost to multiply A[i], A[i+1], ... A[j]
