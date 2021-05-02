@@ -1,0 +1,60 @@
+/*
+    Company Tags  : Amazon, Facebook
+    Leetcode Link : https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
+    
+    Since, it's a Premium Question, hence question is provided below.
+    
+    Description:
+    Given n nodes labeled from 0 to n-1 and a list of undirected edges (each edge is a pair of nodes), write a function to find the number of
+    connected components in an undirected graph.
+
+    Example 1:
+        Input: n = 5 and edges = {{0, 1}, {1, 2}, {3, 4}};
+        Output : 2
+*/
+
+/*
+  Since it's an undirected graph(kosaraju's algorithm won't work here), we use Union Find Algorithm to find number of Strongly Connected Components
+  We could also do union by rank for optimized solution O(N+M)
+  But this solution is O(N+M*log(N))
+  M = # edges
+  N = # nodes
+*/
+class Solution {
+public:
+    void Union(int v1, int v2, vector<int>& parents) {
+        int parent1 = find(v1, parents);
+        int parent2 = find(v2, parents);
+        parents[parent1] = parent2;
+    }
+
+    int find(int v, vector<int>& parents) {
+        if(parents[v] != v) {
+            parents[v] = find(parents[v], parents);
+        }
+        return parents[v];
+    }
+
+    int countComponents(int n, vector<vector<int>>& edges) {
+        vector<int> parents(n);
+
+        //Initially each node represent it's own subset of one node
+        for(int i = 0; i<n; i++)
+            parents[i] = i;
+
+        //Union (merging all edges whoever possible)
+        for(vector<int> edge:edges) {
+            Union(edge[0], edge[1], parents);
+        }
+
+        //Now, we find how many sets (connected components) we have
+        unordered_set<int> st;
+        for(int i = 0; i<n; i++) {
+            int parent = find(i, parents); //returns the parent (representative) of edge
+            st.insert(parent);
+        }
+
+        return st.size();
+
+    }
+};
