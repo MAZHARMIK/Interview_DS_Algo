@@ -3,6 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/course-schedule-iii/
 */
 
+//Approach-1 (Using heap) I will come up with more solutions
 class Solution {
 public:
     static bool myFunction(const vector<int>& v1, const vector<int>& v2) {
