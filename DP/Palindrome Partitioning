@@ -3,6 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/palindrome-partitioning/
 */
 
+//Whenever a question asks for "Generating all possible" something, think about Backtracking once
 class Solution {
 public:
     bool isPallindrome(string& s, int l, int r) {
