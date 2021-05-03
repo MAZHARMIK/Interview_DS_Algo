@@ -3,7 +3,106 @@
     Leetcode Link : https://leetcode.com/problems/course-schedule-iii/
 */
 
-//Approach-1 (Using heap) I will come up with more solutions
+Why sorting used in all approaches below ?
+I'll pick those courses first which has least deadline and finish
+them so that totalTime doesn't exceed them unnecessarily. When we
+reach end, we may have a big totalTime and may be we can then tackle
+the large course at the end.
+//Approach-1 (Recursion + Memoization) : TLE
+
+/*
+This is simply applying knapsack 0/1
+*/
+class Solution {
+public:
+    static bool myFunction(const vector<int>& v1, const vector<int>& v2) {
+        return v1[1] < v2[1];
+    }
+    int solve(vector<vector<int>>& courses, int currTime, int i, vector<vector<int>>& t) {
+        if(i >= courses.size())
+            return 0;
+
+        if(t[i][currTime] != -1)
+            return t[i][currTime];
+        
+        int taken = 0;
+        if(currTime + courses[i][0] <= courses[i][1]) {
+            taken = 1 + solve(courses, currTime + courses[i][0], i+1, t); 
+                     
+        }
+        int not_taken = solve(courses, currTime, i+1, t);
+        
+        return t[i][currTime] = max(taken, not_taken);
+    }
+    int scheduleCourse(vector<vector<int>>& courses) {
+        sort(courses.begin(), courses.end(), myFunction);
+        int n = courses.size();
+        vector<vector<int>> t(n, vector<int>(courses[n-1][1]+1, -1));
+        int currTime = 0;
+        return solve(courses, currTime, 0, t);
+    }
+};
+
+
+//Approach-2 (Bottomup for above approach) : TLE
+//Recursion with Memoization
+class Solution {
+public:
+    static bool myFunction(const vector<int>& v1, const vector<int>& v2) {
+        return v1[1] < v2[1];
+    }
+
+    
+    int scheduleCourse(vector<vector<int>>& courses) {
+        sort(courses.begin(), courses.end(), myFunction);
+        
+        int n      = courses.size();
+        
+        int FINAL_DAY = courses[n-1][1];
+        
+        vector<vector<int>> t(n+1, vector<int>(FINAL_DAY+1));
+        
+        //t[i][j] = max courses that can be completed till ith course at jth Day
+        
+        for(int i = 0; i<n+1; i++) {
+            t[i][0] = 0; //If the DAY is 0, we can't complete any course 
+        }
+        
+        for(int j = 0; j<FINAL_DAY+1; j++) {
+            t[0][j] = 0; //If there are no courses, we can't complete any course 
+        }
+        
+        for(int i = 1; i<n+1; i++) {
+            for(int j = 1; j<FINAL_DAY+1; j++) {
+                int curr_course_duration = courses[i-1][0];
+                int curr_course_lastDay  = courses[i-1][1];
+                
+                //It's jth Day today
+                //I can take the course only if j >= curr_course_duration && j <= curr_course_lastDay
+                //INCLUDING ith course
+                if(j >= curr_course_duration && j <= curr_course_lastDay) {
+                    // I take this course
+                    t[i][j] = 1 + t[i-1][j-curr_course_duration];
+                }
+                
+                //I also need to see if I can skip this course today
+                ////EXCLUDING ith course
+                //(I am being lazy today, so I will be left with as much course I did till yesterday)
+                int yesterday = t[i][j-1];
+                
+                //Or, I may be till today with excluding ith course ofcourse
+                int today     = t[i-1][j];
+                
+                t[i][j] = max({t[i][j], yesterday, today});
+            }
+        }
+        
+        return t[n][FINAL_DAY];
+    }
+};
+
+
+//Approach-3 Using Priority Queue (Same concept as ""Fruthest Building You Can Reach")
 class Solution {
 public:
     static bool myFunction(const vector<int>& v1, const vector<int>& v2) {
@@ -11,7 +110,6 @@ public:
     }
     
     int scheduleCourse(vector<vector<int>>& courses) {
-        //I'll pick those courses first which has least deadline and finish them so that totalTime doesn't exceed them unnecessarily
         sort(courses.begin(), courses.end(), myFunction);
         
         int n = courses.size();
