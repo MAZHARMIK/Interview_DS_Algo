@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Furthest_Building_You_Can_Reach.cpp">Furthest Building You Can Reach (Leetcode-1642)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Course%20Schedule%20III">Course Schedule III (Leetcode-630)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
