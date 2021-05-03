@@ -1,0 +1,48 @@
+/*
+    Company Tags  : Let me know if you get it :-)
+    Leetcode Link : https://leetcode.com/problems/course-schedule-iii/
+*/
+
+class Solution {
+public:
+    static bool myFunction(const vector<int>& v1, const vector<int>& v2) {
+        return v1[1] < v2[1];
+    }
+    
+    int scheduleCourse(vector<vector<int>>& courses) {
+        //I'll pick those courses first which has least deadline and finish them so that totalTime doesn't exceed them unnecessarily
+        sort(courses.begin(), courses.end(), myFunction);
+        
+        int n = courses.size();
+        
+        //This question is similar to "Fruthest Building You Can Reach"
+        /*
+            Just keep track of maximum duration you had used in past 
+            If you are not able to use current course, then look in the past and see if you has used any course whose duration was larger than current course's duration.
+            If yes, you could have done this course in the past.
+            Use max heap to keep track of max duration course in past
+        */
+        priority_queue<int> pq;
+        
+        int timeTillNow = 0;
+        
+        for(int i = 0; i<n; i++) {
+            int curr_course_duration = courses[i][0];
+            int curr_course_end      = courses[i][1];
+            
+            if(timeTillNow + curr_course_duration <= curr_course_end) {
+                timeTillNow += curr_course_duration;
+                pq.push(curr_course_duration);
+            } else {
+                if(!pq.empty() && pq.top() > curr_course_duration) {
+                    timeTillNow -= pq.top();
+                    pq.pop();
+                    pq.push(curr_course_duration);
+                    timeTillNow += curr_course_duration;
+                }
+            }
+        }
+        //At the end you will be left with courses you took in your maxheap
+        return pq.size();
+    }
+};
