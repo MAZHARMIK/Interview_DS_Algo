@@ -3,6 +3,58 @@
     Leetcode Link : https://leetcode.com/problems/non-decreasing-array/
 */
 
+//Approach-1
+class Solution {
+public:
+    bool checkPossibility(vector<int>& nums) {
+        /*
+            Example : 1
+            {-1, 4, 2, 3}   ->  {-1, 2, 2, 3}
+            The problem came when we saw nums[i] < nums[i+1]  (i.e. 4 < 2) 
+            So, we modified nums[i] = nums[i+1];   -> case-A
+            
+            
+            Example : 2
+            {5, 8, 4, 10}   ->  {5, 8, 8, 10} 
+            The problem came when we saw nums[i] < nums[i+1]  (i.e. 8 < 4) 
+            
+            So, we modified nums[i+1] = nums[i];   -> case-B
+            
+            
+            case-A and case-B had same scenario but we did different modifications.
+            
+            In case-B, if you had modified nums[i], then you would have got {5, 4, 4, 10}  (Dayumm, that's a problem 5 < 4)  :-(
+            
+            So, we take decision based on nums[i-1]
+            
+            i.e. if(nums[i-1] < nums[i+1]) //Something we want (case-A)
+                    nums[i] = nums[i+1];
+                
+                and if(nums[i-1] > nums[i+1]) //case-B
+                    nums[i+1] = nums[i];
+        */
+        
+        int modify = false;
+        int n      = nums.size();
+        
+        for(int i = 0; i<n-1; i++) {
+            if(nums[i] > nums[i+1]) {
+                if(modify)
+                    return false;
+                
+                modify = true;
+                if(i > 0 && nums[i-1] > nums[i+1]) //why this condition first (example : {4, 2, 3} First element violates)
+                    nums[i+1] = nums[i];
+                else
+                    nums[i] = nums[i+1];
+            }
+        }
+        
+        return true;
+    }
+};
+
+//Approach-2
 class Solution {
 public:
     bool checkPossibility(vector<int>& nums) {
