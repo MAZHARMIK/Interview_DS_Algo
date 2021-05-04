@@ -160,5 +160,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Beautiful_Arrangement_II.cpp">Beautiful Arrangement II (Leetcode - 667)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Non-decreasing_Array.cpp">Non-decreasing Array (Leetcode - 665)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
