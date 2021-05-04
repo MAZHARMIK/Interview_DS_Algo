@@ -81,3 +81,64 @@ public:
         return true;
     }
 };
+
+//Approach-3
+class Solution {
+public:
+    bool checkPossibility(vector<int>& nums) {
+        /*
+            CASE-1
+            
+              Level(2)              (i-1)
+
+              Level(1)     (i-2)
+              Level(0)                     (i)
+            
+              For sure, I need to move (i)  -> (i-1)
+              We get;
+            
+              Level(2)              (i-1)    (i)
+
+              Level(1)     (i-2)
+              
+              
+            CASE-2
+            
+              Level(2)              (i-1)
+
+              Level(1)                     (i)
+              Level(0)  (i-2)
+              
+              //I have two choices
+                choice-1 : I can move (i)   -> (i-1)  (Safe : Because by decreasing (i), we are increasing our chances to get non-decreasing numbers in future)
+                
+                choice-2 : I can move (i-1) -> (i)    (Not Safe)
+            
+            So, 
+              Level(2)              
+
+              Level(1)               (i-1)    (i)
+              Level(0)  (i-2)
+            
+        */
+        
+        int modify = false;
+        int n      = nums.size();
+        
+        for(int i = 1; i<n; i++) {
+            if(nums[i] < nums[i-1]) {
+                
+                if(i == 1 || nums[i-2] <= nums[i])
+                    nums[i-1] = nums[i]; //case-2 : move (i-1)  -> (i)
+                else
+                    nums[i] = nums[i-1]; //case-1 : move (i)  -> (i-1)
+                
+                if(modify)
+                    return false;
+                modify = true;
+            }
+        }
+        
+        return true;
+    }
+};
