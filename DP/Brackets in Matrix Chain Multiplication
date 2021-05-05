@@ -41,7 +41,7 @@ public:
                                 t[k+1][j];
                     
                     if(t[i][j] > temp) {
-                        t[i][j] = min(t[i][j], temp);
+                        t[i][j] = temp;
                         brackets[i][j] = k;
                     }
                 }
