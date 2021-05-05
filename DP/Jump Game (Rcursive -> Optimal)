@@ -22,28 +22,30 @@ public:
     }
 };
 
-//Recursive (TLE in one case)
+//Recursion+Memoization (TLE in one case)
 class Solution {
 public:
-    int solve(vector<int>& nums, int idx, int n) {
+    bool solve(vector<int>& nums, int n, int idx, unordered_map<int, bool>& mp) {
         if(idx >= n)
             return false;
+        if(mp.count(idx))
+            return mp[idx];
+            
         if(idx == n-1)
-            return true;
+            return mp[idx] = true;
         
-        bool possible = false;
-        for(int i = 1; i<= nums[idx]; i++) {
-            if(solve(nums, idx+i, n)) {
-                possible = true;
-                break;
-            }
+        bool reach = false;
+        for(int i = 1; i<=nums[idx]; i++) {
+            reach = reach|solve(nums, n, idx+i, mp);
+            if(reach)
+                return mp[idx] = reach;
         }
         
-        return possible;
+        return mp[idx] = reach;
     }
     bool canJump(vector<int>& nums) {
-        int idx = 0;
-        int n   = nums.size();
-        return solve(nums, idx, n);
+        int n = nums.size();
+        unordered_map<int, bool> mp;
+        return solve(nums, n, 0, mp);
     }
 };
