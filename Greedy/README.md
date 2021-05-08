@@ -94,5 +94,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Wiggle%20Subsequence">Wiggle Subsequence (Leetcode-376)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Put_Boxes_Into_the_Warehouse_I.cpp">Put Boxes Into the Warehouse I (Leetcode-1564)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
