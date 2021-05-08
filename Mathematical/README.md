@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Powerful_Integers.cpp">Powerful Integers(Leetcode : 970)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Super_Palindromes.cpp">Super Palindromes(Leetcode : 906)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
