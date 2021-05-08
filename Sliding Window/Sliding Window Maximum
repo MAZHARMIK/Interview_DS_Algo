@@ -3,7 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/sliding-window-maximum/
 */
 
-//Approach-1 (Using Deque)
+//Approach-1 (Using Deque) Every element is added(pushed) and popped only once,So it is O(n) time complexity.
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -32,7 +32,7 @@ public:
     }
 };
 
-//Approach-1 (Using max-heap (priority_queue))
+//Approach-1 (Using max-heap (priority_queue)) (worst case :O(n*log(n)) when elements are in ascending order)
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
