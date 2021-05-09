@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Course%20Schedule%20III">Course Schedule III (Leetcode-630)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Construct_Target_Array_With_Multiple_Sums.cpp">Construct Target Array With Multiple Sums (Leetcode-1354)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
