@@ -34,16 +34,6 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Egg%20Dropping%20Problem%20(Memoized%20:%20Binary%20Search)">Egg Dropping Problem (Memoized : Binary Search) - Leetcode : 887</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Egg%20Dropping%20Problem%20(Iterative:%20Binary%20Search)">Egg Dropping Problem (Iterative: Binary Search) - Leetcode : 887</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/2%20Keys%20Keyboard%20(Leetcode-650%20:%20Memoized)">2 Keys Keyboard (Memoized) - Leetcode : 650</a>
 				</td>
 			</tr>
@@ -305,6 +295,11 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Delete_Operation_for_Two_Strings.cpp">Delete Operation for Two Strings  (3 approaches) (Leetcode-583)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Super_Egg_Drop.cpp">Super Egg Drop  (4 approaches) (Leetcode-887)</a>
 				</td>
 			</tr>
 		</tbody>
