@@ -16,19 +16,20 @@ int solve(int e, int f) {
     
     int minAttempts = INT_MAX;
     for(int k = 1; k<=f; k++) {
-        int low;
+        int no_break;
         if(t[e][f-k] != -1)
-            low = t[e][f-k];
+            no_break = t[e][f-k];
         else
-            low = solve(e, f-k);
-        int high;
+            no_break = solve(e, f-k);
+	    
+        int breaks;
         if(t[e-1][k-1] != -1)
-            high = t[e-1][k-1];
+            breaks = t[e-1][k-1];
         else
-            high = solve(e-1, k-1);
-        int temp = 1 + max(low, high);
+            breaks = solve(e-1, k-1);
+        int temp = 1 + max(no_break, breaks); //Wehn things are not in your control, expect the worst
         
-        minAttempts = min(minAttempts, temp);
+        minAttempts = min(minAttempts, temp); //When things are in your control, choose your best
     }
     return t[e][f] = minAttempts;
 }
