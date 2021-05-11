@@ -11,9 +11,12 @@ public:
         int right = diameter(root->right, result);
         
         int temp = max(left, right) + 1;
-        int ans  = max(temp, left+1+right);
-        result = max(result, ans);
-        return temp;
+        
+        int ans  = left+1+right; //what if I am the answer
+        
+        result = max(result, ans); //I will try to update result
+        
+        return temp; //But, if I am not the answer I will send my best I can
     }
     int diameterOfBinaryTree(TreeNode* root) {
         if(!root)
