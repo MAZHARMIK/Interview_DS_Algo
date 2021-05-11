@@ -34,5 +34,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Minimum_Swaps_to_Group_All_1s_Together.cpp">Minimum Swaps to Group All 1's Together (Leetcode-1151)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Maximum%20Points%20You%20Can%20Obtain%20from%20Cards">Maximum Points You Can Obtain from Cards (Leetcode-1423)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
