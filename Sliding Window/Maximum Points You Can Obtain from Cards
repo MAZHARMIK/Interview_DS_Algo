@@ -1,0 +1,126 @@
+/*
+    Company Tags  : Let me know when you get it :-)
+    Leetcode Link : https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
+*/
+
+//Approach-1
+class Solution {
+public:
+    //Approach-1 (Recursion : TLE)
+    //Memoization gives TLE too
+    int solve_recur(vector<int>& cardPoints, int i, int j, int k) {
+        if(k == 0 || i > j)
+            return 0;
+        if(i == j)
+            return cardPoints[i];
+        
+        int take_i = cardPoints[i] + solve_recur(cardPoints, i+1, j, k-1);
+        int take_j = cardPoints[j] + solve_recur(cardPoints, i, j-1, k-1);
+        
+        return max(take_i, take_j);
+    }
+    int maxScore(vector<int>& cardPoints, int k) { 
+        return solve_sliding_window(cardPoints, k);
+    }
+};
+
+//Approach-2 (DP)
+class Solution {
+public:
+    int solve_dp(vector<int>& cardPoints, int& k) {
+        //Example : cardPoints{5, 7, 2, 100, 1}, k = 3
+        vector<int> front_card(k);
+        vector<int> back_card(k);
+        int n = cardPoints.size();
+        front_card[0] = cardPoints[0];
+        back_card[0]  = cardPoints[n-1];
+        
+        for(int i = 1; i<=k-1; i++) {
+            front_card[i] = front_card[i-1] + cardPoints[i];
+            back_card[i]  = back_card[i-1] + cardPoints[n-i-1];
+        }
+        //front_card {5, 12, 14} ; front_card[i] = sum when we take (i+1) elements from front
+        //back_card  {1, 101, 103}; back_card[i] = sum when we take (i+1) elements from back
+        
+        //let's suppose we took k elements front front or back whichever gives me max
+        int maxScr = max(back_card[k-1], front_card[k-1]); //max(103, 14)
+        
+        /*
+            You have following options (for k = 3)
+            # front_elements              # back_elements               maxScr
+            0 elements                      3 elements (i.e.2, 100, 1)    103   -> back_card[k-1]
+            
+            1 elements (i.e.5)              2 elements (i.e. 100, 1)      106   -> MAXIMUM :-)
+            
+            2 elements (i.e.5, 7)           1 elements (i.e. 1)           13
+            
+            3 elements (i.e.5, 7, 2)        0 elements                    14   -> front_card[k-1]
+            
+        */
+        
+        
+        for(int i = 0; i<=k-2; i++) { //we have already considered i = k-1 (to determine maxScr above)
+            
+            int sum_front = front_card[i];     //front_card[0] = {5}       sum = 5
+            int sum_back  = back_card[k-i-2];  //back_card[1]  = {100, 1}  sum = 101
+            
+            if(sum_front + sum_back > maxScr)
+                maxScr = sum_front + sum_back;
+            
+        }
+        
+        return maxScr;
+        
+    }
+    
+    int maxScore(vector<int>& cardPoints, int k) {
+        return solve_dp(cardPoints, k);
+    }
+};
+
+//Approach-3 (Sliding Window)
+class Solution {
+public:
+    int solve_sliding_window(vector<int>& cardPoints, int& k) {
+        //When we find max score of size k, we are left with subarray of size (n-k) which has minimum sum
+        //so, we find total_sum and we find minimum_sum of subarrays of size (n-k)
+        //choose best of (total_sum - minimum_sum)
+        //Best way to use sliding window technique
+        /*
+            Example : cardPoints{5, 7, 2, 100, 1}, k = 3
+            total_sum = 115
+            window_size = n-k = 5-3 = 2
+            window_1 = {5, 7}  , sum = 12
+            window_2 = {7, 2}  , sum = 9   -> minimum
+            window_3 = {2, 100}, sum = 102
+            window_4 = {100, 1}, sum = 101
+            
+            return total_sum - 9 = 115 - 9 = 106
+        */
+        int n                            = cardPoints.size();
+        int window_size          = n-k;
+        int total_sum              = accumulate(cardPoints.begin(), cardPoints.end(), 0);
+        int curr_window_sum = 0;
+        int min_sum               = INT_MAX;
+        if(window_size == 0)
+            return total_sum;
+        int left_end = 0;
+        for(int i = 0; i<n; i++) {
+            curr_window_sum += cardPoints[i];
+                        
+            if(i-left_end+1 == window_size) {
+                min_sum = min(min_sum, curr_window_sum);
+                
+                curr_window_sum -= cardPoints[left_end]; 
+                
+                left_end++; //shifting window to right by one index
+            }
+        }
+        
+        return min_sum==INT_MAX ? 0 : total_sum-min_sum;
+    }
+    
+    int maxScore(vector<int>& cardPoints, int k) {
+        return solve_sliding_window(cardPoints, k);
+    }
+};
