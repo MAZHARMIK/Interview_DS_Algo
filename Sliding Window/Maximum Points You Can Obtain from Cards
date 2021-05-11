@@ -3,6 +3,11 @@
     Leetcode Link : https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
 */
 
+/*
+    Solution with explanation:
+    Keywords : Minimum , k cards (similar to k-size window)  (Hints towards Sliding Window Technique)
+*/
+
 //Approach-1
 class Solution {
 public:
