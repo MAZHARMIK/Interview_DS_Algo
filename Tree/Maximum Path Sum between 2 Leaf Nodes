@@ -33,6 +33,17 @@ int maxPathSum(Node* root)
     if(root == NULL)
         return 0;
     int result = INT_MIN;
-    PathSum(root, result);
-    return result;
+    int val = PathSum(root, result);
+    return result == INT_MIN ? val : result;
+    /*
+      Why this last condition check for INT_MIN ?
+      Let's take a example :
+               7
+              / \
+           NULL  -3
+       
+       result = INT_MIN;
+       but val = 4
+       So, we check it
+    */
 }
