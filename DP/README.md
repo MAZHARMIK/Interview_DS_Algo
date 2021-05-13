@@ -302,5 +302,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Super_Egg_Drop.cpp">Super Egg Drop  (4 approaches) (Leetcode-887)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Range%20Sum%20Query%202D%20-%20Immutable">Range Sum Query 2D - Immutable (Leetcode-304)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
