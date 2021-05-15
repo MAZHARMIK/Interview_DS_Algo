@@ -1,0 +1,135 @@
+/*
+    Company Tags  :  Mathworks, DoorDash, Amazon
+    Leetcode Link : https://leetcode.com/problems/minimum-knight-moves/
+    
+    Since it's a premium qn, hee is the description below
+    Description : 
+    In an infinite chess board with coordinates from -infinity to +infinity, you have a knight at square [0, 0].
+
+    A knight has 8 possible moves it can make, as illustrated below. Each move is two squares in a cardinal direction, then one square in an orthogonal direction.
+
+    Return the minimum number of steps needed to move the knight to the square [x, y].  It is guaranteed the answer exists.
+
+    Example 1:
+    Input: x = 2, y = 1
+    Output: 1
+    Explanation: [0, 0] → [2, 1]
+
+    Example 2:
+    Input: x = 5, y = 5
+    Output: 4
+    Explanation: [0, 0] → [2, 1] → [4, 2] → [3, 4] → [5, 5]
+
+    Constraints:
+    |x| + |y| <= 300
+
+    NOTE : BFS(minimum number of steps asked Hints at using standard BFS technique).
+           DFS can be used to solve this as well.
+*/
+
+class Solution {
+public:
+    vector<vector<int>> directions{{2, 1}, {1, 2}, {-1, 2}, {-2, 1}, {-2, -1}, {-1, -2}, {1, -2}, {2, -1}};
+    int bfs(int x, int y) {
+        /*
+        Since, we get the same answer for (-1, -2) and (1, 2)
+        So, making use of symmetric nature of chess board, let's reduce our search space
+        to only positive positions
+        */
+        x = abs(x);
+        y = abs(y);
+
+        queue<pair<int, int>> que;
+        set<string> visited; //to keep track of visited positions
+        visited.insert("0,0");
+        que.push({0, 0});
+
+        int level = 0;
+        while(!que.empty()) {
+            int n = que.size();
+            //iterate all possible locations from current position
+            while(n--) {
+                auto curr = que.front();
+                que.pop();
+                int currX = curr.first;
+                int currY = curr.second;
+                if(currX == x && currY == y)
+                    return level;
+                //add all possible locations reachable from here
+                for(auto dir:directions) {
+                    int new_x  = currX + dir[0];
+                    int new_y  = currY + dir[1];
+                    string key = to_string(new_x) + "," + to_string(new_y);
+                    /*
+                    Since, we get the same answer for (-1, -2) and (1, 2)
+                    So, making use of symmetric nature of chess board, let's reduce our search space
+                    to only positive positions. So, we add only positions >=0
+                    if(visited.find(key) == visited.end() && new_x >= 0 && new_y >= 0) {
+                        que.push({new_x, new_y});
+                        visited.insert(key);
+                    }
+                    But there is an issue above.
+                    Let's say we have to reach (1, 1)
+                    If we only allow to move in positive quadrants, we will get minSteps = 4
+                    i.e. (0, 0) -> (1, 2) -> (1, 0) -> (3, 2) -> (1, 1)
+
+                    But, we can be optimal if we could go like this : (2 steps)
+                        (0, 0) -> (-1, 2) -> (1, 1)
+
+                    So, should we take positions >= -1
+                    Let's give one more freedom i.e. positions >= -2 (at max it can go two moves in any directions)
+                    Because, -3 and onwards will definitely not lead to any benefit and we can get optimal
+                    without going there
+                    */
+
+
+                    if(visited.find(key) == visited.end() && new_x >= -2 && new_y >= -2) {
+                        que.push({new_x, new_y});
+                        visited.insert(key);
+                    }
+
+                }
+            }
+            level++;
+        }
+
+
+        return -1;
+    }
+    int dfs(int i, int j, unordered_map<string, int>& mp) {
+        //we only deal with positive coordinates
+        /*
+            Because, min steps for (-2, -3) will be equal to min steps for (2, 3)
+            and so on...
+        */
+        i = abs(i);
+        j = abs(j);
+        /*
+            Just an optimization, if you want to find solution for (1, 2), it's equal to (2, 1)
+            (3, 1) will be equal to (1, 3) and so on
+            And in this way, we reduced our search space to half of a quadrant cut diagonally
+        */
+        if(i < j)
+            swap(i, j);
+
+        string key = to_string(i) + "," + to_string(j);
+        if(mp.find(key) != mp.end())
+            return mp[key];
+
+        int temp = 1 + min(dfs(i-2, j-1, mp), dfs(i-1, j-2, mp));
+
+        return mp[key] = temp;
+    }
+    int minKnightMoves(int x, int y) {
+        unordered_map<string, int> mp;
+        //You will fall to infinite loop if these base conditions are not mentioned
+        mp["0,0"] = 0;
+        mp["1,0"] = 3;
+        mp["2,0"] = 2;
+        mp["1,1"] = 2;
+
+        return dfs(x, y, mp);
+
+        return bfs(x, y);
+    }
+};
