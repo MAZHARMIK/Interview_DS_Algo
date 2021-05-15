@@ -234,5 +234,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph">Number of Connected Components in an Undirected Graph (Leetcode : 323)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Knight%20Moves">Minimum Knight Moves (Leetcode : 1197)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
