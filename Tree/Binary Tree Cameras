@@ -1,0 +1,251 @@
+/*
+    Company Tags  : Amazon, Google, Facebook
+    Leetcode Link : https://leetcode.com/problems/binary-tree-cameras/
+*/
+
+//Approach-1 (Greedy : Move from bottom to up and apply cameras)
+class Solution {
+public:
+    int count = 0;
+    unordered_set<TreeNode*> covered;
+    void dfs(TreeNode* root, TreeNode* parent) {
+        if(!root)
+            return;
+        
+        dfs(root->left, root); //look to left subtree
+        dfs(root->right, root); //look to right subtree
+        
+        /*
+                    root
+                    /  \
+                   /    \
+                  /      \
+                Left    Right    : Simply do a dry run in this to understand
+        */
+        
+        if((parent == NULL && covered.find(root) == covered.end()) || //Tree's root
+           (covered.find(root->left) == covered.end()) ||             //Left child not covered
+           (covered.find(root->right) == covered.end())               //right child not covered
+           ) {
+            count++;
+            
+            covered.insert(parent); //parent
+            covered.insert(root); //itself
+            covered.insert(root->left); //left child
+            covered.insert(root->right); //right child
+            
+        }
+    }
+    int minCameraCover(TreeNode* root) {
+        //We put cameras on a node if
+        /*
+            -It doesn't have a camera
+            -It's parent doesn't have a camera
+            -It's left and right child doesn't have a camera
+            i.e. it's not covered by any camera
+            
+            Note: I will never assign camera to a leaf node.
+			It will be better if I assign camera to that leaf's
+			parent node,because parent will cover both its
+			child as well it's own parent as well.
+        */
+        
+        covered.clear();
+        covered.insert(NULL); //Read the 'Note:' above in the comment
+                              //Because for leaf node, (covered.find(root->left) == covered.end()) is true
+                              //But I don't want to assign camera here at leaf
+        count = 0;
+        TreeNode* parent = NULL; //root doesn't have a parent
+        dfs(root, parent);
+        
+        return count;
+    }
+};
+
+//Approach-2 (Using status of nodes : From bottom to up)
+class Solution {
+public:
+    int cameras = 0;
+    const int needCamera = -1, covered = 0, haveCamera = 1;
+    int dfs(TreeNode* root) {
+        if(!root) {
+            return covered;
+            /*
+                So that leaf doesn't install camera on it
+                Note: I will never assign camera to a leaf node.
+                It will be better if I assign camera to that leaf's
+                parent node,because parent will cover both its
+                child as well it's own parent as well.  
+            */
+        }
+        
+        int l = dfs(root->left);
+        int r = dfs(root->right);
+        
+        if(l == 0 && r == 0) {
+            /*
+                I will tell my parent to cover me because my
+                children are already covered. Installing camera
+                on me will not benefecial. Let my parent do that
+                because my parent will cover me, my brother and
+                my grandfather as well 
+            */
+            return needCamera;//I need my parent to cover me by a camera on them
+        }
+        
+        if(l == -1 || r == -1) {
+            /*
+                if any of my child wants me to put a camera on me,
+                I will have to put a camera on my self. AND i will tell
+                my parent that I have a camera. Not to worry
+            */
+            cameras++;
+            return haveCamera;
+            
+        }
+        
+        if(l == 1 || r == 1) {
+            /*
+                If any of my child has a camera, I will
+                be covered as well. SO I will tell my parent
+                that I am covered
+            */
+            return covered;
+        }
+        
+		//don't worry about this case. control will never reach here
+        return -1;
+    }
+    int minCameraCover(TreeNode* root) {
+        /*
+            status code  : what does that mean
+            
+            -1 : I need a camera to be covered
+             0 : covered by either(child or parent)
+             1 : I have a camera so I am covered as well
+                (but if my brother needs a camera my parent will
+                install camera on it)
+            
+        */
+        cameras = 0;
+        int status_of_root = dfs(root);
+        /*
+         Wait Wait, don't directly return cameras here.
+         Just one thing you missed. Take a case as shown below
+                    root
+                    / \
+                   /   \
+                  NULL NULL
+         NULL returns 1 and 1, i.e. they are covered.
+         So, root will tell it's parent to install a camera and it will
+         return -1. But root has no parent. So this case will be missed.
+         So, check the returned value of dfs here and see if it's -1
+         then add one camera and then return cameras
+         
+        */
+        if(status_of_root == needCamera)
+            cameras++;
+        return cameras;
+    }
+};
+
+//Approach-3 (Dynamic Programming : Better explanation than leetcode's official solution. Read it just like a story and you'll get it)
+class Solution {
+public:
+    
+    vector<int> dfs(TreeNode* root) {
+        if(!root) {
+            return {0, 0, 9999};
+            /*
+				Please read this after covering the below cases
+                If I send {0, 0, 0}
+                It will be an issue because, 
+                case_0 = 0;
+                case_1 = 0;
+                case_2 = 1;
+                we will return min(0, 0, 1)
+                which is always 0. That's wrong.
+                Let's say we have one node, we need
+                one camera at root and sending 0 will be wrong.
+                But what benefit we get by sedning {0, 0, 9999} ?
+                left  = {0, 0, 9999}
+                right = {0, 0, 9999}
+                case_0 = 0
+                case_1 = 9999
+                case_2 = 1 + min({0, 0, 9999}) + min({0, 0, 9999}); = 1
+                we return min{case_1, case_2} i.e 1
+                which is correct for a tree having one node only
+                So, look for the smallest case (tree having only one node)
+                to find the base case
+            */
+        }
+        
+        vector<int> left  = dfs(root->left);
+        vector<int> right = dfs(root->right);
+        
+        int mL12 = min(left[1],  left[2]);
+        int mR12 = min(right[1], right[2]);
+        
+        /*
+            case_0 : current node is not monitored
+            case_1 : current node is monitored but it doesn't have a camera
+            case_2 : current node has a camera
+            
+            Note : Since, we are moving from bottom to up, we handle
+                   the current node on the basis of results from its
+                   child. I don't know about its parent
+        */
+        
+        /*case_0
+            Why is current node not monitored(case_0),  because non of its child has camera
+            i.e both its child are in case_1
+            They can't be in case_2 because if they would have camera, 
+            current node would have been monitored from them.
+            They can't be in case_0 also, because if none is monitored,
+            we won't be able to monitor any node
+            case_0 = left_child_in_case_1  +  right_child_in_Case_1
+        */
+        int case_0 = left[1] + right[1];
+        
+        /*case_1
+            current node is monitored but it doesn't have a camera(case_2)
+            It means either :
+            -left child  had camera(left_child_in_case_2)
+            -right child had camera or may not have camera (case_1 or case_2)
+                                OR
+            -right child  had camera(right_child_in_case_2)
+            -left child had camera or may not have camera (case_1 or case_2)
+        */
+        int case_1 = min(left[2] + mR12 ,
+                         right[2] + mL12);
+        
+        
+        /*case_2
+            current node has a camera
+            It means, left or right child could have been in
+            any case (doesn't matter)
+            Because this parent having camera will anyway cover its
+            children
+            
+            case_2 = 1 + min(left_child_in_any_case) + min(right_child_in_any_case)
+            Why adding 1 ?
+            Because current node has a camera :-)
+        */
+        
+        int case_2 = 1 + min(left[0], mL12) + min(right[0], mR12);
+        
+        
+        return {case_0, case_1, case_2};
+    }
+    
+    int minCameraCover(TreeNode* root) {
+        vector<int> result = dfs(root);
+        
+        return min(result[1], result[2]);
+        /*
+            we don't consider result[0] because
+            that's the case when root is not
+            monitored which is not required
+        */
+    }
+};
