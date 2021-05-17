@@ -2,7 +2,10 @@
     Company Tags  : Google (with variation)
     Leetcode Link : https://leetcode.com/problems/find-k-closest-elements/
 */
-
+/*
+    Note : This could be solved in O(nlog(n)) with sorting or using priority_queue
+           This approach below is using Binary Search
+*/
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
