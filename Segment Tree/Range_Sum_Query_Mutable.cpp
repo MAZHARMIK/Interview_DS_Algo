@@ -104,7 +104,7 @@ public:
         nums.resize(n);
         nums = arr;
         // Build segment tree from given array 
-	    st.resize(4*n);
+	st.resize(4*n);
         constructSTUtil(nums, 0, n-1, 0);
     }
     
