@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count_Binary_Substrings.cpp">Count Binary Substrings (Leetcode-696)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20Duplicate%20File%20in%20System">Find Duplicate File in System (Leetcode-609)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
