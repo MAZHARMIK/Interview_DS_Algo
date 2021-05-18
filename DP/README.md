@@ -114,12 +114,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Cost%20For%20Tickets%20(Memoized)">Minimum Cost For Tickets (Memoized) (Leetcode - 983)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Cost%20For%20Tickets%20(Top%20Down)">Minimum Cost For Tickets (Top Down) (Leetcode - 983)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Cost%20For%20Tickets">Minimum Cost For Tickets (2 approaches) (Leetcode - 983)</a>
 				</td>
 			</tr>
 			<tr>
