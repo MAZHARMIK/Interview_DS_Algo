@@ -1,0 +1,85 @@
+/*
+    Company Tags  : Dropbox, Amazon, Microsoft
+    Leetcode Link : https://leetcode.com/problems/find-duplicate-file-in-system/
+*/
+
+class Solution {
+public:
+    int getContent(const string& str, int& n) {
+        string content = "";
+        int i = n-2;
+        for(; i>=0; i--) {
+            if(str[i] == '(')
+                break;
+        }
+        
+        return i;
+    }
+        
+    //Time : O(N*L)
+    //N = number of paths, L = average length of each path
+    vector<vector<string>> findDuplicate(vector<string>& paths) {
+        //map <content, files>
+        unordered_map<string, vector<string>> mp;
+        
+        for(const string& str:paths) {
+            vector <string> tokens;
+      
+            stringstream check1(str);
+
+            string intermediate;
+
+            while(getline(check1, intermediate, ' ')) {
+                tokens.push_back(intermediate);
+            }
+            
+            string directory = tokens[0];
+            int n = tokens.size();
+            for(int i = 1; i<n; i++) {
+                int l   = (int) tokens[i].length(); 
+                int idx = getContent(tokens[i], l);
+                
+                string content = tokens[i].substr(idx+1, l-idx-2);
+                string file    = tokens[i].substr(0, idx);
+                mp[content].push_back(directory + "/" + file);
+            }
+        }
+        
+        vector<vector<string>> result;
+        for(const auto &it : mp) {
+            if(it.second.size() > 1)
+                result.push_back(move(it.second));
+        }
+        
+        return result;
+    }
+};
+
+Followup questions :
+Credit goes to this page : https://leetcode.com/problems/find-duplicate-file-in-system/discuss/104120/follow-up-questions-discussion/106985
+However, I have compiled the best results at one place, so you can read here as well :
+
+1)  The answer depends on the tree structure.
+	If the branching factor (n) and depth (d) are high, then BFS will take up a lot of memory O(d^n).
+	For DFS, the space complexity is generally the height of the tree - O(d).
+	
+2) In real-world file system, we usually store large file in multiple "chunks" ,so we have meta data
+	recording the file size,file name and index of different chunks along with each chunk's checkSum (the xor for the content).
+	So when we upload a file, we record the meta data as mentioned above.
+	When we need to check for duplicates, we could simply check the meta data:
+	1.Check if files are of the same size;
+	2.if step 1 passes, compare the first chunk's checkSum
+	3.if step 2 passes, check the second checkSum
+	...
+	and so on.
+	There might be false positive duplicates, because two different files might share the same checkSum.
+
+3)  In step 2, we limit our chunk size to be of 1KB
+
+4) 	paths = N
+	length of file path = d
+	For every file, we may end up comparing each file with another
+	So, time complexity becomes : O(N^2*d)
+	hashing part is the most time-consuming and memory consuming.
+	
+5) We need to compare the content chunk by chunk when we find two "duplicates" using checkSum.
