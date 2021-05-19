@@ -5,25 +5,87 @@
 
 class Solution {
 public:
+    int t[1001][1001];
+	//Approach-1 (Memoization)
+    int solve(int n, int buffer, int count) {
+        //we followed the wrong path of copy+paste
+        if(count > n)
+            return 10001;
+        
+        if(count == n)
+            return 0;
+        
+        if(t[buffer][count] != -1)
+            return t[buffer][count];
+        
+        /*
+            //this will lead to infinite recursion
+            So, better to treat "copy" as "copy+paste"
+            int copy = 1 + solve(n, buffer);
+        */
+        int copy  = 2 + solve(n, count, count*2);
+        int paste = 1 + solve(n, buffer, count+buffer);
+        
+        return t[buffer][count] = min(copy, paste);
+    }
+    
+    int solve_memoization(int n) {
+        /*
+            'A'
+            First step will always be to copy and paste this first 'A'
+            So, buffer_length = 1
+                buffer        ='A'
+                count         = 1;
+                so here, we did one operation
+                So, the operatins will be atleast 1
+                Hence, we return 1 + solve();
+        */
+        memset(t, -1, sizeof(t));
+        int buffer = 1;
+        int count  = 1; //we did one copy paste
+        return 1 + solve(n, buffer, count);
+    }
+    
+	//Approach-2 (Greedy)
+    int solve_greedy(int n) {
+        /*
+            if remaining A's is divisible by # A's we have right now,
+            we straight away copy and paste entire A's we have greedily
+            Suppose ,
+            current   = 'AAA'
+            remaining = 'AAAAAA'
+            remaining%curr == 0
+            so, we copy and paste straight away : 'AAA'
+            current becomes 'AAAAAA'
+        */
+        
+        int remaining = n; //initially
+        int buffer    = 0;
+        int count_A   = 1; //initially we have 1 'A'
+        int steps     = 0;
+        
+        while(count_A < n) {
+            remaining = n-count_A;
+            if(remaining%count_A == 0) {
+                buffer     = count_A;
+                count_A   *= 2;
+                steps     += 2; //copy+paste
+            } else {
+                count_A   += buffer;
+                steps++;
+            }
+        }
+        
+        return steps;
+    }
+    
     int minSteps(int n) {
         if(n == 1)
             return 0;
         
-        int buffer_copied = 0;
-        int count_A    = 1;
-        int remaining_A;
-        int operations = 0;
-        while(count_A < n) {
-            remaining_A = n - count_A;
-            if(remaining_A % count_A == 0) { //copy and paste
-                buffer_copied = count_A;
-                count_A += count_A;
-                operations += 2; //CP
-            } else { //Paste
-                count_A += buffer_copied;
-                operations += 1; //P
-            }
-        }
-        return operations;
+        //return solve_memoization(n);
+        
+        return solve_greedy(n);
+        
     }
 };
