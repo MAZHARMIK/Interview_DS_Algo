@@ -302,5 +302,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest%20String%20Chain">Longest String Chain (Leetcode-1048)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/4%20Keys%20Keyboard">4 Keys Keyboard (2 approaches) (Leetcode-651)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
