@@ -1,5 +1,5 @@
 /*
-	Company Tags  : Google, Amazon, Goldman Sachs
+	Company Tags  : Google, Amazon, Goldman Sachs, Microsoft, MakeMyTrip
 	Leetcode Link : https://leetcode.com/problems/find-and-replace-pattern/
 */
 
