@@ -72,20 +72,22 @@ public:
     }
 };
 
-//Approach-3 : O(N) Accepted
+//Approach-3 : O(N) Accepted (Greedy)
 class Solution {
 public:
     int optimal(vector<int>& nums, int n) {
-        int currPos  = 0;
+        int currEnd  = 0;
         int maxReach = 0;
         int jump     = 0;
         
         for(int i = 0; i<n-1; i++) {
             maxReach = max(maxReach, nums[i]+i);
             
-            if(i == currPos) {
+            //Since, I reached end, I need to
+            //take a jump for exploring further positions
+            if(i == currEnd) {
                 jump++;
-                currPos = maxReach;
+                currEnd = maxReach;
             }
         }
         
