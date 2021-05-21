@@ -1,3 +1,8 @@
+/*
+	Company Tags  : Google, Amazon, Goldman Sachs
+	Leetcode Link : https://leetcode.com/problems/find-and-replace-pattern/
+*/
+
 //Approach-1 (Two maps)
 class Solution {
 public:
