@@ -19,5 +19,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Brick%20Wall">Brick Wall (Leetcode-554)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Find_and_Replace_Pattern.cpp">Find and Replace Pattern (Leetcode-890)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
