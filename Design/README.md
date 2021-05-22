@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Flatten%20Nested%20List%20Iterator">Flatten Nested List Iterator (Leetcode - 341)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Tic-Tac-Toe.cpp">Design Tic-Tac-Toe (Leetcode - 348)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
