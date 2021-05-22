@@ -38,6 +38,24 @@ public:
                 return false;
         }
         
+        /*
+			Wait a second, Why didn't I check any squares downwards ???
+			If you notice, every time I am calling dfs(board, row+1); i.e. after
+			placing a Queen at a row, I move down. So, It's guaranteed I will
+			not get any Queen downwards.
+			Example :
+
+			For n = 4
+
+            _   _    _  Q   (Put int the first row)
+            Q  _   _   _    (While putting here, I only need to see above of me because I have not populated any Q in downwards)
+            _   _   Q  _    (Same,  While putting here, I only need to see above of me because I have not populated any Q in downwards)
+
+            So, on
+
+		*/
+        
+        
         return true;
     }
     void dfs(vector<string>& board, int row) {
