@@ -109,7 +109,17 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20(Rcursive%20-%3E%20Optimal)">Jump Game (Leetcode-55)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20II%20(Brute%20Force%20-%3E%20Memoized(DP)%20-%3EBest)">Jump Game II (Brute Force -> Memoized(DP) ->Best) (Leetcode - 45)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump_Game_III.cpp">Jump Game III (2 approaches) (Leetcode-1306)</a>
 				</td>
 			</tr>
 			<tr>
@@ -180,11 +190,6 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Partition%20Equal%20Subset%20Sum">Partition Equal Subset Sum (Leetcode-416)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20(Rcursive%20-%3E%20Optimal)">Jump Game (Leetcode-55)</a>
 				</td>
 			</tr>
 			<tr>
@@ -300,11 +305,6 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/4%20Keys%20Keyboard">4 Keys Keyboard (2 approaches) (Leetcode-651)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump_Game_III.cpp">Jump Game III (2 approaches) (Leetcode-1306)</a>
 				</td>
 			</tr>
 		</tbody>
