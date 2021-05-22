@@ -33,7 +33,7 @@ public:
         }
         
         //check right diagonal upwards
-        for(int i = row, j = col; i>=0 && j >= 0; i--, j++) {
+        for(int i = row, j = col; i>=0 && j<board.size(); i--, j++) {
             if(board[i][j] == 'Q')
                 return false;
         }
