@@ -124,5 +124,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combination_Sum_IV.cpp">Combination Sum IV (Leetcode-377) - (3 approaches)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/N-Queens.cpp">N-Queens (2 approaches) (Leetcode-51)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
