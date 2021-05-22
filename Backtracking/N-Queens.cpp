@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Accolite, Amazon, Visa, MAQ Software, Amdocs, Twitter
+    Company Tags  : Accolite, Amazon, Visa, MAQ Software, Amdocs, Twitter, Qualcomm, Google 
     Leetcode Link : https://leetcode.com/problems/n-queens/
 */
 
