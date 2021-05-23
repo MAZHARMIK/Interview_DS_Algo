@@ -74,7 +74,22 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.cpp">Best Time to Buy and Sell Stock with Cooldown (Leetcode-309)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee">Best Time to Buy and Sell Stock with Transaction Fee (Leetcode-714)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III">Best Time to Buy and Sell Stock III (Leetcode-123)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV">Best Time to Buy and Sell Stock IV (Leetcode - 188)</a>
 				</td>
 			</tr>
 			<tr>
@@ -140,11 +155,6 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/House%20Robber%20II">House Robber II (Leetcode - 213)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV">Best Time to Buy and Sell Stock IV (Leetcode - 188)</a>
 				</td>
 			</tr>
 			<tr>
@@ -225,11 +235,6 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Arithmetic%20Slices">Arithmetic Slices (Leetcode-413)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee">Best Time to Buy and Sell Stock with Transaction Fee (Leetcode-714)</a>
 				</td>
 			</tr>
 			<tr>
