@@ -6,7 +6,7 @@ So, Look for <strong><em>COMPANY TAGS</em></strong> above every solution. :dizzy
 
 ![](https://komarev.com/ghpvc/?username=MAZHARMIK)
 
-Visitor Count : ![Visitor Count](https://profile-counter.glitch.me/{MAZHARMIK}/count.svg)
+<!-- Visitor Count : ![Visitor Count](https://profile-counter.glitch.me/{MAZHARMIK}/count.svg) -->
  
 <h3>Contents : :pencil:</h3>
 <ul>
