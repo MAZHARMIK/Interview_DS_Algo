@@ -13,28 +13,23 @@ int main()
 	while(T--) {
 	    cin >> n;
 	    vector<ll> input(n);
-	    vector<ll> output(n);
+	    vector<ll> result(n);
 	    stack<ll> st;
 	    for(int i = 0; i<n; i++) {
 	        cin >> input[i];
 	    }
 	    
-	    for(int i = n-1; i>=0; i--) {
+	    for(int i = n-1; i>=0;  i--) {
 		    if(st.empty()) {
-			output[i] = -1;
-		    } else if(st.top() > input[i]) {
-			output[i] = st.top();
+			result[i] = -1;
 		    } else {
-			while(!st.empty() && st.top() <= input[i])
+			while(!st.empty() && st.top() < arr[i])
 			    st.pop();
-			if(st.empty())
-			    output[i] = -1;
-			else
-			    output[i] = st.top();
-            	   }
-            	st.push(input[i]);
-    	   }
-	   for(ll x:output)
+			result[i] = st.empty() ? -1 : st.top();
+		    }
+		    st.push(arr[i]);
+	   }
+	   for(ll x:result)
 	      cout << x << " ";
 	      cout << endl;
 	    }
