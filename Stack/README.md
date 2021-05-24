@@ -21,12 +21,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Next%20Greater%20Element%20II%20(O(n2))">Next Greater Element II (O(n2)) (Leetcode - 503)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Next%20Greater%20Element%20II%20(O(n):Stack)">Next Greater Element II (O(n) : Stack) (Leetcode - 503)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Next%20Greater%20Element%20II">Next Greater Element II (2 Approaches) (Leetcode - 503)</a>
 				</td>
 			</tr>
 			<tr>
