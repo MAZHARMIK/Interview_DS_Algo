@@ -6,7 +6,7 @@
 class Solution {
 public:
      static bool myFunction(Interval& i1, Interval& i2) {
-        return i1.end < i2.end;
+        return i1.start < i2.start;
      }
     bool canAttendMeetings(vector<Interval> &intervals) {
         if(intervals.size() == 0)
