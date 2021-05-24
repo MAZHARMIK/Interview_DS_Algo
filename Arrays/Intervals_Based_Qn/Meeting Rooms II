@@ -1,37 +1,79 @@
 /*
     Company Tags     : Uber, Facebook, Microsoft, Yelp, Google, Snapchat, Amazon, Cisco
     Leetcode Qn Link : https://leetcode.com/problems/meeting-rooms-ii/
+    
+    Since, this is a premium question, I am putting the description here as well
+    Description:
+    Given an array of meeting time intervals consisting of start and end times [[s1,e1],[s2,e2],...]
+    (si < ei), find the minimum number of conference rooms required.
+    
+    Example -
+    Input: intervals = [(0,30),(5,10),(15,20)]
+    Output: 2
+    Explanation:
+    We need two meeting rooms
+    room1: (0,30)
+    room2: (5,10),(15,20)
 */
+
+/**
+ * Definition of Interval:
+ * classs Interval {
+ *     int start, end;
+ *     Interval(int start, int end) {
+ *         this->start = start;
+ *         this->end = end;
+ *     }
+ * }
+ */
 
 class Solution {
 public:
-    struct myComp {
-        bool operator()(Interval& i1, Interval& i2) {
-            //one that ends earliest
+    static bool sortComp(Interval& i1, Interval& i2) {
+        return i1.start < i2.start;
+    }
+    struct Compare {
+        bool operator() (Interval& i1, Interval& i2) {
+            //we want the meeting which ends earliest
+            //i.e. ascending order of end_time
             return i1.end > i2.end;
         }
     };
-    static bool myFunction(Interval& i1, Interval& i2) {
-        return i1.start < i2.start;
-    }
     int minMeetingRooms(vector<Interval> &intervals) {
         int n = intervals.size();
-        if(n == 1)
-            return 1;
-        sort(intervals.begin(), intervals.end(), myFunction);
-        priority_queue<Interval, vector<Interval>, myComp> pq;
-        pq.push(intervals[0]);
+        if(n <= 1)
+            return n;
+        //why sorting ?
+        /*
+            We want to handle meetings based on their starting time.
+            It ensures that comparison done in priority_queue
+            will be definitely correct.
+            We won't have to worry abou the starting time of
+            meetings already running (i.e. meetings that are in priority_queue)
+        */
+        sort(begin(intervals), end(intervals), sortComp);
+
+        priority_queue<Interval, vector<Interval>, Compare> pq;
+        pq.push(intervals[0]); //minimum one room required
+
         for(int i = 1; i<n; i++) {
-            Interval current_meeting = intervals[i];
-            Interval earliest_end    = pq.top();
-            pq.pop();
-            if(current_meeting.start >= earliest_end.end) {
-                earliest_end = current_meeting;
+            /*if I have to organise a meeting, 
+              I will look for the one which ends first
+              So that if there is no clash, same room can be occupied
+            */
+
+            Interval top = pq.top();
+            Interval curr = intervals[i];
+
+            //clash
+            if(top.end > curr.start) {
+                pq.push(curr);
             } else {
-                pq.push(current_meeting);
+                pq.pop(); //That meeting ends
+                pq.push(curr); //I will use same room
             }
-            pq.push(earliest_end);
         }
-        return (int)pq.size();
+
+        return (int) pq.size();
     }
 };
