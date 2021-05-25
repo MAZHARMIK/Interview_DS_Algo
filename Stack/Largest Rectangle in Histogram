@@ -14,6 +14,7 @@ public:
             if(st.empty()) {
                 right[i] = pseudo_index;
             } else {
+                //This is actually a concept of monotonic stack
                 while(!st.empty() && heights[st.top()] >= heights[i])
                     st.pop();
                 if(st.empty())
@@ -34,6 +35,7 @@ public:
             if(st.empty()) {
                 left[i] = pseudo_index;
             } else {
+                //This is actually a concept of monotonic stack
                 while(!st.empty() && heights[st.top()] >= heights[i])
                     st.pop();
                 if(st.empty())
