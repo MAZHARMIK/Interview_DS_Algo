@@ -19,6 +19,7 @@ public:
                     t[i][j] = matrix[i][j] =='0' ? 0 : 1;
                 } else {
                     if(matrix[i][j] == '1') {
+                        //Because, if you have any 0, then you cannot expand side of square
                         t[i][j] = 1 + min({t[i-1][j], t[i][j-1], t[i-1][j-1]});
                     }
                 }
