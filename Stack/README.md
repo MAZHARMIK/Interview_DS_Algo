@@ -31,7 +31,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Largest%20Rectangle%20in%20Histogram">Largest Rectangle in Histogram (Leetcode - 84)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Largest_Rectangle_in_Histogram.cpp">Largest Rectangle in Histogram (2 approaches) (Leetcode - 84)</a>
 				</td>
 			</tr>
 			<tr>
