@@ -3,6 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/maximal-rectangle/
 */
 
+//Approach-1 (using NSL and NSR to find MAH (Maximum Area in Histogram)
 class Solution {
 public:
     vector<int> NSR(vector<int>& heights) {
@@ -45,7 +46,8 @@ public:
         }
         return left;
     }
-    int largestRectangleArea(vector<int>& heights) {
+    
+    int MAH(vector<int>& heights) {
         int n = heights.size();
         vector<int> right = NSR(heights);
         vector<int> left  = NSL(heights);
@@ -70,7 +72,7 @@ public:
         for(int i = 0; i<m; i++) {
             height[i] = (matrix[0][i]=='1')?1:0;
         }
-        int maxA = largestRectangleArea(height);
+        int maxA = MAH(height);
         for(int i = 1; i<n; i++) {
             for(int j = 0; j<m; j++) {
                 if(matrix[i][j] == '0')
@@ -78,8 +80,89 @@ public:
                 else
                     height[j] += 1;
             }
-            maxA = max(maxA, largestRectangleArea(height));
+            maxA = max(maxA, MAH(height));
         }
         return maxA;
+    }
+};
+
+//Approach-2 (Simplified MAH)
+class Solution {
+public:
+    //SImplified
+    int MAH(vector<int>& heights, int& n) {
+        stack<int> st;
+        int i = 0;
+        int maxArea = 0;
+        int area = 0;
+        while(i < n) {
+            if(st.empty() || heights[i] >= heights[st.top()]) {
+                st.push(i++);
+            } else {
+                int index = st.top();
+                st.pop();
+                
+                if(st.empty()) {
+                    area = heights[index] * i;
+                } else {
+                    area = heights[index] * (i - st.top() - 1);
+                }
+                
+                maxArea = max(maxArea, area);
+            }
+        }
+        
+        while(!st.empty()) {
+            int index = st.top();
+            st.pop();
+
+            if(st.empty()) {
+                area = heights[index] * i;
+            } else {
+                area = heights[index] * (i - st.top() - 1);
+            }
+
+            maxArea = max(maxArea, area);
+        }
+        
+        return maxArea;
+        
+    }
+    
+    int maximalRectangle(vector<vector<char>>& matrix) {
+        if(matrix.size() == 0)
+            return 0;
+        
+        int maxArea = 0;
+        int m       = matrix.size();
+        int n       = matrix[0].size();
+        
+        /*
+        [1, 0, 1, 0, 0]
+        [1, 0, 1, 1, 1] =>  [2, 0, 2, 1, 1]
+        [1, 1, 1, 1, 1] =>  [3, 1, 3, 2, 2]
+        [1, 0, 0, 1, 0] ->  [3, 0, 0, 3, 0]
+        */
+        
+        vector<int> heights(n, 0);
+        for(int col = 0; col < n; col++) {
+            heights[col] = matrix[0][col] == '0' ? 0 : 1;
+        }
+        
+        maxArea = MAH(heights, n);
+        
+        for(int row = 1; row < m; row++) {
+            for(int col = 0; col < n; col++) {
+                if(matrix[row][col] == '0') {
+                    heights[col] = 0;
+                } else {
+                    heights[col] += 1;
+                }
+            }
+            
+            maxArea = max(maxArea, MAH(heights, n));
+        }
+        
+        return maxArea;
     }
 };
