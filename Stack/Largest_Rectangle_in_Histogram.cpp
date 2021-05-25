@@ -3,8 +3,10 @@
     Leetcode Link : https://leetcode.com/problems/largest-rectangle-in-histogram/
 */
 
+//Approach-1 (Using NSL, NSR concept)
 class Solution {
 public:
+    //NSR = Next smaller to right
     vector<int> NSR(vector<int>& heights) {
         stack<int> st;
         int n = heights.size();
@@ -26,6 +28,8 @@ public:
         }
         return right;
     }
+    
+    //NSL = Next smaller to left
     vector<int> NSL(vector<int>& heights) {
         stack<int> st;
         int n = heights.size();
@@ -49,18 +53,65 @@ public:
     }
     int largestRectangleArea(vector<int>& heights) {
         int n = heights.size();
-        vector<int> right = NSR(heights);
-        vector<int> left  = NSL(heights);
-        vector<int> width(n);
-        for(int i = 0; i<n; i++)
-            width[i] = right[i]-left[i]-1;
-        int max_area = 0;
+        vector<int> left  = NSL(heights, n);
+        vector<int> right = NSR(heights, n);
+        
+        int sum = 0;
+        
+        for(int x:left)
+            cout << x << " ";
+        cout << endl;
+        for(int x:right)
+            cout << x << " ";
         
         for(int i = 0; i<n; i++) {
-            int a =  width[i]*heights[i];
-            if(max_area < a)
-                max_area = a; 
+            int area_i = heights[i]*(right[i]-left[i]-1);
+            sum = max(sum, area_i);
         }
-        return max_area;
+        
+        return sum;
+        
+    }
+};
+
+
+//Approach-2 (Simplified version of Approach-1)
+class Solution {
+public:
+    int largestRectangleArea(vector<int>& heights) {
+        stack<int> st;
+        int i = 0;
+        int n = heights.size();
+        
+        int maxArea = 0;
+        int area    = 0;
+        while(i < n) {
+            if(st.empty() || heights[i] >= heights[st.top()])
+                st.push(i++);
+            else {
+                int index = st.top();
+                st.pop();
+                if(st.empty()) {
+                    area = heights[index] * i;
+                } else {
+                    area = heights[index] * (i - st.top() - 1);
+                }
+                maxArea = max(maxArea, area);
+            }
+        }
+        
+        while(!st.empty()) {
+            int index = st.top();
+            st.pop();
+
+            if(st.empty()) {
+                area = heights[index] * i;
+            } else {
+                area = heights[index] * (i - st.top() - 1);
+            }
+            maxArea = max(maxArea, area);
+        }
+        
+        return maxArea;
     }
 };
