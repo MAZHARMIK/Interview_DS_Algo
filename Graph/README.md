@@ -141,7 +141,7 @@
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Word%20Ladder">Word Ladder (Leetcode-127)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Word_Ladder.cpp">Word Ladder (Leetcode-127)</a>
 				</td>
 			</tr>
 			<tr>
