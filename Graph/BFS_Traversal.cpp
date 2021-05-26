@@ -1,7 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <queue>
-#include <map>
+#include <bits/stdc++.h>
 using namespace std;
 
 void addEdge(map<int, vector<int>>& adj, int u, int v) {
@@ -13,6 +10,7 @@ void BFS(map<int, vector<int>>& adj, int V, int start) {
     queue<int> que;
 
     que.push(start);
+    //Mark a node visited as soon as it's pushed into queue
     visited[start] = 1;
     while(!que.empty()) {
         int curr = que.front();
@@ -21,6 +19,7 @@ void BFS(map<int, vector<int>>& adj, int V, int start) {
         for(auto i:adj[curr]) {
             if(visited[i] == 0) {
                 que.push(i);
+                //Mark a node visited as soon as it's pushed into queue
                 visited[i] = 1;
             }
         }
