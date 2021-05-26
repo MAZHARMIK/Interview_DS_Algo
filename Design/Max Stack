@@ -1,0 +1,53 @@
+/*
+    Company Tags  : LinkedIn
+    Leetcode Link : https://leetcode.com/problems/max-stack/
+*/
+
+#include <list> //include this if compiler shows error like this :" list does not name a type "
+class MaxStack {
+public:
+    list<int> dl; //We use doubly linked list for stack
+    map<int, vector<list<int>::iterator>> mp; //direct access of max element
+    /*
+        Why ordered map ?
+        Access of maximum element can be done in constant time (rbegin(mp)->first)
+    */
+    MaxStack() {
+        dl.clear();
+        mp.clear();
+    }
+
+    void push(int number) {
+        dl.push_back(number);
+        mp[number].push_back(--end(dl));
+    }
+
+    int pop() {
+        int val = top();
+        dl.pop_back();
+        mp[val].pop_back();
+        if(mp[val].empty()) {
+            mp.erase(val);
+        }
+        return val;
+    }
+
+    int top() {
+        return *(rbegin(dl));
+    }
+    
+    int peekMax() {
+        return rbegin(mp)->first;
+    }
+    
+    int popMax() {
+        int val = peekMax();
+        auto it = mp[val].back();
+        dl.erase(it); //you need to remove it from stack as well
+        mp[val].pop_back();
+        if(mp[val].empty()) {
+            mp.erase(val);
+        }
+        return val;
+    }
+};
