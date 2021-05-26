@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS%20Traversal">BFS Traversal</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_Traversal.cpp">BFS Traversal</a>
 				</td>
 			</tr>
 			<tr>
