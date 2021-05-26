@@ -1,40 +1,30 @@
+typedef long long ll;
 class MinStack {
 public:
-    /** initialize your data structure here. */
-    stack<pair<long long int, long long int>> s;
-    long long minElement = INT_MAX;
+
+    stack<pair<ll, ll>> st;
     MinStack() {
         
     }
     
-    void push(int x) {
-        if(x < minElement) {
-            s.push({x, x});
-            minElement = x;
+    void push(int val) {
+        if(st.empty()) {
+            st.push({val, val});
         } else {
-            if(s.empty()) {
-                s.push({x, x});
-            } else {
-                s.push({x, s.top().second});
-            }
+            ll temp = min((ll)val, st.top().second);
+            st.push({val, temp});
         }
     }
     
     void pop() {
-        s.pop();
-        if(s.empty()) {
-            minElement = INT_MAX;
-            return;
-        }
-        
-        minElement = s.top().second;
+        st.pop();
     }
     
     int top() {
-        return s.top().first;
+        return st.top().first;
     }
     
     int getMin() {
-        return minElement;
+        return st.top().second;
     }
 };
