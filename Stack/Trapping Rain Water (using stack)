@@ -7,24 +7,30 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         int n = height.size();
-        if(n == 1 || n == 0)
-            return 0;
         stack<int> st;
+        
         int water = 0;
+        
         for(int i = 0; i<n; i++) {
-            while(!st.empty() && height[st.top()] < height[i]) {
-                int pop_height = height[st.top()];
+            //This is actually the concept of monotonic stack
+            while(!st.empty() && height[i] > height[st.top()]) {
+                //It means index is bounded from left (i.e. height[st.top()]) and right(i.e. height[i])
+                int index = st.top();
                 st.pop();
+                
+                //This index can't contribute any more 
+                //(Example : [4,2,0,3,2,5]), we will be left with empty stack at end
+                //while processing 5
                 if(st.empty())
                     break;
                 
-                int distance  = i - st.top() - 1;
-                int minHeight = min(height[st.top()], height[i])-pop_height;
-                water += (distance*minHeight);
+                int h = min(height[i], height[st.top()]) - height[index];
+                int w = i - st.top() - 1; //same concept as simplfied MAH
+                
+                water += h*w;
             }
             st.push(i);
         }
-        
         return water;
     }
 };
