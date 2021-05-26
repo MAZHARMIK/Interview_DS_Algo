@@ -94,5 +94,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Sum_of_Subarray_Minimums.cpp">Sum of Subarray Minimums (Leetcode-907)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Remove_K_Digits.cpp">Remove K Digits (Leetcode-402)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
