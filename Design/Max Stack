@@ -1,6 +1,7 @@
 /*
     Company Tags  : LinkedIn
     Leetcode Link : https://leetcode.com/problems/max-stack/
+    We can solve Min Stack in a similar way IF min stack requires PopMin()
 */
 
 #include <list> //include this if compiler shows error like this :" list does not name a type "
