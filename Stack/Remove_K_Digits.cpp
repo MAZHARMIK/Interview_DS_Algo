@@ -6,7 +6,7 @@
 class Solution {
 public:
     string removeKdigits(string num, int k) {
-        string result = "";
+        string result = ""; //Using this as stack
         int n = num.length();
         if(k == n)
             return "0";
