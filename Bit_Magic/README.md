@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K">Check If a String Contains All Binary Codes of Size K (Leetcode-1461)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum_Product_of_Word_Lengths.cpp">Maximum Product of Word Lengths (Leetcode-318)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
