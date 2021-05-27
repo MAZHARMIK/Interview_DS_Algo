@@ -14,6 +14,8 @@ public:
         result.push_back(num[0]);
         
         for(int i = 1; i<n; i++) {
+            //I would not want a larger digit to be placed at higher position
+            //so, pop them
             while(result != "" && k > 0 && result.back() > num[i]) {
                 result.pop_back();
                 k--;
@@ -33,7 +35,7 @@ public:
         */
 
         int i = 0;
-        for(; i<result.length(); i++) {
+        for(; i<n-k; i++) { //NOTE: length of result will be (n-k) because we remove k digits
             if(result[i] != '0')
                 break;
         }
