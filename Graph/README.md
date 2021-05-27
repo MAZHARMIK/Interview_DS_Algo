@@ -81,12 +81,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number%20of%20Islands%20(Using%20DFS)">Number of Islands (Using DFS) : Leetcode-200</a>
-				</td>
-			</tr>
-			<tr>
-        <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number%20of%20Islands%20(Using%20BFS)">Number of Islands (Using BFS) : Leetcode-200</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number_of_Islands.cpp">Number of Islands (DFS, BFS) (Leetcode-200)</a>
 				</td>
 			</tr>
 			<tr>
