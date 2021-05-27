@@ -4,7 +4,7 @@
 */
 
 
-//Approach - 1
+//Approach - 1 (More like a Graph DFS)
 class Solution {
 public:
     void DFS(vector<vector<int>>& adj, int start, vector<int>& temp,  vector<vector<int>>& result) {
