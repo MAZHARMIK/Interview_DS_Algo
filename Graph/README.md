@@ -201,7 +201,7 @@
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Is%20Graph%20Bipartite%3F">Is Graph Bipartite? (Leetcode : 785)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Is_Graph_Bipartite%3F.cpp">Is Graph Bipartite? (3 approaches) (Leetcode : 785)</a>
 				</td>
 			</tr>
 			<tr>
