@@ -116,7 +116,7 @@
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Largest%20Component%20Size%20by%20Common%20Factor">Largest Component Size by Common Factor : Leetcode-952 </a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Largest_Component_Size_by_Common_Factor.cpp">Largest Component Size by Common Factor (3 approaches) (Leetcode-952) </a>
 				</td>
 			</tr>
 			<tr>
