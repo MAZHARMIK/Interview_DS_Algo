@@ -2,6 +2,11 @@
 #include<vector>
 using namespace std;
 
+/*
+    Note : Use Union Find for cycle detection in undirected graph only when
+           the edges are given. Else, use BFS or DFS
+*/
+
 void addEdge(int u, int v, vector<vector<int>>& edge) {
     edge.push_back({u,v});
 }
