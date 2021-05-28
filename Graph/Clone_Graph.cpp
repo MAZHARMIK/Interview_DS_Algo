@@ -55,7 +55,7 @@ public:
         */
         
         vector<Node*> visited(101, NULL); //Using contraints given
-        //We could use map also
+        //We could use map also if constraints are not clear (i.e. unordered_map<Node*, Node*> visited;)
         visited[node->val] = clone_node;
         
         //cloning the neighbours now
@@ -77,27 +77,6 @@ public:
 };
 
 //Approach-2 (BFS)
-/*
-// Definition for a Node.
-class Node {
-public:
-    int val;
-    vector<Node*> neighbors;
-    Node() {
-        val = 0;
-        neighbors = vector<Node*>();
-    }
-    Node(int _val) {
-        val = _val;
-        neighbors = vector<Node*>();
-    }
-    Node(int _val, vector<Node*> _neighbors) {
-        val = _val;
-        neighbors = _neighbors;
-    }
-};
-*/
-
 class Solution {
 public:
     void BFS(queue<Node*>& que, vector<Node*>& visited) {
