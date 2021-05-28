@@ -21,8 +21,8 @@ int find(vector<vector<int>>& subsets, int i)
 }
 
 void Union(vector<vector<int>>& subsets, int x, int y) {
-    int xroot = find(subsets, x); //This is not required
-    int yroot = find(subsets, y); //This is not required
+    int xroot = find(subsets, x);
+    int yroot = find(subsets, y);
 
     // Attach smaller rank tree under root of high rank tree
     // (Union by Rank)
