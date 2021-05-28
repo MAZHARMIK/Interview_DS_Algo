@@ -1,6 +1,9 @@
 /*
     Company Tags  : Amazon, Visa
     Question Link : https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+    
+    Time  : O(V+E), V = # vertices, E = # edges
+    Space : O(V)
 */
 
 #include<iostream>
