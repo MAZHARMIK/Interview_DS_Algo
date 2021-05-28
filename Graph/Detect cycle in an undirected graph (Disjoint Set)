@@ -16,6 +16,7 @@ int find(vector<int> parent, int i)
     if (parent[i] == -1)
         return i;
     return find(parent, parent[i]);
+    //To optimize a little : return parent[i] = find(parent, parent[i]);
 }
 
 void Union(vector<int>& parent, int x, int y)
