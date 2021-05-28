@@ -36,7 +36,7 @@
       			</tr>
 			<tr>
           			<td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Maximum%20Erasure%20Value">Maximum Erasure Value (Leetcode-1695)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Maximum_Erasure_Value.cpp">Maximum Erasure Value (2 approaches) (Leetcode-1695)</a>
 				</td>
       			</tr>
 			<tr>
