@@ -27,7 +27,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Rotating%20an%20Array%20(Reversal%20Algorithm)">Rotating an Array (Reversal Algorithm:Leetcode-189)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Rotating_an_Array.cpp">Rotating an Array (Leetcode-189)</a>
 				</td>
 			</tr>
 			<tr>
