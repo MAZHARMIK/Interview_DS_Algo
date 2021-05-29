@@ -1,5 +1,6 @@
 /*
 	This is Prim's algorithm implemented using priority_queue (min heap)
+	See this question to understand better : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Min%20Cost%20to%20Connect%20All%20Points (Leetcode-1854)
 */
 
 #include<bits/stdc++.h>
