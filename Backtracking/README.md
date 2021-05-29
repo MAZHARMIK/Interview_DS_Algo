@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/N-Queens.cpp">N-Queens (2 approaches) (Leetcode-51)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/N-Queens_II.cpp">N-Queens II (2 approaches) (Leetcode-52)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
