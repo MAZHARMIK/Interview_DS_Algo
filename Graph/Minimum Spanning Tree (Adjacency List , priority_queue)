@@ -1,3 +1,7 @@
+/*
+	This is Prim's algorithm implemented using priority_queue (min heap)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -70,7 +74,7 @@ void Graph::primMST() {
     pq.push(AdjListNode(0, key[0]));
     
     while(!pq.empty()) {
-        AdjListNode u = pq.top();
+        AdjListNode u = pq.top(); //every time we pick the vertex with least weight
         pq.pop();
         inMST[u.getV()] = true;
 	
