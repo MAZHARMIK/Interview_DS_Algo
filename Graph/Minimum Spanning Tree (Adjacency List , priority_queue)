@@ -1,6 +1,7 @@
 /*
 	This is Prim's algorithm implemented using priority_queue (min heap)
-	See this question's (Approach-2) to understand better : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Min%20Cost%20to%20Connect%20All%20Points (Leetcode-1854)
+	See this question's (Approach-2) to understand better : 
+	https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Min%20Cost%20to%20Connect%20All%20Points (Leetcode-1854)
 */
 
 #include<bits/stdc++.h>
@@ -74,9 +75,15 @@ void Graph::primMST() {
     
     pq.push(AdjListNode(0, key[0]));
     
+    //Note : You can remove key vector in priority_queue approach
+    //The sum of weights in the loop below will always give minimum value
     while(!pq.empty()) {
         AdjListNode u = pq.top(); //every time we pick the vertex with least weight
         pq.pop();
+	
+	if(inMST[u.getV()])
+	    continue;
+	
         inMST[u.getV()] = true;
 	
 	//visit neighbors of 'u'
