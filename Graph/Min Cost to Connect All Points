@@ -4,6 +4,7 @@
     This question checks if you know about MST(Minimum Spanning Tree)
 */
 
+//Approach-1 (Using 2-D matrix graph) - Prim's Algorithm
 class Solution {
 public:
     int minKey(vector<bool>& inMST, vector<int>& key) {
@@ -54,5 +55,82 @@ public:
         }
         
         return MST(graph, n);
+    }
+};
+
+//Approach-2 (Using Priority_queue and Adjacency list representation of graph) - Prim's Algorithm
+typedef pair<int, int> P;
+class Solution {
+public:
+    int minMST(vector<vector<P>>& adj, int V) {
+        priority_queue<P, vector<P>, greater<P>> pq; //minheap
+
+        vector<bool> inMST(V, false);
+        int sum = 0;
+        
+        pq.push({0, 0}); //{weight, vertex}
+        
+        while(!pq.empty()) {
+            P p = pq.top(); //minKey(key, inMST, V);
+            pq.pop();
+            
+            /*
+                We skip if it's already visited.
+                We would have added the minimum weight already
+            */
+            if(inMST[p.second])
+                continue;
+            
+            /*
+                it's gauranteed that we will get minimum weight for this vertex u here.
+                Because, if there more than one challengers, we will pick the minimum
+                and mark it visited. So that next time it occurs in priority_queue, 
+                it is not visited (we skip as shown above)
+                Dry run this case for better understanding
+                (0)----2-----(1)
+                 |          / |
+                 9 /---4---/  6
+                 |/           |
+                (3)----11----(2)
+            */
+            sum += p.first;
+            int u = p.second;
+            inMST[u] = true;
+        
+            for(auto &neighbor : adj[u]) {
+                int v  = neighbor.first;
+                int wt = neighbor.second;
+                
+                if(!inMST[v]) {
+                    pq.push({wt, v});
+                }
+            }
+        }
+        return sum;
+    }
+    int minCostConnectPoints(vector<vector<int>>& points) {
+        int V = points.size();
+        
+        //Making an adjaceny list
+        vector<vector<P>> adj(V);
+        
+        for(int i = 0; i < V; i++) {
+            for(int j = i+1; j<V; j++) { //why j = i+1 ? Because we fill [i][j]  and [j][i] at the same time below. So, not required.
+                int x1 = points[i][0];
+                int y1 = points[i][1];
+                
+                int x2 = points[j][0];
+                int y2 = points[j][1];
+                
+                int d = abs(x1-x2) + abs(y1-y2);
+                
+                //Populating the adjaceny list
+                adj[i].push_back({j, d});
+                adj[j].push_back({i, d});
+            }
+        }
+        
+        return minMST(adj, V);
+        
     }
 };
