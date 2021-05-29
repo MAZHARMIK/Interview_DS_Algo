@@ -8,9 +8,9 @@ public:
         while(l < r) {
             int mid = l + (r-l)/2;
             if(nums[mid] <= nums[r]) { //right side is sorted, so go left
-                r = mid;
+                r = mid; //possibly my pivot
             } else {
-                l = mid+1;  //left side is sorted, so go right
+                l = mid+1;
             }
         }
         return r;
