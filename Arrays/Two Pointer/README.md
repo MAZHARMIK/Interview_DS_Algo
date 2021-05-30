@@ -59,5 +59,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/3Sum%20With%20Multiplicity">3Sum With Multiplicity (Leetcode-923)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Longest_Substring_Without_Repeating_Characters.cpp">Longest Substring Without Repeating Characters (3 approaches) (Leetcode-3)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
