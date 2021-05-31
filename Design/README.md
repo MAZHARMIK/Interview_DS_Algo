@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Max%20Stack">Max Stack (Leetcode - 716)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Search_Suggestions_System.cpp">Search Suggestions System (Leetcode - 1268)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
