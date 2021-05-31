@@ -172,7 +172,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum_Subarray.cpp">Maximum Gap (Leetcode - 164)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum_Subarray.cpp">Maximum Subarray (Leetcode - 53)</a>
 				</td>
 			</tr>
 		</tbody>
