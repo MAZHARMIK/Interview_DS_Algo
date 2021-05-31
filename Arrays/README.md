@@ -170,5 +170,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum_Gap.cpp">Maximum Gap (Leetcode - 164)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum_Subarray.cpp">Maximum Gap (Leetcode - 164)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
