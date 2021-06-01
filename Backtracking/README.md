@@ -26,7 +26,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Max%20Area%20of%20Island">Max Area of Island (Leetcode : 695)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Max_Area_of_Island.cpp">Max Area of Island (Leetcode : 695)</a>
 				</td>
 			</tr>
 			<tr>
