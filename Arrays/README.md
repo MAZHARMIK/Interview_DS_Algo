@@ -175,5 +175,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum_Subarray.cpp">Maximum Subarray (Leetcode - 53)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum_Area_of_a_Piece_of%20Cake_After_Horizontal_and_Vertical_Cuts.cpp">Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts (Leetcode - 1465)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
