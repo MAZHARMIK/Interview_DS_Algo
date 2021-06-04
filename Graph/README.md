@@ -136,6 +136,11 @@
 			</tr>
 			<tr>
        				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Open_the_Lock.cpp">Open the Lock (Leetcode-752)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Min%20Cost%20to%20Connect%20All%20Points">Min Cost to Connect All Points (Leetcode-1584)</a>
 				</td>
 			</tr>
