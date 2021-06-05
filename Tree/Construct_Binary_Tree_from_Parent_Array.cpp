@@ -19,11 +19,11 @@ void createUtil(int i, int parent[], vector<Node*>& created, Node* &root) {
         createUtil(parent[i], parent, created, root);
     }
 
-    Node* par = created[parent[i]];
-    if(par->left == NULL)
-        par->left = temp;
+    Node* your_parent = created[parent[i]];
+    if(your_parent->left == NULL)
+        your_parent->left = temp;
     else
-        par->right = temp;
+        your_parent->right = temp;
 }
 
 Node *createTree(int parent[], int n)
