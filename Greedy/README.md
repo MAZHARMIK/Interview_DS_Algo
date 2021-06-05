@@ -99,5 +99,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Put_Boxes_Into_the_Warehouse_I.cpp">Put Boxes Into the Warehouse I (Leetcode-1564)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Two_City_Scheduling.cpp">Two City Scheduling (3 approaches) (Leetcode-1029)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
