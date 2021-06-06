@@ -1,6 +1,7 @@
 /*
     Company Tags  : Google, Zoho, Amazon, Walmart, Linkedin
     Leetcode Link : https://leetcode.com/problems/longest-consecutive-sequence/
+    //NOTE : This question is also known as "Longest Consecutive Subsequence"
 */
 
 //Approach-1 (sort and find : Time - O(nlog(n))
