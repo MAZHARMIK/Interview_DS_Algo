@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Search_Suggestions_System.cpp">Search Suggestions System (Leetcode - 1268)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Insert_Delete_GetRandom_O(1).cpp">Insert Delete GetRandom O(1) (Leetcode - 380)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
