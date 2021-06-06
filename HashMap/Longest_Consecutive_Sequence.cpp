@@ -42,7 +42,7 @@ public:
     }
 };
 
-//Approach-3 (Using set in place of hashmap in Approach-2) Time : (O(n))
+//Approach-3 (Using set in place of hashmap in Approach-2) TIme : o(nlog(n)) (Searching in set takes logn time)
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
@@ -58,8 +58,8 @@ public:
             }
             
             int tempL = 1;
-            while(st.find(x+tempL) != st.end()) { //Why O(n) ? This while loop doesn't get called for all numebrs. Number of times
-                tempL++;                         //this while loop runs for few sum up to 'n'
+            while(st.find(x+tempL) != st.end()) {
+                tempL++;
             }
             
             maxL = max(maxL, tempL);
