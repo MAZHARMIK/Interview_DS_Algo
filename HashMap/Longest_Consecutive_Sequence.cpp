@@ -42,11 +42,11 @@ public:
     }
 };
 
-//Approach-3 (Using set in place of hashmap in Approach-2) TIme : o(nlog(n)) (Searching in set takes logn time)
+//Approach-3 (Using unordered_set in place of hashmap in Approach-2) Time : O(n)
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        set<int> st(begin(nums), end(nums));
+        unordered_set<int> st(begin(nums), end(nums));
                 
         int maxL = 0;
         
@@ -58,7 +58,7 @@ public:
             }
             
             int tempL = 1;
-            while(st.find(x+tempL) != st.end()) {
+            while(st.find(x+tempL) != st.end()) { //find in unordered_set takes O(1) time.
                 tempL++;
             }
             
