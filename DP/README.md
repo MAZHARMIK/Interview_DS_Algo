@@ -332,5 +332,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Interleaving_String.cpp">Interleaving String (4 approaches) (Leetcode-97)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Min_Cost_Climbing_Stairs.cpp">Min Cost Climbing Stairs (4 approaches) (Leetcode-764)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
