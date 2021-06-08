@@ -32,6 +32,7 @@
 
 /*
 Two approaches :  DFS and BFS
+Why not Backtracking : You'll get stuck in infinite loop
 */
 
 class Solution {
