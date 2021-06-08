@@ -239,5 +239,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/The%20Maze.cpp">The Maze (DFS & BFS) (Leetcode : 490)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/The%20Maze%20II.cpp">The Maze II (DFS & BFS) (Leetcode : 505)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
