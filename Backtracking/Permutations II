@@ -53,7 +53,7 @@ public:
         }
         set<int> st;
         for (int i = l; i <= r; i++) {
-            if(st.count(nums[i]))
+            if(st.count(nums[i])) //Don't put repeated element back to nums[l], else we'll get duplicates
                 continue;
             st.insert(nums[i]);
             swap(nums[i], nums[l]);
