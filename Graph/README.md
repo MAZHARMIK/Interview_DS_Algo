@@ -234,5 +234,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Knight%20Moves">Minimum Knight Moves (Leetcode : 1197)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/The%20Maze.cpp">The Maze (DFS & BFS) (Leetcode : 490)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
