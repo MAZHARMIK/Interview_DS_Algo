@@ -53,7 +53,11 @@ public:
         for(pair<int, int>& p : directions) {
              int x_ = x + p.first;
              int y_ = y + p.second;
-
+             
+            /*
+                The only difference here with normal DFS is that in this case, the neighbors are
+                those nodes where the balls hits a wall. That's where it explores other paths.
+            */
              while (x_ >= 0 && x_ < maze.size() && y_ >= 0 && y_ < maze[0].size() && maze[x_][y_] == 0) {
                      x_ += p.first;
                      y_ += p.second;
@@ -83,7 +87,11 @@ public:
             for(pair<int, int>& p : directions) {
                 int x_ = curr.first + p.first;
                 int y_ = curr.second + p.second;
-              
+                
+                 /*
+                    The only difference here with normal BFS is that in this case, the neighbors are
+                    those nodes where the balls hits a wall. That's where it explores other paths.
+                */
                 while (x_ >= 0 && x_ < maze.size() && y_ >= 0 && y_ < maze[0].size() && maze[x_][y_] == 0) {
                     x_ += p.first;
                     y_ += p.second;
