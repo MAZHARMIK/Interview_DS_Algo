@@ -40,3 +40,30 @@ public:
         return final_result;
     }
 };
+
+
+//Approach-2 (Using swap technique but avoiding duplicates)
+class Solution {
+public:
+    vector<vector<int>> result;
+    void recursion(vector<int>& nums, int l, int& r) {
+        if (l == r) {
+            result.push_back(nums);
+            return;
+        }
+        set<int> st;
+        for (int i = l; i <= r; i++) {
+            if(st.count(nums[i]))
+                continue;
+            st.insert(nums[i]);
+            swap(nums[i], nums[l]);
+            recursion(nums, l+1, r);
+            swap(nums[i], nums[l]);
+        }
+    }
+    vector<vector<int> > permuteUnique(vector<int> &num) {
+        result.clear();
+        recursion(num, 0, num.size()-1);
+        return res;
+    }
+};
