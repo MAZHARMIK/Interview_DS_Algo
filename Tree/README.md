@@ -97,6 +97,11 @@
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal.cpp">Construct Binary Tree from Preorder and Inorder Traversal (Leetcode - 105)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum">Path Sum (Leetcode-112)</a>
 				</td>
 			</tr>
