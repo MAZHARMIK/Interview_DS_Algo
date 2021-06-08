@@ -51,22 +51,21 @@ public:
 
         visited[x][y] = true;
         for(pair<int, int>& p : directions) {
-            int x_ = x + p.first;
-            int y_ = y + p.second;
+             int x_ = x + p.first;
+             int y_ = y + p.second;
 
-            while (x_ >= 0 && x_ < maze.size() && y_ >= 0 && y_ < maze[0].size() && maze[x_][y_] == 0) {
+             while (x_ >= 0 && x_ < maze.size() && y_ >= 0 && y_ < maze[0].size() && maze[x_][y_] == 0) {
                      x_ += p.first;
                      y_ += p.second;
-                 }
+             }
 
-                 x_ -= p.first;
-                 y_ -= p.second;
-                 if(!visited[x_][y_] && DFS(maze, x_, y_)) {
-                     return true;
-                 }
+             x_ -= p.first;
+             y_ -= p.second;
+             if(!visited[x_][y_] && DFS(maze, x_, y_)) {
+                 return true;
+             }
         }
         return false;
-        
     }
 
   /********************BFS************************/
