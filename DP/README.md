@@ -139,6 +139,11 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20VI.cpp">Jump Game VI (3 approaches) (Leetcode-1696)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Unique%20Paths%20(DP%20and%20Memoized)">Unique Paths (DP and Memoized) (Leetcode - 62)</a>
 				</td>
 			</tr>
