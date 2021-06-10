@@ -41,6 +41,13 @@ public:
 
 
 //Approach-2 (Bottom Up DP : Time- O(n))
+/*
+    We have an array k of first n ugly number. We only know, at the beginning, the first one, which is 1. Then
+
+    k[1] = min( k[0]x2, k[0]x3, k[0]x5). The answer is k[0]x2. So we move 2's pointer to 1. Then we test:
+
+    k[2] = min( k[1]x2, k[0]x3, k[0]x5). And so on. Be careful about the cases such as 6, in which we need to forward both pointers of 2 and 3.
+*/
 class Solution {
 public:
     int nthUglyNumber(int n) {
