@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Longest_Consecutive_Sequence.cpp">Longest Consecutive Sequence (Leetcode-128)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/My%20Calendar%20I.cpp">My Calendar I (Leetcode-729)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
