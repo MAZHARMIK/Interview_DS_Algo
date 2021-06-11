@@ -19,8 +19,9 @@
 class Solution {
 public:
     int solve(vector<int>& stones, int l, int r, int sum, vector<vector<int>>& t) {
-        if(l+1 == r)
-            return max(stones[l], stones[r]);
+        if(l > r)
+            return 0;
+            
         if(t[l][r] != -1)
             return t[l][r];
         
