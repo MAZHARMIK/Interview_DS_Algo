@@ -3,31 +3,36 @@
     Leetcode Link : https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1
 */
 
-Node* merge(Node* a, Node* b) {
-    if(!a)
-        return b;
-    if(!b)
-        return a;
-    
+Node *merge(Node* head1, Node* head2) {
+    if(!head1)
+        return head2;
+    if(!head2)
+        return head1;
+        
     Node* head = new Node(-1);
     Node* temp = head;
-    while(a && b) {
-        if (a->data < b->data) { 
-            temp->bottom = a; 
-            a = a->bottom;
-        } else { 
-            temp->bottom = b; 
-            b = b->bottom; 
+    
+    while(head1 && head2) {
+        if(head1->data < head2->data) {
+            temp->bottom = head1;
+            head1 = head1->bottom;
+        } else {
+            temp->bottom = head2;
+            head2 = head2->bottom;
         }
         temp = temp->bottom;
     }
-    temp->bottom = (a)?a:b;
+
+    temp->bottom = head1 ? head1 : head2;
+    
     return head->bottom;
 }
 
-Node* flatten (Node* root) { 
-    if (!root || !root->next) 
-        return root; 
-  
-    return merge( root, flatten(root->next) ); 
+Node *flatten(Node *head) {
+    if(!head || !head->next)
+        return head;
+
+    Node* temp = flatten(head->next);
+    
+    return merge(head, temp);
 }
