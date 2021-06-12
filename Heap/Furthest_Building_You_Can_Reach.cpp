@@ -1,6 +1,8 @@
 /*
-    Company Tags  : Microsoft, Google
-    Leetcode Link : https://leetcode.com/problems/furthest-building-you-can-reach/
+    Company Tags    : Microsoft, Google
+    Leetcode Link   : https://leetcode.com/problems/furthest-building-you-can-reach/
+    Similar Problem : https://leetcode.com/problems/minimum-number-of-refueling-stops/
+    This is actually a concept of Lazy Greedy Problem (Using priority_queue)
 */
 
 //Greedy : Fail
