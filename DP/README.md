@@ -347,5 +347,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Ugly%20Number%20II.cpp">Ugly Number II (2 approaches) (Leetcode-264)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Number%20of%20Refueling%20Stops.cpp">Minimum Number of Refueling Stops (3 approaches) (Leetcode-871)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
