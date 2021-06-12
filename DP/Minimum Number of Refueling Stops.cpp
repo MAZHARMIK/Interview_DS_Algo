@@ -12,7 +12,7 @@ public:
         int n = stations.size();
         
         vector<vector<ull>> t(n+1, vector<ull>(n+1, 0));
-        //t[i][j] = Maximum distance reached if I stopped at 'j' fuelStops from total of 'i' fuleStops
+        //t[i][j] = Maximum distance reached if I stopped at 'j' fuelStops from total of 'i' fuelStops
         //i.e. j <= i
         
         //If j = 0, i.e. I did not use any fuelStops, Then maximum I can reach is 'startFuel' which I had initially
@@ -22,19 +22,19 @@ public:
             t[i][0] = startFuel;
         }
         
-        //There is not point of filling 1st row because 
+        //There is no point of filling 1st row because 
         //t[0][j] means I used j fuelStops from 0 fuelStops which doesn't make any sense for (j>0)
         //That's why I start from i = 1 and obviously j = 1 because for j = 0 we already populated the dp array
         
         for(int i = 1; i < n+1; i++) {
-            for(int j = 1; j <= i; j++) { //I can use j=1 to j=i fuell stops and find max distance for t[i][j]
+            for(int j = 1; j <= i; j++) { //I can use j=1 to j=i fuel stops and find max distance for t[i][j]
                 //case-1 (I don't refuel at current fuelstop)
                 //If I didn't refuel at current stop, the max distance I can cover is equal to maximum
                 //distance I could cover from previous state
                 t[i][j] = t[i-1][j];
                 
                 //case-2 (I will refuel at current fuelStop)
-                //But check if you can even reach this station (stations[i-1][0]) or not from your previsous station
+                //But check if you can even reach this station (stations[i-1][0]) or not from your previous station
                 if(t[i-1][j-1] >= stations[i-1][0]) {
                     t[i][j] = max(t[i][j], t[i-1][j-1] + stations[i-1][1]);
                 }
@@ -54,7 +54,8 @@ public:
     }
 };
 
-Approach-2 : O(n) dp
+
+//Approach-2 : O(n) dp
 class Solution {
 public:
     int minRefuelStops(int target, int startFuel, vector<vector<int>>& stations) {
@@ -92,23 +93,32 @@ public:
     }
 };
 
-Approach-3 : O(nlog(n)) using max-heap
+
+//Approach-3 : O(nlog(n)) using max-heap
+//Similar Problem : Leetcode 1642. Furthest Building You Can Reach
 class Solution {
 public:
     int minRefuelStops(int target, int startFuel, vector<vector<int>>& stations) {
         int n = stations.size();
         
         priority_queue<int> pq; //max heap
-        //if we can't reach target, I will first use the largest fuelStation (which can take me farthest)
-        //and move ahead and keep doing this.
-        
+        /*
+			if we can't reach target, I will first use the largestfuel Station
+			(which can take me farthest) and move ahead and keep doing this.
+        */
         int curr = startFuel; //my current position
         int i = 0; //station index
         int result = 0;
         while(curr < target) { //until I reach my target
             while(i < n && curr >= stations[i][0]) {
-                //we don't use this station and try to move ahead but I store this station in maxheap to use in future
-                pq.push(stations[i][1]); //Keep the station at top which can take me farthest (maximum gas)
+                /*
+					  Sice, I am already ahead of or at this station
+					  (i.e. curr >= stations[i][0])  we don't use this
+					  station and try to move ahead but I store this
+					  station in maxheap to use in future
+				*/
+                pq.push(stations[i][1]);
+				//Keep the station at top which can take me farthest (maximum gas)
                 i++;
             }
             
