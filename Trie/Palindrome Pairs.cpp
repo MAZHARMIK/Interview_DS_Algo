@@ -3,7 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/palindrome-pairs/
 */
 
-//Another approach using map is present in map section
+//Another approach using map is present in map section. Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Palindrome%20Pairs.cpp
 
 //This approach is using trie : Youtube amazing explanation : https://www.youtube.com/watch?v=gHKHhjX6S8A&t=710s
 //Time complexity : O(n * k^2), where we traverse n words and then search k length (average length of word in trie) and verify if they are palindrome as well which takes k time.
