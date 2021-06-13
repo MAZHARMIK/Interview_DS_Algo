@@ -66,7 +66,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combination%20Sum%20III">Combination Sum III(Leetcode : 216)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combination%20Sum%20III.cpp">Combination Sum III(Leetcode : 216)</a>
 				</td>
 			</tr>
 			<tr>
