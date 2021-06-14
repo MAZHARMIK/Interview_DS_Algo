@@ -6,7 +6,7 @@
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& A) {
-        int xor_r = 0;
+        long long xor_r = 0;
         for(int i:A)
             xor_r ^= i;
         
