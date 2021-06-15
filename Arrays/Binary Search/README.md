@@ -54,5 +54,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20K%20Closest%20Elements">Find K Closest Elements (Leetcode-658)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Shortest%20Distance%20to%20Target%20Color.cpp">Shortest Distance to Target Color (Leetcode-1182)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
