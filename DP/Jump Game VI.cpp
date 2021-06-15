@@ -3,6 +3,7 @@
 	Leetcode Link : https://leetcode.com/problems/jump-game-vi/
  */
 
+//Approach-1
 //Recur+Memo -> TLE : Time : O(N*K) after memoization
 class Solution {
 public:
@@ -33,6 +34,7 @@ public:
     	}
 };
 
+//Approach-2
 //DP -> TLE : Time : O(N*K) :For every index i, we find best element among
 //elements at {i+1, i+2, ... i+k}
 class Solution {
@@ -63,7 +65,7 @@ public:
         return maxScoreUtilBottomUp(nums);   
     }
 	
-
+//Approach-3
 //Accepted : O(N), we store the max element among k sized window
 //in monotonic decreasing deque
 class Solution {
@@ -103,5 +105,37 @@ public:
         K = k;
                
         return maxScoreUtilOptimized(nums);
+    }
+};
+
+//Approach-4
+//Using priority_queue to do something same like Approach-3
+typedef pair<int, int> P;
+class Solution {
+public:
+    struct comparator{
+        bool operator()(P& p1, P& p2) {
+            return p1.first < p2.first;
+        }  
+    };
+    int maxResult(vector<int>& nums, int k) {
+        priority_queue<P, vector<P>, comparator> pq; //max-heap
+        
+        int n = nums.size();
+        pq.push({nums[0], 0});
+        for(int i = 1; i<n; i++) {   
+
+            while(i - k > pq.top().second) {
+                pq.pop();
+            }
+
+            pq.push({nums[i] + pq.top().first, i});
+        }
+        
+        //we have to return the score we have got at index n-1
+        while(!pq.empty() && pq.top().second != n-1)
+            pq.pop();
+        
+        return pq.top().first;
     }
 };
