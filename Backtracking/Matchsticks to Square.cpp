@@ -52,15 +52,16 @@ public:
         
         memset(visited, 0, sizeof(visited));
         sort(begin(matchsticks), end(matchsticks));
-		/*
-			Why did I sort ?
-			This will actually improve the DFS perofmance because we first put the
-			largest matchstick in our subset and if it exceds the target subsetSum,
-			then we discard this matchstick because it will further exceed.
-			
-			This gave me :
-			Runtime: 0 ms, faster than 100.00% of C++ online submissions
-		*/
+	/*
+		Why did I sort ?
+		This will actually improve the DFS perofmance because we first put the
+		largest matchstick in our subset and if it exceds the target subsetSum,
+		then we discard this matchstick because it will further exceed.
+
+		This gave me :
+		Runtime: 0 ms, faster than 100.00% of C++ online submissions
+	*/
+	    
         n                   = matchsticks.size();
         int subsetSum       = sum/4;
         int numsIndex       = n-1;
