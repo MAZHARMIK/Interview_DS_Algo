@@ -22,10 +22,10 @@ public:
     }
 	
 	int maxResult(vector<int>& nums, int k) {
-        n = nums.size();
-        K = k;
-        return maxScoreUtilRecursionMemo(nums, 0);        
-    }
+		n = nums.size();
+		K = k;
+		return maxScoreUtilRecursionMemo(nums, 0);        
+    	}
 };
 
 //DP -> TLE : Time : O(N*K) :For every index i, we find best element among
@@ -54,11 +54,8 @@ public:
 	int maxResult(vector<int>& nums, int k) {
         n = nums.size();
         K = k;
-        //return maxScoreUtilRecursionMemo(nums, 0, 0);
-        //return maxScoreUtilBottomUp(nums);
         
-        
-        return maxScoreUtilOptimized(nums);   
+        return maxScoreUtilBottomUp(nums);   
     }
 	
 
