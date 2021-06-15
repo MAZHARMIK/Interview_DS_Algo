@@ -108,7 +108,7 @@ public:
     }
 };
 
-//Approach-4
+//Approach-4 (Time : O(nlogn))
 //Using priority_queue to do something same like Approach-3
 typedef pair<int, int> P;
 class Solution {
