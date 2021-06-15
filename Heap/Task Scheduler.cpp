@@ -1,6 +1,8 @@
 /*
     Company Tags  : Facebook
     Leetcode Link : https://leetcode.com/problems/task-scheduler/
+    
+    Greedy approach : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Task%20Scheduler.cpp
 */
 
 class Solution {
