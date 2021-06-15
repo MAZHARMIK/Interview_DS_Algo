@@ -2,7 +2,7 @@
     Company Tags  : Facebook
     Leetcode Link : https://leetcode.com/problems/task-scheduler/
     
-    Heap based approach : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Task%20Scheduler%20(using%20Heap)
+    Heap based approach : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Task%20Scheduler.cpp
 */
 
 class Solution {
