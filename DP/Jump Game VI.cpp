@@ -1,4 +1,9 @@
- //Recur+Memo -> TLE : Time : O(N*K) after memoization
+ /*
+ 	Company Tags  : Not known yet (Let me know if you find it :-) )
+	Leetcode Link : https://leetcode.com/problems/jump-game-vi/
+ */
+
+//Recur+Memo -> TLE : Time : O(N*K) after memoization
 class Solution {
 public:
     int maxScore = INT_MIN;
