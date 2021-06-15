@@ -21,7 +21,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Task%20Scheduler">Task Scheduler (Leetcode-621)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Task%20Scheduler.cpp">Task Scheduler (Leetcode-621)</a>
 				</td>
 			</tr>
 			<tr>
