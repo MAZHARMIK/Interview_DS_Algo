@@ -51,7 +51,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20HashSet.cpp">Design HashMap (Leetcode - 705)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20HashSet.cpp">Design HashSet (Leetcode - 705)</a>
 				</td>
 			</tr>
 			<tr>
