@@ -72,7 +72,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Subarray%20Sums%20Divisible%20by%20K%20:%20O(n)">Subarray Sums Divisible by K (Leetcode - 974)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Subarray%20Sums%20Divisible%20by%20K%20.cpp">Subarray Sums Divisible by K (3 approaches) (Leetcode - 974)</a>
 				</td>
 			</tr>
 			<tr>
