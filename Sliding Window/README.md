@@ -35,8 +35,13 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 				</td>
 			</tr>
 			<tr>
-        <td>
+       				<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Maximum%20Points%20You%20Can%20Obtain%20from%20Cards">Maximum Points You Can Obtain from Cards (Leetcode-1423)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Number%20of%20Subarrays%20with%20Bounded%20Maximum.cpp">Number of Subarrays with Bounded Maximum (Leetcode-795)</a>
 				</td>
 			</tr>
 		</tbody>
