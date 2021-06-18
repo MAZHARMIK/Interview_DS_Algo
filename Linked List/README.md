@@ -2,6 +2,11 @@
 <img src="https://2.bp.blogspot.com/-jvGjDZDMPhk/UhULVcKKR4I/AAAAAAAAZ-4/BJcAmBgOtJY/s1600/circular+list+4_thumb%5B1%5D.jpg" width="600" height="250">
 
 # Linked List : :triangular_flag_on_post:
+<details>
+  <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics (Example : Double LinkedList)</summary>
+  
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Linked%20List/Double%20Linked%20List">:file_folder:Double Linked List</a>
+</details>
 
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
