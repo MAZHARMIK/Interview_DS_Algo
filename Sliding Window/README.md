@@ -21,7 +21,7 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Subarray%20Product%20Less%20Than%20K">Subarray Product Less Than K (Leetcode-713)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Subarray%20Product%20Less%20Than%20K.cpp">Subarray Product Less Than K (Leetcode-713)</a>
 				</td>
 			</tr>
 			<tr>
