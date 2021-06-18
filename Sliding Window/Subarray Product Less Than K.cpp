@@ -1,8 +1,10 @@
 /*
-    Company Tags  : 
+    Company Tags  : Yatra
     Leetcode Link : https://leetcode.com/problems/subarray-product-less-than-k/
 */
 
+
+//Approach-1  : Sliding window , Time : O(N)
 class Solution {
 public:
     int numSubarrayProductLessThanK(vector<int>& nums, int k) {
