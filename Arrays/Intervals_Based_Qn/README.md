@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Merge%20Intervals">Merge Intervals (Leetcode-56)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Merge%20Intervals.cpp">Merge Intervals (Leetcode-56)</a>
 				</td>
 			</tr>
       			<tr>
