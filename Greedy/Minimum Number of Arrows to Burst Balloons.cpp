@@ -1,6 +1,9 @@
 /*
     Company Tags  : Facebook
     Leetcode Link : https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+    
+    It falls under the category of "Interval Based Question" as well.
+    Link  :   https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Intervals_Based_Qn
 */
 
 //Approach-1 (Just like Leetcode - "Non Overlapping Intervals")
