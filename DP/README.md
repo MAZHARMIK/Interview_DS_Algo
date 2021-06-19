@@ -352,5 +352,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Number%20of%20Refueling%20Stops.cpp">Minimum Number of Refueling Stops (3 approaches) (Leetcode-871)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/K%20Inverse%20Pairs%20Array.cpp">K Inverse Pairs Array (3 approaches) (Leetcode-629)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
