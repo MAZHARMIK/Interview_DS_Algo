@@ -1,5 +1,5 @@
 /*
-    Company Tags     : Amazon
+    Company Tags     : Amazon, Google
     Leetcode Qn Link : https://leetcode.com/problems/majority-element-ii/
 */
 
@@ -7,29 +7,25 @@ class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
         int n = nums.size();
-        if(n == 0)
-            return {};
-        if(n == 1) {
-            return {nums[0]};
-        }
+        
+        int maj1    = NULL;
         int count1 = 0;
-        int maj1   = NULL;
-        
+
+        int maj2    = NULL;
         int count2 = 0;
-        int maj2   = NULL;
-        
+        int freq = floor(n/3);
         
         for(int i = 0; i<n; i++) {
-            if(maj1 != NULL && nums[i] == maj1)
+            if(nums[i] == maj1)
                 count1++;
-            else if(maj2 != NULL && nums[i] == maj2)
+            else if(nums[i] == maj2)
                 count2++;
             else if(count1 == 0) {
-                count1 = 1;
                 maj1 = nums[i];
-            } else if (count2 == 0) {
-                count2 = 1;
+                count1 = 1;
+            } else if(count2 == 0) {
                 maj2 = nums[i];
+                count2 = 1;
             } else {
                 count1--;
                 count2--;
@@ -50,5 +46,7 @@ public:
         if(count2 > floor(n/3))
             result.push_back(maj2);
         return result;
+
+
     }
 };
