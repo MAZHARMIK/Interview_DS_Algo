@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum_Performance_of_a_Team.cpp">Maximum Performance of a Team (Leetcode-1383)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Non-overlapping%20Intervals.cpp">Non-overlapping Intervals (Leetcode-435)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
