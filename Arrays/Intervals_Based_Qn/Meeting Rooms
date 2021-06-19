@@ -13,6 +13,7 @@
     Time Complexity : O(nlogn) due to sorting
 */
 
+//Approach-1
 class Solution {
 public:
      static bool myFunction(Interval& i1, Interval& i2) {
@@ -35,5 +36,45 @@ public:
             }
         }
         return true;
+    }
+};
+
+
+//Approach-2 (Simplification)
+/**
+ * Definition of Interval:
+ * classs Interval {
+ *     int start, end;
+ *     Interval(int start, int end) {
+ *         this->start = start;
+ *         this->end = end;
+ *     }
+ * }
+ */
+
+class Solution {
+public:
+    bool canAttendMeetings(vector<Interval> &intervals) {
+        auto lambda = [&](Interval& i1, Interval& i2) {
+            return i1.start < i2.start;
+        };
+
+        sort(begin(intervals), end(intervals), lambda);
+        int n = intervals.size();
+
+        for(int i = 0; i<n-1; i++) {
+            Interval curr  = intervals[i];
+            Interval next  = intervals[i+1];
+            
+            if(curr.end <= next.start) {
+                continue;
+            }
+            
+            if(curr.end > next.start) {
+                return false;
+            }
+        }
+        return true;
+
     }
 };
