@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Meeting_Scheduler.cpp">Meeting Scheduler (Leetcode-1229)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Non-overlapping%20Intervals.cpp">Non-overlapping Intervals (Leetcode-435) (Falls under Greedy Category as well)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
