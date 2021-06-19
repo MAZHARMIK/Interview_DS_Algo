@@ -59,5 +59,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Non-overlapping%20Intervals.cpp">Non-overlapping Intervals (Leetcode-435) (Falls under Greedy Category as well)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.cpp">Minimum Number of Arrows to Burst Balloons (3 approaches) (Leetcode-452) (Falls under Greedy Category as well)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
