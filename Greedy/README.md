@@ -31,7 +31,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons">Minimum Number of Arrows to Burst Balloons (Leetcode-452)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.cpp">Minimum Number of Arrows to Burst Balloons (3 approaches) (Leetcode-452)</a>
 				</td>
 			</tr>
 			<tr>
