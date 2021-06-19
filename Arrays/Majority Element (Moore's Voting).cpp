@@ -7,28 +7,23 @@ class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         int n = nums.size();
-        if(n == 1)
-            return nums[0];
-        
         int count = 1;
         int maj = nums[0];
+        
         for(int i = 1; i<n; i++) {
-            if(nums[i] == maj)
+            if(nums[i] == maj) {
                 count++;
-            else
+            } else {
                 count--;
+            }
+            
             if(count == 0) {
-                maj = nums[i];
                 count = 1;
+                maj = nums[i];
             }
         }
         
-        count = 0;
-        for(int i:nums) {
-            if(i == maj)
-                count++;
-        }
-        
-        return (count > n/2)?maj:-1;
+        //Since it is gauranteen that majority element exists, so we don't check for freq of "maj" and return
+        return maj;
     }
 };
