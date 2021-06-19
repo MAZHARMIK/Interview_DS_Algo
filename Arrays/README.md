@@ -107,7 +107,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Majority%20Element%20II">Majority Element II (Moore's Voting) (Leetcode - 229)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Majority%20Element%20II.cpp">Majority Element II (Moore's Voting) (Leetcode - 229)</a>
 				</td>
 			</tr>
 			<tr>
