@@ -64,7 +64,7 @@ public:
     }
 };
 
-//Approach-3 (Sorting on the basis of start coordinate)
+//Approach-3 (Sorting on the basis of "Start Coordinate")
 //Using O(1) space
 class Solution {
 public:
