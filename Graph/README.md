@@ -4,6 +4,10 @@
 Another good source for all Graph Algorithms at one spot : <a href = "https://leetcode.com/discuss/study-guide/969327/graph-algorithms-one-place-dijkstra-bellman-ford-floyd-warshall-prims-kruskals-dsu/971044">Graaaaaphs 🔭</a>
 
 # Graph : :triangular_flag_on_post:
+<details>
+  <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics (Example : BFS, DFS)</summary>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph/BFS_DFS">:file_folder:BFS_DFS</a>
+</details>
 
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
