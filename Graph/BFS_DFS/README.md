@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph/BFS_DFS">Numbers With Same Consecutive Differences (Leetcode-967)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Numbers%20With%20Same%20Consecutive%20Differences.cpp">Numbers With Same Consecutive Differences (Leetcode-967)</a>
 				</td>
 			</tr>
 		</tbody>
