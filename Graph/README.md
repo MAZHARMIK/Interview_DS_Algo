@@ -255,5 +255,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Island%20Perimeter.cpp">Island Perimeter (3 approaches) (Leetcode : 463)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Swim%20in%20Rising%20Water.cpp">Swim in Rising Water (2 approaches) (Leetcode : 778)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
