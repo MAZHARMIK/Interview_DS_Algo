@@ -21,7 +21,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Insert%20Interval.cpp">Insert Interval (2 approaches) Leetcode-57)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Insert%20Interval.cpp">Insert Interval (2 approaches) (Leetcode-57)</a>
 				</td>
 			</tr>
 			<tr>
