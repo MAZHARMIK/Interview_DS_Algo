@@ -124,5 +124,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Partition_List.cpp">Partition List (Leetcode-86)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Reorder%20List.cpp">Reorder List (Leetcode-143)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
