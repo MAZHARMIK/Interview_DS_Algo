@@ -36,7 +36,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Copy%20List%20with%20Random%20Pointer%20(O(1)%20space)">Copy List with Random Pointer (Leetcode-138)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Copy%20List%20with%20Random%20Pointer.cpp">Copy List with Random Pointer (2 approaches) (Leetcode-138)</a>
 				</td>
 			</tr>
 			<tr>
