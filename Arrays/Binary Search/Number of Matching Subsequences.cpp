@@ -2,7 +2,7 @@
     Company Tags : Google
     Leecode Link : https://leetcode.com/problems/number-of-matching-subsequences/
     
-    //Other approach (using hash map) : Link : 
+    //Other approach (using hash map) : Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Number%20of%20Matching%20Subsequences.cpp
 */
 
 class Solution {
