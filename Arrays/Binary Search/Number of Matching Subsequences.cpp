@@ -5,6 +5,7 @@
     //Other approach (using hash map) : Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Number%20of%20Matching%20Subsequences.cpp
 */
 
+//Time : O(s.length() * log(n))
 class Solution {
 public:
     int numMatchingSubseq(string s, vector<string>& words) {
