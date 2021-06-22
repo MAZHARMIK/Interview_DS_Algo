@@ -59,5 +59,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20Duplicate%20File%20in%20System">Find Duplicate File in System (Leetcode-609)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Is%20Subsequence.cpp">Is Subsequence (Leetcode-392)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
