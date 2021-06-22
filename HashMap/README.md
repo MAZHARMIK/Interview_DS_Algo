@@ -39,5 +39,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Palindrome%20Pairs.cpp">Palindrome Pairs (Leetcode-336)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Number%20of%20Matching%20Subsequences.cpp">Number of Matching Subsequences (Leetcode-792)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
