@@ -94,5 +94,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Super_Palindromes.cpp">Super Palindromes(Leetcode : 906)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Random%20Point%20in%20Non-overlapping%20Rectangles.cpp">Random Point in Non-overlapping Rectangles(Leetcode : 497)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
