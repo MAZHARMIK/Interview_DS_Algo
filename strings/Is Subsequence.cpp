@@ -1,5 +1,5 @@
 /*
-    Company Tags  : 
+    Company Tags  : NIL (Let me know when you find it)
     Leetcode Link : https://leetcode.com/problems/is-subsequence/
     
     I have added this question because there is a concept through which this can be solved as well. That concept may not be optimal
