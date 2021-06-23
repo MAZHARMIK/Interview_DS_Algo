@@ -99,5 +99,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Random%20Point%20in%20Non-overlapping%20Rectangles.cpp">Random Point in Non-overlapping Rectangles(Leetcode : 497)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Implement%20Rand10()%20Using%20Rand7().cpp">Implement Rand10() Using Rand7() (2 approaches) (Leetcode : 470)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
