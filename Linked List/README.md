@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Reorder%20List.cpp">Reorder List (Leetcode-143)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Reverse%20Linked%20List%20II.cpp">Reverse Linked List II (Leetcode-92)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
