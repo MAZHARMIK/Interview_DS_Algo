@@ -185,5 +185,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Pascal's%20Triangle.cpp">Pascal's Triangle (2 approaches) (Leetcode - 118)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Pancake%20Sorting.cpp">Pancake Sorting (Leetcode - 969)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
