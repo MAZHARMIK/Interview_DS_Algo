@@ -62,3 +62,73 @@ public:
         
     }
 };
+
+
+//Approach-2 (Using Stack for One Pass Flow)
+class Solution {
+public:
+    ListNode* reverseBetween(ListNode* head, int left, int right) {
+        
+        if(!head || !head->next)
+            return head;
+        
+        stack<ListNode*> st;
+        ListNode* dummy = new ListNode(0); //to which prev points in the beginning (Example : 1 -> 2)
+        dummy->next = head;
+        ListNode* prev = dummy;
+        
+        for(int i = 1; i<=left-1; i++) {
+            prev = prev->next;
+        }
+        
+        //put [left, right] elements on stack
+        ListNode* curr = prev->next;
+        for(int i = left; i<= right; i++) {
+            st.push(curr);
+            curr = curr->next;
+        }
+        
+        ListNode* storeRightNext = st.top()->next;
+        
+        //Now, link them
+        while(!st.empty()) {
+            prev->next = st.top();
+            st.pop();
+            prev = prev->next;
+        }
+        
+        prev->next = storeRightNext;
+        return dummy->next;
+    }
+};
+
+//Approach-3 (O(1) space One Pass Flow)
+class Solution {
+public:
+    ListNode* reverseBetween(ListNode* head, int left, int right) {
+        
+        if(!head || !head->next)
+            return head;
+        
+        ListNode* dummy = new ListNode(0);  //to which prev points in the beginning (Example : 1 -> 2)
+        dummy->next = head;
+        
+        ListNode* prev = dummy;
+        for(int i = 1; i<left; i++) {
+            prev = prev->next;
+        }
+        
+        ListNode* curr  = prev->next;
+        ListNode* forw  = curr->next;
+        
+        //Simple old reverse loop
+        for(int i = 1; i<=right-left; i++) {
+            curr->next = forw->next;
+            forw->next = prev->next;
+            prev->next = forw;
+            forw       = curr->next;
+        }
+        
+        return dummy->next;
+    }
+};
