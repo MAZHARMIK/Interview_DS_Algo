@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Reverse%20Linked%20List%20II.cpp">Reverse Linked List II (Leetcode-92)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Reverse%20Nodes%20in%20k-Group.cpp">Reverse Nodes in k-Group (Leetcode-25)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
