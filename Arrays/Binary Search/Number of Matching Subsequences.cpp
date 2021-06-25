@@ -21,25 +21,24 @@ public:
             int prev      = -1;
             bool found = true;
 
-        for(char &ch : word) {
-            if(mp.find(ch) == mp.end()) {
-                found = false;
-                break;
+            for(char &ch : word) {
+                if(mp.find(ch) == mp.end()) {
+                    found = false;
+                    break;
+                }
+
+                auto it = upper_bound(begin(mp[ch]), end(mp[ch]), prev); //Binary Search (O(log(n))
+                
+                if(it == mp[ch].end()) {
+                    found = false;
+                    break;
+                }
+
+                prev = *it;
             }
-
-            auto it = upper_bound(begin(mp[ch]), end(mp[ch]), prev); //Binary Search (O(log(n))
-            
-            if(it == mp[ch].end()) {
-                found = false;
-                break;
-            }
-
-            prev = *it;
+            if(found)
+                count++;
         }
-        if(found)
-            count++;
-        }
-
         return count;
     }
 };
