@@ -265,5 +265,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/All%20Paths%20from%20Source%20Lead%20to%20Destination.cpp">All Paths from Source Lead to Destination (PREMIMUM) (Leetcode : 1059)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Redundant%20Connection.cpp">Redundant Connection (4 approaches) (Leetcode : 684)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
