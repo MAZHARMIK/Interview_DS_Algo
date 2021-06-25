@@ -36,7 +36,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Find%20Right%20Interval%20(Good%20and%20Clean%20Approach)">Find Right Interval (Leetcode-436)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Find%20Right%20Interval.cpp">Find Right Interval (4 approaches) (Leetcode-436)</a>
 				</td>
 			</tr>
 			<tr>
