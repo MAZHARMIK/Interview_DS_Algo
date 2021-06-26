@@ -37,7 +37,8 @@ public:
     }
 };
 
-//Approach-2 (Using Hashset - Time O(nlogk))
+//Approach-2 (Using Hashset - Time O(nlogk)) -
+//Just Like "Sliding Window" - So, it falls under Sliding Window catergory as well (https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Sliding%20Window)
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
