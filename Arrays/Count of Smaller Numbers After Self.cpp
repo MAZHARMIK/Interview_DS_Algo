@@ -79,3 +79,45 @@ public:
     }
 };
 
+
+//APproch-2 (Merge Sort using iterators : Simplified version of above)
+class Solution {
+public:
+    typedef pair<int, int> P;
+    typedef vector<P>::iterator itr;
+    vector<int> count;
+    
+    void mergeSort(vector<P>& nums, itr start, itr end) {
+        if(end-start <= 1)
+            return;
+        
+        auto mid = start + (end-start)/2;
+        
+        mergeSort(nums, start, mid);
+        mergeSort(nums, mid, end);
+        
+        for(auto i = start, j = mid; i!= mid; i++) {
+            while(j != end && i->first > j->first) {
+                j++;
+            }
+            count[i->second] += j-mid;
+        }
+        
+        inplace_merge(start, mid, end);
+    }
+    
+    vector<int> countSmaller(vector<int>& vec) {
+        int n = vec.size();
+        vector<P> nums(n);
+        count.resize(n, 0);
+        
+        for(int i = 0; i<n; i++) {
+            nums[i] = make_pair(vec[i], i);
+        }
+        
+        mergeSort(nums, begin(nums), end(nums));
+        
+        return count;
+        
+    }
+};
