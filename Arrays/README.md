@@ -190,5 +190,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Pancake%20Sorting.cpp">Pancake Sorting (Leetcode - 969)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Count%20of%20Smaller%20Numbers%20After%20Self.cpp">Count of Smaller Numbers After Self (Leetcode - 315)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
