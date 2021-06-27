@@ -15,5 +15,10 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Range_Sum_Query_Mutable.cpp">Range Sum Query - Mutable</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Range%20Min-Max%20Query.cpp">Range Min-Max Query</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
