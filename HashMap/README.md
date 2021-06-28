@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Number%20of%20Matching%20Subsequences.cpp">Number of Matching Subsequences (Leetcode-792)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Partition%20Labels.cpp">Partition Labels (Leetcode-763)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
