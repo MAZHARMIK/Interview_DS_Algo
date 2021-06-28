@@ -1,6 +1,7 @@
 /*
     Company Tags  : Amazon (many times)
     Leetcode Link : https://leetcode.com/problems/partition-labels/
+    NOTE : This question also falls under "Two Pointer" section
 */
 /*
 All approches are O(n+n) = O(n) time since we traverse the 
