@@ -8,14 +8,12 @@ string removeDupUsingStack(string S) {
         stack<char> st;
         
         for(int i = S.length()-1; i>=0; i--) {
-            if(st.empty())
+            if(st.empty() || st.top() != S[i])
                 st.push(S[i]);
-            else if(st.top() == S[i]) {
+            else
                 st.pop();
-            } else {
-                st.push(S[i]);
-            }
         }
+    
         string result = "";
         while(!st.empty()) {
             result += st.top();
@@ -31,12 +29,10 @@ public:
         string result = "";
         
         for(char &ch : s) {
-            if(result.empty()) {
+            if(result.empty() || result.back() != ch) {
                 result.push_back(ch);
-            } else if(result.back() == ch) {
-                result.pop_back();
             } else {
-                result.push_back(ch);
+                result.pop_back();
             }
         }
         
