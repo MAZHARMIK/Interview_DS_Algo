@@ -3,9 +3,8 @@
     Leetcode Link : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 */
 
-class Solution {
-public:
-    string removeDupUsingStack(string S) {
+//Approach-1 (With stack)
+string removeDupUsingStack(string S) {
         stack<char> st;
         
         for(int i = S.length()-1; i>=0; i--) {
@@ -24,21 +23,24 @@ public:
         }
         return result;
     }
-    string removeDupWithoutStack(string S) {
+
+//Appraoch-2 (Without stack)
+class Solution {
+public:
+    string removeDuplicates(string s) {
         string result = "";
         
-        for(char ch:S) {
-            if(result == "")
-                result += ch;
-            else if(result.back() == ch)
+        for(char &ch : s) {
+            if(result.empty()) {
+                result.push_back(ch);
+            } else if(result.back() == ch) {
                 result.pop_back();
-            else
-                result += ch;
+            } else {
+                result.push_back(ch);
+            }
         }
+        
         return result;
     }
-    string removeDuplicates(string S) {
-        //return removeDupWithoutStack(S);
-        return removeDupUsingStack(S);
-    }
 };
+
