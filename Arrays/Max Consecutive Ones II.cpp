@@ -61,3 +61,34 @@ public:
         return result;
     }
 };
+
+
+//Approach-2 (Using 2 pointer technique : This approach falls under Two pointer section inside Array as well)
+class Solution {
+public:
+    void moveUntilOneCount(vector<int>& nums, int& count, int& i, int& j) {
+        if(count > 1) {
+            while(j <= i && count > 1) {
+                if(nums[j] == 0) {
+                    count--;
+                }
+                j++;
+            }
+        }
+    }
+    int findMaxConsecutiveOnes(vector<int> &nums) {
+        int n = nums.size();
+        int i = 0, j = 0;
+        int count = 0;
+        int result = 0;
+        while(i < n) {
+            if(nums[i] == 0) {
+                count++;
+                moveUntilOneCount(nums, count, i, j);
+            }
+            result = max(result, i-j+1);
+            i++;
+        }
+        return result;
+    }
+};
