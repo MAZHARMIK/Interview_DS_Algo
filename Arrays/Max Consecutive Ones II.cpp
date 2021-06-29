@@ -92,3 +92,27 @@ public:
         return result;
     }
 };
+
+
+//Approach-3 (Using 2 pointer technique but slight improvement)
+class Solution {
+public:
+    int findMaxConsecutiveOnes(vector<int> &nums) {
+        int n = nums.size();
+        int i = 0, j = 0;
+        int count = 0;
+        int result = 0;
+        while(i < n) {
+            if(nums[i] == 0) {
+                count++;
+			}
+			if(count > 1) { //here, k = 1
+				count -= nums[j] == 0 ? 1 : 0; //We can decrement 0 only if we reject 0 from left window boundary	
+				j++; //This will anyway increase
+			}
+            result = max(result, i-j+1);
+            i++;
+        }
+        return result;
+    }
+};
