@@ -197,7 +197,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Max%20Consecutive%20Ones%20II.cpp">Max Consecutive Ones II(Leetcode - 487)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Max%20Consecutive%20Ones%20II.cpp">Max Consecutive Ones II (Leetcode - 487)</a>
 				</td>
 			</tr>
 		</tbody>
