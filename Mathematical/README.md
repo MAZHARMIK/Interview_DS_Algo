@@ -31,7 +31,7 @@
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Reverse%20Integer">Reverse Integer (Leetcode : 7)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Reverse%20Integer.cpp">Reverse Integer (Leetcode : 7)</a>
 				</td>
 			</tr>
 			<tr>
