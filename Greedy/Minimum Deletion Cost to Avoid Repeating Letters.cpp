@@ -28,6 +28,10 @@ public:
 };
 
 //Approach-2 (Greedy but very smart (without O(n) space)
+/*
+	Example : "aaa" , {2, 3, 1}
+	This example best shows the intuition behind the below approach
+*/
 class Solution {
 public:
     int minCost(string s, vector<int>& cost) {
