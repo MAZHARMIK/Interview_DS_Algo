@@ -74,5 +74,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Max%20Consecutive%20Ones%20II.cpp">Max Consecutive Ones II (Leetcode-487)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Max%20Consecutive%20Ones%20III.cpp">Max Consecutive Ones III (Leetcode-1004)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
