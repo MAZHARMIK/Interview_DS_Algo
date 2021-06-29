@@ -16,7 +16,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Deletion%20Cost%20to%20Avoid%20Repeating%20Letters">Minimum Deletion Cost to Avoid Repeating Letters (Leetcode-1578)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Deletion%20Cost%20to%20Avoid%20Repeating%20Letters.cpp">Minimum Deletion Cost to Avoid Repeating Letters (2 approaches) (Leetcode-1578)</a>
 				</td>
 			</tr>
 			<tr>
