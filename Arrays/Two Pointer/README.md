@@ -69,5 +69,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Partition%20Labels.cpp">Partition Labels (Leetcode-763)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Max%20Consecutive%20Ones%20II.cpp">Max Consecutive Ones II (Leetcode-487)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
