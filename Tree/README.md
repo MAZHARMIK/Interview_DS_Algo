@@ -144,7 +144,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20Leaves%20Of%20Binary%20Tree">Find Leaves Of Binary Tree (Leetcode-366)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20Leaves%20Of%20Binary%20Tree.cpp">Find Leaves Of Binary Tree (Leetcode-366)</a>
 				</td>
 			</tr>
 			<tr>
