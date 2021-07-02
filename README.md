@@ -4,7 +4,8 @@ It contains solutions to questions asked in various coding interviews.
 At the top of the solutions, you will find the link to the question and also list of the Companies who have asked the question in interviews.<br>
 So, Look for <strong><em>COMPANY TAGS</em></strong> above every solution. :dizzy_face:
 
-Latest Update : It helped me to crack interviews of "Microsoft", "Tower Research" and "Tokopedia". I hope to add more to this list later 🙂
+Latest Update⏰  -  
+<em>It helped me to crack interviews of <strong>"Microsoft", "Tower Research" and "Tokopedia"</strong>. I hope to add more to this list later 🙂</em>
 
 ![](https://komarev.com/ghpvc/?username=MAZHARMIK)
 
