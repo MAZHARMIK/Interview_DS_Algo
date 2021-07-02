@@ -54,5 +54,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/First%20negative%20integer%20in%20every%20window%20of%20size%20k.cpp">First negative integer in every window of size k</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Occurences%20of%20Anagrams.cpp">Count Occurences of Anagrams</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
