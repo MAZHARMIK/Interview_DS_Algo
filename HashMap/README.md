@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Partition%20Labels.cpp">Partition Labels (Leetcode-763)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Bulls%20and%20Cows.cpp">Bulls and Cows (Leetcode-299)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
