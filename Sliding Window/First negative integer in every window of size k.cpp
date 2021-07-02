@@ -5,7 +5,7 @@
 
 typedef long long ll;
 vector<ll> printFirstNegativeInteger(ll A[], ll N, ll k) {
-    list<ll> dll;
+    list<ll> dll; //You can use queue, dequeue etc as well
     vector<ll> result;
     int i = 0, j = 0;
     
