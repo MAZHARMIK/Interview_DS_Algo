@@ -43,7 +43,7 @@ public:
                 l++;
         }
         
-        vector<int> result(arr.begin()+l, arr.begin()+r+1);
+        vector<int> result(arr.begin()+l, arr.begin()+l+k)
         return result;
     }
 };
