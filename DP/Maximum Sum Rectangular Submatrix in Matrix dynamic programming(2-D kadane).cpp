@@ -3,6 +3,8 @@
     Question Link : https://practice.geeksforgeeks.org/problems/maximum-sum-rectangle2948/1
     
     This question will help you to solve Leetcode-363(Max Sum of Rectangle No Larger Than K)
+    Youtube Link for this Question (Tushar Roy) : https://www.youtube.com/watch?v=yCQN096CwWM
+    
     Link to Leetcode-363 solution : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K.cpp
 */
 
