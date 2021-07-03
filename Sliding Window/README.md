@@ -64,5 +64,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Longest%20Sub-Array%20with%20Sum%20K.cpp">Longest Sub-Array with Sum K</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Longest%20K%20unique%20characters%20substring.cpp">Longest K unique characters substring</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
