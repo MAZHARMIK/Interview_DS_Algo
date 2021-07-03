@@ -3,6 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/sliding-window-maximum/
 */
 
+//This is generally known as "Monotonic increasing/decreasing  Queue/Dequeue"
 //Approach-1 (Using Deque) Every element is added(pushed) and popped only once,So it is O(n) time complexity.
 class Solution {
 public:
