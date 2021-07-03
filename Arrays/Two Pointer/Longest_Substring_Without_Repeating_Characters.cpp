@@ -44,7 +44,7 @@ public:
     Now one thing to note, 
     Example : "a a b a a b z b b"
     When you reach at index 4 ('a'), you move i = mp['a'] + 1. i.e. 'i' is now 4
-    Now, When you are at 6th index ('b'), you notice that you have '(b, 2)' in map. So, you make i = map['b'] + 1; 
+    Now, When you are at 5th index ('b'), you notice that you have '(b, 2)' in map. So, you make i = map['b'] + 1; 
     i.e. i becomes 3 but did you notice you had made i = 4 above. This is an issue.
     So, we do this : i = max(i, mp[ch]+1); //which ever is larger we make that jump for 'i'
 */
@@ -77,7 +77,7 @@ public:
     }
 };
 
-//Approach-3 (Just simplifying APproach-2. Notice some statements are common in if and else block. Take them outside
+//Approach-3 (Just simplifying Approach-2. Notice some statements are common in if and else block. Take them outside
 //Time : O(n)
 class Solution {
 public:
