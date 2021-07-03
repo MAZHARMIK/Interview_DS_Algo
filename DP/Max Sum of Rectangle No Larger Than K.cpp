@@ -4,7 +4,6 @@
     
     This question is an application of "Maximum sum Rectangle in 2-D matrix (2-D Kadane's Algorithm)"
     You should first see 2-D Kadane's and then come here.
-    Youtube Link (Tushar Ros) : https://www.youtube.com/watch?v=yCQN096CwWM
 */
 
 class Solution {
