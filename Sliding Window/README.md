@@ -26,7 +26,7 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Sliding%20Window%20Maximum">Sliding Window Maximum (Leetcode-239)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Sliding%20Window%20Maximum.cpp">Sliding Window Maximum (Leetcode-239)</a>
 				</td>
 			</tr>
 			<tr>
