@@ -71,7 +71,7 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Sliding%20Window%20Maximum.cpp">Sliding Window Maximum (Leetcode-76) </a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Minimum%20Window%20Substring.cpp">Minimum Window Substring (Leetcode-76) </a>
 				</td>
 			</tr>
 		</tbody>
