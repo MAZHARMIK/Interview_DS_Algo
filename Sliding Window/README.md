@@ -69,5 +69,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Longest%20K%20unique%20characters%20substring.cpp">Longest K unique characters substring</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Sliding%20Window%20Maximum.cpp">Sliding Window Maximum (Leetcode-76) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
