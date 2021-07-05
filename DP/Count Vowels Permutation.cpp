@@ -110,3 +110,65 @@ public:
         return count;
     }
 };
+
+
+//Approach-3 (We can apply approach-1 in same way asked in question)
+/*
+Instead of considering the string 'ending with vowel v', we consider strings 'starting with vowel v'
+just as mentioned in the question. It's more intuitive
+*/
+
+class Solution {
+public:
+    int M = 1e9+7;
+    int a = 0, e = 1, i = 2, o = 3, u = 4;
+    vector<vector<long long>> t;
+    
+    /*
+        Accoring to question : 
+        a -> e
+        e -> a, i
+        i -> a, e, o, u
+        o -> i, u
+        u -> a
+        So, count of strings of length n starting at 'a' ?
+            We can have vowel 'e' after 'a'
+        So, count of strings of length n starting at 'a'  = count of strings of length (n-1) starting at 'e' and so on.    
+        And in this fashion, we find the count recursively
+    */
+    
+    long long count(int n, int vowel) {
+        if(t[n][vowel] != -1)
+            return t[n][vowel];
+        if(n == 0)
+            return 1;
+        
+        if(vowel == a) {
+            return t[n][vowel] = (count(n-1, e))%M;
+        } else if(vowel == e) {
+            return t[n][vowel] = ((count(n-1, a) + count(n-1, i)))%M;
+        } else if(vowel == i) {
+            return t[n][vowel] = (count(n-1, a) + count(n-1, e) + count(n-1, o) + count(n-1, u))%M;
+        } else if(vowel == o) {
+            return t[n][vowel] = (count(n-1, i) + count(n-1, u))%M;
+        } else if(vowel == u) {
+            return t[n][vowel] = (count(n-1, a))%M;
+        }
+        
+        return 0;
+    }
+    
+    int countVowelPermutation(int n) {
+        t.resize(n, vector<long long>(5, -1));
+        long long result = 0;
+        
+        result = (result + count(n-1, a)) %M; //count(x, v) = # of strings of length x which ends at vowel v
+        result = (result + count(n-1, e)) %M;
+        result = (result + count(n-1, i)) %M;
+        result = (result + count(n-1, o)) %M;
+        result = (result + count(n-1, u)) %M;
+        
+        return result;
+        
+    }
+};
