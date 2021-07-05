@@ -59,5 +59,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Rotate%20Image">Rotate Image (Leetcode-48)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Reshape%20The%20Matrix.cpp">Reshape the Matrix (Leetcode-566)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
