@@ -377,5 +377,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20Vowels%20Permutation.cpp">Count Vowels Permutation (Leetcode-1220)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Product%20Subarray.cpp">Maximum Product Subarray (Leetcode-152)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
