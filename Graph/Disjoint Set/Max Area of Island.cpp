@@ -2,7 +2,7 @@
     Company Tags  : Amazon
     Leetcode Link : https://leetcode.com/problems/max-area-of-island/
     
-    The BFS and DFS approaches are present in "Interview_DS_Algo/Graph" repository
+    The BFS and DFS approaches are present in "Interview_DS_Algo/Graph/BFS_DFS" repository
     Link to BFS/DFS : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Max_Area_of_Island.cpp
 */
 
