@@ -4,6 +4,7 @@
     
     NOTE : "Disjoint Set Union" can be used to solve this too. It will help to clear concept of Disjoin Set Data Structure
     Find the Disjoint Set Union approach here : "Interview_DS_Algo/Graph/Disjoin Set"  repository
+    Link  : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoin%20Set/Max%20Area%20of%20Island.cpp
     
 */
 
