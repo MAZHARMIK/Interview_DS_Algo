@@ -6,7 +6,7 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 # Graph : :triangular_flag_on_post:
 <details>
   <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics (Example : BFS, DFS)</summary>
-  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph/BFS_DFS">:file_folder:BFS_DFS</a>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph/BFS_DFS">:file_folder:BFS_DFS</a><br>
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph/Disjoint%20Set">:file_folder:Disjoint Set</a>
 </details>
 
