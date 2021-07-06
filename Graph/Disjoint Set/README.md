@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
         			<td>
-					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoin%20Set/Max%20Area%20of%20Island.cpp"> Max Area of Island (Leetcode-695)</a>
+					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Max%20Area%20of%20Island.cpp"> Max Area of Island (Leetcode-695)</a>
 				      </td>
 			</tr>
 		</tbody>
