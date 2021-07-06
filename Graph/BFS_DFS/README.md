@@ -10,8 +10,13 @@
 		</thead>
 		<tbody>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Numbers%20With%20Same%20Consecutive%20Differences.cpp">Numbers With Same Consecutive Differences (Leetcode-967)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Max_Area_of_Island.cpp"> Max Area of Island (Leetcode-695)</a>
 				</td>
 			</tr>
 		</tbody>
