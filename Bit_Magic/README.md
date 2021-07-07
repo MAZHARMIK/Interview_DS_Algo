@@ -21,7 +21,7 @@
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20XOR%20of%20Two%20Numbers%20in%20an%20Array">SMaximum XOR of Two Numbers in an Array (Leetcode-421)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20XOR%20of%20Two%20Numbers%20in%20an%20Array.cpp">Maximum XOR of Two Numbers in an Array (Leetcode-421)</a>
 				</td>
 			</tr>
 			<tr>
