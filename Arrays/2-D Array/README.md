@@ -64,5 +64,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Reshape%20The%20Matrix.cpp">Reshape the Matrix (Leetcode-566)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.cpp">Kth Smallest Element in a Sorted Matrix (Leetcode-378)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
