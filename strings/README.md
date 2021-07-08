@@ -71,6 +71,11 @@
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Reverse%20Words%20in%20a%20String.cpp">Reverse Words in a String (Leetcode-151)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Reverse%20Words%20in%20a%20String%20II.cpp">Reverse Words in a String II (Leetcode-186)</a>
 				</td>
 			</tr>
