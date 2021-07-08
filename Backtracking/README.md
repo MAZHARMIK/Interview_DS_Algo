@@ -71,7 +71,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Sequential%20Digits">Sequential Digits(Leetcode : 1291)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Sequential%20Digits.cpp">Sequential Digits(Leetcode : 1291)</a>
 				</td>
 			</tr>
 			<tr>
