@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Amazon (With variations)
+    Company Tags  : Amazon (With variations), MentorGraphics
     Leetcode Link : https://leetcode.com/problems/reverse-words-in-a-string/
 */
 
