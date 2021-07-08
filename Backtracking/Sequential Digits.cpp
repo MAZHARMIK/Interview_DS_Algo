@@ -2,6 +2,7 @@
     Leetcode Link : https://leetcode.com/problems/sequential-digits/
 */
 
+//Approach-1 (Using Backtracking)
 class Solution {
 public:
     void backtrack(int low, int high, int start, vector<int>& result) {
@@ -28,6 +29,31 @@ public:
         vector<int> result;
         backtrack(low, high, 1, result);
         sort(result.begin(), result.end());
+        return result;
+    }
+};
+
+//Approach-2 (Using Simple Loop)
+class Solution {
+public:
+    vector<int> sequentialDigits(int low, int high) {
+        string s = "123456789";
+        
+        vector<int> result;
+        for(int i = 0; i<9; i++) {
+            for(int j = i+1; j<9; j++) {//why j = i+1 ? Bcz 10 <= low <= high <= 10^9 (No single digit)
+                string temp = s.substr(i, j-i+1);
+                
+                int num = stoi(temp);
+                if(num > high) break;
+                
+                if(num >= low && num <= high)
+                    result.push_back(num);
+            }
+        }        
+        
+        
+        sort(begin(result), end(result));
         return result;
     }
 };
