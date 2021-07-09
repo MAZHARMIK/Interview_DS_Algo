@@ -169,7 +169,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest%20Increasing%20Subsequence%20(TopDown%20%2B%20Memo)">Longest Increasing Subsequence (Leetcode - 300)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest%20Increasing%20Subsequence.cpp">Longest Increasing Subsequence (Leetcode - 300)</a>
 				</td>
 			</tr>
 			<tr>
