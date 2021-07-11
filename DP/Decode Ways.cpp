@@ -52,13 +52,11 @@ public:
         t[0] = 1;
         t[1] = s[0]=='0'?0:1;
         
-        for(int i = 2; i<=n; i++) {
-            char num1 = s[i-1];
-            char num2 = s[i-2];
-            
-            if(num1 >= '1' && num1 <= '9')
+        for(int i = 2; i<=n; i++) {            
+            if(s[i-1] != '0')
                 t[i] += t[i-1];
-            if(num2 == '1' || (num2 == '2' && num1 >= 0 && num1 <= '6'))
+                
+            if(s[i-2] == '1' || (s[i-2] == '2' && s[i-1] < '7'))
                 t[i] += t[i-2];
             
         }
