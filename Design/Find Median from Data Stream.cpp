@@ -1,6 +1,9 @@
 /*
     Company Tags  : AMAZON, VMWARE, GOOGLE, MICROSOFT, GOLDMAN SACHS
     Leetcode Link : https://leetcode.com/problems/find-median-from-data-stream/
+    
+    This qn falls under the category of "Heap" as well.
+    Link : 
 */
 
 //Approach-1 (O(n^2)
