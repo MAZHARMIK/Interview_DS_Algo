@@ -234,7 +234,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Decode%20Ways">Decode Ways (Leetcode-91)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Decode%20Ways.cpp">Decode Ways (Leetcode-91)</a>
 				</td>
 			</tr>
 			<tr>
