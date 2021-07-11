@@ -90,8 +90,13 @@
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Insert_Delete_GetRandom_O(1).cpp">Insert Delete GetRandom O(1) (Leetcode - 380)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Find%20Median%20from%20Data%20Stream.cpp">Find Median from Data Stream(Leetcode - 295)</a>
 				</td>
 			</tr>
 		</tbody>
