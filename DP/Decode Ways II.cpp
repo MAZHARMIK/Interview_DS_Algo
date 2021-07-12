@@ -60,7 +60,50 @@ public:
     }
 };
 
-//Approach-2 (Bottom Up DP)
+//Approach-2 (Recur + Memo without map : Accepted)
+class Solution {
+public:
+    long mod = 1e9+7;
+    int n;
+    long solve(vector<long> &t, string &s, int idx) {
+        if (idx == n)
+            return 1;
+        
+        if (idx > s.length() || s[idx] == '0')
+            return 0;
+        
+        if (t[idx] != -1)
+            return t[idx];
+        
+        long last1 = solve(t, s, idx + 1) * (s[idx] == '*' ? 9  : 1);
+        
+        long last2 = 0;
+        if (idx < n-1 && s[idx] < '3') {
+            if (s[idx] == '*' && s[idx + 1] == '*')
+                last2 = 15;
+            else if (s[idx] == '*')
+                last2 = s[idx + 1] < '7' ? 2 : 1;
+            else if (s[idx + 1] == '*')
+                last2 = s[idx] == '1' ? 9 : 6;
+            else {
+                int num = stoi(s.substr(idx, 2));
+                last2 = num <= 26 ? 1 : 0;
+            }
+            last2 *= last2 ? solve(t, s, idx + 2) : 0;
+        }
+        
+        return t[idx] = (last1 + last2) % mod;
+    }
+    
+    int numDecodings(string s) {
+        n = s.length();
+        vector<long> t(s.size(), -1);
+        return solve(t, s, 0);
+    }
+};
+
+
+//Approach-3 (Bottom Up DP)
 class Solution {
 public:
     int M= 1e9+7;
@@ -107,7 +150,7 @@ public:
     }
 };
 
-//Approach-3 (Bottom Up O(1) space)
+//Approach-4 (Bottom Up O(1) space)
 class Solution {
 public:
     int M = 1e9+7;
