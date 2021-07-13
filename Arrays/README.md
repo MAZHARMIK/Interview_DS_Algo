@@ -195,5 +195,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Max%20Consecutive%20Ones%20II.cpp">Max Consecutive Ones II (Leetcode - 487)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Factorials%20of%20large%20numbers.cpp">Factorials of large numbers</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
