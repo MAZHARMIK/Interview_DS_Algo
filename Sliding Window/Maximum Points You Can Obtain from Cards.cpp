@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Let me know when you get it :-)
+    Company Tags  : Media.net
     Leetcode Link : https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
 */
 
@@ -102,27 +102,24 @@ public:
             
             return total_sum - 9 = 115 - 9 = 106
         */
-        int n                            = cardPoints.size();
-        int window_size          = n-k;
-        int total_sum              = accumulate(cardPoints.begin(), cardPoints.end(), 0);
-        int curr_window_sum = 0;
-        int min_sum               = INT_MAX;
-        if(window_size == 0)
-            return total_sum;
-        int left_end = 0;
-        for(int i = 0; i<n; i++) {
-            curr_window_sum += cardPoints[i];
-                        
-            if(i-left_end+1 == window_size) {
-                min_sum = min(min_sum, curr_window_sum);
-                
-                curr_window_sum -= cardPoints[left_end]; 
-                
-                left_end++; //shifting window to right by one index
-            }
-        }
+        int n        = nums.size();
+        int totalSum = 0;
+        int l        = n-k;
+        int currSum  = 0;
+        int minSum   = INT_MAX;
+        int i = 0,  j = 0;
         
-        return min_sum==INT_MAX ? 0 : total_sum-min_sum;
+        while(j < n) {
+            totalSum += nums[j];
+            currSum  += nums[j];
+            if(j-i+1 == l) {
+                minSum   = min(minSum, currSum);
+                currSum -= nums[i];
+                i++;
+            }
+            j++;
+        }
+        return minSum == INT_MAX ? totalSum : totalSum-minSum;
     }
     
     int maxScore(vector<int>& cardPoints, int k) {
