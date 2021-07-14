@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Bulls%20and%20Cows.cpp">Bulls and Cows (Leetcode-299)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Custom%20Sort%20String.cpp">Custom Sort String (Leetcode-791)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
