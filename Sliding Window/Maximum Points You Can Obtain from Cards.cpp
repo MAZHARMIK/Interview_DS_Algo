@@ -8,24 +8,33 @@
     Keywords : Minimum , k cards (similar to k-size window)  (Hints towards Sliding Window Technique)
 */
 
-//Approach-1
+//Approach-1 (Recur + Memo) - TLE
 class Solution {
 public:
-    //Approach-1 (Recursion : TLE)
-    //Memoization gives TLE too
-    int solve_recur(vector<int>& cardPoints, int i, int j, int k) {
-        if(k == 0 || i > j)
+    int k, n;
+    unordered_map<string, int> mp;
+    int solve(vector<int>& nums, int i, int j, int count) {
+        if(count == k)
             return 0;
-        if(i == j)
-            return cardPoints[i];
+        if(i >= n || j < 0)
+            return 0;
         
-        int take_i = cardPoints[i] + solve_recur(cardPoints, i+1, j, k-1);
-        int take_j = cardPoints[j] + solve_recur(cardPoints, i, j-1, k-1);
+        string key = to_string(i) + "_" + to_string(j) + "_" + to_string(count);
+        if(mp.find(key) != end(mp))
+            return mp[key];
         
-        return max(take_i, take_j);
+        int take_i = nums[i] + solve(nums, i+1, j, count+1);
+        int take_j = nums[j] + solve(nums, i, j-1, count+1);
+
+        return mp[key] = max(take_i, take_j);
     }
-    int maxScore(vector<int>& cardPoints, int k) { 
-        return solve_sliding_window(cardPoints, k);
+    
+    int maxScore(vector<int>& cardPoints, int k) {
+        this->mp.clear();
+        this->k = k;
+        this->n = cardPoints.size();
+        
+        return solve(cardPoints, 0, n-1, 0);
     }
 };
 
