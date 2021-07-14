@@ -36,14 +36,14 @@
 class Solution {
 public:
     string customSortString(string order, string str) {
-        vector<int> count(26, -1);
+        vector<int> index(26, -1);
         
         for(int i = 0; i<order.length(); i++)
-            count[order[i]-'a'] = i;
+            index[order[i]-'a'] = i;
         
         
         auto lambda = [&](char &ch1, char &ch2) {
-            return count[ch1-'a'] < count[ch2-'a'];
+            return index[ch1-'a'] < index[ch2-'a'];
         };
         
         sort(begin(str), end(str), lambda);
