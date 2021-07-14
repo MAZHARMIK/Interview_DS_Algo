@@ -78,3 +78,31 @@ public:
         return result;
     }
 };
+
+/*What was actually asked in Facebook :
+NOTE : The original questions that was asked by Facebook was similar to
+this but there was one small variation that "The characters which don't
+occur in "str" must be sorted as per English Alphabet order".  In that case
+one slight change will do the job in comparator function below :
+*/
+class Solution {
+public:
+    string customSortString(string order, string str) {
+        vector<int> index(26, INT_MAX);
+        
+        for(int i = 0; i<order.length(); i++)
+            index[order[i]-'a'] = i;
+        
+        
+        auto lambda = [&](char &ch1, char &ch2) {
+            if(index[ch1-'a'] == index[ch2-'a'])
+                return ch1 < ch2;
+            
+            return index[ch1-'a'] < index[ch2-'a'];
+        };
+        
+        sort(begin(str), end(str), lambda);
+        return str;
+        
+    }
+};
