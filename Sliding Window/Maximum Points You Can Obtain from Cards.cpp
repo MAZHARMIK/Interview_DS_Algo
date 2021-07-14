@@ -1,6 +1,7 @@
 /*
     Company Tags  : Media.net
     Leetcode Link : https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
+    Also known as : Pick From Both Sides
 */
 
 /*
