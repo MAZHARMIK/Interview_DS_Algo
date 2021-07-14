@@ -5,7 +5,7 @@
 
 /*
     Solution with explanation:
-    Keywords : Minimum , k cards (similar to k-size window)  (Hints towards Sliding Window Technique)
+    Keywords : Minimum/Maximum , k cards (similar to k-size window)  (Hints towards Sliding Window Technique)
 */
 
 //Approach-1 (Recur + Memo) - TLE
