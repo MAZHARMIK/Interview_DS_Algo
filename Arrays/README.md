@@ -12,6 +12,8 @@
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Binary%20Search">:file_folder:Binary Search</a>
 
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Two%20Pointer">:file_folder:Two Pointer</a>
+	
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Cumulative_Sum(Prefix%20Array)">:file_folder:Cumulative_Sum(Prefix Array)</a>
 </details>
 
 <h1>Questions</h1>
