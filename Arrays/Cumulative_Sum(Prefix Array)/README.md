@@ -10,9 +10,14 @@
 		</thead>
 		<tbody>
 			<tr>
-          <td>
+          			  <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Range%20Addition.cpp">Range Addition (Leetcode-370)</a>
 				  </td>
-      </tr>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Range%20Addition%20II.cpp">Range Addition II (Leetcode-598)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
