@@ -139,6 +139,11 @@
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/4Sum(kSum).cpp">4Sum (Leetcode - 18)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/4Sum%20II">4Sum II (Leetcode - 454)</a>
 				</td>
 			</tr>
