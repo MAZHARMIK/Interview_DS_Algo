@@ -212,5 +212,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Lights%20to%20Activate.cpp">Minimum Lights to Activate</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Three%20Equal%20Parts.cpp">Three Equal Parts (Leetcode - 927)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
