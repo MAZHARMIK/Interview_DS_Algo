@@ -1,6 +1,8 @@
 /*
     Company Tags  : Media.net
     Question Link : https://www.interviewbit.com/problems/minimum-lights-to-activate/
+    
+    Similar Leetcode Problem : Minimum Number of Taps to Open to Water a Garden (Leetcode-1326)
 */
 
 int Solution::solve(vector<int> &A, int B) {
