@@ -91,7 +91,7 @@ public:
             }
         }
         
-        if(currPos >= n-1)
+        if(currEnd >= n-1)
             return jump;
         return -1;
     }
