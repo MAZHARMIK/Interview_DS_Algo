@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Walmart
+    Company Tags  : Adobe, Amazon, Housing.com, Moonfrog Labs, OYO Rooms, Saplabs, Walmart
     Leetcode Link : https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/
 */
 
