@@ -387,5 +387,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Product%20Subarray.cpp">Maximum Product Subarray (Leetcode-152)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.cpp">Minimum Number of Taps to Open to Water a Garden (Leetcode-1326)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
