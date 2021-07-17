@@ -207,5 +207,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Factorials%20of%20large%20numbers.cpp">Factorials of large numbers</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Lights%20to%20Activate.cpp">Minimum Lights to Activate</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
