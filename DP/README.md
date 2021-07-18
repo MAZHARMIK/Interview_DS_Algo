@@ -392,5 +392,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.cpp">Minimum Number of Taps to Open to Water a Garden (Leetcode-1326)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Path%20Sum.cpp">Minimum Path Sum (Leetcode-64)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
