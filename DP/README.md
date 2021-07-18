@@ -397,5 +397,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Path%20Sum.cpp">Minimum Path Sum (Leetcode-64)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Falling%20Path%20Sum.cpp">Minimum Falling Path Sum (Leetcode-931)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
