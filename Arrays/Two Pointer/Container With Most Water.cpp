@@ -3,7 +3,7 @@
     Leetcode Link : https://leetcode.com/problems/container-with-most-water/
 */
 
-//Why does my solution give below works ?
+//Why does my solution given below works ?
 /*
 Idea / Proof (Gathered from Discussion Section of Leetcode from some intelligent programmers) : 
     The widest container (using first and last line) is a good candidate, because of its width.
