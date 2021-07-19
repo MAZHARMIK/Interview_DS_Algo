@@ -1,5 +1,6 @@
 /*
-  Company Tags : Amazon
+    Company Tags  : Apple, LinkedIn, Amazon, Facebook, Microsoft
+    Leetcode Link : https://leetcode.com/problems/product-of-array-except-self/
 */
 
 /********
