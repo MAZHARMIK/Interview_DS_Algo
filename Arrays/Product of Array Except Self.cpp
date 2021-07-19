@@ -4,7 +4,7 @@
 */
 
 /********
-Approach-1  -> Using Division
+Approach-1  -> Using Division (Time : O(n))
 *********/
 class Solution {
 public:
@@ -38,7 +38,7 @@ public:
 };
 
 /********
-Approach-2  -> Without division and in O(n) space.
+Approach-2  -> Without division and in O(n) space (Time : O(n))
 *********/
 
 class Solution {
@@ -69,6 +69,7 @@ public:
 
 /********
 Approach-3  -> constant space complexity (The output array does not count as extra space for the purpose of space complexity analysis.)
+Time : O(n)
 *********/
 
 class Solution {
