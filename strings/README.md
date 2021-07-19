@@ -26,7 +26,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Next%20Greater%20Element%20III">Next Greater Element III (Leetcode-556)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Next%20Greater%20Element%20III.cpp">Next Greater Element III (Leetcode-556)</a>
 				</td>
 			</tr>
 			<tr>
