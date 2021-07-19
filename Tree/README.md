@@ -174,12 +174,17 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20in%20a%20Binary%20Tree">Lowest Common Ancestor in a Binary Tree (Leetcode-236)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20in%20a%20Binary%20Tree.cpp">Lowest Common Ancestor in a Binary Tree (Leetcode-236)</a>
 				</td>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree">Lowest Common Ancestor Of a Binary Search Tree (Leetcode-235)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cpp">Lowest Common Ancestor Of a Binary Search Tree (Leetcode-235)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves.cpp">Lowest Common Ancestor of Deepest Leaves (Leetcode-1123)</a>
 				</td>
 			</tr>
 			<tr>
