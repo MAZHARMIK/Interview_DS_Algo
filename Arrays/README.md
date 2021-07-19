@@ -34,7 +34,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Product%20of%20Array%20Except%20Self(3%20Approaches-Leetcode:238)">Product of Array Except Self(3 Approaches-Leetcode:238)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Product%20of%20Array%20Except%20Self.cpp">Product of Array Except Self (Leetcode:238)</a>
 				</td>
 			</tr>
 			<tr>
