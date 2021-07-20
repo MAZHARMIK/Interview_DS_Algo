@@ -217,5 +217,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Three%20Equal%20Parts.cpp">Three Equal Parts (Leetcode - 927)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Max%20Chunks%20To%20Make%20Sorted.cpp">Max Chunks To Make Sorted (Leetcode - 769)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
