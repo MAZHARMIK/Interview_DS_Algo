@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Minimum%20Time%20Visiting%20All%20Points.cpp">Minimum Time Visiting All Points (Leetcode : 1266)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Shuffle%20an%20Array.cpp">Shuffle an Array (Leetcode : 348)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
