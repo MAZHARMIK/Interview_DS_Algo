@@ -38,7 +38,7 @@ public:
 };
 
 
-//Approach-2 (Using similar concept of Max Chunks To Make Sorted I
+//Approach-2 (Using similar concept of "Max Chunks To Make Sorted I"
 class Solution {
 public:
     int maxChunksToSorted(vector<int>& arr) {
