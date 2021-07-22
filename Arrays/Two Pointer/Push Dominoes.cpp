@@ -131,14 +131,12 @@ public:
         }
         
         //Now I will find resultant direction on each domino basis of resultant force on them
-        string result(n ,' ');
+        string result(n ,'.');
         for(int i = 0; i<n; i++) {
             if(forces[i] < 0)
                 result[i] = 'L';
             else if(forces[i] > 0)
                 result[i] = 'R';
-            else
-                result[i] = '.';
         }
         return result;
         
