@@ -84,5 +84,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Valid%20Triangle%20Number.cpp">Valid Triangle Number (Leetcode-611)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Push%20Dominoes.cpp">Push Dominoes (Leetcode-838)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
