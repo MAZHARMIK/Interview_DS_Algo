@@ -74,5 +74,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Minimum%20Window%20Substring.cpp">Minimum Window Substring (Leetcode-76) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Push%20Dominoes.cpp">Push Dominoes(Leetcode-838) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
