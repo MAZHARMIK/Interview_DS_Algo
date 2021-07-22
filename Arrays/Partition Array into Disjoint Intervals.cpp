@@ -1,6 +1,8 @@
 /*
     Company Tags  : Variation of this question has been asked in "Google and some other companies"
     Leetcode Link : https://leetcode.com/problems/partition-array-into-disjoint-intervals/
+    Similar Qn (Leetcode 768 - Max Chunks To Make Sorted II)
+    Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Max%20Chunks%20To%20Make%20Sorted%20II.cpp
 */
 
 //Approach-1 (Brute Force : O(n^2) time)
