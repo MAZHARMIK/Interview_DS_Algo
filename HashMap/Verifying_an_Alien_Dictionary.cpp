@@ -3,13 +3,14 @@
     Leetcode Link : https://leetcode.com/problems/verifying-an-alien-dictionary/
 */
 
+//Approach-1 (O(n*l)
 class Solution {
 public:
     bool isAlienSorted(vector<string>& words, string order) {
         vector<int> vec(26, 0);
-        int i = 0;
+        int idx = 0;
         for(char ch:order) {
-            vec[ch-'a'] = i++;
+            vec[ch-'a'] = idx++;
         }
         
         
@@ -36,5 +37,39 @@ public:
             
         }
         return true;        
+    }
+};
+
+//Approach-2 (Using comparator)
+class Solution {
+public:
+    bool isAlienSorted(vector<string>& words, string order) {
+        vector<int> count(26, 0);
+        int idx = 0;
+        for(char &x : order)
+            count[x-'a'] = idx++;
+        
+        auto lambda = [&](string &s1, string &s2) {
+            int n = s1.length();
+            for(int i = 0; i<n; i++) {
+                if(i >= s2.length())
+                    return false;
+                
+                if(s1[i] != s2[i]) {
+                    if(count[s1[i]-'a'] > count[s2[i]-'a'])
+                        return false;
+                    else if(count[s1[i]-'a'] < count[s2[i]-'a'])
+                        return true;
+                }
+                
+            }
+
+            return true;
+        };
+
+        vector<string> clone = words;
+        sort(begin(clone), end(clone), lambda);
+
+        return clone==words;
     }
 };
