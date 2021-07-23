@@ -11,6 +11,16 @@
 		<tbody>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Topological%20Sort%20(DFS).cpp">Topological Sort (DFS)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="">Topological Sort (BFS)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Alien%20Dictionary.cpp">Alien Dictionary (Leetcode-269)</a>
 				</td>
 			</tr>
