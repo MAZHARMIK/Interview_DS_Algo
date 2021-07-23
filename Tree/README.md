@@ -282,5 +282,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Tree%20Cameras(3%20approaches)">Binary Tree Cameras (Leetcode-968)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Tree%20Pruning.cpp">Binary Tree Pruning (Leetcode-814)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
