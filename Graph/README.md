@@ -28,11 +28,6 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sort%20(Using%20BFS:%20Kahn's%20Algorithm)">Topological Sort (Using BFS: Kahn's Algorithm)</a>
-				</td>
-			</tr>
-			<tr>
-        <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/All_Paths_From_Source_to_Target.cpp">All Paths From Source to Target (Leetcode-797)</a>
 				</td>
 			</tr>
