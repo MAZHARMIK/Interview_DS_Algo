@@ -40,7 +40,26 @@ public:
     }
 };
 
-//Approach-2 (Using comparator)
+//Approach-2 (O(n*l) - smarter approach
+class Solution {
+public:
+    bool isAlienSorted(vector<string>& words, string order) {
+        int n = words.size();
+        int count[26] = {0};
+        
+        for(int i = 0; i<26; i++)
+            count[order[i]-'a'] = i;
+        
+        for(string &word : words) {
+            for(char &ch : word)
+                ch = count[ch-'a'];
+        }
+        
+        return is_sorted(begin(words), end(words));
+    }
+};
+
+//Approach-3 (Using comparator : just for the sake of practice)
 class Solution {
 public:
     bool isAlienSorted(vector<string>& words, string order) {
