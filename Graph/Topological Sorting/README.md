@@ -19,5 +19,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Course%20Schedule.cpp">Course Schedule (Leetcode-207)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Course%20Schedule%20II.cpp">Course Schedule II(Leetcode-210)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
