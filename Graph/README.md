@@ -7,7 +7,8 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 <details>
   <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics (Example : BFS, DFS)</summary>
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph/BFS_DFS">:file_folder:BFS_DFS</a><br>
-  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph/Disjoint%20Set">:file_folder:Disjoint Set</a>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph/Disjoint%20Set">:file_folder:Disjoint Set</a><br>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Graph/Topological%20Sorting">:file_folder:Topological Sorting</a>
 </details>
 
 <h1>Questions</h1>
