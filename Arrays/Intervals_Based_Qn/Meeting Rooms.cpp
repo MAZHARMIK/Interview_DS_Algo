@@ -18,7 +18,6 @@ class Solution {
 public:
      static bool myFunction(Interval& i1, Interval& i2) {
         return i1.start < i2.start;
-        
         //sorting on the basis of end time also works
      }
     bool canAttendMeetings(vector<Interval> &intervals) {
