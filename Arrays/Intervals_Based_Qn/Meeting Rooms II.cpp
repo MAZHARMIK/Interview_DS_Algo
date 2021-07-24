@@ -48,7 +48,7 @@ public:
             We want to handle meetings based on their starting time.
             It ensures that comparison done in priority_queue
             will be definitely correct.
-            We won't have to worry abou the starting time of
+            We won't have to worry about the starting time of
             meetings already running (i.e. meetings that are in priority_queue)
         */
         sort(begin(intervals), end(intervals), sortComp);
