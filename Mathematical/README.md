@@ -114,5 +114,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Shuffle%20an%20Array.cpp">Shuffle an Array (Leetcode : 348)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Beautiful%20Array.cpp">Beautiful Array (Leetcode : 932)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
