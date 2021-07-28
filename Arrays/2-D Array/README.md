@@ -69,5 +69,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.cpp">Kth Smallest Element in a Sorted Matrix (Leetcode-378)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Best%20Meeting%20Point.cpp">Best Meeting Point (Leetcode-296)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
