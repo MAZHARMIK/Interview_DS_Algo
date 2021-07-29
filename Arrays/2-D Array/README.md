@@ -74,5 +74,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Best%20Meeting%20Point.cpp">Best Meeting Point (Leetcode-296)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/01%20Matrix.cpp">01 Matrix (Leetcode-542)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
