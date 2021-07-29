@@ -232,5 +232,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Partition%20Array%20into%20Disjoint%20Intervals.cpp">Partition Array into Disjoint Intervals (Leetcode - 915)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Longest%20Harmonious%20Subsequence.cpp">Longest Harmonious Subsequence (Leetcode - 594)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
