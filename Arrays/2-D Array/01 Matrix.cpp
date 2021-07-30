@@ -68,8 +68,41 @@ public:
     }
 };
 
-
 /*
+Some more explanation on why BFS from '0's is better than BFS from '1's
+Let's take it this way,
+
+    When you do a BFS from a '1', you visit 0's around you and find the nearest 0 and update the value for '1'. Again you have to do it for the next '1' and so on for other 1's
+
+    When you do a BFS from a '0', you will find nearest '1's and update their values. So in one go, you are able to update multiple '1' nearest '0' distance
+
+The best example I see for this is :
+0, 1, 1
+1, 1, 1
+1, 1, 1
+
+You do a BFS on [0][1] and find the nearest 0
+You do a BFS on [0][2] and find the nearest 0
+.... so on
+You do a BFS on [2][2] and find the nearest 0 which is at [0][0]
+Notice that you have to travel whole matrix in worst case to find that only 0 at [0][0] for each '1'
+
+Now, Alternatively, you do a BFS on '0' which is at [0][0], initially que has only [{0, 0}]
+It will update [0][1]'s and [1][0]'s distance from [0][0] at once and add them to que for further processing. que = [{0, 1}, {1, 0}]
+And now, in the next iteration you will update the neighbors of current content of que.
+Notice, you don't have to visit the [0][0] for each '1'. You are just passing on the value of neighbors to their neighbors and so on.
+
+Hope that answers your question.
+
+Suggestion : Try both approaches (1) BFS from each '1', (2) BFS from each '0' and every time print the contents of que
+Example :
+0, 1, 1
+1, 1, 1
+1, 1, 1
+Try on this example. You'll be able to see easily what's different between two approaches.
+/*
+
+
 Approach-2 (Using DP)
 Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/01%20Matrix.cpp
 */
