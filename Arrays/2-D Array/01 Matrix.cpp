@@ -72,9 +72,10 @@ public:
 Some more explanation on why BFS from '0's is better than BFS from '1's
 Let's take it this way,
 
-    When you do a BFS from a '1', you visit 0's around you and find the nearest 0 and update the value for '1'. Again you have to do it for the next '1' and so on for other 1's
-
-    When you do a BFS from a '0', you will find nearest '1's and update their values. So in one go, you are able to update multiple '1' nearest '0' distance
+    When you do a BFS from a '1', you visit 0's around you and find the nearest 0 and update the value for '1'.
+    Again you have to do it for the next '1' and so on for other 1's
+    When you do a BFS from a '0', you will find nearest '1's and update their values.
+    So in one go, you are able to update multiple '1' nearest '0' distance
 
 The best example I see for this is :
 0, 1, 1
