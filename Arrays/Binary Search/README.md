@@ -64,5 +64,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Number%20of%20Matching%20Subsequences.cpp">Number of Matching Subsequences (Leetcode-792)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Median%20of%20Two%20Sorted%20Arrays.cpp">Median of Two Sorted Arrays (Leetcode-4)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
