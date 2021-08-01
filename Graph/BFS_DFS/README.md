@@ -19,5 +19,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Max_Area_of_Island.cpp"> Max Area of Island (Leetcode-695)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Making%20A%20Large%20Island.cpp"> Making A Large Island (Leetcode-827)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
