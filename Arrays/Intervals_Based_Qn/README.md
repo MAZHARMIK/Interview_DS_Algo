@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/The%20Number%20of%20the%20Smallest%20Unoccupied%20Chair.cpp">The Number of the Smallest Unoccupied Chair (Leetcode-1942)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Interval%20List%20Intersections.cpp">Interval List Intersections (Leetcode-986)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
