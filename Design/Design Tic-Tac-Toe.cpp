@@ -140,7 +140,7 @@ public:
 };
 
 
-//Follow-pup
+//Follow-up
 //Approach-1 [Time : O(1), Space : O(n)]
 class TicTacToe {
 public:
