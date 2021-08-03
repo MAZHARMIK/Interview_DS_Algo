@@ -27,6 +27,7 @@
  * }
  */
 
+//Approach-1 (Using heap)
 class Solution {
 public:
     static bool sortComp(Interval& i1, Interval& i2) {
@@ -75,5 +76,44 @@ public:
         }
 
         return (int) pq.size();
+    }
+};
+
+
+//Approach-2 (Using cronological Order)
+class Solution {
+public:
+    int minMeetingRooms(vector<Interval> &intervals) {
+        int n = intervals.size();
+        if(n <= 1)
+            return n;
+        
+        vector<int> startTime(n);
+        vector<int> endTime(n);
+        
+        int i = 0;
+        for(const Interval& interval : intervals) {
+        	startTime[i] = interval.start;
+        	endTime[i]   = interval.end;
+        	i++;
+        }
+        
+        sort(begin(startTime), end(startTime));
+        sort(begin(endTime),   end(endTime));
+        
+        i = 0;
+        int j = 0;
+        int count = 0;
+        
+        while(i < n) {
+        	if(startTime[i] < endTime[j]) {
+        		count++; //we need one more room
+        	} else {
+        		j++; //previous room can be used which is over
+        	}
+        	i++;
+        }
+        
+        return count;
     }
 };
