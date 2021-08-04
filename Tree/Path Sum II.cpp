@@ -1,13 +1,16 @@
+/*
+    Company Tags  : Bloomberg, LinkedIn, Amazon, Bloomberg, Quora
+    Leetcode Link : https://leetcode.com/problems/path-sum-ii/
+*/
+
 class Solution {
 public:
     void collectPaths(TreeNode* root, int curr, vector<int>& temp, vector<vector<int>>& result) {
         if(!root)
             return;
         temp.push_back(root->val);
-        if(root->left == NULL && root->right == NULL) {
-            if(root->val == curr) {
-                result.push_back(temp);
-            }
+        if(root->left == NULL && root->right == NULL && root->val == curr) {
+            result.push_back(temp);
         }
         
         collectPaths(root->left, curr-root->val, temp, result);
