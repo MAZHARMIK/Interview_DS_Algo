@@ -15,9 +15,14 @@
 				  </td>
       </tr>
 			<tr>
-          <td>
+          			  <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20VII">Stone Game VII (Leetcode-1690)</a>
 				  </td>
-      </tr>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game.cpp">Stone Game (Leetcode-877)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
