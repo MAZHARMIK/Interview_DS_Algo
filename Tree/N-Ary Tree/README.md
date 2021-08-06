@@ -24,5 +24,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/N-ary_Tree_Preorder_Traversal.cpp">N-ary Tree Preorder Traversal (Leetcode-589)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/N-ary%20Tree%20Level%20Order%20Traversal.cpp">N-ary Tree Level Order Traversal (Leetcode-429)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
