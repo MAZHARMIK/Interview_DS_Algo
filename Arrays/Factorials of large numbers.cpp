@@ -11,7 +11,7 @@ public:
         for(int i = 0; i<size; i++) {
             int result = (multiplier*nums[i])+carry;
     
-            nums[i]   = result%10;;
+            nums[i]   = result%10;
     
             carry     = result/10;
         }
