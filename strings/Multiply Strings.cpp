@@ -79,8 +79,8 @@ public:
         int sign = 1;
         
         if (num1[0] == '-') {
-        sign *= -1;
-        num1 = num1.substr(1);
+            sign *= -1;
+            num1 = num1.substr(1);
         }
     
         if (num2[0] == '-') {
@@ -103,8 +103,7 @@ public:
     
             i_n2 = 0; 
             
-            for (int j=n2-1; j>=0; j--)
-            {
+            for (int j=n2-1; j>=0; j--) {
             
                 int n2 = num2[j] - '0';
     
@@ -127,7 +126,7 @@ public:
         while (i>=0 && result[i] == 0) i--;
     
         if (i == -1)
-        return "0";
+            return "0";
     
         string s = "";
         while (i >= 0) {
