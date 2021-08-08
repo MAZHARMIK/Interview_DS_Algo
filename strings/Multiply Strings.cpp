@@ -11,11 +11,11 @@ Link (Factorial Of Large Numbers) : https://github.com/MAZHARMIK/Interview_DS_Al
 								 1  2  3
 								 1  2  1
 								 -------
-							    1   2   3
-							  2	4	6   x
-						  1   2 3    x  x  (I call this symbol as cross. Notice how cross is increasing)
-				    	-----------------
-			       Ans:	  1  4  8   8  3
+							    	1   2   3
+							     2  4   6   x
+						  	  1  2  3   x   x  (I call this symbol as cross. Notice how cross is increasing)
+				    			  -----------------
+			       			Ans:	  1  4  8   8  3
 
 */
 
