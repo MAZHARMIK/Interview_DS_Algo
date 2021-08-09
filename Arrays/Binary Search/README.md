@@ -69,5 +69,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Median%20of%20Two%20Sorted%20Arrays.cpp">Median of Two Sorted Arrays (Leetcode-4)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Capacity%20To%20Ship%20Packages%20Within%20D%20Days.cpp">Capacity To Ship Packages Within D Days (Leetcode-1011)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
