@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Multiply%20Strings.cpp">Multiply Strings (Leetcode-43)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Add%20Strings.cpp">Add Strings (Leetcode-415)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
