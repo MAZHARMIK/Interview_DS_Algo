@@ -29,12 +29,11 @@ public:
     int maxChunksToSorted(vector<int>& arr) {
         int n = arr.size();
         unordered_map<int,int> mp;
-        for(int i=0;i<n;i++)
-        {
+        for(int i=0;i<n;i++) {
             mp[arr[i]]=i;
         }
-        int count=0;
         
+        int count=0;
         int end = 0;
         while(end < n) {
             
