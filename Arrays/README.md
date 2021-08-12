@@ -39,7 +39,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Group%20Anagrams">Group Anagrams(2 Approaches-Leetcode:49)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Group%20Anagrams.cpp">Group Anagrams(2 Approaches-Leetcode:49)</a>
 				</td>
 			</tr>
 			<tr>
