@@ -79,5 +79,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/01%20Matrix.cpp">01 Matrix (Leetcode-542)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Set%20Matrix%20Zeroes.cpp">Set Matrix Zeroes (Leetcode-73)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
