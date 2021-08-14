@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Samsung, Google, Snapchat
-    Leetcode Link : https://leetcode.com/problems/burst-balloons/
+    Company Tags          : Samsung, Google, Snapchat
+    Leetcode Link         : https://leetcode.com/problems/burst-balloons/
+    Similar Tough Problem : Remove Boxes (Leetcode-546)
 */
 
 class Solution {
