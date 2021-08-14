@@ -214,7 +214,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Burst%20Balloons">Burst Balloons (Leetcode-312)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Burst%20Balloons.cpp">Burst Balloons (Leetcode-312)</a>
 				</td>
 			</tr>
 			<tr>
