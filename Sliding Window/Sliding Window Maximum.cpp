@@ -1,6 +1,9 @@
 /*
     Company Tags  : Google, Zenefits, Microsoft, Zoho, Flipkart, Amazon, Directi, SAP Labs
     Leetcode Link : https://leetcode.com/problems/sliding-window-maximum/
+    
+    NOTE : Please also see hard version of this question : Leetcode-1425
+    Explained Solution Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Constrained%20Subsequence%20Sum.cpp
 */
 
 //This is generally known as "Monotonic increasing/decreasing  Queue/Dequeue"
