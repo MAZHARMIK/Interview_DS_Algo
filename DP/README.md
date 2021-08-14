@@ -407,5 +407,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/01%20Matrix.cpp">01 Matrix (Leetcode-542)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Constrained%20Subsequence%20Sum.cpp">Constrained Subsequence Sum (Leetcode-1425)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
