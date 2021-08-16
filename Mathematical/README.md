@@ -119,5 +119,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Beautiful%20Array.cpp">Beautiful Array (Leetcode : 932)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Segmented%20Sieve.cpp">Segmented Sieve</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
