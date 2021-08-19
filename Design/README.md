@@ -104,5 +104,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Map%20Sum%20Pairs.cpp">Map Sum Pairs(Leetcode - 677)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Implement%20Stack%20using%20Queues.cpp">Implement Stack using Queues(Leetcode - 225)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
