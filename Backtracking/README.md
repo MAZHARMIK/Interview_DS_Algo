@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Matchsticks%20to%20Square.cpp">Matchsticks to Square (Leetcode-473)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Sudoku%20Solver.cpp">Sudoku Solver (Leetcode-37)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
