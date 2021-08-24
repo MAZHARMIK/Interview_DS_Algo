@@ -1,5 +1,6 @@
 /*
     Company Tags  : Amazon
+    Frequency     : 30%
     Leetcode Link : https://leetcode.com/problems/complex-number-multiplication/
 */
 
