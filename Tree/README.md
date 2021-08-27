@@ -302,5 +302,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Count%20Good%20Nodes%20in%20Binary%20Tree.cpp">Count Good Nodes in Binary Tree (Leetcode-1448)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Merge%20Two%20Binary%20Trees.cpp">Merge Two Binary Trees (Leetcode-617)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
