@@ -422,5 +422,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Target%20Sum.cpp">Target Sum (Leetcode-494)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Profit%20in%20Job%20Scheduling.cpp">Maximum Profit in Job Scheduling (Leetcode-1235)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
