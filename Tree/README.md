@@ -307,5 +307,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Merge%20Two%20Binary%20Trees.cpp">Merge Two Binary Trees (Leetcode-617)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Subtree%20of%20Another%20Tree.cpp">Subtree of Another Tree (Leetcode-572)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
