@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
           <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20Minimum%20in%20Rotated%20Sorted%20Array">Find Minimum in Rotated Sorted Array (Leetcode-153)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp">Find Minimum in Rotated Sorted Array (Leetcode-153)</a>
 				  </td>
       </tr>
       <tr>
