@@ -247,5 +247,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Fair%20Candy%20Swap.cpp">Fair Candy Swap (Leetcode - 888)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Array%20Nesting.cpp">Array Nesting (Leetcode - 565)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
