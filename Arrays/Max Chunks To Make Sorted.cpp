@@ -24,6 +24,8 @@ public:
 };
 
 //Approach-2 (Using map) (Time : O(n), Space : O(n))
+//See below DISCUSS link for my explanation using Images : 
+//https://leetcode.com/problems/max-chunks-to-make-sorted/discuss/1351097/c-2-approaches-clean-and-easy-to-follow/1068242
 class Solution {
 public:
     int maxChunksToSorted(vector<int>& arr) {
