@@ -30,7 +30,7 @@ int cutRod_top_down(vector<int>& prices) {
         length[i] = i+1;
     }
 
-    vector<vector<int>> t(n+1, vector<int>(n+1)); //length of rod = n (similar to weight of knapsack  = W
+    vector<vector<int>> t(n+1, vector<int>(n+1)); //length of rod = n (similar to weight of knapsack  = W)
     for(int i = 0; i<n+1; i++) {
         for(int j = 0; j<n+1; j++) {
             if(i == 0 || j == 0)
