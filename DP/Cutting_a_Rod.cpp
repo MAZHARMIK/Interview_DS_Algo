@@ -8,7 +8,7 @@
 using namespace std;
 
 //Memoized Approach (Top Down)
-int cutRod_memoization(vector<int>& prices, int n, vector<int>& t) {
+int cutRod_memoization_I(vector<int>& prices, int n, vector<int>& t) {
     if(n <= 0)
         return 0;
     if(t[n] != -1)
@@ -22,8 +22,22 @@ int cutRod_memoization(vector<int>& prices, int n, vector<int>& t) {
     return t[n] = maxVal;
 }
 
+//Memoized Approach (Top Down) - Just Like 0/1 Unbounded Knapsack
+int cutRod_memoization_II(vector<int>& prices, int n, int W, vector<vector<int>>& t) {
+    if(n <= 0 || W <= 0)
+            return 0;
+
+    if(t[n][W] != -1)
+        return t[n][W];
+    if(n <= W)
+        return t[n][W] = max(prices[n-1] + cutRod_memoization_II(prices, n, W-n, t),
+                                        cutRod_memoization_II(prices, n-1, W, t));
+    else
+        return t[n][W] = cutRod_memoization_II(prices, n-1, W, t);
+}
+
 //Unbounded Knapsack (Bottom Up)
-int cutRod_top_down(vector<int>& prices) {
+int cutRod_bottom_up_I(vector<int>& prices) {
     int n = prices.size();
     vector<int> length(n);
     for(int i = 0; i<n; i++) {
@@ -47,7 +61,7 @@ int cutRod_top_down(vector<int>& prices) {
 }
 
 //Bottom UP
-int cutRod_bottom_up(vector<int>& arr)
+int cutRod_bottom_up_II(vector<int>& arr)
 {
    int n = arr.size();
    vector<int> val(n+1);    //val[i] = max profit from selling a rod up until length i
@@ -78,9 +92,15 @@ int cutRod_bottom_up(vector<int>& arr)
 int main()
 {
     vector<int> arr{1, 5, 8, 9, 10, 17, 17, 20};
-    cout << "Maximum Obtainable Value is = " <<  cutRod_bottom_up(arr)   << endl;
-    cout << "Maximum Obtainable Value is = " <<  cutRod_top_down(arr)    << endl;
-    vector<int> t(arr.size()+1, -1);
-    cout << "Maximum Obtainable Value is = " <<  cutRod_memoization(arr, arr.size(), t) << endl;
+    int n = arr.size();
+    cout << "Maximum Obtainable Value is = " <<  cutRod_bottom_up_I(arr)   << endl;     //Approach-1
+    
+    cout << "Maximum Obtainable Value is = " <<  cutRod_bottom_up_II(arr)    << endl;   //Approach-2
+    
+    vector<int> t(n+1, -1);
+    cout << "Maximum Obtainable Value is = " <<  cutRod_memoization_I(arr, n, t) << endl;  //Approach-3
+    
+    vector<vector<int>> dp(n+1, vector<int>(n+1, -1));
+    cout << "Maximum Obtainable Value is = " <<  cutRod_memoization_II(arr, n, n, dp) << endl; //Approach-4
     return 0;
 }
