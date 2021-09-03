@@ -7,7 +7,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//Memoized
+//Memoized Approach (Top Down)
 int cutRod_memoization(vector<int>& prices, int n, vector<int>& t) {
     if(n <= 0)
         return 0;
@@ -22,7 +22,7 @@ int cutRod_memoization(vector<int>& prices, int n, vector<int>& t) {
     return t[n] = maxVal;
 }
 
-//Unbounded Knapsack
+//Unbounded Knapsack (Bottom Up)
 int cutRod_top_down(vector<int>& prices) {
     int n = prices.size();
     vector<int> length(n);
@@ -46,6 +46,7 @@ int cutRod_top_down(vector<int>& prices) {
     return t[n][n];
 }
 
+//Bottom UP
 int cutRod_bottom_up(vector<int>& arr)
 {
    int n = arr.size();
