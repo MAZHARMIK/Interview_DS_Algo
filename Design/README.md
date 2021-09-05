@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Implement%20Stack%20using%20Queues.cpp">Implement Stack using Queues(Leetcode - 225)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Operations%20on%20Tree.cpp">Operations on Tree(Leetcode - 1993)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
