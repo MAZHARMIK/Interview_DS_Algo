@@ -5,6 +5,8 @@
  <li>Every topic will have sub-topics as well to categorize different types/techniques.</li>
  <li>At the top of the solutions, you will find the link to the question and also list of the <strong><em>Companies</em></strong> who have asked the question in interviews.</li>
  <li>So, Look for <strong><em>COMPANY TAGS</em></strong> above every solution. :dizzy_face:</li>
+ <li>:tada:LATEST UPDATE:tada: : <strong><em>Frequency</em></strong> also added from now onwards. :tada:</li>
+ <li>:tada:LATEST UPDATE:tada: : <strong><em>Video Explanation in HINGLISH</em></strong> by me also added from now onwards. :tada:</li>
  <li> Why I am doing this ? Because knowledge should be free. You don't need to pay for courses. Learn free, share free. PEACE :heartbeat:</li>
  <li> You can join this group on LinkedIn - <a href="https://www.linkedin.com/groups/12559380/">LinkedIn Page : Interview_DS_Algo</a></li>
 </ul>
