@@ -64,8 +64,8 @@ public:
         
         for(int i = 0; i<n; i++) {
             for(int j = 0; j<n; j++) {
-                if(i > 0 && left[i][j]) left[i][j] += left[i-1][j];
-                if(j > 0 && top[i][j])  top[i][j]  += top[i][j-1];
+                if(i > 0 && top[i][j])   top[i][j] += top[i-1][j];
+                if(j > 0 && left[i][j])  left[i][j]  += left[i][j-1];
                 
                 /*
                     You can write a seperate loop for filling right and bottom
