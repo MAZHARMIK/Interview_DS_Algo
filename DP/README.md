@@ -249,6 +249,11 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Arithmetic%20Slices%20II%20-%20Subsequence.cpp">Arithmetic Slices II - Subsequence (Leetcode-446)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Russian%20Doll%20Envelopes">Russian Doll Envelopes (Leetcode-354)</a>
 				</td>
 			</tr>
