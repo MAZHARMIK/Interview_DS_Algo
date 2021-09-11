@@ -1,5 +1,6 @@
 /*
-    Company Tags  : Please let me know if you get to know about it :-)
+    Company Tags  : Baidu, Aetion
+    Frequency     : 45%
     Leetcode Link : https://leetcode.com/problems/arithmetic-slices/
 */
 
