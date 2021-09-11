@@ -244,7 +244,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Arithmetic%20Slices">Arithmetic Slices (Leetcode-413)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Arithmetic%20Slices.cpp">Arithmetic Slices (Leetcode-413)</a>
 				</td>
 			</tr>
 			<tr>
