@@ -81,7 +81,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Max%20Stack">Max Stack (Leetcode - 716)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Max%20Stack.cpp">Max Stack (Leetcode - 716)</a>
 				</td>
 			</tr>
 			<tr>
