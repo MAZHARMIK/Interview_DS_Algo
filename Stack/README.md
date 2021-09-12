@@ -76,6 +76,11 @@
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Basic%20Calculator.cpp">Basic Calculator (Leetcode-224)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Basic%20Calculator%20II">Basic Calculator II (Leetcode-227)</a>
 				</td>
 			</tr>
