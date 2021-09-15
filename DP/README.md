@@ -442,5 +442,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Largest%20Plus%20Sign.cpp">Largest Plus Sign (Leetcode-764) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest%20Turbulent%20Subarray.cpp">Longest Turbulent Subarray (Leetcode-978) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
