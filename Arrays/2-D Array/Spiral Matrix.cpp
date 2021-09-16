@@ -1,5 +1,6 @@
 /*
     Company Tags     : Paytm, Zoho, Morgan Stanley, Accolite, Amazon, Microsoft, Snapdeal, D-E-Shaw, MakeMyTrip, Oracle, MAQ Software, nearbuy, Nagarro, BrowserStack
+    Frequency        : 80%
     Leetcode Qn Link : https://leetcode.com/problems/spiral-matrix/
 */
 
