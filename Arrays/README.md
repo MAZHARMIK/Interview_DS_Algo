@@ -89,16 +89,6 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Spiral%20Matrix">Spiral Matrix (Leetcode - 54)</a>
-				</td>
-			</tr>
-			<tr>
-        <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Spiral%20Matrix%20II">Spiral Matrix II (Leetcode - 59)</a>
-				</td>
-			</tr>
-			<tr>
-        <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/K%20closest%20elements">K closest elements</a>
 				</td>
 			</tr>
