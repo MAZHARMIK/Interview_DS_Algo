@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Sudoku%20Solver.cpp">Sudoku Solver (Leetcode-37)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Expression%20Add%20Operators.cpp">Expression Add Operators (Leetcode-282)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
