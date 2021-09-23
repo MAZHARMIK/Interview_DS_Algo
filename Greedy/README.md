@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Patching%20Array.cpp">Patching Array (Leetcode-330)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Break%20a%20Palindrome.cpp">Break a Palindrome (Leetcode-1328)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
