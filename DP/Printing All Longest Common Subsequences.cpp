@@ -44,16 +44,15 @@ class Solution
 
             return st;
         }
-		vector<string> all_longest_common_subsequences(string s1, string s2)
-		{
-		    int m     = s1.length();
-            int n     = s2.length();
-            vector< vector<int> > t(m+1, vector<int>(n+1));
-            lcs(s1, s2, m, n, t);
-            
-            set<string> st = findLCS(s1, s2, m, n, t);
-            vector<string> result(begin(st), end(st));
-            
-            return result;
-		}
+	vector<string> all_longest_common_subsequences(string s1, string s2) {
+	    int m     = s1.length();
+	    int n     = s2.length();
+	    vector< vector<int> > t(m+1, vector<int>(n+1));
+	    lcs(s1, s2, m, n, t);
+
+	    set<string> st = findLCS(s1, s2, m, n, t);
+	    vector<string> result(begin(st), end(st));
+
+	    return result;
+	}
 };
