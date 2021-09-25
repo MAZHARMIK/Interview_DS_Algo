@@ -59,7 +59,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Printing%20All%20Longest%20Common%20Subsequences">Printing All Longest Common Subsequences</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Printing%20All%20Longest%20Common%20Subsequences.cpp">Printing All Longest Common Subsequences</a>
 				</td>
 			</tr>
 			<tr>
