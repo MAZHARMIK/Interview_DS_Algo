@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Reverse%20Nodes%20in%20k-Group.cpp">Reverse Nodes in k-Group (3 approaches) (Leetcode-25)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Split%20Linked%20List%20in%20Parts.cpp">Split Linked List in Parts (Leetcode-725)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
