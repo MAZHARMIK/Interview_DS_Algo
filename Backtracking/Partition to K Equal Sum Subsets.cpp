@@ -29,7 +29,7 @@ public:
             visited[i] = 1;
             buckets[bucketsIndex] += nums[i];
             
-            if(possible(nums, i+1, buckets, bucketsIndex, subsetSum))
+            if(possible(nums, i-1, buckets, bucketsIndex, subsetSum))
                 return true;
             
             visited[i] = 0;
