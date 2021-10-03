@@ -1,5 +1,6 @@
-//problem Link
-//https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
+
+//Company Tags    : Amazon, Facebook, Google,Netflix
+//problem Link: https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
 
 #include<iostream>
 #include<stdlib.h>
