@@ -1,8 +1,11 @@
 /*advance binary search */
+
+
+//Company Tags    : Amazon, Facebook, Google
 //problem link
 //https://www.spoj.com/problems/AGGRCOW/
 
-
+ 
 #include<iostream>
 #include<conio.h>
 #include<stdlib.h>
