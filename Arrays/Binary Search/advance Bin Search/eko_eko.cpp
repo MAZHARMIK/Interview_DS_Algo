@@ -1,4 +1,6 @@
-//https://www.spoj.com/problems/EKO/
+
+//Company Tags    : Amazon, Facebook, Google,Adobe
+//Problem Link: https://www.spoj.com/problems/EKO/
 
 
 #include<iostream>
