@@ -121,9 +121,9 @@ public:
 
 //Approach-4 (Using monotonic decreasing deque) Accepted
 /*
-		This is similar to approach-3 it's just we maintain decreasing order.
-		NOTE : Approach-3 and Approach-4 are used to solve "Sliding Window Maximum" also with similar approach (Leetcode-239)
-		Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Sliding%20Window%20Maximum.cpp
+    This is similar to approach-3 it's just we maintain decreasing order.
+    NOTE : Approach-3 and Approach-4 are used to solve "Sliding Window Maximum" also with similar approach (Leetcode-239)
+    Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Sliding%20Window%20Maximum.cpp
 */
 
 class Solution {
