@@ -7,7 +7,8 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 <details>
   <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics (Example : N-Ary Tree etc.)</summary>
   
-  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Tree/N-Ary%20Tree">:file_folder:N-Ary Tree</a>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Tree/N-Ary%20Tree">:file_folder:N-Ary Tree</a> <br> 
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Tree/BST">:file_folder:Binary Search Tree</a>
 </details>
 
 
