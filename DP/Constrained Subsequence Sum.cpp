@@ -11,40 +11,55 @@
 	any DP problem.
 */
 class Solution {
-public:
-    int k, n;
+private:
+    int n, k;
     unordered_map<string, int> mp;
-    int solve(vector<int>& nums, int idx, int lastIdx) {
-        if(idx >= n) return 0;
-        string key = to_string(idx) + "_" + to_string(lastIdx);
-        if(mp.count(key))
-            return mp[key];
+public:
+    int solve(vector<int>& nums, int last_chosen_index, int curr_index) {
+        if(curr_index >= n)
+            return 0;
+        string key = to_string(last_chosen_index) + "_" + to_string(curr_index);
         
-        if(lastIdx == -1) {
-            int taken    = nums[idx] + solve(nums, idx+1, idx);
-            int notTaken = solve(nums, idx+1, lastIdx);
-            return mp[key] = max(taken, notTaken);
-        } else if(idx-lastIdx <= k) {
-            int taken    = nums[idx] + solve(nums, idx+1, idx);
-            int notTaken = solve(nums, idx+1, lastIdx);
-            return mp[key] = max(taken, notTaken);
+        if(mp.find(key) != end(mp))
+            return mp[key];
+        int result = 0;
+        if(last_chosen_index == -1) {
+            //take curr_index element
+            int taken = nums[curr_index] + solve(nums, curr_index, curr_index+1);
+            
+            //don't take curr_index element
+            int not_taken = solve(nums, -1, curr_index+1);
+            
+            result = max(taken, not_taken);
+            
+        } else if(curr_index-last_chosen_index <= k) {
+            //take curr_index element
+            int taken     = nums[curr_index] + solve(nums, curr_index, curr_index+1);
+            
+            //don't take curr_index element
+            int not_taken = solve(nums, last_chosen_index, curr_index+1);
+            result = max(taken, not_taken);
         }
         
-        return mp[key] = 0;
+        
+        return mp[key] = result;
     }
     int constrainedSubsetSum(vector<int>& nums, int k) {
         this->n = nums.size();
         this->k = k;
-        int val = solve(nums, 0, -1);
-        mp.clear();
         
+        int val = solve(nums, -1, 0);
         if(val == 0)
-            return *max_element(begin(nums), end(nums));
+            return -1;
         return val;
     }
 };
 
 //Approach-2 (Bottom Up DP) - TLE (20 / 25 test cases passed)
+/*
+	NOTE : This is basically using the concept of Longest Increasing Subsequence (LIS)
+	This can be further improved (from TLE) by using extra data structure. Loog for next approaches.
+*/
 class Solution {
 public:
     int constrainedSubsetSum(vector<int>& nums, int k) {
