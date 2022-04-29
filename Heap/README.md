@@ -99,5 +99,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Find%20Median%20from%20Data%20Stream.cpp">Find Median from Data Stream (Leetcode-295)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Constrained%20Subsequence%20Sum.cpp">Constrained Subsequence Sum (Leetcode-1425)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
