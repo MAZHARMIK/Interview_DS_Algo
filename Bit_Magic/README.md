@@ -2,6 +2,11 @@
 <img src="https://1.bp.blogspot.com/-71RCmZ89ljY/Vi_VOMruhGI/AAAAAAAAAnI/nVf2cJj8tac/s1600/BitManipulation.png" width="600" height="250">
 
 # Bit_Magic : :triangular_flag_on_post:
+Remember Few Things : 
+- (1 << n) = 2^n
+- if ( (x & (1 << i)) == 0 ) , then ith bit of x is set (i.e. 1)
+- This will help you find subset using bit manipulation. See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Subsets.cpp">Subsets</a>
+
 
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
@@ -57,6 +62,11 @@
 			<tr>
        				 <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20the%20Longest%20Substring%20Containing%20Vowels%20in%20Even%20Counts.cpp">Find the Longest Substring Containing Vowels in Even Counts (Leetcode-1371)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Subsets.cpp">Subsets (Leetcode-78)</a>
 				</td>
 			</tr>
 		</tbody>
