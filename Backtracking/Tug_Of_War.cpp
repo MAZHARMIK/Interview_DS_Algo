@@ -4,7 +4,9 @@
 */
 
 /*
-Qn : You are given an array of n integers. You have to divide these n integers into 2 subsets such that difference of sum of two subsets is as minimum as possible.
+Qn : You are given an array of n integers. You have to divide these n integers into 2 subsets such that difference of sum of two subsets is
+as minimum as possible. 
+Constraints - 
 a) If n is even, both subsets will contain exactly n/2 elements.
 b) If n is odd, one of the subsets will contain (n-1)/2 elements and other will contain (n+1)/2 elements.
 
