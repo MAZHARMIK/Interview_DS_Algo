@@ -69,7 +69,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="[https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Last%20Stone%20Weight%20II](https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Last%20Stone%20Weight%20II.cpp)">Last Stone Weight II (Leetcode-1049)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Last%20Stone%20Weight%20II.cpp">Last Stone Weight II (Leetcode-1049)</a>
 				</td>
 			</tr>
 			<tr>
