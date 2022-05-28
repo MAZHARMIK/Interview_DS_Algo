@@ -69,5 +69,10 @@ Remember Few Things :
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Subsets.cpp">Subsets (Leetcode-78)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.cpp">Partition Array Into Two Arrays to Minimize Sum Difference (Leetcode-2035)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
