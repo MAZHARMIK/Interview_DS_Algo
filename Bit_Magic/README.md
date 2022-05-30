@@ -3,7 +3,7 @@
 
 # Bit_Magic : :triangular_flag_on_post:
 Remember Few Things : 
-- (1 << n) = 2^n
+- (1 << n) = 2^n . Generalised : n << x = n * 2^x
 - if ( (x & (1 << i)) == 0 ) , then ith bit of x is set (i.e. 1)
 - This will help you find subset using bit manipulation. See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Subsets.cpp">Subsets</a>
 
