@@ -22,6 +22,7 @@ Output:
     Note :
     (1) If in the question above, the constraints (a) and (b) were not given then this question is nothing but "Minimum Sum Partition" problem.
         Link to it is : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20sum%20partition%20(Memoization%20and%20TopDown)
+    (3) If we only had even number of elements always, this qn would be similar to Leetcode-2035 (Check it out in my Bit_Magic section)
     (2) You can also store the results (set1 and set2) which results in minimum difference and print them if asked by interviewer
 */
 
