@@ -9,7 +9,7 @@ Remember Few Things :
 - if ( (x & (1 << i)) == 0 ) , then ith bit of x is set (i.e. 1)
 - This will help you find subset using bit manipulation. 
 ```
-See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Subsets.cpp">Subsets</a>
+See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Subsets.cpp">Subsets</a> And <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Calculate%207n%5C8%20without%20using%20division%20and%20multiplication.cpp">This</a> for Questions based on above.
 
 
 <h1>Questions</h1>
