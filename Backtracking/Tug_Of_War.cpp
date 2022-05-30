@@ -1,6 +1,5 @@
 /*
     Company Tags : Amazon, Samsung (variation of this question)
-    Link to Qn   : https://www.youtube.com/watch?v=Q1fLW_zQr3M
 */
 
 /*
