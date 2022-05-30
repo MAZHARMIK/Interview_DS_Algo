@@ -78,5 +78,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.cpp">Partition Array Into Two Arrays to Minimize Sum Difference (Leetcode-2035)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Calculate%207n%5C8%20without%20using%20division%20and%20multiplication.cpp">Calculate 7n\8 without using division and multiplication</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
