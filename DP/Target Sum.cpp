@@ -78,6 +78,16 @@ public:
             return 0;
         
         int s1 = (sum-target)/2;
+        /*
+            You could also do like this :
+            if((sum + target)%2 != 0)
+                return 0;
+        
+            int s1 = (sum + target)/2;
+            But since, target can be negative also as per Leetcode (they have recently changed the constraints), 
+            you need to do :
+            target = abs(target); before finding s1 and the if condition above
+        */
         return pow(2, zeros)*subsetSum(nums, s1);
     }
 };
