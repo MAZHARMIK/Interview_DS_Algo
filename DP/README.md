@@ -264,7 +264,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Cutting_a_Rod.cpp">Cutting a Rod (3 Approaches)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Cutting_a_Rod.cpp">Cutting a Rod (4 Approaches)</a>
 				</td>
 			</tr>
 			<tr>
