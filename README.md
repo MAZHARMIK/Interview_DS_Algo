@@ -1,7 +1,7 @@
 # Interview_DS_Algo <img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icon.png" align="right" />
 🦸🏻‍♂️On a mission to make a Super Repository for Interview Prep for everyone. :checkered_flag: One stop Solution.  
 <ul>
- <li> Help me by joining my Youtube Channel for this Repository as well + System Design - <a href="https://www.youtube.com/channel/UCaw58edcO3ZqMw76Bvs0kGQ">Youtube Channel : INTERVIEW_DS_ALGO</a></li>
+ <li> Help me by joining my Youtube Channel for this Repository as well + System Design - <a href="https://www.youtube.com/channel/UCaw58edcO3ZqMw76Bvs0kGQ">Youtube Channel : INTERVIEW_DS_ALGO</a> <img src="https://camo.githubusercontent.com/d54e97f5edde790381f7e62b217410df33e066a0dc8f692f2fc6b25fc1768b0c/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f796f75747562652e737667" style="width:40px;height:40px;"></li>
  <li>It contains solutions to questions asked in various coding interviews topic wise.</li>
  <li>Every topic will have sub-topics as well to categorize different types/techniques.</li>
  <li>At the top of the solutions, you will find the link to the question and also list of the <strong><em>Companies</em></strong> who have asked the question in interviews.</li>
