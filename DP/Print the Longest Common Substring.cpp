@@ -1,3 +1,8 @@
+/*
+    Qn Link      : https://www.geeksforgeeks.org/print-longest-common-substring/
+    Company Tags : Amazon, Microsoft, Morgan Stanley : Generally Combined with "Longest Common Substring" Question
+*/
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -33,6 +38,10 @@ int LCSubstring(string s1, string s2, int m, int n) {
         row--;
         col--;
     }
+    
+    //Alternatively, you can do like this
+    //cout << s1.substr(row-maxC, maxC) << endl;
+    
     cout << res << endl;
     return maxC;
 }
