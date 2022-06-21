@@ -54,7 +54,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Print%20the%20longest%20common%20substring">Print the longest common substring</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Print%20the%20Longest%20Common%20Substring.cpp">Print the longest common substring</a>
 				</td>
 			</tr>
 			<tr>
