@@ -79,7 +79,7 @@ class Solution{
         
         
         for(int i = 1; i<n; i++) {
-            int right_sum = totalSum-left_sum-a[i];
+            int right_sum = totalSum-left_sum-a[i]; //This logic is same as explained in Approach-1
             
             if(left_sum == right_sum)
                 return i+1;
