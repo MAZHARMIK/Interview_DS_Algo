@@ -82,7 +82,7 @@ public:
     }
 };
 
-//Approach-3
+//Approach-3 (Greedy)
 class Solution {
 public:
     bool checkPossibility(vector<int>& nums) {
@@ -110,7 +110,8 @@ public:
               Level(0)  (i-2)
               
               //I have two choices
-                choice-1 : I can move (i-1)   -> (i)  (Safe : Because by decreasing (i-1), we are increasing our chances to get non-decreasing numbers in future)
+                choice-1 : I can move (i-1)   -> (i)  (Safe : Because by decreasing (i-1), we are Greedily 
+                                                       increasing our chances to get non-decreasing (>=) numbers in future)
                 
                 choice-2 : I can move (i) -> (i-1)    (Not Safe)
             
