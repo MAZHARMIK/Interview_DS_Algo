@@ -64,7 +64,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximize%20The%20Cut%20Segments%20(5%20approaches)">Maximize The Cut Segments (5 approaches)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximize%20The%20Cut%20Segments%20(5%20approaches).cpp">Maximize The Cut Segments (5 approaches) (AKA : Ribbon Cutting)</a>
 				</td>
 			</tr>
 			<tr>
