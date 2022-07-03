@@ -1,5 +1,5 @@
 /*
-    Company Tags : Amazon
+    Company Tags : Amazon, Google
     Link to Qn   : https://www.geeksforgeeks.org/cutting-a-rod-dp-13/
 */
 
