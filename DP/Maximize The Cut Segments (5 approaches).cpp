@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Amazon, OYO Rooms, Microsoft
+    Company Tags  : Amazon, OYO Rooms, Microsoft, Google
     Question Link : https://practice.geeksforgeeks.org/problems/cutted-segments/0
 */
 
