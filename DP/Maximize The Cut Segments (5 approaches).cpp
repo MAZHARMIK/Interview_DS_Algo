@@ -1,7 +1,8 @@
 /*
-    Company Tags  : Amazon, OYO Rooms
+    Company Tags  : Amazon, OYO Rooms, Microsoft
     Question Link : https://practice.geeksforgeeks.org/problems/cutted-segments/0
 */
+
 #include <iostream>
 #include <vector>
 #include <climits>
@@ -55,7 +56,7 @@ int maxSeg2(vector<int> pieces, int n, int Sum) {
     return t[n][sum] < 0 ? 0 : t[n][sum];
 }
 
-//APPROACH-3
+//APPROACH-3 (Bottom Up DP)
 int maxSeg3(int a, int b, int c, int N) {
     vector<int> t(N+1, -1);
     //t[i] = max # of segments from ribbon of length i
@@ -85,7 +86,7 @@ int maxSeg4(int N, int x, int y, int z, vector<int>& t) {
     int b = 1 + maxSeg(N-y, x, y, z, t);
     int c = 1 + maxSeg(N-z, x, y, z, t);
     
-    return t[N] = max(a, max(b, c));
+    return t[N] = max({a, b, c});
 }
 
 //APPROACH-5 (Using concept of Rod Cutting)
