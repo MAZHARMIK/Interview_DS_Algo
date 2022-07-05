@@ -14,5 +14,10 @@
 				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Contains%20Duplicate%20III.cpp">Contains Duplicate III (Leetcode-220)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Longest%20Consecutive%20Sequence.cpp">Longest Consecutive Sequence (Leetcode-128)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
