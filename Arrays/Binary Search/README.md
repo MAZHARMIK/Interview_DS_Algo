@@ -79,5 +79,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20the%20Rotation%20Count%20in%20Rotated%20Sorted%20array.cpp">Find the Rotation Count in Rotated Sorted array</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Single%20Element%20in%20a%20Sorted%20Array.cpp">Single Element in a Sorted Array (Leetcode-540)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
