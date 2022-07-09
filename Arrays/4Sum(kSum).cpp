@@ -129,7 +129,7 @@ public:
 //Approach-4 (Generalised to solve kSum problem)
 /*
 Why (nums[idx]*k > target)  ????
-//nums[idx] is the smallest number and if sum of k smallest numbers > target, there is not point in checking further because our array is sorted in increasing order.
+//nums[idx] is the smallest number and if sum of k smallest numbers > target, there is no point in checking further because our array is sorted in increasing order.
 
 Why (nums.back()*k < target) ???
 Same goes with this also. If the sum of k largest number (nums.back() is largest) < target,
