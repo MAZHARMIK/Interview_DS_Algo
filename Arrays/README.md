@@ -104,7 +104,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Trapping%20Rain%20Water%20(without%20stack)">Trapping Rain Water (without stack) (Leetcode - 42)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Trapping%20Rain%20Water%20(without%20stack).cpp">Trapping Rain Water (without stack) (Leetcode - 42)</a>
 				</td>
 			</tr>
 			<tr>
