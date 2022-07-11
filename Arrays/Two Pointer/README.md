@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
           			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/3Sum%20Closest">3Sum Closest (Leetcode-16)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/3Sum%20Closest.cpp (Leetcode-16)</a>
 				  </td>
       			</tr>
 			<tr>
