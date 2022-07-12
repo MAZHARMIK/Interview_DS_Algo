@@ -120,7 +120,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Tree%20Right%20Side%20View%20(DFS)">Binary Tree Right Side View (DFS) (Leetcode-199)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Tree%20Right%20Side%20View.cpp">Binary Tree Right Side View (Leetcode-199)</a>
 				</td>
 			</tr>
 			<tr>
