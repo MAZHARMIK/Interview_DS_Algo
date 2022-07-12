@@ -1,6 +1,9 @@
 /*
-    Company Tags  : Microsoft, Amazon
-    Leetcode Link : https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+    Company Tags     : Microsoft, Amazon
+    Leetcode Link    : https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+    
+    Exact Same Qn    : Matchsticks to Square (Leetcode - 473)
+    
 */
 
 //Approach-1 (Using extra O(k) space)
