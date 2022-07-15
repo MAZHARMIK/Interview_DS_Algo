@@ -41,29 +41,29 @@ public:
 //Optimized approach by using map to find index of root in inorder array
 class Solution {
 public:
-    int index;
     unordered_map<int, int> mp;
-    TreeNode* construct(vector<int>& preorder, vector<int>& inorder, int l, int r, int& n) {
+    TreeNode* construct(vector<int>& preorder, vector<int>& inorder, int l, int r, int& idx) {
         if(l > r)
             return NULL;
         
-        int rootVal = preorder[index];
-        index++;
+        int rootVal = preorder[idx];
+        idx++;
         int i = mp[rootVal];
         
         TreeNode* root = new TreeNode(rootVal);
-        root->left     = construct(preorder, inorder, l, i-1, n);
-        root->right    = construct(preorder, inorder, i+1, r, n);
+        root->left     = construct(preorder, inorder, l, i-1, idx);
+        root->right    = construct(preorder, inorder, i+1, r, idx);
         
         return root;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        index = 0;
         mp.clear();
         int n = preorder.size();
         for(int i = 0; i<n; i++) {
             mp[inorder[i]] = i;
         }
-        return construct(preorder, inorder, 0, n-1, n);
+        
+        int idx = 0;
+        return construct(preorder, inorder, 0, n-1, idx);
     }
 };
