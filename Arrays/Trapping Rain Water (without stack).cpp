@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Accolite, Adobe, Amazon, D-E-Shaw, MakeMyTrip, Microsoft, Payu
-    Leetcode Link : https://leetcode.com/problems/trapping-rain-water/
+    MY YOUTUBE VIDEO LINK FOR THIS Qn : https://www.youtube.com/watch?v=f2QgmVxPiS4&list=PLpIkg8OmuX-K6A0sEPFxOSJh4_AjCGAFf&index=5
+    Company Tags                      : Accolite, Adobe, Amazon, D-E-Shaw, MakeMyTrip, Microsoft, Payu
+    Leetcode Link                     : https://leetcode.com/problems/trapping-rain-water/
 */
 
 class Solution {
