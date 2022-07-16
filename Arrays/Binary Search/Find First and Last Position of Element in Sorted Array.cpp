@@ -1,7 +1,8 @@
 /*
-    Company Tags  : LinkedIn, Amazon, Microsoft
-    Leetcode Link : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-    GfG Practice  : https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x2041/1
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=jpuDyt-ruFc&list=PLpIkg8OmuX-LkgtrEF7eyyYWJM3m5tVQY&index=1
+    Company Tags                : LinkedIn, Amazon, Microsoft
+    Leetcode Link               : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+    GfG Practice                : https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x2041/1
 */
 
 class Solution {
