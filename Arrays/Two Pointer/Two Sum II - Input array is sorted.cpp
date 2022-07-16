@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Amazon
-    Leetcode Link : https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+    MY YOUTUBE VIDEO FOR THIS Qn : https://www.youtube.com/watch?v=gsSLay-wcaw
+    Company Tags                 : Amazon
+    Leetcode Link                : https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 */
 
 class Solution {
