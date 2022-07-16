@@ -1,6 +1,7 @@
 /*
-    Company Tags : ADOBE, BROWSERSTACK, MAKEMYTRIP, MAQ SOFTWARE, MICROSOFT, MORGAN STANLEY, PHILIPS, SAMSUNG
-    Qn Link      : https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1#
+    MY YOUTUBE VIDEO FOR THIS Qn : https://www.youtube.com/watch?v=O3fwYjcMV_M&list=PLpIkg8OmuX-K6A0sEPFxOSJh4_AjCGAFf&index=7
+    Company Tags                 : ADOBE, BROWSERSTACK, MAKEMYTRIP, MAQ SOFTWARE, MICROSOFT, MORGAN STANLEY, PHILIPS, SAMSUNG
+    Qn Link                      : https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1#
 */
 
 class Solution {
