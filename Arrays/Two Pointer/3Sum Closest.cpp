@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Facebook, Amazon, Microsoft, Oracle
-    Leetcode Link : https://leetcode.com/problems/3sum-closest/
+    MY YOUTUBE VIDEO FOR THIS Qn : https://www.youtube.com/watch?v=hGLjwiPRh0U&list=PLpIkg8OmuX-K6A0sEPFxOSJh4_AjCGAFf&index=6
+    Company Tags                 : Facebook, Amazon, Microsoft, Oracle
+    Leetcode Link                : https://leetcode.com/problems/3sum-closest/
 */
 
 class Solution {
