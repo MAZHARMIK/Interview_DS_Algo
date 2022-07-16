@@ -1,5 +1,5 @@
 /*
-    Company Tags  : LinkedIn, Amazon
+    Company Tags  : LinkedIn, Amazon, Microsoft
     Leetcode Link : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 */
 
@@ -65,6 +65,7 @@ public:
         
         return {l, r-1};
     }
+    
     vector<int> searchRange(vector<int>& nums, int target) {
         
         return search(nums, target);     //Approach - 1
