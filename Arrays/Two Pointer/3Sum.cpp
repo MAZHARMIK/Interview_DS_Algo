@@ -1,7 +1,8 @@
 /*
-    Company Tags    : Amazon, Facebook, Google
-    Question on GfG : Find triplets with zero sum (https://practice.geeksforgeeks.org/problems/find-triplets-with-zero-sum/1)
-    Leetcode Qn Link: https://leetcode.com/problems/3sum/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=_cBWWebTVpI&list=PLpIkg8OmuX-K6A0sEPFxOSJh4_AjCGAFf&index=4
+    Company Tags                : Amazon, Facebook, Google
+    Question on GfG             : Find triplets with zero sum (https://practice.geeksforgeeks.org/problems/find-triplets-with-zero-sum/1)
+    Leetcode Qn Link            : https://leetcode.com/problems/3sum/
 */
 
 class Solution {
