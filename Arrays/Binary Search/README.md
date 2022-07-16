@@ -46,7 +46,7 @@
       			</tr>
 			<tr>
           			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array">Find First and Last Position of Element in Sorted Array (Leetcode-34)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.cpp">Find First and Last Position of Element in Sorted Array (Leetcode-34)</a>
 				  </td>
       			</tr>
 			<tr>
