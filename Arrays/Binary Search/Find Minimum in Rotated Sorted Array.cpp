@@ -1,6 +1,7 @@
 /*
-  Company Tags     : Amazon
-  Leetcode Qn Link : https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+  MY YOUTUBE VIDEO FOR THIS Qn : https://www.youtube.com/watch?v=Jin6vO0MdzY&list=PLpIkg8OmuX-LkgtrEF7eyyYWJM3m5tVQY&index=2
+  Company Tags                 : Amazon, Adobe, Microsoft, Morgan Stanley, Samsung, Snapdeal, Times Internet
+  Leetcode Qn Link             : https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 */
 
 class Solution {
