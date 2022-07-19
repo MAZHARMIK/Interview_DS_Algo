@@ -79,7 +79,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Next%20Permutation%20(O(N))">Next Permutation (Leetcode - 31)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Next%20Permutation.cpp">Next Permutation (Leetcode - 31)</a>
 				</td>
 			</tr>
 			<tr>
