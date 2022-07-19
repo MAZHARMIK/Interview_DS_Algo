@@ -1,6 +1,8 @@
 /*
-    Company Tags     : Amazon
-    Leetcode Qn Link : https://leetcode.com/problems/next-permutation/
+    MY YOUTUBE VIDEO FOR THIS Qn : 
+    Company Tags                 : Amazon, FactSet, Hike, Amazon, MakeMyTrip, Qualcomm, Infosys, Microsoft, Google, Salesforce, Flipkart
+    GfG Link                     : https://practice.geeksforgeeks.org/problems/next-permutation5226/1
+    Leetcode Qn Link             : https://leetcode.com/problems/next-permutation/
 */
 
 class Solution {
