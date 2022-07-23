@@ -64,7 +64,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Rotate%20Image%20(In%20Place)">Rotate Image(In place)(Leetcode-48)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Rotate%20Image.cpp">Rotate Image (Leetcode-48)</a>
 				</td>
 			</tr>
 			<tr>
