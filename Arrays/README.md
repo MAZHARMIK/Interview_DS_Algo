@@ -249,7 +249,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Array%20Pair%20Sum%20Divisibility%20Problem.cpp">/Array Pair Sum Divisibility Problem</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Array%20Pair%20Sum%20Divisibility%20Problem.cpp">Array Pair Sum Divisibility Problem</a>
 				</td>
 			</tr>
 		</tbody>
