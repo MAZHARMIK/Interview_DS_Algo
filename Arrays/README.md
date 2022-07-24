@@ -242,5 +242,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Array%20Nesting.cpp">Array Nesting (Leetcode - 565)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Swapping%20pairs%20make%20sum%20equal.cpp">Swapping pairs make sum equal</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
