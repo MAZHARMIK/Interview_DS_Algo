@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Microsoft, Paytm, Samsung
-    Leetcode Link : https://leetcode.com/problems/rotate-image/
+    My YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=I48Z8QlQH8c&list=PLpIkg8OmuX-K6A0sEPFxOSJh4_AjCGAFf&index=8
+    Company Tags                : Amazon, DE-Shaw, Microsoft, Morgan Stanley, Paytm, Samsung, Snapdeal, Zoho
+    Leetcode Link               : https://leetcode.com/problems/rotate-image/
 */
 
 class Solution {
@@ -11,9 +12,7 @@ public:
         //find transpose
         for(int i = 0; i<N; i++) {
             for(int j = i; j<N; j++) {
-                int temp = matrix[i][j];
-                matrix[i][j] = matrix[j][i];
-                matrix[j][i] = temp;
+                swap(matrix[i][j], matrix[j][i]);
             }
         }
         
