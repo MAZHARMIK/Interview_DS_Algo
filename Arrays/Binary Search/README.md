@@ -84,5 +84,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Single%20Element%20in%20a%20Sorted%20Array.cpp">Single Element in a Sorted Array (Leetcode-540)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Search%20a%202D%20Matrix.cpp">Search a 2D Matrix (Leetcode-74)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
