@@ -313,5 +313,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Subtree%20of%20Another%20Tree.cpp">Subtree of Another Tree (Leetcode-572)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20in%20a%20Binary%20Tree.cpp">Lowest Common Ancestor in a Binary Tree (Leetcode-236)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
