@@ -47,7 +47,7 @@ public:
             }
         }
         
-        return nums[l];
+        return nums[l]; //or, nums[r]
     }
 };
 
