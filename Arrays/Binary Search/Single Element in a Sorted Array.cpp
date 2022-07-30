@@ -1,6 +1,7 @@
 /*
-    Company Tags  :  Amazon, D-E-Shaw, Ola Cabs, Codenation, Qualcomm, Microsoft
-    Leetcode Link : https://leetcode.com/problems/single-element-in-a-sorted-array/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=cw5XhYeAU5o&list=PLpIkg8OmuX-LkgtrEF7eyyYWJM3m5tVQY&index=4
+    Company Tags                : Amazon, D-E-Shaw, Ola Cabs, Codenation, Qualcomm, Microsoft
+    Leetcode Link               : https://leetcode.com/problems/single-element-in-a-sorted-array/
 */
 
 //Approach : 1 (Using XOR operator) : O(n)
