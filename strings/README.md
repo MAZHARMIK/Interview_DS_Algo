@@ -41,7 +41,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Word%20Subsets">Word Subsets (Leetcode-916)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Word%20Subsets.cpp">Word Subsets (Leetcode-916)</a>
 				</td>
 			</tr>
 			<tr>
