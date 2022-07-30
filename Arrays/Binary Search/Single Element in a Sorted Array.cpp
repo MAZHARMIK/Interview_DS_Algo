@@ -1,5 +1,5 @@
 /*
-    Company Tags  :  Amazon, D-E-Shaw, Ola Cabs
+    Company Tags  :  Amazon, D-E-Shaw, Ola Cabs, Codenation, Qualcomm, Microsoft
     Leetcode Link : https://leetcode.com/problems/single-element-in-a-sorted-array/
 */
 
