@@ -1,6 +1,7 @@
 /*
-    Company Tags : Facebook, Baidu
-    Leecode Link : https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+    Company Tags : Facebook, Baidu, Google, Flipkart
+    Leecode Link : https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/   
+    Similar Qn   : Allocate Minimum Number Of Pages (https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)
 */
 
 class Solution {
