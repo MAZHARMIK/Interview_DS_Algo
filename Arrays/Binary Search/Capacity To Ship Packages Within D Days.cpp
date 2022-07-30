@@ -37,8 +37,8 @@ public:
             n     = weights.size();
         int maxWt = *max_element(begin(weights), end(weights));
         
-        if(n <= days)
-            return maxWt;
+        if(n < days)
+            return -1; //not possible case
         
         int minWeight = accumulate(begin(weights), end(weights), 0);
         
