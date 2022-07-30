@@ -8,7 +8,7 @@
 
 class Solution {
 private:
-    int n;
+
 public:    
     bool possible(int weight, vector<int>& weights, int days) {
         int currDayCount  = 1;
@@ -34,13 +34,18 @@ public:
     }
     
     int shipWithinDays(vector<int>& weights, int days) {
-            n     = weights.size();
+        int n     = weights.size();
+      
+        int minWeight = accumulate(begin(weights), end(weights), 0);
         int maxWt = *max_element(begin(weights), end(weights));
         
+          
         if(n < days)
             return -1; //not possible case
         
-        int minWeight = accumulate(begin(weights), end(weights), 0);
+        if(days == 1)
+            return minWeight;
+        
         
         int high = minWeight;
         int low  = maxWt;      //weight cannot be less than maximum weight
