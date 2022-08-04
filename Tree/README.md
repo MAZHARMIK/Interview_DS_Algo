@@ -318,5 +318,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20in%20a%20Binary%20Tree.cpp">Lowest Common Ancestor in a Binary Tree (Leetcode-236)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Check%20Completeness%20of%20a%20Binary%20Tree.cpp">Check Completeness of a Binary Tree (Leetcode-958)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
