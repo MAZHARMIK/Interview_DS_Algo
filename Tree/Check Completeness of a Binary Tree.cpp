@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Amazon
-    Leetcode Link : https://leetcode.com/problems/check-completeness-of-a-binary-tree/
+    MY YOUTUBE VIDEO FOR THIS Qn : https://www.youtube.com/watch?v=08e5EBHoXxE&t=101s
+    Company Tags                 : Amazon
+    Leetcode Link                : https://leetcode.com/problems/check-completeness-of-a-binary-tree/
 */
 
 //Approach-1 : BFS
