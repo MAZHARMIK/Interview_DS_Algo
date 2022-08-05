@@ -5,9 +5,6 @@
 */
 
 //Approach-1 : BFS
-
-//Asked in Amazon
-
 class Solution {
 public:
     bool isCompleteTree(TreeNode* root) {
@@ -36,5 +33,36 @@ public:
         }
         
         return true;
+    }
+};
+
+
+//Approach-2 : DFS
+class Solution {
+public:
+    int countNodes(TreeNode* root) {
+        if(root == NULL)
+            return 0;
+        
+        return 1 + countNodes(root->left) + countNodes(root->right);
+    }
+    
+    bool dfs(TreeNode* root, int i, int totalNodes) {
+        if(root == NULL)
+            return true;
+        
+        if(i > totalNodes)
+            return false;
+        
+        return dfs(root->left, 2*i, totalNodes) && 
+               dfs(root->right, 2*i + 1, totalNodes);
+    }
+    
+    //Using DFS
+    bool isCompleteTree(TreeNode* root) {
+        int totalNodes = countNodes(root);
+        
+        int i = 1;
+        return dfs(root, i, totalNodes);
     }
 };
