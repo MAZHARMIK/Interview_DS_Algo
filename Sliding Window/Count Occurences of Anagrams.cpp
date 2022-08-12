@@ -1,6 +1,7 @@
 /*
-    Company Tags : Amazon, Intuit, Microsoft, Flipkart
-    Qn Link      : https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1#
+    MY YOUTUBE VIDEO ON THIS QN : https://www.youtube.com/watch?v=mrUBUWb23hk
+    Company Tags    		: Amazon, Intuit, Microsoft, Flipkart
+    Qn Link      		: https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1#
 */
 
 
@@ -23,7 +24,7 @@ public:
 	        int idx = txt[j]-'a';
 	        count[idx]--;
 	        
-	        if(j - i + 1 >= k) {
+	        if(j - i + 1 == k) {
 	            if(allZero(count)) {
 	                result++;
 	            }
