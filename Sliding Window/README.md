@@ -84,5 +84,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20the%20Longest%20Substring%20Containing%20Vowels%20in%20Even%20Counts.cpp">Find the Longest Substring Containing Vowels in Even Counts(Leetcode-1371) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Substring%20with%20Concatenation%20of%20All%20Words.cpp">Substring with Concatenation of All Words (Leetcode-30) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
