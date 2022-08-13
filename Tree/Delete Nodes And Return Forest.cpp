@@ -1,7 +1,9 @@
 /*
-    Company Tags     : Google, Amazon
-    Leetcode Qn Link : https://leetcode.com/problems/delete-nodes-and-return-forest/
+    MY YOUTUBE VIDEO ON THIS Qn : <coming soon>
+    Company Tags                : Google, Amazon
+    Leetcode Qn Link            : https://leetcode.com/problems/delete-nodes-and-return-forest/
 */
+
 
 class Solution {
 public:
@@ -28,6 +30,7 @@ public:
         
         vector<TreeNode*> result;
         deleteNodes(root, st, result); // <-- it will not consider root
+        
         //So, check here if root is to be deleted or not
         if(!st.count(root->val)) {
             result.push_back(root);
