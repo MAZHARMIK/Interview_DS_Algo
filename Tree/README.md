@@ -135,7 +135,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Delete%20Nodes%20And%20Return%20Forest">Delete Nodes And Return Forest (Leetcode-1110)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Delete%20Nodes%20And%20Return%20Forest.cpp">Delete Nodes And Return Forest (Leetcode-1110)</a>
 				</td>
 			</tr>
 			<tr>
