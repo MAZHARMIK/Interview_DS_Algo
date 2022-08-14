@@ -99,7 +99,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Edit%20Distance">Edit Distance (Leetcode - 72)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Edit%20Distance.cpp">Edit Distance (Leetcode - 72)</a>
 				</td>
 			</tr>
 			<tr>
