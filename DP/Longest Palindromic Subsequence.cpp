@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Amazon, LinkedIn, PayOal, Rivigo, Uber
+    Company Tags  : Amazon, LinkedIn, PayOal, Rivigo, Uber, Google
     Leetcode Link : https://leetcode.com/problems/longest-palindromic-subsequence/
+    GfG Link      : https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1
 */
 
 class Solution {
