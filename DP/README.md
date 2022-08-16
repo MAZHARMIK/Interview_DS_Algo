@@ -299,7 +299,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest_Palindromic_Subsequence.cpp">Longest Palindromic Subsequence  (3 approaches) (Leetcode-516)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest%20Palindromic%20Subsequence.cpp">Longest Palindromic Subsequence  (3 approaches) (Leetcode-516)</a>
 				</td>
 			</tr>
 			<tr>
