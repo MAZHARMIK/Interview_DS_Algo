@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Break%20a%20Palindrome.cpp">Break a Palindrome (Leetcode-1328)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Split%20Array%20into%20Consecutive%20Subsequences.cpp">Split Array into Consecutive Subsequences (Leetcode-659)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
