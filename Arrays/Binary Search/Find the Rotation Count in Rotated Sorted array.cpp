@@ -1,5 +1,5 @@
 /*
-    Company Tags      : Amazon, ABCO
+    Company Tags      : Amazon, ABCO, Flipkart
     Video Explanation : You can request for a video explanation by letting me know on LinkedIn. It's free
     Question Link     : https://practice.geeksforgeeks.org/problems/rotation4723/1
 */
