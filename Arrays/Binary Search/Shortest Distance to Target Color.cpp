@@ -1,5 +1,5 @@
 /*
-    Company Tags  : NIL (Do let me know when you find it :-) )
+    Company Tags  : Google
     Leetcode Link : https://leetcode.com/problems/shortest-distance-to-target-color/   (Leetcode - 1182)
     
     Since this is a premium question, I am providing the Description and exmaple here :
