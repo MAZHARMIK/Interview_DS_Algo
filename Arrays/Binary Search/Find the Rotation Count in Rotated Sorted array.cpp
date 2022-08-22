@@ -1,7 +1,7 @@
 /*
-    Company Tags      : Amazon, ABCO, Flipkart
-    Video Explanation : You can request for a video explanation by letting me know on LinkedIn. It's free
-    Question Link     : https://practice.geeksforgeeks.org/problems/rotation4723/1
+    MY YOUTUBE VIDEO ON THIS Qn : Video Explanation : https://www.youtube.com/watch?v=HodpFY9Y6Vs
+    Company Tags                : Amazon, ABCO, Flipkart
+    Question Link               : https://practice.geeksforgeeks.org/problems/rotation4723/1
 */
 
 class Solution{
