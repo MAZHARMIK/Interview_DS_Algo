@@ -8,31 +8,25 @@ class Solution {
 public:
     int countSubstrings(string s) {
         int n = s.length();
+        
         vector<vector<bool>> t(n, vector<bool>(n, false));
-        int count = n;
         
-        //length = 1
+        int count = n; //every character is a pallindrome substring
+        
+        //t[i][j] = true; means that s[i...j] is a pallindrome
         for(int i = 0; i<n; i++) {
-            t[i][i] = true;
+            t[i][i] = true; //every character is a pallindrome substring
         }
         
-        //length = 2
-        for(int i = 0; i<n; i++) {
-            if(s[i] == s[i+1]) {
-                t[i][i+1] = true;
-                count++;
-            }
-        }
-        
-        //length = 3+
-        for(int L = 3; L<=n; L++) {
+        for(int L = 2; L<=n; L++) {
             for(int i = 0; i<n-L+1; i++) {
-                int j = i+L-1;
+                int j = i + L - 1;
                 
-                if(s[i] == s[j] && t[i+1][j-1]) {
+                if(s[i] == s[j] && (t[i+1][j-1] || L == 2)) {
                     t[i][j] = true;
                     count++;
                 }
+                
             }
         }
         
