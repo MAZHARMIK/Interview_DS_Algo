@@ -109,7 +109,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Palindromic%20Substrings">Palindromic Substrings (Leetcode - 647)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Palindromic%20Substrings.cpp">Palindromic Substrings (Leetcode - 647)</a>
 				</td>
 			</tr>
 			<tr>
