@@ -104,7 +104,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest%20Palindromic%20Substring">Longest Palindromic Substring (Leetcode - 5)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest%20Palindromic%20Substring.cpp">Longest Palindromic Substring (Leetcode - 5)</a>
 				</td>
 			</tr>
 			<tr>
