@@ -26,7 +26,7 @@
       </tr>
 			<tr>
           <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Diagonal%20Traverse">Diagonal Traverse (Leetcode-498)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Diagonal%20Traverse.cpp">Diagonal Traverse (Leetcode-498)</a>
 				  </td>
       </tr>
 			<tr>
