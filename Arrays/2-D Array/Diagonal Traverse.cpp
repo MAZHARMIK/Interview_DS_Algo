@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://youtu.be/7HAKiGZSrWc
     Company Tags  : Google, Amazon
     Leetcode Link : https://leetcode.com/problems/diagonal-traverse/
 */
