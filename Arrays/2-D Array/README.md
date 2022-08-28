@@ -41,7 +41,7 @@
       </tr>
 			<tr>
           <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Sort%20the%20Matrix%20Diagonally">Sort the Matrix Diagonally (Leetcode-1329)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Sort%20the%20Matrix%20Diagonally.cpp">Sort the Matrix Diagonally (Leetcode-1329)</a>
 				  </td>
       </tr>
 			<tr>
