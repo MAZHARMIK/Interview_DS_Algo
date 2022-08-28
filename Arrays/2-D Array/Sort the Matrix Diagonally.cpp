@@ -1,10 +1,15 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=mNWwJQ7_z4Q
     Company Tags  : MICROSOFT
     Leetcode Link : https://leetcode.com/problems/sort-the-matrix-diagonally/
     
     Similar GfG Qn :  https://practice.geeksforgeeks.org/problems/diagonal-morning-assembly0028/1#
     Leetcode Qn Like this : Leetcode-498 (Diagonal Traverse) : https://leetcode.com/problems/diagonal-traverse/
+*/
+
+/*
+    Note : If you want to travel diaginally from left side, you can use the key map as (i+j) instead of (i-j)
+    Related Qn : https://leetcode.com/problems/diagonal-traverse/
 */
 
 class Solution {
