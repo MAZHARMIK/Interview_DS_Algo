@@ -9,7 +9,7 @@
     TIme Complexity : (m*n)*(m*n)
 */
 
-//Approach - 2
+//Approach - 2 (Better DFS)
 class Solution {
 public:
     //helping variables
@@ -68,3 +68,7 @@ public:
         return result;
     }
 };
+
+
+//Approach-3 (BFS)
+//comming soon with youtube video
