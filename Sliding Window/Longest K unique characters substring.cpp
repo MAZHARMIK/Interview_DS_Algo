@@ -5,7 +5,7 @@
     Alternative question (Asked in an interview) :
     John goes to mall with his mom. He sees that there many toys. He insists his mom to buy him toys.
     His mom told him ok fine, you can pick the toys but in two conditions :
-    1) You can pick toys in line (you can't skip any toy in between) (Hint: She is wasking for a subarray)
+    1) You can pick toys in line (you can't skip any toy in between) (Hint: She is asking for a subarray)
     2) You can have only two types of toys.
     
     Find maximum number of toys that can be picked up by John.
