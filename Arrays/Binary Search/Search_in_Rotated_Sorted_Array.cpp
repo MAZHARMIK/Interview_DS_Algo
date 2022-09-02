@@ -1,6 +1,8 @@
 /*
-    Company Tags  : Adobe, Amazon, Microsoft, Morgan Stanley, Samsung, Snapdeal, Times Internet
-    Leetcode Link : https://leetcode.com/problems/search-in-rotated-sorted-array/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=U1VsdRgVevY
+    Company Tags                : Adobe, Amazon, Microsoft, Morgan Stanley, Samsung, Snapdeal, Times Internet
+    Leetcode Link               : https://leetcode.com/problems/search-in-rotated-sorted-array/
+    Similar GfG Link            : https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1
 */
 class Solution {
 public:
