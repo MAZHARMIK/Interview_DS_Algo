@@ -452,5 +452,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Distinct%20Subsequences.cpp">Distinct Subsequences (Leetcode-115) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Climbing%20Stairs.cpp">Climbing Stairs (Leetcode-70) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
