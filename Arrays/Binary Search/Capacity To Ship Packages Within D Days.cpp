@@ -1,5 +1,5 @@
 /*
-    Company Tags : Facebook, Baidu, Google, Flipkart
+    Company Tags : Meta, Baidu, Google, Flipkart, D-E-Shaw, Amazon
     Leecode Link : https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/   
     Similar Qn   : Allocate Minimum Number Of Pages (https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)
     
