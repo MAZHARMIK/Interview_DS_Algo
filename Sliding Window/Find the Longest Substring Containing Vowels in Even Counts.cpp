@@ -1,9 +1,8 @@
 /*
-    Company Tags      : Not known yet (But it's similar to many popular Sliding Window Questions)
-    Frequency         : Not known yet
-    Explanation Video : PART-1 (https://www.linkedin.com/feed/update/urn:li:activity:6845103186445971457) - 14 minutes
-                        PART-2 (https://www.linkedin.com/feed/update/urn:li:activity:6845104386390196224) - 2 minutes
-    Leetcode Link     : https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Yogiyo (Food delivering app)
+    Frequency                   : Not known yet
+    Leetcode Link               : https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 */
 
 //Approach-1 (Using Sliding Window) 52/53 test cases passed (O(n^2)) Approach
