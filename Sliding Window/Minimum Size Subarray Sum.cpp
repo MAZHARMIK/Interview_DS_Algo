@@ -2,6 +2,7 @@
     MY YOUTUBE VIDEO ON THIS Qn : 
     Company Tags                : Google, Accolite, Amazon, Facebook, Goldman Sachs
     Leetcode Link               : https://leetcode.com/problems/minimum-size-subarray-sum/
+    Similar GfG Link            : https://practice.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1
 */
 
 //Using Sliding Window
