@@ -22,16 +22,6 @@ public:
     int maxProfit(int k, vector<int>& prices) {
         int n = prices.size();
     
-        //There is an edge case : What if we can't do k transactions at all
-        //i.e. 2*k > n
-        //So, buy the stock in i-1th day and sell it at ith day.
-        if (2 * k > prices.size()) {
-            int res = 0;
-            for (int i = 1; i < prices.size(); i++) {
-                res += max(0, prices[i] - prices[i - 1]);
-            }
-            return res;
-        }
         vector<vector<vector<int>>> t(n+1,vector<vector<int>>(2,vector<int>(k+1,-1)));
         return maxP(prices, 0, n, k, true, t);
     }
