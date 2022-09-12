@@ -46,7 +46,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Bag%20of%20Tokens">Bag of Tokens (Leetcode-948)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Bag%20of%20Tokens.cpp">Bag of Tokens (Leetcode-948)</a>
 				</td>
 			</tr>
 			<tr>
