@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Boats%20to%20Save%20People">Boats to Save People (Leetcode-881)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Boats%20to%20Save%20People.cpp">Boats to Save People (Leetcode-881)</a>
 				</td>
 			</tr>
 			<tr>
