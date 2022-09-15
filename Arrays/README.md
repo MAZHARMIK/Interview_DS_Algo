@@ -252,5 +252,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sort%20Colors.cpp">Sort Colors (Leetcode-75)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20Original%20Array%20From%20Doubled%20Array.cpp">Find Original Array From Doubled Array (Leetcode-2007)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
