@@ -462,5 +462,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Climbing%20Stairs.cpp">Climbing Stairs (Leetcode-70) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Score%20from%20Performing%20Multiplication%20Operations.cpp">Maximum Score from Performing Multiplication Operations (Leetcode-1770) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
