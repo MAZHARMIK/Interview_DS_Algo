@@ -50,6 +50,7 @@ public:
             - Let's say we did 4 operations till now
             - 'i' is ahead by 2
             - It means, other (4-2) opeations were done from right side (jth index)
+            - So, 'j' is ahead from behind (n-1) by (4-2) i.e. (k-i)
         */
         
         int j = (n-1) - (k-i);
