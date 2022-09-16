@@ -40,7 +40,7 @@ public:
 class Solution {
 public: 
     int n, m;
-    vector<vector<int>> t;
+    int t[1001][1001];
     int solve(vector<int>& nums, int i, vector<int>& multi, int k) {
         if(k >= m)
             return 0;
