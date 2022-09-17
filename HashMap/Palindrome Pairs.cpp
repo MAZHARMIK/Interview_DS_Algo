@@ -3,6 +3,8 @@
     Leetcode Link : https://leetcode.com/problems/palindrome-pairs/
 */
 
+//NOTE: This approach will TLE now due to new test cases. So, trie is the accepted approach.
+
 //Another approach using trie is present in trie section : Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Palindrome%20Pairs.cpp
 
 //This approach is using hashmap
