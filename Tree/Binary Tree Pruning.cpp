@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Amazon, Microsoft, Google
-    Leetcode Link : https://leetcode.com/problems/binary-tree-pruning/
+	MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=bzQIbtlnBW0&t=3s
+    	Company Tags  		    : Amazon, Microsoft, Google
+    	Leetcode Link 		    : https://leetcode.com/problems/binary-tree-pruning/
 */
 
 //Approach-1 (Naive and the first approach that comes to mind) Time: O(n^2)
