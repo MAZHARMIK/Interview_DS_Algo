@@ -204,7 +204,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/House%20Robber%20III">House Robber III (Leetcode-337)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/House%20Robber%20III.cpp">House Robber III (Leetcode-337)</a>
 				</td>
 			</tr>
 			<tr>
