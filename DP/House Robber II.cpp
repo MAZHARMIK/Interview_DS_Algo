@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Amazon, OYO Rooms, Paytm, Walmart, Google, Flipkart
+    Company Tags  : Airbnb, Microsoft
     Leetcode Link : https://leetcode.com/problems/house-robber-ii/
 */
 
