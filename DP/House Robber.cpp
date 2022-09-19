@@ -74,3 +74,24 @@ public:
         
     }
 };
+
+
+//Approach-3 (Space Optimized Bottom Up - Converting Approach-2)
+class Solution {
+public:
+    int rob(vector<int>& nums) {
+        int n = nums.size();
+        
+        int curr = 0;
+        int prev = 0;
+        
+        for(int i = 0; i<n; i++) {
+            int temp = max(nums[i] + prev, curr);
+            
+            prev = curr;
+            curr = temp;
+        }
+        
+        return curr;
+    }
+};
