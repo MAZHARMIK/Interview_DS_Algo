@@ -104,5 +104,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Remove_K_Digits.cpp">Remove K Digits (Leetcode-402)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Remove%20to%20Make%20Valid%20Parentheses.cpp">Minimum Remove to Make Valid Parentheses (Leetcode-1249)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
