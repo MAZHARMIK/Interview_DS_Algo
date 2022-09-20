@@ -9,7 +9,53 @@
     Keywords : Minimum/Maximum , k cards (similar to k-size window)  (Hints towards Sliding Window Technique)
 */
 
-//Approach-1 (Recur + Memo) - TLE
+
+//Approach-1 (Sliding Window)
+class Solution {
+public:
+    int solve_sliding_window(vector<int>& cardPoints, int& k) {
+        //When we find max score of size k, we are left with subarray of size (n-k) which has minimum sum
+        //so, we find total_sum and we find minimum_sum of subarrays of size (n-k)
+        //choose best of (total_sum - minimum_sum)
+        //Best way to use sliding window technique
+        /*
+            Example : cardPoints{5, 7, 2, 100, 1}, k = 3
+            total_sum = 115
+            window_size = n-k = 5-3 = 2
+            window_1 = {5, 7}  , sum = 12
+            window_2 = {7, 2}  , sum = 9   -> minimum
+            window_3 = {2, 100}, sum = 102
+            window_4 = {100, 1}, sum = 101
+            
+            return total_sum - 9 = 115 - 9 = 106
+        */
+        int n        = nums.size();
+        int totalSum = 0;
+        int l        = n-k;
+        int currSum  = 0;
+        int minSum   = INT_MAX;
+        int i = 0,  j = 0;
+        
+        while(j < n) {
+            totalSum += nums[j];
+            currSum  += nums[j];
+            if(j-i+1 == l) {
+                minSum   = min(minSum, currSum);
+                currSum -= nums[i];
+                i++;
+            }
+            j++;
+        }
+        return minSum == INT_MAX ? totalSum : totalSum-minSum;
+    }
+    
+    int maxScore(vector<int>& cardPoints, int k) {
+        return solve_sliding_window(cardPoints, k);
+    }
+};
+
+
+//Approach-2 (Recur + Memo) - TLE
 class Solution {
 public:
     int k, n;
@@ -39,7 +85,7 @@ public:
     }
 };
 
-//Approach-2 (DP)
+//Approach-3 (DP)
 class Solution {
 public:
     int solve_dp(vector<int>& cardPoints, int& k) {
@@ -90,49 +136,5 @@ public:
     
     int maxScore(vector<int>& cardPoints, int k) {
         return solve_dp(cardPoints, k);
-    }
-};
-
-//Approach-3 (Sliding Window)
-class Solution {
-public:
-    int solve_sliding_window(vector<int>& cardPoints, int& k) {
-        //When we find max score of size k, we are left with subarray of size (n-k) which has minimum sum
-        //so, we find total_sum and we find minimum_sum of subarrays of size (n-k)
-        //choose best of (total_sum - minimum_sum)
-        //Best way to use sliding window technique
-        /*
-            Example : cardPoints{5, 7, 2, 100, 1}, k = 3
-            total_sum = 115
-            window_size = n-k = 5-3 = 2
-            window_1 = {5, 7}  , sum = 12
-            window_2 = {7, 2}  , sum = 9   -> minimum
-            window_3 = {2, 100}, sum = 102
-            window_4 = {100, 1}, sum = 101
-            
-            return total_sum - 9 = 115 - 9 = 106
-        */
-        int n        = nums.size();
-        int totalSum = 0;
-        int l        = n-k;
-        int currSum  = 0;
-        int minSum   = INT_MAX;
-        int i = 0,  j = 0;
-        
-        while(j < n) {
-            totalSum += nums[j];
-            currSum  += nums[j];
-            if(j-i+1 == l) {
-                minSum   = min(minSum, currSum);
-                currSum -= nums[i];
-                i++;
-            }
-            j++;
-        }
-        return minSum == INT_MAX ? totalSum : totalSum-minSum;
-    }
-    
-    int maxScore(vector<int>& cardPoints, int k) {
-        return solve_sliding_window(cardPoints, k);
     }
 };
