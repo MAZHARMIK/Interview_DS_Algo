@@ -6,7 +6,48 @@
     Leetcode Link : https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
 */
 
-//Approach-1 (Iterate from front and eliminate and then iterate from back and eliminate)
+//Approach-1 (Using Stack and set)
+class Solution {
+public:
+    string minRemoveToMakeValid(string s) {
+        int n = s.length();
+        
+        unordered_set<int> toRemove;
+        stack<int> st;
+        
+        for(int i = 0; i<n; i++) {
+            if(s[i] == '(') //store index of '('
+                st.push(i);
+            else  if(s[i] == ')') {
+                if(st.empty()) { //invalid ')'
+                    toRemove.insert(i);
+                } else {
+                    st.pop(); //balancing with open '('
+                }
+            }
+        }
+        
+        //suppose the input is  "(("
+        //Then, we won't be adding them in the toRemove set to remove later
+        //So, adding here
+        while(!st.empty()) {
+            toRemove.insert(st.top());
+            st.pop();
+        }
+        
+        string result = "";
+        
+        for(int i = 0; i<n; i++) {
+            if(toRemove.find(i) == toRemove.end())
+                result.push_back(s[i]);
+        }
+        
+        return result;
+    }
+};
+
+
+//Approach-2 (Iterate from front and eliminate and then iterate from back and eliminate)
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
@@ -56,7 +97,7 @@ public:
 
 
 
-//Approach-2 (Simplified : Playing smart and keeping it simple)
+//Approach-3 (Simplified : Playing smart and keeping it simple)
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
