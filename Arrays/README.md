@@ -257,5 +257,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20Original%20Array%20From%20Doubled%20Array.cpp">Find Original Array From Doubled Array (Leetcode-2007)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sum%20of%20Even%20Numbers%20After%20Queries.cpp">Sum of Even Numbers After Queries (Leetcode-985)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
