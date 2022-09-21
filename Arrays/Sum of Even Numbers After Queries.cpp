@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=pA4fX-Mvkyw
     Company Tags                : Indeed (Frequently Asked)
     Leetcode Link               : https://leetcode.com/problems/sum-of-even-numbers-after-queries/
 */
