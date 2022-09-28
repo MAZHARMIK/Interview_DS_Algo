@@ -1,6 +1,7 @@
 /*
-    Company Tags     : Amazon
-    Leetcode Qn Link : https://leetcode.com/problems/path-sum/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Amazon, Microsoft, Accolite, Adobe, CouponDunia, FactSet, Goldman Sachs, Housing.com, Oracle, Samsung, Atlassian
+    Leetcode Qn Link            : https://leetcode.com/problems/path-sum/
 */
 class Solution {
 public:
