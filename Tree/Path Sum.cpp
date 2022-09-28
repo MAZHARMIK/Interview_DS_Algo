@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=7jIWcMDxT28&list=PLpIkg8OmuX-K23LhcamOcDlTBisiNJy5E&index=12
     Company Tags                : Amazon, Microsoft, Accolite, Adobe, CouponDunia, FactSet, Goldman Sachs, Housing.com, Oracle, Samsung, Atlassian
     Leetcode Qn Link            : https://leetcode.com/problems/path-sum/
 */
