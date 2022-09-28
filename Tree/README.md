@@ -105,7 +105,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum">Path Sum (Leetcode-112)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum.cpp">Path Sum (Leetcode-112)</a>
 				</td>
 			</tr>
 			<tr>
