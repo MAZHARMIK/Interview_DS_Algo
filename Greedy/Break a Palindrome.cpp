@@ -1,8 +1,7 @@
 /*
-    Company Tags            : Amazon
-    Frequency               : Yet to be known
-    Video Explanation Link  : You can raise this request by contacting me on LinkedIn or posting request on Interview_DS_Algo page on LinkedIn. It's FREE
-    Leetcode Link           : https://leetcode.com/problems/break-a-palindrome/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Pbx0Pvyh7D4&list=PLpIkg8OmuX-J8_n8Vy9P9I3KvyDcPMzRU&index=3
+    Company Tags                : Amazon, Google(with some variation)
+    Leetcode Link               : https://leetcode.com/problems/break-a-palindrome/
 */
 
 class Solution {
