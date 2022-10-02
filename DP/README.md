@@ -467,5 +467,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Score%20from%20Performing%20Multiplication%20Operations.cpp">Maximum Score from Performing Multiplication Operations (Leetcode-1770) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Dice%20Rolls%20With%20Target%20Sum.cpp">Number of Dice Rolls With Target Sum (Leetcode-1155) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
