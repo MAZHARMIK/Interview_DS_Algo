@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=_xNrzKfORNA
     Company Tags                : <soon will update>
     Leetcode Link               : https://leetcode.com/problems/minimum-time-to-make-rope-colorful/
 */
