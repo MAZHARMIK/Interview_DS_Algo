@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Split%20Array%20into%20Consecutive%20Subsequences.cpp">Split Array into Consecutive Subsequences (Leetcode-659)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Time%20to%20Make%20Rope%20Colorful.cpp">Minimum Time to Make Rope Colorful (Leetcode-1578)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
