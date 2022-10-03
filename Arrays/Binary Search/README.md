@@ -26,7 +26,7 @@
       </tr>
       <tr>
           <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Search_in_Rotated_Sorted_Array_II.cpp">Search in Rotated Sorted Array II (Leetcode-81)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Search%20in%20Rotated%20Sorted%20Array%20II.cpp">Search in Rotated Sorted Array II (Leetcode-81)</a>
 				  </td>
       </tr>
 			<tr>
