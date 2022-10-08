@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Q0Qat25D6JE&list=PLpIkg8OmuX-K6A0sEPFxOSJh4_AjCGAFf&index=18
     Company Tags                : Amazon, Adobe, Coupang, Radius
     Leetcode Link               : https://leetcode.com/problems/find-pivot-index/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/equilibrium-point-1587115620/1/?page=1&curated[]=1&sortBy=submissions#
