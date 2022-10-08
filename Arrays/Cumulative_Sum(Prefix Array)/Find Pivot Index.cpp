@@ -1,6 +1,8 @@
 /*
-    Company Tags  : Amazon, Adobe
-    Question Link : https://practice.geeksforgeeks.org/problems/equilibrium-point-1587115620/1/?page=1&curated[]=1&sortBy=submissions#
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Amazon, Adobe, Coupang, Radius
+    Leetcode Link               : https://leetcode.com/problems/find-pivot-index/
+    GfG Link                    : https://practice.geeksforgeeks.org/problems/equilibrium-point-1587115620/1/?page=1&curated[]=1&sortBy=submissions#
 */
 
 //Approach-1 (Using O(n) space)
