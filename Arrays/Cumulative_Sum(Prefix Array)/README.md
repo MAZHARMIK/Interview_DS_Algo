@@ -21,7 +21,7 @@
       			</tr>
 			<tr>
           			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Equilibrium%20Point.cpp">Equilibrium Point</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Find%20Pivot%20Index.cpp">Find Pivot Index (Leetcode-724)</a>
 				  </td>
       			</tr>
 		</tbody>
