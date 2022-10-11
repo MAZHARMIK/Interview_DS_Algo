@@ -1,6 +1,7 @@
 /*
-    Company Tags : Facebook, Amazon, FactSet, Walmart
-    Letcode Link : https://leetcode.com/problems/increasing-triplet-subsequence/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=-tqUs4Qt9TU
+    Company Tags                : Facebook, Amazon, FactSet, Walmart
+    Letcode Link                : https://leetcode.com/problems/increasing-triplet-subsequence/
 */
 
 //Using Concept of Longest Increasing Subsequence
@@ -32,23 +33,26 @@ public:
 class Solution {
 public:
     bool increasingTriplet(vector<int>& nums) {
+        int n = nums.size();
+        
         int num1 = INT_MAX;
         int num2 = INT_MAX;
         
-        //we need to find num such that
-        // num1 < num2 < num
-        for(int num:nums) {
-            if(num <= num1) { 
-                //this will find the first smallest
-                //For avoiding duplicates we have used = sign also {Example : {1, 1, 1}
-                num1 = num;
-            } else if(num <= num2) { //this will find the second smallest
-                num2 = num;
-            } else {
-                //I found a num which is greater than num1 and num2
+        for(int i = 0; i<n; i++) {
+            
+            int num3 = nums[i];//sorry for that
+            
+            //first ask num1
+            if(num3 <= num1) {
+                num1 = num3;
+            } else if(num3 <= num2) { //ask num2
+                num2 = num3;
+            } else { //num1 < num2 inki life set hai already
                 return true;
             }
         }
+        
         return false;
+        
     }
 };
