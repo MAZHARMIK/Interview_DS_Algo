@@ -1,5 +1,5 @@
 /*
-    Company Tags : Facebook
+    Company Tags : Facebook, Amazon, FactSet, Walmart
     Letcode Link : https://leetcode.com/problems/increasing-triplet-subsequence/
 */
 
@@ -40,7 +40,7 @@ public:
         for(int num:nums) {
             if(num <= num1) { 
                 //this will find the first smallest
-                //For avoiding duplicates we have used = sign also
+                //For avoiding duplicates we have used = sign also {Example : {1, 1, 1}
                 num1 = num;
             } else if(num <= num2) { //this will find the second smallest
                 num2 = num;
