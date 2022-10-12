@@ -262,5 +262,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sum%20of%20Even%20Numbers%20After%20Queries.cpp">Sum of Even Numbers After Queries (Leetcode-985)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Largest%20Perimeter%20Triangle.cpp"> Largest Perimeter Triangle (Leetcode-976)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
