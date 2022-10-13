@@ -144,5 +144,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Split%20Linked%20List%20in%20Parts.cpp">Split Linked List in Parts (Leetcode-725)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Delete%20Node%20in%20a%20Linked%20List.cpp">Delete Node in a Linked List (Leetcode-237)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
