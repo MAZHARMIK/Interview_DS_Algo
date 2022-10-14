@@ -149,5 +149,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Delete%20Node%20in%20a%20Linked%20List.cpp">Delete Node in a Linked List (Leetcode-237)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.cpp">Delete the Middle Node of a Linked List (Leetcode-2095)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
