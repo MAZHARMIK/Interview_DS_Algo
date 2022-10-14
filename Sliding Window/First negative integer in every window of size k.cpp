@@ -1,6 +1,7 @@
 /*
-    Company Tags : Amazon
-    Qn Link      : https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1#
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=-uc7OCrjp8g&list=PLpIkg8OmuX-J2Ivo9YdY7bRDstPPTVGvN&index=4
+    Company Tags                : Amazon, MentorGraphics
+    Qn Link                     : https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1#
 */
 
 typedef long long ll;
@@ -30,8 +31,7 @@ vector<ll> printFirstNegativeInteger(ll A[], ll N, ll k) {
 
 //Approach-2 (Another good way to solve this)
 typedef long long ll;
-vector<long long> printFirstNegativeInteger(long long int A[],
-                                             long long int N, long long int K) {
+vector<ll> printFirstNegativeInteger(ll A[], ll N, ll K) {
         
         deque<ll> deq;
         vector<ll> result;
