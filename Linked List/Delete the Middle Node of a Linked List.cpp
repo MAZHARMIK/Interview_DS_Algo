@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=KEcXDqthMLE
     Company Tags                : Amazon, Flipkart, Microsoft
     Leetcode Link               : https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/delete-middle-of-linked-list/1
