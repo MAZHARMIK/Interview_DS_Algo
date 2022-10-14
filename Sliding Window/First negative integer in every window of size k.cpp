@@ -13,7 +13,7 @@ vector<ll> printFirstNegativeInteger(ll A[], ll N, ll k) {
         if(A[j] < 0)
             dll.push_back(A[j]);
         
-        if(j-i+1 >= k) {
+        if(j-i+1 == k) {
             ll neg = dll.empty() ? 0 : dll.front();
             result.push_back(neg);
             if(A[i] < 0 && !dll.empty()) {
