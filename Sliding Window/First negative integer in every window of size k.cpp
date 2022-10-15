@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=-uc7OCrjp8g&list=PLpIkg8OmuX-J2Ivo9YdY7bRDstPPTVGvN&index=4
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=-uc7OCrjp8g
     Company Tags                : Amazon, MentorGraphics
     Qn Link                     : https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1#
 */
