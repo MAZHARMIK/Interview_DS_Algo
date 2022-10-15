@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDE ON THIS Qn : <soon>
+    MY YOUTUBE VIDE ON THIS Qn : https://www.youtube.com/watch?v=I7drewKcN1Y&t=5s
     Company Tags               : Snapchat, GoDaddy, Lyft, Expedia, Microsoft, Bloomberg, Amazon, CouponDunia, FactSet, Goldman Sachs, VMWare, Zoho
     Leetcode Link              : https://leetcode.com/problems/string-compression/
     GfG Link                   : https://practice.geeksforgeeks.org/problems/run-length-encoding/1
