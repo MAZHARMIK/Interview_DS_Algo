@@ -5,6 +5,7 @@
 */
 
 
+//Approach - 1 (Recursion + Memoization)
 class Solution {
 public:
     int t[301][11];
@@ -52,3 +53,8 @@ public:
         return solve(jd, n, 0, d);
     }
 };
+
+
+
+//Approach - 2 (Bottom UP)
+//soon
