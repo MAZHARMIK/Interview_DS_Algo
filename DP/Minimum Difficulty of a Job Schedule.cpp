@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=smTnSl6UKi0
     Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 */
