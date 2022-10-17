@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=rMM8Brb-lko
     Company Tags                : Zoho, Snapdeal
     Leetcode Link               : https://leetcode.com/problems/check-if-the-sentence-is-pangram/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/pangram-strings3155/1
