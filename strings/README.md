@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/String%20Compression.cpp">String Compression (Leetcode-443)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Check%20if%20the%20Sentence%20Is%20Pangram.cpp">Check if the Sentence Is Pangram (Leetcode-1832)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
