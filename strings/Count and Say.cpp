@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=5uJitfSM3vk
     Company Tags  : Facebook, Amazon, Microsoft, Zoho, Google (3 years ago)
     Leetcode Link : https://leetcode.com/problems/count-and-say/
     GfG Link      : https://practice.geeksforgeeks.org/problems/decode-the-pattern1138/1
