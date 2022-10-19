@@ -1,7 +1,8 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=zW-8-6A2gxM
-    Company Tags                : Pocket Gems, Amazon, Bloomberg, Yelp, Uber, Microsoft, Adobe, Citrix
-    Leetcode Link               : https://leetcode.com/problems/top-k-frequent-words/
+    MY YOUTUBE VIDEO ON THIS Qn (Approach-1) : https://www.youtube.com/watch?v=zW-8-6A2gxM
+    MY YOUTUBE VIDEO ON THIS Qn (Approach-2) : <soon>
+    Company Tags                             : Pocket Gems, Amazon, Bloomberg, Yelp, Uber, Microsoft, Adobe, Citrix
+    Leetcode Link                            : https://leetcode.com/problems/top-k-frequent-words/
 */
 
 //Approach-1 (Time : O(nlogn), Space : O(n))
