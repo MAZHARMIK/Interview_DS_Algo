@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : <soon>
-    Company Tags                : Pocket Gems, Amazon, Bloomberg, Yelp, Uber
+    Company Tags                : Pocket Gems, Amazon, Bloomberg, Yelp, Uber, Microsoft, Adobe, Citrix
     Leetcode Link               : https://leetcode.com/problems/top-k-frequent-words/
 */
 
