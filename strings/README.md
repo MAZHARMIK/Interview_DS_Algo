@@ -119,5 +119,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20and%20Say.cpp"> Count and Say (Leetcode-38)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Integer%20to%20Roman.cpp">Integer to Roman (Leetcode-12)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
