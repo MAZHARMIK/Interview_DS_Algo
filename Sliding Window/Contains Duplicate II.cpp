@@ -1,7 +1,8 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
-    Company Tags                : Airbnb, Palantir Technologies
-    Leetcode Link               : https://leetcode.com/problems/contains-duplicate-ii/
+    MY YOUTUBE VIDEO ON THIS Qn        : <soon>
+    Company Tags                       : Airbnb, Palantir Technologies
+    Leetcode Link                      : https://leetcode.com/problems/contains-duplicate-ii/
+    Using Map (without sliding window) : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Contains%20Duplicate%20II.cpp
 */
 
 class Solution {
