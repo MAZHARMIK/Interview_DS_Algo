@@ -1,6 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
-    Company Tags                : Amazon, Codenation, FactSet, MakeMyTrip, Streamoid Technologies, Microsoft, Media.net, Google, Airbnb
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=3Bp3OVD1EGc
+    Company Tags                : Google, Amazon, Microsoft, Codenation, FactSet, , Atlassian, MakeMyTrip, Streamoid Technologies, Media.net, Airbnb
     Leetcode Link               : https://leetcode.com/problems/minimum-window-substring/
 */
 
