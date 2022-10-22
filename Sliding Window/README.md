@@ -94,5 +94,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Minimum%20Size%20Subarray%20Sum.cpp">Minimum Size Subarray Sum (Leetcode-209) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Contains%20Duplicate%20II.cpp">Contains Duplicate II (Leetcode-219) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
