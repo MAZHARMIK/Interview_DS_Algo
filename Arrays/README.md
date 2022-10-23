@@ -272,5 +272,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Contains%20Duplicate%20II.cpp"> Contains Duplicate II (Leetcode-219)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Set%20Mismatch.cpp"> Set Mismatch (Leetcode-645)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
