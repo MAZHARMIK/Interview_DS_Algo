@@ -1,6 +1,7 @@
 /*
     Company Tags  : Google, Zenefits, Microsoft, Zoho, Flipkart, Amazon, Directi, SAP Labs
     Leetcode Link : https://leetcode.com/problems/sliding-window-maximum/
+    GfG Link :  Maximum of all subarrays of size k (https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1)
     
     NOTE : Please also see hard version of this question : Leetcode-1425
     Explained Solution Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Constrained%20Subsequence%20Sum.cpp
