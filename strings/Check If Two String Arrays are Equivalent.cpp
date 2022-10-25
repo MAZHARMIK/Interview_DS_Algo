@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=B7_jRUZPUCU
     Company Tags                : Goldman Sachs
     Leetcode Link               : https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
 */
