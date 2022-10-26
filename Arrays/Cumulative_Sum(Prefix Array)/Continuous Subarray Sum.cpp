@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=wmn3c1mP0pY&t=152s
     Company Tags                : Amazon, Facebook, Paytm
     Leetcode Link               : https://leetcode.com/problems/continuous-subarray-sum/
 */
