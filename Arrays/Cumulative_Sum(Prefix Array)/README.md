@@ -24,5 +24,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Find%20Pivot%20Index.cpp">Find Pivot Index (Leetcode-724)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Continuous%20Subarray%20Sum.cpp">Continuous Subarray Sum (Leetcode-523)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
