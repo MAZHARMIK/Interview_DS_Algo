@@ -144,5 +144,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Time%20to%20Make%20Rope%20Colorful.cpp">Minimum Time to Make Rope Colorful (Leetcode-1578)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Earliest%20Possible%20Day%20of%20Full%20Bloom.cpp">Earliest Possible Day of Full Bloom (Leetcode-2136)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
