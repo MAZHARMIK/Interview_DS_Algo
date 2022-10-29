@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=kqOVhPfrP_I
     Company Tags                : Google, Amazon, Microsoft, Adobe
     Leetcode Link               : https://leetcode.com/problems/earliest-possible-day-of-full-bloom/
 */
