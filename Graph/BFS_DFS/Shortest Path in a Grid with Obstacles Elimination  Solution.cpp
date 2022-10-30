@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDE ON THIS Qn : <soon>
+    MY YOUTUBE VIDE ON THIS Qn : https://www.youtube.com/watch?v=zpOhlTndBv0
     Company Tags               : Google
     Leetcode Link              : https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/
 */
