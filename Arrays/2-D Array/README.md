@@ -106,7 +106,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Toeplitz%20Matrix.cppp">Toeplitz Matrix (Leetcode-766)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Toeplitz%20Matrix.cpp">Toeplitz Matrix (Leetcode-766)</a>
 				</td>
 			</tr>
 		</tbody>
