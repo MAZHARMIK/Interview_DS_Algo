@@ -1,6 +1,7 @@
 /*
-    Leetcode Weekly Contest - 221
-    Link : https://leetcode.com/contest/weekly-contest-221
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags     : Amazon
+    Leetcode Link    : https://leetcode.com/problems/where-will-the-ball-fall/
 */
 
 class Solution {
