@@ -1,7 +1,7 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
-    Company Tags     : Amazon
-    Leetcode Link    : https://leetcode.com/problems/where-will-the-ball-fall/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ElWwrlPe0qc
+    Company Tags                : Amazon
+    Leetcode Link               : https://leetcode.com/problems/where-will-the-ball-fall/
 */
 
 class Solution {
