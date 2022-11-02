@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Shortest%20Path%20in%20a%20Grid%20with%20Obstacles%20Elimination%20%20Solution.cpp"> Shortest Path in a Grid with Obstacles Elimination Solution (Leetcode-1293)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Minimum%20Genetic%20Mutation.cpp"> Minimum Genetic Mutation (Leetcode-433)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
