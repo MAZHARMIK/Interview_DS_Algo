@@ -149,5 +149,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Earliest%20Possible%20Day%20of%20Full%20Bloom.cpp">Earliest Possible Day of Full Bloom (Leetcode-2136)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Longest%20Palindrome%20by%20Concatenating%20Two%20Letter%20Words.cpp">Longest Palindrome by Concatenating Two Letter Words (Leetcode-2131)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
