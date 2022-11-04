@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=pqzvpK8zTHU
     Company Tags                : Google, Zoho, Flipkart, 
     Leetcode Link               : https://leetcode.com/problems/reverse-vowels-of-a-string/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/reversing-the-vowels5304/1
