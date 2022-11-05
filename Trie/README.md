@@ -26,7 +26,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Word%20Search%20II">Word Search II : (Leetcode-212)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Word%20Search%20II.cpp">Word Search II : (Leetcode-212)</a>
 				</td>
 			</tr>
 			<tr>
