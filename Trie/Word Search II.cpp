@@ -1,6 +1,7 @@
 /*
-    Company Tags     : Google, Amazon
-    Leetcode Qn Link : https://leetcode.com/problems/word-search-ii/
+    MY YOUTUBE VIDE ON THIS Qn  : <soon>
+    Company Tags                : Google, Amazon, Facebook (Meta), Microsoft, Salesforce, Directi, MakeMyTrip, Nvidia, Yahoo
+    Leetcode Qn Link            : https://leetcode.com/problems/word-search-ii/
 */
 
 class Solution {
