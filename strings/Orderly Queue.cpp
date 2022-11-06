@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=5TNRCLbU7H4
     Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/orderly-queue/
 */
