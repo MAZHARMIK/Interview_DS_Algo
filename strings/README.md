@@ -126,7 +126,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="[https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Integer%20to%20Roman.cpp](https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Check%20If%20Two%20String%20Arrays%20are%20Equivalent.cpp)">Check If Two String Arrays are Equivalent (Leetcode-1662)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Check%20If%20Two%20String%20Arrays%20are%20Equivalent.cpp">Check If Two String Arrays are Equivalent (Leetcode-1662)</a>
 				</td>
 			</tr>
 			<tr>
