@@ -154,5 +154,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Longest%20Palindrome%20by%20Concatenating%20Two%20Letter%20Words.cpp">Longest Palindrome by Concatenating Two Letter Words (Leetcode-2131)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%2069%20Number.cpp">Maximum 69 Number (Leetcode-1323)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
