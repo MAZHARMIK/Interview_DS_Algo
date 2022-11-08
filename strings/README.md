@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Orderly%20Queue.cpp">Orderly Queue (Leetcode-899)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Make%20The%20String%20Great.cpp">Make The String Great (Leetcode-1544)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
