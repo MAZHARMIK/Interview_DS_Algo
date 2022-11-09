@@ -1,6 +1,8 @@
 /*
-    Company Tags  : Accolite, Amazon, FactSet, Samsung
-    Leetcode Link : https://leetcode.com/problems/online-stock-span/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Microsoft, Accolite, Amazon, FactSet, Samsung, Adobe, Flipkart
+    Leetcode Link               : https://leetcode.com/problems/online-stock-span/
+    GfG Link                    : https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
 */
 
 class StockSpanner {
