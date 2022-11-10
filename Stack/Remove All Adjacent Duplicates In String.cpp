@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Microsoft
+    Company Tags  : Microsoft, Paytm, Samsung
     Leetcode Link : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 */
 
