@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Microsoft, Paytm, Samsung
-    Leetcode Link : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=VeOUal3_s6c
+    Company Tags                : Microsoft, Paytm, Samsung
+    Leetcode Link               : https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 */
 
 //Approach-1 (With stack)
