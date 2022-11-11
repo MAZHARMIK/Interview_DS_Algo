@@ -94,5 +94,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Reverse%20Vowels%20of%20a%20String.cpp">Reverse Vowels of a String (Leetcode-345)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Remove%20Duplicates%20from%20Sorted%20Array.cpp">Remove Duplicates from Sorted Array (Leetcode-26)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
