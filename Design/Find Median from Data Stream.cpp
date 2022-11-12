@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=jnj87BSi9Is&t=592s
     Company Tags                : Apple, AMAZON, VMWARE, GOOGLE, MICROSOFT, GOLDMAN SACHS, Adobe, Belzabar, SAP Labs, Yahoo,
                                   D-E-Shaw, Facebook, Flipkart, Google, Intuit, Microsoft, Morgan Stanley, Ola Cabs, Oracle, Samsung
     Leetcode Link               : https://leetcode.com/problems/find-median-from-data-stream/
@@ -44,33 +44,41 @@ public:
 //Approach-2 (O(logn) insertion using priority_queue) - Accepeted
 class MedianFinder {
 public:
-    priority_queue<int> left_max; //max_heap
-    priority_queue<int, vector<int>, greater<int>> right_min; //min_heap
+    priority_queue<int> left_max_heap; //max heap
+    priority_queue<int, vector<int>, greater<int>> right_min_heap; //min heap
     MedianFinder() {
         
     }
     
     void addNum(int num) {
-        if(left_max.empty() || num < left_max.top())
-            left_max.push(num);
-        else
-            right_min.push(num);
-        
-        //Now, adjust the size
-        //left_max can only be greater than right_min by 1 in size;
-        if(left_max.size() > right_min.size()+1) {
-            right_min.push(left_max.top());
-            left_max.pop();
-        } else if(left_max.size() < right_min.size()) {
-            left_max.push(right_min.top());
-            right_min.pop();
+        if(left_max_heap.empty() || num < left_max_heap.top()) {
+            left_max_heap.push(num);
+        } else {
+            right_min_heap.push(num);
         }
+        
+        
+        //always maintain left_max_heap size one greater than rigfht_min_heap size
+        //ya fir, dono ka size equal ho
+        
+        if(abs((int)left_max_heap.size() - (int)right_min_heap.size()) > 1) {
+            right_min_heap.push(left_max_heap.top());
+            left_max_heap.pop();
+        } else if(left_max_heap.size() < right_min_heap.size()) {
+            left_max_heap.push(right_min_heap.top());
+            right_min_heap.pop();
+        }
+        
     }
     
     double findMedian() {
-        if(left_max.size() == right_min.size())
-            return (double)(left_max.top()+right_min.top())/2;
+        if(left_max_heap.size() == right_min_heap.size()) {
+            // matlab even number of elements hue honge
+            
+            return (double)(left_max_heap.top()+right_min_heap.top())/2;
+        }
         
-        return left_max.top();
+        //else hamare paas odd number of elemenes hue honge
+        return left_max_heap.top();
     }
 };
