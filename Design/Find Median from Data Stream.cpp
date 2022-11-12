@@ -1,12 +1,11 @@
 /*
-    Company Tags  : AMAZON, VMWARE, GOOGLE, MICROSOFT, GOLDMAN SACHS
-    Leetcode Link : https://leetcode.com/problems/find-median-from-data-stream/
-    
-    This qn falls under the category of "Heap" as well.
-    Link : 
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Apple, AMAZON, VMWARE, GOOGLE, MICROSOFT, GOLDMAN SACHS, Adobe, Belzabar, SAP Labs, Yahoo,
+                                  D-E-Shaw, Facebook, Flipkart, Google, Intuit, Microsoft, Morgan Stanley, Ola Cabs, Oracle, Samsung
+    Leetcode Link               : https://leetcode.com/problems/find-median-from-data-stream/
 */
 
-//Approach-1 (O(n^2)
+//Approach-1 (O(n^2) - TLE
 class MedianFinder {
 public:
     vector<int> vec;
@@ -41,7 +40,7 @@ public:
     }
 };
 
-//Approach-2 (O(logn) insertion using priority_queue)
+//Approach-2 (O(logn) insertion using priority_queue) - Accepeted
 class MedianFinder {
 public:
     priority_queue<int> left_max; //max_heap
