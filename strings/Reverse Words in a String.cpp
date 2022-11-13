@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Amazon (With variations), MentorGraphics
-    Leetcode Link : https://leetcode.com/problems/reverse-words-in-a-string/
+     MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                 : Amazon (With variations), Microsoft, MentorGraphics, MakeMyTrip, Accolite, Adobe, Cisco, Goldman Sachs,Paytm, Samsung, SAP Labs
+    Leetcode Link                : https://leetcode.com/problems/reverse-words-in-a-string/
 */
 
 //Approach-1 (Perfect use of std::stringstream)
