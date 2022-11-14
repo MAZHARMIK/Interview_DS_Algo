@@ -3,7 +3,7 @@
     Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
     
-    Please see the "Disjoint Set" Folder to find "Disjoint Set" Solution for this Qn - SOON
+    Please see the "Disjoint Set" solution : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Most%20Stones%20Removed%20with%20Same%20Row%20or%20Column.cpp
 */
 
 class Solution {
