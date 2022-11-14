@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Minimum%20Genetic%20Mutation.cpp"> Minimum Genetic Mutation (Leetcode-433)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Most%20Stones%20Removed%20with%20Same%20Row%20or%20Column.cpp"> Most Stones Removed with Same Row or Column (Leetcode-947)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
