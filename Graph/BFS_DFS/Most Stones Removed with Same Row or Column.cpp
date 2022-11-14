@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ZsGTpXm966E
     Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
     
