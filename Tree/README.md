@@ -328,5 +328,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Foldable%20Binary%20Tree.cpp">Foldable Binary Tree</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Count%20Complete%20Tree%20Nodes.cpp">Count Complete Tree Nodes (Leetcode-222)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
