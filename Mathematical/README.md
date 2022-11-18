@@ -119,5 +119,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Segmented%20Sieve.cpp">Segmented Sieve</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Ugly%20Number.cpp">Ugly Number (Leetcode - 263)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
