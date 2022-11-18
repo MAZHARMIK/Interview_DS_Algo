@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=oWp--NIqWac&t=16s
     Company Tags                : Microsoft, Google(with variation)
     Leetcode Link               : https://leetcode.com/problems/guess-number-higher-or-lower/
 */
