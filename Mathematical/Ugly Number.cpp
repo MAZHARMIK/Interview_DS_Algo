@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=aCylFAah1z4
     Company Tags                : Facebook, Amazon
     Leetcode Link               : https://leetcode.com/problems/ugly-number/
 */
