@@ -124,5 +124,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Ugly%20Number.cpp">Ugly Number (Leetcode - 263)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Erect%20the%20Fence.cpp">Erect the Fence (Leetcode - 587)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
