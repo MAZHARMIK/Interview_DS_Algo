@@ -1,6 +1,7 @@
 /*
-    Company Tags     : GoldmanSachs, Google, Paytm, Walmart
-    Leetcode Qn Link : https://leetcode.com/problems/ugly-number-ii/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Google, Meta, Microsoft, GoldmanSachs, Paytm, Walmart
+    Leetcode Qn Link            : https://leetcode.com/problems/ugly-number-ii/
 */
 
 //Approach-1 (Recursion+Memo) : nlog(n) (max is log base 2)
