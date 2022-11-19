@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=jRacRh6x4go&list=PLpIkg8OmuX-L_QqcKB5abYynQbonaNcq3&index=3
     Company Tags                : Google, Meta, Microsoft, GoldmanSachs, Paytm, Walmart
     Leetcode Qn Link            : https://leetcode.com/problems/ugly-number-ii/
 */
