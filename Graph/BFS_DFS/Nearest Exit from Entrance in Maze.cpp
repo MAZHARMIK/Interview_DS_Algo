@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Q4bqto_yG6I
     Company Tags                : Similar Problem asked in Samsung
     Leetcode Link               : https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
 */
