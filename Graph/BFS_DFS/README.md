@@ -39,5 +39,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Most%20Stones%20Removed%20with%20Same%20Row%20or%20Column.cpp"> Most Stones Removed with Same Row or Column (Leetcode-947)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Nearest%20Exit%20from%20Entrance%20in%20Maze.cpp"> Nearest Exit from Entrance in Maze (Leetcode-1926)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
