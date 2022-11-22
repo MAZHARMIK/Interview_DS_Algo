@@ -1,7 +1,8 @@
 /*
-    Company Tags  : Google, Salesforce, Microsoft, Meta, Amazon
-    Frequency     : 74%
-    Leetcode Link : https://leetcode.com/problems/perfect-squares/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Zbn8in7hpXY
+    Company Tags                : Google, Salesforce, Microsoft, Meta, Amazon
+    Frequency                   : 74%
+    Leetcode Link               : https://leetcode.com/problems/perfect-squares/
     This question is nothing but just similar to of "Minimum Coins to get sum S (COIN CHANGE - Leetcode : 322)
 */
 
