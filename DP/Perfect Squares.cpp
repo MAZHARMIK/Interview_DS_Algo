@@ -1,11 +1,11 @@
 /*
-    Company Tags  :  Google
+    Company Tags  : Google, Salesforce, Microsoft, Meta, Amazon
     Frequency     : 74%
     Leetcode Link : https://leetcode.com/problems/perfect-squares/
     This question is nothing but just similar to of "Minimum Coins to get sum S (COIN CHANGE - Leetcode : 322)
 */
 
-//Approach-1 (Recusrion + Memoization)
+//Approach-1 (Recusrion + Memoization) - Using concept of "Minimum Coins" concept
 class Solution {
 public:
     int minCoinsToGetS(vector<int>& coins, int n, int S, vector<vector<int>>& t) {
@@ -40,7 +40,7 @@ public:
     }
 };
 
-//Approach-2 (Bottom Up DP)
+//Approach-2 (Bottom Up DP) - Using concept of "Minimum Coins" concept
 class Solution {
 public:
     int minSquares(vector<int> squares, int n, int S) {        
