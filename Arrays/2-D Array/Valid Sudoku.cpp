@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=dGZjzA9zLW8
     Company Tags  		: Google, Amazon, Microsoft, Uber, Apple, Snapchat
     Frequency     		: 80%
     Leetcode Link 		: https://leetcode.com/problems/valid-sudoku/
