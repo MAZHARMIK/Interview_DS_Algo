@@ -1,7 +1,8 @@
 /*
-    Company Tags  : Google, Amazon, Uber, Apple, Snapchat
-    Frequency     : 80%
-    Leetcode Link : https://leetcode.com/problems/valid-sudoku/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags  		: Google, Amazon, Microsoft, Uber, Apple, Snapchat
+    Frequency     		: 80%
+    Leetcode Link 		: https://leetcode.com/problems/valid-sudoku/
     Diagram Link with my explanation on DISCUSS : https://leetcode.com/problems/valid-sudoku/discuss/1416689/C%2B%2B-(3-approaches-with-diagrams)
 */
 
