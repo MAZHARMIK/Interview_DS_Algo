@@ -144,5 +144,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Expression%20Add%20Operators.cpp">Expression Add Operators (Leetcode-282)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Word%20Search.cpp">Word Search (Leetcode-79)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
