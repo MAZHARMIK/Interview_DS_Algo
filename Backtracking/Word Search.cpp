@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=whyax_vB8xY
     Company Tags                : Apple, Amazon, Microsoft, Intuit
     Leetcode Link               : https://leetcode.com/problems/word-search/
 */
