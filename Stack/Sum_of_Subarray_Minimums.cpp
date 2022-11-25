@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Facebook, Amazon, Google
-    Leetcode Link : https://leetcode.com/problems/sum-of-subarray-minimums/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=HRQB7-D2bi0
+    Company Tags                : Facebook, Amazon, Google
+    Leetcode Link               : https://leetcode.com/problems/sum-of-subarray-minimums/
 */
 
 typedef unsigned long long ll;
