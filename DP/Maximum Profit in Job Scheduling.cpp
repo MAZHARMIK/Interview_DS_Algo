@@ -4,6 +4,7 @@
     Leetcode Link               : https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 */
 
+//Approach-1 (Recur + Memo)
 class Solution {
 public:
     int memo[50001];
@@ -66,3 +67,7 @@ public:
         return solve(array, 0);
     }
 };
+
+
+
+//Approach-2 (Bottom Up DP - Coming Soon)
