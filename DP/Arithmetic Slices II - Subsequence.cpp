@@ -1,8 +1,8 @@
 /*
-    Company Tags            : Baidu
-    Frequency               : 18%
-    Leetcode Link           : https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
-    Best explanation Hindi  : https://www.youtube.com/watch?v=XjLT4TaXsgw&t=337s
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Google, Meta, Netflix, Amazon, Apple, Baidu
+    Leetcode Link               : https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
+    Best explanation Hindi      : https://www.youtube.com/watch?v=XjLT4TaXsgw&t=337s
 */
 
 class Solution {
