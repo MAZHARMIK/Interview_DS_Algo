@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=cau0JE1q_ZA
     Company Tags                : Google, Meta, Netflix, Amazon, Apple, Baidu
     Leetcode Link               : https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
     Best explanation Hindi      : https://www.youtube.com/watch?v=XjLT4TaXsgw&t=337s
