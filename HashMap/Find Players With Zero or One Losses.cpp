@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=bXptmD2qWYI
     Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/find-players-with-zero-or-one-losses/
 */
