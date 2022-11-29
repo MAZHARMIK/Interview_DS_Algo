@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Amazon, Twitter, Facebook, Uber, Google
-    Leetcode Link : https://leetcode.com/problems/insert-delete-getrandom-o1/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Amazon, Twitter, Facebook, Uber, Google, Bloomberg, Microsoft
+    Leetcode Link               : https://leetcode.com/problems/insert-delete-getrandom-o1/
 */
 
 class RandomizedSet {
