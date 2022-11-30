@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Find%20Players%20With%20Zero%20or%20One%20Losses.cpp">Find Players With Zero or One Losses (Leetcode-2225)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Unique%20Number%20of%20Occurrences.cpp">Unique Number of Occurrences (Leetcode-1207)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
