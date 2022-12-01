@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Make%20The%20String%20Great.cpp">Make The String Great (Leetcode-1544)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Determine%20if%20String%20Halves%20Are%20Alike.cpp">Determine if String Halves Are Alike (Leetcode-1704)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
