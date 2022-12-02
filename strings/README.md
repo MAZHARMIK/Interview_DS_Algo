@@ -16,7 +16,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Determine%20if%20Two%20Strings%20Are%20Close">Determine if Two Strings Are Close (Leetcode-1657)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Determine%20if%20Two%20Strings%20Are%20Close.cpp">Determine if Two Strings Are Close (Leetcode-1657)</a>
 				</td>
 			</tr>
 			<tr>
