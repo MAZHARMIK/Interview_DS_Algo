@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn (Approach-1) : https://www.youtube.com/watch?v=pnxShVARLLw
-    MY YOUTUBE VIDEO ON THIS Qn (Approach-2) : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn (Approach-2) : https://www.youtube.com/watch?v=HwCYa1_2vkU
     Company Tags                             : Amazon, Google, Oracle, Zoho, Zycus
     Leetcode Link                            : https://leetcode.com/problems/sort-characters-by-frequency/
 */
