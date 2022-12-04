@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=odP1T58kNQY
     Company Tags                : Amazon, Paytm
     Leetcode Link               : https://leetcode.com/problems/minimum-average-difference/
 */
