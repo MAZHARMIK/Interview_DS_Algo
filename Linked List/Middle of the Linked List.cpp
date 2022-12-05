@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=I8h_hI_BF3Y
     Company Tags                : Adobe, Amazon, Flipkart, GE, Hike, IgniteWorld, MAQ Software, Microsoft, Morgan Stanley, 
                                   Nagarro, Netskope, Payu, Qualcomm, Samsung, SAP Labs, Veritas, VMWare, Wipro, Zoho
     Leetcode Link               : https://leetcode.com/problems/middle-of-the-linked-list/
