@@ -154,5 +154,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.cpp">Delete the Middle Node of a Linked List (Leetcode-2095)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Middle%20of%20the%20Linked%20List.cpp"> Middle of the Linked List (Leetcode-876)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
