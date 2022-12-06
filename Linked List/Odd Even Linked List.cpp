@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Amazon
-    Leetcode Link : https://leetcode.com/problems/odd-even-linked-list/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=kbcucihgO_I
+    Company Tags                : Amazon, Microsoft
+    Leetcode Link               : https://leetcode.com/problems/odd-even-linked-list/
 */
 
 //Approach-1
