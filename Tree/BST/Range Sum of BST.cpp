@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=qIFhQ2m6i64
     Company Tags                : Google, Amazon, D.E. Shaw 
     Leetcode Link               : https://leetcode.com/problems/range-sum-of-bst/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/count-bst-nodes-that-lie-in-a-given-range/1
