@@ -10,9 +10,14 @@
 		</thead>
 		<tbody>
 			<tr>
-          <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/BST/Trim%20a%20Binary%20Search%20Tree.cpp">Trim a Binary Search Tree (Leetcode-669)</a>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/BST/Trim%20a%20Binary%20Search%20Tree.cpp">Trim a Binary Search Tree (Leetcode-669)						  </a>
 				  </td>
-      </tr>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/BST/Range%20Sum%20of%20BST.cpp">Range Sum of BST (Leetcode-938)						  </a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
