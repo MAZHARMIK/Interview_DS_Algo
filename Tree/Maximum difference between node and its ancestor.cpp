@@ -25,7 +25,7 @@ public:
         findMaxUtil(root, child->right);
     }
 
-    void findMinDiff(TreeNode* root) {
+    void findMaxDiff(TreeNode* root) {
         if(!root || !root->left && !root->right)
          return;
          
@@ -34,14 +34,14 @@ public:
          findMaxUtil(root, root->right);
 
          //firther move left and right
-         findMinDiff(root->left);
-         findMinDiff(root->right);
+         findMaxDiff(root->left);
+         findMaxDiff(root->right);
     }
 
     int maxAncestorDiff(TreeNode* root) {
         maxDiff = INT_MIN;
 
-        findMinDiff(root);   
+        findMaxDiff(root);   
 
         return maxDiff;     
     }
