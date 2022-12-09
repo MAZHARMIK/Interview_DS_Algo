@@ -338,5 +338,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Leaf-Similar%20Trees.cpp">Leaf-Similar Trees (Leetcode-872)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20difference%20between%20node%20and%20its%20ancestor.cpp">Maximum difference between node and its ancestor (Leetcode-1026)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
