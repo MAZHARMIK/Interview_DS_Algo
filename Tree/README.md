@@ -343,5 +343,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20difference%20between%20node%20and%20its%20ancestor.cpp">Maximum difference between node and its ancestor (Leetcode-1026)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20Product%20of%20Splitted%20Binary%20Tree.cpp">Maximum Product of Splitted Binary Tree (Leetcode-1339)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
