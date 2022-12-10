@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ITySQXe9Ybg
     Company Tags                : Google, Facebok, Amazon(Phone Interview)
     Leetcode Link               : https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/
 */
