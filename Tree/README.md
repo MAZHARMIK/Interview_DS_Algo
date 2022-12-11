@@ -348,5 +348,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20Product%20of%20Splitted%20Binary%20Tree.cpp">Maximum Product of Splitted Binary Tree (Leetcode-1339)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Tree%20Maximum%20Path%20Sum.cpp">Binary Tree Maximum Path Sum (Leetcode-124)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
