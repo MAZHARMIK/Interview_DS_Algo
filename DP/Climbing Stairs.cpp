@@ -1,6 +1,6 @@
 /*
     ADDED MY YOUTUBE VIDEO FOR THIS Qn  : https://www.youtube.com/watch?v=6OjGE04Kx_M
-    Company Tags                        : Amazon, OYO Rooms, Microsoft, Adobe, Flipkart, Siemens
+    Company Tags                        : Google, Amazon, OYO Rooms, Microsoft, Adobe, Flipkart, Siemens
     Leetcode Link                       : https://leetcode.com/problems/climbing-stairs/
     GfG Link                            : https://practice.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
     
