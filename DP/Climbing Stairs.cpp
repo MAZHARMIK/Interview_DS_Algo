@@ -1,7 +1,9 @@
 /*
-    Company Tags  : Amazon, OYO Rooms, Microsoft, Adobe, Flipkart
-    Leetcode Link : https://leetcode.com/problems/climbing-stairs/
-    GfG Link      : https://practice.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
+    ADDED MY YOUTUBE VIDEO FOR THIS Qn  : <soon>
+    Company Tags                        : Amazon, OYO Rooms, Microsoft, Adobe, Flipkart, Siemens
+    Leetcode Link                       : https://leetcode.com/problems/climbing-stairs/
+    GfG Link                            : https://practice.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
+    
     NOTE : For GfG, you need to take Module with pow(10, 9) + 7 (mentioned in the Qn) to avoid overflow
 */
 
@@ -9,22 +11,22 @@
 class Solution {
 public:
     int t[46];
-    int subsetSumWays(int n){
-        if(n == 0 || n == 1 || n == 2 || n == 3)
+    int solve(int n){
+        if(n == 0 || n == 1 || n == 2)
             return n;
         
         if(t[n] != -1)
             return t[n];
         
-        int a = subsetSumWays(n-1);
-        int b = subsetSumWays(n-2);
+        int a = solve(n-1);
+        int b = solve(n-2);
         
         return t[n] = a+b;
         
     }
     int climbStairs(int n) {
         memset(t, -1, sizeof(t));
-        return subsetSumWays(n);
+        return solve(n);
     }
 };
 
