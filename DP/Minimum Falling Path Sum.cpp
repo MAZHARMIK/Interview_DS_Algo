@@ -1,6 +1,7 @@
 /*
-    Company Tags  : OLA, Goldman Sachs, Google
-    Leetcode Link : https://leetcode.com/problems/minimum-falling-path-sum/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Google, Microsoft, Amazon, Flipkart, OLA, Goldman Sachs, MakeMyTrip, OYO Rooms, Samsung
+    Leetcode Link               : https://leetcode.com/problems/minimum-falling-path-sum/
     
     Similar tough problem : Leetcode - 1937 : Maximum Number of Points with Cost  (Must Try !!!!)
 */
