@@ -1,8 +1,9 @@
 /*
-    Company Tags    : Amazon, OYO Rooms, Paytm, Walmart, Google, Flipkart
-    Leetcode Link   : https://leetcode.com/problems/house-robber/
-    GfG Link        : https://practice.geeksforgeeks.org/problems/stickler-theif-1587115621/1
-    Also Famouse as : Stickler Thief
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Amazon, OYO Rooms, Paytm, Walmart, Google, Flipkart, LinkedIn, Airbnb
+    Leetcode Link               : https://leetcode.com/problems/house-robber/
+    GfG Link                    : https://practice.geeksforgeeks.org/problems/stickler-theif-1587115621/1
+    Also Famouse as             : Stickler Thief
 */
 
 //Approach-1 (Recur + Memo)
@@ -33,20 +34,6 @@ public:
 //Approach-2 (Bottom up)
 class Solution {
 public:
-    int t[101];
-    int solve(vector<int>& nums, int i, int& n) {
-        if(i >= n)
-            return 0;
-        
-        if(t[i] != -1)
-            return t[i];
-        
-        int take = nums[i] + solve(nums, i+2, n);
-        int skip = solve(nums, i+1, n);
-        
-        return t[i]=max(take, skip);
-    }
-    
     int rob(vector<int>& nums) {
         int n = nums.size();
         
