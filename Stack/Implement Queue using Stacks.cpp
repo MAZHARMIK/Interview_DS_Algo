@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : <soon>
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=V1vqtGW0X0Y
       Company Tags                : Google, Amazon, Microsoft, Meta 
       Leetcode Link               : https://leetcode.com/problems/implement-queue-using-stacks/
       GfG Link                    : https://practice.geeksforgeeks.org/problems/queue-using-stack/1
