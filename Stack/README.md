@@ -119,5 +119,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Evaluate%20Reverse%20Polish%20Notation.cpp">Evaluate Reverse Polish Notation (Leetcode-150)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Daily%20Temperatures.cpp">Daily Temperatures (Leetcode-739)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
