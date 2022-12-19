@@ -1,8 +1,10 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=mbR1XSXidEE
     Company Tags                : Microsoft, Adobe, Amazon, Morgan Stanley, Samsung
     Leetcode Link               : https://leetcode.com/problems/find-if-path-exists-in-graph/
 */
+
+//NOTE : Soon, I will upload the Union Find approach for this Qn as well
 
 //Using DFS : O(m+n)
 class Solution {
