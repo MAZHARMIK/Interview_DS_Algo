@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Nearest%20Exit%20from%20Entrance%20in%20Maze.cpp"> Nearest Exit from Entrance in Maze (Leetcode-1926)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Find%20if%20Path%20Exists%20in%20Graph.cpp"> Find if Path Exists in Graph (Leetcode-1971)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
