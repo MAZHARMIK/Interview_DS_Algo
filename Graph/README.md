@@ -204,7 +204,7 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Keys%20and%20Rooms">Keys and Rooms (Leetcode : 841)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Keys%20and%20Rooms.cpp">Keys and Rooms (Leetcode : 841)</a>
 				</td>
 			</tr>
 			<tr>
