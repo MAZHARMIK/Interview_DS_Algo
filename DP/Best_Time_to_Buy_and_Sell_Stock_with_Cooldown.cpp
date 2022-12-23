@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Google
-    Leetcode Link : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : Google, Microsoft, Amazon, Salesforce, Meta
+    Leetcode Link               : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 */
 
 //Approach-1 (Recursion+Memoization)
@@ -60,7 +61,7 @@ public:
                           maximum profit.
                           So, for that let's look previously to j :
                           Look at (j-1) -> It can't be buy-day, becuse we are already buying on jth day
-                                        -> It can't be sell-day, because we are selling today on ith day
+                                        -> It can't be sell-day because, after you sell your stock on (j-1)th day, you cannot buy stock on the next day i.e. (jth) day (i.e., cooldown one day).
                                         -> It can only be cool-down day. max profit till (j-1)th day will be
                                             equal to its privous profit i.e. t[j-2]
                                             
