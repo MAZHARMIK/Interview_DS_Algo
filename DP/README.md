@@ -482,5 +482,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.cpp">Maximum Length of a Concatenated String with Unique Characters (Leetcode-1239) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Domino%20and%20Tromino%20Tiling.cpp">Domino and Tromino Tiling (Leetcode-790) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
