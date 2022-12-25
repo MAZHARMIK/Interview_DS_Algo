@@ -49,7 +49,7 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Detect%20cycle%20in%20an%20undirected%20graph%20(DFS)">Detect cycle in an undirected graph (DFS)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Detect%20cycle%20in%20an%20undirected%20graph%20(DFS).cpp">Detect cycle in an undirected graph (DFS)</a>
 				</td>
 			</tr>
 			<tr>
