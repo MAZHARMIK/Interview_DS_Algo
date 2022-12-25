@@ -38,7 +38,7 @@ public:
 };
 
 //Approach-2
-//Using Self Written Binary Search : O(m+n)*log(n)
+//Using Self Written Binary Search : O((m+n)*log(n))
 class Solution {
 public:
     
@@ -81,7 +81,7 @@ public:
 
 
 //Approach-3
-//Using upper_bound STL in C++ : O(m+n)*log(n)
+//Using upper_bound STL in C++ : O((m+n)*log(n))
 class Solution {
 public:
     vector<int> answerQueries(vector<int>& nums, vector<int>& queries) {
