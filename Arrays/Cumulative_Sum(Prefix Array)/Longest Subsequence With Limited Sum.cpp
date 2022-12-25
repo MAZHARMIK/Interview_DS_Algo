@@ -51,9 +51,9 @@ public:
             mid = l + (r-l)/2;
             if(nums[mid] <= target) {
                 result_idx = mid;
-                l++;
+                l = mid+1;
             } else if(nums[mid] > target) {
-                r--;
+                r = mid-1;
             }
         }
         return result_idx+1;
