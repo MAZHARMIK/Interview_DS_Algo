@@ -34,5 +34,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Minimum%20Average%20Difference.cpp"> Minimum Average Difference (Leetcode-2256)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Longest%20Subsequence%20With%20Limited%20Sum.cpp"> Longest Subsequence With Limited Sum (Leetcode-2389)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
