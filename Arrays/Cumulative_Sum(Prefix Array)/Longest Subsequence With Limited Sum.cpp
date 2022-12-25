@@ -4,7 +4,40 @@
     Leetcode Link               : https://leetcode.com/problems/longest-subsequence-with-limited-sum/
 */
 
+
 //Approach-1
+//Brute Force : O(m*n)
+class Solution {
+public:
+    
+    vector<int> answerQueries(vector<int>& nums, vector<int>& queries) {
+        int n = nums.size();
+        
+        sort(begin(nums), end(nums));
+        
+        int m = queries.size();
+        vector<int> result;
+        
+        for(int  &query : queries) {
+            int sum = 0;
+            
+            for(int j = 0; j<n; j++) {
+                sum += nums[j];
+                if(sum > query) {
+                    result.push_back(j);
+                    break;
+                }
+                
+                if(j == n-1) {
+                    result.push_back(n);
+                }
+            }  
+        }
+        return result;
+    }
+};
+
+//Approach-2
 //Using Self Written Binary Search : O(m+n)*log(n)
 class Solution {
 public:
@@ -47,7 +80,7 @@ public:
 };
 
 
-//Approach-2
+//Approach-3
 //Using upper_bound STL in C++ : O(m+n)*log(n)
 class Solution {
 public:
