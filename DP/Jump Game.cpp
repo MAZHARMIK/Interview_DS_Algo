@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=pvg0yrD-E5w
     Company Tags                : Google, Microsoft, Amazon, Ebay, Meta
     Leetcode Link               : https://leetcode.com/problems/jump-game/
 */
