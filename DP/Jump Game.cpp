@@ -31,9 +31,6 @@ public:
         if(idx == n-1)
             return true;
         
-        if(idx >= n)
-            return false;
-        
         if(t[idx] != -1)
             return t[idx];
         
