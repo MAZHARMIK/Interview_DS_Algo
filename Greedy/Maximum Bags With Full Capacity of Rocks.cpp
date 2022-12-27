@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=JpQaui_-a4c
     Company Tags                : <soon>
     Leetcode Link               : https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/
 */
