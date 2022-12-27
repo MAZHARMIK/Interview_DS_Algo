@@ -159,5 +159,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%2069%20Number.cpp">Maximum 69 Number (Leetcode-1323)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Bags%20With%20Full%20Capacity%20of%20Rocks.cpp">Maximum Bags With Full Capacity of Rocks (Leetcode-2279)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
