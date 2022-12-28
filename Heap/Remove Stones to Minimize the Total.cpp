@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn :
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=uodyPJ8zUVc
     Company Tags                : Google, Miscrosoft, Netflix, Salesforce, Meta
     Leetcode Link               : https://leetcode.com/problems/remove-stones-to-minimize-the-total/
 */
