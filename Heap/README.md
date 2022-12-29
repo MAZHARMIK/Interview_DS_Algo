@@ -119,5 +119,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Remove%20Stones%20to%20Minimize%20the%20Total.cpp"> Remove Stones to Minimize the Total (Leetcode-1962)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Single-Threaded%20CPU.cpp"> Single-Threaded CPU (Leetcode-1834)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
