@@ -34,7 +34,7 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Cycle%20Detection%20(Using%20DFS)">Cycle Detection (Using DFS)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Detect%20cycle%20in%20a%20directed%20graph%20(DFS).cpp">Detect cycle in a directed graph (DFS)</a>
 				</td>
 			</tr>
 			<tr>
