@@ -1,6 +1,9 @@
 /*
-  Company Tags : Flipkart, Amazon, Microsoft, Samsung, MakeMyTrip, Oracle, Adobe, BankBazaar, 
+  MY YOUTUBE VIDEO ON THIS Qn : 
+  Company Tags                : Flipkart, Amazon, Microsoft, Samsung, MakeMyTrip, Oracle, Adobe, BankBazaar
+  Gfg Link                    : https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 */
+
 
 #include <iostream>
 #include <vector>
