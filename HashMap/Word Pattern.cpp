@@ -1,5 +1,5 @@
 /*
-	MY YOUTUBE VIDEO ON THIS Qn 	: <soon>
+	MY YOUTUBE VIDEO ON THIS Qn 	: https://www.youtube.com/watch?v=n0cn5tJwkaE
 	Company Tags			: Amazon, MakeMyTrip, Microsoft
 	Leetcode Link 			: https://leetcode.com/problems/word-pattern/
 */
@@ -54,8 +54,6 @@ public:
         
         while(ss >> token) {
             countTokens++;
-            
-            cout << charToIndex[pattern[i]] << ", " << wordToIndex[token] << endl;
             
             if (i == n || charToIndex[pattern[i]] != wordToIndex[token])
                 return false;
