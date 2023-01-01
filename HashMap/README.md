@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Unique%20Number%20of%20Occurrences.cpp">Unique Number of Occurrences (Leetcode-1207)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Word%20Pattern.cpp">Word Pattern (Leetcode-290)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
