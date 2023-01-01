@@ -1,7 +1,7 @@
 /*
-	MY YOUTUBE VIDEO ON THIS Qn : https://leetcode.com/problems/word-pattern/
-	Company Tags				: Amazon, MakeMyTrip, Microsoft
-	Leetcode Link 				: https://leetcode.com/problems/word-pattern/
+	MY YOUTUBE VIDEO ON THIS Qn 	: <soon>
+	Company Tags			: Amazon, MakeMyTrip, Microsoft
+	Leetcode Link 			: https://leetcode.com/problems/word-pattern/
 */
 
 //Approach-1 (using map and set)
