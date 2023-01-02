@@ -144,5 +144,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Determine%20if%20String%20Halves%20Are%20Alike.cpp">Determine if String Halves Are Alike (Leetcode-1704)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Detect%20Capital.cpp"> Detect Capital (Leetcode-520)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
