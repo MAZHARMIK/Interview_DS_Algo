@@ -149,5 +149,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Detect%20Capital.cpp"> Detect Capital (Leetcode-520)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Delete%20Columns%20to%20Make%20Sorted.cpp"> Delete Columns to Make Sorted (Leetcode-944)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
