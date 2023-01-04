@@ -164,5 +164,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Bags%20With%20Full%20Capacity%20of%20Rocks.cpp">Maximum Bags With Full Capacity of Rocks (Leetcode-2279)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Rounds%20to%20Complete%20All%20Tasks.cpp">Minimum Rounds to Complete All Tasks (Leetcode-2244)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
