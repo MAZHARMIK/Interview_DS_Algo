@@ -1,6 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
-    Company Tags                : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=IIalYnjpAJA
+    Company Tags                : <soon>
     Leetcode Link               : https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/
 */
 
