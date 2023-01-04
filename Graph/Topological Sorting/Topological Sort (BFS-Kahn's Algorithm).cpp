@@ -10,43 +10,44 @@
     NOTE: This can also be used to check if the graph contains cycle or not (Please see Line:56 below)
 */
 
-class Solution
-{
+class Solution {
 	public:
 	//Function to return list containing vertices in Topological order. 
-	vector<int> topoSort(int N, vector<int> adj[]) {
-
-        vector<int> indegree(N, 0);
-    
-        for(int u = 0; u<N; u++) {
-            for(int &v : adj[u]) {
-                indegree[v]++;
-            }
-        }
-        
-        queue<int> que;
-        for(int i = 0; i<N; i++) {
-            if(indegree[i] == 0) {
-                que.push(i);
-            }
-        }
-        vector<int> result;
-        int count = 0;
-        while(!que.empty()) {
-            int curr = que.front();
-            que.pop();
-            count++;
-    
-            for(auto x:adj[curr]) {
-                indegree[x]--;
-                if(indegree[x] == 0) {
-                    que.push(x);
-                }
-            }
-    
-            result.push_back(curr);
-        }
-
-        return result;
+	vector<int> topoSort(int N, vector<int> adj[])  {
+	    queue<int> que;
+	    vector<int> indegree(N, 0);
+	    
+	    //1
+	    for(int u = 0; u<N; u++) {
+	        for(int &v : adj[u]) {
+	            indegree[v]++;
+	        }
+	    }
+	    
+	    //2. Fill que, indegree with 0
+	    for(int i = 0; i<N; i++) {
+	        if(indegree[i] == 0) {
+	            que.push(i);
+	        }
+	    }
+	    
+	    //3. Simple BFS
+	    vector<int> result;
+	    while(!que.empty()) {
+	        int u = que.front();
+	        result.push_back(u);
+	        que.pop();
+	        
+	        for(int &v : adj[u]) {
+	            indegree[v]--;
+	            
+	            if(indegree[v] == 0) {
+	                que.push(v);
+	            }
+	            
+	        }
+	    }
+	    
+	    return result;
 	}
 };
