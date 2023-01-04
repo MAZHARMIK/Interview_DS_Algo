@@ -51,7 +51,7 @@ public:
 };
 
 
-//Approach-2 : [ Using DFS - Creating given input graph]
+//Approach-2 : [ Using DFS - Using given input graph]
 class Solution {
 public:
     int n;
@@ -139,7 +139,7 @@ public:
 };
 
 
-//Approach-4 : [ Using BFS - Creating given input graph]
+//Approach-4 : [ Using BFS - Using given input graph]
 class Solution {
 public:
     int n;
