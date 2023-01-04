@@ -33,7 +33,12 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Detect%20cycle%20in%20a%20directed%20graph%20(BFS).cpp">Detect cycle in a directed graph (BFS)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Detect%20cycle%20in%20a%20directed%20graph%20(DFS).cpp">Detect cycle in a directed graph (DFS)</a>
 				</td>
 			</tr>
