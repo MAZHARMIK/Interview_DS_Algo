@@ -1,8 +1,9 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : <soon>
-      Company Tags                : Google, Microsoft, Amazon
-      Leetcode Link               : https://leetcode.com/problems/number-of-provinces/
-      GfG Link                    : https://practice.geeksforgeeks.org/problems/number-of-provinces/1
+      MY YOUTUBE VIDEOS ON THIS Qn : DFS - <soon>
+                                     BFS - <soon>
+      Company Tags                 : Google, Microsoft, Amazon
+      Leetcode Link                : https://leetcode.com/problems/number-of-provinces/
+      GfG Link                     : https://practice.geeksforgeeks.org/problems/number-of-provinces/1
 */
 
 //Approach-1 : [ Using DFS - Creating our own Map as graph ]
