@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Find%20if%20Path%20Exists%20in%20Graph.cpp"> Find if Path Exists in Graph (Leetcode-1971)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Number%20of%20Provinces.cpp"> Number of Provinces (Leetcode-547)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
