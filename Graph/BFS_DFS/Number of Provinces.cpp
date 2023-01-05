@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEOS ON THIS Qn : DFS - <soon>
+      MY YOUTUBE VIDEOS ON THIS Qn : DFS - https://www.youtube.com/watch?v=70LNE8RMPNc
                                      BFS - <soon>
       Company Tags                 : Google, Microsoft, Amazon
       Leetcode Link                : https://leetcode.com/problems/number-of-provinces/
