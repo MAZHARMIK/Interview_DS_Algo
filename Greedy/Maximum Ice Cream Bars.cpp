@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=uY3mWwJvRkA
     Company Tags                : Apply, Amazon, Meta, Microsoft
     Leetcode Link               : https://leetcode.com/problems/maximum-ice-cream-bars/
 */
