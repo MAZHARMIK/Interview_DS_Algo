@@ -169,5 +169,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Rounds%20to%20Complete%20All%20Tasks.cpp">Minimum Rounds to Complete All Tasks (Leetcode-2244)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Ice%20Cream%20Bars.cpp"> Maximum Ice Cream Bars (Leetcode-1833)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
