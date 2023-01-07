@@ -26,10 +26,16 @@ public:
             while(j != i) {
                 if(currGas < cost[j])
                     break;
-
-                currGas = currGas - cost[j] + gas[j];
                 
+                int costForMovingFromThisj = cost[j];
+                
+                //Let's move
                 j = (j+1)%n;
+                
+                int gasEarnInNextStationj = gas[j];
+                
+                currGas = currGas - costForMovingFromThisj + gasEarnInNextStationj;
+
             }
             
             if(i == j)
