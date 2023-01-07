@@ -26,7 +26,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Gas%20Station">Gas Station (or, Circular Tour) (Leetcode-134)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Gas%20Station.cpp">Gas Station (or, Circular Tour) (Leetcode-134)</a>
 				</td>
 			</tr>
 			<tr>
