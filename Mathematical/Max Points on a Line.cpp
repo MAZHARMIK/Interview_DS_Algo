@@ -19,8 +19,6 @@ public:
             
             for(int j = i+1; j<n; j++) {
                 
-                if(i == j) continue;
-                
                 int count = 2;
                 
                 int dx = points[j][0] - points[i][0];
