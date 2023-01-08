@@ -1,6 +1,8 @@
 /*
-    Company Tags  : Accolite, Amazon, Flipkart, Microsoft, Moonfrog Labs, OYO Rooms
-    Leetcode Link : https://leetcode.com/problems/course-schedule/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Apple, Twitter, Meta, Accolite, Amazon, Flipkart, Microsoft, Moonfrog Labs, OYO Rooms
+    Leetcode Link               : https://leetcode.com/problems/course-schedule/
+    GfG Link                    : https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
 */
 
 class Solution {
