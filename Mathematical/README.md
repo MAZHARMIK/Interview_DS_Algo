@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Erect%20the%20Fence.cpp">Erect the Fence (Leetcode - 587)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Max%20Points%20on%20a%20Line.cpp">Max Points on a Line (Leetcode - 149)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
