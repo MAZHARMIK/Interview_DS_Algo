@@ -7,47 +7,63 @@
 
 class Solution {
 public:
-    //we will use Kahn's Algorithm "Topological Sort using BFS"
-    bool topoLogicalSort(map<int, vector<int>>& adj, int V, vector<int>& indegree) {
-        vector<bool> visited(V, false);
-        queue <int> que;
-        
-        for(int i = 0; i<V; i++) {
-            if(indegree[i] == 0) {
-                que.push(i);
-                visited[i] = true;
-            }
-        }
+    
+    bool topologicalSortCheck(unordered_map<int, vector<int>> &adj, int n, vector<int> &indegree) {
+        queue<int> que;
         
         int count = 0;
-        while(!que.empty()) {
-            int curr = que.front();
-            que.pop();
-            count++;
-            for(auto x: adj[curr]) {
-                if(visited[x] == false) {
-                    indegree[x]--;
-                }
-                if(indegree[x] == 0) {
-                    que.push(x);
-                    visited[x] = true;
-                }
+        
+        for(int i = 0; i<n; i++) {
+            if(indegree[i] == 0) {
+                count++;
+                que.push(i);
             }
         }
         
-        return (count == V);
-    }
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        map<int, vector<int>> adj;
-        vector<int> indegree(numCourses, 0);
-        for(auto preq:prerequisites) { 
-            int x = preq[0];
-            int y = preq[1];
-            adj[y].push_back(x);
-            indegree[x]++;
+        
+        while(!que.empty()) {
+            int u = que.front();
+            que.pop();
+            
+            for(int &v : adj[u]) {
+                
+                indegree[v]--;
+                
+                if(indegree[v] == 0) {
+                    count++;
+                    que.push(v);
+                }
+                
+            }
+            
         }
         
-        //if cycle exists, then Not possible else possible
-        return topoLogicalSort(adj, numCourses, indegree);
+        if(count == n) //I was able to visit all nodes (course)
+            return true; //i.e. I was able to finish all courses
+        
+        return false; //means there was a cycle and I couldn't complete all courses
+    }
+    
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        
+        unordered_map<int, vector<int>> adj;
+        
+        vector<int> indegree(numCourses, 0); //kahn's algo
+        
+        for(auto &vec : prerequisites) {
+            int a = vec[0];
+            int b = vec[1];
+            
+            //b ---> a
+            adj[b].push_back(a);
+            
+            //arrow ja raha hai 'a' me
+            indegree[a]++;
+        }
+        
+        
+        //if cycle is present, not possible
+        
+        return topologicalSortCheck(adj, numCourses, indegree);
     }
 };
