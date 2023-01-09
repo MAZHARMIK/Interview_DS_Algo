@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=lqjlGGMjSMU
     Company Tags                : Apple, Twitter, Meta, Accolite, Amazon, Flipkart, Microsoft, Moonfrog Labs, OYO Rooms
     Leetcode Link               : https://leetcode.com/problems/course-schedule/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1?
