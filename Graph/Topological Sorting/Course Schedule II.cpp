@@ -5,50 +5,64 @@
 
 class Solution {
 public:
-    //using Kahn's Algorithm (TopoSort using BFS)
-    vector<int> topologicalSortBFS(unordered_map<int, vector<int>>& adj, int V, vector<int>& indegree) {
-        vector<bool> visited(V, 0);
+    //Using Kahn's algorithm
+    vector<int> topologicalSortCheck(unordered_map<int, vector<int>> &adj, int n, vector<int> &indegree) {
         queue<int> que;
-        for(int i = 0; i<V; i++) {
+        int count = 0;
+        vector<int> result;
+        
+        for(int i = 0; i<n; i++) {
             if(indegree[i] == 0) {
+                result.push_back(i);
+                count++;
                 que.push(i);
-                visited[i] = true;
             }
         }
         
-        int count = 0;
-        vector<int> result;
+        
         while(!que.empty()) {
-            int curr = que.front();
+            int u = que.front();
             que.pop();
-            count++;
             
-            for(auto x:adj[curr]) {
-                if(visited[x] == false)
-                    indegree[x]--;
-                if(indegree[x] == 0) {
-                    que.push(x);
-                    visited[x] = true;
+            for(int &v : adj[u]) {
+                
+                indegree[v]--;
+                
+                if(indegree[v] == 0) {
+                    result.push_back(v);
+                    count++;
+                    que.push(v);
                 }
+                
             }
             
-            result.push_back(curr);
         }
-        if(count != V)
+        
+        if(count != n)
             return {};
         
         return result;
     }
+    
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         unordered_map<int, vector<int>> adj;
-        vector<int> indegree(numCourses, 0);
-        for(auto vec:prerequisites) {
-            int x = vec[0];
-            int y = vec[1];
-            adj[y].push_back(x);
-            indegree[x]++;
+        
+        vector<int> indegree(numCourses, 0); //kahn's algo
+        
+        for(auto &vec : prerequisites) {
+            int a = vec[0];
+            int b = vec[1];
+            
+            //b ---> a
+            adj[b].push_back(a);
+            
+            //arrow ja raha hai 'a' me
+            indegree[a]++;
         }
         
-        return topologicalSortBFS(adj, numCourses, indegree);
+        
+        //if cycle is present, not possible
+        
+        return topologicalSortCheck(adj, numCourses, indegree);
     }
 };
