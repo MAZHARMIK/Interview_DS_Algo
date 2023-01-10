@@ -3,63 +3,44 @@
     Company Tags                : Moonfrog Labs, Flipkart, Morgan Stanley, Accolite, Amazon, Microsoft
 */
 
-#include <iostream>
-#include <vector>
-#include <stack>
-#include <map>
-using namespace std;
-
-void addEdge(map<int, vector<int>>& adj, int u, int v) {
-    adj[u].push_back(v);
-}
-
-void topologicalSortUtil(map<int, vector<int>>& adj, int start, stack<int>& stk, vector<bool>& visited) {
-    visited[start] = true;
-
-    for(auto x:adj[start]) {
-        if(visited[x] == false)
-            topologicalSortUtil(adj, x, stk, visited);
-    }
-
-    stk.push(start);
-}
-
-void topologicalSortDFS(map<int, vector<int>>& adj, int V) {
-    vector<bool> visited (V, false);
-
-    stack<int> stk;
-    for(int i = 0; i<V; i++) {
-        if(visited[i] == false)
-            topologicalSortUtil(adj, i, stk, visited);
-    }
-    while(!stk.empty()) {
-        cout << stk.top() << " ";
-        stk.pop();
-    }
-}
-
-int main() {
-
-    int V = 6;
-    map<int, vector<int>> adj;
-    addEdge(adj, 5, 2);
-    addEdge(adj, 5, 0);
-    addEdge(adj, 4, 0);
-    addEdge(adj, 4, 1);
-    addEdge(adj, 2, 3);
-    addEdge(adj, 3, 1);
-
-    cout << "This is the graph : \n";
-    for(int i = 0; i<V; i++) {
-        cout << i << " -> ";
-        for(int i:adj[i]) {
-            cout << i << " ";
-        }
-        cout << endl;
-    }
-
-    cout << "\nThis is the topological Sort : \n";
-    topologicalSortDFS(adj, V);
-
-return 0;
-}
+class Solution
+{
+	public:
+	
+	void DFS(vector<int> adj[], int u, vector<bool>& visited, stack<int>& st) {
+	    visited[u] = true;
+	    
+	    
+	    //pehle mere ('u' ke node ke ) bachho ko daalo
+	    for(int &v : adj[u]) {
+	        if(!visited[v])
+	            DFS(adj, v, visited, st);
+	    }
+	    
+	    
+	    //ab mujhe daalo stack me
+	    st.push(u);
+	    
+	}
+	
+	//Function to return list containing vertices in Topological order. 
+	vector<int> topoSort(int V, vector<int> adj[]) 
+	{
+	    vector<bool> visited(V, false);
+	    stack<int> st;
+	    
+	    for(int i = 0; i<V; i++) {
+	        if(!visited[i])
+	            DFS(adj, i, visited, st);
+	    }
+	    
+	    vector<int> result;
+	    
+	    while(!st.empty()) {
+	        result.push_back(st.top());
+	        st.pop();
+	    }
+	    
+	    return result;
+	}
+};
