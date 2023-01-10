@@ -5,70 +5,37 @@
 */
 
 
-#include <iostream>
-#include <vector>
-#include <stack>
-using namespace std;
-
-void addEdge(map<int, vector<int>>& adj, int u, int v) {
-    adj[u].push_back(v);
-}
-
-bool isCycleUtil(map<int, vector<int>>& adj, int start, vector<bool>& visited, vector<bool>& inStack) {
-    //if not visited, then explore it
-    if(visited[start] == false) {
-        visited[start] = true;
-        inStack[start] = true;
-
-        for(auto x:adj[start]) {
-            //if not visited, then we recursively check for cycle
-            if(visited[x] == false && isCycleUtil(adj, x, visited, inStack))
+class Solution {
+  public:
+    
+    bool isCycleDFS(vector<int> adj[], int u, vector<bool>& visited, vector<bool>& inRecursion) {
+        visited[u] = true;
+        inRecursion[u] = true;
+        
+        
+        for(int &v : adj[u]) {
+            //if not visited, then we check for cycle in DFS
+            if(visited[v] == false && isCycleDFS(adj, v, visited, inRecursion))
                 return true;
-            else if(inStack[x] == true) //if visited and it's in stack also, then it's a cycle
+            else if(inRecursion[v] == true)
                 return true;
-
         }
+        
+        inRecursion[u] = false;
+        return false;
+        
     }
-    //After exploring "start" , it will be out of recursion stack
-    inStack[start] = false;
-    return false;
-}
-
-bool isCycle(map<int, vector<int>>& adj, int V) {
-    vector<bool> visited(V, false);
-    vector<bool> inStack(V, false);
-
-    for(int i = 0 ; i<V; i++) {
-        if(isCycleUtil(adj, i, visited, inStack))
-            return true;
-    }
-    return false;
-}
-
-int main() {
-
-    int V = 6;
-    map<int, vector<int>> adj;
-    addEdge(adj, 5, 2);
-    addEdge(adj, 5, 0);
-    addEdge(adj, 4, 0);
-    addEdge(adj, 4, 1);
-    addEdge(adj, 2, 3);
-    addEdge(adj, 3, 1);
-    addEdge(adj, 1, 5);
-
-    cout << "This is the graph : \n";
-    for(int i = 0; i<V; i++) {
-        cout << i << " -> ";
-        for(int i:adj[i]) {
-            cout << i << " ";
+    
+    // Function to detect cycle in a directed graph.
+    bool isCyclic(int V, vector<int> adj[]) {
+        vector<bool> visited(V, false);
+        vector<bool> inRecursion(V, false);
+        
+        for(int i = 0; i<V; i++) {
+            if(!visited[i] && isCycleDFS(adj, i, visited, inRecursion))
+                return true;
         }
-        cout << endl;
+        
+        return false;
     }
-
-    if(isCycle(adj, V))
-        cout << "The graph has cycle\n";
-    else
-      cout << "The graph as no cycle\n";
-return 0;
-}
+};
