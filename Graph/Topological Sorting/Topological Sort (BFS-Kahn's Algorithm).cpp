@@ -10,6 +10,9 @@
     NOTE: This can also be used to check if the graph contains cycle or not (Please see Line:56 below)
 */
 
+
+//NOTE : This assumes that, we don't have cycle in the given directed graph. You can simply add few things in the same code to check for cycle also
+//Or, see this : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Course%20Schedule.cpp
 class Solution {
 	public:
 	//Function to return list containing vertices in Topological order. 
