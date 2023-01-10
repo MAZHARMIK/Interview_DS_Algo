@@ -1,6 +1,6 @@
 /*
       MY YOUTUBE VIDEO ON THIS Qn : <soon>
-      Company Tags                : Google, Adobe, Meta, Amazon, Uber, Bloomberg
+      Company Tags                : Google, Adobe, Meta, Amazon, Uber, Bloomberg, MentorGraphics
       Leetcode Link               : https://leetcode.com/problems/same-tree/
 */
 
