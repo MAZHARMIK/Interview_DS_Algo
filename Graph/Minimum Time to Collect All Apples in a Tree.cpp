@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : <soon>
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=qSBvKlUq0xo
       Company Tags                : Microsoft
       Leetcode Link               : https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/
 */
