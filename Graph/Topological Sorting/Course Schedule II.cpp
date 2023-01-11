@@ -109,7 +109,7 @@ public:
             int a = vec[0];
             int b = vec[1];
             
-            //b ---> a
+            //b--->a
             adj[b].push_back(a);
         }
         
