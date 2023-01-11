@@ -1,5 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=W1WhSN9wAw0
+    MY YOUTUBE VIDEO ON THIS Qn : BFS - https://www.youtube.com/watch?v=W1WhSN9wAw0
+    				  DFS - https://www.youtube.com/watch?v=yiR95dxinjs
     Company Tags                : Accolite, Amazon, Flipkart, Microsoft, Moonfrog Labs, OYO Rooms
     Leetcode Link               : https://leetcode.com/problems/course-schedule-ii/
 */
