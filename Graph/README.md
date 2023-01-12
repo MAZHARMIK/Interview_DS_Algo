@@ -272,5 +272,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Time%20to%20Collect%20All%20Apples%20in%20a%20Tree.cpp">Minimum Time to Collect All Apples in a Tree (Leetcode : 1443)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label.cpp">Number of Nodes in the Sub-Tree With the Same Label (Leetcode : 1519)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
