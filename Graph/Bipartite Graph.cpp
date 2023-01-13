@@ -1,43 +1,55 @@
 /*
-    Company Tags  : Facebook, Samsung
-    Leetcode Link : https://leetcode.com/problems/is-graph-bipartite/
+    MY YOUTUBE VIDEO ON THIS Qn : DFS - <soon>
+                                  BFS - <soon>
+    Company Tags                : Facebook, Samsung, Microsoft, Flipkart
+    Leetcode Link               : https://leetcode.com/problems/is-graph-bipartite/
+    GfG Link                    : https://practice.geeksforgeeks.org/problems/bipartite-graph/1
 */
 
 //Approach-1 (Graph coloring : DFS)
 class Solution {
 public:
-    bool validColor_DFS(vector<vector<int>>& graph, vector<int>& color, int x, int c) {
-        if(color[x] != 0) {
-            //if already colored, then it better be colored with c
-            return color[x] == c;
-        }
+
+    bool checkBipartiteDFS(vector<int>adj[], int curr, vector<int>& color, int currColor) {
+        color[curr] = currColor; //color kardiya curr node ko
         
-        color[x] = c;
-        //Now, I will try to color the neighbors with -c
-        for(int &node : graph[x]) {
-            if(!validColor_DFS(graph, color, node, -c))
+        //ab jaate hain adjacent nodes par
+        for(int &v : adj[curr]) {
+            
+            if(color[v] == color[curr])
                 return false;
+            
+            if(color[v] == -1) { //never colored (never visited)
+                
+                int colorOfV = 1 - currColor;
+                
+                if(checkBipartiteDFS(adj, v, color, colorOfV) == false)
+                    return false;
+            }
+            
         }
         
         return true;
     }
-    
-    bool isBipartite(vector<vector<int>>& graph) {
-        int V = graph.size();
-        vector<int> color(V, 0);
-        /*
-            0  -> not colored (not visited)
-            1  -> Blue colored
-            -1 -> Red colored
-        */
-        
-        for(int i = 0; i<V; i++) {
-            if(color[i] == 0 && !validColor_DFS(graph, color, i, 1))
-                return false;
-        }
-        
-        return true;
-    }
+
+	bool isBipartite(int V, vector<int>adj[]){
+	    
+	    vector<int> color(V, -1); //no node colored in the start
+	    
+	    //red = 1
+	    //gree = 0
+	    
+	    for(int i = 0; i<V; i++) {
+	        if(color[i] == -1) {
+	            if(checkBipartiteDFS(adj, i, color, 1) == false)
+	                return false;
+	        }
+	    }
+	    
+	    return true;
+	    
+	}
+
 };
 
 //Approach-2 (Graph coloring : BFS)
