@@ -277,5 +277,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label.cpp">Number of Nodes in the Sub-Tree With the Same Label (Leetcode : 1519)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Longest%20Path%20With%20Different%20Adjacent%20Characters.cpp"> Longest Path With Different Adjacent Characters (Leetcode : 2246)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
