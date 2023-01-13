@@ -1,5 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=4seuiuW8c0o
+    MY YOUTUBE VIDEO ON THIS Qn : Approach-1 : https://www.youtube.com/watch?v=4seuiuW8c0o
+                                  Approach-2 : https://www.youtube.com/watch?v=yZ6IM8Q-0Ac 
     Company Tags                : <soon>
     Leetcode Link               : https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
 */
