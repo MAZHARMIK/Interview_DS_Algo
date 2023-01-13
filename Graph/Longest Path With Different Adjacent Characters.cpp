@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=EA8dP63iVPk
     Company Tags                : Microsoft
     Leetcode Link               : https://leetcode.com/problems/longest-path-with-different-adjacent-characters/ 
     Similar Qn in Tree          : Binary Tree Maximum Path Sum - YouTube  : https://www.youtube.com/watch?v=Op6YFcs8R9M
