@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Number%20of%20Provinces.cpp"> Number of Provinces (Leetcode-547)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://leetcode.com/problems/lexicographically-smallest-equivalent-string/"> Lexicographically Smallest Equivalent String (Leetcode-1061)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
