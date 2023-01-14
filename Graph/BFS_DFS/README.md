@@ -56,7 +56,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://leetcode.com/problems/lexicographically-smallest-equivalent-string/"> Lexicographically Smallest Equivalent String (Leetcode-1061)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Lexicographically%20Smallest%20Equivalent%20String.cpp"> Lexicographically Smallest Equivalent String (Leetcode-1061)</a>
 				</td>
 			</tr>
 		</tbody>
