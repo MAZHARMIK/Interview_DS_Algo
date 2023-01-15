@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=AsAdKHkITBQ&t=1625s
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=AsAdKHkITBQ
     Company Tags                : Google, Facebook, Apple, Amazon, Netflix, Flipkart
     GfG Link                    : https://practice.geeksforgeeks.org/problems/disjoint-set-union-find/1
 */
