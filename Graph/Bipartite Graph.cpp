@@ -52,51 +52,56 @@ public:
 
 };
 
+
+
 //Approach-2 (Graph coloring : BFS)
 class Solution {
 public:
-    bool isBipartite(vector<vector<int>>& graph) {
-        int V = graph.size();
-        vector<int> color(V, 0);
-        /*
-            0  -> not colored (not visited)
-            1  -> Blue colored
-            -1 -> Red colored
-        */
+
+    bool checkBipartiteBFS(vector<int>adj[], int curr, vector<int>& color, int currColor) {
+        color[curr] = currColor; //color kardiya curr node ko
         
-        //Do a DFS and keep coloring.
-        //During DFS keep track if we are able to color or not
-        for(int i = 0; i<V; i++) {
+        queue<int> que;
+        que.push(curr);
+        
+        while(!que.empty()) {
+            int u = que.front();
+            que.pop();
             
-            if(color[i] != 0)
-                continue;
-            
-            //Do a BFS on ith node
-            queue<int> que;
-            que.push(i);
-            color[i] = 1;
-            //Now, I will try to color adjacent nodes with -1 (i.e. -color[i])
-            
-            while(!que.empty()) {
-                int curr = que.front();
-                que.pop();
-                
-                for(int &node : graph[curr]) {
-                    //if it's already colored, it better be colored with opposite color of parent
-                    if(color[node] == color[curr])
-                        return false;
-                    
-                    else if(color[node] == 0) {
-                        color[node] = -color[curr];
-                        que.push(node);
-                    }
+            for(int &v : adj[u]) {
+                if(color[v] == color[u]) {
+                    return false;
+                } else if(color[v] == -1) {
+                    color[v] = 1 - color[u];
+                    que.push(v);
                 }
             }
         }
         
         return true;
     }
+
+	bool isBipartite(int V, vector<int>adj[]){
+	    
+	    vector<int> color(V, -1); //no node colored in the start
+	    
+	    //red = 1
+	    //gree = 0
+	    
+	    for(int i = 0; i<V; i++) {
+	        if(color[i] == -1) {
+	            if(checkBipartiteBFS(adj, i, color, 1) == false)
+	                return false;
+	        }
+	    }
+	    
+	    return true;
+	    
+	}
+
 };
+
+
 
 //Approach-3 (Union Find)
 class Solution {
