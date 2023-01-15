@@ -1,6 +1,7 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : DFS - https://www.youtube.com/watch?v=NeU-C1PTWB8
-                                  BFS - <soon>
+                                  BFS - https://www.youtube.com/watch?v=cvhXZt66VhA
+				  DSU - <soon>
     Company Tags                : Facebook, Samsung, Microsoft, Flipkart
     Leetcode Link               : https://leetcode.com/problems/is-graph-bipartite/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/bipartite-graph/1
