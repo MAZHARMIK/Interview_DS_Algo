@@ -29,5 +29,10 @@
 					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Most%20Stones%20Removed%20with%20Same%20Row%20or%20Column.cpp"> Most Stones Removed with Same Row or Column (Leetcode-947)</a>
 				      </td>
 			</tr>
+			<tr>
+        			<td>
+					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Number%20of%20Good%20Paths.cpp"> Number of Good Paths (Leetcode-2421)</a>
+				      </td>
+			</tr>
 		</tbody>
 </table>
