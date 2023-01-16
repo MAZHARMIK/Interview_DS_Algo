@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Google
-    Leetcode Link : https://leetcode.com/problems/insert-interval/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Google, Twitter, Microsoft, Apple, Amazon
+    Leetcode Link               : https://leetcode.com/problems/insert-interval/
 */
 
 //Approach-1 (TLE) Time : (O(n^2))
@@ -29,7 +30,7 @@ public:
 };
 
 
-/Approach-2 (Time and space : O(n))
+//Approach-2 (Time and space : O(n))
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
