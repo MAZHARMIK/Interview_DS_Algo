@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=XXaVIDIbUn4
     Company Tags                : Google, Twitter, Microsoft, Apple, Amazon
     Leetcode Link               : https://leetcode.com/problems/insert-interval/
 */
@@ -57,3 +57,4 @@ public:
         }
         return result;
     }
+};
