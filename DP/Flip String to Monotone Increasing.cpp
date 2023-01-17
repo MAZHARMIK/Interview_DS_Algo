@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : Recur+Memo - https://www.youtube.com/watch?v=mLfcUysjj6I
-                                  Optimal.   - Soon
+                                  Optimal.   - https://www.youtube.com/watch?v=NlTjorKsn-Y
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/flip-string-to-monotone-increasing/
 */
