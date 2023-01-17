@@ -487,5 +487,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Domino%20and%20Tromino%20Tiling.cpp">Domino and Tromino Tiling (Leetcode-790) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Flip%20String%20to%20Monotone%20Increasing.cpp">Flip String to Monotone Increasing (Leetcode-926) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
