@@ -66,20 +66,34 @@ public:
 
 class Solution {
 public:
-    int subarraysDivByK(vector<int>& A, int K) {
-        map<int, int> mp;
-        mp[0] = 1;
-        int cumSum = 0;
-        int res = 0;
+    int subarraysDivByK(vector<int>& nums, int k) {
+        int n = nums.size();
         
-        for(int i:A) {
-            cumSum  += i;
-            int rem = (cumSum%K+K)%K; //To avoid -ve remainders
+        unordered_map<int, int> mp;
+        int sum = 0;
+        
+        mp[0] = 1;
+        
+        int result = 0;
+        
+        for(int i = 0; i<n; i++) {
+            sum += nums[i];
             
-            if(mp.count(rem))
-                res += mp[rem];
+            int rem = sum%k;
+            
+            if(rem < 0) {
+                rem += k;
+            }
+            
+            if(mp.find(rem) != mp.end()) {
+                result += mp[rem];
+            }
+            
             mp[rem]++;
+            
         }
-        return res;
+        
+        return result;
+        
     }
 };
