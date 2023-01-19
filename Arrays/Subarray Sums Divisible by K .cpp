@@ -1,6 +1,8 @@
 /*
-    Company Tags     : Amazon, Microsoft
-    Leetcode Qn Link : https://leetcode.com/problems/subarray-sums-divisible-by-k/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Amazon, Microsoft, Paytm
+    Leetcode Qn Link            : https://leetcode.com/problems/subarray-sums-divisible-by-k/
+    GfG Link                    : https://practice.geeksforgeeks.org/problems/sub-array-sum-divisible-by-k2617/1
 */
 
 //Approach-1 (O(n^3))
