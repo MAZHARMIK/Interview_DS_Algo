@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=7Xeorb721LQ
     Company Tags                : Amazon, Microsoft, Paytm
     Leetcode Qn Link            : https://leetcode.com/problems/subarray-sums-divisible-by-k/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/sub-array-sum-divisible-by-k2617/1
