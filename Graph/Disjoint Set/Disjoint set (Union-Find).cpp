@@ -10,7 +10,7 @@ int find(int A[],int x)
        if(A[x] == x)
         return x;
         
-        return A[x] = find(A, A[x]);
+        return A[x] = find(A, A[x]); //This is Path compression
 }
 void unionSet(int A[],int X,int Z)
 {
