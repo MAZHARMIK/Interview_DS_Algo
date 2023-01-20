@@ -154,5 +154,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Unique%20Paths%20III.cpp"> Unique Paths III (Leetcode-980)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Non-decreasing%20Subsequences.cpp"> Non-decreasing Subsequences (Leetcode-491)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
