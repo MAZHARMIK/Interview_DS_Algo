@@ -4,7 +4,6 @@
     Leetcode Link               : https://leetcode.com/problems/restore-ip-addresses/
 */
 
-//Approach-1
 class Solution {
 public:
     int n;
