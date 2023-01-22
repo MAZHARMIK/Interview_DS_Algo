@@ -39,5 +39,10 @@
 					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Number%20of%20Good%20Paths.cpp"> Number of Good Paths (Leetcode-2421)</a>
 				      </td>
 			</tr>
+			<tr>
+        			<td>
+					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Detect%20Cycle%20using%20DSU.cpp"> Detect Cycle using DSU</a>
+				      </td>
+			</tr>
 		</tbody>
 </table>
