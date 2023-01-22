@@ -224,7 +224,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Palindrome%20Partitioning">Palindrome Partitioning (Leetcode-131)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Palindrome%20Partitioning.cpp">Palindrome Partitioning (Leetcode-131)</a>
 				</td>
 			</tr>
 			<tr>
