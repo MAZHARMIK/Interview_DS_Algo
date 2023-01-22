@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Google, Amazon
-    Leetcode Link : https://leetcode.com/problems/palindrome-partitioning/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Google, Amazon, Microsoft, Meta
+    Leetcode Link               : https://leetcode.com/problems/palindrome-partitioning/
 */
 
 //Whenever a question asks for "Generating all possible" something, think about Backtracking once
