@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=jHR7KUAAEzw
     Company Tags                : Google, Amazon, Microsoft, Meta
     Leetcode Link               : https://leetcode.com/problems/palindrome-partitioning/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/find-all-possible-palindromic-partitions-of-a-string/1
