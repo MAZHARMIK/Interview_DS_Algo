@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ottPfSr3xls
     Company Tags                : Amazon, Uber, Microsoft
     Leetcode Link               : https://leetcode.com/problems/find-the-town-judge/
 */
