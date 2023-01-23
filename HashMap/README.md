@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Word%20Pattern.cpp">Word Pattern (Leetcode-290)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Find%20the%20Town%20Judge.cpp">Find the Town Judge (Leetcode-997)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
