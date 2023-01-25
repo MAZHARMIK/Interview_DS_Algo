@@ -59,5 +59,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Lexicographically%20Smallest%20Equivalent%20String.cpp"> Lexicographically Smallest Equivalent String (Leetcode-1061)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Find%20Closest%20Node%20to%20Given%20Two%20Nodes.cpp"> Find Closest Node to Given Two Nodes (Leetcode-2359)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
