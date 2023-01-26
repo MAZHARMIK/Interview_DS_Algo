@@ -282,5 +282,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Longest%20Path%20With%20Different%20Adjacent%20Characters.cpp"> Longest Path With Different Adjacent Characters (Leetcode : 2246)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Cheapest%20Flights%20Within%20K%20Stops.cpp"> Cheapest Flights Within K Stops (Leetcode : 787)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
