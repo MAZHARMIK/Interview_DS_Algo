@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Interval%20List%20Intersections.cpp">Interval List Intersections (Leetcode-986)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Data%20Stream%20as%20Disjoint%20Intervals.cpp">Data Stream as Disjoint Intervals (Leetcode-352)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
