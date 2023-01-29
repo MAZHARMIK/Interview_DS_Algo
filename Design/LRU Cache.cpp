@@ -7,54 +7,52 @@
 //Approach-1 (Brute Force)
 class LRUCache {
 public:
-    vector<vector<int>> cache;
-    int n;
+    vector<pair<int,int>> cache;
+    int cap ;
     LRUCache(int capacity) {
-        n = capacity;
+        cap = capacity;
+        
     }
     
-    //O(n)
+    
     int get(int key) {
-        if(cache.size() == 0) {
-            return -1;
+        
+        for(int i=0;i<cache.size();i++){
+            if(cache[i].first==key){
+                int val = cache[i].second;
+                pair<int,int> temp = cache[i];
+                cache.erase(cache.begin()+i);
+                cache.push_back(temp);
+                
+                return val;             
+            }
         }
-        int val = -1;
-        int i = 0;
-        for(; i<cache.size(); i++) {
-            if(cache[i][0] == key) {
-                val = cache[i][1];
+        return -1;
+        
+    }
+    
+    void put(int key, int value) {
+        bool found= false;
+        for(int i=0;i<cache.size();i++){
+            if(cache[i].first==key){
+                found =true;
+                cache.erase(cache.begin()+i);
+                cache.push_back({key,value});
                 break;
             }
         }
-        if(i == cache.size()) {
-            return -1;
-        }
-        cache.erase(cache.begin()+i);
-        cache.push_back({key, val});
-        return val;
-    }
-    
-    //O(n)
-    void put(int key, int value) {
-        if(cache.size() == 0) {
-            cache.push_back({key, value});
-            return;
-        }
-        for(int i = 0; i<cache.size(); i++) {
-            if(cache[i][0] == key) {
-                cache[i][1] = value;
-                cache.erase(cache.begin()+i);
-                cache.push_back({key, value});
-                return;
+        if(found)
+            return ;
+        else{
+            if(cache.size() == cap){
+                cache.erase(cache.begin());
+                cache.push_back({key,value});
+            }
+            else{
+                cache.push_back({key,value});
             }
         }
-        if(cache.size() < n) {
-            cache.push_back({key, value});
-            return;
-        } else {
-            cache.erase(cache.begin());
-            cache.push_back({key, value});
-        }
+      
     }
 };
 
