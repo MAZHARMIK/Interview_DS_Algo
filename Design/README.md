@@ -9,9 +9,14 @@
       <th>Problem Name</th>
 		</thead>
 		<tbody>
-      <tr>
-        <td>
+     			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/LRU%20Cache.cpp">LRU Cache (Leetcode-146)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/LFU%20Cache.cpp">LFU Cache (Leetcode - 460)</a>
 				</td>
 			</tr>
 			<tr>
