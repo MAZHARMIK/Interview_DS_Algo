@@ -487,5 +487,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Flip%20String%20to%20Monotone%20Increasing.cpp">Flip String to Monotone Increasing (Leetcode-926) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/N-th%20Tribonacci%20Number.cpp">N-th Tribonacci Number (Leetcode-1137) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
