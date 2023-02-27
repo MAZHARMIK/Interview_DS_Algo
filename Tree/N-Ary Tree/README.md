@@ -29,5 +29,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/N-ary%20Tree%20Level%20Order%20Traversal.cpp">N-ary Tree Level Order Traversal (Leetcode-429)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/Construct%20Quad%20Tree.cpp">Construct Quad Tree (Leetcode-427)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
