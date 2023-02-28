@@ -358,5 +358,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Same%20Tree.cpp"> Same Tree (Leetcode-100)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20Duplicate%20Subtrees.cpp"> Find Duplicate Subtrees (Leetcode-652)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
