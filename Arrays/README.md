@@ -287,5 +287,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Snakes%20and%20Ladders.cpp"> Snakes and Ladders (Leetcode-909)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sort%20an%20Array.cpp"> Sort an Array (Leetcode-912)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
