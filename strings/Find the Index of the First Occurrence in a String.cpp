@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn - <soon>
+    MY YOUTUBE VIDEO ON THIS Qn - https://www.youtube.com/watch?v=7UBEku3y2Ig
     Company Tags                - Google, Amazon, Microsoft, Facebook, Qualcomm
     Leetcode Link               - https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 */
