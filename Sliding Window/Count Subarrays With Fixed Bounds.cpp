@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=z6LwIkEn9qc
     Company Tags                : Microsoft
     Leetcode Link               : https://leetcode.com/problems/count-subarrays-with-fixed-bounds/
 */
