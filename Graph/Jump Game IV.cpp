@@ -1,6 +1,7 @@
 /*
-    Company Tags  : NIL (Please let me know if you get it :-) )
-    Leetcode Link : https://leetcode.com/problems/jump-game-iv/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Google, Microsoft, Adobe, Amazon
+    Leetcode Link               : https://leetcode.com/problems/jump-game-iv/
 */
 
 DFS -> TLE
