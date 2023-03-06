@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=BltzCxN1vRc
     Company Tags                : Google, Apple, Amazon, Meta
     Leetcode Link               : https://leetcode.com/problems/kth-missing-positive-number/
 */
