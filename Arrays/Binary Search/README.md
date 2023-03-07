@@ -94,5 +94,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Guess%20Number%20Higher%20or%20Lower.cpp">Guess Number Higher or Lower (Leetcode-374)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Time%20to%20Complete%20Trips.cpp">Minimum Time to Complete Trips (Leetcode-2187)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
