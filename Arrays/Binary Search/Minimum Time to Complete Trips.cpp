@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=tUCVupA0lAc
     Company Tags                : Google, PhonePe
     Leetcode Link               : https://leetcode.com/problems/minimum-time-to-complete-trips/
 */
