@@ -99,5 +99,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Time%20to%20Complete%20Trips.cpp">Minimum Time to Complete Trips (Leetcode-2187)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Koko%20Eating%20Bananas.cpp">Koko Eating Bananas (Leetcode-875)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
