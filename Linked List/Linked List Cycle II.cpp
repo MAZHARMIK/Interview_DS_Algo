@@ -1,5 +1,7 @@
 /*
-    Company Tags  : Microsoft
+    Company Tags  : Microsoft, Paytm, VMWare, Accolite, Amazon, OYO Rooms, Samsung
+                    Snapdeal, D-E-Shaw, Hike, MakeMyTrip, Walmart, MAQ Software, Adobe, SAP Labs, 
+                    Qualcomm, Veritas
     Leetcode Link : https://leetcode.com/problems/linked-list-cycle-ii/
 */
 
@@ -22,11 +24,11 @@ public:
         if(fast != slow)
             return NULL;
         
-        slow = head;
-        while(fast != slow) {
-            fast = fast->next;
-            slow = slow->next;
+        ListNode* entry = head;
+        while(entry != slow) {
+            entry = entry->next;
+            slow  = slow->next;
         }
-        return fast;
+        return entry;
     }
 };
