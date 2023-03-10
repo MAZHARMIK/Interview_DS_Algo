@@ -159,5 +159,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Middle%20of%20the%20Linked%20List.cpp"> Middle of the Linked List (Leetcode-876)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Linked%20List%20Random%20Node.cpp"> Linked List Random Node (Leetcode-382)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
