@@ -1,9 +1,10 @@
 /*
-    Company Tags  : NIL (Please let me know if you get to know)
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags  : GOOGLE
     Leetcode Link : https://leetcode.com/problems/linked-list-random-node/
 */
 
-//Approach-1 (Simple)
+//Approach-1 (Simple) - (O(n) time and space)
 class Solution {
 public:
     vector<int> arr; //O(N) space
@@ -23,7 +24,7 @@ public:
     }
 };
 
-//Better Approach (Using Reservior Sampling)
+//Better Approach (Using Reservior Sampling) - Timr : O(n)
 class Solution {
 public:
     ListNode* temp;
