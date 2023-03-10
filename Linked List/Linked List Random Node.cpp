@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=9vC4I5sKFsw
     Company Tags  : GOOGLE
     Leetcode Link : https://leetcode.com/problems/linked-list-random-node/
 */
