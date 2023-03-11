@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Let me know when you get it :-)
-    Leetcode Link : https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Google, Flipkart, Amazon
+    Leetcode Link               : https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
 */
 
 /*
