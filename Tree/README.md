@@ -275,11 +275,6 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree">Convert Sorted List to Binary Search Tree (Leetcode-109)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Binary%20Tree%20Cameras(3%20approaches)">Binary Tree Cameras (Leetcode-968)</a>
 				</td>
 			</tr>
