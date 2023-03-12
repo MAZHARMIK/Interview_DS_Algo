@@ -5,15 +5,15 @@
 */
 
 
-//Approach-1 (Using merge sort) - Time : O(log(n) * n * k)
+//Approach-1 (Using merge sort) - Time : O(log(k) * k * n)
 /*
-    Where n = total number of lists
-    and k = average length of every linkedlist
+    Where k = total number of lists
+    and n = average length of every linkedlist
     Why ?
     Because, The merge in the higher layer has more nodes, 
     the lists are longer than the lists in the bottoms. 
-    But the number of operation of merge is the same in every level(which is n*k). 
-    and log(n) comes from "partitionAndMerge" function. We will have log(n) levels and on each level we do a merge.
+    But the number of operation of merge is the same in every level(which is k*n). 
+    and log(k) comes from "partitionAndMerge" function. We will have log(k) levels and on each level we do a merge.
 */
 class Solution {
 public:
