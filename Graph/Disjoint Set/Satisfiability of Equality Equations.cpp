@@ -1,6 +1,7 @@
 /*
-      Company Tags  : <soon>
-      Leetcode Link : https://leetcode.com/problems/satisfiability-of-equality-equations/
+      MY YOUTUBE VIDEO ON THIS Qn : <soon>
+      Company Tags                : <soon>
+      Leetcode Link               : https://leetcode.com/problems/satisfiability-of-equality-equations/
 */
 
 class Solution {
