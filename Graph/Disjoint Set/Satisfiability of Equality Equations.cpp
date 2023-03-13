@@ -1,6 +1,6 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : <soon>
-      Company Tags                : <soon>
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=0Z8lt7U_kiE
+      Company Tags                : GOOGLE
       Leetcode Link               : https://leetcode.com/problems/satisfiability-of-equality-equations/
 */
 
