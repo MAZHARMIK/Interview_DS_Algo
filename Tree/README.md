@@ -368,5 +368,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Sum%20Root%20to%20Leaf%20Numbers.cpp"> Sum Root to Leaf Numbers (Leetcode-129)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.cpp"> Construct Binary Tree from Inorder and Postorder Traversal (Leetcode-106)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
