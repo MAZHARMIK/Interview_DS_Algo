@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Palindrome%20Pairs.cpp">Palindrome Pairs : (Leetcode-336)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Implement%20Trie%20(Prefix%20Tree).cpp">Implement Trie (Prefix Tree) (Leetcode-208)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
