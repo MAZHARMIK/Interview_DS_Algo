@@ -119,5 +119,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Time%20Based%20Key-Value%20Store.cpp">Time Based Key-Value Store(Leetcode - 981)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Browser%20History.cpp"> Design Browser History (Leetcode - 1472)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
