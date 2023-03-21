@@ -297,5 +297,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Can%20Place%20Flowers.cpp"> Can Place Flowers (Leetcode-605)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Number%20of%20Zero-Filled%20Subarrays.cpp"> Number of Zero-Filled Subarrays (Leetcode-2348)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
