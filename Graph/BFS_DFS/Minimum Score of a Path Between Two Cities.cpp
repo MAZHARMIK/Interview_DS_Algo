@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=blUPwDof-r4
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/
 */
