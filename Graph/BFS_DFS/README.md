@@ -64,5 +64,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Find%20Closest%20Node%20to%20Given%20Two%20Nodes.cpp"> Find Closest Node to Given Two Nodes (Leetcode-2359)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Minimum%20Score%20of%20a%20Path%20Between%20Two%20Cities.cpp"> Minimum Score of a Path Between Two Cities (Leetcode-2492)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
