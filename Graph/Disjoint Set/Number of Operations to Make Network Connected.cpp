@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=q2xBd-D_1KQ
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/number-of-operations-to-make-network-connected/
 */
