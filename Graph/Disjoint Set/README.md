@@ -44,5 +44,10 @@
 					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Detect%20Cycle%20using%20DSU.cpp"> Detect Cycle using DSU</a>
 				      </td>
 			</tr>
+			<tr>
+        			<td>
+					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Number%20of%20Operations%20to%20Make%20Network%20Connected.cpp"> Number of Operations to Make Network Connected (Leetcode - 1319)</a>
+				      </td>
+			</tr>
 		</tbody>
 </table>
