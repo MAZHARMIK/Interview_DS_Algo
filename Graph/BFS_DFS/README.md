@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Minimum%20Score%20of%20a%20Path%20Between%20Two%20Cities.cpp"> Minimum Score of a Path Between Two Cities (Leetcode-2492)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero.cpp"> Reorder Routes to Make All Paths Lead to the City Zero (Leetcode-1466)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
