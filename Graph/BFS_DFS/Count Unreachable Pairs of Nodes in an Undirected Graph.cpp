@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : <soon>
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=kOt2VNsU0FE
       Company Tags                : MICROSOFT
       Leetcode Link               : https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/
 */
