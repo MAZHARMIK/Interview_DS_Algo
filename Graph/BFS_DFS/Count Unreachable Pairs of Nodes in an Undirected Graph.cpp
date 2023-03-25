@@ -179,4 +179,5 @@ public:
 };
 
 
-//Approach - 4 : DSU will be provided soon in DSU folder of my Graph repository
+//Approach - 4 : DSU (In mo DS repo - Link below)
+//https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph.cpp
