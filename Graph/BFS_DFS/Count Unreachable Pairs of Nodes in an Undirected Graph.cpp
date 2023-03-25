@@ -5,7 +5,7 @@
 */
 
 
-//Using DFS - (Remaining Nodes concept)
+//Approach-1 : Using DFS - (Remaining Nodes concept)
 class Solution {
 public:
     
@@ -58,7 +58,7 @@ public:
 };
 
 
-//Using DFS (Calculating duplicates and divide by 2)
+//Approach-2 : Using DFS (Calculating duplicates and divide by 2)
 class Solution {
 public:
     
@@ -107,4 +107,76 @@ public:
     }
 };
 
-//Using BFS and DSU will be provided soon
+//Approach-3 : Using BFS 
+class Solution {
+public:
+    
+    void bfs(int u, unordered_map<int, vector<int>> &adj, vector<bool>& visited, long long &Size) {
+        
+        queue<int> que;
+        que.push(u);
+        
+        visited[u] = true;
+        Size++;
+        
+        while(!que.empty()) {
+            
+            int x = que.front();
+            que.pop();
+            
+            for(int &v : adj[x]) {
+                
+                if(!visited[v]) {
+                    visited[v] = true;
+                    que.push(v);
+                    Size++;
+                }
+                
+            }
+            
+        }
+        
+    }
+    
+    long long countPairs(int n, vector<vector<int>>& edges) {
+        
+        unordered_map<int, vector<int>> adj;
+        
+        for(auto &vec : edges) {
+            
+            int u = vec[0];
+            int v = vec[1];
+            
+            adj[u].push_back(v);
+            adj[v].push_back(u);
+            
+        }
+        
+        vector<bool> visited(n, false);
+        
+        long long remainingNodes = n;
+        
+        long long result = 0;
+        
+        for(int i = 0; i<n; i++) {
+            
+            if(!visited[i]) {
+                
+                long long Size = 0;
+                
+                bfs(i, adj, visited, Size);
+                
+                result += (Size) * (remainingNodes - Size);
+                
+                remainingNodes -= Size;
+            }
+            
+        }
+        
+        return result;
+        
+    }
+};
+
+
+//Approach - 4 : DSU will be provided soon in DSU folder of my Graph repository
