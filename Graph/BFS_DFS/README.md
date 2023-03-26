@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph.cpp"> Count Unreachable Pairs of Nodes in an Undirected Graph (Leetcode-2316)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Longest%20Cycle%20in%20a%20Graph.cpp"> Longest Cycle in a Graph (Leetcode-2360)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
