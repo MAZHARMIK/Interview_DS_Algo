@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6aML2-rJJik
     Company Tags                : OLA, Goldman Sachs, Google (Google asked with small variation)
     Leetcode Link               : https://leetcode.com/problems/minimum-path-sum/   
 */
