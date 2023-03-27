@@ -1,6 +1,7 @@
 /*
-    Company Tags  : OLA, Goldman Sachs, Google (Google asked with small variation)
-    Leetcode Link : https://leetcode.com/problems/minimum-path-sum/   
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : OLA, Goldman Sachs, Google (Google asked with small variation)
+    Leetcode Link               : https://leetcode.com/problems/minimum-path-sum/   
 */
 
 //Approach-1 (Recur + Memoization) : O(m*n)
