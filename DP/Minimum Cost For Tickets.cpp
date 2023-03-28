@@ -20,25 +20,17 @@ public:
         
         //if i take 7-day pass at idx
         int i          = idx;
-        for(; i < n && days[i] < days[idx]+7; i++) {
-            //why days[i] < days[idx]+7 and not (days[i] <= days[idx]+7)
-            //Because j will get ncreased by one unnecessarily
-            /*
-                Example : [1, 4, 6, 7, 8]
-                If you take 7 day pass on day 1 (idx = 0)
-                You would want to stop at idx = 3 at day 7
-                but, idx will get incremented one more if we use <=
-            */
+        while(i < n && days[i] < days[idx]+7) {
+            i++;
         }
         int cost_7 = costs[1] + memoized(days, costs, n, i);
         
         
         //if i take 30-day pass at idx
         int j      = idx;
-
-        for(; j < n && days[j] < days[idx]+30; j++) {
+        while(j < n && days[j] < days[idx]+30) {
+            j++;
         }
-        
         int cost_30 = costs[2] + memoized(days, costs, n, j);
         
         
@@ -51,6 +43,7 @@ public:
         return memoized(days, costs, n, 0);
     }
 };
+
 
 //Approach-2 (Bottom Up DP) [Time : O(max_day)] [Space : O(n)] //n = size of days vector
 class Solution {
