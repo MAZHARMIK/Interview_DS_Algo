@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=YrCTd8p5-bY
     Company Tags                : GOOGLE
     Leetcode link               : https://leetcode.com/problems/minimum-cost-for-tickets/
 */
