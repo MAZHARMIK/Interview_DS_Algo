@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Let me know if you get it :-)
-    Leetcode link : https://leetcode.com/problems/minimum-cost-for-tickets/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : GOOGLE
+    Leetcode link               : https://leetcode.com/problems/minimum-cost-for-tickets/
 */
 //Approach-1 (Recursion + Memoized)  [Time : O(max_day)] [Space : O(n)] //n = size of days vector
 class Solution {
@@ -20,7 +21,7 @@ public:
         //if i take 7-day pass at idx
         int i          = idx;
         for(; i < n && days[i] < days[idx]+7; i++) {
-            //why days[i] < days[idx]+7 and not (days[i] < days[idx]+7)
+            //why days[i] < days[idx]+7 and not (days[i] <= days[idx]+7)
             //Because j will get ncreased by one unnecessarily
             /*
                 Example : [1, 4, 6, 7, 8]
