@@ -492,5 +492,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/N-th%20Tribonacci%20Number.cpp">N-th Tribonacci Number (Leetcode-1137) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Reducing%20Dishes.cpp">Reducing Dishes (Leetcode-1402) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
