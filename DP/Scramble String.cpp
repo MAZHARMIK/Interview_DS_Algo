@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Fx96uB9EIDQ
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/scramble-string/
 */
