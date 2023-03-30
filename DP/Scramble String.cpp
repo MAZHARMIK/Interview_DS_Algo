@@ -1,8 +1,11 @@
 /*
-    Memoized Approach
-    This is an accepted solution
-    Leetcode Link : https://leetcode.com/problems/scramble-string/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : GOOGLE
+    Leetcode Link               : https://leetcode.com/problems/scramble-string/
 */
+
+
+//Appoach-1 (Recursion + Memo)
 class Solution {
 public:
     unordered_map<string, bool> mp;
