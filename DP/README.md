@@ -497,5 +497,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Reducing%20Dishes.cpp">Reducing Dishes (Leetcode-1402) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Ways%20of%20Cutting%20a%20Pizza.cpp">Number of Ways of Cutting a Pizza (Leetcode-1444) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
