@@ -104,5 +104,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Koko%20Eating%20Bananas.cpp">Koko Eating Bananas (Leetcode-875)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Binary%20Search.cpp"> Binary Search (Leetcode-704)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
