@@ -103,4 +103,4 @@ public:
 
 
 //Approach-3 (Using 2 pointers - It will be posted in Two Pointer sub-repository)
-//Will attach the link here soon
+//Two Pointer Sub-repo - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Successful%20Pairs%20of%20Spells%20and%20Potions.cpp
