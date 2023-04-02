@@ -3,6 +3,8 @@
 
 # Arrays/Binary Search : :triangular_flag_on_post:
 
+When to use what Binary Search - <a href = "https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems">I will make a video on this resource soon</a>
+
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
 		<thead>
