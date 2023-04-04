@@ -4,6 +4,9 @@
 	GfG Link		    : https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 */
 
+//Time : O(E * log(V))
+//E = number of edges
+//V = number of vertices
 class Solution
 {
 	public:
