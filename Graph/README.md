@@ -287,5 +287,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Cheapest%20Flights%20Within%20K%20Stops.cpp"> Cheapest Flights Within K Stops (Leetcode : 787)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra’s%20Algorithm(Priority%20Queue).cpp"> Dijkstra’s Algorithm(Priority Queue) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
