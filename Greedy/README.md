@@ -174,5 +174,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Ice%20Cream%20Bars.cpp"> Maximum Ice Cream Bars (Leetcode-1833)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Optimal%20Partition%20of%20String.cpp"> Optimal Partition of String (Leetcode-2405)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
