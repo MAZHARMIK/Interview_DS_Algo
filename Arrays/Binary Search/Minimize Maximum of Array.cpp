@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=lWU1wI7koGk
     Company Tags                : Meta
     Leetcode Link               : https://leetcode.com/problems/minimize-maximum-of-array/
 */
