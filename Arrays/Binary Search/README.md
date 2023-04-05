@@ -116,5 +116,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Successful%20Pairs%20of%20Spells%20and%20Potions.cpp"> Successful Pairs of Spells and Potions (Leetcode-2300)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimize%20Maximum%20of%20Array.cpp"> Minimize Maximum of Array (Leetcode-2439)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
