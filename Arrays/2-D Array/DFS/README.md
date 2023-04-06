@@ -18,5 +18,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Longest_Increasing_Path_in_a_Matrix.cpp">Longest Increasing Path in a Matrix (Leetcode-329)</a>
 				  </td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Number%20of%20Closed%20Islands.cpp">Number of Closed Islands (Leetcode-1254)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
