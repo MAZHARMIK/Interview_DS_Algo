@@ -23,5 +23,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Number%20of%20Closed%20Islands.cpp">Number of Closed Islands (Leetcode-1254)</a>
 				  </td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Number%20of%20Enclaves.cpp">Number of Enclaves (Leetcode-1020)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
