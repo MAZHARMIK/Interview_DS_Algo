@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
     Company Tags                : Google, Facebook, Amazon
     Leetcode Qn Link            : https://leetcode.com/problems/clone-graph/
 */
@@ -48,7 +48,7 @@ public:
     }
 };
 
-//Approach-4 DFS (Using unordered_map)
+//Approach-2 DFS (Using unordered_map)
 class Solution {
 public:
     
@@ -204,10 +204,6 @@ public:
         }
         
     }
-    
-    vector<Node*> mp(101, NULL);
-    //mp[0] = Node
-    //0 value waale original node ka clone node = Node
     
     Node* cloneGraph(Node* node) {
         if(!node)
