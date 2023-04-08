@@ -282,5 +282,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra’s%20Algorithm(Priority%20Queue).cpp"> Dijkstra’s Algorithm(Priority Queue) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra’s%20Algorithm(set).cpp"> Dijkstra’s Algorithm(set) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
