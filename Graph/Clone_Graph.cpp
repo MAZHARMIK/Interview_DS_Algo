@@ -4,7 +4,7 @@
     Leetcode Qn Link            : https://leetcode.com/problems/clone-graph/
 */
 
-//Approach-1 (DFS)
+//Approach-1 (DFS) Using vector as map
 class Solution {
 public:
     
@@ -39,25 +39,68 @@ public:
         //We could use map also if constraints are not clear (i.e. unordered_map<Node*, Node*> visited;)
         visited[node->val] = clone_node;
         
-        //cloning the neighbours now
-        for(Node* x : node->neighbors) {
-            if(visited[x->val] == NULL) {
-                //create a clone of neighbour
-                Node* clone = new Node(x->val);
-                clone_node->neighbors.push_back(clone);
-                //Now, recursively fill cloned neighbours corresponding to x and clone
-                DFS(x, clone, visited);
-            } else {
-                clone_node->neighbors.push_back(visited[x->val]);
-            }
-        }
+
+        DFS(node, clone_node, visited);
+ 
         
         
         return clone_node;
     }
 };
 
-//Approach-2 (BFS)
+//Approach-4 DFS (Using unordered_map)
+class Solution {
+public:
+    
+    unordered_map<Node*, Node*> mp;
+    
+    void DFS(Node* node, Node* clone_node) {
+        
+        for(Node* n : node->neighbors) {
+            
+            if(mp.find(n) == mp.end()) {
+                
+                Node* clone = new Node(n->val);
+                mp[n] = clone;
+                clone_node->neighbors.push_back(clone);
+                
+                DFS(n, clone);
+                
+            } else {
+                
+                clone_node->neighbors.push_back(mp[n]);
+                
+            }
+            
+        }
+        
+    }
+    
+    Node* cloneGraph(Node* node) {
+        if(!node)
+            return NULL;
+        
+        mp.clear();
+        
+        //cloned the given node
+        Node* clone_node = new Node(node->val);
+        
+        //Now, cloe its neighbours and recursively their newighbours
+        /*
+                But if a node reappears, then we need to access that cloned node
+                So, store them in a map <Node*, Node*>
+        */
+        
+        mp[node] = clone_node;
+        
+        DFS(node, clone_node);
+        
+        return clone_node;
+    }
+};
+
+
+//Approach-3 (BFS) - Using vector as map
 class Solution {
 public:
     void BFS(queue<Node*>& que, vector<Node*>& visited) {
@@ -98,6 +141,94 @@ public:
         que.push(node);
         
         BFS(que, visited);
+        
+        return clone_node;
+    }
+};
+
+//Approach-4 BFS (Using unordered_map)
+class Solution {
+public:
+    
+    unordered_map<Node*, Node*> mp;
+    
+    void DFS(Node* node, Node* clone_node) {
+        
+        for(Node* n : node->neighbors) {
+            
+            if(mp.find(n) == mp.end()) {
+                
+                Node* clone = new Node(n->val);
+                mp[n] = clone;
+                clone_node->neighbors.push_back(clone);
+                
+                DFS(n, clone);
+                
+            } else {
+                
+                clone_node->neighbors.push_back(mp[n]);
+                
+            }
+            
+        }
+        
+    }
+    
+    void BFS(queue<Node*> &que) {
+        
+        while(!que.empty()) {
+            
+            Node* node = que.front();
+            Node* clone_node = mp[node];
+            que.pop();
+            
+            for(Node* n : node->neighbors) {
+            
+                if(mp.find(n) == mp.end()) {
+
+                    Node* clone = new Node(n->val);
+                    mp[n] = clone;
+                    clone_node->neighbors.push_back(clone);
+
+                    //DFS(n, clone);
+                    que.push(n);
+
+                } else {
+
+                    clone_node->neighbors.push_back(mp[n]);
+
+                }
+            
+            }
+            
+        }
+        
+    }
+    
+    vector<Node*> mp(101, NULL);
+    //mp[0] = Node
+    //0 value waale original node ka clone node = Node
+    
+    Node* cloneGraph(Node* node) {
+        if(!node)
+            return NULL;
+        
+        mp.clear();
+        
+        //cloned the given node
+        Node* clone_node = new Node(node->val);
+        
+        //Now, cloe its neighbours and recursively their newighbours
+        /*
+                But if a node reappears, then we need to access that cloned node
+                So, store them in a map <Node*, Node*>
+        */
+        
+        mp[node] = clone_node;
+        
+        queue<Node*> que;
+        que.push(node);
+        BFS(que);
         
         return clone_node;
     }
