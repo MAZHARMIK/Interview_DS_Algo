@@ -1,7 +1,7 @@
 /*
 	MY YOUTUBE VIDEO ON THIS Qn   : <soon>
-	Company Tags		          : Flipkart, Microsoft
-	GfG Link		              : https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+	Company Tags		      : Flipkart, Microsoft
+	GfG Link		      : https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
 */
 
 //Time : O(E * log(V))
