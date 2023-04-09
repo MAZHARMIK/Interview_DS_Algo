@@ -37,5 +37,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Course%20Schedule%20II.cpp">Course Schedule II(Leetcode-210)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Largest%20Color%20Value%20in%20a%20Directed%20Graph.cpp">Largest Color Value in a Directed Graph(Leetcode-1857)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
