@@ -10,10 +10,10 @@
 class Solution
 {
 	public:
-	   //Function to find the shortest distance of all the vertices
-    	   //from the source vertex S.
-	    vector <int> dijkstra(int V, vector<vector<int>> adj[], int S) {
-            set<pair<int, int>> pq;
+	//Function to find the shortest distance of all the vertices
+	//from the source vertex S.
+	vector <int> dijkstra(int V, vector<vector<int>> adj[], int S) {
+	    set<pair<int, int>> pq;
 
             vector<int> result(V, INT_MAX);
 
@@ -33,7 +33,13 @@ class Solution
                     int dist    = vec[1];
 
                     if(d + dist < result[adjNode]) {
-
+                        
+                        if(result[adjNode] != INT_MAX) {
+                            auto iter = pq.find({result[adjNode], adjNode});
+                            pq.erase(iter);
+			    //OR, pq.erase({result[adjNode], adjNode});
+                        }
+                        
                         result[adjNode] = d + dist;
                         pq.insert({d+dist, adjNode});
 
@@ -44,5 +50,5 @@ class Solution
             }
 
             return result;
-	    }
+	}
 };
