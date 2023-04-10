@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=3ssh_mk4LqY
     Company Tags                : Google, Meta, Adobe, Amazon, OYO, Microsoft
     Leetcode Link               : https://leetcode.com/problems/valid-parentheses/
 */
