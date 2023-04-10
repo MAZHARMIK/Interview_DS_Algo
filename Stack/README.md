@@ -124,5 +124,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Daily%20Temperatures.cpp">Daily Temperatures (Leetcode-739)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Valid%20Parentheses.cpp"> Valid Parentheses (Leetcode-20)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
