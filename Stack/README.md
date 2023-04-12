@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Removing%20Stars%20From%20a%20String.cpp"> Removing Stars From a String (Leetcode-2390)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Simplify%20Path.cpp"> Simplify Path (Leetcode-71)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
