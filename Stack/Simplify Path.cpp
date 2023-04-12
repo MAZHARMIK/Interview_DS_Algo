@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : <soon>
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ZV-Hi1e1KL8
       Company Tags                : META
       Leetcode Link               : https://leetcode.com/problems/simplify-path/
 */
