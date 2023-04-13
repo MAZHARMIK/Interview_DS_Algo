@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=HEh7EtNSXtg
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/validate-stack-sequences/
 */
