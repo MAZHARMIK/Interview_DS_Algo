@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Validate%20Stack%20Sequences">Validate Stack Sequences (Leetcode : 946)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Validate%20Stack%20Sequences.cpp">Validate Stack Sequences (Leetcode : 946)</a>
 				</td>
 			</tr>
 			<tr>
