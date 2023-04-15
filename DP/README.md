@@ -502,5 +502,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Ways%20of%20Cutting%20a%20Pizza.cpp">Number of Ways of Cutting a Pizza (Leetcode-1444) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Value%20of%20K%20Coins%20From%20Piles.cpp">Maximum Value of K Coins From Piles (Leetcode-2218) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
