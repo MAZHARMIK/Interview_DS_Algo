@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : Recur+Memo - https://www.youtube.com/watch?v=w0mB7tEv17k 
-                                : Bottom Up  - 
+                                : Bottom Up  - https://www.youtube.com/watch?v=EtbCd9iETno
     Company Tags                : Google, Amazon
     Leetcode Link               : https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/
 */
