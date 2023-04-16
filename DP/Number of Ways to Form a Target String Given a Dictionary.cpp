@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : <soon>
-    Company Tags                : 
+    Company Tags                : Google, Amazon
     Leetcode Link               : https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/
 */
 
