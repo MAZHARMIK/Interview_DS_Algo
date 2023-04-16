@@ -507,5 +507,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Value%20of%20K%20Coins%20From%20Piles.cpp">Maximum Value of K Coins From Piles (Leetcode-2218) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Ways%20to%20Form%20a%20Target%20String%20Given%20a%20Dictionary.cpp">Number of Ways to Form a Target String Given a Dictionary (Leetcode-1639) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
