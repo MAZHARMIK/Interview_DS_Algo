@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ZUEKt3TAYLc
     Company Tags                : NA
     Leetcode Link               : https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
 */
