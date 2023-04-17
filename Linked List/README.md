@@ -169,5 +169,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.cpp"> Convert Sorted List to Binary Search Tree (Leetcode-109)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Remove%20Zero%20Sum%20Consecutive%20Nodes%20from%20Linked%20List.cpp"> Remove Zero Sum Consecutive Nodes from Linked List (Leetcode-1171)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
