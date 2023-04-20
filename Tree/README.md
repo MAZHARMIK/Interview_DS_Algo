@@ -378,5 +378,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree.cpp"> Longest ZigZag Path in a Binary Tree (Leetcode-1372)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20Width%20of%20Binary%20Tree.cpp"> Maximum Width of Binary Tree (Leetcode-662)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
