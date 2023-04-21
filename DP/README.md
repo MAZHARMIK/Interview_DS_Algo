@@ -514,7 +514,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Ways%20to%20Form%20a%20Target%20String%20Given%20a%20Dictionary.cpp"> Profitable Schemes (Leetcode-879) </a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Profitable%20Schemes.cpp"> Profitable Schemes (Leetcode-879) </a>
 				</td>
 			</tr>
 		</tbody>
