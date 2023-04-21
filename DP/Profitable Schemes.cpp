@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ay3MHrS7YbQ
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/profitable-schemes/
 */
