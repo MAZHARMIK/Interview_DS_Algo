@@ -517,5 +517,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Profitable%20Schemes.cpp"> Profitable Schemes (Leetcode-879) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Insertion%20Steps%20to%20Make%20a%20String%20Palindrome.cpp">  Minimum Insertion Steps to Make a String Palindrome (Leetcode-1312) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
