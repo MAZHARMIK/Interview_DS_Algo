@@ -24,9 +24,9 @@ public:
             return t[start] = 0;
         
         long ans = 0;
-        
+        long long num = 0;
         for(int end = start; end < n; end++) {
-            
+            num = (num * 10) + (s[end] - '0');
             if(num > k)
                 break;
             
@@ -46,6 +46,7 @@ public:
         return solve(0, s, k, t);
     }
 };
+
 
 
 //Approach-2 (Bottom Up)
