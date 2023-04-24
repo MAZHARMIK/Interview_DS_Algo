@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=GBzie2ETYQg
     Company Tags                : Google, Amazon
     Leetcode Qn Link            : https://leetcode.com/problems/last-stone-weight/
 */
