@@ -1,7 +1,7 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=qiSjBraBzLM
-    Company Tags                : Microsoft
-    Leetcode Link               : https://leetcode.com/problems/smallest-number-in-infinite-set/
+     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=qiSjBraBzLM
+     Company Tags                : Microsoft
+     Leetcode Link               : https://leetcode.com/problems/smallest-number-in-infinite-set/
 */
 
 //Approach-1 (Using vector<bool> of size 1000 (after seeing the constraints)
