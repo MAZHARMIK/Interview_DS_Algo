@@ -93,7 +93,7 @@ public:
         
         if(!st.empty()) {
             result = *st.begin();
-            st.erase(st.begin());
+            st.erase(st.begin()); //or, st.erase(result) also works
         } else {
             result = currSmallest;
             currSmallest += 1;
