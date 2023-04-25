@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=qiSjBraBzLM
     Company Tags                : Microsoft
     Leetcode Link               : https://leetcode.com/problems/smallest-number-in-infinite-set/
 */
