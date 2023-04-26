@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Max%20Points%20on%20a%20Line.cpp">Max Points on a Line (Leetcode - 149)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Add%20Digits.cpp">Add Digits (Leetcode - 258)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
