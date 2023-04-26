@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=urZ7Jj2UXp0
     Company Tags                : Adobe, Microsoft
     Leetcode Link               : https://leetcode.com/problems/add-digits/
 */
