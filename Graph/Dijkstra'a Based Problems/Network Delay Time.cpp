@@ -24,38 +24,38 @@ public:
         
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
 
-		vector<int> result(n+1, INT_MAX);
+	vector<int> result(n+1, INT_MAX);
 
-		result[k] = 0;
-		pq.push({0, k});
+	result[k] = 0;
+	pq.push({0, k});
 
-		while(!pq.empty()) {
+	while(!pq.empty()) {
 
-		    int d  = pq.top().first;
-		    int node = pq.top().second;
-		    pq.pop();
+	    int d  = pq.top().first;
+	    int node = pq.top().second;
+	    pq.pop();
 
-		    for(auto &vec : adj[node]) {
+	    for(auto &vec : adj[node]) {
 
-                int adjNode = vec.first;
-                int dist    = vec.second;
+		int adjNode = vec.first;
+		int dist    = vec.second;
 
-                if(d + dist < result[adjNode]) {
+		if(d + dist < result[adjNode]) {
 
-                    result[adjNode] = d + dist;
-                    pq.push({d+dist, adjNode});
-
-                }
-
-		    }
+		    result[adjNode] = d + dist;
+		    pq.push({d+dist, adjNode});
 
 		}
+
+	    }
+
+	}
         
         int ans = INT_MIN;
         
         for(int i = 1; i <= n; i++)
             ans = max(ans, result[i]);
         
-		return ans == INT_MAX ? -1 : ans;
+	return ans == INT_MAX ? -1 : ans;
     }
 };
