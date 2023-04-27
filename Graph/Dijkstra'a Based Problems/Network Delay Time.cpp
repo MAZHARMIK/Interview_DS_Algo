@@ -5,7 +5,7 @@
 */
 
 //Just copy paste the Dijkstra'a Code and Find the maximum amongst the minimums in result vector
-//Why maximum ?
+//But, Why maximum ?
 //Because, we have to return the minimum time it takes for all the n nodes to receive the signal
 class Solution {
 public:
