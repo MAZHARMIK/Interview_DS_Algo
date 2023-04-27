@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=86t-bvaiF7k
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=q-7aoEILGb0
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/bulb-switcher/
 */
