@@ -10,8 +10,13 @@
 		</thead>
 		<tbody>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Network%20Delay%20Time.cpp">Network Delay Time (Leetcode-743)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Shortest%20Path%20in%20Binary%20Matrix.cpp">Shortest Path in Binary Matrix (Leetcode-1091)</a>
 				</td>
 			</tr>
 		</tbody>
