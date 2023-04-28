@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Longest%20Cycle%20in%20a%20Graph.cpp"> Longest Cycle in a Graph (Leetcode-2360)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Similar%20String%20Groups.cpp"> Similar String Groups (Leetcode-839)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
