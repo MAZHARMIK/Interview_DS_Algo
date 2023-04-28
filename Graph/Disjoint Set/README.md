@@ -49,5 +49,10 @@
 					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Number%20of%20Operations%20to%20Make%20Network%20Connected.cpp"> Number of Operations to Make Network Connected (Leetcode - 1319)</a>
 				      </td>
 			</tr>
+			<tr>
+        			<td>
+					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Similar%20String%20Groups.cpp"> Similar String Groups (Leetcode - 839)</a>
+				      </td>
+			</tr>
 		</tbody>
 </table>
