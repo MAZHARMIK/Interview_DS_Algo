@@ -4,7 +4,7 @@
     Leetcode Link               : https://leetcode.com/problems/similar-string-groups/
 */
 
-//Using DFS
+//Approach-1 : Using DFS
 class Solution {
 public:
     
@@ -60,7 +60,8 @@ public:
 };
 
 
-//Using BFS
+
+//Approach-2 : Using BFS
 class Solution {
 public:
     
