@@ -54,5 +54,10 @@
 					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Similar%20String%20Groups.cpp"> Similar String Groups (Leetcode - 839)</a>
 				      </td>
 			</tr>
+			<tr>
+        			<td>
+					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Checking%20Existence%20of%20Edge%20Length%20Limited%20Paths.cpp"> SChecking Existence of Edge Length Limited Paths (Leetcode - 1697)</a>
+				      </td>
+			</tr>
 		</tbody>
 </table>
