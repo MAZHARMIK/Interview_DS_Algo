@@ -179,5 +179,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Optimal%20Partition%20of%20String.cpp"> Optimal Partition of String (Leetcode-2405)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Dota2%20Senate.cpp"> Dota2 Senate (Leetcode-649)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
