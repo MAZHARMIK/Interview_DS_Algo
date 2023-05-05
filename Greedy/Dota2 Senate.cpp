@@ -1,5 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : Brute Force - https://www.youtube.com/watch?v=r3lOL6srx1E
+                                  Optimal - <soon>
     Company Tags                : Meta
     Leetcode Link               : https://leetcode.com/problems/dota2-senate/
 */
@@ -154,3 +155,6 @@ public:
         
     }
 };
+
+//Approach-4 (Using Single Queue)
+//soon
