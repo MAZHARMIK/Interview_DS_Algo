@@ -104,5 +104,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Successful%20Pairs%20of%20Spells%20and%20Potions.cpp">Successful Pairs of Spells and Potions (Leetcode-2300)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Number%20of%20Subsequences%20That%20Satisfy%20the%20Given%20Sum%20Condition.cpp">Number of Subsequences That Satisfy the Given Sum Condition (Leetcode-1498)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
