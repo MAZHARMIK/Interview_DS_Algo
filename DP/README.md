@@ -527,5 +527,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Restore%20The%20Array.cpp">  Restore The Array (Leetcode-1416) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Find%20the%20Longest%20Valid%20Obstacle%20Course%20at%20Each%20Position.cpp"> Find the Longest Valid Obstacle Course at Each Position (Leetcode-1964) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
