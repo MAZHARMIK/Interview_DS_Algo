@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : <soon>
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=hptQEIpvaxM
       Company Tags                : GOOGLE, Akuna Capital
       Leetcode Link               : https://leetcode.com/problems/network-delay-time/
 */
