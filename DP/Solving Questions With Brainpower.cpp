@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=NcC8lo7nLCE
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/solving-questions-with-brainpower/
 */
