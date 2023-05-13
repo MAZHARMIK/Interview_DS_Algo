@@ -537,5 +537,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Solving%20Questions%20With%20Brainpower.cpp"> Solving Questions With Brainpower (Leetcode-2140) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20Ways%20To%20Build%20Good%20Strings.cpp"> Count Ways To Build Good Strings (Leetcode-2466) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
