@@ -542,5 +542,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20Ways%20To%20Build%20Good%20Strings.cpp"> Count Ways To Build Good Strings (Leetcode-2466) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximize%20Score%20After%20N%20Operations.cpp"> Maximize Score After N Operations (Leetcode-1799) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
