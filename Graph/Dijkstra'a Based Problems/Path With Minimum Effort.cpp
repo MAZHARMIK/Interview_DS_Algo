@@ -48,12 +48,11 @@ public:
 
 		if(isSafe(x_, y_)) {
 
-			int newDiff = max(diff, abs(heights[x][y] - heights[x_][y_]));
-
-			if(result[x_][y_] > newDiff) {
+		    int newDiff = max(diff, abs(heights[x][y] - heights[x_][y_]));
+		    if(result[x_][y_] > newDiff) {
 			result[x_][y_] = newDiff;
 			pq.push({result[x_][y_], {x_, y_}});
-			}
+		    }
 		}
 	     }
         }
