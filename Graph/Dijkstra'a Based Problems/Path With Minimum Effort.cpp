@@ -42,20 +42,20 @@ public:
             if(x == m-1 && y == n-1)
                 return diff;
             
-	        for(auto dir:directions) {
-                int x_   = x + dir[0];
-                int y_   = y + dir[1];
+		for(auto dir:directions) {
+			int x_   = x + dir[0];
+			int y_   = y + dir[1];
 
-                if(isSafe(x_, y_)) {
-                    
-                    int newDiff = max(diff, abs(heights[x][y] - heights[x_][y_]));
-                    
-                    if(result[x_][y_] > newDiff) {
-                        result[x_][y_] = newDiff;
-                        pq.push({result[x_][y_], {x_, y_}});
-                    }
-                }
-            }
+			if(isSafe(x_, y_)) {
+
+			    int newDiff = max(diff, abs(heights[x][y] - heights[x_][y_]));
+
+			    if(result[x_][y_] > newDiff) {
+				result[x_][y_] = newDiff;
+				pq.push({result[x_][y_], {x_, y_}});
+			    }
+			}
+		}
         }
    
         return result[m-1][n-1];
