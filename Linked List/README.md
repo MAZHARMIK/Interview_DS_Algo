@@ -101,7 +101,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Swap%20Nodes%20in%20Pairs">Swap Nodes in Pairs (Leetcode-24)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Swap%20Nodes%20in%20Pairs.cpp">Swap Nodes in Pairs (Leetcode-24)</a>
 				</td>
 			</tr>
 			<tr>
