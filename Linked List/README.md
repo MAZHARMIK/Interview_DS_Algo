@@ -179,5 +179,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Swapping%20Nodes%20in%20a%20Linked%20List.cpp"> Swapping Nodes in a Linked List (Leetcode-1171)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Maximum%20Twin%20Sum%20of%20a%20Linked%20List.cpp"> Maximum Twin Sum of a Linked List (Leetcode-2130)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
