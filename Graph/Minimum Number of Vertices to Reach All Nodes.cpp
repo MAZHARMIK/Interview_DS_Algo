@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=7wGJ1nevpnc
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/
 */
