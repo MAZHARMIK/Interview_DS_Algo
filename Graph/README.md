@@ -284,5 +284,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra’s%20Algorithm(set).cpp"> Dijkstra’s Algorithm(set) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes.cpp"> Minimum Number of Vertices to Reach All Nodes (Leetcode : 1557) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
