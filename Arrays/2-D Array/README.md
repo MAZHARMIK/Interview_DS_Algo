@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Toeplitz%20Matrix.cpp">Toeplitz Matrix (Leetcode-766)</a>
 				</td>
 			</tr>
+			<tr>
+        <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Shortest%20Bridge.cpp">Shortest Bridge (Leetcode-934)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
