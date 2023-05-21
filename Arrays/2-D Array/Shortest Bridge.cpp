@@ -2,6 +2,16 @@
     MY YOUTUBE VIDEO ON THIS Qn : <soon>
     Company Tags                : MICROSOFT
     Leetcode Link               : https://leetcode.com/problems/shortest-bridge/
+    
+    Similar Problems : 
+    
+    Leetcode 286. Walls and Gates
+    Leetcode 417. Pacific Atlantic Water Flow (Very Good Problem)
+    Leetcode 994. Rotting Oranges
+    Leetcode 1162. As Far from Land as Possible
+    Leetcode 1765. Map of Highest Peak
+
+    
 */
 
 //Using combination of DFS -> BFS
