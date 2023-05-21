@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=GSE0-dReL6Y
     Company Tags                : MICROSOFT
     Leetcode Link               : https://leetcode.com/problems/shortest-bridge/
     
