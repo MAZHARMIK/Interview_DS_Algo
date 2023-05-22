@@ -1,7 +1,14 @@
 <img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icon.png" align="right" /> <a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
 <img src="https://cdn-images-1.medium.com/max/1200/1*Y1IuqrkoDWLlfz_BSaesGQ.jpeg" width="600" height="250">
 
-# DP : :triangular_flag_on_post:
+# Arrays : :triangular_flag_on_post:
+<details>
+  <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics (Example : 1-D DP, Game Strategy etc.)</summary>
+  
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/DP/1-D%20DP">:file_folder:1-D D.P</a>
+
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/DP/Game%20Strategy">:file_folder:Game Strategy</a>
+</details>
 
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
