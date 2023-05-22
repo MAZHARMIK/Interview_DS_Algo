@@ -11,7 +11,7 @@
 		<tbody>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Top%20K%20Frequent%20Elements%20(Using%20Heap)">Top K Frequent Elements (Using Heap) (Leetcode-347)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Top%20K%20Frequent%20Elements.cpp">Top K Frequent Elements (Leetcode-347)</a>
 				</td>
 			</tr>
 			<tr>
