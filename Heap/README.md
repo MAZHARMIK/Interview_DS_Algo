@@ -56,7 +56,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Kth%20Largest%20Element%20in%20a%20Stream">Kth Largest Element in a Stream (Leetcode -703)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Kth%20Largest%20Element%20in%20a%20Stream.cpp">Kth Largest Element in a Stream (Leetcode -703)</a>
 				</td>
 			</tr>
 			<tr>
