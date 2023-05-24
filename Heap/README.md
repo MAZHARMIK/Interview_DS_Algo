@@ -124,5 +124,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Single-Threaded%20CPU.cpp"> Single-Threaded CPU (Leetcode-1834)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Maximum%20Subsequence%20Score.cpp"> Maximum Subsequence Score (Leetcode-2542)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
