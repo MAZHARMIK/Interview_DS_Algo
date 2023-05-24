@@ -4,55 +4,40 @@
     Leetcode Link               : https://leetcode.com/problems/maximum-subsequence-score/
 */
 
-//Approach-1 (DP - TLE)
+//Approach-1 (Recursion + Memo)
 class Solution {
 public:
     int K;
     int n;
-    priority_queue<int, vector<int>, greater<int>> pq;
+    unordered_map<string, int> mp;
     
-    void removeNums2_i(int num) {
-        vector<int> temp;
-        
-        while(!pq.empty()) {
-            int x = pq.top();
-            pq.pop();
-            
-            if(x == num) {
-                break;
-            }
-            temp.push_back(x);
-        }
-        
-        for(int &x : temp) {
-            pq.push(x);
-        }
-    }
-    
-    long long solve(vector<int>& nums1, vector<int>& nums2, int sum, int min, int i, int count) {
+    long long solve(vector<int>& nums1, vector<int>& nums2, int sum, int min_el, int i, int count) {
         if(count == K) {
-            return sum * min;
+            return sum * min_el;
         }
          if(i >= n) {
             return 0;
         }
-
-        pq.push(nums2[i]);
         
-        long take_i = solve(nums1 , nums2 , sum + nums1[i] , pq.top(), i+1 , count+1);
+        string key = to_string(sum) + "_" + to_string(min_el) + "_" + to_string(i) + "_" + to_string(count);
+        if(mp.find(key) != mp.end())
+            return mp[key];
         
-        removeNums2_i(nums2[i]);
+        int min_now = min(min_el, nums2[i]);
         
-        long not_take_i = solve(nums1 , nums2 , sum, min, i+1 , count);
+        long take_i = solve(nums1 , nums2 , sum + nums1[i] , min_now, i+1 , count+1);
         
-        return max(take_i, not_take_i);
+        long not_take_i = solve(nums1 , nums2 , sum, min_el, i+1 , count);
+        
+        return mp[key] = max(take_i, not_take_i);
     }
     
     long long maxScore(vector<int>& nums1, vector<int>& nums2, int k) {
         K = k;
         n = nums1.size();
+        mp.clear();
         
-        return solve(nums1 , nums2 , 0 , 0 , 0 , 0);
+        return solve(nums1 , nums2 , 0 , INT_MAX , 0 , 0);
     }
 };
 
