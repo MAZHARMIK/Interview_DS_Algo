@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=z9oUzKhEYJU
     Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/maximum-subsequence-score/
 */
