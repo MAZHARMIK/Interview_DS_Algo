@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=x19SmqQbhWk
     Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/new-21-game/
 */
