@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Bulb%20Switcher.cpp"> Bulb Switcher (Leetcode - 319)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/New%2021%20Game.cpp"> New 21 Game (Leetcode - 837)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
