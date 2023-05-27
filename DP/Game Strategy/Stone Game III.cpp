@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=KI8suf35r38
     Company Tags                : GOOGLE, META
     Leetcode Link               : https://leetcode.com/problems/stone-game-iii/
 */
