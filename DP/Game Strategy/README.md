@@ -29,5 +29,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20II.cpp">Stone Game II (Leetcode-1140)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20III.cpp">Stone Game III (Leetcode-1406)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
