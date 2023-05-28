@@ -554,5 +554,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximize%20Score%20After%20N%20Operations.cpp"> Maximize Score After N Operations (Leetcode-1799) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Cost%20to%20Cut%20a%20Stick.cpp"> Minimum Cost to Cut a Stick (Leetcode-1547) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
