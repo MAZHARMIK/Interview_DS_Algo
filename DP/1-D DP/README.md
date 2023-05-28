@@ -4,14 +4,24 @@
 
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
-		<thead>
-      <th>Problem Name</th>
-		</thead>
-		<tbody>
-			<tr>
-          <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Fibonacci%20Number.cpp"> Fibonacci Number (Leetcode-509)</a>
-				  </td>
-      </tr>
-		</tbody>
+	<thead>
+		<th>Problem Name</th>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Fibonacci%20Number.cpp"> Fibonacci Number (Leetcode-509)</a>
+			</td>
+     		</tr>
+		<tr>
+			<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Climbing%20Stairs.cpp"> Climbing Stairs (Leetcode-70)</a>
+			</td>
+     		</tr>
+		<tr>
+			<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/House%20Robber.cpp"> House Robber (Leetcode-198)</a>
+			</td>
+     		</tr>
+	</tbody>
 </table>
