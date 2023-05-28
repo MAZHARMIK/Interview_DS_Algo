@@ -1,6 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
-    Company Tags                : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=x4cRwVEFwHc
+    Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
 */
 
