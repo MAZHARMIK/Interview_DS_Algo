@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Add%20and%20Search%20Words%20Data%20Structure.cpp"> Design Add and Search Words Data Structure (Leetcode - 211)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Parking%20System.cpp"> Design Parking System (Leetcode - 1603)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
