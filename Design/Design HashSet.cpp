@@ -1,9 +1,10 @@
 /*
-    Company Tags  : Google
-    Leetcode Link : https://leetcode.com/problems/design-hashset/
+    MY YOUTUBE VIDEO IN THIS QN : 
+    Company Tags                : Google
+    Leetcode Link               : https://leetcode.com/problems/design-hashset/
 */
 
-//Approach-1 (High space complexity,but O(1) time)
+//Approach-1 (High space complexity,but O(1) time) - Not a very good approach
 class MyHashSet {
 public:
     /** Initialize your data structure here. */
@@ -26,7 +27,7 @@ public:
     }
 };
 
-//Approach-2 (COmpromising a little with time complexity and reducing space complexity using chaining)
+//Approach-2 (Using Chaining)
 class MyHashSet {
 private:
     int getHashValue(int key) {
@@ -61,3 +62,13 @@ public:
         return find(buckets[index].begin(), buckets[index].end(), key) != buckets[index].end();
     }
 };
+
+
+//NOTE:
+/*
+You can use the information of load factor to resize the hashset if the Load Factor crosses 0.75
+int n = No. of elements inserted till now
+int b = Total Number of Buckets
+
+Load Factor = (n/b);
+*/
