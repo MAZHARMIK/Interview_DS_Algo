@@ -27,39 +27,42 @@ public:
     }
 };
 
-//Approach-2 (Using Chaining)
 class MyHashSet {
-private:
+public:
+    int numBuckets;
+    vector<list<int>> buckets;
     int getHashValue(int key) {
         return key%numBuckets;
     }
-public:
-    /** Initialize your data structure here. */
-    int numBuckets;
-    vector<list<int>> buckets;
+    
     MyHashSet() {
         numBuckets = 15000;
         buckets = vector<list<int>>(numBuckets, list<int>{});
-        //I will be using concept of chaining
     }
     
     void add(int key) {
         int index = getHashValue(key);
-        if(find(buckets[index].begin(), buckets[index].end(), key) == buckets[index].end())
+        auto itr  = find(buckets[index].begin(), buckets[index].end(), key);
+        
+        if(itr == buckets[index].end())
             buckets[index].push_back(key);
     }
     
     void remove(int key) {
         int index = getHashValue(key);
+        
         auto itr  = find(buckets[index].begin(), buckets[index].end(), key);
+        
         if(itr != buckets[index].end())
             buckets[index].erase(itr);
     }
     
-    /** Returns true if this set contains the specified element */
     bool contains(int key) {
         int index = getHashValue(key);
-        return find(buckets[index].begin(), buckets[index].end(), key) != buckets[index].end();
+        
+        auto itr  = find(buckets[index].begin(), buckets[index].end(), key);
+        
+        return itr != buckets[index].end();
     }
 };
 
