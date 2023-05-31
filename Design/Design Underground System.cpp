@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Bloomberg (Most frequently asked)
-    Leetcode Link : https://leetcode.com/problems/design-underground-system/
+    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    Company Tags                : Amazon, Bloomberg (Most frequently asked)
+    Leetcode Link               : https://leetcode.com/problems/design-underground-system/
 */
 
 class UndergroundSystem {
