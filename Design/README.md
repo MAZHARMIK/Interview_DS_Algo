@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Parking%20System.cpp"> Design Parking System (Leetcode - 1603)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Underground%20System.cpp"> Design Underground System (Leetcode - 1396)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
