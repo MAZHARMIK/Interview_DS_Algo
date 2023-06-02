@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Similar%20String%20Groups.cpp"> Similar String Groups (Leetcode-839)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Detonate%20the%20Maximum%20Bombs.cpp"> Detonate the Maximum Bombs (Leetcode-2101)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
