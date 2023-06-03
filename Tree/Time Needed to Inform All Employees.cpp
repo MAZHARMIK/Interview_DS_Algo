@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=4fiZOJpis9g
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/time-needed-to-inform-all-employees/
 */
