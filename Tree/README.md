@@ -383,5 +383,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20Width%20of%20Binary%20Tree.cpp"> Maximum Width of Binary Tree (Leetcode-662)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Time%20Needed%20to%20Inform%20All%20Employees.cpp"> Time Needed to Inform All Employees (Leetcode-1376)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
