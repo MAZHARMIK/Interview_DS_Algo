@@ -166,16 +166,6 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/House%20Robber.cpp">House Robber (Leetcode - 198)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/House%20Robber%20II.cpp">House Robber II (Leetcode - 213)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Longest%20Increasing%20Subsequence">Number of Longest Increasing Subsequence (Leetcode - 673)</a>
 				</td>
 			</tr>
