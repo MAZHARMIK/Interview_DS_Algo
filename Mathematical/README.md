@@ -144,5 +144,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/New%2021%20Game.cpp"> New 21 Game (Leetcode - 837)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Can%20Make%20Arithmetic%20Progression%20From%20Sequence.cpp"> Can Make Arithmetic Progression From Sequence (Leetcode - 1502)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
