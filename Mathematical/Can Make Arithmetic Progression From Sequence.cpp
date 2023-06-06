@@ -5,6 +5,23 @@
 */
 
 //Approach-1 (Using Sorting (O(nlogn))
+class Solution {
+public:
+    bool canMakeArithmeticProgression(vector<int>& arr) {
+        int n = arr.size();
+        
+        sort(begin(arr), end(arr));
+        
+        int d = arrr[1] - arr[0];
+        
+        for(int i = 2; i<n; i++) {
+            if(arr[i] - arr[i-1] != d)
+                return false;
+        }
+        
+        return true;
+    }
+};
 
 //Approach-2 (Using Mathematival AP property - O(n) Time, O(n) Space))
 class Solution {
