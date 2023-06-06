@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=RgeDl_pjWog
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/
 */
