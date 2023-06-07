@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Gx4-uOkopMA
     Company Tags                : Microsoft
     Leetcode Link               : https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/
 */
