@@ -89,5 +89,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Calculate%207n%5C8%20without%20using%20division%20and%20multiplication.cpp">Calculate 7n\8 without using division and multiplication</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c.cpp">Minimum Flips to Make a OR b Equal to c (Leetcode - 1318)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
