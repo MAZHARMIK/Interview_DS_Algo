@@ -4,7 +4,9 @@
     Leetcode Link               : https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
 */
 
-//Approach-1 (Brute Force)
+//Approach-1 (Brute Force) - O(m * n)
+//m = rows
+//n = columns
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
@@ -27,7 +29,9 @@ public:
 };
 
 
-//Approach-2 (Using Binary Search - upper_bound) - SLIGHT OPTIMAL
+//Approach-2 (Using Binary Search - upper_bound) - SLIGHT OPTIMAL - O(m * log(n))
+//m = rows
+//n = columns
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
