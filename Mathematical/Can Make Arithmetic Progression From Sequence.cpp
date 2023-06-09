@@ -1,5 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=RgeDl_pjWog
+    MY YOUTUBE VIDEO ON THIS Qn : Approach-1 and 2      - https://www.youtube.com/watch?v=RgeDl_pjWog
+                                  Approach-3 O(1) Space - https://www.youtube.com/watch?v=cA68tbKhoIQ
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/
 */
