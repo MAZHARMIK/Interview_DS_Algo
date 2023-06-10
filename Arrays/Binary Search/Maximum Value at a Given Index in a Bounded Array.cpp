@@ -18,7 +18,7 @@ public:
     int maxValue(int n, int index, int maxSum) {
         
         ll left  = 1;
-        ll right = INT_MAX;
+        ll right = maxSum;
         
         ll mid_val;
         int result = 0;
