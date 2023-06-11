@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Underground%20System.cpp"> Design Underground System (Leetcode - 1396)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Snapshot%20Array.cpp"> Snapshot Array (Leetcode - 1146)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
