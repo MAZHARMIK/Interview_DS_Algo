@@ -307,5 +307,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Kids%20With%20the%20Greatest%20Number%20of%20Candies.cpp"> Kids With the Greatest Number of Candies (Leetcode-1431)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Summary%20Ranges.cpp"> Summary Ranges (Leetcode-228)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
