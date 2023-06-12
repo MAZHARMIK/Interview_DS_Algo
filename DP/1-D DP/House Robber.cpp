@@ -45,12 +45,13 @@ public:
         
         t[0] = 0;
         t[1] = nums[0];
-        t[2] = max(nums[0], nums[1]);
         
-        for(int i = 3; i<=n; i++) {
-            int curr_house = nums[i-1];
+        for(int i = 2; i<=n; i++) {
+            
+            int skip  = t[i-1];
+            int steal = nums[i-1] + t[i-2];
           
-            t[i] = max(t[i-1],  curr_house + t[i-2]); //max(skip, steal)
+            t[i] = max(skip, steal); //max(skip, steal)
             /*
                 SKIP  : If we skip this house,  then we have money till previous house  =  t[i-1]
                 STEAL : If we steal this house, then we can't take prev profit, we can take till (i-2)th house profit = t[i-2]
@@ -69,16 +70,16 @@ public:
     int rob(vector<int>& nums) {
         int n = nums.size();
         
-        int curr = 0;
-        int prev = 0;
+        int prev     = 0;
+        int prevPrev = 0;
         
         for(int i = 0; i<n; i++) {
-            int temp = max(nums[i] + prev, curr);
+            int temp = max(nums[i] + prevPrev, prev);
             
-            prev = curr;
-            curr = temp;
+            prevPrev = prev;
+            prev     = temp;
         }
         
-        return curr;
+        return prev;
     }
 };
