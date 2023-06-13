@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Find%20the%20Town%20Judge.cpp">Find the Town Judge (Leetcode-997)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Equal%20Row%20and%20Column%20Pairs.cpp"> Equal Row and Column Pairs (2352)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
