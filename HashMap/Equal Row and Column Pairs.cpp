@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=QWhQxJYppgo
     Company Tags                : Google, Microsoft
     Leetcode Link               : https://leetcode.com/problems/equal-row-and-column-pairs/
 */
