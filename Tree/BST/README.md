@@ -19,5 +19,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/BST/Range%20Sum%20of%20BST.cpp">Range Sum of BST (Leetcode-938)						  </a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/BST/Minimum%20Absolute%20Difference%20in%20BST.cpp"> Minimum Absolute Difference in BST (Leetcode-530)						  </a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
