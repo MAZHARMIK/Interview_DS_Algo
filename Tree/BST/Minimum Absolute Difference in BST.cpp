@@ -1,7 +1,7 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
     Company Tags                : GOOGLE
-    Leetcode Link               : https://leetcode.com/problems/minimum-absolute-difference-in-bst/submissions/
+    Leetcode Link               : https://leetcode.com/problems/minimum-absolute-difference-in-bst
 */
 
 //Using Simple InOrder traversal - T.C : O(n)
