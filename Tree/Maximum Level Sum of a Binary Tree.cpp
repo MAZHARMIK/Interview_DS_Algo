@@ -49,7 +49,7 @@ public:
 };
 
 
-//Approach-1 (Using DFS - T.C : O(n))
+//Approach-2 (Using DFS - T.C : O(n))
 class Solution {
 public:
     
