@@ -149,5 +149,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Can%20Make%20Arithmetic%20Progression%20From%20Sequence.cpp"> Can Make Arithmetic Progression From Sequence (Leetcode - 1502)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST.cpp"> Number of Ways to Reorder Array to Get Same BST (Leetcode - 1569)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
