@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ct036xxMtT8
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/make-array-strictly-increasing/
 */
