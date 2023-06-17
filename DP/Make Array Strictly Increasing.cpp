@@ -13,7 +13,7 @@ public:
         if(idx == arr1.size())
             return 0;
         
-        int result1 = INT_MAX;
+        int result1 = 1e9+1;
         
         if(mp.find({idx, prev}) != mp.end())
             return mp[{idx, prev}];
@@ -22,14 +22,12 @@ public:
             result1 = solve(idx+1, arr1, arr2, arr1[idx]);
         }
         
-        int result2 = INT_MAX;
+        int result2 = 1e9+1;
         auto it = upper_bound(begin(arr2), end(arr2), prev);
         
         if(it != end(arr2)) {
             int i = it - begin(arr2);
-            result2 = solve(idx+1, arr1, arr2, arr2[i]);
-            if(result2 != INT_MAX)
-                result2 += 1;
+            result2 = 1 + solve(idx+1, arr1, arr2, arr2[i]);
         }
         
         return mp[{idx, prev}] = min(result1, result2);
@@ -43,12 +41,13 @@ public:
         
         int result = solve(0, arr1, arr2, INT_MIN);
         
-        if(result == INT_MAX)
+        if(result == 1e9+1)
             return -1;
         
         return result;
     }
 };
+
 
 
 //Approach-2 (Using Bottom Up)
