@@ -549,5 +549,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Cost%20to%20Cut%20a%20Stick.cpp"> Minimum Cost to Cut a Stick (Leetcode-1547) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Make%20Array%20Strictly%20Increasing.cpp"> Make Array Strictly Increasing (Leetcode-1187) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
