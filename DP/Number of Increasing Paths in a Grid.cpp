@@ -66,8 +66,11 @@ public:
     }
 };
 
+//Approach-2 (Building increasing path from small to lareg value)
+//Simply change the check from "grid[i_][j_] < grid[i][j]" to "grid[i_][j_] > grid[i][j]"
 
-//Approach-2 (By Memoization of Approach-1 above) - Accepted -O(m*n)
+
+//Approach-3 (By Memoization of Approach-1&2 above) - Accepted -O(m*n)
 class Solution {
 public:
     int m, n;
@@ -127,5 +130,5 @@ public:
 };
 
 
-//Approach-3 (Using Dynamic Programming)
+//Approach-4 (Using Dynamic Programming)
 //Coming Soon
