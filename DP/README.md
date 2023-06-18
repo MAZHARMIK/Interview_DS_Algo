@@ -554,5 +554,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Make%20Array%20Strictly%20Increasing.cpp"> Make Array Strictly Increasing (Leetcode-1187) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Increasing%20Paths%20in%20a%20Grid.cpp"> Number of Increasing Paths in a Grid (Leetcode-2328) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
