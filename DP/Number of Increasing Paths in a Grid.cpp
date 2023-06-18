@@ -1,7 +1,14 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : Microsoft
+    Company Tags                : Microsoft, Adobe
     Leetcode Link               : https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/
+*/
+
+/*
+    NOTE : This problem is similar to Leetcode-329.
+           Leetcode-329 is a famous interview problem so this is kind of standard problem.
+           That's why I always say, don't be afraid of new Hard Problems,these qns are standard and many other problems can
+           be solved using the concept based on these problems.
 */
 
 //-------In future, I will move this qn to a separate folder "2D-DP"
