@@ -1,7 +1,10 @@
 /*
+    MY YOUTUBE VIDEO ON THEORY OF MINIMUM SPANNING TREE            - https://youtu.be/xxvY2UX7YPg
+    MY YOUTUBE VIDEO ON Prim's Algorithm for MINIMUM SPANNING TREE - <soon>
     Company Tags : Amazon, Cisco, Samsung
     Qn Link      : https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
 */
+
 
 int minKey(int V, vector<bool> inMST, vector<int> key) {
     int minValue  = INT_MAX;
