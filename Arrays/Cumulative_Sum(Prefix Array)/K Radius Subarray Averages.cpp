@@ -4,7 +4,7 @@
       Leetcode Link               : https://leetcode.com/problems/k-radius-subarray-averages/
 */
 
-//My Approach-2 is in Sliding Window Folder - <link>
+//My Approach-2 is in Sliding Window Folder - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/K%20Radius%20Subarray%20Averages.cpp
 
 //Approach-1 (Using Prefix Array)
 class Solution {
