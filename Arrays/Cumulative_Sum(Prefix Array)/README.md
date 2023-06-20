@@ -39,5 +39,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Longest%20Subsequence%20With%20Limited%20Sum.cpp"> Longest Subsequence With Limited Sum (Leetcode-2389)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/K%20Radius%20Subarray%20Averages.cpp"> K Radius Subarray Averages (Leetcode-2090)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
