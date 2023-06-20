@@ -109,5 +109,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length.cpp">Maximum Number of Vowels in a Substring of Given Length (Leetcode-1456) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/K%20Radius%20Subarray%20Averages.cpp"> K Radius Subarray Averages (Leetcode-2090) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
