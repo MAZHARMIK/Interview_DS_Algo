@@ -74,7 +74,11 @@ public:
         int prevPrev = 0;
         
         for(int i = 0; i<n; i++) {
-            int temp = max(nums[i] + prevPrev, prev);
+            int skip = prev;
+            
+            int take = nums[i] + prevPrev;
+                
+            int temp = max(skip, take);
             
             prevPrev = prev;
             prev     = temp;
