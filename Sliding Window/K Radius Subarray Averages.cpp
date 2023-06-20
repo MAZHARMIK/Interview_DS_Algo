@@ -24,20 +24,31 @@ public:
         
         long long windowSum = 0;
         
-        for(int i = 0; i<2*k+1; i++) {
+        int left  = 0;
+        int right = 2*k;
+        int i     = k;
+        
+        for(int i = left; i <= right; i++) {
             windowSum += nums[i];
         }
         
-        result[k] = windowSum/(2*k+1);
         
-        for(int i = 2*k+1; i<n; i++) {
+        result[i] = windowSum/(2*k+1);
+        
+        i++;
+        right++; //Shifting window
+        
+        while(right < n) {
             
-            int out_of_window  = nums[i-(2*k+1)];
-            int came_to_window = nums[i];
+            int out_of_window  = nums[left];
+            int came_to_window = nums[right];
             
             windowSum = windowSum - out_of_window + came_to_window;
             
-            result[i-k] = windowSum/(2*k+1);
+            result[i] = windowSum/(2*k+1);
+            i++;
+            left++;
+            right++;
             
         }
         return result;
