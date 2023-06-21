@@ -131,5 +131,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array.cpp"> Maximum Value at a Given Index in a Bounded Array (Leetcode-1802)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Cost%20to%20Make%20Array%20Equal.cpp"> Minimum Cost to Make Array Equal (Leetcode-2448)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
