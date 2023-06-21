@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn - 
+    MY YOUTUBE VIDEO ON THIS Qn - https://www.youtube.com/watch?v=lGo6E8jiDB8
     Company Tags                - MICROSOFT
     Leetcode Link               - https://leetcode.com/problems/minimum-cost-to-make-array-equal/
 */
