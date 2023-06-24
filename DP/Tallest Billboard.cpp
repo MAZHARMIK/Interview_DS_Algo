@@ -60,11 +60,11 @@ public:
         
         int ans = 0;
 
-        int nothing  = solve(rods, i + 1 , diff);
-        int in_rod_1 = rods[i] + solve(rods, i + 1 , diff + rods[i]);
-        int in_rod_2 = solve(rods, i + 1 , diff - rods[i]);
+        int nothing     = solve(rods, i + 1 , diff);
+        int in_rod_1    = rods[i] + solve(rods, i + 1 , diff + rods[i]);
+        int not_in_rod1 = rods[i] + solve(rods, i + 1 , diff - rods[i]);
 
-        return t[i][diff+5000] = max({nothing, in_rod_1, in_rod_2});
+        return t[i][diff+5000] = max({nothing, in_rod_1, not_in_rod1});
     }
     
     int tallestBillboard(vector<int>& rods) {
@@ -72,6 +72,6 @@ public:
         
         memset(t, -1, sizeof(t));
         
-        return solve(rods, 0, 0);
+        return solve(rods, 0, 0)/2;
     }
 };
