@@ -569,5 +569,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Tallest%20Billboard.cpp"> Tallest Billboard (Leetcode-956) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20All%20Possible%20Routes.cpp"> Count All Possible Routes (Leetcode-1575) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
