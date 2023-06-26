@@ -102,16 +102,20 @@ public:
     
     //this function is solution of House robber I. We just use it to solve House Robber II
     int solve(vector<int>& nums, int l, int r) {
-        int prev = 0, curr = 0;
+        
+        int prevPrev = 0, prev = 0;
         
         for(int i = l; i<=r; i++) {
-            int temp = max(nums[i] + prev, curr);
+            int skip = prev;
+            int take = nums[i] + prevPrev;
             
-            prev = curr;
-            curr = temp;
+            int temp = max(skip, take);
+            
+            prevPrev = prev;
+            prev     = temp;
         }
         
-        return curr;
+        return prev;
     }
     
     int rob(vector<int>& nums) {
