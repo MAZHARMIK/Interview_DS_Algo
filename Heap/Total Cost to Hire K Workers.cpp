@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn - 
+    MY YOUTUBE VIDEO ON THIS Qn - https://www.youtube.com/watch?v=ODuICq8exLo
     Company Tags                - META
     Leetcode Link               - https://leetcode.com/problems/total-cost-to-hire-k-workers/
 */
