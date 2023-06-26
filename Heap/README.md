@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Maximum%20Subsequence%20Score.cpp"> Maximum Subsequence Score (Leetcode-2542)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Total%20Cost%20to%20Hire%20K%20Workers.cpp"> Total Cost to Hire K Workers (Leetcode-2462)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
