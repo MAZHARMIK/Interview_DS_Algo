@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Total%20Cost%20to%20Hire%20K%20Workers.cpp"> Total Cost to Hire K Workers (Leetcode-2462)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Find%20K%20Pairs%20with%20Smallest%20Sums.cpp"> Find K Pairs with Smallest Sums (Leetcode-373)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
