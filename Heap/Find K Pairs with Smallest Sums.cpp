@@ -1,5 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=eptC4nUL_2A
+    MY YOUTUBE VIDEO ON THIS Qn : Brute Force - https://www.youtube.com/watch?v=eptC4nUL_2A
+                                  Optimal     - https://www.youtube.com/watch?v=PiGYS7BbV_Q
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 */
