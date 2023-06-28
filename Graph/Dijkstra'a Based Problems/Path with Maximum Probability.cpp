@@ -1,6 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=zTM9k6jqpXI
+    Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/path-with-maximum-probability/
 */
 
