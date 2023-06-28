@@ -24,5 +24,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Path%20With%20Minimum%20Effort.cpp"> Path With Minimum Effort (Leetcode-1631)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Path%20with%20Maximum%20Probability.cpp"> Path with Maximum Probability (Leetcode-1514)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
