@@ -136,5 +136,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Cost%20to%20Make%20Array%20Equal.cpp"> Minimum Cost to Make Array Equal (Leetcode-2448)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Last%20Day%20Where%20You%20Can%20Still%20Cross.cpp"> Last Day Where You Can Still Cross (Leetcode-1970)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
