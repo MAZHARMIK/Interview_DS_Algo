@@ -1,6 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : <soon will update>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=vcaAC2fqFpk
+    Company Tags                : <soon, I will update>
     Leetcode Link               : https://leetcode.com/problems/fair-distribution-of-cookies/
 */
 
