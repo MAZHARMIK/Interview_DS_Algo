@@ -159,5 +159,11 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Palindrome%20Partitioning.cpp">Palindrome Partitioning (Leetcode-131)</a>
 				</td>
 			</tr>
+			</tr>
+						<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Fair%20Distribution%20of%20Cookies.cpp"> Fair Distribution of Cookies (Leetcode-2305)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
