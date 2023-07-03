@@ -169,5 +169,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20the%20Index%20of%20the%20First%20Occurrence%20in%20a%20String.cpp"> Find the Index of the First Occurrence in a String (Leetcode-28)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Buddy%20Strings.cpp"> Buddy Strings (Leetcode-859)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
