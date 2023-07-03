@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=LTrZCwuCoiE
     Company Tags                : GOOGLE, META
     Leetcode Link               : https://leetcode.com/problems/buddy-strings/
 */
