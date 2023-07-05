@@ -114,5 +114,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/K%20Radius%20Subarray%20Averages.cpp"> K Radius Subarray Averages (Leetcode-2090) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element.cpp"> Longest Subarray of 1's After Deleting One Element (Leetcode-1493) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
