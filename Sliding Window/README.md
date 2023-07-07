@@ -119,5 +119,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Longest%20Subarray%20of%201's%20After%20Deleting%20One%20Element.cpp"> Longest Subarray of 1's After Deleting One Element (Leetcode-1493) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Maximize%20the%20Confusion%20of%20an%20Exam.cpp"> Maximize the Confusion of an Exam (Leetcode-2024) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
