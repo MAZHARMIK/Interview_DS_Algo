@@ -120,13 +120,9 @@ public:
         int result = k;
         
         unordered_map<char, int> mp;
-        
-        for (int i = 0; i < k; i++) {
-            mp[answerKey[i]]++;
-        }
-        
+
         int i = 0;
-        for (int j = k; j < answerKey.length(); j++) {
+        for (int j = 0; j < answerKey.length(); j++) {
 
             mp[answerKey[j]]++;
             
@@ -141,4 +137,3 @@ public:
         return result;
     }
 };
-
