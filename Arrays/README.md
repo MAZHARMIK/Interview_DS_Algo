@@ -312,5 +312,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Summary%20Ranges.cpp"> Summary Ranges (Leetcode-228)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Put%20Marbles%20in%20Bags.cpp"> Put Marbles in Bags (Leetcode-2551)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
