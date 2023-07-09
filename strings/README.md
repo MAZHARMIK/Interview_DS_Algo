@@ -174,5 +174,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Buddy%20Strings.cpp"> Buddy Strings (Leetcode-859)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Substring%20With%20Largest%20Variance.cpp"> Substring With Largest Variance (Leetcode-2272)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
