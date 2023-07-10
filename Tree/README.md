@@ -205,7 +205,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Minimum%20Depth%20of%20Binary%20Tree">Minimum Depth of Binary Tree (Leetcode-111)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Minimum%20Depth%20of%20Binary%20Tree.cpp">Minimum Depth of Binary Tree (Leetcode-111)</a>
 				</td>
 			</tr>
 			<tr>
