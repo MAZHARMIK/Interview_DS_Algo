@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THEORY OF MINIMUM SPANNING TREE            - https://youtu.be/xxvY2UX7YPg
-    MY YOUTUBE VIDEO ON Prim's Algorithm for MINIMUM SPANNING TREE - <soon>
+    MY YOUTUBE VIDEO ON Prim's Algorithm for MINIMUM SPANNING TREE - https://www.youtube.com/watch?v=V9gXzD7g8fw
     Company Tags                                                   - Amazon, Cisco, Samsung
     Qn Link                                                        - https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
 */
