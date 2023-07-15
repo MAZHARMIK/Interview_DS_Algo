@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Data%20Stream%20as%20Disjoint%20Intervals.cpp">Data Stream as Disjoint Intervals (Leetcode-352)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended%20II.cpp"> Maximum Number of Events That Can Be Attended II (Leetcode-1751)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
