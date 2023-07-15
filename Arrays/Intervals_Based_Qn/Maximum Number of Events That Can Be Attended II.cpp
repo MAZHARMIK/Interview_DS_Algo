@@ -1,7 +1,8 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=9ykgLt25X9c
       Company Tags                : AMAZON
       Leetcode Link               : https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/
+      Similar Leetcode Qn         : Maximum Profit in Job Scheduling (YouTube  : https://www.youtube.com/watch?v=LL0tVxlAeV4
 */
 
 //Approach-1 (Using Recursion + Memo) using Linear Search for next event - T.C. - O(n⋅k⋅n)
