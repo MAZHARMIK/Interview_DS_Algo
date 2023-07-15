@@ -2,6 +2,7 @@
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=LL0tVxlAeV4
     Company Tags                : Not known yet but it's worth being asked. Few people mentioned that it was asked in Google but I don't have proof yet
     Leetcode Link               : https://leetcode.com/problems/maximum-profit-in-job-scheduling/
+    Similar Leetcode Qn         : Maximum Number of Events That Can Be Attended II (YouTube  : https://www.youtube.com/watch?v=9ykgLt25X9c)
 */
 
 //Approach-1 (Recur + Memo)
