@@ -1,6 +1,6 @@
 /*
       MY YOUTUBE VIDEO ON THIS Qn : 
-      Company Tags                : will update soon
+      Company Tags                : AMAZON
       Leetcode Link               : https://leetcode.com/problems/smallest-sufficient-team/
 */
 
