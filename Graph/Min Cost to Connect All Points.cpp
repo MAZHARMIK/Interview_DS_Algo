@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=hsr7KolYDH0
     Company Tags                : META
     Leetcode Link               : https://leetcode.com/problems/min-cost-to-connect-all-points/
 */
