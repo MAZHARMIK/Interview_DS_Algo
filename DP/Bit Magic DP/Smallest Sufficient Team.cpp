@@ -13,9 +13,9 @@ public:
     vector<int> result;
     unordered_map<string , int > dp;
     
-    void solve(vector<int> &people , int idx , vector<int> &temp, int mask ) {
+    void solve(vector<int> &people_skill , int idx , vector<int> &temp, int mask ) {
         
-       if(idx == people.size()) {
+       if(idx == people_skill.size()) {
            if(mask == target_mask) {
                if(result.size() == 0 || result.size() >= temp.size()) {
                    result = temp;
@@ -34,11 +34,11 @@ public:
         if(result.size() != 0 && temp.size() >= result.size()) 
             return; 
         
-        solve(people , idx + 1 , temp , mask ); // no
+        solve(people_skill , idx + 1 , temp , mask ); // no
 
-         if( (mask | people[idx]) != mask) { //Because a person's skill set can be empty. So we won't take them
+         if( (mask | people_skill[idx]) != mask) { //Because a person's skill set can be empty. So we won't take them
             temp.push_back(idx);
-            solve(people, idx + 1, temp , mask | people[idx]);
+            solve(people_skill, idx + 1, temp , mask | people_skill[idx]);
 
             temp.pop_back();
             dp[s] = (temp.size() != 0 ) ? temp.size() : -1;
