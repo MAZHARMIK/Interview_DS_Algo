@@ -142,7 +142,7 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Min%20Cost%20to%20Connect%20All%20Points">Min Cost to Connect All Points (Leetcode-1584)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Min%20Cost%20to%20Connect%20All%20Points.cpp">Min Cost to Connect All Points (Leetcode-1584)</a>
 				</td>
 			</tr>
 			<tr>
