@@ -7,12 +7,11 @@
 	<thead>
 		<th>Problem Name</th>
 	</thead>
-	<tbody>
-		<tr>
-			<td>
+		<tbody>
+			<tr>
+				<td>
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Bit%20Magic%20DP/Smallest%20Sufficient%20Team.cpp"> Smallest Sufficient Team (Leetcode-1125)</a>
-			</td>
-     </tr>
-		
-	</tbody>
+				</td>
+     			</tr>
+		</tbody>
 </table>
