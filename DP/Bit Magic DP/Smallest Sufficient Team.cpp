@@ -72,8 +72,6 @@ public:
 };
 
 //Approach-2 (Using vector<vector<int>> instead of unordered_map to memoize)
-Also guys, Yes, you can use a vector as well to store your past result as DP instead of unordered_map
-Find the C++ code below : 
 
 class Solution {
 public:
