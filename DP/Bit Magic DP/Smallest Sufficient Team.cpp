@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=CAoBD84G2gI
       Company Tags                : AMAZON
       Leetcode Link               : https://leetcode.com/problems/smallest-sufficient-team/
 */
