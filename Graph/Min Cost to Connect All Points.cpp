@@ -1,5 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=hsr7KolYDH0
+    MY YOUTUBE VIDEO ON THIS Qn : Using Prim's     - https://www.youtube.com/watch?v=hsr7KolYDH0
+    				  Using Kruskal's  -
     Company Tags                : META
     Leetcode Link               : https://leetcode.com/problems/min-cost-to-connect-all-points/
 */
