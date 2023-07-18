@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=3tgekNXWXsY
     Company Tags                :  Amazon, Cisco, Samsung
     GfG Link                    : https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1
 */
