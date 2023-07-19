@@ -71,4 +71,43 @@ public:
 
 
 
-//Approach-2 (Bottom Up DP - Coming Soon)
+//Approach-2 (Bottom Up DP) - Video coming soon
+class Solution {
+public:    
+    struct job {
+        int start; 
+        int end; 
+        int profit; 
+    };
+    
+    static int sfn(job m, job n) {
+        return m.end < n.end;
+    }
+    
+    int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
+	    int n = startTime.size();
+        int dp[n]; 
+        vector<job> jobs(n);
+
+	    for(int i = 0; i < n; i++) { 
+            jobs[i].start = startTime[i]; 
+            jobs[i].end = endTime[i]; 
+            jobs[i].profit = profit[i]; 
+        }
+	    sort(jobs.begin(), jobs.end(), sfn);
+        dp[0] = jobs[0].profit;
+        // Main code goes here
+        for (int i = 1; i < n; i++) {
+            int prev = 0;
+            for (int j = i - 1; j>=0; j--){
+                if (jobs[i].start >= jobs[j].end) {
+                    prev = dp[j];
+                    break;
+                }
+            }
+            dp[i] = max(prev + jobs[i].profit, dp[i-1]);
+        }
+        
+	    return dp[n - 1];
+    }
+};
