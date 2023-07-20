@@ -66,7 +66,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Asteroid%20Collision">Asteroid Collision (Leetcode-735)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Asteroid%20Collision.cpp">Asteroid Collision (Leetcode-735)</a>
 				</td>
 			</tr>
 			<tr>
