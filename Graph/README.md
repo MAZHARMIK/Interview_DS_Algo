@@ -92,7 +92,7 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Strongly%20Connected%20Components%20(Kosaraju's%20Algo)">Strongly Connected Components (Kosaraju's Algo)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Strongly%20Connected%20Components%20(Kosaraju's%20Algo).cpp">Strongly Connected Components (Kosaraju's Algo)</a>
 				</td>
 			</tr>
 			<tr>
