@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=E6DeC0Zpdns
     Company Tags                : Amazon, Visa
     Question Link               : https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
     
