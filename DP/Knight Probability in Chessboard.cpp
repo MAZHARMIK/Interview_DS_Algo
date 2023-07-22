@@ -2,6 +2,7 @@
     MY YOUTUBE VIDEO ON THIS Qn : 
     Company Tags                : Amazon, Directi
     Leetcode Link               : https://leetcode.com/problems/knight-probability-in-chessboard/
+    GfG Link                    : https://practice.geeksforgeeks.org/problems/probability-of-knight5529/1
 */
 
 //Using simple recursion and memoization (T.C : We visit each state once only and we have k possible tries - O(k * n^2)
