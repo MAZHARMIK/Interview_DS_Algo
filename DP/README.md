@@ -576,5 +576,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20All%20Possible%20Routes.cpp"> Count All Possible Routes (Leetcode-1575) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Knight%20Probability%20in%20Chessboard.cpp"> Knight Probability in Chessboard (Leetcode-688) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
