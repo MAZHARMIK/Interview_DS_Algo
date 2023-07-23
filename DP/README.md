@@ -581,5 +581,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Knight%20Probability%20in%20Chessboard.cpp"> Knight Probability in Chessboard (Leetcode-688) </a>
 				</td>
 			</tr>
+						<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/All%20Possible%20Full%20Binary%20Trees.cpp"> All Possible Full Binary Trees (Leetcode-894)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
