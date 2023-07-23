@@ -393,10 +393,5 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.cpp"> Maximum Level Sum of a Binary Tree (Leetcode-1161)</a>
 				</td>
 			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/All%20Possible%20Full%20Binary%20Trees.cpp"> All Possible Full Binary Trees (Leetcode-894)</a>
-				</td>
-			</tr>
 		</tbody>
 </table>
