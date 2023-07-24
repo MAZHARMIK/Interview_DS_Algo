@@ -16,7 +16,7 @@
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Pow(x%2C%20n)">Pow(x, n)-Leetcode-50</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Pow(x,%20n).cpp">Pow(x, n) (Leetcode-50)</a>
 				</td>
 			</tr>
 			<tr>
