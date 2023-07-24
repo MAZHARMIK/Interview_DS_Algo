@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : soon today
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=7wcJXZoGKMI
     Company Tags                : Amazon, LinkedIn, Bloomberg 
     Leetcode Link               : https://leetcode.com/problems/powx-n/
 */
