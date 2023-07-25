@@ -141,5 +141,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Last%20Day%20Where%20You%20Can%20Still%20Cross.cpp"> Last Day Where You Can Still Cross (Leetcode-1970)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Peak%20Index%20in%20a%20Mountain%20Array.cpp"> Peak Index in a Mountain Array (Leetcode-852)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
