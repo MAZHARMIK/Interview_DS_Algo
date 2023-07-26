@@ -5,6 +5,8 @@
       Similar Porblems - 
             https://leetcode.com/problems/koko-eating-bananas/
             https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+            https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets
+            https://leetcode.com/problems/magnetic-force-between-two-balls/
             Allocate Minimum Number Of Pages (https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)
 */
 
