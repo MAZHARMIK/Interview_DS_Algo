@@ -146,5 +146,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Peak%20Index%20in%20a%20Mountain%20Array.cpp"> Peak Index in a Mountain Array (Leetcode-852)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Speed%20to%20Arrive%20on%20Time.cpp"> Minimum Speed to Arrive on Time (Leetcode-1870)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
