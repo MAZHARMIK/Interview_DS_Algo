@@ -26,17 +26,17 @@ public:
     double possible(vector<int>& dist, int speed) {
         
         double time = 0.0;
+        int n = dist.size();
         
-        for(int i = 0; i < dist.size(); i++) {
+        for(int i = 0; i < n - 1; i++) {
             
             double t = (double)dist[i]/(double)speed;
             
-            if(i == dist.size()-1)
-                time += t;
-            else
-                time += ceil(t);
+            time += ceil(t);
             
         }
+        
+        time += (double)dist[n-1]/(double)speed;
         
         return time;
         
