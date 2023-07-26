@@ -2,8 +2,10 @@
       MY YOUTUBE VIDEO ON THIS Qn : 
       Company Tags                : will update soon
       Leetcode Link               : https://leetcode.com/problems/minimum-speed-to-arrive-on-time/
-      Similar Leetcode Porblem    :  https://leetcode.com/problems/koko-eating-bananas/
-
+      Similar Porblems - 
+            https://leetcode.com/problems/koko-eating-bananas/
+            https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+            Allocate Minimum Number Of Pages (https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1)
 */
 
 /*
