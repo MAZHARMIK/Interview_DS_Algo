@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6VHDJMYtn3Q
       Company Tags                : will update soon
       Leetcode Link               : https://leetcode.com/problems/minimum-speed-to-arrive-on-time/
       Similar Porblems - 
