@@ -151,5 +151,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Speed%20to%20Arrive%20on%20Time.cpp"> Minimum Speed to Arrive on Time (Leetcode-1870)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximum%20Running%20Time%20of%20N%20Computers.cpp"> Maximum Running Time of N Computers (Leetcode-2141)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
