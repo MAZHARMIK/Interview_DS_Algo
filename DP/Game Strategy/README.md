@@ -34,5 +34,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20III.cpp">Stone Game III (Leetcode-1406)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Predict%20the%20Winner.cpp">Predict the Winner (Leetcode-486)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
