@@ -1,6 +1,6 @@
 /*
       MY YOUTUBE VIDEO ON THIS Qn : 
-      Company Tags                : 
+      Company Tags                : GOOGLE
       Leetcode Link               : https://leetcode.com/problems/soup-servings/
 */
 
