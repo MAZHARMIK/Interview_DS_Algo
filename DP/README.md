@@ -592,5 +592,11 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Soup%20Servings.cpp"> Soup Servings (Leetcode-808)</a>
 				</td>
 			</tr>
+			</tr>
+						<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Strange%20Printer.cpp"> Strange Printer (Leetcode-664)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
