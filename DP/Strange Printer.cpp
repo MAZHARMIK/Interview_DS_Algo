@@ -1,7 +1,7 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : https://leetcode.com/problems/strange-printer/
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=pV3arpA0TzY
       Company Tags                : NetEase
-      Leetcode Link               : 
+      Leetcode Link               : https://leetcode.com/problems/strange-printer/
 */
 
 //Approach-1 (Recursion + Memoization)
