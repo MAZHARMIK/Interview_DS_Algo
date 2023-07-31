@@ -598,5 +598,11 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Strange%20Printer.cpp"> Strange Printer (Leetcode-664)</a>
 				</td>
 			</tr>
+			</tr>
+						<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings.cpp"> Minimum ASCII Delete Sum for Two Strings (Leetcode-712)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
