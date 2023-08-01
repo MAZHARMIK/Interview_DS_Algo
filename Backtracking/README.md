@@ -171,5 +171,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Maximum%20Number%20of%20Achievable%20Transfer%20Requests.cpp"> Maximum Number of Achievable Transfer Requests (Leetcode-1601)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combinations.cpp"> Combinations (Leetcode-77)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
