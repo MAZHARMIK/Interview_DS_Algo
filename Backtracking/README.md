@@ -16,7 +16,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Permutations">Permutations (Leetcode : 46)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Permutations.cpp">Permutations (Leetcode : 46)</a>
 				</td>
 			</tr>
 			<tr>
