@@ -1,8 +1,15 @@
 /*
-    Company Tags  : Microsoft, Facebook, Epic Systems, Amazon, Flipkart
-    Leetcode Link : https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+    MY YOUTUBE VIEDO ON THIS Qn : 
+    Company Tags                : Microsoft, Meta, Epic Systems, Amazon, Flipkart
+    Leetcode Link               : https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 */
 
+//Backtracking - Khandani template
+/*
+    Each digit can be presented at most by 4 letters. On each iteration we go over all 4 of them. And we do this N (the number of digits) time. 
+    The complexity would be at most O(4^N)
+    But, you you still have to traverse the entire string and do the same amount of operations, so it's O(n • 4^N).
+*/
 class Solution {
 public:
     void generate(string curr, int idx, string digits, vector<string>& result, unordered_map<int, string>& mp) {
@@ -14,9 +21,9 @@ public:
         string str = mp[digits[idx]-'0'];
         
         for(int i = 0; i<str.length(); i++) {
-            curr.push_back(str[i]);
-            generate(curr, idx+1, digits, result, mp);
-            curr.pop_back();
+            curr.push_back(str[i]);                    //Do
+            generate(curr, idx+1, digits, result, mp); //Explore
+            curr.pop_back();                           //Undo
         }
     }
     
