@@ -19,6 +19,10 @@ public:
         if(idx == n) {
             return true;
         }
+
+        if(st.find(s.substr( idx , n - idx )) != st.end()) {
+            return true;
+        }
         
         if(t[idx] != -1)
             return t[idx];
