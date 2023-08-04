@@ -6,7 +6,8 @@
 */
 
 //***********************************************   C++   ***********************************************************//
-//Approach-1 (Recur + Memoiz)
+//Approach-1 (Recur + Memoiz) - 
+//T.C :  O(2^n) Because at each index, we eaither split it or not
 class Solution {
 public:
     unordered_set<string> st;
