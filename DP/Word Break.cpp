@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=oBUpyPZ08zU
     Company Tags                : Amazon, Google, IBM, MAQ Software, Microsoft, Walmart, Zoho
     Leetcode Question Link      : https://leetcode.com/problems/word-break/
     NOTE :  SCROLL DOWN TO SEE JAVA VERSION AS WELL
@@ -7,7 +7,7 @@
 
 //***********************************************   C++   ***********************************************************//
 //Approach-1 (Recur + Memoiz) - 
-//T.C :  O(2^n) Because at each index, we eaither split it or not
+//T.C :  O(n * 2^n) Because at each index, we eaither split it or not and substr also takes O(n)
 class Solution {
 public:
     unordered_set<string> st;
