@@ -4,7 +4,6 @@
       Leetcode Link               : https://leetcode.com/problems/all-possible-full-binary-trees/
 
       SIMILAR Qn : Leetcode Link -> https://leetcode.com/problems/unique-binary-search-trees-ii/
-                   YouTube Link  -> https://www.youtube.com/watch?v=lNEI25uT3WM
       
 */
 
