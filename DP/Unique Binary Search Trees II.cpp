@@ -5,9 +5,12 @@
 
       SIMILAR Qn : Leetcode Link -> https://leetcode.com/problems/all-possible-full-binary-trees/
                    YouTube Link  -> https://www.youtube.com/watch?v=lNEI25uT3WM
+
+      Scroll Down to see Java code
     
 */
 
+***********************************    C++    ***********************************
 //Approach-1 Recursion - ACCEPTED
 class Solution {
 public:
@@ -109,3 +112,45 @@ public:
 
 
 //Approach-3 (Bottom Up) - sooon
+
+
+
+
+
+**********************************************************************    JAVA    **********************************************************************
+//Approach-1 (Recursion + Memo - Accepted)
+class Solution {
+    Map<Pair<Integer, Integer>, List<TreeNode>> memo;
+    public List<TreeNode> allPossibleBST(int start, int end) {
+        List<TreeNode> res = new ArrayList<>();
+        if (start > end) {
+            res.add(null);
+            return res;
+        }
+        if (memo.containsKey(new Pair<>(start, end))) {
+            return memo.get(new Pair<>(start, end));
+        }
+        
+        // Iterate through all values from start to end to construct left and right subtree recursively.
+        
+        for (int i = start; i <= end; ++i) {
+            List<TreeNode> leftSubTrees = allPossibleBST(start, i - 1);
+            List<TreeNode> rightSubTrees = allPossibleBST(i + 1, end);
+
+            // Loop through all left and right subtrees and connect them to ith root.
+            for (TreeNode left: leftSubTrees) {
+                for (TreeNode right: rightSubTrees) {
+                    TreeNode root = new TreeNode(i, left, right);
+                    res.add(root);
+                }
+            }
+        }
+        memo.put(new Pair<>(start, end), res);
+        return res;
+    }
+
+    public List<TreeNode> generateTrees(int n) {
+        memo = new HashMap<>();
+        return allPossibleBST(1, n);
+    }
+}
