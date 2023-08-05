@@ -604,5 +604,11 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20ASCII%20Delete%20Sum%20for%20Two%20Strings.cpp"> Minimum ASCII Delete Sum for Two Strings (Leetcode-712)</a>
 				</td>
 			</tr>
+			</tr>
+						<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Unique%20Binary%20Search%20Trees%20II.cpp"> Unique Binary Search Trees II (Leetcode-95)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
