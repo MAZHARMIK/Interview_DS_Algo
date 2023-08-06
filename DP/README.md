@@ -605,9 +605,13 @@ Scramble String (Leetcode-87) (Memoized) </a>
 				</td>
 			</tr>
 			</tr>
-						<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Unique%20Binary%20Search%20Trees%20II.cpp"> Unique Binary Search Trees II (Leetcode-95)</a>
+				</td>
+			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Music%20Playlists.cpp"> Number of Music Playlists (Leetcode-920)</a>
 				</td>
 			</tr>
 		</tbody>
