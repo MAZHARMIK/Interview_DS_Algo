@@ -1,6 +1,6 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
-      Company Tags                : META
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=2H0zU6v-xck
+      Company Tags                : META, GOOGLE
       Leetcode Link               : https://leetcode.com/problems/number-of-music-playlists/
 */
 
