@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : Video Explanation : https://www.youtube.com/watch?v=HodpFY9Y6Vs
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=HodpFY9Y6Vs
     Company Tags                : Amazon, ABCO, Flipkart
     Question Link               : https://practice.geeksforgeeks.org/problems/rotation4723/1
 */
