@@ -23,7 +23,7 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
       </tr>
       <tr>
           <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Search_in_Rotated_Sorted_Array.cpp">Search in Rotated Sorted Array (Leetcode-33)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Search%20in%20Rotated%20Sorted%20Array.cpp">Search in Rotated Sorted Array (Leetcode-33)</a>
 				  </td>
       </tr>
       <tr>
