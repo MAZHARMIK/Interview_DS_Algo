@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=OsG2i00LXFc
       Company Tags                : META
       Leetcode Link               : https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/
       Similar Qn                  : https://www.youtube.com/watch?v=lWU1wI7koGk
