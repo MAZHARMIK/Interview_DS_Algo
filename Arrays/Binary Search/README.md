@@ -156,5 +156,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximum%20Running%20Time%20of%20N%20Computers.cpp"> Maximum Running Time of N Computers (Leetcode-2141)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimize%20the%20Maximum%20Difference%20of%20Pairs.cpp"> Minimize the Maximum Difference of Pairs (Leetcode-2616)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
