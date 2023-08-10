@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=eneo_XPUEj0&t=6s
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=eneo_XPUEj0
     Company Tags                : Adobe, Amazon, Microsoft, Morgan Stanley, Samsung, Snapdeal, Times Internet
     Leetcode Link               : https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 */
