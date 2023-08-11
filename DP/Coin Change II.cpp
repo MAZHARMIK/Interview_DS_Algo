@@ -1,9 +1,13 @@
 /*
-    Company Tags     : Amazon, Morgan Stanley, Oracle, Paytm, Accolite, Samsung, Snapdeal, Synopsys, visa
-    Leetcode Qn Link : https://leetcode.com/problems/coin-change-2/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : Amazon, Morgan Stanley, Oracle, Paytm, Accolite, Samsung, Snapdeal, Synopsys, visa
+    Leetcode Qn Link            : https://leetcode.com/problems/coin-change-2/
+    
+    **** SCROLL DOWN TO SEE JAVA CODE *****
 */
 
-//Approach-1 (Recusrion+Memoized)
+************************************************************ C++ ************************************************************
+//Approach-1 (Recursion + Mempozation) : O(n*amount)
 class Solution {
 public:
     int solve(vector<int>& S, int n, int sum, vector<vector<int>>& t) {
@@ -84,5 +88,32 @@ public:
         }
                 
         return ways[amount];
+    }
+};
+
+
+************************************************************ JAVA ************************************************************
+//Approach-1 (Recursion + Mempozation) : O(n*amount)
+class Solution {
+public:
+    int solve(vector<int>& S, int n, int sum, vector<vector<int>>& t) {
+        //There is only one combination that sum upto sum=0 i.e. when we take 0 coin. So, 1 way
+        if(sum == 0)
+            return t[n][sum] = 1;
+        
+        //if(we have no coin then we can't do anything about it. So, 0 way
+        if(n == 0 || sum < 0)
+            return 0;
+        
+        if(t[n][sum] != -1)
+            return t[n][sum];
+        
+                                //taken                       //not taken
+        return t[n][sum] = (solve(S, n, sum-S[n-1], t) + solve(S, n-1, sum, t));
+    }
+    int change(int amount, vector<int>& coins) {
+        int n = coins.size();
+        vector<vector<int>> t(n+1, vector<int>(amount+1, -1));
+        return solve(coins, n, amount, t);
     }
 };
