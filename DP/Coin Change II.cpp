@@ -32,7 +32,7 @@ public:
     }
 };
 
-////Approach-2 (Top Down)
+////Approach-2 (Bottom Up Version - 1)
 class Solution {
 public:
     int combi(vector<int>& coins, int amount, int n) {
@@ -62,7 +62,7 @@ public:
 };
 
 
-//Approach-3 (Bottom up)
+//Approach-3 (Bottom up Version - 2)
 class Solution {
 public:
     int change(int amount, vector<int>& coins) {
