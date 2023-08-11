@@ -10,25 +10,34 @@
 //Approach-1 (Recursion + Mempozation) : O(n*amount)
 class Solution {
 public:
-    int solve(vector<int>& S, int n, int sum, vector<vector<int>>& t) {
-        //There is only one combination that sum upto sum=0 i.e. when we take 0 coin. So, 1 way
-        if(sum == 0)
-            return t[n][sum] = 1;
+    int n;
+    int t[301][5001];
+    
+    int solve(int i, vector<int>& coins, int amount) {
         
-        //if(we have no coin then we can't do anything about it. So, 0 way
-        if(n == 0 || sum < 0)
+        if(amount == 0)
+            return t[i][amount] = 1;
+        
+        if(i == n || amount < 0)
             return 0;
         
-        if(t[n][sum] != -1)
-            return t[n][sum];
+         if(t[i][amount] != -1)
+            return t[i][amount];
         
-                                //taken                       //not taken
-        return t[n][sum] = (solve(S, n, sum-S[n-1], t) + solve(S, n-1, sum, t));
+        if(coins[i] > amount)
+            return t[i][amount] = solve(i+1, coins, amount);
+        
+        int take = solve(i, coins, amount-coins[i]);
+        int skip = solve(i+1, coins, amount);
+        
+        return t[i][amount] = take+skip;
+        
     }
+    
     int change(int amount, vector<int>& coins) {
-        int n = coins.size();
-        vector<vector<int>> t(n+1, vector<int>(amount+1, -1));
-        return solve(coins, n, amount, t);
+        n = coins.size();
+        memset(t, -1, sizeof(t));
+        return solve(0, coins, amount);
     }
 };
 
@@ -95,25 +104,40 @@ public:
 ************************************************************ JAVA ************************************************************
 //Approach-1 (Recursion + Mempozation) : O(n*amount)
 class Solution {
-public:
-    int solve(vector<int>& S, int n, int sum, vector<vector<int>>& t) {
-        //There is only one combination that sum upto sum=0 i.e. when we take 0 coin. So, 1 way
-        if(sum == 0)
-            return t[n][sum] = 1;
+    int[][] memo;
+    int n;
+
+    public int numberOfWays(int[] coins, int i, int amount) {
+        if (amount == 0) {
+            return 1;
+        }
         
-        //if(we have no coin then we can't do anything about it. So, 0 way
-        if(n == 0 || sum < 0)
+        if (i == n || amount < 0) {
             return 0;
+        }
         
-        if(t[n][sum] != -1)
-            return t[n][sum];
+        if (memo[i][amount] != -1) {
+            return memo[i][amount];
+        }
         
-                                //taken                       //not taken
-        return t[n][sum] = (solve(S, n, sum-S[n-1], t) + solve(S, n-1, sum, t));
+        //This will remove unnecessary call
+        if(coins[i] > amount) {
+            return memo[i][amount] = numberOfWays(coins, i + 1, amount);
+        }
+
+        int take = numberOfWays(coins, i, amount - coins[i]);
+        int skip = numberOfWays(coins, i + 1, amount);
+        
+        return memo[i][amount] = take+skip;
     }
-    int change(int amount, vector<int>& coins) {
-        int n = coins.size();
-        vector<vector<int>> t(n+1, vector<int>(amount+1, -1));
-        return solve(coins, n, amount, t);
+
+    public int change(int amount, int[] coins) {
+        n = coins.length;
+        memo = new int[coins.length][amount + 1];
+        for (int[] row : memo) {
+            Arrays.fill(row, -1);
+        }
+
+        return numberOfWays(coins, 0, amount);
     }
-};
+}
