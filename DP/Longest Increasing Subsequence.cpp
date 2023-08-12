@@ -1,11 +1,13 @@
 /*
     YouTube Link  : Recursion + Memoization -  https://www.youtube.com/watch?v=DG50PJIx2SM
-    		    Bottom Up - Soon
+    		    Bottom Up - https://www.youtube.com/watch?v=h9rm4N8XbL0
 	  	    nlogn - Soon
     Company Tags  : Microsoft
     Leetcode Link : https://leetcode.com/problems/longest-increasing-subsequence/
 */
 
+
+************************************************************ C++ ************************************************************
 //Approach-1 (TopDown: Recur+Memo) O(n*n)
 class Solution {
 public:
@@ -204,3 +206,29 @@ public:
         return (int)sorted.size();
     }
 };
+
+
+
+************************************************************ JAVA ************************************************************
+//Bottom Up
+class Solution {
+    public int lengthOfLIS(int[] nums) {
+        int n = nums.length;
+
+        int[] t = new int[n];
+        Arrays.fill(t,1);
+    
+        int maxLIS = 1;
+        
+        for(int i = 1; i < n; i++){
+            for(int j = 0; j < i; j++){
+                if(nums[j] < nums[i]) {
+                    t[i] = Math.max(t[i], t[j] + 1);
+                    maxLIS = Math.max(maxLIS, t[i]);
+                }
+            }
+        }
+
+        return maxLIS;
+    }
+}
