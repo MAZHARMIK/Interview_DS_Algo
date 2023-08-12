@@ -1,26 +1,61 @@
 /*
-    Company Tags : Amazon, Cisco, Paytm, OLA Cabs, Walmart, LinkedIn
-    Letcode Link : https://leetcode.com/problems/unique-paths-ii/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : Amazon, Cisco, Paytm, OLA Cabs, Walmart, LinkedIn
+    Letcode Link                : https://leetcode.com/problems/unique-paths-ii/
 */
 
+//Approach-1 (Recursion + Memo)
+//Recursion T.C : O(2^(m*n))
+//Memo T.C      : O(m*n)
 class Solution {
 public:
-    //Memoized Approach
-    int solveMemoized(vector<vector<int>>& obstacleGrid, int m, int n, int i, int j, vector<vector<int>>& t) {
-        if(i >=m || j >= n)
+    int m, n;
+    int t[101][101];
+    
+    int solve(vector<vector<int>>& obstacleGrid, int i, int j) {
+        
+        if(i < 0 || i >= m || j < 0 || j >= n || obstacleGrid[i][j] != 0) {
             return 0;
+        }
+        
         if(t[i][j] != -1)
             return t[i][j];
-        if(obstacleGrid[i][j] == 1)
-            return t[i][j] = 0;
+        
         if(i == m-1 && j == n-1)
-            return t[i][j] = 1;
-
-        return t[i][j] = solveMemoized(obstacleGrid, m, n, i+1, j, t) + solveMemoized(obstacleGrid, m, n, i, j+1, t);
+            return 1;
+        
+        //Why we are not making [i][j] visited ?
+        //Because robot can only move down or right so it will never visit any visited cell again
+        //int temp = obstacleGrid[i][j];
+        //obstacleGrid[i][j] = -1;
+        
+        int right = solve(obstacleGrid, i, j+1);
+        int down  = solve(obstacleGrid, i+1, j);
+        
+        //obstacleGrid[i][j] = temp;
+        
+        return t[i][j] = right + down;
+        
     }
     
+    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+        m = obstacleGrid.size();
+        n = obstacleGrid[0].size();
+        
+        memset(t, -1, sizeof(t));
+        
+        return solve(obstacleGrid, 0, 0);
+    }
+};
+
+
+//Approach-2 (Bottom Up). T.C : O(m*n)
+class Solution {
+public:
+    int m, n;
+
     //Tabular approach
-    int DP(vector<vector<int>>& obstacleGrid, int m, int n) {
+    int solve(vector<vector<int>>& obstacleGrid) {
         vector<vector<int>> t(m, vector<int>(n, 0));
         if(obstacleGrid[0][0] == 1)
             return 0;
@@ -59,10 +94,10 @@ public:
     }
     
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-        int m = obstacleGrid.size();
-        int n = obstacleGrid[0].size();
-        vector<vector<int>> t(m, vector<int>(n, -1));
-        return solveMemoized(obstacleGrid, m, n, 0, 0, t);
-        //return DP(obstacleGrid, m, n);
+        m = obstacleGrid.size();
+        n = obstacleGrid[0].size();
+        
+        return solve(obstacleGrid);
+        
     }
 };
