@@ -16,7 +16,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Kth%20Largest%20Element%20in%20an%20Array">Kth Largest Element in an Array (Using Heap) (Leetcode-215)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Kth%20Largest%20Element%20in%20an%20Array.cpp">Kth Largest Element in an Array (Leetcode-215)</a>
 				</td>
 			</tr>
 			<tr>
