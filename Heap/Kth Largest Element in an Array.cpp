@@ -4,6 +4,7 @@
     Leetcode Qn Link            :  https://leetcode.com/problems/kth-largest-element-in-an-array/
 */
 
+************************************************************ C++ ************************************************************
 //Approach-1 Using Min-heap (T.C : n*logn)
 class Solution {
 public:
@@ -30,6 +31,38 @@ public:
         return nums[k - 1];
     }
 };
+
+
+//Approach-3 (Using QuickSelect Algorithm
+//Time complexity: O(n) on average, O(n2) in the worst case (See video above for explanation)
+
+
+
+
+
+************************************************************ JAVA ************************************************************
+//Approach-1 Using Min-heap (T.C : n*logn)
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> minh = new PriorityQueue<>();
+        for (int num: nums) {
+            minh.add(num);
+            if (minh.size() > k) {
+                minh.remove();
+            }
+        }
+        
+        return minh.peek();
+    }
+}
+    
+//Approach-2 Using sorting (T.C : n*logn)
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        Arrays.sort(nums); //Ascending order
+        return nums[nums.length - k];
+    }
+}
 
 
 //Approach-3 (Using QuickSelect Algorithm
