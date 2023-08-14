@@ -39,43 +39,61 @@ public:
 class Solution {
 public:
     
-    //Hoare's partition
-    int partition(vector<int>& nums,int left,int right){
-        int pivot = nums[left];
-        int l     = left+1;
-        int r     = right;
+    int partition_algo(vector<int>& nums, int L, int R) {
         
-        while(l<=r){
-            if(nums[l] < pivot && nums[r] > pivot)
-                swap(nums[l++],nums[r--]);
+        int P = nums[L];
+        int i = L+1; //0
+        int j = R; //0
+        
+        while(i <= j) {
             
-            if(nums[l] >= pivot) 
-                ++l;
+            if(nums[i] < P && nums[j] > P) {
+                swap(nums[i], nums[j]);
+                i++;
+                j--;
+            }
             
-            if(nums[r] <= pivot) 
-                --r;
+            if(nums[i] >= P) {
+                i++;
+            }
+            
+            if(nums[j] <= P) {
+                j--;
+            }
+            
         }
-        swap(nums[left], nums[r]);
-        return r;
-    }
-    int findKthLargest(vector<int>& nums, int k) {
         
-        //partition rule: >=pivot   pivot   <=pivot
-        int left=0, right=nums.size()-1, idx=0;
+        swap(nums[L], nums[j]);
+        return j; //P is at jth index
+    }
+    
+    int findKthLargest(vector<int>& nums, int k) {
+        int n = nums.size();
+        
+        int L = 0;
+        int R = n-1;
+        
+        int pivot_idx = 0;
+        
+        //kth largest pivot element - nums[k-1] (descendinforder me partition karenge)
         
         while(true) {
             
-            idx = partition(nums,left,right);
+             pivot_idx = partition_algo(nums, L, R);
             
-            if(idx == k-1) //kth element
+            if(pivot_idx == k-1) {
                 break;
-            else if(idx < k-1)
-                left = idx+1;
-            else
-                right = idx-1;
+            } else if(pivot_idx > k-1) { //2nd larget , 4th larget
+                R = pivot_idx - 1;
+            } else {
+                L = pivot_idx + 1;
+            }
+            
         }
         
-        return nums[idx];
+        
+        return nums[pivot_idx];
+        
     }
 };
 
