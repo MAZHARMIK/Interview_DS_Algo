@@ -3,6 +3,9 @@
                                    Approach-3 : https://www.youtube.com/watch?v=QFoNfrP7knk
     Company Tags                :  Flipkart, VMWare, Accolite, Amazon, Microsoft, Snapdeal, ABCO, SAP Labs, Cisco, Rockstand
     Leetcode Qn Link            :  https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+    NOTE - 3rd Approach (Using Quick Select) should fall in Array Playlist Category but I have maintained all solutions here only.
+
 */
 
 ************************************************************ C++ ************************************************************
