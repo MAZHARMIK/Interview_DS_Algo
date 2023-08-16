@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO LINK ON THIS Qn : https://www.youtube.com/watch?v=29OnjVQ-fk4
-    Company Tags                     : Google, Zenefits, Microsoft, Zoho, Flipkart, Amazon, Directi, SAP Labs
+    Company Tags                     : Media.Net (Directi, 2023 repeated), Google, Zenefits, Microsoft, Zoho, Flipkart, Amazon, Directi, SAP Labs
     Leetcode Link                    : https://leetcode.com/problems/sliding-window-maximum/
     GfG Link                         : Maximum of all subarrays of size k (https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1)
     
