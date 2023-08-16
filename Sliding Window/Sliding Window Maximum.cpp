@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO LINK ON THIS Qn : 
+    MY YOUTUBE VIDEO LINK ON THIS Qn : https://www.youtube.com/watch?v=29OnjVQ-fk4
     Company Tags                     : Google, Zenefits, Microsoft, Zoho, Flipkart, Amazon, Directi, SAP Labs
     Leetcode Link                    : https://leetcode.com/problems/sliding-window-maximum/
     GfG Link                         : Maximum of all subarrays of size k (https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1)
@@ -8,6 +8,7 @@
     Explained Solution Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Constrained%20Subsequence%20Sum.cpp
 */
 
+****************************************** C++ ******************************************************
 //This is generally known as "Monotonic increasing/decreasing  Queue/Dequeue"
 //Approach-1 (Using Deque) Every element is added(pushed) and popped only once,So it is O(n) time complexity.
 class Solution {
@@ -61,3 +62,41 @@ public:
         return result;
     }
 };
+
+
+
+****************************************** JAVA ******************************************************
+//This is generally known as "Monotonic increasing/decreasing  Queue/Dequeue"
+//Approach-1 (Using Deque) Every element is added(pushed) and popped only once,So it is O(n) time complexity.
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        ArrayDeque<Integer> q = new ArrayDeque<>(); 
+        int i=0, j=0, ptr=0; 
+        int n = nums.length; 
+        int[] res = new int[n-k+1]; 
+
+        while(j<n){
+            while(!q.isEmpty() && q.peekLast()<nums[j]){
+                q.pollLast(); 
+            }
+        
+            q.add(nums[j]);
+
+            if(j-i+1<k){
+                j++; 
+            }else if(j-i+1==k){
+
+                res[ptr++] = q.peek();
+                
+                if(nums[i]==q.peek()){
+                    q.pollFirst(); 
+                }
+                i++; 
+                j++;
+            }
+        }
+
+        return res; 
+
+    }
+}
