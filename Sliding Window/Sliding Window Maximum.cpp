@@ -11,6 +11,7 @@
 ****************************************** C++ ******************************************************
 //This is generally known as "Monotonic increasing/decreasing  Queue/Dequeue"
 //Approach-1 (Using Deque) Every element is added(pushed) and popped only once,So it is O(n) time complexity.
+//SEE MY COMMENT IN THE VIDEO where I have explained why we can't take QUEUE to solve this.
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -68,6 +69,7 @@ public:
 ****************************************** JAVA ******************************************************
 //This is generally known as "Monotonic increasing/decreasing  Queue/Dequeue"
 //Approach-1 (Using Deque) Every element is added(pushed) and popped only once,So it is O(n) time complexity.
+//SEE MY COMMENT IN THE VIDEO where I have explained why we can't take QUEUE to solve this.
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         ArrayDeque<Integer> q = new ArrayDeque<>(); 
