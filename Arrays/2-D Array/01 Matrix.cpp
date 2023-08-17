@@ -12,6 +12,7 @@ must come to your mind first.
 Kind of similar qn : "Walls And Gates" https://leetcode.com/problems/walls-and-gates/
 */
 
+************************************************************ C++ ************************************************************
 //Approach-1 (Using BFS) Time : O(m*n)
 /*
 	Do BFS from every 1, and find the nearest 0.
@@ -110,3 +111,52 @@ Try on this example. You'll be able to see easily what's different between two a
 Approach-2 (Using DP)
 Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/01%20Matrix.cpp
 */
+
+
+
+
+************************************************************ JAVA ************************************************************
+//Approach-1 (Using BFS) Time : O(m*n)
+public class Solution {
+    int m, n;
+    int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+    
+    public int[][] updateMatrix(int[][] matrix) {
+        m = matrix.length;
+        n = matrix[0].length;
+        
+        int[][] result = new int[m][n];
+        
+        Queue<int[]> que = new LinkedList<>();
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 0) {
+                    result[i][j] = 0;
+                    que.offer(new int[] {i, j});
+                }
+                else {
+                    result[i][j] = -1;
+                }
+            }
+        }
+
+        while (!que.isEmpty()) {
+            int[] cell = que.poll();
+            int i = cell[0];
+            int j = cell[1];
+            
+            for (int[] dir : directions) {
+                
+                int new_i = i + dir[0];
+                int new_j = j + dir[1];
+                
+                if(new_i >= 0 && new_i < m && new_j >= 0 && new_j < n && result[new_i][new_j] == -1) {
+                    result[new_i][new_j] = result[i][j] + 1;
+                    que.add(new int[] {new_i, new_j});
+                }
+            }
+        }
+        
+        return result;
+    }
+}
