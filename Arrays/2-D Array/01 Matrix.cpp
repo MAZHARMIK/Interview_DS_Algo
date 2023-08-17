@@ -1,13 +1,16 @@
 /*
-    Company Tags  : Google
-    Leetcode Link : https://leetcode.com/problems/01-matrix/
+	MY YOUTUBE VIDEO ON THIS Qn : soon today
+    	Company Tags  		    : Google
+    	Leetcode Link 		    : https://leetcode.com/problems/01-matrix/
 */
 
+/*
 Why BFS ?
 Always remember whenever you have to find shortest path in graph, 2-d matrix , BFS
 must come to your mind first.
 
 Kind of similar qn : "Walls And Gates" https://leetcode.com/problems/walls-and-gates/
+*/
 
 //Approach-1 (Using BFS) Time : O(m*n)
 /*
@@ -30,7 +33,7 @@ public:
         m = mat.size();
         n = mat[0].size();
         queue<P> que;
-        vector<vector<int>> dist(m, vector<int>(n, INT_MAX));
+        vector<vector<int>> dist(m, vector<int>(n, -1));
         
         for(int i = 0; i<m; i++) {
             for(int j = 0; j<n; j++) {
@@ -54,7 +57,7 @@ public:
                 int j = p.second + dir[1];
                 
                 if(isSafe(i, j, m, n)) {
-                    if(dist[i][j] > 1 + dist[p.first][p.second]) {
+                    if(dist[i][j] == -1) {
                         que.push({i, j});
                         dist[i][j] = 1 + dist[p.first][p.second];
                     }
