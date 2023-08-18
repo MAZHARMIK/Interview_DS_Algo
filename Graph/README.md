@@ -290,5 +290,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Find%20Eventual%20Safe%20States.cpp"> Find Eventual Safe States (Leetcode : 802) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Maximal%20Network%20Rank.cpp"> Maximal Network Rank (Leetcode : 1615) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
