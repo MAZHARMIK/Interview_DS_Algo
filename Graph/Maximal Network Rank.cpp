@@ -1,9 +1,11 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=R2sjm5jfwYY
+      iPad PDF Notes              : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/Leetcode-1615-Maximal%20Network%20Rank.pdf
       Company Tags                : MICROSOFT
       Leetcode Link               : https://leetcode.com/problems/maximal-network-rank/
 */
 
+************************************************ C++ ********************************************************
 //Approach-1 (Simply checking each pair of nodes) - O(V^2)
 class Solution {
 public:
@@ -82,3 +84,41 @@ public:
         return maxRank;
     }
 };
+
+
+
+
+************************************************ JAVA ********************************************************
+//Approach-1 (Simply checking each pair of nodes) - O(V^2)
+class Solution {
+    public int maximalNetworkRank(int n, int[][] roads) {
+        
+        Map<Integer, Set<Integer>> adj = new HashMap<>();
+        
+        for (int[] road : roads) {
+            adj.computeIfAbsent(road[0], k -> new HashSet<>()).add(road[1]);
+            adj.computeIfAbsent(road[1], k -> new HashSet<>()).add(road[0]);
+        }
+
+        int maxRank = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                
+                int i_rank = adj.getOrDefault(i, Collections.emptySet()).size();
+                int j_rank = adj.getOrDefault(j, Collections.emptySet()).size();
+                
+                int rank = i_rank + j_rank;
+                
+                
+                if (adj.getOrDefault(i, Collections.emptySet()).contains(j)) {
+                    rank--;
+                }
+                
+                maxRank = Math.max(maxRank, rank);
+            }
+        }
+ 
+        return maxRank;
+    }
+}
