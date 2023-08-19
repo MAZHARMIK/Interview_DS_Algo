@@ -8,7 +8,7 @@ class Solution
 {
 	public:
     //DSU Code
-	vector<int> parent;
+    vector<int> parent;
     vector<int> rank;
     
     int find (int x) {
@@ -54,13 +54,16 @@ class Solution
             
         }
 
+	//if(edgesConnexted != V-1) 
+	    //"It's not a MST" - REMEMBER THIS ALWAYS if anyone asks you how to check if we formed an MST or not
+
+	    
         return sum;
     }
     
 	//Function to find sum of weights of edges of the Minimum Spanning Tree.
     int spanningTree(int V, vector<vector<int>> adj[]) {
         
-
         parent.resize(V);
 	    rank.resize(V, 0);
         	    
