@@ -4,6 +4,21 @@
       Leetcode Link               : https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
 */
 
+
+/*
+Time Complexity - 
+We fill the itemGraph and groupGraphs by traversing on each item and beforeItems causing O(n^2) in worst case. 
+After that, Since we call Topological Sort for : 
+1) itemGraph - O(n + edges) 
+2) Group Graph - O(m + edges) 
+
+Then, we run for loop ok itemOrder - O(n) 
+Then we run for loop on groupOrder - O(m) 
+Then at the end we make result - O(n)
+After summing up all, the biggest term is O(n^2) 
+Hence worst case TC = O(n^2) Hope this helps. 
+I will definitely cover TC in my videos further Thanks a lot ❤️😇
+*/
 **************************************** C++ ****************************************
 //Using Topological sort of items and groups
 class Solution {
