@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://youtu.be/7J8x0XudV0Y
     Company Tags                : AMAZON, GOOGLE
     Leetcode Link               : https://leetcode.com/problems/repeated-substring-pattern/
 */
