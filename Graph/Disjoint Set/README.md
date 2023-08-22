@@ -21,6 +21,11 @@
 			</tr>
 			<tr>
         			<td>
+					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Disjoint%20set%20(Union-Find-Size).cpp"> Disjoint set (Union-Find-Size)</a>
+				      </td>
+			</tr>
+			<tr>
+        			<td>
 					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Max%20Area%20of%20Island.cpp"> Max Area of Island (Leetcode-695)</a>
 				      </td>
 			</tr>
