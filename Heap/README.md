@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Find%20K%20Pairs%20with%20Smallest%20Sums.cpp"> Find K Pairs with Smallest Sums (Leetcode-373)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Reorganize%20String.cpp"> Reorganize String (Leetcode-767)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
