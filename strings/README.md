@@ -184,5 +184,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Repeated%20Substring%20Pattern.cpp"> Repeated Substring Pattern (Leetcode-459)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Text%20Justification.cpp"> Text Justification (Leetcode-68)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
