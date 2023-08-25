@@ -136,7 +136,7 @@ public:
     }
 };
 
-//Approach - 4 (Bottom Up : O(n) : Converting Approach-3 to O(n) approach)
+//Approach - 4 (Bottom Up : Space O(n) : Converting Approach-3 to Space O(n) approach)
 class Solution {
 public:   
     bool check(string& s1, string& s2, string& s3) {
