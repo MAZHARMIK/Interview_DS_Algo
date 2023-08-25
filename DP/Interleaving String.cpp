@@ -10,27 +10,40 @@ class Solution {
 public:
     int m, n, N;
     int t[101][101][201];
-    bool check(string s1, string s2, string s3, int i, int j, int k) {
-        if(i >= m && j >= n && k >= N) //solution
-            return true;
+    
+    bool solve(int i, int j, int k, string& s1, string& s2, string& s3) {
         
-        if(k >= N) //other string didn't get consumed whole
+        if(i == m && j == n && k == N) {
+            return true;
+        }
+        
+        if(k >= N) //other string didn't get consumed at all
             return false;
-            
+        
         if(t[i][j][k] != -1)
             return t[i][j][k];
         
-        return t[i][j][k] = ((s1[i]==s3[k] && check(s1, s2, s3, i+1, j, k+1)) || (s2[j]==s3[k] && check(s1, s2, s3, i, j+1, k+1)));
+        bool result = false;
+        
+        if(i < m && s1[i] == s3[k]) {
+            result = solve(i+1, j, k+1, s1, s2, s3);
+        }
+        
+        if(result == true)
+            return t[i][j][k] = result;
+        
+        if(j < n && s2[j] == s3[k]) {
+            result = solve(i, j+1, k+1,s1, s2, s3);
+        }
+        return t[i][j][k] = result; 
     }
+    
     bool isInterleave(string s1, string s2, string s3) {
-        memset(t, -1, sizeof(t));
         m = s1.length();
         n = s2.length();
         N = s3.length();
-        if(m + n != N)
-            return false;
-        
-        return check(s1, s2, s3, 0, 0, 0);
+        memset(t, -1, sizeof(t));
+        return solve(0, 0, 0, s1, s2, s3);
     }
 };
 
@@ -38,32 +51,41 @@ public:
 class Solution {
 public:
     int m, n, N;
-    int t[101][101];
-    
-    bool check(string s1, string s2, string s3, int i, int j) {
-        if(i >= m && j >= n && i+j >= N) //solution
-            return true;
+    int t[101][101]; //{-1, 0, 1}
+    //O(m*n)
+    bool solve(int i, int j, string& s1, string& s2, string& s3) {
         
-        if(i+j >= N) //other string didn't get consumed whole
+        if(i == m && j == n && i+j == N) {
+            return true;
+        }
+        
+        if(i+j >= N) //other string didn't get consumed at all
             return false;
-            
+        
         if(t[i][j] != -1)
             return t[i][j];
         
-        //Note that, k is same for both calls because it increases in both cases
-        //Also, at any time k = i + j;
-        return t[i][j] = ((s1[i]==s3[i+j] && check(s1, s2, s3, i+1, j)) || (s2[j]==s3[i+j] && check(s1, s2, s3, i, j+1)));
+        bool result = false;
+        
+        if(i < m && s1[i] == s3[i+j]) {
+            result = solve(i+1, j, s1, s2, s3);
+        }
+        
+        if(result == true)
+            return t[i][j] = result;
+        
+        if(j < n && s2[j] == s3[i+j]) {
+            result = solve(i, j+1, s1, s2, s3);
+        }
+        return t[i][j] = result;
     }
+    
     bool isInterleave(string s1, string s2, string s3) {
-        memset(t, -1, sizeof(t));
         m = s1.length();
         n = s2.length();
         N = s3.length();
-        
-        if(m + n != N)
-            return false;
-        
-        return check(s1, s2, s3, 0, 0);
+        memset(t, -1, sizeof(t));
+        return solve(0, 0, s1, s2, s3);
     }
 };
 
