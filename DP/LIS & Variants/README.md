@@ -9,10 +9,10 @@
       <th>Problem Name</th>
 		</thead>
 		<tbody>
-			<tr>
-        <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Longest%20Increasing%20Subsequence.cpp">Longest Increasing Subsequence (Leetcode - 300)</a>
-				</td>
-			</tr>
+		  <tr>
+        		<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Longest%20Increasing%20Subsequence.cpp">Longest Increasing Subsequence (Leetcode - 300)</a>
+			</td>
+		  </tr>
 		</tbody>
 </table>
