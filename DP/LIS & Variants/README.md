@@ -5,14 +5,19 @@
 
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
-		<thead>
-      <th>Problem Name</th>
-		</thead>
-		<tbody>
-		  <tr>
+	<thead>
+      		<th>Problem Name</th>
+	</thead>
+	<tbody>
+		<tr>
         		<td>
-				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Longest%20Increasing%20Subsequence.cpp">Longest Increasing Subsequence (Leetcode - 300)</a>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Longest%20Increasing%20Subsequence.cpp"> Longest Increasing Subsequence (Leetcode - 300)</a>
 			</td>
-		  </tr>
-		</tbody>
+		</tr>
+		<tr>
+        		<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Maximum%20Length%20of%20Pair%20Chain.cpp"> Maximum Length of Pair Chain (Leetcode - 646)</a>
+			</td>
+		</tr>
+	</tbody>
 </table>
