@@ -616,5 +616,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array.cpp"> Check if There is a Valid Partition For The Array (Leetcode-2369)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Frog%20Jump.cpp"> Frog Jump (Leetcode-403)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
