@@ -1,7 +1,7 @@
 /*
       MY YOUTUBE VIDEO ON THIS Qn : 
-      Company Tags                : 
-      Leetcode Link               : 
+      Company Tags                : Amazon, Google, Meta
+      Leetcode Link               : https://leetcode.com/problems/frog-jump/
 */
 
 **************************************** C++ ****************************************
