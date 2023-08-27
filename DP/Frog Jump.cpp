@@ -12,28 +12,28 @@ public:
     unordered_map<int, int> mp;
     int t[2001][2001];
     
-    bool solve(vector<int>& stones, int curr_stone_position, int prevJump) {
-        if(curr_stone_position == n-1)
+    bool solve(vector<int>& stones, int curr_stone_index, int prevJump) {
+        if(curr_stone_index == n-1)
             return true;
         
         bool result = false;
         
-        if(t[curr_stone_position][prevJump] != -1)
-            return t[curr_stone_position][prevJump];
+        if(t[curr_stone_index][prevJump] != -1)
+            return t[curr_stone_index][prevJump];
         
         for(int nextJump = prevJump-1; nextJump <= prevJump+1; nextJump++) {
             
             if(nextJump > 0) {
-                int next_stone_position = stones[curr_stone_position] + nextJump;
+                int next_stone = stones[curr_stone_index] + nextJump;
                 
-                if(mp.find(next_stone_position) != mp.end()) {
-                    result = result || solve(stones, mp[next_stone_position], nextJump);
+                if(mp.find(next_stone) != mp.end()) {
+                    result = result || solve(stones, mp[next_stone], nextJump);
                 }
             }
             
         }
         
-        return t[curr_stone_position][prevJump] = result;
+        return t[curr_stone_index][prevJump] = result;
         
     }
     
@@ -62,35 +62,30 @@ class Solution {
     HashMap<Integer, Integer> mp = new HashMap<>();
     int t[][] = new int[2001][2001];
     int n;
-    
-    boolean solve(int[] stones, int curr_stone_position, int prevJump) {
-
-        if (curr_stone_position == n - 1) {
+    boolean solve(int[] stones, int curr_stone_index, int prevJump) {
+        if(curr_stone_index == n-1)
             return true;
-        }
-        
-        // If this subproblem has already been calculated, return it.
-        if (t[curr_stone_position][prevJump] != -1) {
-            return t[curr_stone_position][prevJump] == 1;
-        }
         
         boolean result = false;
+        
+        if(t[curr_stone_index][prevJump] != -1)
+            return t[curr_stone_index][prevJump] == 1;
         
         for(int nextJump = prevJump-1; nextJump <= prevJump+1; nextJump++) {
             
             if(nextJump > 0) {
-                int next_stone_position = stones[curr_stone_position] + nextJump;
+                int next_stone = stones[curr_stone_index] + nextJump;
                 
-                if(mp.containsKey(next_stone_position)) {
-                    result = result || solve(stones, mp.get(next_stone_position), nextJump);
+                if(mp.containsKey(next_stone)) {
+                    result = result || solve(stones, mp.get(next_stone), nextJump);
                 }
             }
             
         }
-
         
-        t[curr_stone_position][prevJump] = (result ? 1 :0);
+        t[curr_stone_index][prevJump] = (result ? 1 :0);
         return result;
+        
     }
     
     public boolean canCross(int[] stones) {
