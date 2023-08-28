@@ -7,46 +7,37 @@
 //Approach-1 (Using 2 queues with O(n) pop)
 class MyStack {
 public:
-    queue<int> que;
-    int topEl = -1;
     /** Initialize your data structure here. */
+    queue<int> q1;
+    queue<int> q2;
     MyStack() {
+        
     }
     
     /** Push element x onto stack. */
     void push(int x) {
-        topEl = x;
-        que.push(x);
+        q2.push(x);
+        while(!q1.empty()){
+            q2.push(q1.front());    q1.pop();
+        }
+        swap(q1, q2);
     }
     
     /** Removes the element on top of the stack and returns that element. */
     int pop() {
-        queue<int> tempQue;
-        int size       = que.size();
-        int last       = -1;
-        int secondLast = -1;
-        while(size > 0) {
-            int x = que.front();
-            que.pop();
-            if(size > 1)
-                tempQue.push(x);
-            secondLast = last;
-            last = x;
-            size--;
-        }
-        que   = tempQue;
-        topEl = secondLast;
-        return last;
+        int result = top();
+        q1.pop();
+        return result;
     }
     
     /** Get the top element. */
     int top() {
-        return topEl;
+        return q1.front();
     }
     
     /** Returns whether the stack is empty. */
     bool empty() {
-        return que.empty();
+        return q1.empty();
     }
 };
 
