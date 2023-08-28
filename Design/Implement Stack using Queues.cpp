@@ -1,41 +1,10 @@
 /*
-    Company Tags  : Bloomberg
-    Leetcode Link : https://leetcode.com/problems/implement-stack-using-queues/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : Bloomberg
+    Leetcode Link               : https://leetcode.com/problems/implement-stack-using-queues/
 */
 
-//Approach-1 (Using dequeq)
-class MyStack {
-public:
-    deque<int> deq;
-    /** Initialize your data structure here. */
-    MyStack() {
-        deq.clear();
-    }
-    
-    /** Push element x onto stack. */
-    void push(int x) {
-        return deq.push_back(x);
-    }
-    
-    /** Removes the element on top of the stack and returns that element. */
-    int pop() {
-        int top = deq.back();
-        deq.pop_back();
-        return top;
-    }
-    
-    /** Get the top element. */
-    int top() {
-        return deq.back();
-    }
-    
-    /** Returns whether the stack is empty. */
-    bool empty() {
-        return deq.empty();
-    }
-};
-
-//Approach-2 (Using 2 queues with O(n) pop)
+//Approach-1 (Using 2 queues with O(n) pop)
 class MyStack {
 public:
     queue<int> que;
@@ -81,7 +50,7 @@ public:
     }
 };
 
-//Approach-3 (Using single queue with O(n) push)
+//Approach-2 (Using single queue with O(n) push)
 class MyStack {
 public:
     queue<int> que;
@@ -113,5 +82,38 @@ public:
     /** Returns whether the stack is empty. */
     bool empty() {
         return que.empty();
+    }
+};
+
+
+//Approach-3 (Using dequeq)
+class MyStack {
+public:
+    deque<int> deq;
+    /** Initialize your data structure here. */
+    MyStack() {
+        deq.clear();
+    }
+    
+    /** Push element x onto stack. */
+    void push(int x) {
+        return deq.push_back(x);
+    }
+    
+    /** Removes the element on top of the stack and returns that element. */
+    int pop() {
+        int top = deq.back();
+        deq.pop_back();
+        return top;
+    }
+    
+    /** Get the top element. */
+    int top() {
+        return deq.back();
+    }
+    
+    /** Returns whether the stack is empty. */
+    bool empty() {
+        return deq.empty();
     }
 };
