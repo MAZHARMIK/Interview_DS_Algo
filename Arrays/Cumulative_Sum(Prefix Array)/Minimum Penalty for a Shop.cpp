@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=XHgelA78SGs
       Company Tags                : META
       Leetcode Link               : https://leetcode.com/problems/minimum-penalty-for-a-shop/
 */
