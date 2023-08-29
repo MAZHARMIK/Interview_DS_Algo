@@ -44,5 +44,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/K%20Radius%20Subarray%20Averages.cpp"> K Radius Subarray Averages (Leetcode-2090)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Minimum%20Penalty%20for%20a%20Shop.cpp"> Minimum Penalty for a Shop (Leetcode-2483)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
