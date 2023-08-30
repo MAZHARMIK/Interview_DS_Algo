@@ -184,5 +184,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Dota2%20Senate.cpp"> Dota2 Senate (Leetcode-649)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Replacements%20to%20Sort%20the%20Array.cpp"> Minimum Replacements to Sort the Array (Leetcode-2366)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
