@@ -189,5 +189,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Replacements%20to%20Sort%20the%20Array.cpp"> Minimum Replacements to Sort the Array (Leetcode-2366)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.cpp"> Minimum Number of Taps to Open to Water a Garden (Leetcode-1326)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
