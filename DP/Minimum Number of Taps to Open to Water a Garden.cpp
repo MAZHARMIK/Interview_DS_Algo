@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=zClcHFT9X8E
     Company Tags                : Adobe, Amazon, Housing.com, Moonfrog Labs, OYO Rooms, Saplabs, Walmart
     Leetcode Link               : https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/
     Greedy Approach             : https://www.youtube.com/watch?v=2hzsf3D9Xvw
