@@ -1,6 +1,6 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
-      Company Tags                : 
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=uwOz378g3ew
+      Company Tags                : AMAZON
       Leetcode Link               : https://leetcode.com/problems/counting-bits/
 */
 
