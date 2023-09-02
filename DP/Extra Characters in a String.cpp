@@ -9,38 +9,48 @@
 class Solution {
 public:
     unordered_set<string> st;
+    int t[51];
+    
     int n;
     
-    int solve(string &s, int idx) {
-        if (idx >= n) 
+    int solve(int idx, string &s) {
+        
+        if(idx >= n)
             return 0;
         
-        string currStr = "";
-        int minExtra = n;
+        if(t[idx] != -1)
+            return t[idx];
         
-        for (int i = idx; i < s.size(); i++) {
+        string currStr = "";
+        int minExtra   = n;
+        
+        for(int i = idx; i<n; i++) {
             
             currStr.push_back(s[i]);
-
+            
             int currExtra = (st.find(currStr) == st.end()) ? currStr.length() : 0;
-            int nextExtra = solve(s, i + 1);
+            
+            int nextExtra = solve(i+1, s);
+            
             int totalExtra = currExtra + nextExtra;
             
             minExtra = min(minExtra, totalExtra);
+            
         }
         
-        return minExtra;
+        return t[idx] = minExtra;
+        
     }
     
     int minExtraChar(string s, vector<string>& dictionary) {
         n = s.length();
         
-        for(string &word : dictionary) {
-            st.insert(word);
-        }
+        memset(t, -1, sizeof(t));
         
-        return solve(s, 0);
+        for(string &word : dictionary)
+            st.insert(word);
+        
+        return solve(0, s);
     }
 };
-
 //Approach-2 (Bottom Up) - SOOON
