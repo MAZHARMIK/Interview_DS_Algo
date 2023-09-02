@@ -621,5 +621,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Frog%20Jump.cpp"> Frog Jump (Leetcode-403)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Extra%20Characters%20in%20a%20String.cpp"> Extra Characters in a String (Leetcode-2707)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
