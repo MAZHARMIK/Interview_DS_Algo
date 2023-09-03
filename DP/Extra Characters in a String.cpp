@@ -1,6 +1,6 @@
 /*
       MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=uQuSzPKtoVU
-      Company Tags                : Will update soon
+      Company Tags                : GOOGLE
       Leetcode Link               : https://leetcode.com/problems/extra-characters-in-a-string/
 */
 
