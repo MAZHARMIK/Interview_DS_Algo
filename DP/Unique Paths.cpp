@@ -1,24 +1,39 @@
 /*
-    Company Tags : Amazon, Cisco, Paytm, OLA Cabs, Walmart, LinkedIn
-    Leetcode Link : https://leetcode.com/problems/unique-paths/
+    MY YOUTUBE VIDEO ON THIS Qn : soon today
+    Company Tags                : Amazon, Cisco, Paytm, OLA Cabs, Walmart, LinkedIn
+    Leetcode Link               : https://leetcode.com/problems/unique-paths/
 */
 
+//Approach-1 - Recursion + Memoization - T.C : O(m*n)
 class Solution {
 public:
-    vector<vector<int>> t;
-    int solve_memoize(int m, int n, int i, int j) {
+    int t[101][101];
+        
+    int solve(int m, int n, int i, int j) {
         if(i >= m || j >= n || i < 0 || j < 0)
             return 0;
+        
         if(i == m-1 && j == n-1)
             return 1;
         
         if(t[i][j] != -1)
             return t[i][j];
-        return t[i][j] = solve_memoize(m, n, i+1, j) + solve_memoize(m, n, i, j+1);
+        
+        return t[i][j] = solve(m, n, i+1, j) + solve(m, n, i, j+1);
         
     }
     
-    int solve_dp(int m, int n) {
+    int uniquePaths(int m, int n) {
+        memset(t, -1, sizeof(t));
+        
+        return solve(m, n, 0, 0);
+    }
+};
+
+//Approach-2 (using Bottom Up) - T.C : O(m*n)
+class Solution {
+public:
+    int uniquePaths(int m, int n) {
         vector<vector<int>> t(m, vector<int>(n, 0));
         //t[i][j] = total ways to reach at [i][j]
         
@@ -42,12 +57,5 @@ public:
         }
         
         return t[m-1][n-1];//return total ways to reach [m-1][n-1] which is our Finish
-    }
-    
-    int uniquePaths(int m, int n) {
-        t.resize(m, vector<int>(n, -1));
-        //return solve_memoize(m, n, 0, 0);
-        
-        return solve_dp(m, n);
     }
 };
