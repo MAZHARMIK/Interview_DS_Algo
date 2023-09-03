@@ -155,7 +155,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Unique%20Paths%20(DP%20and%20Memoized)">Unique Paths (DP and Memoized) (Leetcode - 62)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Unique%20Paths.cpp">Unique Paths (Leetcode - 62)</a>
 				</td>
 			</tr>
 			<tr>
