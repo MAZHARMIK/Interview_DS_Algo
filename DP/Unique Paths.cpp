@@ -4,6 +4,7 @@
     Leetcode Link               : https://leetcode.com/problems/unique-paths/
 */
 
+************************************************************ C++ ************************************************************
 //Approach-1 - Recursion + Memoization - T.C : O(m*n)
 class Solution {
 public:
@@ -59,3 +60,52 @@ public:
         return t[m-1][n-1];//return total ways to reach [m-1][n-1] which is our Finish
     }
 };
+
+
+
+************************************************************ JAVA ************************************************************
+//Approach-1 - Recursion + Memoization - T.C : O(m*n)
+class Solution {
+    int[][] t;
+
+    public int solve(int m, int n, int i, int j) {
+        if(i >= m || i < 0 || j >= n || j < 0)
+            return 0;
+           
+        if(i == m-1 && j == n-1)
+            return 1;
+        
+        if(t[i][j] != -1) 
+            return t[i][j];
+        
+        return t[i][j] = solve(m, n, i+1, j) + solve(m, n, i, j+1);
+    }
+
+    public int uniquePaths(int m, int n) {
+        t = new int[m][n];
+        for (int[] row: t)
+            Arrays.fill(row, -1);
+        
+        return solve(m, n, 0, 0);
+    }
+
+}
+    
+//Approach-2 (using Bottom Up) - T.C : O(m*n)
+//Note : You can write C++ code above as simple as this one but I commented the code above for clarity and added some extra line of code for clarity
+public class Solution {
+    public int uniquePaths(int m, int n) {
+        int[][] grid = new int[m][n];
+        
+        for(int i = 0; i<m; i++){
+            for(int j = 0; j<n; j++){
+                if(i==0 || j==0)
+                    grid[i][j] = 1;
+                else
+                    grid[i][j] = grid[i][j-1] + grid[i-1][j];
+            }
+        }
+        
+        return grid[m-1][n-1];
+    }
+}
