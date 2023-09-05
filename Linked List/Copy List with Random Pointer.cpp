@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Morgan Stanley, Amazon, Microsoft, Snapdeal, MakeMyTrip, Ola Cabs, BankBazaar
-    Leetcode Link : https://leetcode.com/problems/copy-list-with-random-pointer/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=OLgXN2Yg3xQ
+    Company Tags                : Morgan Stanley, Amazon, Microsoft, Snapdeal, MakeMyTrip, Ola Cabs, BankBazaar
+    Leetcode Link               : https://leetcode.com/problems/copy-list-with-random-pointer/
 */
 
 //Approach-1 (Using O(n) space)
@@ -42,7 +43,7 @@ public:
     }
 };
 
-//Approach-2 (O(1) space)
+//Approach-2 (O(1) EXTRA space). We can also call it O(n) space for result linked list
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
