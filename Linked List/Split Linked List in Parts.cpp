@@ -1,49 +1,39 @@
 /*
-    Company Tags      : Amazon
-    Leetcode Link     : https://leetcode.com/problems/split-linked-list-in-parts/
-    Frequency         : 13%
-    Video Explanation : You can request for a video explanation (in Hinglish-easiest explanation) by contacting me on LinkedIn, Gmail etc. (It's FREEE)
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : Amazon
+    Leetcode Link               : https://leetcode.com/problems/split-linked-list-in-parts/
+    Frequency                   : 13%
 */
 
+//T.C : O(L+k) - You are traversing the input linkedlist only once and the array of size k only once
 class Solution {
 public:
-    //Get the length of LinkedList
-    int getListLength(ListNode* head) {
-        int l = 0;
-        while(head) {
-            l++;
-            head = head->next;
-        }
-        return l;
-    }
     vector<ListNode*> splitListToParts(ListNode* head, int k) {
-        vector<ListNode*> result(k, NULL);
-        int length = getListLength(head);
-        int size   = length/k;
-        int extra  = length%k;
-        int i      = 0;
+        ListNode* curr = head;
+        int L = 0;
+        while(curr) {
+            L++;
+            curr = curr->next;
+        }
         
-        while(head) {
-            int s = size;
-            result[i++] = head;
-            ListNode* last = head, *prev = head;
+        int eachBucketNodes = L/k; //0
+        int remainderNodes  = L%k; //3
+        
+        vector<ListNode*> result(k, NULL);
+        curr           = head;
+        ListNode* prev = NULL;
+        
+        for(int i = 0; curr && i < k ; i++) {
             
-            //Minimum size (MUST)
-            while(s-- > 0 && last) {
-                prev = last;
-                last = last->next;
+            result[i] = curr;
+            
+            for(int count = 1; count <= eachBucketNodes + (remainderNodes > 0 ? 1 : 0); count++) {
+                prev = curr;
+                curr = curr->next;
             }
             
-            //Extra nodes
-            if(extra-- > 0 && last) {
-                prev = last;
-                last = last->next;
-            }
-            
-            if(prev) {
-                head = prev->next;
-                prev->next = NULL;
-            }
+            prev->next = NULL;
+            remainderNodes--;
         }
         
         return result;
