@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : Amazon
+    Company Tags                : Amazon, Google
     Leetcode Link               : https://leetcode.com/problems/split-linked-list-in-parts/
     Frequency                   : 13%
 */
