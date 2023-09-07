@@ -1,9 +1,43 @@
 /*
-    Company Tags  : Tokopedia, Microsoft
-    Leetcode Link : https://leetcode.com/problems/reverse-linked-list-ii/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=bRZ_Fy4zRRY
+    Company Tags                : Tokopedia, Microsoft
+    Leetcode Link               : https://leetcode.com/problems/reverse-linked-list-ii/
 */
 
-//Approach-1 (Not exactly one pass)
+
+//Approach-1
+class Solution {
+public:
+    ListNode* reverseBetween(ListNode* head, int left, int right) {
+        if(head == NULL || head->next == NULL) {
+            return head;
+        }
+        
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
+        
+        ListNode* prev = dummy;
+        
+        for(int i = 1; i<left; i++) {
+            prev = prev->next;
+        }
+        
+        ListNode* curr = prev->next;
+        
+        for(int i = 1; i<=right-left; i++) {
+            
+            ListNode* temp = prev->next; //0
+            prev->next = curr->next; //1
+            curr->next = curr->next->next; //2
+            prev->next->next = temp; //3
+            
+        }
+    
+        return dummy->next;
+    }
+};
+
+//Approach-2 (Not exactly one pass)
 /*
 We could also do it as : Reverse the nodes [left, right],
 And then adjust the (left-1) node and (right+1) node
@@ -64,7 +98,7 @@ public:
 };
 
 
-//Approach-2 (Using Stack for One Pass Flow)
+//Approach-3 (Using Stack for One Pass Flow)
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int left, int right) {
@@ -98,37 +132,6 @@ public:
         }
         
         prev->next = storeRightNext;
-        return dummy->next;
-    }
-};
-
-//Approach-3 (O(1) space One Pass Flow)
-class Solution {
-public:
-    ListNode* reverseBetween(ListNode* head, int left, int right) {
-        
-        if(!head || !head->next)
-            return head;
-        
-        ListNode* dummy = new ListNode(0);  //to which prev points in the beginning (Example : 1 -> 2)
-        dummy->next = head;
-        
-        ListNode* prev = dummy;
-        for(int i = 1; i<left; i++) {
-            prev = prev->next;
-        }
-        
-        ListNode* curr  = prev->next;
-        ListNode* forw  = curr->next;
-        
-        //Simple old reverse loop
-        for(int i = 1; i<=right-left; i++) {
-            curr->next = forw->next;
-            forw->next = prev->next;
-            prev->next = forw;
-            forw       = curr->next;
-        }
-        
         return dummy->next;
     }
 };
