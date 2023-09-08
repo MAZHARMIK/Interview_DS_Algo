@@ -1,9 +1,32 @@
 /*
-    Company Tags  : Adobe, Amazon
-    Leetcode Link : https://leetcode.com/problems/pascals-triangle/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : Adobe, Amazon
+    Leetcode Link               : https://leetcode.com/problems/pascals-triangle/
 */
 
-//Approach-1 (Using simple math formula)
+//Approach-1 (Doing simply just like Pascal triangle is formed)
+class Solution {
+public:
+    vector<vector<int>> generate(int numRows) {
+        vector<vector<int>> result(numRows);
+        
+        for(int i = 0; i<numRows; i++) {
+            
+            result[i] = vector<int>(i+1, 1);
+            
+            for(int j = 1; j < i; j++) {
+                
+                result[i][j] = result[i-1][j] + result[i-1][j-1];
+                
+            }
+            
+        }
+        
+        return result;
+    }
+};
+
+//Approach-2 (Using simple math formula)
 class Solution {
 public:
     vector<int> getRow(int line) {
@@ -26,31 +49,6 @@ public:
         
         for(int lineNo = 1; lineNo < line; lineNo++) {
             result.push_back(getRow(lineNo));
-        }
-        
-        return result;
-    }
-};
-
-//Approach-2 (Using DP)
-class Solution {
-public:
-    vector<vector<int>> generate(int line) {
-        vector<vector<int>> result;
-        
-        result.push_back({1});
-        
-        for(int i = 2; i<=line; i++) {
-            vector<int> curr(i);
-            vector<int> prev = result[i-2];
-            
-            curr[0] = 1;
-            for(int j = 0; j<prev.size()-1; j++) {
-                curr[j+1] = prev[j] + prev[j+1];
-            }
-            curr[i-1] = 1;
-            
-            result.push_back(curr);
         }
         
         return result;
