@@ -116,7 +116,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combination_Sum_IV.cpp">Combination Sum IV (Leetcode-377) - (3 approaches)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combination%20Sum%20IV.cpp">Combination Sum IV (Leetcode-377)</a>
 				</td>
 			</tr>
 			<tr>
