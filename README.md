@@ -1,5 +1,5 @@
 # Repository Name - Interview_DS_Algo
-# My YouTube Channel Name - codestorywithMIK
+# My YouTube Channel Name - codestorywithMIK <img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icons8-youtube.gif"/>
 
 <img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/codestorywithMIK.png" align="right" />
 🦸🏻‍♂️On a mission to make a Super Repository for Interview Prep for everyone. :checkered_flag: One stop Solution.  
