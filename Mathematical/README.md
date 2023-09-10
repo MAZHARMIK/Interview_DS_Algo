@@ -159,5 +159,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Excel%20Sheet%20Column%20Title.cpp"> Excel Sheet Column Title (Leetcode - 168)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20All%20Valid%20Pickup%20and%20Delivery%20Options.cpp"> Count All Valid Pickup and Delivery Options (Leetcode - 1359)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
