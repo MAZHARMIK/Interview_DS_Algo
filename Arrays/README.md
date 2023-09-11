@@ -317,5 +317,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Put%20Marbles%20in%20Bags.cpp"> Put Marbles in Bags (Leetcode-2551)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To.cpp"> Group the People Given the Group Size They Belong To (Leetcode-1282)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
