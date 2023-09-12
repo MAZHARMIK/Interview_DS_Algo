@@ -194,5 +194,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.cpp"> Minimum Number of Taps to Open to Water a Garden (Leetcode-1326)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique.cpp"> Minimum Deletions to Make Character Frequencies Unique (Leetcode-1647)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
