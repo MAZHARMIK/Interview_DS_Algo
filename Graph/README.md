@@ -300,5 +300,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Find%20Critical%20and%20Pseudo-Critical%20Edges%20in%20Minimum%20Spanning%20Tree.cpp"> Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree (Leetcode : 1489) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Reconstruct%20Itinerary.cpp"> Reconstruct Itinerary (Leetcode : 332) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
