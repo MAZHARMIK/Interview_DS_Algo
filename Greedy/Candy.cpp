@@ -5,7 +5,7 @@
 */
 
 
-//Approach-2 
+//Approach-1
 //T.C : O(n)
 //S.C : O(2*n) ~ O(n) But using 2 Extra Arrays
 class Solution {
@@ -76,7 +76,7 @@ public:
         int n = ratings.size();
         int candy = n; //Each person given one candy
         
-        i=1;
+        int i=1;
         while(i < n){
             
             if(ratings[i] == ratings[i-1]) {
