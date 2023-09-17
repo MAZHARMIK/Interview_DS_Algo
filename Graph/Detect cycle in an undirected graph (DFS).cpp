@@ -19,7 +19,8 @@ bool isCycleUtil(vector<int> g[], int start, vector<bool>& visited, int parent) 
     return false;
 }
 
-bool isCyclic(vector<int> g[], int V) {
+/****---Mistake is here---**/ // 
+bool isCyclic(int V,vector<int> g[]) {
     vector<bool> visited(V, false);
     
     for(int i = 0; i<V; i++) {
