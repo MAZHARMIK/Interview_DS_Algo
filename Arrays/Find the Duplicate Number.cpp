@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=49HrEGt6D2s
       Company Tags                : AMAZON
       Leetcode Link               : https://leetcode.com/problems/find-the-duplicate-number/
 */
