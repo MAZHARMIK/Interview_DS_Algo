@@ -322,5 +322,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To.cpp"> Group the People Given the Group Size They Belong To (Leetcode-1282)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Duplicate%20Number.cpp"> Find the Duplicate Number (Leetcode-287)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
