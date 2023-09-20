@@ -49,5 +49,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Minimum%20Penalty%20for%20a%20Shop.cpp"> Minimum Penalty for a Shop (Leetcode-2483)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Minimum%20Operations%20to%20Reduce%20X%20to%20Zero.cpp"> Minimum Operations to Reduce X to Zero (Leetcode-1658)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
