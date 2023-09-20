@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=w7u9sMlx7zc
       Company Tags                : AMAZON
       Leetcode Link               : https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero
 
