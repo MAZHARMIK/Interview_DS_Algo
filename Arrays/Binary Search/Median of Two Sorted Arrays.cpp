@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : Part-1 (Brute & Better) - https://www.youtube.com/watch?v=6D9T2ZY8h5c
-                                  Part-1 (Binary Search)  - 
+                                  Part-1 (Binary Search)  - https://www.youtube.com/watch?v=7nABqJCEMuY
     Company Tags                : Google, Microsoft, Apple, Zenefits, Yahoo, Adobe, Dropbox
     Leetcode Link               : https://leetcode.com/problems/median-of-two-sorted-arrays/
 */
