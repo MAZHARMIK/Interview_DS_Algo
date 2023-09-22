@@ -1,11 +1,15 @@
 /*
-    Company Tags  : NIL (Let me know when you find it)
-    Leetcode Link : https://leetcode.com/problems/is-subsequence/
+
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : AMAZON
+    Leetcode Link               : https://leetcode.com/problems/is-subsequence/
     
-    I have added this question because there is a concept through which this can be solved as well. That concept may not be optimal
-    for this question but it helps to solve related questions optimally. Example : Leetcode-792 (Number of Matching Subsequences)
+    I have added this question because there is another concept through which this can be solved as well (see approach-1 below). That concept may not be optimal
+    for this question but it helps to solve related questions optimally. Example : Leetcode-792 (Number of Matching Subsequences) asked by GOOGLE
+    My Code for Leetcode-792 using this approach - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Number%20of%20Matching%20Subsequences.cpp
 */
 
+//Follow Up Approach
 //Approach-1 (Using Binary Search) -> This is an important concept for qns like Leetcode-792
 class Solution {
 public:
