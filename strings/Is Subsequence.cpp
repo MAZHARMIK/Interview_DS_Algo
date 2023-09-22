@@ -1,6 +1,6 @@
 /*
 
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=r51_ZifUdvU
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/is-subsequence/
     
