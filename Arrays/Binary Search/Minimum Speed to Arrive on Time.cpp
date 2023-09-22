@@ -1,6 +1,6 @@
 /*
       MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6VHDJMYtn3Q
-      Company Tags                : will update soon
+      Company Tags                : GOOGLE
       Leetcode Link               : https://leetcode.com/problems/minimum-speed-to-arrive-on-time/
       Similar Porblems - 
             https://leetcode.com/problems/koko-eating-bananas/
