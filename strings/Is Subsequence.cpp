@@ -1,5 +1,4 @@
 /*
-
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=r51_ZifUdvU
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/is-subsequence/
@@ -9,6 +8,7 @@
     My Code for Leetcode-792 using this approach - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Number%20of%20Matching%20Subsequences.cpp
 */
 
+/*************************************************** C++ *************************************************/
 //Follow Up Approach
 //Approach-1 (Using Binary Search) -> This is an important concept for qns like Leetcode-792
 class Solution {
@@ -65,3 +65,56 @@ public:
         return j == n;
     }
 };
+
+
+/*************************************************** JAVA *************************************************/
+//Follow Up Approach
+//Approach-1 (Using Binary Search) -> This is an important concept for qns like Leetcode-792
+public class Solution {
+    public boolean isSubsequence(String s, String t) {
+        Map<Character, List<Integer>> mp = new HashMap<>();
+        
+        for (int i = 0; i < t.length(); i++) {
+            char ch = t.charAt(i);
+            mp.computeIfAbsent(ch, k -> new ArrayList<>()).add(i);
+        }
+        
+        int prev = -1;
+        for (char ch : s.toCharArray()) {
+            if (!mp.containsKey(ch))
+                return false;
+            
+            List<Integer> indices = mp.get(ch);
+            
+            int index = Collections.binarySearch(indices, prev + 1);
+            
+            if (index < 0)
+                index = -index - 1;
+            
+            if (index == indices.size())
+                return false;
+            
+            prev = indices.get(index);
+        }
+        
+        return true;
+    }
+}
+
+//Approach-2 (Simplest O(n) approach)
+public class Solution {
+    public boolean isSubsequence(String s, String t) {
+        int m = t.length();
+        int n = s.length();
+        int i = 0, j = 0;
+
+        while (i < m && j < n) {
+            if (t.charAt(i) == s.charAt(j)) {
+                j++;
+            }
+            i++;
+        }
+
+        return j == n;
+    }
+}
