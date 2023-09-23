@@ -300,7 +300,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Super_Egg_Drop.cpp">Super Egg Drop  (4 approaches) (Leetcode-887)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Super%20Egg%20Drop.cpp">Super Egg Drop  (4 approaches) (Leetcode-887)</a>
 				</td>
 			</tr>
 			<tr>
