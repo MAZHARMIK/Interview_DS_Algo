@@ -24,5 +24,10 @@
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20&%20Variants/Russian%20Doll%20Envelopes.cpp"> Russian Doll Envelopes (Leetcode-354)</a>
 			</td>
 		</tr>
+		<tr>
+        		<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Longest%20String%20Chain.cpp"> Longest String Chain (Leetcode-1048)</a>
+			</td>
+		</tr>
 	</tbody>
 </table>
