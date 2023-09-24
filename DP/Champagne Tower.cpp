@@ -1,5 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : Recursion + Memo - https://www.youtube.com/watch?v=-RwOEYcsQU0
+                                  Bottom Up - 
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/champagne-tower/
 */
