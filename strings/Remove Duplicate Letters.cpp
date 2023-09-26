@@ -98,6 +98,57 @@ public:
     }
 };
 
+//Approach-3 (Using Recursion + Backtracking) - Not a good solution because contraints are high
+/*
+At ever character i have two choices - take or not take.
+I can take it if that character is not taken before.
+Once I reach out of bounds, i will see my temp string and keeping updating the result which is lexically smaller
+*/
+class Solution {
+public:
+    string result = "";
+    int n;
+    int unique_characters;
+    
+    void solve(int idx, string s, string temp, unordered_set<char>& st) {
+        if(idx >= n) {
+            if(result == "")
+                result = s;
+            else if(temp.size() == unique_characters)
+                result = result > temp ? temp : result;
+            
+            return;
+        }
+        
+        if(st.find(s[idx]) == st.end()) {
+            temp.push_back(s[idx]); //taking idx'th char
+            st.insert(s[idx]);
+            solve(idx+1, s, temp, st);
+            
+            //Removing it for trying "Not Taking this Char"
+            st.erase(s[idx]); //Not taking idx'th char
+            temp.pop_back();
+        }
+        
+        solve(idx+1, s, temp, st);
+    }
+    
+    string removeDuplicateLetters(string s) {
+        n = s.length();
+        unordered_set<char> st;
+        
+        for(char &ch : s) {
+            st.insert(ch);
+        }
+        unique_characters = st.size();
+        
+        st.clear();
+        
+        solve(0, s, "", st);
+        
+        return result;
+    }
+};
 
 /********************************************* JAVA *********************************************/
 //Using string as a stack
@@ -172,5 +223,58 @@ public class Solution {
         }
         
         return result.reverse().toString();
+    }
+}
+
+
+//Approach-3 (Using Recursion + Backtracking) - Not a good solution because contraints are high
+/*
+At ever character i have two choices - take or not take.
+I can take it if that character is not taken before.
+Once I reach out of bounds, i will see my temp string and keeping updating the result which is lexically smaller
+*/
+public class Solution {
+    String result = "";
+    int n;
+    int uniqueCharacters;
+
+    public String removeDuplicateLetters(String s) {
+        n = s.length();
+        HashSet<Character> st = new HashSet<>();
+
+        for (char ch : s.toCharArray()) {
+            st.add(ch);
+        }
+        uniqueCharacters = st.size();
+
+        st.clear();
+
+        solve(0, s, new StringBuilder(), st);
+
+        return result;
+    }
+
+    private void solve(int idx, String s, StringBuilder temp, HashSet<Character> st) {
+        if (idx >= n) {
+            if (result.isEmpty()) {
+                result = temp.toString();
+            } else if (temp.length() == uniqueCharacters) {
+                result = result.compareTo(temp.toString()) > 0 ? temp.toString() : result;
+            }
+
+            return;
+        }
+
+        if (!st.contains(s.charAt(idx))) {
+            temp.append(s.charAt(idx)); // Taking idx'th char
+            st.add(s.charAt(idx));
+            solve(idx + 1, s, temp, st);
+
+            // Removing it for trying "Not Taking this Char"
+            st.remove(s.charAt(idx)); // Not taking idx'th char
+            temp.deleteCharAt(temp.length() - 1);
+        }
+
+        solve(idx + 1, s, temp, st);
     }
 }
