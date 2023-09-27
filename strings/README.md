@@ -29,7 +29,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Decoded%20String%20at%20Index">Decoded String at Index (Leetcode-880)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Decoded%20String%20at%20Index.cpp">Decoded String at Index (Leetcode-880)</a>
 				</td>
 			</tr>
 			<tr>
