@@ -40,33 +40,32 @@ public:
 
 /************************************************ JAVA ************************************************/
 public class Solution {
-    public String decodeAtIndex(String S, int K) {
-        int n = S.length();
+    public static String decodeAtIndex(String s, int k) {
+        int n = s.length();
         long size = 0;
-
-        for (char ch : S.toCharArray()) {
-            if (Character.isDigit(ch)) {
-                size *= (ch - '0');
+        for (char c : s.toCharArray()) {
+            if (Character.isDigit(c)) {
+                size *= (c - '0');
             } else {
-                size++;
+                size += 1;
             }
         }
 
         for (int i = n - 1; i >= 0; i--) {
-            K = K % (int) size;
+            char c = s.charAt(i);
+            k %= size;
 
-            if (K == 0 && Character.isLetter(S.charAt(i))) {
-                return String.valueOf(S.charAt(i));
+            if (k == 0 && Character.isLetter(c)) {
+                return String.valueOf(c);
             }
 
-            if (Character.isLetter(S.charAt(i))) {
-                size--;
+            if (Character.isDigit(c)) {
+                size /= (c - '0');
             } else {
-                size /= (S.charAt(i) - '0');
+                size -= 1;
             }
         }
-
+        
         return "";
     }
 }
-
