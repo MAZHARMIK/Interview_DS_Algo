@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=xK95Wlng_RA
     Company Tags                : National Instruments, Oracle, Google, TCS
     Leetcode Link               : https://leetcode.com/problems/decoded-string-at-index/
 */
