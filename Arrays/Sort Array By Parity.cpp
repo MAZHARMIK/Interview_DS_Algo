@@ -65,7 +65,20 @@ class Solution {
 class Solution {
     
     static boolean comparator(int a, int b) {
-        return a%2 < b%2; //a%2 will be 0 if it's even and since we do a%2 < b%2, hence a will come first if it's even
+        
+        /*
+        NOTE : return a%2 < b%2;
+        This is causing "Comparison method violates its general contract!" Error.
+        So, for JAVA, I have written below comparator
+        */
+        
+        // If both 'a' and 'b' are even or both are odd, compare them as usual.
+        if ((a % 2 == 0 && b % 2 == 0) || (a % 2 != 0 && b % 2 != 0)) {
+            return a < b;
+        }
+
+        // If 'a' is even and 'b' is odd, 'a' should come before 'b'.
+        return a % 2 == 0;
     }
     
     public int[] sortArrayByParity(int[] nums) {
