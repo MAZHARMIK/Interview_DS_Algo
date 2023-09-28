@@ -327,5 +327,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Duplicate%20Number.cpp"> Find the Duplicate Number (Leetcode-287)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sort%20Array%20By%20Parity.cpp"> Sort Array By Parity (Leetcode-905)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
