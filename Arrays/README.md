@@ -332,5 +332,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sort%20Array%20By%20Parity.cpp"> Sort Array By Parity (Leetcode-905)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Monotonic%20Array.cpp"> Monotonic Array (Leetcode-896)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
