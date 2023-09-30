@@ -50,30 +50,34 @@ public:
 
 //Approach-3 --> Using Monotonic stack
 //T.C : O(n) - We don't visit any element more than once
+/*
+    We are only storing one item in the stack, which is our ideal candidate for s2 (number that needs to be the largest). 
+    If we find a number that is bigger than what we thought was our ideal candidate for s2; we pop out our stack 
+    and store the value in s3 (mid value number), then we store the new ideal candidate for s2 in the stack. 
+    On the next ith iteration, if nums[i] is actually less than s3, then we are done!
+*/
 class Solution {
 public:
     bool find132pattern(vector<int>& nums) {
-        int n = nums.size();
-        if(n < 3)
-            return false;
+        int n  = nums.size();
+        int s3 = INT_MIN;
         stack<int> st;
-        vector<int> min_i_for_j(n);
-        min_i_for_j[0] = nums[0];
         
-        for(int i = 1; i<n; i++)
-            min_i_for_j[i] = min(min_i_for_j[i-1], nums[i]);
-        
-        for(int j = n-1; j > 0; j--) {
-            while(!st.empty() && nums[st.top()] < nums[j]) {
-                if(nums[st.top()] > min_i_for_j[j-1])
-                    return true;
+        for(int i = n-1; i >= 0; i--) {
+            if(nums[i] < s3)
+                return true;
+            
+            while(!st.empty() && nums[i] > st.top()) {
+                s3 = st.top();
                 st.pop();
             }
-            st.push(j);
+            st.push(nums[i]);
         }
+
         return false;
     }
 };
+
 /*********************************************************** JAVA *********************************************/
 //Approach-1
 //T.C : O(n^3) - T.L.E : [94 / 103 test cases passed.]
@@ -116,30 +120,25 @@ class Solution {
 
 //Approach-3 --> Using stack
 //T.C : O(n) - We don't visit any element more than once
+import java.util.Stack;
+
 class Solution {
     public boolean find132pattern(int[] nums) {
         int n = nums.length;
-        if (n < 3) {
-            return false;
-        }
+        int s3 = Integer.MIN_VALUE;
+        Stack<Integer> stack = new Stack<>();
 
-        Stack<Integer> st = new Stack<>();
-        int[] min_i_for_j = new int[n];
-        min_i_for_j[0] = nums[0];
-
-        for (int i = 1; i < n; i++) {
-            min_i_for_j[i] = Math.min(min_i_for_j[i - 1], nums[i]);
-        }
-
-        for (int j = n - 1; j > 0; j--) {
-            while (!st.isEmpty() && nums[st.peek()] < nums[j]) {
-                if (nums[st.peek()] > min_i_for_j[j - 1]) {
-                    return true;
-                }
-                st.pop();
+        for (int i = n - 1; i >= 0; i--) {
+            if (nums[i] < s3) {
+                return true;
             }
-            st.push(j);
+
+            while (!stack.isEmpty() && nums[i] > stack.peek()) {
+                s3 = stack.pop();
+            }
+            stack.push(nums[i]);
         }
+
         return false;
     }
 }
