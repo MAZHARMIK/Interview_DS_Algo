@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=8jlP3D1Dnj4
     Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/
 
