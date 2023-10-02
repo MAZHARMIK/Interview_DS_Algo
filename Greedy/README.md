@@ -189,5 +189,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique.cpp"> Minimum Deletions to Make Character Frequencies Unique (Leetcode-1647)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Remove%20Colored%20Pieces%20if%20Both%20Neighbors%20are%20the%20Same%20Color.cpp"> Remove Colored Pieces if Both Neighbors are the Same Color (Leetcode-2038)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
