@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=RSu9uQ-OGb0
     Company Tags                : META
     Leetcode Link               : https://leetcode.com/problems/number-of-good-pairs/
 */
