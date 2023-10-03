@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Equal%20Row%20and%20Column%20Pairs.cpp"> Equal Row and Column Pairs (2352)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Number%20of%20Good%20Pairs.cpp"> Number of Good Pairs (Leetcode-1512)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
