@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : 
+    Company Tags                : META
     Leetcode Link               : https://leetcode.com/problems/number-of-good-pairs/
 */
 
