@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Facebook, Amazon, Netflix, Google (FANG woooooo)
-    Leetcode Link : https://leetcode.com/problems/design-hashmap/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : Netflix, Google, Meta
+    Leetcode Link               : https://leetcode.com/problems/design-hashmap/
 */
 
 class MyHashMap {
@@ -54,6 +55,6 @@ public:
         }
         
         /*Smart way to remove from a list*/
-        chain.remove_if([key](auto it) { return it.first == key; });
+        //chain.remove_if([key](auto it) { return it.first == key; });
     }
 };
