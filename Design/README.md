@@ -46,7 +46,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20HashMap">Design HashMap (Leetcode - 706)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20HashMap.cpp">Design HashMap (Leetcode - 706)</a>
 				</td>
 			</tr>
 			<tr>
