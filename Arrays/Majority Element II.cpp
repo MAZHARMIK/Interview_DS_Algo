@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : soon today
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Q6L5SoS-fTo
     Company Tags                : Amazon, Google
     Leetcode Qn Link            : https://leetcode.com/problems/majority-element-ii/
 */
