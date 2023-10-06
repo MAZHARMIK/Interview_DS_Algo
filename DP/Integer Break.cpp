@@ -20,7 +20,7 @@ public:
         if(t[n] != -1)
             return t[n];
         
-        int result = 1*(n-1);
+        int result = INT_MIN;
       
         for(int i = 1; i<n; i++) {
             int prod = i * max(n-i, solve(n-i));
@@ -55,7 +55,7 @@ class Solution {
         if (t[n] != -1)
             return t[n];
 
-        int result = 1 * (n - 1);
+        int result = Integer.MIN_VALUE;
 
         for (int i = 1; i < n; i++) {
             int prod = i * Math.max(n - i, solve(n - i));
