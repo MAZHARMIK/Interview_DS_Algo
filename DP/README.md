@@ -626,5 +626,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Champagne%20Tower.cpp"> Champagne Tower (Leetcode-799)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Integer%20Break.cpp"> Integer Break (Leetcode-343)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
