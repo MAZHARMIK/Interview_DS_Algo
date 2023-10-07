@@ -13,15 +13,15 @@ public:
     int MOD = 1e9+7;
     int t[51][51][101];
     
-    int solve(int idx, int length, int maxSoFar) {
+    int solve(int idx, int searchCost, int maxSoFar) {
         if(idx == N) {
-            if(length == K)
+            if(searchCost == K)
                 return 1;
             return 0;
         }
         
-        if(t[idx][length][maxSoFar] != -1) {
-            return t[idx][length][maxSoFar];
+        if(t[idx][searchCost][maxSoFar] != -1) {
+            return t[idx][searchCost][maxSoFar];
         }
         
         int result = 0;
@@ -29,14 +29,14 @@ public:
         for(int i = 1; i <= M; i++) {
             
             if(i > maxSoFar) {
-                result = (result + solve(idx+1, length+1, i)) % MOD;
+                result = (result + solve(idx+1, searchCost+1, i)) % MOD;
             } else {
-                result = (result + solve(idx+1, length, maxSoFar)) % MOD;
+                result = (result + solve(idx+1, searchCost, maxSoFar)) % MOD;
             }
             
         }
         
-        return t[idx][length][maxSoFar] = result % MOD;
+        return t[idx][searchCost][maxSoFar] = result % MOD;
         
     }
     
@@ -74,28 +74,28 @@ public class Solution {
         return solve(0, 0, 0);
     }
 
-    private int solve(int idx, int length, int maxSoFar) {
+    private int solve(int idx, int searchCost, int maxSoFar) {
         if (idx == N) {
-            if (length == K) {
+            if (searchCost == K) {
                 return 1;
             }
             return 0;
         }
 
-        if (t[idx][length][maxSoFar] != -1) {
-            return t[idx][length][maxSoFar];
+        if (t[idx][searchCost][maxSoFar] != -1) {
+            return t[idx][searchCost][maxSoFar];
         }
 
         int result = 0;
 
         for (int i = 1; i <= M; i++) {
             if (i > maxSoFar) {
-                result = (result + solve(idx + 1, length + 1, i)) % MOD;
+                result = (result + solve(idx + 1, searchCost + 1, i)) % MOD;
             } else {
-                result = (result + solve(idx + 1, length, maxSoFar)) % MOD;
+                result = (result + solve(idx + 1, searchCost, maxSoFar)) % MOD;
             }
         }
 
-        return t[idx][length][maxSoFar] = result % MOD;
+        return t[idx][searchCost][maxSoFar] = result % MOD;
     }
 }
