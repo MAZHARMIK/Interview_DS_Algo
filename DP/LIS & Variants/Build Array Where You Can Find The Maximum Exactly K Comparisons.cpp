@@ -1,5 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : Recur + Memo - https://www.youtube.com/watch?v=YU9IGG5PB2Y
+                                  Bottom Up - Soon coming
     Company Tags                : Will Update soon
     Leetcode Link               : https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/
 */
