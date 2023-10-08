@@ -1,5 +1,6 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
+      MY YOUTUBE VIDEO ON THIS Qn : Recur + memo - https://www.youtube.com/watch?v=Tk70PLqbYH4
+                                    Bottom Up - 
       Company Tags                : Soon I will update
       Leetcode Link               : https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 */
