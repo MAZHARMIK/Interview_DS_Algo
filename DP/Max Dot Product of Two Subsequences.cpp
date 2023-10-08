@@ -4,8 +4,9 @@
       Leetcode Link               : https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 */
 
+//NOTE : This is a variant of LCS (Longest Common Subsequence) Pattern
 
-/*********************************************** JAVA ***********************************************/
+/*********************************************** C++ ***********************************************/
 //Approach-1 (Using concept of LCS - same code)
 //T.C : O(m*n)
 class Solution {
