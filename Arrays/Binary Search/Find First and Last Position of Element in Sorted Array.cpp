@@ -5,6 +5,9 @@
     GfG Practice                : https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x2041/1
 */
 
+/********************************************** C++ **********************************************/
+//Approach-1 (Using Two Custom Binary Search)
+//T.C : O(nlogn)
 class Solution {
 public:
     int find_first_position(vector<int>& nums, int target) {
@@ -42,14 +45,20 @@ public:
         
         return result;
     }
-    
-    //Approach-1
-    vector<int> search(vector<int>& nums, int target) {
+
+    vector<int> searchRange(vector<int>& nums, int target) {
         int l = find_first_position(nums, target);
         int r = find_last_position(nums, target);
         
         return {l, r};
     }
+};
+
+
+//Approach-2 (Using C++ STL)
+//T.C : O(nlogn)
+class Solution {
+public:
     
     //Approach-2
     vector<int> search_stl(vector<int>& nums, int target) {
@@ -70,8 +79,10 @@ public:
     
     vector<int> searchRange(vector<int>& nums, int target) {
         
-        return search(nums, target);     //Approach - 1
-        
         return search_stl(nums, target); //Approach - 2
     }
 };
+
+
+
+/********************************************** JAVA **********************************************/
