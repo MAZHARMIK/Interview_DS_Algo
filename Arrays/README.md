@@ -337,5 +337,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Monotonic%20Array.cpp"> Monotonic Array (Leetcode-896)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Number%20of%20Operations%20to%20Make%20Array%20Continuous..cpp"> Minimum Number of Operations to Make Array Continuous (Leetcode-2009)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
