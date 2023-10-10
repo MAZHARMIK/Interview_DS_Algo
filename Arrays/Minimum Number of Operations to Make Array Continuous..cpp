@@ -93,17 +93,18 @@ public:
 class Solution {
     public int minOperations(int[] nums) {
         int n = nums.length;
+
+            // ------ Below lines of code (commented out) do not concern the bruteforce logic. ------
+        // Set<Integer> set = new HashSet<>();
+        // for (int num : nums) {
+        //     set.add(num);
+        // }
         
-        Set<Integer> set = new HashSet<>();
-        for (int num : nums) {
-            set.add(num);
-        }
-        
-        int[] temp = new int[set.size()];
-        int index = 0;
-        for (int num : set) {
-            temp[index++] = num;
-        }
+        // int[] temp = new int[set.size()];
+        // int index = 0;
+        // for (int num : set) {
+        //     temp[index++] = num;
+        // }
         
         int result = Integer.MAX_VALUE;
         
