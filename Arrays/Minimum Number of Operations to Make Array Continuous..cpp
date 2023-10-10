@@ -5,6 +5,13 @@
 */
 
 //NOTE : The problem is the same as "get the length of the longest subarray whose difference between min and max elements is N - 1". (Make sure to remove duplicate elements)
+/*
+Similar Leetcode Problems : 
+Leetcode - 658 - Find K Closest Elements - 
+Leetcode - 2779 - Maximum Beauty of an Array After Applying Operation - 
+Leetcode - 220 - Contains Duplicate III
+Leetcode - 1984 - Minimum Difference Between Highest and Lowest of K Scores
+*/
 
 /************************************************ C++ ************************************************/
 //Approach-1 (Brute Force) - TLE
