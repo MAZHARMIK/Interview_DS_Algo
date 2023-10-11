@@ -94,17 +94,6 @@ class Solution {
     public int minOperations(int[] nums) {
         int n = nums.length;
         
-        Set<Integer> set = new HashSet<>();
-        for (int num : nums) {
-            set.add(num);
-        }
-        
-        int[] temp = new int[set.size()];
-        int index = 0;
-        for (int num : set) {
-            temp[index++] = num;
-        }
-        
         int result = Integer.MAX_VALUE;
         
         for (int i = 0; i < n; i++) {
