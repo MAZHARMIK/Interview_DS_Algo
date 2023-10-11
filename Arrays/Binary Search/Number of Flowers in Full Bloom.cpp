@@ -142,7 +142,7 @@ class Solution {
             if(arr[mid] > target) {
                 result = mid;
                 right = mid-1;
-            } else if(arr[mid] <= target) {
+            } else {
                 left = mid+1;
             }
         }
