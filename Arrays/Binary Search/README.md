@@ -166,5 +166,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Number%20of%20Flowers%20in%20Full%20Bloom.cpp"> Number of Flowers in Full Bloom (Leetcode-2251)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20in%20Mountain%20Array.cpp"> Find in Mountain Array (Leetcode-1095)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
