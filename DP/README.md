@@ -340,7 +340,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Min_Cost_Climbing_Stairs.cpp">Min Cost Climbing Stairs (4 approaches) (Leetcode-764)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Min%20Cost%20Climbing%20Stairs.cpp">Min Cost Climbing Stairs (4 approaches) (Leetcode-764)</a>
 				</td>
 			</tr>
 			<tr>
