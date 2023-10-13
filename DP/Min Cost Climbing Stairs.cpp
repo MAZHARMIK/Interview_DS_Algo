@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=_59HE5lVuLg
     Company Tags  		: Amazon
     Leetcode Link 		: https://leetcode.com/problems/min-cost-climbing-stairs/
 */
