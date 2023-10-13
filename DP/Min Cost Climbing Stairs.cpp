@@ -4,8 +4,8 @@
     Leetcode Link 		: https://leetcode.com/problems/min-cost-climbing-stairs/
 */
 
-//Approach-0 (Apply recursion)
-/*At every stair, you take 2 decision : Time (O(2^n))*/
+//Approach-1 (Apply recursion)
+//T.C : (O(2^n)) - At every stair, you take 2 decision
 class Solution {
 public:
     int solve(vector<int>& cost, int idx) {
@@ -23,7 +23,8 @@ public:
     }
 };
 
-//Approach-1 (Recursion + Memo) Time : O(n)
+//Approach-2 (Recursion + Memo) 
+//T.C : O(n) - We will visit max n states only
 class Solution {
 public:
     int t[1001];
@@ -45,7 +46,35 @@ public:
     }
 };
 
-//Approach-2 (Bottom Up DP) Time (O(n))
+//Approach-3 (By calling solve only once from main function)
+//T.C : O(n) - We will visit max n states only
+class Solution {
+public:
+    int t[1001];
+    
+    int solve(vector<int>& cost, int idx) {
+        if(idx < 0)
+            return 0;
+        
+        if(t[idx] != -1)
+            return t[idx];
+        
+        if(idx == 0)
+            return t[idx] = cost[idx];
+        
+        int currCost = (idx == cost.size()) ? 0 : cost[idx];
+        
+        return t[idx] = currCost + min(solve(cost, idx-1), solve(cost, idx-2));
+        
+    }
+    int minCostClimbingStairs(vector<int>& cost) {
+        int n = cost.size();
+        memset(t, -1, sizeof(t));
+        return solve(cost, n);
+    }
+};
+
+//Approach-4 (Bottom Up DP) Time (O(n))
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
@@ -66,7 +95,7 @@ public:
     }
 };
 
-//Approach-3 (Avoiding O(n) extra space from Approach-2)
+//Approach-5 (Avoiding O(n) extra space from Approach-2)
 //Since, t[i] only depends on its two previsous results (t[i-1], t[i-2])
 //So, store previsous results in two variables
 class Solution {
