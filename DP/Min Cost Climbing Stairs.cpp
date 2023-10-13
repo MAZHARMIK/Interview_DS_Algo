@@ -48,26 +48,21 @@ public:
 //Approach-2 (Bottom Up DP) Time (O(n))
 class Solution {
 public:
-    int solve(vector<int>& cost, int n) {
-        if(n == 2)
-            return min(cost[0], cost[1]);
-        
-        vector<int> t(n+1, -1);
-        //t[i] = minimum amount to reach top from ith stair if there is only i stair
-        t[0] = 0;         //there is 0 stair :-)
-        t[1] = cost[0];   //If we have only 1 stair, pay the cost of 1st stair and reach top
-        t[2] = cost[1];   //If we have only 2 stair, and you are at 2nd stair, pay and move
-        
-        for(int i = 3; i<=n; i++) {
-            t[i] = cost[i-1] + min(t[i-1], t[i-2]); //I am at ith stair by following minimum stair from past min(t[i-1], t[i-2])
-                                                    //So, I will now pay cost of this ith stair cost[i-1] and move ahead
-        }
-        
-        return min(t[n-1], t[n]);
-    }
     int minCostClimbingStairs(vector<int>& cost) {
         int n = cost.size();
-        return solve(cost, n);
+        if(n == 2)
+            return min(cost[0], cost[1]);
+
+        //You can alos take a different vector to store result. I have modified same vector.
+        for(int i = 2; i<n; i++) {
+
+            cost[i] = cost[i] + min(cost[i-1], cost[i-2]);
+
+        }
+
+        return min(cost[n-1], cost[n-2]);
+
+        
     }
 };
 
