@@ -1,6 +1,7 @@
 /*
-    Company Tags  : Amazon
-    Leetcode Link : https://leetcode.com/problems/min-cost-climbing-stairs/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags  		: Amazon
+    Leetcode Link 		: https://leetcode.com/problems/min-cost-climbing-stairs/
 */
 
 //Approach-0 (Apply recursion)
