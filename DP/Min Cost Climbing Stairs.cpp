@@ -82,8 +82,8 @@ public:
         if(n == 2)
             return min(cost[0], cost[1]);
 
-        //You can alos take a different vector to store result. I have modified same vector.
-        for(int i = 2; i<n; i++) {
+        //You can also take a different vector to store result. I have modified same vector.
+        for(int i = 2; i < n; i++) {
 
             cost[i] = cost[i] + min(cost[i-1], cost[i-2]);
 
