@@ -636,5 +636,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Max%20Dot%20Product%20of%20Two%20Subsequences.cpp"> Max Dot Product of Two Subsequences (Leetcode-1458)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Painting%20the%20Walls.cpp"> Painting the Walls (Leetcode-2742)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
