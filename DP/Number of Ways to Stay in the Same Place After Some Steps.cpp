@@ -1,6 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=NqhmQQlVhTE
+    Company Tags                : GOOGLE, META
     Leetcode Link               : https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/
 */
 
