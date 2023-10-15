@@ -115,3 +115,26 @@ public class Solution {
 
 //Approach-2 (Bottom Up)
 //SOOOOOON
+public class Solution {
+    public int numWays(int steps, int arrLen) {
+        int MOD = 1000000007;
+        int maxPos = Math.min(steps / 2, arrLen - 1);
+
+        int[][] dp = new int[steps + 1][maxPos + 1];
+        dp[0][0] = 1;
+
+        for (int s = 1; s <= steps; s++) {
+            for (int p = 0; p <= maxPos; p++) {
+                dp[s][p] = dp[s - 1][p];
+                if (p > 0) {
+                    dp[s][p] = (dp[s][p] + dp[s - 1][p - 1]) % MOD;
+                }
+                if (p < maxPos) {
+                    dp[s][p] = (dp[s][p] + dp[s - 1][p + 1]) % MOD;
+                }
+            }
+        }
+
+        return dp[steps][0];
+    }
+}
