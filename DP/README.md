@@ -641,5 +641,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Painting%20the%20Walls.cpp"> Painting the Walls (Leetcode-2742)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Ways%20to%20Stay%20in%20the%20Same%20Place%20After%20Some%20Steps.cpp"> Number of Ways to Stay in the Same Place After Some Steps (Leetcode-1269)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
