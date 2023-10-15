@@ -42,6 +42,13 @@ public:
         Thus, we can safely perform arrLen = min(arrLen, steps)
         */
         arrLen = min(arrLen, steps)
+
+        /*
+            Also if you notice, you can only move away from 0 in the array by at max steps/2 to come back to 0
+            So, we can also do
+            arrLen = min(arrLen, (steps+1)/2); //(steps+1)/2 takes care of Odd case as well.
+        */
+        
         n = arrLen;
         memset(t, -1, sizeof(t));
         return solve(0, steps);
@@ -68,6 +75,13 @@ public class Solution {
         Thus, we can do, arrLen = min(arrLen, steps)
         */
         arrLen = Math.min(arrLen, steps)
+
+        /*
+            Also if you notice, you can only move away from 0 in the array by at max steps/2 to come back to 0
+            So, we can also do
+            arrLen = Math.min(arrLen, (steps+1)/2); //(steps+1)/2 takes care of Odd case as well.
+        */
+            
         n = arrLen;
         t = new int[501][501];
         for (int i = 0; i < 501; i++) {
