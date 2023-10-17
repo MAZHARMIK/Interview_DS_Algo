@@ -4,6 +4,10 @@
     Leetcode Link               : https://leetcode.com/problems/validate-binary-tree-nodes/description/
 */
 
+/*
+    Find another Binary Tree Solution - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Validate%20Binary%20Tree%20Nodes.cpp
+*/
+
 /************************************************ C++ ************************************************/
 //Approach-1 (Using DSU)
 class Solution {
@@ -57,7 +61,7 @@ public:
 };
 
 //Approach-2 (Using simple BFS or DFS and Binary Tree Property)
-//Find it in my "Binary Tree" repo
+//Find it in my "Binary Tree" repo - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Validate%20Binary%20Tree%20Nodes.cpp
 
 
 /************************************************ JAVA ************************************************/
@@ -110,4 +114,4 @@ class Solution {
 
 
 //Approach-2 (Using simple BFS or DFS and Binary Tree Property)
-//Find it in my "Binary Tree" repo
+//Find it in my "Binary Tree" repo - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Validate%20Binary%20Tree%20Nodes.cpp
