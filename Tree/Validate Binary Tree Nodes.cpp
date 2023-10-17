@@ -58,6 +58,19 @@ public:
         if(root == -1)
             return false;
 
+        /*
+            You might be thinking, if we already checked that there is only one root above
+            and every child has one parent only, why do we need to traverse and check again
+            for components ?
+
+            There can be cases where you find that only one node is missing from child_to_parent map
+            which you will assume as root but that root will belong to a separate component.
+            For example : 
+            4
+            [1,0,3,-1]
+            [-1,-1,-1,-1]
+            
+        */
         vector<bool> visited(n, false);
         queue<int> que;
         int count = 1;
@@ -139,6 +152,20 @@ class Solution {
             return false;
         }
 
+        /*
+            You might be thinking, if we already checked that there is only one root above
+            and every child has one parent only, why do we need to traverse and check again
+            for components ?
+
+            There can be cases where you find that only one node is missing from child_to_parent map
+            which you will assume as root but that root will belong to a separate component.
+            For example : 
+            4
+            [1,0,3,-1]
+            [-1,-1,-1,-1]
+            
+        */
+        
         boolean[] visited = new boolean[n];
         Queue<Integer> queue = new LinkedList<>();
         int count = 1;
