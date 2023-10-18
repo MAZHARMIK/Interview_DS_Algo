@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=743cYtf3DJI
     Company Tags                : Uber
     Leetcode Link               : https://leetcode.com/problems/parallel-courses-iii/
 */
@@ -50,7 +50,7 @@ public:
     }
 };
 
-//Approach-2 (Using DFS) - Soon I will update here
+//Approach-2 (Using DFS Topological Sort) - Soon I will update here
 
 
 
@@ -98,3 +98,6 @@ class Solution {
         return result;
     }
 }
+
+
+//Approach-2 (Using DFS Topological Sort) - Soon I will update here
