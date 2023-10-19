@@ -202,5 +202,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Remove%20Duplicate%20Letters.cpp">Remove Duplicate Letters (Leetcode-316) (Leetcode-1081)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Backspace%20String%20Compare.cpp">Backspace String Compare (Leetcode-844)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
