@@ -66,7 +66,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Flatten%20Nested%20List%20Iterator">Flatten Nested List Iterator (Leetcode - 341)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Flatten%20Nested%20List%20Iterator.cpp">Flatten Nested List Iterator (Leetcode - 341)</a>
 				</td>
 			</tr>
 			<tr>
