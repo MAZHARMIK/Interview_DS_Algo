@@ -15,7 +15,6 @@
 class NestedIterator {
 public:
     stack<NestedInteger> st;
-    //I could also have used : stack<NestedInteger> but, using pointer will help me save space
     NestedIterator(vector<NestedInteger> &nestedList) {
         int n = nestedList.size();
         for(int i = n-1; i>=0; i--)
