@@ -5,7 +5,7 @@
     Please also see "Leetcode - 239 Sliding Window Maximum"  Both are similar to a great extent and this is the hard version.
 */
 
-//Approach-1 (Recursion+Memo) - TLE (18 / 25 test cases passed)
+//Approach-1 (Recursion+Memo) Similar to LIS - TLE (18 / 25 test cases passed)
 /*
 	You should always start from an approach like this for 
 	any DP problem.
@@ -55,10 +55,50 @@ public:
     }
 };
 
-//Approach-2 (Bottom Up DP) - TLE (20 / 25 test cases passed)
+//Approach-2 (1-D memoization) - TLE
+class Solution {
+public:
+    int t[100001];
+    int K;
+    //solve(j) = maximum sum of the subsequence with nums[j] as the last number
+    int solve(int j, vector<int>& nums) {
+        if (j < 0) {
+            return 0;
+        }
+        
+        if(t[j] != -1)
+            return t[j];
+        
+        int max_val = 0;
+        /*
+            solve[j] = nums[j] + max(solve(j-1), solve(j-2), ..., solve(j-K))
+        */
+        for (int i = 1; i <= K; ++i) {
+            max_val = max(max_val, solve(j - i, nums));
+        }
+        
+        return t[j] = nums[j] + max_val;
+    }
+    
+    int constrainedSubsetSum(vector<int>& nums, int k) {
+        memset(t, -1, sizeof(t));
+        K = k;
+        
+        int result = INT_MIN;
+        
+        for (int i = 0; i < nums.size(); ++i) {
+            result = max(result, solve(i, nums));
+        }
+        
+        return result;
+    }
+};
+
+
+//Approach-3 (Bottom Up DP) Similar to LIS - TLE
 /*
 	NOTE : This is basically using the concept of Longest Increasing Subsequence (LIS)
-	This can be further improved (from TLE) by using extra data structure. Loog for next approaches.
+	This can be further improved (from TLE) by using extra data structure. Look for next approaches.
 */
 class Solution {
 public:
@@ -84,9 +124,9 @@ public:
     }
 };
 
-//Approach-3 (Using Priority_queue) Accepted
+//Approach-4 (Using Priority_queue) Accepted
 /*
-	Basically in approach-2, you want the maximum value in the range of [i, i-k]
+	Basically in Approach-3, you want the maximum value in the range of [i, i-k]
 	Why not store them in max heap and access them in one go
 */
 
@@ -119,10 +159,10 @@ public:
     }
 };
 
-//Approach-4 (Using monotonic decreasing deque) Accepted
+//Approach-5 (Using monotonic decreasing deque) Accepted
 /*
-    This is similar to approach-3 it's just we maintain decreasing order.
-    NOTE : Approach-3 and Approach-4 are used to solve "Sliding Window Maximum" also with similar approach (Leetcode-239)
+    This is similar to approach-4 it's just we maintain decreasing order.
+    NOTE : Approach-4 and Approach-5 are used to solve "Sliding Window Maximum" also with similar approach (Leetcode-239)
     Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Sliding%20Window%20Maximum.cpp
 */
 
