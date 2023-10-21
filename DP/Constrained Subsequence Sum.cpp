@@ -6,6 +6,7 @@
     Please also see "Leetcode - 239 Sliding Window Maximum"  Both are similar to a great extent and this is the hard version.
 */
 
+/******************************************************* C++ ******************************************************/
 //Approach-1 (Recursion+Memo) Similar to LIS - TLE (18 / 25 test cases passed)
 /*
 	You should always start from an approach like this for 
@@ -121,7 +122,6 @@ public:
 	Basically in Approach-3, you want the maximum value in the range of [i, i-k]
 	Why not store them in max heap and access them in one go
 */
-
 class Solution {
 public:
     typedef pair<int, int> P;
@@ -157,7 +157,6 @@ public:
     NOTE : Approach-4 and Approach-5 are used to solve "Sliding Window Maximum" also with similar approach (Leetcode-239)
     Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Sliding%20Window%20Maximum.cpp
 */
-
 class Solution {
 public:
     int constrainedSubsetSum(vector<int>& nums, int k) {
@@ -188,3 +187,84 @@ public:
         return maxR;
     }
 };
+
+
+
+/******************************************************* JAVA ******************************************************/
+//Approach-4 (Using Priority_queue) Accepted
+/*
+	Basically in Approach-3, you want the maximum value in the range of [i, i-k]
+	Why not store them in max heap and access them in one go
+*/
+class Solution {
+    class Pair {
+        int first;
+        int second;
+
+        public Pair(int first, int second) {
+            this.first = first;
+            this.second = second;
+        }
+    }
+
+    public int constrainedSubsetSum(int[] nums, int k) {
+        int n = nums.length;
+        int[] t = new int[n];
+        System.arraycopy(nums, 0, t, 0, n);
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> Integer.compare(b.first, a.first));
+        pq.offer(new Pair(t[0], 0));
+        int maxR = t[0];
+
+        for (int i = 1; i < n; i++) {
+            while (!pq.isEmpty() && pq.peek().second < i - k) {
+                pq.poll();
+            }
+
+            t[i] = Math.max(t[i], nums[i] + pq.peek().first);
+            pq.offer(new Pair(t[i], i));
+
+            maxR = Math.max(maxR, t[i]);
+        }
+
+        return maxR;
+    }
+}
+
+
+//Approach-5 (Using monotonic decreasing deque) Accepted
+/*
+    This is similar to approach-4 it's just we maintain decreasing order.
+    NOTE : Approach-4 and Approach-5 are used to solve "Sliding Window Maximum" also with similar approach (Leetcode-239)
+    Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Sliding%20Window%20Maximum.cpp
+*/
+class Solution {
+    public int constrainedSubsetSum(int[] nums, int k) {
+        int n = nums.length;
+        int[] t = Arrays.copyOf(nums, n);
+        int maxR = t[0];
+        Deque<Integer> deq = new ArrayDeque<>();
+        
+        for (int i = 0; i < n; i++) {
+            // First get rid of out of range indices
+            while (!deq.isEmpty() && deq.peekFirst() < i - k) {
+                deq.pollFirst();
+            }
+            
+            if (!deq.isEmpty()) {
+                t[i] = Math.max(t[i], nums[i] + t[deq.peekFirst()]);
+            }
+            
+            // Maintain the deque in descending order
+            // So that you can get the optimum value at once from the front
+            while (!deq.isEmpty() && t[i] >= t[deq.peekLast()]) {
+                deq.pollLast();
+            }
+            
+            deq.offerLast(i);
+            maxR = Math.max(maxR, t[i]);
+        }
+        
+        return maxR;
+    }
+}
+
