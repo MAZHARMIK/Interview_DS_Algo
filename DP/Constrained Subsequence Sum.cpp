@@ -1,6 +1,7 @@
 /*
-    Company Tags  : HyperVerge
-    Leetcode Link : https://leetcode.com/problems/constrained-subsequence-sum/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=tWhboGihflM
+    Company Tags  		: Google, HyperVerge
+    Leetcode Link 		: https://leetcode.com/problems/constrained-subsequence-sum/
     
     Please also see "Leetcode - 239 Sliding Window Maximum"  Both are similar to a great extent and this is the hard version.
 */
@@ -23,7 +24,7 @@ public:
         if(mp.find(key) != end(mp))
             return mp[key];
         int result = 0;
-        if(last_chosen_index == -1) {
+        if(last_chosen_index == -1 || curr_index-last_chosen_index <= k) {
             //take curr_index element
             int taken = nums[curr_index] + solve(nums, curr_index, curr_index+1);
             
@@ -32,16 +33,7 @@ public:
             
             result = max(taken, not_taken);
             
-        } else if(curr_index-last_chosen_index <= k) {
-            //take curr_index element
-            int taken     = nums[curr_index] + solve(nums, curr_index, curr_index+1);
-            
-            //don't take curr_index element
-            int not_taken = solve(nums, last_chosen_index, curr_index+1);
-            result = max(taken, not_taken);
-        }
-        
-        
+	}
         return mp[key] = result;
     }
     int constrainedSubsetSum(vector<int>& nums, int k) {
