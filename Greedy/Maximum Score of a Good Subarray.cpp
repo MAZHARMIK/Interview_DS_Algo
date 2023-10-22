@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=2XMBLBdgqW8
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/maximum-score-of-a-good-subarray/
 */
