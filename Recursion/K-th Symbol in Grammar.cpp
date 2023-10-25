@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Cw7A8YU0WjY
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/k-th-symbol-in-grammar
 */
