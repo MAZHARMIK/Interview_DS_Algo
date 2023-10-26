@@ -94,5 +94,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Number%20of%20Good%20Pairs.cpp"> Number of Good Pairs (Leetcode-1512)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Binary%20Trees%20With%20Factors.cpp"> Binary Trees With Factors (Leetcode-823)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
