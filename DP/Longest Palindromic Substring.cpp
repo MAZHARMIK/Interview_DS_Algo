@@ -6,6 +6,7 @@
 
 /****************************************** C++ ******************************************/
 //Approach 1 - Recursion + Memoization
+//Memoization will help reduce time complexity for cases like - "aaaaaaaaa"
 //T.C : O(n^3)
 //S.C : O(n^2)
 class Solution {
