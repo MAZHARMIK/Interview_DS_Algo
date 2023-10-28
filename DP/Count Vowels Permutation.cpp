@@ -14,67 +14,52 @@ public:
     int M = 1e9+7;
     int a = 0, e = 1, i = 2, o = 3, u = 4;
     vector<vector<long long>> t;
-    
-    /*
-        Accoring to question : 
-        a -> e
-        e -> a, i
-        i -> a, e, o, u
-        o -> i, u
-        u -> a
-        So, count of strings of length n ending at 'a' ?
-            We can have vowels 'e', 'i' & 'u' in which we can have ending vowel as 'a'
-        So,         count of strings of length n ending at 'a'  = count of strings of length (n-1) ending at 'e', 'i', 'u'.
-        
-        similarly,  We can have vowels 'a' & 'i' in which we can have ending vowel as 'e'
-                    We can have vowels 'e' & 'o' in which we can have ending vowel as 'i'
-                    We can have vowels i' in which we can have ending vowel as 'o'
-                    We can have vowels 'i' & 'o' in which we can have ending vowel as 'u'
-        And in this fashion, we find the count recursively
-    */
-    int count(int n, int vowel) {
-        if(t[n][vowel] != -1)
-            return t[n][vowel];
-        
-        /*
-            When n is 0, why dowe return 1 ?
-            Let's look at the caller function countVowelPermutation()
-            If n = 1, we would call 
-            count(n-1, a) + count(n-1, e) + count(n-1, i) + count(n-1, o) + count(n-1, u)
-            and for n = 1, we know that count is 5
-            So, only if we return 1 from here, we will be able to get 5.
-            This is how I found 
-        */
-        if(n == 0)
+    long long solve(int ch, int n) {
+        if(n == 0) {
             return 1;
-        
-        if(vowel == a) {
-            return t[n][vowel] = ((count(n-1, e) + count(n-1, i))%M + count(n-1, u))%M;
-        } else if(vowel == e) {
-            return t[n][vowel] = ((count(n-1, a) + count(n-1, i)))%M;
-        } else if(vowel == i) {
-            return t[n][vowel] = ((count(n-1, e) + count(n-1, o)))%M;
-        } else if(vowel == o) {
-            return t[n][vowel] = count(n-1, i);
-        } else if(vowel == u) {
-            return t[n][vowel] = ((count(n-1, i) + count(n-1, o)))%M;
         }
-        
-        return -1;
+
+        if(t[ch][n] != -1) {
+            return t[ch][n];
+        }
+
+        /*
+            Accoring to question : 
+            a -> e
+            e -> a, i
+            i -> a, e, o, u
+            o -> i, u
+            u -> a
+        */
+
+        if(ch == a) {
+            return t[ch][n] = solve(e, n-1) % M;
+        } else if(ch == e) {
+            return t[ch][n] = (solve(a, n-1) + solve(i, n-1)) % M;
+        } else if(ch == i) {
+            return t[ch][n] = (solve(a, n-1) + solve(e, n-1) + solve(o, n-1) + solve(u, n-1)) % M;
+        } else if(ch == o) {
+            return t[ch][n] = (solve(i, n-1) + solve(u, n-1)) % M;
+        } else { //ch == u
+            return t[ch][n] = solve(a, n-1);
+        }
+
+
+        return t[ch][n] = 0;
     }
-    
+
     int countVowelPermutation(int n) {
-        t.resize(n, vector<long long>(5, -1));
-        long long result = 0;
-        
-        result = (result + count(n-1, a)) %M; //count(x, v) = # of strings of length x which ends at vowel v
-        result = (result + count(n-1, e)) %M;
-        result = (result + count(n-1, i)) %M;
-        result = (result + count(n-1, o)) %M;
-        result = (result + count(n-1, u)) %M;
-        
+        t.resize(5, vector<long long>(n+1, -1));
+        long result = 0;
+
+        result = (result + solve(a, n-1)) % M;
+        result = (result + solve(e, n-1)) % M;
+        result = (result + solve(i, n-1)) % M;
+        result = (result + solve(o, n-1)) % M;
+        result = (result + solve(u, n-1)) % M;
+
         return result;
-        
+
     }
 };
 
@@ -84,146 +69,84 @@ class Solution {
 public:
     int M = 1e9+7;
     int a = 0, e = 1, i = 2, o = 3, u = 4;
-    
     int countVowelPermutation(int n) {
-        long long t[n+1][5];
-        //t[i][j] = # strings of length i ending with vowel j
-        
-        for(int vowel = a; vowel<=u; vowel++) {
-            t[1][vowel] = 1;
-        }
-        
-        for(int len = 2; len<=n; len++) {
-            t[len][a] = ((t[len-1][e] + t[len-1][i])%M + t[len-1][u])%M;
-            
-            t[len][e] = (t[len-1][a] + t[len-1][i])%M;
-            
-            t[len][i] = (t[len-1][e] + t[len-1][o])%M;
-            
-            t[len][o] = t[len-1][i];
-            
-            t[len][u] = (t[len-1][i] + t[len-1][o])%M;
-        }
-        
 
-        long long count = 0;
-        for(int vowel = a; vowel <= u; vowel++) {
-            count = (count+t[n][vowel])%M;
+        long long t[5][n+1];
+        //t[i][j] = number of strings ending at i vowel habing length j
+
+        for(int vowel = 0; vowel <= 4; vowel++) {
+            t[vowel][1] = 1;
         }
-        
-        return count;
-    }
-};
 
+        for(int len = 2; len <= n; len++) {
+            t[a][len] = (t[e][len-1] + t[i][len-1] + t[u][len-1]) % M;
 
-//Approach-3 (We can apply approach-1 in same way asked in question)
-/*
-Instead of considering the string 'ending with vowel v', we consider strings 'starting with vowel v'
-just as mentioned in the question. It's more intuitive
-*/
+            t[e][len] = (t[a][len-1] + t[i][len-1]) % M;
 
-class Solution {
-public:
-    int M = 1e9+7;
-    int a = 0, e = 1, i = 2, o = 3, u = 4;
-    vector<vector<long long>> t;
-    
-    /*
-        Accoring to question : 
-        a -> e
-        e -> a, i
-        i -> a, e, o, u
-        o -> i, u
-        u -> a
-        So, count of strings of length n starting at 'a' ?
-            We can have vowel 'e' after 'a'
-        So, count of strings of length n starting at 'a'  = count of strings of length (n-1) starting at 'e' and so on.    
-        And in this fashion, we find the count recursively
-    */
-    
-    long long count(int n, int vowel) {
-        if(t[n][vowel] != -1)
-            return t[n][vowel];
-        if(n == 0)
-            return 1;
-        
-        if(vowel == a) {
-            return t[n][vowel] = (count(n-1, e))%M;
-        } else if(vowel == e) {
-            return t[n][vowel] = ((count(n-1, a) + count(n-1, i)))%M;
-        } else if(vowel == i) {
-            return t[n][vowel] = (count(n-1, a) + count(n-1, e) + count(n-1, o) + count(n-1, u))%M;
-        } else if(vowel == o) {
-            return t[n][vowel] = (count(n-1, i) + count(n-1, u))%M;
-        } else if(vowel == u) {
-            return t[n][vowel] = (count(n-1, a))%M;
+            t[i][len] = (t[e][len-1] + t[o][len-1]) % M;
+
+            t[o][len] = (t[i][len-1]) % M;
+
+            t[u][len] = (t[i][len-1] + t[o][len-1]) % M;
         }
-        
-        return 0;
-    }
-    
-    int countVowelPermutation(int n) {
-        t.resize(n, vector<long long>(5, -1));
+
+        //t[a][n] + t[e][n] + t[i][n]....
         long long result = 0;
-        
-        result = (result + count(n-1, a)) %M; //count(x, v) = # of strings of length x which ends at vowel v
-        result = (result + count(n-1, e)) %M;
-        result = (result + count(n-1, i)) %M;
-        result = (result + count(n-1, o)) %M;
-        result = (result + count(n-1, u)) %M;
-        
+        for(int vowel = 0; vowel <= 4; vowel++) {
+            result = (result + t[vowel][n]) % M;
+        }
         return result;
-        
+   
     }
 };
-
 
 
 /************************************************ JAVA ************************************************/
 //Approach-1 (Top Down - Recursion + Memo) 
 //Time : O(n)
-class Solution {
-    int M = 1000000007;
-    int a = 0, e = 1, i = 2, o = 3, u = 4;
-    long[][] t;
+import java.util.Arrays;
 
-    int count(int n, int vowel) {
-        if(t[n][vowel] != -1)
-            return (int) t[n][vowel];
+public class Solution {
+    private static final int M = 1000000007;
+    private static final int a = 0, e = 1, i = 2, o = 3, u = 4;
+    private long[][] t;
 
-        if(n == 0)
+    private long solve(int ch, int n) {
+        if (n == 0) {
             return 1;
-
-        long result = 0;
-        if(vowel == a) {
-            result = (result + (count(n-1, e) + count(n-1, i)) % M) % M;
-            result = (result + count(n-1, u)) % M;
-        } else if(vowel == e) {
-            result = (result + count(n-1, a) + count(n-1, i)) % M;
-        } else if(vowel == i) {
-            result = (result + count(n-1, e) + count(n-1, o)) % M;
-        } else if(vowel == o) {
-            result = (result + count(n-1, i)) % M;
-        } else if(vowel == u) {
-            result = (result + (count(n-1, i) + count(n-1, o)) % M) % M;
         }
 
-        t[n][vowel] = result;
-        return (int) result;
+        if (t[ch][n] != -1) {
+            return t[ch][n];
+        }
+
+        if (ch == a) {
+            t[ch][n] = solve(e, n - 1) % M;
+        } else if (ch == e) {
+            t[ch][n] = (solve(a, n - 1) + solve(i, n - 1)) % M;
+        } else if (ch == i) {
+            t[ch][n] = (solve(a, n - 1) + solve(e, n - 1) + solve(o, n - 1) + solve(u, n - 1)) % M;
+        } else if (ch == o) {
+            t[ch][n] = (solve(i, n - 1) + solve(u, n - 1)) % M;
+        } else { // ch == u
+            t[ch][n] = solve(a, n - 1);
+        }
+
+        return t[ch][n];
     }
 
     public int countVowelPermutation(int n) {
-        t = new long[n][5];
-        for(int i = 0; i < n; i++) {
+        t = new long[5][n + 1];
+        for (int i = 0; i < 5; i++) {
             Arrays.fill(t[i], -1);
         }
 
         long result = 0;
-        result = (result + count(n-1, a)) % M;
-        result = (result + count(n-1, e)) % M;
-        result = (result + count(n-1, i)) % M;
-        result = (result + count(n-1, o)) % M;
-        result = (result + count(n-1, u)) % M;
+        result = (result + solve(a, n - 1)) % M;
+        result = (result + solve(e, n - 1)) % M;
+        result = (result + solve(i, n - 1)) % M;
+        result = (result + solve(o, n - 1)) % M;
+        result = (result + solve(u, n - 1)) % M;
 
         return (int) result;
     }
@@ -232,85 +155,29 @@ class Solution {
 
 //Approach-2 (Top Down DP : Just iterative version of Approach-1) 
 //Time : O(n)
-class Solution {
-    int M = 1000000007;
-    int a = 0, e = 1, i = 2, o = 3, u = 4;
-    
+public class Solution {
+    private static final int M = 1000000007;
+    private static final int a = 0, e = 1, i = 2, o = 3, u = 4;
+
     public int countVowelPermutation(int n) {
-        long[][] t = new long[n + 1][5];
-        
-        for (int vowel = a; vowel <= u; vowel++) {
-            t[1][vowel] = 1;
+        long[][] t = new long[5][n + 1];
+
+        for (int vowel = 0; vowel <= 4; vowel++) {
+            t[vowel][1] = 1;
         }
-        
+
         for (int len = 2; len <= n; len++) {
-            t[len][a] = ((t[len - 1][e] + t[len - 1][i]) % M + t[len - 1][u]) % M;
-            t[len][e] = (t[len - 1][a] + t[len - 1][i]) % M;
-            t[len][i] = (t[len - 1][e] + t[len - 1][o]) % M;
-            t[len][o] = t[len - 1][i];
-            t[len][u] = (t[len - 1][i] + t[len - 1][o]) % M;
-        }
-
-        long count = 0;
-        for (int vowel = a; vowel <= u; vowel++) {
-            count = (count + t[n][vowel]) % M;
-        }
-        
-        return (int) count;
-    }
-}
-
-
-//Approach-3 (We can apply approach-1 in same way asked in question)
-/*
-Instead of considering the string 'ending with vowel v', we consider strings 'starting with vowel v'
-just as mentioned in the question. It's more intuitive
-*/
-import java.util.*;
-
-class Solution {
-    int M = 1000000007;
-    int a = 0, e = 1, i = 2, o = 3, u = 4;
-    ArrayList<ArrayList<Long>> t;
-
-    long count(int n, int vowel) {
-        if (t.get(n).get(vowel) != -1) {
-            return t.get(n).get(vowel);
-        }
-        if (n == 0) {
-            return 1;
+            t[a][len] = (t[e][len - 1] + t[i][len - 1] + t[u][len - 1]) % M;
+            t[e][len] = (t[a][len - 1] + t[i][len - 1]) % M;
+            t[i][len] = (t[e][len - 1] + t[o][len - 1]) % M;
+            t[o][len] = t[i][len - 1] % M;
+            t[u][len] = (t[i][len - 1] + t[o][len - 1]) % M;
         }
 
         long result = 0;
-        if (vowel == a) {
-            result = (count(n - 1, e)) % M;
-        } else if (vowel == e) {
-            result = (result + count(n - 1, a) + count(n - 1, i)) % M;
-        } else if (vowel == i) {
-            result = (result + count(n - 1, a) + count(n - 1, e) + count(n - 1, o) + count(n - 1, u)) % M;
-        } else if (vowel == o) {
-            result = (count(n - 1, i) + count(n - 1, u)) % M;
-        } else if (vowel == u) {
-            result = (count(n - 1, a)) % M;
+        for (int vowel = 0; vowel <= 4; vowel++) {
+            result = (result + t[vowel][n]) % M;
         }
-
-        t.get(n).set(vowel, result);
-        return result;
-    }
-
-    public int countVowelPermutation(int n) {
-        t = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            ArrayList<Long> innerList = new ArrayList<>(Arrays.asList(-1L, -1L, -1L, -1L, -1L));
-            t.add(innerList);
-        }
-
-        long result = 0;
-        result = (result + count(n - 1, a)) % M;
-        result = (result + count(n - 1, e)) % M;
-        result = (result + count(n - 1, i)) % M;
-        result = (result + count(n - 1, o)) % M;
-        result = (result + count(n - 1, u)) % M;
 
         return (int) result;
     }
