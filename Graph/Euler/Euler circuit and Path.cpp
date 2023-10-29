@@ -1,6 +1,6 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn :
-      Company Tags                : Will soon update
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=i8h_O6u3DSc
+      Company Tags                : Google (Variation)
       Leetcode/GfG Link           : https://practice.geeksforgeeks.org/problems/euler-circuit-and-path/1
 */
 
