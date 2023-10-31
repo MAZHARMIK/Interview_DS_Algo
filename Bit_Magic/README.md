@@ -103,5 +103,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Sort%20Integers%20by%20The%20Number%20of%201%20Bits.cpp"> Sort Integers by The Number of 1 Bits (Leetcode - 1356)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Find%20The%20Original%20Array%20of%20Prefix%20Xor.cpp"> Find The Original Array of Prefix Xor (Leetcode - 2433)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
