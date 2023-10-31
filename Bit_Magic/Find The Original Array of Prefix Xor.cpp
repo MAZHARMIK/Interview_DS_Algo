@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=TDjmp768H3Q
       Company Tags                : Microsoft
       Leetcode Link               : https://leetcode.com/problems/find-the-original-array-of-prefix-xor
 */
