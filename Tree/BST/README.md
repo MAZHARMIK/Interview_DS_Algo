@@ -24,5 +24,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/BST/Minimum%20Absolute%20Difference%20in%20BST.cpp"> Minimum Absolute Difference in BST (Leetcode-530)						  </a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/BST/Find%20Mode%20in%20Binary%20Search%20Tree.cpp"> Find Mode in Binary Search Tree (Leetcode-501)						  </a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
