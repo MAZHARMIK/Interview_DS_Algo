@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Y4UGaLpSqCg
-    Company Tags                : Not known. I will soon update
+    Company Tags                : Similar Qn Asked by Google for N-ary tree(SWE Intern Position, 2nd Technical Interview) , Year = 2023, September
     Leetcode Link               : https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree
 */
 
