@@ -403,5 +403,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20Largest%20Value%20in%20Each%20Tree%20Row.cpp"> Find Largest Value in Each Tree Row (Leetcode-515)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.cpp"> Count Nodes Equal to Average of Subtree (Leetcode-2265)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
