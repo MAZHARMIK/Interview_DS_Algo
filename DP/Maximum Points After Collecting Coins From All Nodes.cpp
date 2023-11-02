@@ -72,7 +72,7 @@ public:
   State = 3,  2, 3
 
   If you notice, i and power itself can uniquely identify the state of a recursive call.
-  Noteice whenever i and power are same for any ther recursive call, then parent is always same.
+  Noteice whenever i and power are same for any ther recursive call, then parent is always same (which is obvious - Parent for a node will never change)
   Example : 
   State = 3,  2, 1
   State = 3,  2, 1
