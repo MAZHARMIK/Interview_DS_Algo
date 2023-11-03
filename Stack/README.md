@@ -144,5 +144,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/132%20Pattern.cpp"> 132 Pattern (Leetcode-456)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Build%20an%20Array%20With%20Stack%20Operations.cpp"> Build an Array With Stack Operations (Leetcode-1441)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
