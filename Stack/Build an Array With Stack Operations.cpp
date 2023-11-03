@@ -16,12 +16,11 @@ public:
         
         int i = 0;
         while(i < target.size() && stream <= n) {
+            result.push_back("Push");
             
             if(stream == target[i]) {
-                result.push_back("Push");
                 i++;
             } else {
-                result.push_back("Push");
                 result.push_back("Pop");
             }
             stream++;
@@ -42,11 +41,11 @@ class Solution {
         
         int i = 0;
         while (i < target.length && stream <= n) {
+            result.add("Push");
+            
             if (stream == target[i]) {
-                result.add("Push");
                 i++;
             } else {
-                result.add("Push");
                 result.add("Pop");
             }
             stream++;
