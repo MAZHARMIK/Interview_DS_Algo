@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn :  
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=nmNLu1Qz-C0
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/build-an-array-with-stack-operations/
 */
