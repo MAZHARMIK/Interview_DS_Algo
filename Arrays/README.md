@@ -14,6 +14,9 @@
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Two%20Pointer">:file_folder:Two Pointer</a>
 	
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Cumulative_Sum(Prefix%20Array)">:file_folder:Cumulative_Sum(Prefix Array)</a>
+
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Simulation">:file_folder:Simulation</a>
+  
 </details>
 
 <h1>Questions</h1>
@@ -345,11 +348,6 @@
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Pascal's%20Triangle%20II.cpp"> Pascal's Triangle II (Leetcode-119)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Last%20Moment%20Before%20All%20Ants%20Fall%20Out%20of%20a%20Plank.cpp"> Last Moment Before All Ants Fall Out of a Plank (Leetcode-1503)</a>
 				</td>
 			</tr>
 		</tbody>
