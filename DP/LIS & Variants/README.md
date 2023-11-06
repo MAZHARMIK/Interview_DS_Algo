@@ -34,5 +34,10 @@
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Build%20Array%20Where%20You%20Can%20Find%20The%20Maximum%20Exactly%20K%20Comparisons.cpp"> Build Array Where You Can Find The Maximum Exactly K Comparisons (Leetcode-1420)</a>
 			</td>
 		</tr>
+		<tr>
+        		<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Maximum%20Balanced%20Subsequence%20Sum.cpp"> Maximum Balanced Subsequence Sum (Leetcode-2926)</a>
+			</td>
+		</tr>
 	</tbody>
 </table>
