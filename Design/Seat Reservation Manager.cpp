@@ -73,8 +73,8 @@ public:
             return seat;
         }
         
-        int seat = marker;
-        marker++;
+        int seat = seat_marker;
+        seat_marker++;
         return seat;
     }
     
