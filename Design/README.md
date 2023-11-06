@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Snapshot%20Array.cpp"> Snapshot Array (Leetcode - 1146)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Seat%20Reservation%20Manager.cpp"> Seat Reservation Manager (Leetcode - 1845)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
