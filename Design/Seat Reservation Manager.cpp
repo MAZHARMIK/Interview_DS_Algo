@@ -73,8 +73,8 @@ public:
             return seat;
         }
         
-        int seat = marker;
-        marker++;
+        int seat = seat_marker;
+        seat_marker++;
         return seat;
     }
     
@@ -88,8 +88,6 @@ public:
 //Approach-1 (Brute Force) - T.L.E
 //T.C : O(m * n) , where m = number of calls and n = time taken to reserve
 //S.C : O(n)
-import java.util.Arrays;
-
 class SeatManager {
     private int[] t;
     private int N;
