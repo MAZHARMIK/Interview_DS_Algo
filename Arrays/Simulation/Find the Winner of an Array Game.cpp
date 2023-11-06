@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=0pnrbej1_xM
-    Company Tag                 : Will update soon
+    Company Tag                 : Directi
     Leetcode Link               : https://leetcode.com/problems/find-the-winner-of-an-array-game/
 */
 
