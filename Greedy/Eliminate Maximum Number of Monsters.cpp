@@ -25,7 +25,6 @@ public:
 
         
         int count = 1;
-        int charged = 0; //After killing the first monster
         
         int time_passed = 1;
         for(int i = 1; i<n; i++) {
@@ -57,7 +56,6 @@ class Solution {
         Arrays.sort(vec);
         
         int count = 1;
-        int charged = 0; // After killing the first monster
         
         int timePassed = 1;
         for (int i = 1; i < n; i++) {
