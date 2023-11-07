@@ -199,5 +199,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Score%20of%20a%20Good%20Subarray.cpp"> Maximum Score of a Good Subarray (Leetcode-1793)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Eliminate%20Maximum%20Number%20of%20Monsters.cpp"> Eliminate Maximum Number of Monsters (Leetcode-1921)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
