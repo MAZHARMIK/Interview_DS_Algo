@@ -31,16 +31,8 @@ public:
     }
 
     long long maxBalancedSubsequenceSum(vector<int>& nums) {
-        bool allNegative = true;
-        long long maxEl = INT_MIN;
-        mp.clear();
-        for(int &x : nums) {
-            maxEl = max<long long>(maxEl, x);
-            if(x >= 0) {
-                allNegative = false;
-            }
-        }
-        if(allNegative) {
+        int maxEl = *max_element(begin(nums), end(nums));
+        if(maxEl <= 0) {
             return maxEl;
         }
         return solve(0, -1, nums);
@@ -53,19 +45,9 @@ class Solution {
 public:
     long long maxBalancedSubsequenceSum(vector<int>& nums) {
         int n = nums.size();
-        if(n == 1)
-            return nums[0];
-
-        bool allNegative = true;
-        long long maxEl = INT_MIN;
-
-        for(int &x : nums) {
-            maxEl = max<long long>(maxEl, x);
-            if(x >= 0) {
-                allNegative = false;
-            }
-        }
-        if(allNegative) {
+        
+        int maxEl = *max_element(begin(nums), end(nums));
+        if(maxEl <= 0) {
             return maxEl;
         }
 
@@ -145,40 +127,30 @@ public class Solution {
 
 //Approach-2 (Using LIS Bottom Up) - TLE (341/345 Test cases passed)
 //Time : O(n^2)
-public class Solution {
+class Solution {
     public long maxBalancedSubsequenceSum(int[] nums) {
         int n = nums.length;
-        if (n == 1)
-            return nums[0];
-
-        boolean allNegative = true;
-        long maxEl = Integer.MIN_VALUE;
-
-        for (int x : nums) {
-            maxEl = Math.max(maxEl, (long) x);
-            if (x >= 0) {
-                allNegative = false;
-            }
-        }
-        if (allNegative) {
+        
+        int maxEl = Arrays.stream(nums).max().getAsInt();
+        if(maxEl <= 0) {
             return maxEl;
         }
 
         long[] t = new long[n];
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) {
             t[i] = nums[i];
         }
 
         long maxSum = Integer.MIN_VALUE;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < i; j++) {
-                if (nums[i] - i >= nums[j] - j) {
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < i; j++) {
+                if(nums[i] - i >= nums[j] - j) {
                     t[i] = Math.max(t[i], t[j] + nums[i]);
                     maxSum = Math.max(maxSum, t[i]);
                 }
             }
         }
 
-        return Math.max(maxSum, maxEl);
+        return maxSum > maxEl ? maxSum : maxEl;
     }
 }
