@@ -169,5 +169,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Power%20of%20Four.cpp"> Power Of Four (Leetcode - 342)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Determine%20if%20a%20Cell%20Is%20Reachable%20at%20a%20Given%20Time.cpp"> Determine if a Cell Is Reachable at a Given Time (Leetcode - 2849)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
