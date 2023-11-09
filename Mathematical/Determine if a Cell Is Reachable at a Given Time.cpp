@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=1k5-LnJlH78
-    Company Tags                : will update soon
+    Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/
 */
 
