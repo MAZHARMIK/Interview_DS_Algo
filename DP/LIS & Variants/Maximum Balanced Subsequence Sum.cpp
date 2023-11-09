@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn :
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=JrG4tbq6efg
     Company Tags                : Will soon update
     Leetcode Link               : https://leetcode.com/problems/maximum-balanced-subsequence-sum
 */
