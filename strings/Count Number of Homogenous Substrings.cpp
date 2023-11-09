@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=qEJR7ox0mNI
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/count-number-of-homogenous-substrings/
 */
