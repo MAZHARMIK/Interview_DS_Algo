@@ -207,5 +207,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Backspace%20String%20Compare.cpp">Backspace String Compare (Leetcode-844)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20Number%20of%20Homogenous%20Substrings.cpp"> Count Number of Homogenous Substrings (Leetcode-1759)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
