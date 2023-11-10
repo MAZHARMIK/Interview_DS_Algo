@@ -213,35 +213,36 @@ public:
 //S.C : O(n)
 class Solution {
 public:
-    long long maxBalancedSubsequenceSum(vector<int>& nums) {
+    int lengthOfLIS(vector<int>& nums) {
         int n = nums.size();
-        map<int, long long> mp;
+        map<int, int> mp;
+        int ans = 0;
 
-        long long ans = INT_MIN;
-        
-        for(int i = 0; i < n; i++){
-            auto it = mp.upper_bound(nums[i]-i); //Find the element just greater than nums[i]-i;
-
-            long long cur_ans = nums[i];
+        for(int i = 0; i < n; i++) {
+            int len = 1;
+            auto it = mp.upper_bound(nums[i]);
 
             if(it != mp.begin()) {
                 it--;
-                cur_ans += (*it).second;
-            }
-            mp[nums[i]-i] = max(mp[nums[i]-i], cur_ans);
-
-            it = mp.upper_bound(nums[i]-i);
-
-            while(it != mp.end() && (*it).second <= cur_ans) {
-                 mp.erase(it++);
+                if(it->first < nums[i]) {
+                    len += it->second;
+                }
             }
 
-            ans = max(ans, cur_ans);
+            mp[nums[i]] = max(mp[nums[i]], len);
+            it = mp.upper_bound(nums[i]);
+
+            while(it != mp.end() && it->second <= len) {
+                mp.erase(it++);
+            }
+
+            ans = max(ans, len);
         }
 
         return ans;
     }
 };
+
 
 
 ************************************************************ JAVA ************************************************************
@@ -265,5 +266,37 @@ class Solution {
         }
 
         return maxLIS;
+    }
+}
+
+//Approach-5 (Using same code of Leetcode-2926(Maximum Balanced Subsequence Sum) (YouTube - https://www.youtube.com/watch?v=JrG4tbq6efg)
+//T.C : O(nlogn)
+//S.C : O(n)
+class Solution {
+    public int lengthOfLIS(int[] nums) {
+        int n = nums.length;
+        TreeMap<Integer, Integer> mp = new TreeMap<>();
+        int ans = 0;
+
+        for (int i = 0; i < n; i++) {
+            int len = 1;
+
+            Integer key = mp.lowerKey(nums[i]);
+            if (key != null) {
+                len += mp.get(key);
+            }
+
+            mp.put(nums[i], Math.max(mp.getOrDefault(nums[i], 0), len));
+
+            key = mp.higherKey(nums[i]);
+            while (key != null && mp.get(key) <= len) {
+                mp.remove(key);
+                key = mp.higherKey(nums[i]);
+            }
+
+            ans = Math.max(ans, len);
+        }
+
+        return ans;
     }
 }
