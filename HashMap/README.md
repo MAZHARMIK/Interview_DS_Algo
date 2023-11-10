@@ -99,5 +99,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Binary%20Trees%20With%20Factors.cpp"> Binary Trees With Factors (Leetcode-823)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Restore%20the%20Array%20From%20Adjacent%20Pairs.cpp"> Restore the Array From Adjacent Pairs (Leetcode-1743)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
