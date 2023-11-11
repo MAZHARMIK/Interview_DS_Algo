@@ -63,7 +63,7 @@ public:
 
 
 //Approach-2 (Using Dijkstra's Algorithm)
-//Code - 
+//Code - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Design%20Graph%20With%20Shortest%20Path%20Calculator.cpp
 
 
 /******************************************************** JAVA ********************************************************/
@@ -120,4 +120,4 @@ class Graph {
 
 
 //Approach-2 (Using Dijkstra's Algorithm)
-//Code - 
+//Code - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Design%20Graph%20With%20Shortest%20Path%20Calculator.cpp
