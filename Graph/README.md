@@ -305,5 +305,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Shortest%20Path%20Visiting%20All%20Nodes.cpp"> Shortest Path Visiting All Nodes (Leetcode : 847) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Bus%20Routes.cpp"> Bus Routes (Leetcode : 815) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
