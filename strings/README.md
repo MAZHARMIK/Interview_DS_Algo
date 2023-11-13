@@ -212,5 +212,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20Number%20of%20Homogenous%20Substrings.cpp"> Count Number of Homogenous Substrings (Leetcode-1759)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Sort%20Vowels%20in%20a%20String.cpp"> Sort Vowels in a String (Leetcode-2785)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
