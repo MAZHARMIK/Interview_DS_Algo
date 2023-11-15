@@ -204,5 +204,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Eliminate%20Maximum%20Number%20of%20Monsters.cpp"> Eliminate Maximum Number of Monsters (Leetcode-1921)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Element%20After%20Decreasing%20and%20Rearranging.cpp"> Maximum Element After Decreasing and Rearranging (Leetcode-1846)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
