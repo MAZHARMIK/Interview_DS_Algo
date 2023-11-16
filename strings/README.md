@@ -219,7 +219,12 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Unique%20Length-3%20Palindromic%20Subsequences.cpp"> Unique Length-3 Palindromic Subsequences.cpp (Leetcode-1930)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Unique%20Length-3%20Palindromic%20Subsequences.cpp"> Unique Length-3 Palindromic Subsequences (Leetcode-1930)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20Unique%20Binary%20String.cpp"> Find Unique Binary String (Leetcode-1980)</a>
 				</td>
 			</tr>
 		</tbody>
