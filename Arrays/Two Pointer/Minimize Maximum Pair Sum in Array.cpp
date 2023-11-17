@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=1L9C3a38fHU
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/description/
     Similar Leetcode Porblem    : Leetcode 881. Boats to Save People
