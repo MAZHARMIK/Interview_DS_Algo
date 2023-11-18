@@ -124,5 +124,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Maximize%20the%20Confusion%20of%20an%20Exam.cpp"> Maximize the Confusion of an Exam (Leetcode-2024) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Frequency%20of%20the%20Most%20Frequent%20Element.cpp"> Frequency of the Most Frequent Element (Leetcode-1838) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
