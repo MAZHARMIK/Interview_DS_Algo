@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=iOqH_JnXIOQ
-    Company Tags                : META
+    Company Tags                : META, Amazon(most frequently asked in year 2023)
     Leetcode Link               : https://leetcode.com/problems/frequency-of-the-most-frequent-element/
 */
 
