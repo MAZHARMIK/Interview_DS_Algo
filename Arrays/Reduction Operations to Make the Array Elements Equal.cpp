@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=XzjcPpSph0s
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal
 */
