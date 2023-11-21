@@ -104,5 +104,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Restore%20the%20Array%20From%20Adjacent%20Pairs.cpp"> Restore the Array From Adjacent Pairs (Leetcode-1743)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20Nice%20Pairs%20in%20an%20Array.cpp"> Count Nice Pairs in an Array (Leetcode-1814)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
