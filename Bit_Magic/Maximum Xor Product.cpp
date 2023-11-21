@@ -63,8 +63,6 @@ public:
             bool aset = (a & (1ll << i)) > 0; //Finding the ith bit of a
             bool bset = (b & (1ll << i)) > 0; //Finding the ith bit of b
 
-            cout << "aset" << aset << ", bset" << bset << endl;
-
             //If both ith bit of a and b are same
             if(aset == bset) {
                 xXora ^= (1ll << i);
