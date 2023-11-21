@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=SGJMTu9SZHs
-    Company Tags                : will update soon
+    Company Tags                : MICROSOFT
     Leetcode Link               : https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
 */
 
