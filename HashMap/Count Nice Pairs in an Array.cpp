@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=HgYxzKsToBo
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/count-nice-pairs-in-an-array/
 */
