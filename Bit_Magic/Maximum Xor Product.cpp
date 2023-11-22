@@ -43,8 +43,8 @@ public:
             Hence the extra for loop below takes care of that
         */
         for(long long i = 49; i >= n; i--) {
-            bool aset = (a & (1ll << i)) > 0; //Finding the ith bit of a
-            bool bset = (b & (1ll << i)) > 0; //Finding the ith bit of b
+            bool aset = (a >> i) & 1 > 0; //Finding the ith bit of a
+            bool bset = (b >> i) & 1 > 0; //Finding the ith bit of b
 
             if(aset)
                 xXora ^= (1ll << i);
@@ -112,8 +112,8 @@ public class Solution {
         long xXorb = 0;
 
         for (long i = 49; i >= n; i--) {
-            boolean aset = (a & (1L << i)) > 0;
-            boolean bset = (b & (1L << i)) > 0;
+            boolean aset = (a >> i) & 1 > 0; //Finding the ith bit of a
+            boolean bset = (b >> i) & 1 > 0; //Finding the ith bit of b
 
             if (aset)
                 xXora ^= (1L << i);
