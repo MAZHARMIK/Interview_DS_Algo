@@ -25,10 +25,10 @@
 				  </td>
       </tr>
 			<tr>
-          <td>
+          			  <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Diagonal%20Traverse.cpp">Diagonal Traverse (Leetcode-498)</a>
 				  </td>
-      </tr>
+     		        </tr>
 			<tr>
           <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Where%20Will%20the%20Ball%20Fall.cpp">Where Will the Ball Fall (Leetcode-1706)</a>
@@ -120,9 +120,14 @@
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Shortest%20Path%20to%20Get%20All%20Keys.cpp"> Shortest Path to Get All Keys (Leetcode-864)</a>
 				</td>
 			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Diagonal%20Traverse%20II.cpp">Diagonal Traverse II (Leetcode-1424)</a>
+				  </td>
+     		        </tr>
 		</tbody>
 </table>
