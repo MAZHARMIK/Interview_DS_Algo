@@ -355,5 +355,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Reduction%20Operations%20to%20Make%20the%20Array%20Elements%20Equal.cpp"> Reduction Operations to Make the Array Elements Equal (Leetcode-1887)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Arithmetic%20Subarrays.cpp"> Arithmetic Subarrays (Leetcode-1630)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
