@@ -11,8 +11,13 @@
 		<tbody>
 			<tr>
         			<td>
-					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Euler/Euler%20circuit%20and%20Path.cpp"> Euler circuit and Path </a>
-				      </td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Euler/Euler%20circuit%20and%20Path.cpp"> Euler circuit and Path </a>
+				 </td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Euler/Euler%20Circuit%20in%20an%20Undirected%20Graph.cpp"> Euler Circuit in an Undirected Graph </a>
+				 </td>
 			</tr>
 		</tbody>
 </table>
