@@ -1,6 +1,6 @@
 /*
       MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ErHay1GfIqw
-      Company Tags                : will soon update
+      Company Tags                : Atlassian Online Assessment for Females
       Leetcode Link               : https://leetcode.com/problems/arithmetic-subarrays
 */
 
