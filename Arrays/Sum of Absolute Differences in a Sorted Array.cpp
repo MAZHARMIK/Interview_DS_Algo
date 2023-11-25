@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=2ENYvJL-Leo
-    Company Tags                : will soon update
+    Company Tags                : Adobe
     Leetcode Link               : https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/
 */
 
