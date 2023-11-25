@@ -360,5 +360,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Arithmetic%20Subarrays.cpp"> Arithmetic Subarrays (Leetcode-1630)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sum%20of%20Absolute%20Differences%20in%20a%20Sorted%20Array.cpp"> Sum of Absolute Differences in a Sorted Array (Leetcode-1685)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
