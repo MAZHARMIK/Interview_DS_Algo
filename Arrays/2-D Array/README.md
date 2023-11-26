@@ -129,5 +129,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Diagonal%20Traverse%20II.cpp">Diagonal Traverse II (Leetcode-1424)</a>
 				  </td>
      		        </tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Largest%20Submatrix%20With%20Rearrangements.cpp"> Largest Submatrix With Rearrangements (Leetcode-1727)</a>
+				  </td>
+     		        </tr>
 		</tbody>
 </table>
