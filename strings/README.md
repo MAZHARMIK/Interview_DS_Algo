@@ -227,5 +227,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20Unique%20Binary%20String.cpp"> Find Unique Binary String (Leetcode-1980)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20Beautiful%20Substrings%20I.cpp"> Count Beautiful Substrings I (Leetcode-2947)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
