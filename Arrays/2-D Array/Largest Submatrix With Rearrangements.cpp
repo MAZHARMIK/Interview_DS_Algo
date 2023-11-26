@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Cs-xXLHG1BY
-    Company Tags                : GOOGLE
+    Company Tags                : GOOGLE, Directi
     Leetcode Link               : https://leetcode.com/problems/largest-submatrix-with-rearrangements/
 */
 
