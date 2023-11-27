@@ -45,40 +45,45 @@ public:
 class Solution {
 public:
     #define ll long long
-    
+
     bool isVowel(char ch) {
         return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
     }
-    
-    ll beautifulSubstrings(std::string s, int k) {
-        ll vowel = 0, cons = 0, result = 0;
-        unordered_map<ll, unordered_map<ll, ll>> mp;
-        mp[0][0] = 1;
-        
 
-        for (char ch: s) {
-            
+    long long beautifulSubstrings(string s, int k) {
+        ll vowel = 0;
+        ll consonant = 0;
+
+        ll result = 0;
+
+        unordered_map<ll, unordered_map<ll, ll>> mp; //key = (v-c) , value = map (vowel ka count past me -> count)
+        mp[0][0] = 1;
+
+        for(char &ch : s) {
+
             if(isVowel(ch)) {
                 vowel++;
             } else {
-                cons++;
+                consonant++;
             }
-            
-      
-            ll pSum = vowel - cons;
-            for (auto& [z, count]: mp[pSum]) {
-                if ((vowel%k - z) * (vowel%k - z) % k == 0) 
+
+            ll pSum = (vowel - consonant);
+
+            for(auto &[pastVowelCount, count] : mp[pSum]) {
+                
+                //current substring vowewl count = vowel - pastVowelCount
+                if((vowel%k - pastVowelCount) * (vowel%k - pastVowelCount) % k == 0) { //(a-b) * (a-b) % k -----> (a%k - b%k) * (a%k - b%k) %k
                     result += count;
+                }
+
             }
 
-            ++mp[vowel - cons][vowel%k];
-
+            mp[pSum][vowel%k]++;
         }
-        
+
         return result;
     }
 };
-
 
 /****************************************************************** JAVA ******************************************************************/
 //Approach-1: (Using Simple Finding substrings)
@@ -139,9 +144,9 @@ public class Solution {
 
             long pSum = vowel - cons;
             for (Map.Entry<Long, Long> entry : mp.getOrDefault(pSum, new HashMap<>()).entrySet()) {
-                long z = entry.getKey();
+                long pastVowelCount = entry.getKey();
                 long count = entry.getValue();
-                if ((vowel % k - z) * (vowel % k - z) % k == 0)
+                if ((vowel % k - pastVowelCount) * (vowel % k - pastVowelCount) % k == 0) //(a-b) * (a-b) % k -----> (a%k - b%k) * (a%k - b%k) %k
                     result += count;
             }
 
