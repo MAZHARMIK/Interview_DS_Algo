@@ -237,5 +237,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20Beautiful%20Substrings%20II.cpp"> Count Beautiful Substrings II (Leetcode-2949)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor.cpp"> Number of Ways to Divide a Long Corridor (Leetcode-2147)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
