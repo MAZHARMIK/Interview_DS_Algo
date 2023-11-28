@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Th4jtNqzyEc
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/count-beautiful-substrings-ii/
 */
