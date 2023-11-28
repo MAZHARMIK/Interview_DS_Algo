@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ixzhJ8OoA6Q
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/
 */
