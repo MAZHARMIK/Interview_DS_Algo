@@ -108,5 +108,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Find%20The%20Original%20Array%20of%20Prefix%20Xor.cpp"> Find The Original Array of Prefix Xor (Leetcode - 2433)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Number%20of%201%20Bits.cpp"> Number of 1 Bits (Leetcode - 191)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
