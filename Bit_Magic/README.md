@@ -113,5 +113,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Number%20of%201%20Bits.cpp"> Number of 1 Bits (Leetcode - 191)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero.cpp"> Minimum One Bit Operations to Make Integers Zero (Leetcode - 1611)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
