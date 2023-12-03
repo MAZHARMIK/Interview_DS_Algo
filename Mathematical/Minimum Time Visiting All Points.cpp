@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=_76B629_qas
     Company Tags                : Media.net
     Leetcode Link               : https://leetcode.com/problems/minimum-time-visiting-all-points/
 */
