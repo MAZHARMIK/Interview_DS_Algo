@@ -1,27 +1,36 @@
 /*
-    Company Tags  : Media.net
-    Leetcode Link : https://leetcode.com/problems/minimum-time-visiting-all-points/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : Media.net
+    Leetcode Link               : https://leetcode.com/problems/minimum-time-visiting-all-points/
 */
 
+/************************************************************ C++ ************************************************************/
+//Simple Math (Geometry)
+//T.C : O(n) - Checking all n points
+//S.C : O(1)
 class Solution {
 public:
-    int minTimeToVisitAllPoints(vector<vector<int>>& grid) {
-        //Key: The time to visit from point (x1, x2) and (y1, y2) is given by
-        //min(dx, dy) + abs(dx - dy); //See my answer on Stackoverflow : https://stackoverflow.com/a/68387535/6841676
-        //or, max(dx, dy) -> (Just do some board work and you will realise this well :-) )
+    int minTimeToVisitAllPoints(vector<vector<int>>& points) {
+        int n = points.size();
+        
         int steps = 0;
-        for(int i = 1; i<grid.size(); i++) {
-            int x1 = grid[i-1][0];
-            int y1 = grid[i-1][1];
+        
+        for(int i = 0; i<n-1; i++) { //We have to reach the last point - points[n-1]
+            int x1 = points[i][0];
+            int y1 = points[i][1];
             
-            int x2 = grid[i][0];
-            int y2 = grid[i][1];
+            int x2 = points[i+1][0];
+            int y2 = points[i+1][1]; 
             
             int dx = abs(x2-x1);
             int dy = abs(y2-y1);
             
-            //steps += min(dx, dy) + abs(dx-dy);
-            steps += max(dx, dy);
+            
+            int diagonal = min(dx, dy);
+            int remain   = abs(dx-dy);
+            
+            
+            steps += diagonal + remain;
             
         }
         
@@ -29,3 +38,34 @@ public:
         
     }
 };
+
+
+/************************************************************ JAVA ************************************************************/
+//Simple Math (Geometry)
+//T.C : O(n) - Checking all n points
+//S.C : O(1)
+class Solution {
+    public int minTimeToVisitAllPoints(int[][] points) {
+        int n = points.length;
+        
+        int steps = 0;
+        
+        for (int i = 0; i < n - 1; i++) {
+            int x1 = points[i][0];
+            int y1 = points[i][1];
+            
+            int x2 = points[i + 1][0];
+            int y2 = points[i + 1][1]; 
+            
+            int dx = Math.abs(x2 - x1);
+            int dy = Math.abs(y2 - y1);
+            
+            int diagonal = Math.min(dx, dy);
+            int remain = Math.abs(dx - dy);
+            
+            steps += diagonal + remain;
+        }
+        
+        return steps;
+    }
+}
