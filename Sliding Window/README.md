@@ -129,5 +129,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Frequency%20of%20the%20Most%20Frequent%20Element.cpp"> Frequency of the Most Frequent Element (Leetcode-1838) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Complete%20Substrings.cpp"> Count Complete Substrings (Leetcode-2953) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
