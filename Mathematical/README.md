@@ -179,5 +179,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20of%20Matches%20in%20Tournament.cpp"> Count of Matches in Tournament (Leetcode - 1688)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Calculate%20Money%20in%20Leetcode%20Bank.cpp"> Calculate Money in Leetcode Bank (Leetcode - 1716)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
