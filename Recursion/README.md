@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/K-th%20Symbol%20in%20Grammar.cpp">K-th Symbol in Grammar (Leetcode-779)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Construct%20String%20from%20Binary%20Tree.cpp"> Construct String from Binary Tree (Leetcode-606)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
