@@ -18,6 +18,8 @@ public:
             int goodChars = 0; //How many chars are of frequency k
 
             //Now do a sliding window
+            int i = start;
+            int windowLength = chars*k;
             for(int j = start; j <= end; j++) {
                 char ch = word[j];
 
@@ -28,14 +30,14 @@ public:
                     goodChars--;
                 }
 
-                if(j >= start + chars*k) { //Need to shift window right
-                    int left_idx = j - chars*k;
-                    if(count[word[left_idx] - 'a'] == k) {
+                if(j-i+1 > windowLength) { //Need to shift window right
+                    if(count[word[i] - 'a'] == k) {
                         goodChars--;
-                    } else if(count[word[left_idx] - 'a'] == k+1) {
+                    } else if(count[word[i] - 'a'] == k+1) {
                         goodChars++;
                     }
-                    count[word[left_idx] - 'a']--;
+                    count[word[i] - 'a']--;
+                    i++;
                 }
 
                 if(goodChars == chars) {
@@ -68,20 +70,20 @@ public:
 };
 
 
-
 /****************************************************************** JAVA *****************************************************************************/
 //Approach (Using sliding window)
 //T.C : O(n*26*n) ~ O(n^2)
 //S.C : O(26) We create an array of size 26 everytime. So assuming it constant
-public class Solution {
+class Solution {
     public int solve(int start, int end, String word, int k) {
         int result = 0;
         for (int chars = 1; chars <= 26 && chars * k <= end - start + 1; chars++) {
-
             int[] count = new int[26];
             int goodChars = 0; // How many chars are of frequency k
 
             // Now do a sliding window
+            int i = start;
+            int windowLength = chars * k;
             for (int j = start; j <= end; j++) {
                 char ch = word.charAt(j);
 
@@ -92,30 +94,26 @@ public class Solution {
                     goodChars--;
                 }
 
-                if (j >= start + chars * k) { // Need to shift window right
-                    int left_idx = j - chars * k;
-                    if (count[word.charAt(left_idx) - 'a'] == k) {
+                if (j - i + 1 > windowLength) { // Need to shift window right
+                    if (count[word.charAt(i) - 'a'] == k) {
                         goodChars--;
-                    } else if (count[word.charAt(left_idx) - 'a'] == k + 1) {
+                    } else if (count[word.charAt(i) - 'a'] == k + 1) {
                         goodChars++;
                     }
-                    count[word.charAt(left_idx) - 'a']--;
+                    count[word.charAt(i) - 'a']--;
+                    i++;
                 }
 
                 if (goodChars == chars) {
                     result++;
                 }
-
             }
-
         }
-
         return result;
     }
 
     public int countCompleteSubstrings(String word, int k) {
         int n = word.length();
-
         int result = 0;
         int last = 0;
 
@@ -125,7 +123,6 @@ public class Solution {
                 last = i;
             }
         }
-
         return result;
     }
 }
