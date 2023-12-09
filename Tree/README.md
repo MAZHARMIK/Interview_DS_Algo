@@ -409,5 +409,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.cpp"> Count Nodes Equal to Average of Subtree (Leetcode-2265)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Morris%20Traversal(Binary%20Tree%20Inorder%20Traversal).cpp"> Binary Tree Inorder Traversal (Leetcode-94)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
