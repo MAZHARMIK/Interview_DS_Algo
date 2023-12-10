@@ -114,5 +114,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Minimize%20Maximum%20Pair%20Sum%20in%20Array.cpp"> Minimize Maximum Pair Sum in Array (Leetcode-1877)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Count%20the%20Number%20of%20Good%20Partitions.cpp"> Count the Number of Good Partitions (Leetcode-2963)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
