@@ -62,7 +62,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Transpose%20Matrix">Transpose Matrix</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Transpose%20Matrix.cpp">Transpose Matrix</a>
 				</td>
 			</tr>
 			<tr>
