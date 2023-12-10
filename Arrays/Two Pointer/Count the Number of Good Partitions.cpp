@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=fyyjpElDeuY
     Company Tags                : I will update soon
     Leetcode Link               : https://leetcode.com/problems/count-the-number-of-good-partitions/
 */
