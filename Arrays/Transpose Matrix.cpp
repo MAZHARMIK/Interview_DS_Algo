@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ThwBsSxiPvk
     Company Tags                : Amazon, MakeMyTrip, Wipro, InfoEdge
     Leetcode Qn Link            : https://leetcode.com/problems/transpose-matrix/
     
