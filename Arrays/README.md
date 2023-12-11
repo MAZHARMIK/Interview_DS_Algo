@@ -365,5 +365,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sum%20of%20Absolute%20Differences%20in%20a%20Sorted%20Array.cpp"> Sum of Absolute Differences in a Sorted Array (Leetcode-1685)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Element%20Appearing%20More%20Than%2025%25%20In%20Sorted%20Array.cpp"> Element Appearing More Than 25% In Sorted Array (Leetcode-1287)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
