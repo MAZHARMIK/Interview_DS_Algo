@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6BoymP9R9MM
-    Company Tags                : will soon update
+    Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/
 */
 
