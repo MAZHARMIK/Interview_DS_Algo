@@ -16,6 +16,8 @@
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Cumulative_Sum(Prefix%20Array)">:file_folder:Cumulative_Sum(Prefix Array)</a>
 
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Simulation">:file_folder:Simulation</a>
+
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Leetcode%20Easy">:file_folder:Leetcode Easy</a>
   
 </details>
 
