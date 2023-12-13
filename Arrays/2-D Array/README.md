@@ -5,7 +5,8 @@
 <details>
   <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics (Example : DFS, BFS)</summary>
   
-  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/2-D%20Array/DFS">:file_folder:DFS</a>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/2-D%20Array/DFS">:file_folder:DFS</a>  
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/2-D%20Array/Leetcode%20Easy">:file_folder:Leetcode Easy</a>
 </details>
 
 <h1>Questions</h1>
