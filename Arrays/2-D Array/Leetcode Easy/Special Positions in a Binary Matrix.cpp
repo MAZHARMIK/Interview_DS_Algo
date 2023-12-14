@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=evSUv26z4Wk
-    Company Tags                : will update soon
+    Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/special-positions-in-a-binary-matrix/
 */
 
