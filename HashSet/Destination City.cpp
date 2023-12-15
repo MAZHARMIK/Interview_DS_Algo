@@ -31,7 +31,7 @@ public:
 };
 
 //Approach-2 (Using HashMap)
-//Link - 
+//Link - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Destination%20City.cpp
 
 
 /******************************************************************* JAVA *******************************************************************/
@@ -61,4 +61,4 @@ public class Solution {
 
 
 //Approach-2 (Using HashMap)
-//Link - 
+//Link - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Destination%20City.cpp
