@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20Nice%20Pairs%20in%20an%20Array.cpp"> Count Nice Pairs in an Array (Leetcode-1814)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Destination%20City.cpp"> Destination City (Leetcode-1436)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
