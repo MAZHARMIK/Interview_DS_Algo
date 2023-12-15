@@ -24,5 +24,10 @@
 				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Smallest%20Number%20in%20Infinite%20Set.cpp"> Smallest Number in Infinite Set (Leetcode-2336)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Destination%20City.cpp"> Destination City (Leetcode-1436)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
