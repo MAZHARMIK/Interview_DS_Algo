@@ -13,30 +13,31 @@
 class Solution {
 public:
     int numberOfSets(int n, int maxDistance, vector<vector<int>>& roads) {
-        int ans = 0;
-        //Total number of possible subsets with n nodes = 2^n = (1<<n) = pow(2, n)
+        int result = 0;
 
-        for(int i = 0; i < (1 << n); i++) {
-            // Create an adjacency matrix to represent the graph
-            vector<vector<int>> grid(n, vector<int>(n, 1e9));
+        //O(2^n * (n^3))
+        for(int set = 0; set < (1 << n); set++) { //trying all possible subsets
 
-            // Update the graph based on the selected nodes in the subset
+            vector<vector<int>> grid(n, vector<int>(n, 1e9)); //updated graph
+
+            //Update the Graph based on the selected nodes - present in set
             for(auto &it : roads) {
-                int u = it[0];
-                int v = it[1];
+                int u  = it[0];
+                int v  = it[1];
                 int wt = it[2];
-                
-                if((i >> u & 1) && (i >> v & 1)) {
+
+                //[[1,0,11],[1,0,16],[0,2,13]]
+                if((set >> u & 1) && (set >> v & 1)) {
                     grid[u][v] = min(grid[u][v], wt);
                     grid[v][u] = min(grid[v][u], wt);
                 }
             }
 
-            // Set diagonal elements to 0
-            for(int j = 0; j < n; j++)
-                grid[j][j] = 0;
+            for(int i = 0; i<n; i++) {
+                grid[i][i] = 0;
+            }
 
-            // Floyd-Warshall algorithm for finding the shortest paths
+            //Floyd Warshall to find shortest distance from any node to any other node
             for(int via = 0; via < n; via++) {
                 for(int i = 0; i<n; i++) {
                     for(int j = 0; j<n; j++) {
@@ -45,17 +46,17 @@ public:
 
                     }
                 }
-
             }
 
-            //Check if current subset form a valid set
+            
+            //Check if all shortest paths <= maxDistance
             bool ok = true;
-            for(int j = 0; j < n; j++) {
-                for(int k = 0; k < n; k++) {
-                    if(j == k) continue;
-                    
-                    if((i >> j & 1) && (i >> k & 1)) {
-                        if(grid[j][k] > maxDistance) {
+            for(int i = 0; i<n; i++) {
+                for(int j = 0; j<n; j++) {
+                    if(i == j) continue;
+
+                    if((set >> i & 1) && (set >> j & 1)) {
+                        if(grid[i][j] > maxDistance) {
                             ok = false;
                             break;
                         }
@@ -63,13 +64,16 @@ public:
                 }
             }
 
-            // Increment the answer if the subset was valid
-            ans += ok ? 1 : 0;
+            if(ok == true) {
+                result++;
+            }
+
         }
-        return ans;
+
+
+        return result;
     }
 };
-
 
 
 /*************************************************************** JAVA *****************************************************/
@@ -83,7 +87,7 @@ public class Solution {
         int ans = 0;
 
         // Total number of possible subsets with n nodes = 2^n = (1 << n) = Math.pow(2, n)
-        for (int i = 0; i < (1 << n); i++) {
+        for (int set = 0; set < (1 << n); set++) {
             // Create an adjacency matrix to represent the graph
             int[][] grid = new int[n][n];
             for (int j = 0; j < n; j++) {
@@ -98,7 +102,7 @@ public class Solution {
                 int v = it[1];
                 int wt = it[2];
 
-                if ((i >> u & 1) == 1 && (i >> v & 1) == 1) {
+                if ((set >> u & 1) == 1 && (set >> v & 1) == 1) {
                     grid[u][v] = Math.min(grid[u][v], wt);
                     grid[v][u] = Math.min(grid[v][u], wt);
                 }
@@ -124,7 +128,7 @@ public class Solution {
                 for (int k = 0; k < n; k++) {
                     if (j == k) continue;
 
-                    if ((i >> j & 1) == 1 && (i >> k & 1) == 1) {
+                    if ((set >> j & 1) == 1 && (set >> k & 1) == 1) {
                         if (grid[j][k] > maxDistance) {
                             ok = false;
                             break;
