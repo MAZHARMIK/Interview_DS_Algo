@@ -2,6 +2,9 @@
     MY YOUTUBE VIDEO ON THIS QN : 
     Company Tags                : Uber
     Leetcode Link               : https://leetcode.com/problems/valid-anagram/
+    
+    Follow Up - What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
+    Answer - Either use a hashmap to store or an interger array of size 128 will work (in Approach-2)
 */
 
 /*************************************************************************** C++ ***************************************************************************/
