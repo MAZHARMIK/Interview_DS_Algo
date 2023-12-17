@@ -6,8 +6,7 @@
 
 /**************************************** C++ ****************************************/
 //Using maps/set as requirement
-/*
-T.C : FoodRatings - O(n)
+/*T.C : FoodRatings - O(n)
       changeRating - log(n) due to erase function used in ordered_set
       highestRated - O(1)
 S.C : O(n) in all maps
@@ -59,8 +58,7 @@ public:
 
 /**************************************** JAVA ****************************************/
 //Using maps/set as requirement
-/*
-T.C : FoodRatings - O(n)
+/*T.C : FoodRatings - O(n)
       changeRating - log(n) due to erase function used in ordered_set
       highestRated - O(1)
 
