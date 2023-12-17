@@ -144,5 +144,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Seat%20Reservation%20Manager.cpp"> Seat Reservation Manager (Leetcode - 1845)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20a%20Food%20Rating%20System.cpp"> Design a Food Rating System (Leetcode - 2353)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
