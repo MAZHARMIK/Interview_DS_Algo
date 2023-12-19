@@ -140,5 +140,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Difference%20Between%20Ones%20and%20Zeros%20in%20Row%20and%20Column.cpp"> Difference Between Ones and Zeros in Row and Column (Leetcode-2482)</a>
 				  </td>
      		        </tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Image%20Smoother.cpp"> Image Smoother (Leetcode-661)</a>
+				  </td>
+     		        </tr>
 		</tbody>
 </table>
