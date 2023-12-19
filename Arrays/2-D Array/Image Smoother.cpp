@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=QXnw71MA_pU
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/image-smoother/
 */
