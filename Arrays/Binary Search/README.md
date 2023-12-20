@@ -171,5 +171,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20in%20Mountain%20Array.cpp"> Find in Mountain Array (Leetcode-1095)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Apply%20Operations%20to%20Maximize%20Frequency%20Score.cpp"> Apply Operations to Maximize Frequency Score (Leetcode-2968)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
