@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=MihxAUNFac0
-    Company Tags                : will update soon
+    Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/buy-two-chocolates/
 */
 
