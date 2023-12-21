@@ -1,5 +1,5 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn :
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=QZuxYdVNoIU
       Company Tags                : GOOGLE
       Leetcode Link               : https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/
 */
