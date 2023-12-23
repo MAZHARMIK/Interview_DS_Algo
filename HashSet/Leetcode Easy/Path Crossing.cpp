@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=uJaWNFdm2IU
-    Company Tags                : will soon update
+    Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/path-crossing/
 */
 
