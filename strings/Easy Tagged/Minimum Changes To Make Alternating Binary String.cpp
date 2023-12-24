@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=YB4oUR2Skfk
     Company Tags                : MICROSOFT
     Leetcode Link               : https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/
 */
