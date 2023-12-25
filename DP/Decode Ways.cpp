@@ -55,7 +55,7 @@ public:
     int bottom_up_1(string&s, int n) {
         //simply simulate the memoized version
         vector<int> t(n+1, 0);
-        //t[i] = ways to decode string of length i
+        //t[i] = ways to decode string from index i to n
         t[n] = 1;
         
         for(int i = n-1; i>=0; i--) {
@@ -182,6 +182,7 @@ public class Solution {
 public class Solution {
     public int bottomUp1(String s, int n) {
         int[] t = new int[n + 1];
+        ////t[i] = ways to decode string from index i to n
         Arrays.fill(t, 0);
         t[n] = 1;
 
