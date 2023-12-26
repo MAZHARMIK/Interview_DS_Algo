@@ -1,6 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : Amazon, Microsoft
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=nQw9gVaIjGo
+    Company Tags                : Amazon, Microsoft, Apple, Google
     Leetcode Link               : https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/
     GfG Link (Dice Throw)       : https://practice.geeksforgeeks.org/problems/dice-throw5349/1
 */
