@@ -7,7 +7,7 @@
 
 /************************************************************ C++ ******************************************************************/
 //Approach-1 (Recur + Memo) - It's Just Like coin change-2 (Only in this qn, assume that coin has k faces having different values)
-//T.C : O(n*target*k)
+//T.C : O(n*target*k) (But without memoization - it will be O(k^n)
 //S.C : O(31*1001) ~= O(1)
 class Solution {
 public:
@@ -77,7 +77,7 @@ public:
 
 /************************************************************ JAVA ******************************************************************/
 //Approach-1 (Recur + Memo) - It's Just Like coin change-2 (Only in this qn, assume that coin has k faces having different values)
-//T.C : O(n*target*k)
+//T.C : O(n*target*k) (But without memoization - it will be O(k^n)
 //S.C : O(31*1001) ~= O(1)
 public class Solution {
     private final long M = 1000000007;
