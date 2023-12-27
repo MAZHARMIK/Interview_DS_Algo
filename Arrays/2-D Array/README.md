@@ -145,5 +145,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Image%20Smoother.cpp"> Image Smoother (Leetcode-661)</a>
 				  </td>
      		        </tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Anti%20Diagonal%20Traversal%20of%20Matrix.cpp"> Anti Diagonal Traversal of Matrix (GfG)</a>
+				  </td>
+     		        </tr>
 		</tbody>
 </table>
