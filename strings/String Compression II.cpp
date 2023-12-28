@@ -1,6 +1,6 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
-      Company Tags                : will update soon
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6rgO0obJG0k
+      Company Tags                : Adobe, Microsoft, Uber
       Leetcode Link               : https://leetcode.com/problems/string-compression-ii/
 */
 
