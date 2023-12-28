@@ -1,5 +1,6 @@
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6rgO0obJG0k
+      MY YOUTUBE VIDEO ON THIS Qn : 4-D Memoization - https://www.youtube.com/watch?v=6rgO0obJG0k
+                                    2-D Memoization - Being uploaded now
       Company Tags                : Adobe, Microsoft, Uber
       Leetcode Link               : https://leetcode.com/problems/string-compression-ii/
 */
@@ -47,6 +48,56 @@ public:
     }
 };
 
+
+//Approach-2 (Using 2D Memoization)
+//T.C : O(n*k) we will visit at max n*k states after memoization
+//S.C : O(n*k)
+class Solution {
+public:
+    int n;
+    vector<vector<int>> t;
+    int solve(int i, int k, string &s) {
+        if(k < 0) {
+            return 100000;
+        }
+
+        if(i >= n || (n-i) <= k) {
+            return 0;
+        }
+
+        if(t[i][k] != -1) {
+            return t[i][k];
+        }
+
+        int delete_i = solve(i+1, k-1, s);
+
+        int keep_i = INT_MAX;
+        
+        int deleted  = 0;
+        int freq     = 0;
+        int addition = 0;
+
+        for(int j = i; j < n && deleted <= k; j++) {
+            if(s[j] == s[i]) {
+                freq++;
+                if(freq == 2 || freq == 10 || freq == 100) {
+                    addition++;
+                }
+            } else {
+                deleted++;
+            }
+
+            keep_i = min(keep_i, 1 + addition + solve(j+1, k-deleted, s));
+        }
+
+        return t[i][k] = min(delete_i, keep_i);
+    }
+    int getLengthOfOptimalCompression(string s, int k) {
+        n = s.length();
+        t = vector<vector<int>>(n + 1, vector<int>(k + 1, -1));
+        return solve(0, k, s);
+    }
+};
 
 
 /************************************************************ JAVA ************************************************************/
@@ -97,5 +148,60 @@ class Solution {
         }
 
         return t[i][prev][freq][k] = Math.min(delete_i, keep_i);
+    }
+}
+
+
+//Approach-2 (Using 2D Memoization) - ACCEPTED
+//T.C : O(n*k) we will visit at max n*k states after memoization
+//S.C : O(n*k)
+class Solution {
+    private int n;
+    private int[][] t;
+
+    public int solve(int i, int k, String s) {
+        if (k < 0) {
+            return 100000;
+        }
+
+        if (i >= n || (n - i) <= k) {
+            return 0;
+        }
+
+        if (t[i][k] != -1) {
+            return t[i][k];
+        }
+
+        int delete_i = solve(i + 1, k - 1, s);
+
+        int keep_i = Integer.MAX_VALUE;
+
+        int deleted = 0;
+        int freq = 0;
+        int addition = 0;
+
+        for (int j = i; j < n && deleted <= k; j++) {
+            if (s.charAt(j) == s.charAt(i)) {
+                freq++;
+                if (freq == 2 || freq == 10 || freq == 100) {
+                    addition++;
+                }
+            } else {
+                deleted++;
+            }
+
+            keep_i = Math.min(keep_i, 1 + addition + solve(j + 1, k - deleted, s));
+        }
+
+        return t[i][k] = Math.min(delete_i, keep_i);
+    }
+
+    public int getLengthOfOptimalCompression(String s, int k) {
+        n = s.length();
+        t = new int[n + 1][k + 1];
+        for (int[] row : t) {
+            Arrays.fill(row, -1);
+        }
+        return solve(0, k, s);
     }
 }
