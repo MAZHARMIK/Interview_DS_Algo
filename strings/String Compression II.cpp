@@ -29,10 +29,11 @@ public:
         int keep_i   = 0;
         
         if(s[i] - 'a' == prev) {
+             int one_more_added = 0;
              if(freq == 1 || freq == 9 || freq == 99) {
-                 keep_i += 1;
+                 one_more_added = 1;
              }
-            keep_i = keep_i + solve(s, i+1, prev, freq+1, k);
+            keep_i = one_more_added + solve(s, i+1, prev, freq+1, k);
         } else {
             keep_i = 1 + solve(s, i+1, s[i]-'a', 1, k);
         }
@@ -86,10 +87,11 @@ class Solution {
         int keep_i = 0;
 
         if (s.charAt(i) - 'a' == prev) {
+            int one_more_added = 0;
             if (freq == 1 || freq == 9 || freq == 99) {
-                keep_i += 1;
+                one_more_added = 1;
             }
-            keep_i = keep_i + solve(s, i + 1, prev, freq + 1, k);
+            keep_i = one_more_added + solve(s, i + 1, prev, freq + 1, k);
         } else {
             keep_i = 1 + solve(s, i + 1, s.charAt(i) - 'a', 1, k);
         }
