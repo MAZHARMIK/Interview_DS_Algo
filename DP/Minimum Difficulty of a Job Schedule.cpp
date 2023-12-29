@@ -59,15 +59,15 @@ public:
 //Approach - 2 (Bottom UP)
 //soon coming with a video when I return from New Year Trip
 
-/***************************************************************** C++ *****************************************************************/
+/***************************************************************** JAVA *****************************************************************/
 //Approach-1 (Recursion + Memoization)
 //T.C : O(n*d) only this amount of states we will visit
 //S.C : O(301*11) ~= O(1)
 public class Solution {
     private int[][] t;
 
-    public int minDifficulty(int[] jd, int d) {
-        int n = jd.length;
+    public int minDifficulty(int[] jobDifficulty, int d) {
+        int n = jobDifficulty.length;
 
         if (n < d)
             return -1;
@@ -77,14 +77,14 @@ public class Solution {
             Arrays.fill(row, -1);
         }
 
-        return solve(jd, n, 0, d);
+        return solve(jobDifficulty, n, 0, d);
     }
 
-    private int solve(int[] jd, int n, int idx, int d) {
+    private int solve(int[] jobDifficulty, int n, int idx, int d) {
         // If you have only 1 day, then you will do all the remaining jobs
         // and select the max difficulty as the answer
         if (d == 1) {
-            return Arrays.stream(Arrays.copyOfRange(jd, idx, n)).max().orElse(Integer.MIN_VALUE);
+            return Arrays.stream(Arrays.copyOfRange(jobDifficulty, idx, n)).max().orElse(Integer.MIN_VALUE);
         }
 
         if (t[idx][d] != -1)
@@ -99,13 +99,14 @@ public class Solution {
          * on Then find the optimal one among all the results
          */
         for (int i = idx; i <= n - d; i++) {
-            maxDifficulty = Math.max(maxDifficulty, jd[i]);
-            result = Math.min(result, maxDifficulty + solve(jd, n, i + 1, d - 1));
+            maxDifficulty = Math.max(maxDifficulty, jobDifficulty[i]);
+            result = Math.min(result, maxDifficulty + solve(jobDifficulty, n, i + 1, d - 1));
         }
 
         return t[idx][d] = result;
     }
 }
+
 
 
 //Approach - 2 (Bottom UP)
