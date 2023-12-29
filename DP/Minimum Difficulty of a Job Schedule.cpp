@@ -6,7 +6,7 @@
 
 /***************************************************************** C++ *****************************************************************/
 //Approach - 1 (Recursion + Memoization)
-//T.C : O(n*d) only this amount of states we will visit
+//T.C : O(n^2*d)
 //S.C : O(301*11) ~= O(1)
 class Solution {
 public:
@@ -57,11 +57,46 @@ public:
 
 
 //Approach - 2 (Bottom UP)
-//soon coming with a video when I return from New Year Trip
+//T.C : O(n^2 * d)
+//S.C : O(n*d)
+class Solution {
+public:
+    int minDifficulty(vector<int>& jobDifficulty, int d) {
+        int n = jobDifficulty.size();
+
+        if (n < d)
+            return -1;
+
+        vector<vector<int>> t(n+1, vector<int>(d+1, -1));
+        //t[i][j] = minimum diffculty of doing job from index i to n-1 in j days.
+
+        // Base case: if there is only one day - Do all jobs on that day
+        for (int i = 0; i < n; i++) {
+            t[i][1] = *max_element(begin(jobDifficulty) + i, end(jobDifficulty));
+        }
+
+        // Build the DP table bottom-up
+        for (int days = 2; days <= d; days++) {
+            for (int i = 0; i <= n - days; i++) {
+                int maxDifficulty = INT_MIN;
+                int result        = INT_MAX;
+
+                for (int j = i; j <= n - days; j++) {
+                    maxDifficulty   = max(maxDifficulty, jobDifficulty[j]);
+                    result          = min(result, maxDifficulty + t[j + 1][days - 1]);
+                }
+
+                t[i][days] = result;
+            }
+        }
+
+        return t[0][d];
+    }
+};
 
 /***************************************************************** JAVA *****************************************************************/
 //Approach-1 (Recursion + Memoization)
-//T.C : O(n*d) only this amount of states we will visit
+//T.C : O(n^2*d)
 //S.C : O(301*11) ~= O(1)
 public class Solution {
     private int[][] t;
@@ -108,6 +143,38 @@ public class Solution {
 }
 
 
-
 //Approach - 2 (Bottom UP)
-//soon coming with a video when I return from New Year Trip
+//T.C : O(n^2 * d)
+//S.C : O(n*d)
+public class Solution {
+    public int minDifficulty(int[] jobDifficulty, int d) {
+        int n = jobDifficulty.length;
+
+        if (n < d)
+            return -1;
+
+        int[][] t = new int[n + 1][d + 1];
+
+        // Base case: if there is only one day - Do all jobs on that day
+        for (int i = 0; i < n; i++) {
+            t[i][1] = Arrays.stream(Arrays.copyOfRange(jobDifficulty, i, n)).max().orElse(Integer.MIN_VALUE);
+        }
+
+        // Build the DP table bottom-up
+        for (int days = 2; days <= d; days++) {
+            for (int i = 0; i <= n - days; i++) {
+                int maxDifficulty = Integer.MIN_VALUE;
+                int result = Integer.MAX_VALUE;
+
+                for (int j = i; j <= n - days; j++) {
+                    maxDifficulty = Math.max(maxDifficulty, jobDifficulty[j]);
+                    result = Math.min(result, maxDifficulty + t[j + 1][days - 1]);
+                }
+
+                t[i][days] = result;
+            }
+        }
+
+        return t[0][d];
+    }
+}
