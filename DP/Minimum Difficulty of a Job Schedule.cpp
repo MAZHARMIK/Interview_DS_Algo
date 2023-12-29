@@ -1,5 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=smTnSl6UKi0
+    MY YOUTUBE VIDEO ON THIS Qn : Recursion + Memoization - https://www.youtube.com/watch?v=smTnSl6UKi0
+                                  Bottom Up - https://www.youtube.com/watch?v=TjyYTng3f5A
     Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/
 */
