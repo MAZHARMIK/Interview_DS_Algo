@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=euheCzFYWDs
-    Company Tags                : will update soon
+    Company Tags                : Most asked online Assessment Qn of Amazon in year 2022 (Karat, Amazon, Uber, Pinterest)
     Leetcode Link               : https://leetcode.com/problems/largest-3-same-digit-number-in-string
 */
 
