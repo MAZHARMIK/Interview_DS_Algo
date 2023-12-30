@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS QN : 
+    MY YOUTUBE VIDEO ON THIS QN : https://www.youtube.com/watch?v=BWETRja2KHg
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/
 */
