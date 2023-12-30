@@ -114,5 +114,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Destination%20City.cpp"> Destination City (Leetcode-1436)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Redistribute%20Characters%20to%20Make%20All%20Strings%20Equal.cpp"> Redistribute Characters to Make All Strings Equal (Leetcode-1897)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
