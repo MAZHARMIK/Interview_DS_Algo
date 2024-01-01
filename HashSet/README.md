@@ -29,5 +29,10 @@
 				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Destination%20City.cpp"> Destination City (Leetcode-1436)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Array%20Pair%20Sum%20Divisibility%20Problem.cpp"> Array Pair Sum Divisibility Problem (GeeksForGeeks)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
