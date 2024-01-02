@@ -1,6 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                :
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=BR--_W8odmw
+    Company Tags                : Added YouTube Link
     Leetcode Link               : https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/
 */
 
