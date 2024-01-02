@@ -150,5 +150,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Anti%20Diagonal%20Traversal%20of%20Matrix.cpp"> Anti Diagonal Traversal of Matrix (GfG)</a>
 				  </td>
      		        </tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Convert%20an%20Array%20Into%20a%202D%20Array%20With%20Conditions.cpp"> Convert an Array Into a 2D Array With Conditions (Leetcode-2610)</a>
+				  </td>
+     		        </tr>
 		</tbody>
 </table>
