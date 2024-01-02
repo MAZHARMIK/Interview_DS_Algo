@@ -22,7 +22,7 @@ public:
         for(int &num : nums) {
             int freq = mp[num];
             
-            if(freq >= result.size()) {
+            if(freq == result.size()) {
                 result.push_back({});
             }
             
@@ -49,7 +49,7 @@ class Solution {
         
         for (int c : nums) {
             
-            if (mp[c] >= result.size()) {
+            if (mp[c] == result.size()) {
                 result.add(new ArrayList<>());
             }
 
