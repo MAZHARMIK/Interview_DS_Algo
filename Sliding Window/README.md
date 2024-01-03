@@ -139,5 +139,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Largest%20Sum%20Subarray%20of%20Size%20at%20least%20K.cpp"> Largest Sum Subarray of Size at least K (GfG) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Smallest%20window%20containing%200%2C%201%20and%202.cpp"> Smallest window containing 0, 1 and 2 (GfG) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
