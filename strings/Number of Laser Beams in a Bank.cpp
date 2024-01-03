@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=3-c1Gc-5QnE
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
 */
