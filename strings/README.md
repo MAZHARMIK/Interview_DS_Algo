@@ -247,5 +247,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/String%20Compression%20II.cpp"> String Compression II (Leetcode-1531)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Number%20of%20Laser%20Beams%20in%20a%20Bank.cpp"> Number of Laser Beams in a Bank (Leetcode-2125)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
