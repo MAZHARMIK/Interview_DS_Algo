@@ -2,6 +2,7 @@
     MY YOUTUBE VIDEO ON THIS Qn   : https://www.youtube.com/watch?v=LK0c7tCzKmM
     Company Tags                  : Google, Amazon, Microsoft, Ola Cabs, Qualcomm
     Leetcode Link                 : https://leetcode.com/problems/single-number-ii/
+    GfG Link                      : https://www.geeksforgeeks.org/problems/find-element-occuring-once-when-all-other-are-present-thrice/1
 */
 
 //Approach-1
