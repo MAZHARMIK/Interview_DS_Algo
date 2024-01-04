@@ -214,5 +214,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Number%20of%20Coins%20You%20Can%20Get.cpp"> Maximum Number of Coins You Can Get (Leetcode-1561)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20Operations%20to%20Make%20Array%20Empty.cpp"> Minimum Number of Operations to Make Array Empty (Leetcode-2870)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
