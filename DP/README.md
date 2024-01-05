@@ -651,5 +651,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Points%20After%20Collecting%20Coins%20From%20All%20Nodes.cpp"> Maximum Points After Collecting Coins From All Nodes (Leetcode-2920)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20possible%20ways%20to%20construct%20buildings.cpp"> Count possible ways to construct buildings (GfG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
