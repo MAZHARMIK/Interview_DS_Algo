@@ -1,7 +1,7 @@
 /*
     YouTube Link  : Recursion + Memoization -  https://www.youtube.com/watch?v=DG50PJIx2SM
     		    Bottom Up - https://www.youtube.com/watch?v=h9rm4N8XbL0
-	  	    nlogn - Soon
+	  	    Patience Sorting - https://www.youtube.com/watch?v=dWmh3O8uX8A
     Company Tags  : Microsoft
     Leetcode Link : https://leetcode.com/problems/longest-increasing-subsequence/
 */
