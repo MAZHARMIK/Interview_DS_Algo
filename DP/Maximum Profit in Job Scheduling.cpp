@@ -74,7 +74,62 @@ public:
 };
 
 
-//Approach-2 (Bottom Up DP) - Video coming soon
+//Approach-2 (Bttom Up) - Video coming soon
+//T.C :  O(nlogn), where n is the number of jobs
+//S.C : O(n)
+class Solution {
+public:
+    int binarySearch(const vector<vector<int>>& jobs, int end, int left, int right) {
+        int result = -1;  // Initialize result to -1 to handle cases where no job is found
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (jobs[mid][1] <= end) {
+                result = mid;
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+
+        return result;
+    }
+
+    int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
+        int n = startTime.size();
+        int dp[n]; 
+        vector<vector<int>> jobs(n, vector<int>(3));
+
+        for(int i = 0; i < n; i++) { 
+            jobs[i][0] = startTime[i]; 
+            jobs[i][1] = endTime[i]; 
+            jobs[i][2] = profit[i]; 
+        }
+
+        sort(jobs.begin(), jobs.end(), [](const vector<int>& m, const vector<int>& n) {
+            return m[1] < n[1];
+        });
+
+        dp[0] = jobs[0][2];
+
+        for (int i = 1; i < n; i++) {
+            int prev = 0;
+
+            // Use binary search function to find the previous job
+            int lastJobIndex = binarySearch(jobs, jobs[i][0], 0, i - 1);
+            if (lastJobIndex != -1) {
+                prev = dp[lastJobIndex];
+            }
+
+            dp[i] = max(prev + jobs[i][2], dp[i-1]);
+        }
+        
+        return dp[n - 1];
+    }
+};
+
+
+//Approach-3 (Same as Approach-2. Here we have used struct and not used binary search) - Video coming soon
 //T.C :  O(n^2), where n is the number of jobs
 //S.C : O(n)
 class Solution {
@@ -180,9 +235,57 @@ class Solution {
     }
 }
 
+//Approach-2 (Bttom Up) - Video coming soon
+//T.C :  O(nlogn), where n is the number of jobs
+//S.C : O(n)
+class Solution {
+    private int binarySearch(int[][] jobs, int end, int left, int right) {
+        int result = -1;
 
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (jobs[mid][1] <= end) {
+                result = mid;
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
 
-//Approach-2 (Bottom Up DP) - Video coming soon
+        return result;
+    }
+
+    public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
+        int n = startTime.length;
+        int[][] jobs = new int[n][3];
+
+        for (int i = 0; i < n; i++) {
+            jobs[i][0] = startTime[i];
+            jobs[i][1] = endTime[i];
+            jobs[i][2] = profit[i];
+        }
+
+        Arrays.sort(jobs, Comparator.comparingInt(m -> m[1]));
+
+        int[] dp = new int[n];
+        dp[0] = jobs[0][2];
+
+        for (int i = 1; i < n; i++) {
+            int prev = 0;
+            int lastJobIndex = binarySearch(jobs, jobs[i][0], 0, i - 1);
+
+            if (lastJobIndex != -1) {
+                prev = dp[lastJobIndex];
+            }
+
+            dp[i] = Math.max(prev + jobs[i][2], dp[i - 1]);
+        }
+
+        return dp[n - 1];
+    }
+}
+
+//Approach-3 (Bottom Up DP) - Video coming soon
 //T.C :  O(n^2), where n is the number of jobs
 //S.C : O(n)
 class Solution {
