@@ -1,11 +1,14 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=LL0tVxlAeV4
-    Company Tags                : Not known yet but it's worth being asked. Few people mentioned that it was asked in Google but I don't have proof yet
+    Company Tags                : Google, Doordash, Airbnb, Adobe
     Leetcode Link               : https://leetcode.com/problems/maximum-profit-in-job-scheduling/
     Similar Leetcode Qn         : Maximum Number of Events That Can Be Attended II (YouTube  : https://www.youtube.com/watch?v=9ykgLt25X9c)
 */
 
+/******************************************************************* C++ *******************************************************************/
 //Approach-1 (Recur + Memo)
+//T.C : O(nlogn), where n is the number of jobs
+//S.C : O(n), where n is the number of jobs.
 class Solution {
 public:
     int memo[50001];
@@ -70,8 +73,9 @@ public:
 };
 
 
-
 //Approach-2 (Bottom Up DP) - Video coming soon
+//T.C :  O(n^2), where n is the number of jobs
+//S.C : O(n)
 class Solution {
 public:    
     struct job {
