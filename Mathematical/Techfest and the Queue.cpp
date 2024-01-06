@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=-ZKUZU7s5Kw
     Company Tags                : will soon update
     GfG Link                    : https://www.geeksforgeeks.org/problems/techfest-and-the-queue1044/1
 */
