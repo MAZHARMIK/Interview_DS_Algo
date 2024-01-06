@@ -12,8 +12,8 @@ public:
 
     int countSum(int x) {
         int count = 0;
-        
-        for(int i = 2; i * i <= x; i++) {
+        int temp = x;
+        for(int i = 2; i * i <= temp; i++) {
             
             while(x%i == 0) {
                 x /= i;
@@ -45,8 +45,9 @@ public:
 class Solution {
     public static long countSum(long x) {
         long count = 0;
-
-        for (int i = 2; i * i <= x; i++) {
+	int temp = x;
+	    
+        for (int i = 2; i * i <= temp; i++) {
             while (x % i == 0) {
                 x /= i;
                 count++;
