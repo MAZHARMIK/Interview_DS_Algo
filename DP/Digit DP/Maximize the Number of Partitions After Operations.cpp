@@ -11,7 +11,7 @@
 //S.C : O(m+n) - where m = unique states (resursion stack) and n = size of map
 class Solution {
 public:
-    unordered_map<long long, int> mp;  // Replaced cache with mp
+    unordered_map<long long, int> mp;
     string S;
     int K;
         
