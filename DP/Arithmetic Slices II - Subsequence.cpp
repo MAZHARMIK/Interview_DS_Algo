@@ -21,7 +21,7 @@ public:
                 
                 int count_at_j = it==end(mp[j]) ? 0 : it->second;
                 
-                mp[i][diff] = count_at_j+1;
+                mp[i][diff] += count_at_j+1;
                 result    += count_at_j;
                 
             }
