@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : Recursion + Memo - https://www.youtube.com/watch?v=LL0tVxlAeV4
-                                  Bottom Up        - Coming today on 6th Jan, 2024
+                                  Bottom Up        - soon I will upload (You can see the code below)
     Company Tags                : Google, Doordash, Airbnb, Adobe
     Leetcode Link               : https://leetcode.com/problems/maximum-profit-in-job-scheduling/
     Similar Leetcode Qn         : Maximum Number of Events That Can Be Attended II (YouTube  : https://www.youtube.com/watch?v=9ykgLt25X9c)
