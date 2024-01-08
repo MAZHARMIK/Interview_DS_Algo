@@ -56,12 +56,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Merge%20Two%20Sorted%20Lists(Iterative))">Merge Two Sorted Lists(Iterative)) (Leetcode-21)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Merge%20Two%20Sorted%20Lists(Recursive)">Merge Two Sorted Lists(Recursive)) (Leetcode-21)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Merge%20Two%20Sorted%20Lists.cpp">Merge Two Sorted Lists (Leetcode-21)</a>
 				</td>
 			</tr>
 			<tr>
