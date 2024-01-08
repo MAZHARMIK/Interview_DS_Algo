@@ -34,11 +34,11 @@ public:
 //Approach-2 (Recursion  + Memo)
 class Solution {
 private:
-    int recursion(std::vector<int>& nums, int start, int curr, int len, long diff, std::unordered_map<std::string, int>& dp) {
+    int solve(vector<int>& nums, int start, int curr, int len, long diff, unordered_map<string, int>& dp) {
         if (curr == nums.size() - 1)
             return 0;
 
-        std::string temp = std::to_string(curr) + "#" + std::to_string(len);
+        string temp = to_string(curr) + "#" + to_string(len);
         if (dp.find(temp) != dp.end())
             return dp[temp];
 
@@ -49,7 +49,7 @@ private:
                 len += 1;
                 if (len >= 3)
                     res++;
-                res += recursion(nums, start, i, len, k, dp);
+                res += solve(nums, start, i, len, k, dp);
                 len -= 1;
             }
         }
@@ -59,13 +59,13 @@ private:
     }
 
 public:
-    int numberOfArithmeticSlices(std::vector<int>& nums) {
+    int numberOfArithmeticSlices(vector<int>& nums) {
         int res = 0;
-        std::unordered_map<std::string, int> dp;
+        unordered_map<string, int> dp;
 
         for (int i = 0; i < nums.size(); i++) {
             dp.clear();
-            res += recursion(nums, i, i, 1, 0, dp);
+            res += solve(nums, i, i, 1, 0, dp);
         }
 
         return res;
