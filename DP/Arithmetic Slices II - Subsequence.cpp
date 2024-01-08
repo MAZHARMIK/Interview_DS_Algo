@@ -31,6 +31,47 @@ public:
 };
 
 
+//Approach-2 (Recursion  + Memo)
+class Solution {
+private:
+    int recursion(std::vector<int>& nums, int start, int curr, int len, long diff, std::unordered_map<std::string, int>& dp) {
+        if (curr == nums.size() - 1)
+            return 0;
+
+        std::string temp = std::to_string(curr) + "#" + std::to_string(len);
+        if (dp.find(temp) != dp.end())
+            return dp[temp];
+
+        int res = 0;
+        for (int i = curr + 1; i < nums.size(); i++) {
+            long k = static_cast<long>(nums[i]) - static_cast<long>(nums[curr]);
+            if (len == 1 || diff == k) {
+                len += 1;
+                if (len >= 3)
+                    res++;
+                res += recursion(nums, start, i, len, k, dp);
+                len -= 1;
+            }
+        }
+
+        dp[temp] = res;
+        return res;
+    }
+
+public:
+    int numberOfArithmeticSlices(std::vector<int>& nums) {
+        int res = 0;
+        std::unordered_map<std::string, int> dp;
+
+        for (int i = 0; i < nums.size(); i++) {
+            dp.clear();
+            res += recursion(nums, i, i, 1, 0, dp);
+        }
+
+        return res;
+    }
+};
+
 
 /********************************************************** JAVA **********************************************************/
 //T.C : O(n^2)
