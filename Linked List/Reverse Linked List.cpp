@@ -6,7 +6,10 @@
       GfG Link                    : https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1
 */
 
+/********************************************************************** C++ **********************************************************************/
 //Approach-1 (Using Recursion - I)
+//T.C : O(m+n)
+//S.C : O(1) (Ignoring recursion stack space)
 class Solution {
 public:
     
@@ -30,6 +33,8 @@ public:
 
 
 //Approach-2 (Using Recursio - II)
+//T.C : O(m+n)
+//S.C : O(1) (Ignoring recursion stack space)
 class Solution {
 public:
     
@@ -51,6 +56,8 @@ public:
 
 
 //Approach-3 (Iterative)
+//T.C : O(n)
+//S.C : O(1)
 class Solution {
 public:
     
@@ -66,3 +73,64 @@ public:
         return prev;
     }
 };
+
+
+/********************************************************************** JAVA **********************************************************************/
+//Approach-1 (Using Recursion - I)
+//T.C : O(m+n)
+//S.C : O(1) (Ignoring recursion stack space)
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        return reverseSolve(head);
+    }
+
+    private ListNode reverseSolve(ListNode head) {
+        if (head == null || head.next == null)
+            return head;
+
+        ListNode last = reverseSolve(head.next);
+        head.next.next = head;
+        head.next = null;
+
+        return last;
+    }
+}
+
+
+//Approach-2 (Using Recursio - II)
+//T.C : O(m+n)
+//S.C : O(1) (Ignoring recursion stack space)
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        return reverseHelp(head, null);
+    }
+
+    private ListNode reverseHelp(ListNode head, ListNode prev) {
+        if (head == null)
+            return prev;
+
+        ListNode temp = head.next;
+        head.next = prev;
+
+        return reverseHelp(temp, head);
+    }
+}
+
+
+//Approach-3 (Iterative)
+//T.C : O(n)
+//S.C : O(1)
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+
+        while (head != null) {
+            ListNode next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+        }
+
+        return prev;
+    }
+}
