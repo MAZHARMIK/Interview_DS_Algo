@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 2-Pass solution - https://www.youtube.com/watch?v=JIlQvhrKuAk
-                                  1-Pass solution - 
+                                  1-Pass solution - https://www.youtube.com/watch?v=Xm8jIjAK_Zs
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
 */
