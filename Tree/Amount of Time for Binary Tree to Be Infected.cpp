@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=JIlQvhrKuAk
     Company Tags                :
     Leetcode Link               : https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
 */
