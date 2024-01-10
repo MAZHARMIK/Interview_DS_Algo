@@ -372,5 +372,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Element%20Appearing%20More%20Than%2025%25%20In%20Sorted%20Array.cpp"> Element Appearing More Than 25% In Sorted Array (Leetcode-1287)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Longest%20subarray%20with%20sum%20divisible%20by%20K.cpp"> Longest subarray with sum divisible by K (GFG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
