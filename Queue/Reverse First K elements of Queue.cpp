@@ -52,28 +52,28 @@ import java.util.Vector; // Replaced ArrayList with Vector
 class GfG {
     // Function to reverse first k elements of a queue.
     public Queue<Integer> modifyQueue(Queue<Integer> q, int k) {
-        Queue<Integer> queue = new LinkedList<>();
-        Vector<Integer> vec = new Vector<>(); // Replaced ArrayList with Vector
-        int i = 0;
-        int count = 0;
-
-        while (count != k) {
+        Vector<Integer> vec = new Vector<>();
+        
+        int remaining = q.size() - k;
+        
+        while(k > 0) {
             vec.add(q.peek());
             q.remove();
-            count++;
+            k--;
         }
-
+        
         Collections.reverse(vec);
-
-        while (!q.isEmpty()) {
-            vec.add(q.peek());
+        
+        for(int i = 0; i < vec.size(); i++) {
+            q.add(vec.get(i));
+        }
+        
+        while(remaining > 0) {
+            q.add(q.peek());
             q.remove();
+            remaining--;
         }
-
-        for (i = 0; i < vec.size(); i++) {
-            queue.add(vec.get(i));
-        }
-
-        return queue;
+        
+        return q;
     }
 }
