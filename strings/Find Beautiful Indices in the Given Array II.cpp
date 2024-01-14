@@ -1,3 +1,10 @@
+/*
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=7Sm0o5lMmfY
+    Company Tags                : will soon update
+    Leetcode Link               : https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii
+*/
+
+
 //------ EXACTLY SAME CODE Find Beautiful Indices in the Given Array I ------
 /************************************************************************ C++ *****************************************************************************/
 //T.C : O((m+n) + nlogn) --> O(m+n) for KMP, O(nlogn) for iterating over indices and searching in set
