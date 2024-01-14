@@ -31,9 +31,6 @@ public:
     }
     
     long long findMaximumNumber(long long k, int x) {
-        ll left  = 1; 
-        ll right = 1e15;
-      
         int num = 1;
         int sum = 0;
         
@@ -148,9 +145,6 @@ public class Solution {
     }
 
     public static long findMaximumNumber(long k, int x) {
-        LL left = new LL(1);
-        LL right = new LL((long) 1e15);
-
         int num = 1;
         int sum = 0;
 
