@@ -252,5 +252,15 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Number%20of%20Laser%20Beams%20in%20a%20Bank.cpp"> Number of Laser Beams in a Bank (Leetcode-2125)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20Beautiful%20Indices%20in%20the%20Given%20Array%20I.cpp"> Find Beautiful Indices in the Given Array I (Leetcode-3006)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20Beautiful%20Indices%20in%20the%20Given%20Array%20II.cpp"> Find Beautiful Indices in the Given Array II (Leetcode-3008)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
