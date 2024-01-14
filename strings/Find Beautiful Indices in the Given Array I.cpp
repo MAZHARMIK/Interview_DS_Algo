@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=7Sm0o5lMmfY
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i
 */
