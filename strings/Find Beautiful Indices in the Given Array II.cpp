@@ -180,8 +180,6 @@ public class Solution {
         List<Integer> i_indices = KMP_codestorywithMIK(a, s);
         List<Integer> j_indices = KMP_codestorywithMIK(b, s);
 
-        Set<Integer> st = new HashSet<>(j_indices); // for efficient search. Storing in set
-
         List<Integer> result = new ArrayList<>();
 
         for (int i : i_indices) {
