@@ -75,9 +75,7 @@ public:
             Just simply find the indices where a is present in s
             Just simply find the indices where b is present in s
         */
-        
-        set<int> st(begin(j_indices), end(j_indices)); //for efficient search. Storing in set
-        
+    
         vector<int> result;
         
         for(int &i : i_indices) {
@@ -89,9 +87,9 @@ public:
             int left_limit  = max(0, i - k);   //To avoid out of bound -> I used max(0, i-k)
             int right_limit = min(n-1, i + k); //To avoid out of bound -> I used min(n-1, i+k)
             
-            auto it = st.lower_bound(left_limit);
+            auto it = lower_bound(begin(j_indices), end(j_indices), left_limit);
             
-            if(it != st.end() && *it <= right_limit) {
+            if(it != j_indices.end() && *it <= right_limit) {
                 result.push_back(i);
             }
         }
