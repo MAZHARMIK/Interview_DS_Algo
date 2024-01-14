@@ -160,7 +160,25 @@ public class Solution {
 
         return result;
     }
+    
+    // Function to find the lower_bound of an element in a sorted list
+    private int lowerBound(List<Integer> list, int target) {
+        int left = 0, right = list.size() - 1, result = list.size();
 
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (list.get(mid) >= target) {
+                result = mid;
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        return result;
+    }
+    
     public List<Integer> beautifulIndices(String s, String a, String b, int k) {
         int n = s.length();
 
@@ -180,7 +198,9 @@ public class Solution {
             int left_limit = Math.max(0, i - k); // To avoid out of bound -> I used max(0, i-k)
             int right_limit = Math.min(n - 1, i + k); // To avoid out of bound -> I used min(n-1, i+k)
 
-            if (st.stream().anyMatch(j -> j >= left_limit && j <= right_limit)) {
+            int lowerBoundIndex = lowerBound(j_indices, left_limit);
+
+            if (lowerBoundIndex < j_indices.size() && j_indices.get(lowerBoundIndex) <= right_limit) {
                 result.add(i);
             }
         }
