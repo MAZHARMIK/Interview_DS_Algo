@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=bXptmD2qWYI
-    Company Tags                : Google
+    Company Tags                : Google, Indeed
     Leetcode Link               : https://leetcode.com/problems/find-players-with-zero-or-one-losses/
 */
 
