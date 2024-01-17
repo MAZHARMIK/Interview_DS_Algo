@@ -58,6 +58,34 @@ public:
 };
 
 
+//Approach-3 (Improvement on Approach-2)
+//T.C : O(n)
+//S.C : O(1)
+class Solution {
+public:
+    bool uniqueOccurrences(vector<int>& arr) {
+        vector<int> vec(2001, 0);
+        
+        for(int &x : arr) {
+            vec[x + 1000]++;
+        }
+        
+        for(int i = 1; i<2001; i++) {
+            if(vec[i] == 0) continue;
+
+            int idx = abs(vec[i]);
+            
+            if (vec[idx] < 0) {
+                return false;
+            }
+
+            vec[idx] = -1;
+        }
+        
+        
+        return true;
+    }
+};
 
 /****************************************************************************** JAVA ******************************************************************************/
 //Approach-1 (Simple using hash map and set)
@@ -103,6 +131,34 @@ public class Solution {
             if (vec[i] != 0 && vec[i] == vec[i - 1]) {
                 return false;
             }
+        }
+
+        return true;
+    }
+}
+
+
+//Approach-3 (Improvement on Approach-2)
+//T.C : O(n)
+//S.C : O(1)
+public class Solution {
+    public boolean uniqueOccurrences(int[] arr) {
+        int[] vec = new int[2001];
+
+        for (int x : arr) {
+            vec[x + 1000]++;
+        }
+
+        for (int i = 0; i < 2001; i++) {
+            if(vec[i] == 0) continue;
+
+            int idx = Math.abs(vec[i]);
+            
+            if (vec[idx] < 0) {
+                return false;
+            }
+
+            vec[idx] = -1;
         }
 
         return true;
