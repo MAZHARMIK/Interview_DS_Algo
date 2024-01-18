@@ -49,7 +49,7 @@ public:
 
 
 //Approach-2
-//T.C : O(log(k) * log(num)) - TLE
+//T.C : O(log(k) * log(num)) - Accepted
 //S.C : O(1)
 class Solution {
 public:
@@ -165,7 +165,7 @@ public class Solution {
 
 
 //Approach-2
-//T.C : O(log(k) * log(num)) - TLE
+//T.C : O(log(k) * log(num)) - ACCEPTED
 //S.C : O(1)
 public class Solution {
     // Define a long long type in Java
