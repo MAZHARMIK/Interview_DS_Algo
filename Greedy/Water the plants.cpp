@@ -28,24 +28,25 @@ class Solution{
         
         int count    = 0;
         int i        = 0;
-        int start    = 0;
+        int target   = 0;
         
-        while(start < n) {
+        while(target < n) {
             
             int maxEnd = -1;
             while(i < vec.size()) {
-                if(vec[i].first > start)
+                if(vec[i].first > target)
                     break;
+                
                 maxEnd = max(maxEnd, vec[i].second);
                 i++;
             }
             
-            if(maxEnd < start) {
+            if(maxEnd < target) {
                 return -1;
             }
             
             count++;
-            start = maxEnd + 1;
+            target = maxEnd + 1;
         }
         
         return count;
@@ -80,23 +81,23 @@ class Solution
 
         int count = 0;
         int i = 0;
-        int start = 0;
+        int target = 0;
 
-        while (start < n) {
+        while (target < n) {
             int maxEnd = -1;
             while (i < sprinklers.length) {
-                if (sprinklers[i][0] > start)
+                if (sprinklers[i][0] > target)
                     break;
                 maxEnd = Math.max(maxEnd, sprinklers[i][1]);
                 i++;
             }
 
-            if (maxEnd < start) {
+            if (maxEnd < target) {
                 return -1;
             }
 
             count++;
-            start = maxEnd + 1;
+            target = maxEnd + 1;
         }
 
         return count;
