@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=_twHfnNwTwE
     Company Tags                : Microsoft
     GfG Link                    : https://www.geeksforgeeks.org/problems/water-the-plants--170646/1
     Similar Leetcode Link       : https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/
