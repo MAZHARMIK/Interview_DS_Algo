@@ -219,5 +219,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20Operations%20to%20Make%20Array%20Empty.cpp"> Minimum Number of Operations to Make Array Empty (Leetcode-2870)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Water%20the%20plants.cpp"> Water the plants (GFG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
