@@ -31,7 +31,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Top%20k%20numbers%20in%20a%20stream">Top k numbers in a stream</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Top%20k%20numbers%20in%20a%20stream.cpp">Top k numbers in a stream</a>
 				</td>
 			</tr>
 			<tr>
