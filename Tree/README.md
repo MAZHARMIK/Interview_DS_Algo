@@ -421,7 +421,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Distribute%20candies%20in%20a%20binary%20tree.cpp"> Tree/Distribute candies in a binary tree (GfG)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Distribute%20candies%20in%20a%20binary%20tree.cpp"> Distribute candies in a binary tree (GfG)</a>
 				</td>
 			</tr>
 		</tbody>
