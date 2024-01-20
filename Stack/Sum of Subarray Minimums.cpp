@@ -4,7 +4,32 @@
     Leetcode Link               : https://leetcode.com/problems/sum-of-subarray-minimums/
 */
 
-/*
+
+/****************************************************************** C++ ******************************************************************/
+//Approach-1 (Simple Brute Force) - TLE
+//T.C : O(n^2)
+//S.C : O(1)
+class Solution {
+public:
+    int M = 1e9 + 7;
+    int sumSubarrayMins(std::vector<int>& arr) {
+        int n = arr.size();
+        long result = 0;
+
+        for (int i = 0; i < n; i++) {
+            int minVal = arr[i];
+
+            for (int j = i; j < n; j++) {
+                minVal = min(minVal, arr[j]);
+                result = (result + minVal) % M;
+            }
+        }
+
+        return result;
+    }
+};
+
+
     
 /*
     First see the code and video to understand, then read this paragraph.
@@ -28,7 +53,7 @@ So that means NLE of A[m1] is A[m2]. This means [r1, r3] is only counted once.
 */
 */
 
-/****************************************************************** C++ ******************************************************************/
+//Approach-2
 //T.C : O(n)
 //S.C : O(n)
 typedef unsigned long long ll;
@@ -111,6 +136,31 @@ public:
 
 
 /****************************************************************** JAVA ******************************************************************/
+//Approach-1 (Simple Brute Force) - TLE
+//T.C : O(n^2)
+//S.C : O(1)
+class Solution {
+    final int M = 1000000007;
+
+    public int sumSubarrayMins(int[] arr) {
+        int n = arr.length;
+        long result = 0;
+
+        for (int i = 0; i < n; i++) {
+            int minVal = arr[i];
+
+            for (int j = i; j < n; j++) {
+                minVal = Math.min(minVal, arr[j]);
+                result = (result + minVal) % M;
+            }
+        }
+
+        return (int) result;
+    }
+}
+
+
+//Approach-2
 //T.C : O(n)
 //S.C : O(n)
 public class Solution {
