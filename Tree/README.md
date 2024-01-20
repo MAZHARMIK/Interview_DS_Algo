@@ -419,5 +419,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected.cpp"> Amount of Time for Binary Tree to Be Infected (Leetcode-2385)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Distribute%20candies%20in%20a%20binary%20tree.cpp"> Tree/Distribute candies in a binary tree (GfG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
