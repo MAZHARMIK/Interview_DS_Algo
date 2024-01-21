@@ -119,5 +119,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Redistribute%20Characters%20to%20Make%20All%20Strings%20Equal.cpp"> Redistribute Characters to Make All Strings Equal (Leetcode-1897)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I.cpp"> Minimum Number of Pushes to Type Word I (Leetcode-3014)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
