@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=fX6sHghLCow
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/
 */
