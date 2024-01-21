@@ -7,7 +7,7 @@
 
 /******************************************************************** C++ ********************************************************************/
 //Approach-1 (Using Map and doing as asked in Problem)
-//T.C : O(n)
+//T.C : O(n) + O(26log26) for sorting = O(n)
 //S.C : O(n)
 class Solution {
 public:
@@ -37,7 +37,7 @@ public:
 };
 
 //Approach-2 (Simplifying Approach-1 above)
-//T.C : O(n)
+//T.C : O(n) + O(26log26) for sorting = O(n)
 //S.C : O(1)
 class Solution {
 public:
@@ -62,7 +62,7 @@ public:
 
 /******************************************************************** JAVA ********************************************************************/
 //Approach-1 (Using Map and doing as asked in Problem)
-//T.C : O(n)
+//T.C : O(n) + O(26log26) for sorting = O(n)
 //S.C : O(n)
 /*************** JAVA ***************/
 public class Solution {
@@ -91,7 +91,7 @@ public class Solution {
 }
 
 //Approach-2 (Simplifying Approach-1 above)
-//T.C : O(n)
+//T.C : O(n) + O(26log26) for sorting = O(n)
 //S.C : O(1)
 public class Solution {
     public int minimumPushes(String word) {
