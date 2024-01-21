@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=fX6sHghLCow
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/
 */
@@ -72,7 +72,7 @@ public class Solution {
         }
 
         int count = 0;
-		//You can use an array of size 10 also and use index 2 to 9
+	//You can use an array of size 10 also and use index 2 to 9
         Map<Integer, Integer> mp = new HashMap<>();
 
         int assign = 2;
