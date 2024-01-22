@@ -424,5 +424,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Distribute%20candies%20in%20a%20binary%20tree.cpp"> Distribute candies in a binary tree (GfG)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Paths%20from%20root%20with%20a%20specified%20sum.cpp"> Paths from root with a specified sum (GfG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
