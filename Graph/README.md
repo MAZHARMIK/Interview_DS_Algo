@@ -310,5 +310,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Bus%20Routes.cpp"> Bus Routes (Leetcode : 815) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Vertex%20Cover.cpp"> Vertex Cover (GfG) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
