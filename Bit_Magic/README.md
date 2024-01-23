@@ -123,5 +123,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20Number%20That%20Sum%20of%20the%20Prices%20Is%20Less%20Than%20or%20Equal%20to%20K.cpp"> Maximum Number That Sum of the Prices Is Less Than or Equal to K (Leetcode - 3007)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.cpp"> Maximum Length of a Concatenated String with Unique Characters (Leetcode - 1239)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
