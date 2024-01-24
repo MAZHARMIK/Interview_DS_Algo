@@ -41,7 +41,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Trapping%20Rain%20Water%20(using%20stack)">Trapping Rain Water (using stack) (Leetcode - 42)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Trapping%20Rain%20Water%20(using%20stack).cpp">Trapping Rain Water (using stack) (Leetcode - 42)</a>
 				</td>
 			</tr>
 			<tr>
