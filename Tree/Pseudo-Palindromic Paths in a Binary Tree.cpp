@@ -1,6 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn  : 
-    Company Tags                 : NIL (Please let me know if you get it :-) )
+    MY YOUTUBE VIDEO ON THIS Qn  : https://www.youtube.com/watch?v=FK-Fztwj2gM
+    Company Tags                 : will update soon
     Leetcode Link                : https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 */
 
