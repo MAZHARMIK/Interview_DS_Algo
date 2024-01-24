@@ -251,7 +251,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree">Pseudo-Palindromic Paths in a Binary Tree (Leetcode-1457)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree.cpp">Pseudo-Palindromic Paths in a Binary Tree (Leetcode-1457)</a>
 				</td>
 			</tr>
 			<tr>
