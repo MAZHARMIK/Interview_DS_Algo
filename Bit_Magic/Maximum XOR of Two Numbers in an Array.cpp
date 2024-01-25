@@ -35,6 +35,7 @@ public:
     int maxXor(trieNode* head, int &num) {
         int maxXor = 0;
         trieNode* pCrawl = head;
+        //I am moving from left most bit(MSB) to right most(LSB) to get max answer so as to get set bit 1 in left most position (MSB) to get large decimal value
         for(int i = 31; i>=0; i--) {
             int ith_bit = (num>>i)&1;
             //I want maximum one in my result of xor
@@ -105,6 +106,7 @@ public class Solution {
     public int maxXor(TrieNode head, int num) {
         int maxXor = 0;
         TrieNode pCrawl = head;
+        //I am moving from left most bit(MSB) to right most(LSB) to get max answer so as to get set bit 1 in left most position (MSB) to get large decimal value
         for (int i = 31; i >= 0; i--) {
             int ithBit = (num >> i) & 1;
             if (ithBit == 1) {
