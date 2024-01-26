@@ -60,6 +60,7 @@ public:
     int findPaths(int m, int n, int maxMove, int startRow, int startColumn) {
 
         int dp[50][50][51];
+        //dp[i][j][k] = the number of possible moves leading to a path out of the boundary if the current position is [i][j] and number of moves left is k.
         memset(dp, 0, sizeof(dp));
 
         for (int k = 1; k <= maxMove; ++k) {
@@ -184,6 +185,7 @@ class Solution {
     public int findPaths(int m, int n, int maxMove, int startRow, int startColumn) {
         
         int[][][] dp = new int[m][n][maxMove + 1];
+        //dp[i][j][k] = the number of possible moves leading to a path out of the boundary if the current position is [i][j] and number of moves left is k.
         
         for (int k = 1; k <= maxMove; ++k) {
             for (int i = 0; i < m; ++i) {
