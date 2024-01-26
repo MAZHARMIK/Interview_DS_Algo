@@ -86,8 +86,8 @@ public:
 };
 
 
-//Approach-3 (Space and time optimized bottom up)
-//T.C : O(m * n)
+//Approach-3 (Space optimized bottom up)
+//T.C : O(m * n * maxMove)
 //S.C : O(m * n)
 class Solution {
 public:
@@ -207,8 +207,8 @@ class Solution {
 }
 
 
-//Approach-3 (Space and time optimized bottom up)
-//T.C : O(m * n)
+//Approach-3 (Space optimized bottom up)
+//T.C : O(m * n * maxMove)
 //S.C : O(m * n)
 public class Solution {
     int MOD = 1000000007;
