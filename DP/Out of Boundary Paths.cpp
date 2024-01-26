@@ -1,6 +1,6 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : Baidu
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=YH-ZG0q--DQ
+    Company Tags                : Baidu, Amazon
     Leetcode Link               : https://leetcode.com/problems/out-of-boundary-paths/
 */
 
