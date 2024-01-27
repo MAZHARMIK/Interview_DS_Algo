@@ -65,7 +65,6 @@ public:
         return t[n][k];
     }
 };
-```
 
 //Approach-3 (Improving on Approach-1 above) - DP with cumulative sum approach
 //Time : O(n*k)
@@ -73,28 +72,33 @@ public:
 //Read the comment below how people got this idea
 class Solution {
 public:
-    const int M = 1e9+7;
+    int M = 1e9+7;
+
     int kInversePairs(int n, int k) {
         vector<vector<int>> t(n+1, vector<int>(k+1));
-        t[0][0] = 1;
-	    
-        for(int i = 1; i<=n; i++) {
-            long long cumSum = 0;
-            for(int j = 0; j<=k; j++) {
-                if(j == 0) {
-                    t[i][j] = 1;
-                    cumSum += 1;
+        //t[i][j] = total number of arrays having (1 to i) and exactly j inversions
+
+        //for j = 0, t[i][0] = 1
+        for(int i = 0; i <= n; i++) {
+            t[i][0] = 1;
+        }
+
+        //O(n*k)
+        for(int i = 1; i <= n; i++) {
+            long long cumSum = 1;
+            for(int j = 1; j <= k; j++) {
+                
+                cumSum += t[i-1][j];
+                if(j >= i) {
+                    cumSum -= t[i-1][j-i];
                 }
-                else {
-                    cumSum += t[i-1][j];
-                    if(j-i >= 0)
-                        cumSum -= t[i-1][j-i];
-                    t[i][j] = cumSum % M;
-                }
+                t[i][j] = cumSum % M;
             }
         }
-        
+
+
         return t[n][k];
+
     }
 };
 
@@ -162,5 +166,96 @@ public:
 
 
 /*************************************************************** JAVA ***************************************************************/
-//Will update in a moment
+//Approach-1 (Reucr+Memo)
+//T.C  : O(n*k*n)
+//S.C  : O(n*k) for memo + Recursion call stack
+public class Solution {
+    final int M = 1000000007;
+    int[][] t = new int[1001][1001];
 
+    public int solve(int n, int k) {
+        if (n == 0)
+            return 0;
+
+        if (k == 0)
+            return 1;
+
+        if (t[n][k] != -1)
+            return t[n][k];
+
+        int totalInversions = 0;
+
+        // In an array of length n, we can't create inversions more than (n-1) -> min(n-1, k)
+        for (int i = 0; i <= Math.min(n - 1, k); i++) {
+            totalInversions = (int) ((totalInversions % M + kInversePairs(n - 1, k - i) % M) % M);
+        }
+
+        return t[n][k] = totalInversions;
+    }
+
+    public int kInversePairs(int n, int k) {
+        for (int i = 0; i < t.length; i++) {
+            Arrays.fill(t[i], -1);
+        }
+        return solve(n, k);
+    }
+}
+
+//Approach-2 (Bottom UP derived from Approach-1)
+//T.C  : O(n*k*n)
+//S.C  : O(n*k) for memo + Recursion call stack
+public class Solution {
+    final int M = 1000000007;
+
+    public int kInversePairs(int n, int k) {
+        int[][] t = new int[n + 1][k + 1];
+
+        for (int i = 0; i < n + 1; i++) {
+            t[i][0] = 1;
+        }
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= k; j++) {
+                for (int inv = 0; inv <= Math.min(i - 1, j); inv++) {
+                    t[i][j] = (int) ((t[i][j] + t[i - 1][j - inv]) % M);
+                }
+            }
+        }
+        return t[n][k];
+    }
+}
+
+
+//Approach-3 (Improving on Approach-1 above) - DP with cumulative sum approach
+//Time : O(n*k)
+//S.C : O(n*k)
+//Read the comment below how people got this idea
+public class Solution {
+    int M = 1000000007;
+
+    public int kInversePairs(int n, int k) {
+        int[][] t = new int[n + 1][k + 1];
+
+        // t[i][j] = total number of arrays having (1 to i) and exactly j inversions
+
+        // for j = 0, t[i][0] = 1
+        for (int i = 0; i <= n; i++) {
+            t[i][0] = 1;
+        }
+
+        // O(n*k)
+        for (int i = 1; i <= n; i++) {
+            long cumSum = 1;
+            for (int j = 1; j <= k; j++) {
+
+                cumSum += t[i - 1][j];
+                if (j >= i) {
+                    cumSum -= t[i - 1][j - i];
+                }
+                t[i][j] = (int) (cumSum % M);
+            }
+        }
+
+        return t[n][k];
+    }
+}
