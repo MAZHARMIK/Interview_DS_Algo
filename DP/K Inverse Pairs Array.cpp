@@ -1,6 +1,6 @@
        						//SCROLL DOWN TO SEE JAVA CODE ALSO
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=y9yo1kyW7Bg
     Company Tags 	        : Google
     Leetcode Link 		: https://leetcode.com/problems/k-inverse-pairs-array/
 */
