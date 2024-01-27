@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags 	        : Will update soon
+    Company Tags 	        : Google
     Leetcode Link 		: https://leetcode.com/problems/k-inverse-pairs-array/
 */
 
