@@ -1,53 +1,65 @@
 /*
-    Company Tags  : Not known yet. Few people claimed it to be Google's but I am not sure. 
-    Leetcode Link : https://leetcode.com/problems/k-inverse-pairs-array/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags 	        : Will update soon
+    Leetcode Link 		: https://leetcode.com/problems/k-inverse-pairs-array/
 */
 
-//Approach-1 (Reucr+Memo) Time : O(n*k*n)
+/*************************************************************** C++ ***************************************************************/
+//Approach-1 (Reucr+Memo)
+//T.C  : O(n*k*n)
+//S.C  : O(n*k) for memo + Recursion call stack
 class Solution {
 public:
     const int M = 1e9+7;
-    int t[1001][1001] = {};
-    int kInversePairs(int n, int k) {
+    int t[1001][1001];
+    int solve(int n, int k) {
         if(n == 0)
             return 0;
         
         if(k == 0)
             return 1;
         
-        if(t[n][k] != 0)
+        if(t[n][k] != -1)
             return t[n][k];
+
         int totalInversions = 0;
         
-        for(int i = 0; i<= min(n-1, k); i++) {
-            totalInversions = (totalInversions + kInversePairs(n-1, k-i))%M;
+        //In an array of length n, We can't create inversions more than (n-1) -> min(n-1, k)
+        for(int i = 0; i <= min(n-1, k); i++) {
+            totalInversions = (totalInversions%M + kInversePairs(n-1, k-i)%M)%M;
         }
         
         return t[n][k] = totalInversions;
     }
+
+    int kInversePairs(int n, int k) {
+        memset(t, -1, sizeof(t));
+        return solve(n, k);
+    }
 };
-```
 
 
-```
-//Approach-2 (Bottom UP derived from Approach-1) : Time : O(n*k*n)
+//Approach-2 (Bottom UP derived from Approach-1)
+//T.C  : O(n*k*n)
+//S.C  : O(n*k) for memo + Recursion call stack
 class Solution {
 public:
     const int M = 1e9+7;
     int kInversePairs(int n, int k) {
         vector<vector<int>> t(n+1, vector<int>(k+1));
-        t[0][0] = 1;
+
+        for(int i = 0; i < n+1; i++) {
+            t[i][0] = 1;
+        }
+
         for(int i = 1; i<=n; i++) {
             
-            for(int j = 0; j<=k; j++) {
-                if(j == 0) {
-                    t[i][j] = 1;
+            for(int j = 1; j <= k; j++) {
+
+                for(int inv = 0; inv <= min(i-1, j); inv++) {
+                    t[i][j] = (t[i][j] + t[i-1][j-inv])%M;
                 }
-                else {
-                    for(int p = 0; p<=min(i-1, j); p++) {
-                        t[i][j] = (t[i][j] + t[i-1][j-p])%M;
-                    }
-                }
+
             }
         }
         return t[n][k];
@@ -55,8 +67,9 @@ public:
 };
 ```
 
-```
-//DP with cumulative sum approach (using approach-2 above) Time : O(n*k)
+//Approach-3 (Improving on Approach-1 above) - DP with cumulative sum approach
+//Time : O(n*k)
+//S.C : O(n*k)
 //Read the comment below how people got this idea
 class Solution {
 public:
@@ -64,6 +77,7 @@ public:
     int kInversePairs(int n, int k) {
         vector<vector<int>> t(n+1, vector<int>(k+1));
         t[0][0] = 1;
+	    
         for(int i = 1; i<=n; i++) {
             long long cumSum = 0;
             for(int j = 0; j<=k; j++) {
@@ -75,16 +89,9 @@ public:
                     cumSum += t[i-1][j];
                     if(j-i >= 0)
                         cumSum -= t[i-1][j-i];
-                    t[i][j] = cumSum%M;
+                    t[i][j] = cumSum % M;
                 }
             }
-        }
-        
-        for(int i = 0; i<n+1; i++) {
-            for(int j = 0; j<k+1; j++) {
-                cout << t[i][j] << "   ";
-            }
-            cout << endl;
         }
         
         return t[n][k];
@@ -109,11 +116,11 @@ public:
             
             row is shown by i
             col is shown by j
-            If you notice te DP table of Bottom up approach, you will notice that
+            If you notice the DP table of Bottom up approach, you will notice that
             t[i][j] = sum of elements of previous row (i-1) starting from that column (j) till 0
             
             Example : Let's fill up the last row of our dp table shown above.
-            i.e. we will be filling i = 5, from j = 0 t0 j = 5
+            i.e. we will be filling i = 5, from j = 0 to j = 5
             Now,
             for j = 0, t[i][j] = t[i][0] = 1 (since for K = 0, we have only 1 arrangement), so cumulativeSum = 1
             for j = 1, i.e. t[i][j] = t[i-1][1] + t[i-1][0] (Instead of adding this, we store the previous sum in cumulaiveSum)
@@ -138,6 +145,22 @@ public:
             So, t[5][5] = 22
 			
 			Try to print the DP table for bigger n and k to see what has been explained above.
+
+
+   	Another example : n = 5, k = 7 (See last row)
+    
+        1   0   0   0    0    0    0    0   
+	1   0   0   0    0    0    0    0   
+	1   1   0   0    0    0    0    0   
+	1   2   2   1    0    0    0    0   
+	1   3   5   6    5    3    1    0   
+	1   4   9   15   20   22   20   15   
     
 */
 ```
+
+
+
+/*************************************************************** JAVA ***************************************************************/
+//Will update in a moment
+
