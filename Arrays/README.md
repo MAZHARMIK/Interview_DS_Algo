@@ -54,7 +54,7 @@
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Subarray%20Sum%20Equals%20K%20(O(n))">Subarray Sum Equals K (Leetcode-560)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Subarray%20Sum%20Equals%20K%20(O(n)).cpp">Subarray Sum Equals K (Leetcode-560)</a>
 				</td>
 			</tr>
 			<tr>
