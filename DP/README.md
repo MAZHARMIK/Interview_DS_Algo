@@ -656,5 +656,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20possible%20ways%20to%20construct%20buildings.cpp"> Count possible ways to construct buildings (GfG)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20digit%20groupings%20of%20a%20number.cpp"> Count digit groupings of a number (GfG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
