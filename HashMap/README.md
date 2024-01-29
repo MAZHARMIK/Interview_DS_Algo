@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II.cpp"> Minimum Number of Pushes to Type Word II (Leetcode-3016)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Find%20the%20Maximum%20Number%20of%20Elements%20in%20Subset.cpp"> Find the Maximum Number of Elements in Subset (Leetcode-3020)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
