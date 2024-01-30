@@ -7,51 +7,51 @@
 /*************************************************************** C++ ***************************************************************/
 //T.C : O(n*logn(n))
 //S.C : O(n)
-public class Solution {
-    public int maximumLength(int[] nums) {
-        long result = 0;
-
-        Map<Integer, Integer> mp = new HashMap<>();
+class Solution {
+public:
+    int maximumLength(vector<int>& nums) {
+        long long result = 0;
         
-        // Why ordered map?
-        // We want to start from smallest to largest
-        // Example: [14,14,196,196,38416,38416]
-        for (int num : nums)
-            mp.put(num, mp.getOrDefault(num, 0) + 1);
+        map<int, int> mp;
+        //Why ordered map ?
+        //We want to start from smallest to largest
+        //Example : [14,14,196,196,38416,38416]
+        
+        for(auto &num: nums)
+            mp[num]++;
+        
+        for(auto &it : mp) {
 
-        for (Map.Entry<Integer, Integer> entry : mp.entrySet()) {
-            int val = entry.getKey();
-            int freq = entry.getValue();
-
-            long length = 0;
-
-            // Handling 1 separately because its square will be 1 only
-            // example: [1,1,1,1,1,1,1,1,1,1,2,4,8,16,32,64,128,256,512,1024]
-            if (val == 1) {
+            long long val  = it.first;
+            long long freq = it.second;
+            
+            long long length = 0;
+            //Handling 1 separately because its square will be 1 only
+            //example : [1,1,1,1,1,1,1,1,1,1,2,4,8,16,32,64,128,256,512,1024]
+            if(val == 1) { 
                 length += freq;
-                mp.put(val, 0);
-            }
-
-            while (val <= 1e9 && mp.get(val) > 0) {
+                mp[val] = 0; 
+            } 
+            
+            while(val <= 1e9 && mp[val] > 0){
                 length += 2;
-
-                if (mp.get(val) == 1) // We need at least 2
-                    break;
-
-                mp.put(val, 0); // set to zero, so that we do not check for this sequence again
-
+                
+                if(mp[val] == 1) //We need atleast 2
+                    break; 
+                
+                mp[val] = 0;    // set to zero, so that we do not check for this sequence again
+                
                 val = val * val;
             }
-
-            if (length % 2 == 0) // Series length will be odd example: {2, 4, 2}, {2, 4, 16, 4, 2}
+            
+            if(length % 2 == 0) //Series length will be odd example : {2, 4, 2}, {2, 4, 16, 4, 2}
                 length--;
-
-            result = Math.max(result, length);
+            
+            result = max(result, length);
         }
-        return (int) result;
+        return result;
     }
-}
-
+};
 
 /*************************************************************** JAVA ***************************************************************/
 //T.C : O(n*logn(n))
