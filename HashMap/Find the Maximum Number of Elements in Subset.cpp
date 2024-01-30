@@ -31,6 +31,10 @@ public:
             if(val == 1) { 
                 length += freq;
                 mp[val] = 0; 
+                if(length % 2 == 0)
+                    length--;
+                result = max(result, length);
+                continue;
             } 
             
             while(val <= 1e9 && mp[val] > 0){
@@ -44,8 +48,8 @@ public:
                 val = val * val;
             }
             
-            if(length % 2 == 0) //Series length will be odd example : {2, 4, 2}, {2, 4, 16, 4, 2}
-                length--;
+            //Series length will be odd example : {2, 4, 2}, {2, 4, 16, 4, 2}
+            length--;
             
             result = max(result, length);
         }
