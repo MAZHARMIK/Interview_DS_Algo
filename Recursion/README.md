@@ -16,7 +16,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Tower%20of%20Hanoi">Tower of Hanoi</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Tower%20of%20Hanoi.cpp">Tower of Hanoi</a>
 				</td>
 			</tr>
 			<tr>
