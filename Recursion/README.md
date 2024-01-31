@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Construct%20String%20from%20Binary%20Tree.cpp"> Construct String from Binary Tree (Leetcode-606)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Reverse%20a%20Stack.cpp"> Reverse a Stack (GFG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
