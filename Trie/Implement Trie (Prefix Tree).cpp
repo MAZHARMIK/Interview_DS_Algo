@@ -6,6 +6,10 @@
 
 
 /**************************************************** C++ ****************************************************/
+/*
+the time complexity for insertion, search, and prefix search is O(L), and the space complexity is O(N), 
+where L is the length of words or prefixes and N is the total number of characters in all words.
+*/
 class Trie {
 public:
     
@@ -80,6 +84,10 @@ public:
 
 
 /**************************************************** JAVA ****************************************************/
+/*
+the time complexity for insertion, search, and prefix search is O(L), and the space complexity is O(N), 
+where L is the length of words or prefixes and N is the total number of characters in all words.
+*/
 class Trie {
     static class TrieNode {
         TrieNode[] children;
