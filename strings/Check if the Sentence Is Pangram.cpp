@@ -1,3 +1,4 @@
+/*                                                                  Scroll down to see JAVA code also                                                                 */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=rMM8Brb-lko
     Company Tags                : Zoho, Snapdeal
@@ -6,6 +7,8 @@
 */
 
 //Approach-1 (In 2 traversals)
+//T.C : O(n)
+//S.C : O(1)
 class Solution {
 public:
     bool checkIfPangram(string sentence) {
@@ -29,6 +32,8 @@ public:
 
 
 //Approach-2 (In 1 traversal)
+//T.C : O(n) (1 Traversal)
+//S.C : O(1)
 class Solution {
 public:
     bool checkIfPangram(string sentence) {
@@ -46,6 +51,53 @@ public:
         }
         
         
-        return conut==26;
+        return count==26;
     }
 };
+
+
+
+/************************************************************************ JAVA ***************************************************************************/
+//Approach-1 (In 2 traversals)
+//T.C : O(n)
+//S.C : O(1)
+public class Solution {
+    public boolean checkIfPangram(String sentence) {
+        int[] arr = new int[26];
+
+        for(char ch : sentence.toCharArray()) {
+            int index = ch - 'a';
+            arr[index]++;
+        }
+
+        for(int count : arr) {
+            if(count == 0)
+                return false;
+        }
+
+        return true;
+    }
+}
+
+
+//Approach-2 (In 1 traversal)
+//T.C : O(n) (1 Traversal)
+//S.C : O(1)
+public class Solution {
+    public boolean checkIfPangram(String sentence) {
+        int[] arr = new int[26];
+        
+        int count = 0;
+        
+        for(char ch : sentence.toCharArray()) {
+            int index = ch - 'a';
+            
+            if(arr[index] == 0) {
+                arr[index]++;
+                count++;
+            }
+        }
+        
+        return count == 26;
+    }
+}
