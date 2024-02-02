@@ -377,5 +377,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Longest%20subarray%20with%20sum%20divisible%20by%20K.cpp"> Longest subarray with sum divisible by K (GFG)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sequential%20Digits.cpp"> Sequential Digits (Leetcode-1291)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
