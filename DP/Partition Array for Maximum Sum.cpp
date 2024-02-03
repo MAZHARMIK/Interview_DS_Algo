@@ -1,7 +1,7 @@
 /*                                             Scroll below to see JAVA code also                                            */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=LvvIcZWtuoY
+    Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/partition-array-for-maximum-sum/
 */
 
