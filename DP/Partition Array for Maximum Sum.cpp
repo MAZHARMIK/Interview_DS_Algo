@@ -7,7 +7,7 @@
 /********************************************************** C++ ******************************************************************/
 //Approach-1 (Recursion + Memo)
 //T.C : With Memoization - O(n*k) -> We visit only n states in dp array and everytime run a for loop of size k
-//      Without Memoization - We have 2 options at each index - O(k * 2^n)
+//      Without Memoization - We have 2 options at each index - O(k^n) - Since the recursion tree has a branching factor of k, and the depth of the recursion tree is at most n
 //S.C : O(n)
 class Solution {
 public:
@@ -68,7 +68,7 @@ class Solution {
 /********************************************************** JAVA ******************************************************************/
 //Approach-1 (Recursion + Memo)
 //T.C : With Memoization - O(n*k) -> We visit only n states in dp array and everytime run a for loop of size k
-//      Without Memoization - We have 2 options at each index - O(k * 2^n)
+//      Without Memoization - We have 2 options at each index - O(k^n) - Since the recursion tree has a branching factor of k, and the depth of the recursion tree is at most n
 //S.C : O(n)
 class Solution {
     private int n;
