@@ -49,12 +49,12 @@ class Solution {
         int n = arr.length;
         int[] t = new int[n + 1];
         
-        //t[i] = Maximum sum for the partition arr[0 to i]
+        //t[i] = Maximum sum for the partition arr of size i
         //we need to find max for whole array = t[n]
-        for (int i = 0; i <= n; i++) {
+        for (int i = 1; i <= n; i++) { //size of array is = i
             int currMax = -1;
-            //Let's move back till k positions and find the best result
-            for (int j = 1; j <= k && i - j >= 0; j++) {
+            
+            for (int j = 1; j <= k && i - j >= 0; j++) { // I am taking subarray of size j
                 currMax = Math.max(currMax, arr[i - j]);
                 t[i] = Math.max(t[i], t[i - j] + currMax * j);
             }
@@ -111,12 +111,12 @@ class Solution {
         int n = arr.length;
         int[] t = new int[n + 1];
         
-        //t[i] = Maximum sum for the partition arr[0 to i]
+        //t[i] = Maximum sum for the partition arr of size i
         //we need to find max for whole array = t[n]
         for (int i = 0; i <= n; i++) {
             int currMax = -1;
-            //Let's move back till k positions and find the best result
-            for (int j = 1; j <= k && i - j >= 0; j++) {
+            
+            for (int j = 1; j <= k && i - j >= 0; j++) { // I am taking subarray of size j
                 currMax = Math.max(currMax, arr[i - j]);
                 t[i] = Math.max(t[i], t[i - j] + currMax * j);
             }
