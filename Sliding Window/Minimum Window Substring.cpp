@@ -44,3 +44,39 @@ public:
         return minWindow == INT_MAX ? "" : s.substr(minStart, minWindow);
     }
 };
+
+// Java code:
+class Solution {
+    public String minWindow(String s, String t) {
+        int n = s.length();
+        Map<Character, Integer> mp = new HashMap<>();
+        for(char ch : t.toCharArray()) {
+            mp.put(ch, mp.getOrDefault(ch, 0) + 1);
+        }
+        int requiredCount = t.length();
+        int i = 0, j = 0;
+        int minStart = 0;
+        int minWindow = Integer.MAX_VALUE;
+        while(j < n) {
+            char ch_j = s.charAt(j);
+            if(mp.getOrDefault(ch_j, 0) > 0)
+                requiredCount--;
+            mp.put(ch_j, mp.getOrDefault(ch_j, 0) - 1);
+            while(requiredCount == 0) {
+                if(minWindow > j - i + 1) {
+                    minWindow = j - i + 1;
+                    minStart = i;
+                }
+                char ch_i = s.charAt(i);
+                mp.put(ch_i, mp.get(ch_i) + 1);
+                if(mp.get(ch_i) > 0)
+                    requiredCount++;
+                i++;
+            }
+            j++;
+        }
+        return minWindow == Integer.MAX_VALUE ? "" : s.substring(minStart, minStart + minWindow);
+    }
+}
+
+
