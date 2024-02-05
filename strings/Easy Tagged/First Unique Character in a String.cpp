@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=vqLiP9cdDLA
     Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/first-unique-character-in-a-string/
 */
