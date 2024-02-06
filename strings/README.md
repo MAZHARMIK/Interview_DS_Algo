@@ -267,5 +267,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Time%20to%20Revert%20Word%20to%20Initial%20State%20I.cpp"> Minimum Time to Revert Word to Initial State I (Leetcode-3029)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Time%20to%20Revert%20Word%20to%20Initial%20State%20II.cpp"> Minimum Time to Revert Word to Initial State II (Leetcode-3031)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
