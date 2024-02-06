@@ -431,7 +431,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Node%20at%20distance.cpp"> Count the nodes at distance K from leaf (GfG)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Count%20the%20nodes%20at%20distance%20K%20from%20leaf.cpp"> Count the nodes at distance K from leaf (GfG)</a>
 				</td>
 			</tr>
 		</tbody>
