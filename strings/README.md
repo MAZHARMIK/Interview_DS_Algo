@@ -262,5 +262,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20Beautiful%20Indices%20in%20the%20Given%20Array%20II.cpp"> Find Beautiful Indices in the Given Array II (Leetcode-3008)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Time%20to%20Revert%20Word%20to%20Initial%20State%20I.cpp"> Minimum Time to Revert Word to Initial State I (Leetcode-3029)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
