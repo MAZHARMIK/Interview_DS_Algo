@@ -32,7 +32,7 @@ class Solution
                     i++;
                 } else {
                     if (len != 0) {
-                        len = lps[len - 1];
+                        len = lps[len - 1]; //You can also write, len = len-1;
                     } else {
                         lps[i] = 0;
                         i++;
@@ -130,7 +130,7 @@ class Solution {
                 i++;
             } else {
                 if (len != 0) {
-                    len = lps[len - 1];
+                    len = lps[len - 1]; //You can also write, len = len-1;
                 } else {
                     lps[i] = 0;
                     i++;
