@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=4lrczVkMYko
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/minimum-time-to-revert-word-to-initial-state-i
 */
