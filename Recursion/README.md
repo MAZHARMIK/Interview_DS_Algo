@@ -26,7 +26,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Game%20of%20Death%20in%20a%20circle%20(Josephus%20Problem)">Game of Death in a circle (Josephus Problem)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Game%20of%20Death%20in%20a%20circle%20(Josephus%20Problem).cpp">Game of Death in a circle (Josephus Problem)</a>
 				</td>
 			</tr>
 			<tr>
