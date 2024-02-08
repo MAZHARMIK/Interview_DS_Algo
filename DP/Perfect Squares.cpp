@@ -1,6 +1,7 @@
 /*                                     Scroll down to see JAVA code also                            */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Zbn8in7hpXY
+    MY YOUTUBE VIDEO ON THIS Qn : Recursion + Memo - https://www.youtube.com/watch?v=Zbn8in7hpXY
+                                  Bottom Up        - https://youtu.be/7zfmLa6vzaA?si=kMR0gkIw43-Tbn9m
     Company Tags                : Google, Salesforce, Microsoft, Meta, Amazon
     Frequency                   : 74%
     Leetcode Link               : https://leetcode.com/problems/perfect-squares/
