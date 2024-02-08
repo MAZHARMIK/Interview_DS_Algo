@@ -1,10 +1,12 @@
 /*
 	MY YOUTUBE VIDEO ON THIS Qn : 
     	Company Tags 		    : NIL
-    	Qn Link      		    : https://www.geeksforgeeks.org/problems/game-of-death-in-a-circle1840/1
+        Leetcode Link		    : https://leetcode.com/problems/find-the-winner-of-the-circular-game
+    	GFG Link      		    : https://www.geeksforgeeks.org/problems/game-of-death-in-a-circle1840/1
 */
 
 /*************************************************************** C++ ***************************************************************/
+//Approach-1 (Brute Force)
 //T.C : O(n^2)
 //S.C : O(n)
 class Solution {
@@ -33,6 +35,26 @@ class Solution {
 };
 
 
+//Approach-2 (Optimal)
+//T.C : O(n^2)
+//S.C : O(n)
+class Solution {
+public:
+
+    int solve(int n, int k) {
+        if(n == 1) {
+            return 0;
+        }
+
+        return (solve(n-1, k) + k)%n;
+    }
+
+    int findTheWinner(int n, int k) {
+        return solve(n, k)+1;
+    }
+};
+
+
 /*************************************************************** JAVA ***************************************************************/
 //T.C : O(n^2)
 //S.C : O(n)
@@ -57,5 +79,23 @@ class Solution {
         }
         solve(k - 1, arr, ans, 0);
         return ans[0];
+    }
+}
+
+
+//Approach-2 (Optimal)
+//T.C : O(n^2)
+//S.C : O(n)
+class Solution {
+    public int solve(int n, int k) {
+        if (n == 1) {
+            return 0;
+        }
+
+        return (solve(n - 1, k) + k) % n;
+    }
+
+    public int findTheWinner(int n, int k) {
+        return solve(n, k) + 1;
     }
 }
