@@ -39,5 +39,10 @@
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Maximum%20Balanced%20Subsequence%20Sum.cpp"> Maximum Balanced Subsequence Sum (Leetcode-2926)</a>
 			</td>
 		</tr>
+		<tr>
+        		<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Largest%20Divisible%20Subset.cpp"> Largest Divisible Subset (Leetcode-368)</a>
+			</td>
+		</tr>
 	</tbody>
 </table>
