@@ -55,7 +55,8 @@ public:
             
             if(adj.find(src) != adj.end()) {
                 unordered_set<string> visited;
-                
+                //Do not visit already visited nodes
+                if(visited.find(neighbour.first) == visited.end()) 
                 dfs(adj, src, dst, visited, product, ans);
                 
             }
