@@ -186,7 +186,7 @@ class Solution1 {
 // Approach-2 (Memoize the approach above)
 // T.C : O(n^2) - Every subproblem is being computed only once and after that, it's being reused
 // S.C : O(n^2)
-class Solution2 {
+class Solution {
     int[][] t;
 
     public boolean check(String s, int i, int j) {
@@ -199,10 +199,16 @@ class Solution2 {
         }
 
         if (s.charAt(i) == s.charAt(j)) {
-            return t[i][j] = check(s, i + 1, j - 1) ? 1 : 0;
+            boolean val = check(s, i+1, j-1);
+            if(val == true)
+                t[i][j] = 1;
+            else
+                t[i][j] = 0;
+            return val;
         }
 
-        return t[i][j] = 0;
+        t[i][j] = 0;
+        return false;
     }
 
     public int countSubstrings(String s) {
