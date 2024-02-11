@@ -74,8 +74,8 @@ public:
         t[0][0][n - 1] = (n == 1) ? grid[0][0] : grid[0][0] + grid[0][n - 1]; 
         
         for (int row = 1; row < m; row++) {
-            for (int c1 = 0; c1 <= min(n-1, row); c1++) {      //min(n-1, row)   - 'row' helps to avoid duplicate combinations and min helps to avoid out of bound access
-                for (int c2 = max(0, n-1-row); c2 < n; c2++) { //max(0, n-1-row) - 'n-1-row' helps to avoid duplicate combinations and max helps to avoid out of bound access
+            for (int c1 = 0; c1 <= min(n-1, row); c1++) {      //min(n-1, row)   - Explained in video
+                for (int c2 = max(0, n-1-row); c2 < n; c2++) { //max(0, n-1-row) - Explained in video
                     
                     int prev_max = 0;
                     //A Robot can come to current column from either column-1, column, or column+1 of prev row (row-1)
@@ -120,8 +120,8 @@ public:
 
             vector<vector<int>> curr(n, vector<int>(n));
 
-            for (int c1 = 0; c1 <= min(n-1, row); c1++) {      //min(n-1, row)   - 'row' helps to avoid duplicate combinations and min helps to avoid out of bound access
-                for (int c2 = max(0, n-1-row); c2 < n; c2++) { //max(0, n-1-row) - 'n-1-row' helps to avoid duplicate combinations and max helps to avoid out of bound access
+            for (int c1 = 0; c1 <= min(n-1, row); c1++) {      //min(n-1, row)   - Explained in video
+                for (int c2 = max(0, n-1-row); c2 < n; c2++) { //max(0, n-1-row) - Explained in video
                     
                     int prev_max = 0;
                     //A Robot can come to current column from either column-1, column, or column+1 of prev row (row-1)
@@ -223,8 +223,8 @@ class Solution {
         t[0][0][n - 1] = (n == 1) ? grid[0][0] : grid[0][0] + grid[0][n - 1];
 
         for (int row = 1; row < m; row++) {
-            for (int c1 = 0; c1 <= Math.min(n - 1, row); c1++) { // Math.min(n-1, row) - 'row' helps to avoid duplicate combinations and min helps to avoid out of bound access
-                for (int c2 = Math.max(0, n - 1 - row); c2 < n; c2++) { // Math.max(0, n-1-row) - 'n-1-row' helps to avoid duplicate combinations and max helps to avoid out of bound access
+            for (int c1 = 0; c1 <= Math.min(n - 1, row); c1++) { // Math.min(n-1, row) - Explained in video
+                for (int c2 = Math.max(0, n - 1 - row); c2 < n; c2++) { // Math.max(0, n-1-row) - Explained in video
 
                     int prevMax = 0;
                     // A Robot can come to the current column from either column-1, column, or column+1 of the previous row (row-1)
@@ -268,8 +268,8 @@ class Solution {
 
             int[][] curr = new int[n][n];
 
-            for (int c1 = 0; c1 <= Math.min(n - 1, row); c1++) { // Math.min(n-1, row) - 'row' helps to avoid duplicate combinations and min helps to avoid out of bound access
-                for (int c2 = Math.max(0, n - 1 - row); c2 < n; c2++) { // Math.max(0, n-1-row) - 'n-1-row' helps to avoid duplicate combinations and max helps to avoid out of bound access
+            for (int c1 = 0; c1 <= Math.min(n - 1, row); c1++) { // Math.min(n-1, row) - Explained in video
+                for (int c2 = Math.max(0, n - 1 - row); c2 < n; c2++) { // Math.max(0, n-1-row) - Explained in video
 
                     int prevMax = 0;
                     // A Robot can come to the current column from either column-1, column, or column+1 of the prev row (row-1)
