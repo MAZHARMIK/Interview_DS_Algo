@@ -115,8 +115,9 @@ public:
         int n = grid[0].size();
         
         vector<vector<int>> prev(n, vector<int>(n));
+        prev[0][n-1] = (n == 1) ? grid[0][0] : grid[0][0] + grid[0][n-1];
         
-        for (int row = 0; row < m; row++) { //row = 0 --> let's first prepare the prev from 1st row
+        for (int row = 1; row < m; row++) {
 
             vector<vector<int>> curr(n, vector<int>(n));
 
@@ -263,8 +264,9 @@ class Solution {
         int n = grid[0].length;
 
         int[][] prev = new int[n][n];
-
-        for (int row = 0; row < m; row++) { // row = 0 --> let's first prepare the prev from the 1st row
+        t[0][n - 1] = (n == 1) ? grid[0][0] : grid[0][0] + grid[0][n - 1];
+        
+        for (int row = 1; row < m; row++) { // row = 0 --> let's first prepare the prev from the 1st row
 
             int[][] curr = new int[n][n];
 
