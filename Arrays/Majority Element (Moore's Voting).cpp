@@ -1,3 +1,4 @@
+/*                                    Scroll below to see JAVA code also                                */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Q6L5SoS-fTo
     Company Tags                : Amazon, Accolite, D-E-Shaw, FactSet, MakeMyTrip, Microsoft, Samsung
@@ -5,6 +6,9 @@
 */
 
 /********************************************** C++ **********************************************/
+//Approach-1
+//T.C : O(n)
+//S.C : O(1)
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -30,6 +34,9 @@ public:
 };
 
 //////OR you can also code it like this (Eaxct similar to Majority Element-II)
+//Approach-2
+//T.C : O(n)
+//S.C : O(1)
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -54,6 +61,9 @@ public:
 };
 
 /********************************************** JAVA **********************************************/
+//Approach-1
+//T.C : O(n)
+//S.C : O(1)
 class Solution {
     public int majorityElement(int[] nums) {
         int n = nums.length;
@@ -78,6 +88,9 @@ class Solution {
 
 
 //////OR you can also code it like this (Eaxct similar to Majority Element-II)
+//Approach-2
+//T.C : O(n)
+//S.C : O(1)
 class Solution {
     public int majorityElement(int[] nums) {
         int n = nums.length;
