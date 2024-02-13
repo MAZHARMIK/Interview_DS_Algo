@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=JPB_lLGSgnc
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/find-first-palindromic-string-in-the-array
 */
