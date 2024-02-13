@@ -64,5 +64,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Merge%20Sort.cpp"> Merge Sort (GFG)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Quick%20Sort.cpp"> Quick Sort (GFG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
