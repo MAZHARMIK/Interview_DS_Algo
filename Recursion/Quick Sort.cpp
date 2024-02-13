@@ -1,6 +1,6 @@
 /*                           Scroll below to see JAVA code also                  /*
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=4eEWCQveqk8
     Company Tags                : VMWare, Amazon, Microsoft, Samsung, Hike, Ola Cabs, Goldman Sachs, Adobe, SAP Labs, Qualcomm, HSBC, Grofers, Target Corporation
     GFG Link                    : https://www.geeksforgeeks.org/problems/quick-sort/1
 */
