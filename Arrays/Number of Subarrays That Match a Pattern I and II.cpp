@@ -1,7 +1,8 @@
 /*
     MY YOUTUBE VIDEO ON THIS QN : 
     Company Tags                : will update soon
-    Leetcode Link               : https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/description/
+    Leetcode Link               : Part-I  - https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i
+                                  Part-II - https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii
 */
 
 //Study KMP with me - https://www.youtube.com/watch?v=qases-9gOpk
