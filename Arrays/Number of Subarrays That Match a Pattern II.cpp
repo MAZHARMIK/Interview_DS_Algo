@@ -1,13 +1,51 @@
 /*
     MY YOUTUBE VIDEO ON THIS QN : 
-    Company Tags                :
+    Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/description/
 */
 
-//KMP - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/String%20Algorithms/Knuth-Morris-Pratt%20KMP%20String%20Matching%20Algorithm.cpp
+//Study KMP with me - https://www.youtube.com/watch?v=qases-9gOpk
 
 /**************************************************************** C++ *********************************************************************/
-//Using KMP
+//Approach-1 (Brute Force)
+//T.C : O(m*n)
+//S.C : O(1)
+class Solution {
+public:
+    int countMatchingSubarrays(vector<int>& nums, vector<int>& pattern) {
+        int n = nums.size();
+        int m = pattern.size();
+        
+        int count = 0;
+        
+        for(int i = 0; i < n-m; i++) {
+                            
+            int temp_i = i;
+            int j = 0;
+            for(; j < m; j++) {
+                if(pattern[j] == 1 && nums[temp_i] < nums[temp_i+1]) {
+                    temp_i++;
+                } else if(pattern[j] == 0 && nums[temp_i] == nums[temp_i+1]) {
+                    temp_i++;
+                } else if(pattern[j] == -1 && nums[temp_i] > nums[temp_i+1]) {
+                    temp_i++;
+                } else {
+                    break;
+                } 
+            }
+
+            if(j == m) { //Found complete pattern
+                count++;
+            }
+            
+        }
+        
+        return count;
+    }
+};
+
+
+//Approach-2 (Using KMP)
 //T.C : Same as KMP O(m+n)
 //S.C : O(m)
 class Solution {
@@ -82,7 +120,44 @@ public:
 
 
 /**************************************************************** JAVA *********************************************************************/
-//Using KMP
+//Approach-1 (Brute Force)
+//T.C : O(m*n)
+//S.C : O(1)
+public class Solution {
+    public int countMatchingSubarrays(int[] nums, int[] pattern) {
+        int n = nums.length;
+        int m = pattern.length;
+
+        int count = 0;
+
+        for (int i = 0; i < n - m; i++) {
+            int temp_i = i;
+            int j = 0;
+            
+            for (; j < m; j++) {
+                if (pattern[j] == 1 && nums[temp_i] < nums[temp_i + 1]) {
+                    temp_i++;
+                } else if (pattern[j] == 0 && nums[temp_i] == nums[temp_i + 1]) {
+                    temp_i++;
+                } else if (pattern[j] == -1 && nums[temp_i] > nums[temp_i + 1]) {
+                    temp_i++;
+                } else {
+                    break;
+                }
+            }
+
+            if (j == m) { // Found complete pattern
+                count++;
+            }
+        }
+
+        return count;
+    }
+}
+
+
+
+//Approach-2 (Using KMP)
 //T.C : Same as KMP O(m+n)
 //S.C : O(m)
 public class Solution {
