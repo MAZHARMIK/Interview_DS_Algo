@@ -6,9 +6,8 @@
 */
 
 /************************************************** C++ **************************************************/
-//Approach-1
 //T.C : O(n)
-//S.C : O(n)
+//S.C : O(n) for result
 class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& nums) {
@@ -34,16 +33,9 @@ public:
 };
 
 
-//Approach-2
-//T.C : O(n)
-//S.C : O(1)
-
-
-
 /************************************************** JAVA **************************************************/
-//Approach-1
 //T.C : O(n)
-//S.C : O(n)
+//S.C : O(n) for result
 class Solution {
     public int[] rearrangeArray(int[] nums) {
         int n = nums.length;
@@ -65,8 +57,3 @@ class Solution {
         return result;
     }
 }
-
-
-//Approach-2
-//T.C : O(n)
-//S.C : O(1)
