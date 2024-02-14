@@ -124,24 +124,26 @@ public:
 //T.C : O(m*n)
 //S.C : O(1)
 public class Solution {
-    public int countMatchingSubarrays(List<Integer> nums, List<Integer> pattern) {
-        int n = nums.size();
-        int m = pattern.size();
+    public int countMatchingSubarrays(int[] nums, int[] pattern) {
+        int n = nums.length;
+        int m = pattern.length;
 
         int count = 0;
 
         for (int i = 0; i < n - m; i++) {
+
             int k = 0;
-            while (k < m) {
-                if (pattern.get(k) == 1 && nums.get(i + k + 1) > nums.get(i + k)) {
+            
+            while(k < m) {
+                if(pattern[k] == 1 && nums[i+k+1] > nums[i+k]) {
                     k++;
-                } else if (pattern.get(k) == 0 && nums.get(i + k + 1).equals(nums.get(i + k))) {
+                } else if(pattern[k] == 0 && nums[i+k+1] == nums[i+k]) {
                     k++;
-                } else if (pattern.get(k) == -1 && nums.get(i + k + 1) < nums.get(i + k)) {
+                } else if(pattern[k] == -1 && nums[i+k+1] < nums[i+k]) {
                     k++;
                 } else {
                     break;
-                }
+                } 
             }
 
             if (k == m) { // Found complete pattern
