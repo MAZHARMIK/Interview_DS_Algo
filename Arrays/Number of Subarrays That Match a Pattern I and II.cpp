@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS QN : 
+    MY YOUTUBE VIDEO ON THIS QN : https://www.youtube.com/watch?v=OEmdc4a1G4Q
     Company Tags                : will update soon
     Leetcode Link               : Part-I  - https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-i
                                   Part-II - https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii
