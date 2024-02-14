@@ -4,6 +4,8 @@
     Leetcode Link               : https://leetcode.com/problems/number-of-subarrays-that-match-a-pattern-ii/description/
 */
 
+//KMP - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/String%20Algorithms/Knuth-Morris-Pratt%20KMP%20String%20Matching%20Algorithm.cpp
+
 /**************************************************************** C++ *********************************************************************/
 //Using KMP
 //T.C : Same as KMP O(m+n)
