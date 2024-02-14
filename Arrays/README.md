@@ -382,5 +382,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sequential%20Digits.cpp"> Sequential Digits (Leetcode-1291)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Rearrange%20Array%20Elements%20by%20Sign.cpp"> Rearrange Array Elements by Sign.cpp (Leetcode-2149)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
