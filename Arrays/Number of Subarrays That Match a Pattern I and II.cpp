@@ -20,22 +20,21 @@ public:
         int count = 0;
         
         for(int i = 0; i < n-m; i++) {
-                            
-            int temp_i = i;
-            int j = 0;
-            for(; j < m; j++) {
-                if(pattern[j] == 1 && nums[temp_i] < nums[temp_i+1]) {
-                    temp_i++;
-                } else if(pattern[j] == 0 && nums[temp_i] == nums[temp_i+1]) {
-                    temp_i++;
-                } else if(pattern[j] == -1 && nums[temp_i] > nums[temp_i+1]) {
-                    temp_i++;
+
+            int k = 0;
+            while(k < m) {
+                if(pattern[k] == 1 && nums[i+k+1] > nums[i+k]) {
+                    k++;
+                } else if(pattern[k] == 0 && nums[i+k+1] == nums[i+k]) {
+                    k++;
+                } else if(pattern[k] == -1 && nums[i+k+1] < nums[i+k]) {
+                    k++;
                 } else {
                     break;
                 } 
             }
 
-            if(j == m) { //Found complete pattern
+            if(k == m) { //Found complete pattern
                 count++;
             }
             
@@ -125,29 +124,27 @@ public:
 //T.C : O(m*n)
 //S.C : O(1)
 public class Solution {
-    public int countMatchingSubarrays(int[] nums, int[] pattern) {
-        int n = nums.length;
-        int m = pattern.length;
+    public int countMatchingSubarrays(List<Integer> nums, List<Integer> pattern) {
+        int n = nums.size();
+        int m = pattern.size();
 
         int count = 0;
 
         for (int i = 0; i < n - m; i++) {
-            int temp_i = i;
-            int j = 0;
-            
-            for (; j < m; j++) {
-                if (pattern[j] == 1 && nums[temp_i] < nums[temp_i + 1]) {
-                    temp_i++;
-                } else if (pattern[j] == 0 && nums[temp_i] == nums[temp_i + 1]) {
-                    temp_i++;
-                } else if (pattern[j] == -1 && nums[temp_i] > nums[temp_i + 1]) {
-                    temp_i++;
+            int k = 0;
+            while (k < m) {
+                if (pattern.get(k) == 1 && nums.get(i + k + 1) > nums.get(i + k)) {
+                    k++;
+                } else if (pattern.get(k) == 0 && nums.get(i + k + 1).equals(nums.get(i + k))) {
+                    k++;
+                } else if (pattern.get(k) == -1 && nums.get(i + k + 1) < nums.get(i + k)) {
+                    k++;
                 } else {
                     break;
                 }
             }
 
-            if (j == m) { // Found complete pattern
+            if (k == m) { // Found complete pattern
                 count++;
             }
         }
@@ -155,7 +152,6 @@ public class Solution {
         return count;
     }
 }
-
 
 
 //Approach-2 (Using KMP)
