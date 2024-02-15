@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Subsets.cpp"> Subsets (Leetcode-78)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Rat%20in%20a%20Maze%20Problem%20-%20I.cpp"> Rat in a Maze Problem (GFG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
