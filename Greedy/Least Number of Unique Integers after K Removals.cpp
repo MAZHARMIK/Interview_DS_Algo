@@ -1,7 +1,7 @@
 /*                     Scroll below to see JAVA code also              /*
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=O5v9Tqv2ZDA
-    Company Tags                : will update soon
+    Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals
 */
 
