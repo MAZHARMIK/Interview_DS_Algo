@@ -83,42 +83,41 @@ class Solution {
 public:
     int findLeastNumOfUniqueInts(vector<int>& arr, int k) {
         int n = arr.size();
-        
         unordered_map<int, int> mp;
-        
+
         for(int &x : arr) {
             mp[x]++;
         }
 
         vector<int> freqCount(n+1);
-        //freqCount[i] = number of elements having i frequency
-        
-        int uniqueElements = mp.size();
-        
+        //freqCount[i] = number of elements (types) having frequency = i
+
+        int uniqueTypes = mp.size();
+
         for(auto &it : mp) {
-            freqCount[it.second]++;
+            int freq = it.second;
+            freqCount[freq]++;
         }
+
 
         for(int freq = 1; freq <= n; freq++) {
-            
-            int countUniqueElementsRemove = min(k/freq, freqCount[freq]);
-            //k/freq - I can remove at max this number of elements whose frequency = freq
-            //freqCount[freq] - Actual Number of elements you have whos frequency  = freq
-            
-            k -= (freq*countUniqueElementsRemove); //Each one of them has frequency = freq
-            
-            uniqueElements -= countUniqueElementsRemove;
-            
+
+            int typesICanDelete = min(k/freq, freqCount[freq]);
+
+            k -= (typesICanDelete * freq);
+
+            uniqueTypes -= typesICanDelete;
+
             if(k <= freq) {
-                return uniqueElements;
+                return uniqueTypes;
             }
         }
-        
-        return 0; //All were removed
+
+        return 0;
+
+
     }
 };
-
-
 
 
 /************************************************************************ C++ ******************************************************/
