@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Rat%20in%20a%20Maze%20Problem%20-%20I.cpp"> Rat in a Maze Problem (GFG)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Flatten%20BST%20to%20sorted%20list.cpp"> Flatten BST to sorted list (GFG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
