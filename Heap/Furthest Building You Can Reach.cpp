@@ -1,16 +1,18 @@
 /*
-    Company Tags    : Microsoft, Google
-    Leetcode Link   : https://leetcode.com/problems/furthest-building-you-can-reach/
-    Similar Problem : https://leetcode.com/problems/minimum-number-of-refueling-stops/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags    		: Microsoft, Google
+    Leetcode Link   		: https://leetcode.com/problems/furthest-building-you-can-reach/
+    Similar Problem 		: https://leetcode.com/problems/minimum-number-of-refueling-stops/
+    
     This is actually a concept of Lazy Greedy Problem (Using priority_queue)
 */
 
-//Greedy : Fail
+//(GREEDY - FAIL. WRONG APPROACH. SEE below to find out why ?)
 class Solution {
 public:
     int furthestBuilding(vector<int>& heights, int bricks, int ladders) {
         //greedily I'll use bricks because ladder helps me to jump to next
-		//building irrespective of the height difference
+	//building irrespective of the height difference
         
         int n = heights.size();
         int i = 0;
@@ -91,7 +93,13 @@ ladder = 1
         than last maximum amount of bricks you had used. So, we can regain those bricks and use a ladder    
         instead in the past. This way, you saved (maxBricks - diff) amount of bricks which can be used later
 
-//PASS
+
+
+/***************************************************************** C++ *****************************************************************/
+//Accepted Approach
+//Using Lazy Greedy
+//T.C : O(nlogn)
+//S.C : O(n)
 class Solution {
 public:
     int furthestBuilding(vector<int>& heights, int bricks, int ladders) {      
@@ -128,3 +136,34 @@ public:
         return i;
     }
 };
+
+
+//Approach-2 (Recursion + Memoization) - Memory Limit Exceed due to high constraint
+//Link - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Furthest%20Building%20You%20Can%20Reach.cpp
+
+
+
+/***************************************************************** JAVA *****************************************************************/
+//Accepted Approach
+//Using Lazy Greedy
+//T.C : O(nlogn)
+//S.C : O(n)
+public class Solution {
+    public int furthestBuilding(int[] heights, int bricks, int ladders) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+
+        for (int i = 0; i < heights.length - 1; i++) {
+            if (heights[i] >= heights[i + 1]) continue;
+            bricks -= heights[i + 1] - heights[i];
+            pq.add(heights[i + 1] - heights[i]);
+
+            if (bricks < 0) {
+                bricks += pq.poll();
+                if (ladders > 0) ladders--;
+                else return i;
+            }
+        }
+
+        return heights.length - 1;
+    }
+}
