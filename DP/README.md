@@ -175,7 +175,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Furthest%20Building%20You%20Can%20Reach">Furthest Building You Can Reach (Leetcode - 1642)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Furthest%20Building%20You%20Can%20Reach.cpp">Furthest Building You Can Reach (Leetcode - 1642)</a>
 				</td>
 			</tr>
 			<tr>
