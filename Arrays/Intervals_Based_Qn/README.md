@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended%20II.cpp"> Maximum Number of Events That Can Be Attended II (Leetcode-1751)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Meeting%20Rooms%20III.cpp"> Meeting Rooms III (Leetcode-2402)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
