@@ -197,11 +197,9 @@ class Solution {
         // Each room is used 0 times in the beginning
         int[] roomsUsedCount = new int[n];
 
-        // To store {earliest room empty time, room No.}
-        PriorityQueue<long[]> usedRooms = new PriorityQueue<>((a, b) -> Long.compare(a[0], b[0]));
-
-        // To store rooms that are used
-        PriorityQueue<Integer> unusedRooms = new PriorityQueue<>();
+        var usedRooms = new PriorityQueue<long[]>((a, b) -> a[0] != b[0] ? Long.compare(a[0], b[0]) : Long.compare(a[1], b[1]));
+        var unusedRooms = new PriorityQueue<Integer>();
+        
         for (int room = 0; room < n; room++) {
             unusedRooms.add(room); // All rooms are unused in the beginning
         }
