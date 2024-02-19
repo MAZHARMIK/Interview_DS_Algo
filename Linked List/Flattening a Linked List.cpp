@@ -35,7 +35,7 @@ Node* mergeTwoLists(Node* head1, Node* head2) {
 }
 
 Node *flatten(Node *head) {
-    if(!head || !head->next)
+    if(!head)
         return head;
 
     Node* temp = flatten(head->next);
@@ -68,7 +68,7 @@ class GfG {
     }
 
     Node flatten(Node root) {
-        if (root == null || root.next == null)
+        if (root == null)
             return root;
 
         Node temp = flatten(root.next);
