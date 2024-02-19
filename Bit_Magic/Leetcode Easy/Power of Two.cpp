@@ -1,6 +1,6 @@
 /*                           Scroll down to see JAVA code also               */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=bVfA6_rDw4M
     Company Tags                : Google, Aodbe
     Leetcode Link               : https://leetcode.com/problems/power-of-two/
 */
