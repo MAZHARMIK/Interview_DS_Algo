@@ -61,7 +61,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Flattening%20a%20Linked%20List">Flattening a Linked List</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Flattening%20a%20Linked%20List.cpp">Flattening a Linked List</a>
 				</td>
 			</tr>
 			<tr>
