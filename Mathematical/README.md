@@ -51,7 +51,7 @@
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Missing%20Number">Missing Number (3 approaches) (Leetcode : 268)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Missing%20Number.cpp">Missing Number (3 approaches) (Leetcode : 268)</a>
 				</td>
 			</tr>
 			<tr>
