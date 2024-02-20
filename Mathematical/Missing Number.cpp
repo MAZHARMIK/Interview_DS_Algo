@@ -45,20 +45,23 @@ public:
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
+        int n = nums.size();
         sort(nums.begin(), nums.end());
         int l   = 0;
-        int r   = nums.size();
-        int mid;
+        int r   = n-1;
+        int result = n;
         
-        while(l < r) {
-            mid = l + (r-l)/2;
-            if(nums[mid] > mid)
-                r = mid;
-            else
+        while(l <= r) {
+            int mid = l + (r-l)/2;
+            if(nums[mid] > mid) {
+                result = mid;
+                r = mid-1;
+            } else {
                 l = mid+1;
+            }
         }
         
-        return l;
+        return result;
         
     }
 };
@@ -100,17 +103,19 @@ class Solution3 {
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);
         int l = 0;
-        int r = nums.length;
-        int mid;
+        int r = nums.length-1;
+        int mid = nums.length;
 
-        while (l < r) {
-            mid = l + (r - l) / 2;
-            if (nums[mid] > mid)
-                r = mid;
-            else
-                l = mid + 1;
+        while(l <= r) {
+            int mid = l + (r-l)/2;
+            if(nums[mid] > mid) {
+                result = mid;
+                r = mid-1;
+            } else {
+                l = mid+1;
+            }
         }
 
-        return l;
+        return result;
     }
 }
