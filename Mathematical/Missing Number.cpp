@@ -1,6 +1,6 @@
 /*                         Scroll down to see JAVA code also         */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=lpyQGkbDvqI
     Company Tags                : Facebook, Bloomberg, Accolite, Adobe, Amazon, Cisco, D-E-Shaw, Intuit, Microsoft, Morgan Stanley,
                                   Ola Cabs, Payu, Qualcomm, Visa (Dayummmmmm bro)
     Leetcode Link               : https://leetcode.com/problems/missing-number/
