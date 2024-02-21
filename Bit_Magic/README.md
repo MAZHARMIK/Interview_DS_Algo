@@ -128,5 +128,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.cpp"> Maximum Length of a Concatenated String with Unique Characters (Leetcode - 1239)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Bitwise%20AND%20of%20Numbers%20Range.cpp"> Bitwise AND of Numbers Range (Leetcode - 201)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
