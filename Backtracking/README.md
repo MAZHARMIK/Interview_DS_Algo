@@ -26,12 +26,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Generate%20Parentheses%20(O(n*2%5En))">Generate Parentheses (O(n*2^n)) (Leetcode : 22)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Generate%20Parentheses%20(O(2%5En))">Generate Parentheses (O(2^n)) (Leetcode : 22)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Generate%20Parentheses.cpp">Generate Parentheses (Leetcode : 22)</a>
 				</td>
 			</tr>
 			<tr>
