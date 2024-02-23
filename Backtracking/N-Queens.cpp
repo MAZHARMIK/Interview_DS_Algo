@@ -62,7 +62,7 @@ public:
         
         return true;
     }
-    void dfs(vector<string>& board, int row) {
+    void solve(vector<string>& board, int row) {
         if(row == board.size()) {
             result.push_back(board);
             return;
@@ -79,7 +79,7 @@ public:
             if(isValid(board, row, i)) {
                 board[row][i] = 'Q';
                 
-                dfs(board, row+1);
+                solve(board, row+1);
                 
                 board[row][i] = '.';
             }
@@ -91,7 +91,7 @@ public:
         vector<string> board(n, string(n, '.')); 
         //For, n = 3, board = {"...", "...", "..."} initially
         
-        dfs(board, 0);
+        solve(board, 0);
         
         return result;
     }
@@ -103,7 +103,7 @@ public:
 class Solution {
 public:
     vector<vector<string>> result;
-    void dfs(vector<string>& board, int row, unordered_set<int>& cols, unordered_set<int>& diags, unordered_set<int>& antiDiags) {
+    void solve(vector<string>& board, int row, unordered_set<int>& cols, unordered_set<int>& diags, unordered_set<int>& antiDiags) {
         if(row == board.size()) {
             result.push_back(board);
             return;
@@ -140,7 +140,7 @@ public:
             board[row][col] = 'Q';
             
             
-            dfs(board, row+1, cols, diags, antiDiags);
+            solve(board, row+1, cols, diags, antiDiags);
 
             cols.erase(col);
             diags.erase(diag_id);
@@ -158,7 +158,7 @@ public:
         unordered_set<int> cols;
         unordered_set<int> diags;
         unordered_set<int> antiDiags;
-        dfs(board, start_row, cols, diags, antiDiags);
+        solve(board, start_row, cols, diags, antiDiags);
         
         return result;
     }
@@ -187,7 +187,7 @@ public class Solution {
             board.add(row.toString());
         }
 
-        dfs(board, 0);
+        solve(board, 0);
         
         return result;
     }
@@ -214,7 +214,7 @@ public class Solution {
         return true;
     }
 
-    private void dfs(List<String> board, int row) {
+    private void solve(List<String> board, int row) {
         if (row == board.size()) {
             result.add(new ArrayList<>(board));
             return;
@@ -232,7 +232,7 @@ public class Solution {
                 newRow.setCharAt(i, 'Q');
                 board.set(row, newRow.toString());
 
-                dfs(board, row + 1);
+                solve(board, row + 1);
 
                 newRow.setCharAt(i, '.');
                 board.set(row, newRow.toString());
@@ -265,12 +265,12 @@ public class Solution {
         HashSet<Integer> cols = new HashSet<>();
         HashSet<Integer> diags = new HashSet<>();
         HashSet<Integer> antiDiags = new HashSet<>();
-        dfs(board, startRow, cols, diags, antiDiags);
+        solve(board, startRow, cols, diags, antiDiags);
 
         return result;
     }
 
-    private void dfs(List<String> board, int row, HashSet<Integer> cols, HashSet<Integer> diags, HashSet<Integer> antiDiags) {
+    private void solve(List<String> board, int row, HashSet<Integer> cols, HashSet<Integer> diags, HashSet<Integer> antiDiags) {
         if (row == board.size()) {
             result.add(new ArrayList<>(board));
             return;
@@ -303,7 +303,7 @@ public class Solution {
             newRow.setCharAt(col, 'Q');
             board.set(row, newRow.toString());
 
-            dfs(board, row + 1, cols, diags, antiDiags);
+            solve(board, row + 1, cols, diags, antiDiags);
 
             cols.remove(col);
             diags.remove(diagId);
