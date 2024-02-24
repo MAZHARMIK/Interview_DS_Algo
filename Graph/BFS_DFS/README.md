@@ -94,5 +94,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Detonate%20the%20Maximum%20Bombs.cpp"> Detonate the Maximum Bombs (Leetcode-2101)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Find%20All%20People%20With%20Secret.cpp"> Find All People With Secret (Leetcode-2092)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
