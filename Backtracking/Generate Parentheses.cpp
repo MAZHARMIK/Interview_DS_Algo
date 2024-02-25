@@ -10,37 +10,44 @@
 //S.C : O(2*n) -> Removing constant -> O(n) -> recursion stack space - Max depth of recusion tree
 class Solution {
 public:
+    vector<string> result;
+
     bool isValid(string str) {
-        int sum = 0;
+        int count = 0;
+
         for(char ch:str) {
             if(ch == '(')
-                sum++;
+                count++;
             else
-                sum--;
-            if(sum < 0)
+                count--;
+            if(count < 0)
                 return false;
         }
-        return sum==0;
+        return count==0;
     }
-    void generate(string& curr, int n, vector<string>& result) {
+
+    void solve(string& curr, int n) {
         if(curr.length() == 2*n) {
-            if(isValid(curr))
+            if(isValid(curr)) {
                 result.push_back(curr);
+            }
             return;
         }
-        
+
         curr.push_back('(');
-        generate(curr, n, result);
+        solve(curr, n);
         curr.pop_back();
+
         curr.push_back(')');
-        generate(curr, n, result);
+        solve(curr, n);
         curr.pop_back();
     }
+
     vector<string> generateParenthesis(int n) {
-        vector<string> result;
-        
         string curr = "";
-        generate(curr, n, result);
+
+        solve(curr, n);
+
         return result;
     }
 };
