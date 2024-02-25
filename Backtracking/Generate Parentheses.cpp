@@ -22,23 +22,25 @@ public:
         }
         return sum==0;
     }
-    void generate(string curr, int n, int length, vector<string>& result) {
-        if(length == 2*n) {
+    void generate(string& curr, int n, vector<string>& result) {
+        if(curr.length() == 2*n) {
             if(isValid(curr))
                 result.push_back(curr);
             return;
         }
         
         curr.push_back('(');
-        generate(curr, n, length+1, result);
+        generate(curr, n, result);
         curr.pop_back();
         curr.push_back(')');
-        generate(curr, n, length+1, result);
+        generate(curr, n, result);
+        curr.pop_back();
     }
     vector<string> generateParenthesis(int n) {
         vector<string> result;
         
-        generate("", n, 0, result);
+        string curr = "";
+        generate(curr, n, result);
         return result;
     }
 };
