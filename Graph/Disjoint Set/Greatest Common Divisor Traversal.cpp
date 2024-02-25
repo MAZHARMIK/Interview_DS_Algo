@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=TI-xIXH4EnE
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/greatest-common-divisor-traversal/
 */
