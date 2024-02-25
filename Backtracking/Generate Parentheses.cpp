@@ -50,20 +50,30 @@ public:
 //S.C : O(2*n) -> Removing constant -> O(n) -> recursion stack space - Max depth of recusion tree
 class Solution {
 public:
-    void generateAll(int n, string current, int open, int close, vector<string>& result) {
-        if(current.length() == 2*n) {
-            result.push_back(current);
+    vector<string> result;
+
+    void solve(int n, string curr, int open, int close) {
+        if(curr.length() == 2*n) {
+            result.push_back(curr);
             return;
         }
         
-        if(open < n)
-            generateAll(n, current+"(", open+1, close, result);
-        if(close < open)
-            generateAll(n, current+")", open, close+1, result);
+        if(open < n) {
+            curr.push_back('(');
+            solve(n, curr, open+1, close);
+            curr.pop_back();
+        }
+        if(close < open) {
+            curr.push_back(')');
+            solve(n, curr, open, close+1);
+            curr.pop_back();
+        }
     }
     vector<string> generateParenthesis(int n) {
-        vector<string> result;
-        generateAll(n, "", 0, 0, result);
+        string curr = "";
+
+        solve(n, curr, 0, 0);
+
         return result;
     }
 };
@@ -115,23 +125,29 @@ class Solution {
 // Approach-2 (Smart Recursion)
 //T.C : O(2^n)
 //S.C : O(2*n) -> Removing constant -> O(n) -> recursion stack space - Max depth of recusion tree
-class Solution {
+public class Solution {
+    private List<String> result = new ArrayList<>();
+
     public List<String> generateParenthesis(int n) {
-        List<String> result = new ArrayList<>();
-        generateAll(n, "", 0, 0, result);
+        solve(n, "", 0, 0);
         return result;
     }
 
-    // Recursive function to generate all valid combinations
-    private void generateAll(int n, String current, int open, int close, List<String> result) {
-        if (current.length() == 2 * n) {
-            result.add(current);
+    private void solve(int n, String curr, int open, int close) {
+        if (curr.length() == 2 * n) {
+            result.add(curr);
             return;
         }
 
-        if (open < n)
-            generateAll(n, current + '(', open + 1, close, result);
-        if (close < open)
-            generateAll(n, current + ')', open, close + 1, result);
+        if (open < n) {
+            curr += '(';
+            solve(n, curr, open + 1, close);
+            curr = curr.substring(0, curr.length() - 1);
+        }
+        if (close < open) {
+            curr += ')';
+            solve(n, curr, open, close + 1);
+            curr = curr.substring(0, curr.length() - 1);
+        }
     }
 }
