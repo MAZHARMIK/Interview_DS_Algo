@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=7xkPbffc6w8
     Company Tags                : Samsung
     Leetcode Qn Link            : https://leetcode.com/problems/generate-parentheses/
 */
