@@ -7,7 +7,7 @@
 /************************************************************ C++ ************************************************************/
 //Approach-1 (Simple Recursion)
 //T.C : O(2n* (2^(2n)) -> Removing constant -> O(n * (2^n))
-//S.C : O(2*n) -> Removing constant -> O(n * (2^n)) -> recursion stack space - Max depth of recusion tree
+//S.C : O(2*n) -> Removing constant -> O(n) -> recursion stack space - Max depth of recusion tree
 class Solution {
 public:
     bool isValid(string str) {
@@ -45,7 +45,7 @@ public:
 
 //Approach-2 (Smart Recursion)
 //T.C : O(2^n)
-//S.C : O(2*n) -> Removing constant -> O(n * (2^n)) -> recursion stack space - Max depth of recusion tree
+//S.C : O(2*n) -> Removing constant -> O(n) -> recursion stack space - Max depth of recusion tree
 class Solution {
 public:
     void generateAll(int n, string current, int open, int close, vector<string>& result) {
@@ -69,8 +69,8 @@ public:
 
 /************************************************************ JAVA ************************************************************/
 // Approach-1 (Simple Recursion)
-// Time Complexity: O(n * 2^n)
-// Space Complexity: O(n * 2^n) - recursion stack space (Max depth of recursion tree)
+//T.C : O(2n* (2^(2n)) -> Removing constant -> O(n * (2^n))
+//S.C : O(2*n) -> Removing constant -> O(n) -> recursion stack space - Max depth of recusion tree
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
@@ -111,8 +111,8 @@ class Solution {
 
 
 // Approach-2 (Smart Recursion)
-// Time Complexity: O(2^n)
-// Space Complexity: O(n * 2^n) - recursion stack space (Max depth of recursion tree)
+//T.C : O(2^n)
+//S.C : O(2*n) -> Removing constant -> O(n) -> recursion stack space - Max depth of recusion tree
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
