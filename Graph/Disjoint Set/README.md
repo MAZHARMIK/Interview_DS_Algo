@@ -74,5 +74,10 @@
 					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Validate%20Binary%20Tree%20Nodes.cpp"> Validate Binary Tree Nodes (Leetcode - 1361)</a>
 				      </td>
 			</tr>
+			<tr>
+        			<td>
+					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Greatest%20Common%20Divisor%20Traversal.cpp"> Greatest Common Divisor Traversal (Leetcode - 2709)</a>
+				      </td>
+			</tr>
 		</tbody>
 </table>
