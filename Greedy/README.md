@@ -229,5 +229,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Find%20Polygon%20With%20the%20Largest%20Perimeter.cpp"> Find Polygon With the Largest Perimeter (Leetcode-2971)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Earliest%20Second%20to%20Mark%20Indices%20I.cpp"> Earliest Second to Mark Indices I (Leetcode-3048)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
