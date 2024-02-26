@@ -11,7 +11,6 @@
 //S.C : O(n)
 class Solution {
     int m, n;
-    int count = 0;
     bool isValid(int seconds, vector<int> changeIndices, vector<int> nums) {
 
         vector<int> lastPosition(n+1, -1);
@@ -67,7 +66,6 @@ public:
 class Solution {
 
     int m, n;
-    int count = 0;
     bool isValid(int seconds, vector<int> changeIndices, vector<int> nums) {
 
         vector<int> lastPosition(n+1, -1);
