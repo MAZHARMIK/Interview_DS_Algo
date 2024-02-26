@@ -18,7 +18,7 @@ class Solution {
 
         for (int i = 0; i <= seconds; i++) {
             int idx = changeIndices[i];
-            lastPosition[idx] = i;
+            lastPosition[idx] = i+1; //Timing is 1 based
         }
 
         for(int i = 1; i <= n; i++) {
@@ -35,8 +35,9 @@ class Solution {
 
         int used_till = 0;
         for (auto& [position, index] : positionIndexMap) {
+
             int req = 1 + nums[index-1]; //+1 is for marking it when it becomes 0
-            if (used_till + req > position+1) 
+            if (used_till + req > position) 
                 return false;
 
             used_till += req;
@@ -60,7 +61,6 @@ public:
 };
 
 
-
 //Approach-2 (Replace main for loop with Binary Search on answer (time))
 //T.C : O(log(m) * (m + nlogn)
 //S.C : O(n)
@@ -74,7 +74,7 @@ class Solution {
 
         for (int i = 0; i <= seconds; i++) {
             int idx = changeIndices[i];
-            lastPosition[idx] = i;
+            lastPosition[idx] = i+1;
         }
 
         for(int i = 1; i <= n; i++) {
@@ -92,7 +92,7 @@ class Solution {
         int used_till = 0;
         for (auto& [position, index] : positionIndexMap) {
             int req = 1 + nums[index-1]; //+1 is for marking it when it becomes 0
-            if (used_till + req > position+1) 
+            if (used_till + req > position) 
                 return false;
 
             used_till += req;
@@ -140,7 +140,7 @@ class Solution {
 
         for (int i = 0; i <= seconds; i++) {
             int idx = changeIndices[i];
-            lastPosition[idx] = i;
+            lastPosition[idx] = i+1;
         }
 
         for (int i = 1; i <= n; i++) {
@@ -161,7 +161,7 @@ class Solution {
             int position = entry.getKey();
             int index = entry.getValue();
             int req = 1 + nums[index - 1]; // +1 is for marking it when it becomes 0
-            if (usedTill + req > position + 1) {
+            if (usedTill + req > position) {
                 return false;
             }
 
