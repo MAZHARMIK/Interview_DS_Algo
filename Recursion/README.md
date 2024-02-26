@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Flatten%20BST%20to%20sorted%20list.cpp"> Flatten BST to sorted list (GFG)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Power%20Set.cpp"> Power Set (GFG)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
