@@ -1,5 +1,6 @@
+/*                     Scroll below to see JAVA code also     */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=tp9Y2AqBk6s
     Company Tags                : Snapdeal
     GFG Link                    : https://www.geeksforgeeks.org/problems/power-set4302/1
 */
