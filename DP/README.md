@@ -7,6 +7,8 @@
   
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/DP/1-D%20DP">:file_folder:1-D D.P</a>
 
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/DP/DP%20on%20Strings">:file_folder:D.P On Strings</a>
+
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/DP/LIS%20%26%20Variants">:file_folder:LIS & Variants</a>
 
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/DP/Bit%20Magic%20DP">:file_folder:Bit Magic DP</a>
