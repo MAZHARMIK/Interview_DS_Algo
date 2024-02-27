@@ -151,7 +151,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Diameter%20of%20Binary%20Tree">Diameter of Binary Tree (Leetcode-543)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Diameter%20of%20Binary%20Tree.cpp">Diameter of Binary Tree (Leetcode-543)</a>
 				</td>
 			</tr>
 			<tr>
