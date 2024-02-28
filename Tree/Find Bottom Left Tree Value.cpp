@@ -81,23 +81,19 @@ public:
         
         while(!que.empty()) {
             int n = que.size();
-            
-            bool firstElementTaken = false;
-            
+
             while(n--) {
                 TreeNode* node = que.front();
                 que.pop();
                 
-                if(!firstElementTaken) {
-                    firstElementTaken = true;
-                    bottomLeft = node->val;
-                }
                 
-                if(node->left) {
-                    que.push(node->left);
-                }
+                bottomLeft = node->val;
+                
                 if(node->right) {
                     que.push(node->right);
+                }
+                if(node->left) {
+                    que.push(node->left);
                 }
             }
             
@@ -188,16 +184,13 @@ public:
                 TreeNode* node = que.front();
                 que.pop();
                 
-                if(!firstElementTaken) {
-                    firstElementTaken = true;
-                    bottomLeft = node->val;
-                }
+                bottomLeft = node->val;
                 
-                if(node->left) {
-                    que.push(node->left);
-                }
                 if(node->right) {
                     que.push(node->right);
+                }
+                if(node->left) {
+                    que.push(node->left);
                 }
             }
             
