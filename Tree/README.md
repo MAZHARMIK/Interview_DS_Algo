@@ -439,5 +439,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20Bottom%20Left%20Tree%20Value.cpp"> Find Bottom Left Tree Value (Leetcode-513)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Even%20Odd%20Tree.cpp"> Even Odd Tree (Leetcode-1609)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
