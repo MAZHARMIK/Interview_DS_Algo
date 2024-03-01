@@ -1,6 +1,6 @@
 /*          Scroll down to see JAVA code also         */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn :  
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=IRO_4X0csoc
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/maximum-odd-binary-number
 */
