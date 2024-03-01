@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Power%20Set.cpp"> Power Set (GFG)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Regular%20Expression%20Matching.cpp"> Regular Expression Matching (Leetcode - 10)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
