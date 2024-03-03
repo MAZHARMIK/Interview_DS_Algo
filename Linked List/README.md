@@ -189,5 +189,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Sorted%20insert%20for%20circular%20linked%20list.cpp"> Sorted insert for circular linked list (GfG)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Remove%20Nth%20Node%20From%20End%20of%20List.cpp"> Remove Nth Node From End of List (Leetcode-19)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
