@@ -29,7 +29,7 @@
 		<tbody>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Largest%20Number%20(Leetcode-179)">Largest Number (Leetcode-179)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Largest%20Number.cpp">Largest Number / Largest Number formed from an Array (Leetcode-179 + GFG)</a>
 				</td>
 			</tr>
 			<tr>
