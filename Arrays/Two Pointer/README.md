@@ -119,5 +119,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Count%20the%20Number%20of%20Good%20Partitions.cpp"> Count the Number of Good Partitions (Leetcode-2963)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Minimum%20Length%20of%20String%20After%20Deleting%20Similar%20Ends.cpp"> Minimum Length of String After Deleting Similar Ends (Leetcode-1750)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
