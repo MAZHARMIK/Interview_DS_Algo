@@ -73,3 +73,40 @@ public:
         }
     }
 };
+
+================================================ Java Solution ====================================================
+
+    class Solution {
+    public void sortColors(int[] nums) {
+        int i = 0;
+        int j = 0;
+        int k = nums.length - 1;
+
+        while(j <= k){
+            if(nums[j] == 1){
+                j++;
+            }
+            else if(nums[j] == 2){
+                swapK(nums, k, j);
+                k--;
+            }
+            else{
+                swap(nums, i, j);
+                i++;
+                j++;
+            }
+        }
+    }
+    public void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+    public void swapK(int[] nums, int j, int k) {
+        int temp = nums[k];
+        nums[k] = nums[j];
+        nums[j] = temp;
+    }
+    
+}
