@@ -1,3 +1,4 @@
+/*         Scroll below to see JAVA code also        */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=jnj87BSi9Is&t=592s
     Company Tags                : Apple, AMAZON, VMWARE, GOOGLE, MICROSOFT, GOLDMAN SACHS, Adobe, Belzabar, SAP Labs, Yahoo,
@@ -6,7 +7,11 @@
     GfG Link                    : https://practice.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1
 */
 
+
+/********************************************************************** C++ ************************************************************/
 //Approach-1 (O(n^2) - TLE
+//T.C : O(n^2)
+//S.C : O(50001) ~= O(1)
 class MedianFinder {
 public:
     vector<int> vec;
@@ -42,6 +47,8 @@ public:
 };
 
 //Approach-2 (O(logn) insertion using priority_queue) - Accepeted
+//T.C : The overall time complexity is O(log N) for the addNum method and O(1) for the findMedian method.
+//S.C : O(N).
 class MedianFinder {
 public:
     priority_queue<int> left_max_heap; //max heap
@@ -82,3 +89,86 @@ public:
         return left_max_heap.top();
     }
 };
+
+
+
+
+
+/********************************************************************** JAVA ************************************************************/
+//Approach-1 (O(n^2) - TLE
+//T.C : O(n^2)
+//S.C : O(50001) ~= O(1)
+public class MedianFinder {
+    private int[] vec;
+    private int i;
+
+    public MedianFinder() {
+        vec = new int[5 * 10000 + 1];
+        i = 0;
+    }
+
+    public void addNum(int num) {
+        if (i == 0) {
+            vec[i++] = num;
+            return;
+        }
+        int j = i - 1;
+        while (j >= 0 && vec[j] > num) {
+            vec[j + 1] = vec[j];
+            j--;
+        }
+        vec[j + 1] = num;
+        i++;
+    }
+
+    public double findMedian() {
+        int n = i;
+        if (n % 2 == 0) {
+            int l = n / 2 - 1;
+            int r = n / 2;
+            return (double) (vec[l] + vec[r]) / 2;
+        }
+
+        return vec[n / 2];
+    }
+}
+
+
+//Approach-2
+//T.C : The overall time complexity is O(log N) for the addNum method and O(1) for the findMedian method.
+//S.C : O(N).
+public class MedianFinder {
+    private PriorityQueue<Integer> leftMaxHeap; // max heap
+    private PriorityQueue<Integer> rightMinHeap; // min heap
+
+    public MedianFinder() {
+        leftMaxHeap = new PriorityQueue<>(Collections.reverseOrder());
+        rightMinHeap = new PriorityQueue<>();
+    }
+
+    public void addNum(int num) {
+        if (leftMaxHeap.isEmpty() || num < leftMaxHeap.peek()) {
+            leftMaxHeap.add(num);
+        } else {
+            rightMinHeap.add(num);
+        }
+
+        // always maintain leftMaxHeap size one greater than rightMinHeap size
+        // or both sizes equal
+        if (Math.abs(leftMaxHeap.size() - rightMinHeap.size()) > 1) {
+            rightMinHeap.add(leftMaxHeap.poll());
+        } else if (leftMaxHeap.size() < rightMinHeap.size()) {
+            leftMaxHeap.add(rightMinHeap.poll());
+        }
+    }
+
+    public double findMedian() {
+        if (leftMaxHeap.size() == rightMinHeap.size()) {
+            // even number of elements
+            return (double) (leftMaxHeap.peek() + rightMinHeap.peek()) / 2;
+        }
+
+        // odd number of elements
+        return leftMaxHeap.peek();
+    }
+}
