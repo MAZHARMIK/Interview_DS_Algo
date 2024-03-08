@@ -28,7 +28,12 @@
 		</thead>
 		<tbody>
 			<tr>
-        <td>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Sum.cpp"> Two Sum (Leetcode - 1) </a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Largest%20Number.cpp">Largest Number / Largest Number formed from an Array (Leetcode-179 + GFG)</a>
 				</td>
 			</tr>
