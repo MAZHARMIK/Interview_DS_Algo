@@ -1,6 +1,6 @@
 /*    Scroll below to see JAVA code also     */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=S2u88Gzby0U
     Company Tags                : Microsoft
     Leetcode Link               : https://leetcode.com/problems/minimum-common-value/
 */
