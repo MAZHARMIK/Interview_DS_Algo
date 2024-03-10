@@ -663,5 +663,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20digit%20groupings%20of%20a%20number.cpp"> Count digit groupings of a number (GfG)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Strength%20of%20K%20Disjoint%20Subarrays.cpp"> Maximum Strength of K Disjoint Subarrays (Leetcode - 3077)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
