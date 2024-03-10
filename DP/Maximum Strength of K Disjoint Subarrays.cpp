@@ -1,6 +1,6 @@
 /*      Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS QN : 
+    MY YOUTUBE VIDEO ON THIS QN : https://www.youtube.com/watch?v=vGI75BQhDVI
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/maximum-strength-of-k-disjoint-subarrays/
 */
