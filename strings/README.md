@@ -272,5 +272,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Time%20to%20Revert%20Word%20to%20Initial%20State%20II.cpp"> Minimum Time to Revert Word to Initial State II (Leetcode-3031)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Shortest%20Uncommon%20Substring%20in%20an%20Array.cpp"> Shortest Uncommon Substring in an Array (Leetcode-3076)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
