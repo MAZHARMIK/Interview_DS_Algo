@@ -1,6 +1,6 @@
 /*      Scroll down to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=wHXZ5_JmLa8
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/shortest-uncommon-substring-in-an-array
 */
