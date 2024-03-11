@@ -1,9 +1,12 @@
+/*		Scroll down to see JAVA code also		*/
 /*
-    Company Tags  : Facebook, Amazon
-    Leetcode Link : https://leetcode.com/problems/custom-sort-string/
+	MY YOUTUBE VIDEO ON THIS Qn : 	
+    	Company Tags  		    : Facebook, Amazon
+    	Leetcode Link 		    : https://leetcode.com/problems/custom-sort-string/
 */
 
 /*
+	INTUITION : 
 	The question is actually testing if we know about comparators in sorting.
 	It just wants us to sort the string "str" but the ordering of characters must be in order
 	of their indices they occur in string "order"
@@ -32,27 +35,10 @@
 	The actualy solution is just imply applying the comparator and it will be done.
 */
 
-//Approach-1 (Using comparator : O(nlogn)
-class Solution {
-public:
-    string customSortString(string order, string str) {
-        vector<int> index(26, -1);
-        
-        for(int i = 0; i<order.length(); i++)
-            index[order[i]-'a'] = i;
-        
-        
-        auto lambda = [&](char &ch1, char &ch2) {
-            return index[ch1-'a'] < index[ch2-'a'];
-        };
-        
-        sort(begin(str), end(str), lambda);
-        return str;
-        
-    }
-};
-
-//Approach-2 (Just making use of frequency of each char) : O(str.length())
+/********************************************************************* C++ *********************************************************************/
+//Approach-1 (Just making use of frequency of each char) : 
+//T.C : O(str.length())
+//S.C : O(26) ~ O(1)
 class Solution {
 public:
     string customSortString(string order, string str) {
@@ -68,7 +54,7 @@ public:
             }
         }
         
-        //Add the characters which are not present in order
+        //Add the characters which are not present in 'order'
         for(char &ch : str) {
             if(count[ch-'a'] > 0) {
                 result.push_back(ch);
@@ -79,8 +65,30 @@ public:
     }
 };
 
+//Approach-2 (Using comparator)
+//T.C : O(nlogn)
+//S.C : O(26) ~ O(1)
+class Solution {
+public:
+    string customSortString(string order, string str) {
+        vector<int> index(26, -1);
+        
+        for(int i = 0; i<order.length(); i++)
+            index[order[i]-'a'] = i;
+        
+        
+        auto lambda = [&index](char &ch1, char &ch2) {
+            return index[ch1-'a'] < index[ch2-'a'];
+        };
+        
+        sort(begin(str), end(str), lambda);
+        return str;
+        
+    }
+};
+
 /*What was actually asked in Facebook :
-NOTE : The original questions that was asked by Facebook was similar to
+FOLLOW UP NOTE : The original questions that was asked by Facebook was similar to
 this but there was one small variation that "The characters which don't
 occur in "str" must be sorted as per English Alphabet order".  In that case
 one slight change will do the job in comparator function below :
@@ -106,3 +114,65 @@ public:
         
     }
 };
+
+
+
+/********************************************************************* JAVA *********************************************************************/
+//Approach-1 (Just making use of frequency of each char) : 
+//T.C : O(str.length())
+//S.C : O(26) ~ O(1)
+public class Solution {
+    public String customSortString(String order, String str) {
+        int[] count = new int[26];
+
+        for (char x : str.toCharArray())
+            count[x - 'a']++;
+
+        StringBuilder result = new StringBuilder();
+        for (char ch : order.toCharArray()) {
+            while (count[ch - 'a']-- > 0) {
+                result.append(ch);
+            }
+        }
+
+        // Add the characters which are not present in 'order'
+        for (char ch : str.toCharArray()) {
+            if (count[ch - 'a'] > 0) {
+                result.append(ch);
+            }
+        }
+
+        return result.toString();
+    }
+}
+
+//Approach-2 (Using comparator)
+//T.C : O(nlogn)
+//S.C : O(26) ~ O(1)
+public class Solution {
+    public String customSortString(String order, String str) {
+        Integer[] index = new Integer[26];
+        Arrays.fill(index, -1);
+
+        // Map characters to their positions in 'order'
+        for (int i = 0; i < order.length(); i++)
+            index[order.charAt(i) - 'a'] = i;
+
+        Comparator<Character> lambda = (ch1, ch2) -> index[ch1 - 'a'].compareTo(index[ch2 - 'a']);
+
+        Character[] charArray = new Character[str.length()];
+        for (int i = 0; i < str.length(); i++) {
+            charArray[i] = str.charAt(i);
+        }
+
+        Arrays.sort(charArray, lambda);
+
+        // Convert Character array back to String
+        StringBuilder result = new StringBuilder(charArray.length);
+        for (char ch : charArray) {
+            result.append(ch);
+        }
+
+        return result.toString();
+    }
+}
