@@ -189,5 +189,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Techfest%20and%20the%20Queue.cpp"> Techfest and the Queue (GfG)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Find%20the%20Pivot%20Integer.cpp"> Find the Pivot Integer (Leetcode - 2485)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
