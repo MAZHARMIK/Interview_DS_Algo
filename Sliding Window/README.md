@@ -144,5 +144,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Smallest%20window%20containing%200%2C%201%20and%202.cpp"> Smallest window containing 0, 1 and 2 (GfG) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Binary%20Subarrays%20With%20Sum.cpp"> Binary Subarrays With Sum (Leetcode - 930) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
