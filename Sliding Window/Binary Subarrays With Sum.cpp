@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=5Quv9nnZs34
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/binary-subarrays-with-sum/
     Very Similar Problem        : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/88b737d2c211842753dee8b6299f0e9aa690dcf9/Arrays/Subarray%20Sums%20Divisible%20by%20K%20.cpp#L74
