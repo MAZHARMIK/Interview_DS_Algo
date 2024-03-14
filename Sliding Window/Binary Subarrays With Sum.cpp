@@ -20,14 +20,10 @@ public:
         
         int count   = 0;
         int currSum = 0;
-        
+        mp[0] = 1;
         for(int &num : nums) {
             
             currSum += num;
-            
-            if(currSum == goal) {
-                count++;
-            }
 
             if(mp.find(currSum - goal) != mp.end()) {
                 count += mp[currSum - goal];
@@ -96,14 +92,9 @@ class Solution1 {
         
         int count = 0;
         int currSum = 0;
-        
+        map.put(0, 1);
         for (int num : nums) {
             currSum += num;
-            
-            // If current sum is equal to the goal, increment count
-            if (currSum == goal) {
-                count++;
-            }
 
             // If there is a previous sum such that (current sum - previous sum) equals goal, increment count by the frequency of that previous sum
             if (mp.containsKey(currSum - goal)) {
