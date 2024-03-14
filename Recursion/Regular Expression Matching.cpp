@@ -1,9 +1,9 @@
 /*         Scroll down to see JAVA code also           */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=3vbBrl-LeDc
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/regular-expression-matching/
-    NOTE : A separate video will come in which we will solve this using DP. This is for Recursion playlist only
+    NOTE : A separate video will come in which we will solve this using DP (Botton Up). This is for Recursion playlist only
 */
 
 /********************************************************************** C++ **********************************************************************/
