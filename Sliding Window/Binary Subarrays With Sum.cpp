@@ -92,7 +92,7 @@ class Solution1 {
         
         int count = 0;
         int currSum = 0;
-        map.put(0, 1);
+        mp.put(0, 1);
         for (int num : nums) {
             currSum += num;
 
