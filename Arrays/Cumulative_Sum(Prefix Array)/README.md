@@ -59,5 +59,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Minimum%20Amount%20of%20Time%20to%20Collect%20Garbage.cpp"> Minimum Amount of Time to Collect Garbage (Leetcode-2391)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Contiguous%20Array.cpp"> Contiguous Array (Leetcode-525)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
