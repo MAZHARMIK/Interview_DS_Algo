@@ -18,5 +18,15 @@
                 <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Printing%20Longest%20Common%20Subsequence.cpp"> Printing Longest Common Subsequence (GfG) </a>
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Shortest%20Common%20Supersequence.cpp"> Shortest Common Supersequence (GfG) </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Print%20Shortest%20Common%20Supersequence.cpp"> Print Shortest Common Supersequence (Leetcode-1092) </a>
+            </td>
+        </tr>
     </tbody>
 </table>
