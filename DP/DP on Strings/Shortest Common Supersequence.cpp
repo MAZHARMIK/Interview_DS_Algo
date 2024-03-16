@@ -2,7 +2,7 @@
 /*
     MY YOUTUBE VIDEO ON THIS QN : 
     Company Tags                : Microsoft
-    Leetcode Link               : https://leetcode.com/problems/shortest-common-supersequence/
+    Leetcode Link               : https://www.geeksforgeeks.org/problems/shortest-common-supersequence0322/1
 */
 
 
