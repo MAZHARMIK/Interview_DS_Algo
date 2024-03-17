@@ -234,5 +234,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Earliest%20Second%20to%20Mark%20Indices%20I.cpp"> Earliest Second to Mark Indices I (Leetcode-3048)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Deletions%20to%20Make%20String%20K-Special.cpp"> Minimum Deletions to Make String K-Special (Leetcode-3085)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
