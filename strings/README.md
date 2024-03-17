@@ -277,5 +277,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Shortest%20Uncommon%20Substring%20in%20an%20Array.cpp"> Shortest Uncommon Substring in an Array (Leetcode-3076)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20Substrings%20Starting%20and%20Ending%20with%20Given%20Character.cpp"> Count Substrings Starting and Ending with Given Character (Leetcode-3084)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
