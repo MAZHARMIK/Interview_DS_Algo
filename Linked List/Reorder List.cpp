@@ -107,10 +107,7 @@ public:
     
     void reorderList(ListNode* head) {
         curr = head;
-        ListNode* temp = head;
         solve(head);
-        head = temp;
-        
     }
 };
 
@@ -214,8 +211,6 @@ class Solution {
 
     void reorderList(ListNode head) {
         curr = head;
-        ListNode temp = head;
         solve(head);
-        head = temp;
     }
 }
