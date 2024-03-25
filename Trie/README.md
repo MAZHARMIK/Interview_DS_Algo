@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Implement%20Trie%20(Prefix%20Tree).cpp">Implement Trie (Prefix Tree) (Leetcode-208)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Longest%20Common%20Suffix%20Queries.cpp"> Longest Common Suffix Queries (Suffix Tree) (Leetcode-3093)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
