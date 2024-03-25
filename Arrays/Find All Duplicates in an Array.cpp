@@ -1,6 +1,6 @@
 /*    Scroll below to see JAVA code also  */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=NqadCpaZnkk
     Company Tags                : Pocket Gems, Amazon, Meta
     Leetcode Link               : https://leetcode.com/problems/find-all-duplicates-in-an-array
 */
