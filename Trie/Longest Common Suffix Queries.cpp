@@ -1,6 +1,6 @@
 /*    Scroll below to see JAVA code also   */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=jZX2Z5DKR2M
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/longest-common-suffix-queries/
 */
