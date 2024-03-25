@@ -397,5 +397,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Number%20of%20Subarrays%20That%20Match%20a%20Pattern%20I%20and%20II.cpp"> Number of Subarrays That Match a Pattern I and II (Leetcode-3034 and Leetcode-3036)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20All%20Duplicates%20in%20an%20Array.cpp"> Find All Duplicates in an Array (Leetcode-442)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
