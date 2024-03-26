@@ -402,5 +402,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20All%20Duplicates%20in%20an%20Array.cpp"> Find All Duplicates in an Array (Leetcode-442)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/First%20Missing%20Positive.cpp"> Find Missing Positive (Leetcode-41)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
