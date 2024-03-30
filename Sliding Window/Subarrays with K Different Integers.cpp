@@ -1,7 +1,8 @@
 /* Scroll below to see JAVA code also  */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : Approach-1 -- https://www.youtube.com/watch?v=uJJSGxfzix8
-    Company Tags                : Will soon update
+                                  Approach-2 -- https://www.youtube.com/watch?v=0Kmbzm5nKqw
+    Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/subarrays-with-k-different-integers/
 */
 
