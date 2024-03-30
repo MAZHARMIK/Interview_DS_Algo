@@ -149,5 +149,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Binary%20Subarrays%20With%20Sum.cpp"> Binary Subarrays With Sum (Leetcode - 930) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Subarrays%20with%20K%20Different%20Integers.cpp"> Subarrays with K Different Integers (Leetcode - 992) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
