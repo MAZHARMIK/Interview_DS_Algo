@@ -1,6 +1,6 @@
 /* Scroll below to see JAVA code also  */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : Approach-1 -- https://www.youtube.com/watch?v=uJJSGxfzix8
     Company Tags                : Will soon update
     Leetcode Link               : https://leetcode.com/problems/subarrays-with-k-different-integers/
 */
