@@ -36,7 +36,7 @@ public:
 
 
 
-/****************************************** C++ ******************************************/
+/****************************************** JAVA ******************************************/
 //T.C : O(n)
 //S.C : O(1) -> Take array of size 256 to handle all ASCII characters instead of taking map
 class Solution {
@@ -61,3 +61,25 @@ class Solution {
         return true;
     }
 }
+
+
+
+
+
+
+// Approach 2(HashMap approach ) :- 
+class Solution {
+public boolean isIsomorphic(String s, String t) {
+    HashMap<Character, Integer> hm1 = new HashMap<>();
+    HashMap<Character, Integer> hm2 = new HashMap<>();
+
+    for (int i = 0; i < s.length(); i++)
+      if (hm1.put(s.charAt(i), i) != hm2.put(t.charAt(i), i))
+        return false;
+
+    return true;
+  }
+}
+
+
+
