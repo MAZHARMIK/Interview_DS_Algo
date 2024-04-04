@@ -3,6 +3,14 @@
 
 # Stack : :triangular_flag_on_post:
 
+# Arrays : :triangular_flag_on_post:
+<details>
+  <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics</summary>
+
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Stack/Easy">:file_folder:Leetcode Easy</a>
+  
+</details>
+
 <h1>Questions</h1>
 <table id = "example" class="SectionTable display" >
 		<thead>
