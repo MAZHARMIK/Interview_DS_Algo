@@ -2,8 +2,6 @@
 <img src="https://static.javatpoint.com/ds/images/ds-stack-introduction.png" width="600" height="250">
 
 # Stack : :triangular_flag_on_post:
-
-# Arrays : :triangular_flag_on_post:
 <details>
   <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics</summary>
 
