@@ -1,12 +1,15 @@
+/*    Scroll down to see JAVA code also    */
 /*
-                                                    "Most Asked in Year 2022"
-                                                    
+    MY YOUTUBE VIDEO ON THIS Qn : 
     Company Tags  : Facebook, Amazon, Bloomberg, Google, tiktok, Adobe
-    Frequency     : Facebook(111), Amazon(7), Bloomberg(4), Google(3), tiktok(2), Adobe(2)
+    Frequency     : Facebook(111), Amazon(7), Bloomberg(4), Google(3), tiktok(2), Adobe(2) - I got this information from my friends. Please verify
     Leetcode Link : https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
 */
 
+/***************************************************************************** C++ **********************************************************************/
 //Approach-1 (Using Stack and set)
+//T.C : O(n)
+//S.C : O(n)
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
@@ -48,6 +51,8 @@ public:
 
 
 //Approach-2 (Iterate from front and eliminate and then iterate from back and eliminate)
+//T.C : O(n)
+//S.C : O(n)
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
@@ -98,6 +103,8 @@ public:
 
 
 //Approach-3 (Simplified : Playing smart and keeping it simple)
+//T.C : O(n)
+//S.C : O(n)
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
@@ -128,3 +135,120 @@ public:
         return result;
     }
 };
+
+
+
+/***************************************************************************** C++ **********************************************************************/
+//Approach-1 (Using Stack and set)
+//T.C : O(n)
+//S.C : O(n)
+class Solution {
+    public String minRemoveToMakeValid(String s) {
+        int n = s.length();
+        
+        HashSet<Integer> toRemove = new HashSet<>();
+        Stack<Integer> st = new Stack<>();
+        
+        for(int i = 0; i < n; i++) {
+            char ch = s.charAt(i);
+            if(ch == '(') 
+                st.push(i);
+            else if(ch == ')') {
+                if(st.isEmpty()) 
+                    toRemove.add(i);
+                else 
+                    st.pop();
+            }
+        }
+        
+        while(!st.isEmpty()) 
+            toRemove.add(st.pop());
+        
+        StringBuilder result = new StringBuilder();
+        
+        for(int i = 0; i < n; i++) {
+            if(!toRemove.contains(i))
+                result.append(s.charAt(i));
+        }
+        
+        return result.toString();
+    }
+}
+
+
+//Approach-2 (Iterate from front and eliminate and then iterate from back and eliminate)
+//T.C : O(n)
+//S.C : O(n)
+class Solution {
+    public String minRemoveToMakeValid(String s) {
+        StringBuilder result = new StringBuilder();
+        int n = s.length();
+        
+        int lastOpen = 0;
+        for(int i = 0; i < n; i++) {
+            char c = s.charAt(i);
+            if(Character.isLetter(c)) 
+                result.append(c);
+            else if(c == '(') {
+                result.append(c);
+                lastOpen++;
+            } else if(lastOpen > 0) {
+                lastOpen--;
+                result.append(c);
+            }
+        }
+        
+        if(result.length() == 0)
+            return "";
+        
+        s = result.toString();
+        result = new StringBuilder();
+        int lastClose = 0;
+        n = s.length();
+        for(int i = n - 1; i >= 0; i--) {
+            char c = s.charAt(i);
+            if(Character.isLetter(c))
+                result.insert(0, c);
+            else if(c == ')') {
+                result.insert(0, c);
+                lastClose++;
+            } else if(lastClose > 0) {
+                lastClose--;
+                result.insert(0, c);
+            }
+        }
+        return result.toString();
+    }
+}
+
+
+//Approach-3 (Simplified : Playing smart and keeping it simple)
+//T.C : O(n)
+//S.C : O(n)
+class Solution {
+    public String minRemoveToMakeValid(String s) {
+        int open = 0;
+        StringBuilder temp = new StringBuilder();
+        
+        for(char c: s.toCharArray()) {
+            if(c == '(') 
+                open++;
+            else if(c == ')') {
+                if(open == 0)
+                    continue;
+                open--;
+            }
+            
+            temp.append(c);
+        }
+        
+        StringBuilder result = new StringBuilder();
+        for(int i = temp.length() - 1; i >= 0; i--) {
+            if(temp.charAt(i) == '(' && open-- > 0)
+                continue;
+            result.insert(0, temp.charAt(i));
+        }
+        
+        return result.toString();
+    }
+}
