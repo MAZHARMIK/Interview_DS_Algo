@@ -1,7 +1,7 @@
 /*          Scroll down to see JAVA code also         */
 /*
-        MY YOUTUBE VIDEO ON THIS Qn : 
-        Company Tags                : 
+        MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=fGKk7DtQAmM
+        Company Tags                : will update soon
         Leetcode Link               : https://leetcode.com/problems/shortest-common-supersequence/
 */
 
