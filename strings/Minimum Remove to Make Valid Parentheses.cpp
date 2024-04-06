@@ -1,6 +1,6 @@
 /*    Scroll down to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=NNxaYz0nrk0
     Company Tags  : Facebook, Amazon, Bloomberg, Google, tiktok, Adobe
     Frequency     : Facebook(111), Amazon(7), Bloomberg(4), Google(3), tiktok(2), Adobe(2) - I got this information from my friends. Please verify
     Leetcode Link : https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
