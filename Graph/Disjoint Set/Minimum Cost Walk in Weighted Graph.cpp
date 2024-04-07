@@ -1,6 +1,6 @@
 /*       Scroll below to see JAVA code also     */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=B3Wgf-g6i-k
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph/
 */
