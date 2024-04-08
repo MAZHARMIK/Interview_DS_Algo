@@ -10,14 +10,19 @@
 		</thead>
 		<tbody>
 			<tr>
-          <td>
+         			 <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Last%20Moment%20Before%20All%20Ants%20Fall%20Out%20of%20a%20Plank.cpp"> Last Moment Before All Ants Fall Out of a Plank (Leetcode-1503)</a>
 				  </td>
-      </tr>
-      <tr>
-          <td>
+      			</tr>
+      			<tr>
+          			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Find%20the%20Winner%20of%20an%20Array%20Game.cpp"> Find the Winner of an Array Game (Leetcode-1535)</a>
-				  </td>
-      </tr>
+				</td>
+      			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Number%20of%20Students%20Unable%20to%20Eat%20Lunch.cpp"> Number of Students Unable to Eat Lunch (Leetcode-1700)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
