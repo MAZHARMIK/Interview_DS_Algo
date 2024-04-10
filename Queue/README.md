@@ -13,5 +13,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Queue/Reverse%20First%20K%20elements%20of%20Queue.cpp"> Reverse First K elements of Queue (GFG)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Queue/Reveal%20Cards%20In%20Increasing%20Order.cpp"> Reveal Cards In Increasing Order (Leetcode - 950)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
