@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    Company Tags  : Snapchat, Microsoft, Google
+    Company Tags  : Snapchat, Microsoft, Google, Meta
     Leetcode Link : https://leetcode.com/problems/remove-k-digits/
 */
 
