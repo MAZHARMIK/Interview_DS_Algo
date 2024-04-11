@@ -107,7 +107,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Remove_K_Digits.cpp">Remove K Digits (Leetcode-402)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Remove%20K%20Digits.cpp">Remove K Digits (Leetcode-402)</a>
 				</td>
 			</tr>
 			<tr>
