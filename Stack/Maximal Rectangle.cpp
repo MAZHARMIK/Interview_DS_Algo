@@ -6,7 +6,7 @@
 
 /***************************************************** C++ ****************************************************/
 //Approach-1 (using NSL and NSR to find MAH (Maximum Area in Histogram)
-//T.C : O(row*col*col)
+//T.C : O(row*(col+col)) ~= O(row*col)
 //S.C : O(col)
 class Solution {
 public:
@@ -174,7 +174,7 @@ public:
 
 /***************************************************** JAVA ****************************************************/
 //Approach-1 (using NSL and NSR to find MAH (Maximum Area in Histogram)
-//T.C : O(row*col*col)
+//T.C : O(row*(col+col)) ~= O(row*col)
 //S.C : O(col)
 class Solution {
     public int[] NSR(int[] heights) {
