@@ -42,7 +42,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Maximal_Rectangle.cpp">Maximal Rectangle (2 approaches) (Leetcode - 85)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Maximal%20Rectangle.cpp">Maximal Rectangle (Leetcode - 85)</a>
 				</td>
 			</tr>
 			<tr>
