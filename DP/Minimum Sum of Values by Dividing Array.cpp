@@ -5,10 +5,10 @@
     Leetcode Link               : https://leetcode.com/problems/minimum-sum-of-values-by-dividing-array/
 */
 
-
 /***************************************************************** C++ *******************************************************/
-//T.C : O(
-//S.C : 
+//Approach - 1 (Recursion + Memoization)
+//T.C : O(n*11*log(max element in nums))
+//S.C : O(n*11*log(max element in nums))
 class Solution {
 public:
     int m;
@@ -66,10 +66,10 @@ public:
 };
 
 
-/***************************************************************** C++ *******************************************************/
-//Approach - Recursion + Memoization
-//T.C : O(m*n*11)
-//S.C : O(m*n*11)
+/***************************************************************** JAVA *******************************************************/
+//Approach - 1 (Recursion + Memoization)
+//T.C : O(n*11*log(max element in nums))
+//S.C : O(n*11*log(max element in nums))
 class Solution {
     int m;
     int n;
