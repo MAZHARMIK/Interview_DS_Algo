@@ -11,42 +11,50 @@
 //S.C : O(n*11*log(max element in nums))
 class Solution {
 public:
-    int m;
     int n;
+    int m;
     
-    vector<vector<unordered_map<int,int>>> dp;
+    vector<vector<unordered_map<int, int>>> dp;
     
-    int helper(vector<int>& nums, vector<int>& andValues, int i, int j, int AndVal) {
-        if(i >= m){
-            if(j >= n) 
+    int solve(vector<int>& nums, vector<int>& andValues, int i, int j, int andOp) {
+        
+        if(i >= n) {
+            if(j >= m) {
                 return 0;
-            else //invalid case
+            } else {
                 return 1e9;
-        } else if(j >= n) {
+            }
+        } else if(j >= m) {
             return 1e9;
         }
         
-        if(dp[i][j].count(AndVal)) 
-            return dp[i][j][AndVal];
-
-        int inclu = 1e9;
-        
-        if((AndVal & nums[i]) == andValues[j]) {
-            inclu = nums[i] + helper(nums, andValues, i+1, j+1, ((1<<17)-1));
+        if(dp[i][j].count(andOp)) {
+            return dp[i][j][andOp];
         }
         
-        int exclu = helper(nums, andValues, i+1, j, (AndVal&nums[i]));
-
-        return dp[i][j][AndVal] = min(inclu, exclu);
+        int take_i = 1e9;
+        
+        if((andOp & nums[i]) == andValues[j]) {
+            take_i = nums[i] + solve(nums, andValues, i+1, j+1, ((1<<17)-1));
+        }
+        
+        int not_take_i = solve(nums, andValues, i+1, j, (andOp & nums[i]));
+        
+        
+        return dp[i][j][andOp] = min(take_i, not_take_i);
+        
     }
     
     int minimumValueSum(vector<int>& nums, vector<int>& andValues) {
-        m = nums.size();
-        n = andValues.size();
+        n = nums.size();
         
-        dp.resize(m+1, vector<unordered_map<int,int>>(11));
-        /*
-            Why (1<<7 - 1) is the initial value of AndVal ?
+        m = andValues.size();
+        
+        dp.resize(n+1, vector<unordered_map<int, int>>(11));
+        
+        int result = solve(nums, andValues, 0, 0, ((1<<17)-1));
+         /*
+            Why (1<<1 7 - 1) is the initial value of AndVal ?
             Because we need an initial value which doesn't impact the first number.
             We can't take 1 because this will impact the And operation result.
             So we need an initial value which will not impact the first number And operation
@@ -54,14 +62,11 @@ public:
             Now, 0 <= andValues[j] < 10^5
             So, 10^5 can be represented in binary as 11000011010100000 (17 bits)
             So, I have tried to keep AndVal initial value as "11111111111111111" (17 bits)
-            You can create this using trick - [(1 << 17)-1]
-        */
-        int ans = helper(nums, andValues, 0, 0, ((1<<17)-1));
-
-        if(ans == 1e9) 
-            return -1;
+            You can create this using trick - [(1 << 17)-1] 
+        */ 
         
-        return ans;
+        
+        return result == 1e9 ? -1 : result;
     }
 };
 
@@ -76,13 +81,13 @@ class Solution {
     
     Map<Integer, Integer>[][] dp;
     
-    int helper(int[] nums, int[] andValues, int i, int j, int AndVal) {
-        if(i >= m){
-            if(j >= n) 
+    int solve(int[] nums, int[] andValues, int i, int j, int AndVal) {
+        if(i >= n){
+            if(j >= m) 
                 return 0;
             else //invalid case
                 return (int)1e9;
-        } else if(j >= n) {
+        } else if(j >= m) {
             return (int)1e9;
         }
         
@@ -92,10 +97,10 @@ class Solution {
         int inclu = (int)1e9;
         
         if((AndVal & nums[i]) == andValues[j]) {
-            inclu = nums[i] + helper(nums, andValues, i+1, j+1, ((1<<17)-1));
+            inclu = nums[i] + solve(nums, andValues, i+1, j+1, ((1<<17)-1));
         }
         
-        int exclu = helper(nums, andValues, i+1, j, (AndVal&nums[i]));
+        int exclu = solve(nums, andValues, i+1, j, (AndVal&nums[i]));
 
         int result = Math.min(inclu, exclu);
         if (dp[i][j] == null) {
@@ -106,10 +111,10 @@ class Solution {
     }
     
     int minimumValueSum(int[] nums, int[] andValues) {
-        m = nums.length;
-        n = andValues.length;
+        n = nums.length;
+        m = andValues.length;
         
-        dp = new HashMap[m+1][11];
+        dp = new HashMap[n+1][11];
         /*
             Why (1<<7 - 1) is the initial value of AndVal ?
             Because we need an initial value which doesn't impact the first number.
@@ -121,7 +126,7 @@ class Solution {
             So, I have tried to keep AndVal initial value as "11111111111111111" (17 bits)
             You can create this using trick - [(1 << 17)-1]
         */
-        int ans = helper(nums, andValues, 0, 0, ((1<<17)-1));
+        int ans = solve(nums, andValues, 0, 0, ((1<<17)-1));
 
         if(ans == (int)1e9) 
             return -1;
