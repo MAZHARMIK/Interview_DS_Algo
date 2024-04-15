@@ -35,7 +35,7 @@ public:
         int take_i = 1e9;
         
         if((andOp & nums[i]) == andValues[j]) {
-            take_i = nums[i] + solve(nums, andValues, i+1, j+1, ((1<<17)-1));
+            take_i = nums[i] + solve(nums, andValues, i+1, j+1, ((1<<17)-1)); //You can pass -1 as well for initial value of andOp
         }
         
         int not_take_i = solve(nums, andValues, i+1, j, (andOp & nums[i]));
@@ -52,7 +52,7 @@ public:
         
         dp.resize(n+1, vector<unordered_map<int, int>>(11));
         
-        int result = solve(nums, andValues, 0, 0, ((1<<17)-1));
+        int result = solve(nums, andValues, 0, 0, ((1<<17)-1)); //You can pass -1 as well for initial value of andOp
          /*
             Why (1<<1 7 - 1) is the initial value of AndVal ?
             Because we need an initial value which doesn't impact the first number.
@@ -97,7 +97,7 @@ class Solution {
         int inclu = (int)1e9;
         
         if((AndVal & nums[i]) == andValues[j]) {
-            inclu = nums[i] + solve(nums, andValues, i+1, j+1, ((1<<17)-1));
+            inclu = nums[i] + solve(nums, andValues, i+1, j+1, ((1<<17)-1)); //You can pass -1 as well for initial value of andOp
         }
         
         int exclu = solve(nums, andValues, i+1, j, (AndVal&nums[i]));
@@ -126,7 +126,7 @@ class Solution {
             So, I have tried to keep AndVal initial value as "11111111111111111" (17 bits)
             You can create this using trick - [(1 << 17)-1]
         */
-        int ans = solve(nums, andValues, 0, 0, ((1<<17)-1));
+        int ans = solve(nums, andValues, 0, 0, ((1<<17)-1)); //You can pass -1 as well for initial value of andOp
 
         if(ans == (int)1e9) 
             return -1;
