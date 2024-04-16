@@ -1,10 +1,14 @@
+/*     Scroll below to see JAVA code also        */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Za2OFfRLp70
     Company Tags  : Google
     Leetcode Link : https://leetcode.com/problems/add-one-row-to-tree/
 */
 
+/********************************************* C++ ****************************************/
 //Approach-1 : Using DFS
+//T.C : O(n)
+//S.C : O(1) Auxiliary Space, O(depth) system stack space of recursion
 class Solution {
 public:
     
@@ -42,6 +46,8 @@ public:
 };
 
 //Approach-2 : Using BFS
+//T.C : O(n)
+//S.C : O(n)
 class Solution {
 public:
     TreeNode* addOneRow(TreeNode* root, int v, int d) {
@@ -82,3 +88,84 @@ public:
         return root;
     }
 };
+
+
+/********************************************* JAVA ********************************************/
+//Approach-1 : Using DFS
+//T.C : O(n)
+//S.C : O(1) Auxiliary Space, O(depth) system stack space of recursion
+public class Solution {
+    public TreeNode add(TreeNode root, int val, int depth, int curr) {
+        if (root == null)
+            return null;
+
+        if (curr == depth - 1) {
+            TreeNode lTemp = root.left;
+            TreeNode rTemp = root.right;
+
+            root.left = new TreeNode(val);
+            root.right = new TreeNode(val);
+            root.left.left = lTemp;
+            root.right.right = rTemp;
+
+            return root;
+        }
+
+        root.left = add(root.left, val, depth, curr + 1);
+        root.right = add(root.right, val, depth, curr + 1);
+
+        return root;
+    }
+
+    public TreeNode addOneRow(TreeNode root, int val, int depth) {
+        if (depth == 1) {
+            TreeNode newRoot = new TreeNode(val);
+            newRoot.left = root;
+            return newRoot;
+        }
+
+        return add(root, val, depth, 1);
+    }
+}
+
+
+
+//Approach-2 : Using BFS
+//T.C : O(n)
+//S.C : O(n)
+public class Solution {
+    public TreeNode addOneRow(TreeNode root, int v, int d) {
+        if (d == 1) {
+            TreeNode newRoot = new TreeNode(v);
+            newRoot.left = root;
+            return newRoot;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        int level = 0;
+        boolean rowAdded = false;
+        while (!queue.isEmpty()) {
+            int n = queue.size();
+            level++;
+            while (n-- > 0) {
+                TreeNode curr = queue.poll();
+                TreeNode tempL = curr.left;
+                TreeNode tempR = curr.right;
+                if (level == d - 1) {
+                    curr.left = new TreeNode(v);
+                    curr.right = new TreeNode(v);
+                    curr.left.left = tempL;
+                    curr.right.right = tempR;
+                    rowAdded = true;
+                }
+                if (tempL != null)
+                    queue.add(tempL);
+                if (tempR != null)
+                    queue.add(tempR);
+            }
+            if (rowAdded)
+                break;
+        }
+        return root;
+    }
+}
