@@ -444,5 +444,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Even%20Odd%20Tree.cpp"> Even Odd Tree (Leetcode-1609)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Smallest%20String%20Starting%20From%20Leaf.cpp"> Smallest String Starting From Leaf (Leetcode-988)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
