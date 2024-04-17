@@ -1,6 +1,6 @@
 /*     Scroll down to see JAVA code also  */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=SX7dC8htok0
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/smallest-string-starting-from-leaf/
     Similar Qn                  : https://leetcode.com/problems/sum-root-to-leaf-numbers/description/
