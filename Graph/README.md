@@ -77,7 +77,7 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number_of_Islands.cpp">Number of Islands (DFS, BFS) (Leetcode-200)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Number%20of%20Islands.cpp">Number of Islands (Leetcode-200)</a>
 				</td>
 			</tr>
 			<tr>
