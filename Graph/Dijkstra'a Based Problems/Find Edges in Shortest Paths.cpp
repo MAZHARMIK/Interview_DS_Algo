@@ -6,7 +6,7 @@
 */
 
 /**************************************************** C++ *******************************************/
-//Using DIjkstra's
+//Using Dijkstra's
 //T.C : O(n+E) , where n = number of vertices, E = number of edges
 //S.C : O(n)
 class Solution {
@@ -14,7 +14,7 @@ public:
     typedef long long ll;
     typedef pair<ll, ll> P;
     
-    vector<int> getShortestPath(vector<vector<P>>& graph, int src, int n) {
+    vector<int> getShortestPath(vector<vector<P>>& adj, int src, int n) {
         priority_queue<P, vector<P>, greater<P>> pq;
         
         vector<int> dist(n, INT_MAX);
@@ -30,7 +30,7 @@ public:
             pq.pop();
 
 
-            for(auto adj: graph[currNode]) {
+            for(auto adj: adj[currNode]) {
                 int nextNode = adj.first;
                 ll nextWt = adj.second;
 
@@ -46,24 +46,26 @@ public:
     }
 
     vector<bool> findAnswer(int n, vector<vector<int>>& edges) {
-        vector<vector<P>> graph(n);
+        int E = edges.size();
         
-        for(auto edge: edges) {
-            graph[edge[0]].push_back({edge[1], edge[2]});
-            graph[edge[1]].push_back({edge[0], edge[2]});
+        vector<vector<P>> adj(n);
+        
+        for(auto& edge: edges) {
+            int u = edge[0];
+            int v = edge[1];
+            int w = edge[2];
+            
+            adj[u].push_back({v, w});
+            adj[v].push_back({u, w});
         }
         
-        vector<int> fromSrc = getShortestPath(graph, 0, n);
-        vector<int> fromEnd = getShortestPath(graph, n - 1, n);         
+        vector<int> fromSrc = getShortestPath(adj, 0, n);
+        vector<int> fromEnd = getShortestPath(adj, n - 1, n);         
            
         
-        vector<bool> res(edges.size(), false);
-        for(int i = 0 ; i < edges.size() ; i++) {  
-            //          a         w         b
-            //    src ----- (x) ----- (y) ----- dest
+        vector<bool> res(E, false);
+        for(int i = 0 ; i < E ; i++) {  
 
-            // the edges are undirected, hence try both ways            
-            // considering edges[i][0] to be x and edges[i][1] to be y
             ll distFromStart = fromSrc[edges[i][0]];
             ll distFromEnd = fromEnd[edges[i][1]];
             ll w = edges[i][2];
@@ -73,7 +75,6 @@ public:
                 continue;
             }
             
-            // considering edges[i][0] to be y and edges[i][1] to be x
             distFromStart = fromSrc[edges[i][1]];
             distFromEnd = fromEnd[edges[i][0]];
             
@@ -87,86 +88,96 @@ public:
 
 
 
+
 /**************************************************** JAVA *******************************************/
-//Using DIjkstra's
+//Using Dijkstra's
 //T.C : O(n+E) , where n = number of vertices, E = number of edges
 //S.C : O(n)
 import java.util.*;
 
 class Solution {
-
-    class Pair {
+    static class Pair implements Comparable<Pair> {
         long first;
         long second;
-        
-        Pair(long first, long second) {
+
+        public Pair(long first, long second) {
             this.first = first;
             this.second = second;
         }
+
+        public int compareTo(Pair other) {
+            return Long.compare(this.first, other.first);
+        }
     }
-    
-    public long[] getShortestPath(List<List<Pair>> graph, int src, int n) {
-        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> Long.compare(a.first, b.first));
-        
-        long[] dist = new long[n];
+
+    public int[] getShortestPath(List<List<Pair>> adj, int src, int n) {
+        PriorityQueue<Pair> pq = new PriorityQueue<>(Comparator.comparingLong(p -> p.first));
+
+        int[] dist = new int[n];
         Arrays.fill(dist, Integer.MAX_VALUE);
-        
+
         dist[src] = 0;
-        
+
         pq.offer(new Pair(0, src));
-        
+
         while (!pq.isEmpty()) {
             long currWt = pq.peek().first;
             int currNode = (int) pq.peek().second;
             pq.poll();
-            
-            for (Pair adj : graph.get(currNode)) {
-                int nextNode = (int) adj.first;
-                long nextWt = adj.second;
-                
+
+            for (Pair next : adj.get(currNode)) {
+                int nextNode = (int) next.first;
+                long nextWt = next.second;
+
                 if (dist[nextNode] > currWt + nextWt) {
-                    dist[nextNode] = currWt + nextWt;
+                    dist[nextNode] = (int) (currWt + nextWt);
                     pq.offer(new Pair(currWt + nextWt, nextNode));
                 }
             }
         }
-        
+
         return dist;
     }
 
     public boolean[] findAnswer(int n, int[][] edges) {
-        List<List<Pair>> graph = new ArrayList<>();
+        int E = edges.length;
+
+        List<List<Pair>> adj = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            graph.add(new ArrayList<>());
+            adj.add(new ArrayList<>());
         }
-        
+
         for (int[] edge : edges) {
-            graph.get(edge[0]).add(new Pair(edge[1], edge[2]));
-            graph.get(edge[1]).add(new Pair(edge[0], edge[2]));
+            int u = edge[0];
+            int v = edge[1];
+            int w = edge[2];
+
+            adj.get(u).add(new Pair(v, w));
+            adj.get(v).add(new Pair(u, w));
         }
-        
-        long[] fromSrc = getShortestPath(graph, 0, n);
-        long[] fromEnd = getShortestPath(graph, n - 1, n);         
-        
-        boolean[] res = new boolean[edges.length];
-        for (int i = 0; i < edges.length; i++) {  
-            long distFromStart = fromSrc[edges[i][0]];
-            long distFromEnd = fromEnd[edges[i][1]];
-            long w = edges[i][2];
-            
+
+        int[] fromSrc = getShortestPath(adj, 0, n);
+        int[] fromEnd = getShortestPath(adj, n - 1, n);
+
+        boolean[] res = new boolean[E];
+        for (int i = 0; i < E; i++) {
+            int distFromStart = fromSrc[edges[i][0]];
+            int distFromEnd = fromEnd[edges[i][1]];
+            int w = edges[i][2];
+
             if (distFromStart + distFromEnd + w == fromSrc[n - 1]) {
                 res[i] = true;
                 continue;
             }
-            
+
             distFromStart = fromSrc[edges[i][1]];
             distFromEnd = fromEnd[edges[i][0]];
-            
-            if (distFromStart + distFromEnd + w == fromSrc[n - 1])
+
+            if (distFromStart + distFromEnd + w == fromSrc[n - 1]) {
                 res[i] = true;
+            }
         }
-        
+
         return res;
     }
 }
-
