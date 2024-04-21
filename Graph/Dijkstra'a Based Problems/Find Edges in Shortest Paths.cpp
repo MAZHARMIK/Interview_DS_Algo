@@ -103,7 +103,7 @@ public:
 /**************************************************** JAVA *******************************************/
 //Using Dijkstra's
 //T.C : O(n+E) , where n = number of vertices, E = number of edges
-//S.C : O(n)
+//S.C : O(n+E)
 class Solution {
     static class Pair implements Comparable<Pair> {
         long first;
