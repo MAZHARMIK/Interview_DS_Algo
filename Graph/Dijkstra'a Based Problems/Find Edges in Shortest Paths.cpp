@@ -14,7 +14,7 @@ public:
     typedef long long ll;
     typedef pair<ll, ll> P;
     
-    vector<int> dijkstra(vector<vector<P>>& adj, int src, int n) {
+    vector<int> dijkstra(unordered_map<int, vector<P>>& adj, int src, int n) {
         priority_queue<P, vector<P>, greater<P>> pq;
         
         vector<int> dist(n, INT_MAX);
@@ -29,10 +29,9 @@ public:
             int currNode = pq.top().second;
             pq.pop();
 
-
-            for(auto adj: adj[currNode]) {
-                int nextNode = adj.first;
-                ll nextWt = adj.second;
+            for(auto adjPair: adj[currNode]) {
+                int nextNode = adjPair.first;
+                ll nextWt = adjPair.second;
 
                 if(dist[nextNode] > currWt + nextWt) {
                     dist[nextNode] = currWt + nextWt;
@@ -48,7 +47,7 @@ public:
     vector<bool> findAnswer(int n, vector<vector<int>>& edges) {
         int E = edges.size();
         
-        vector<vector<P>> adj(n);
+        unordered_map<int, vector<P>> adj;
         
         for(auto& edge: edges) {
             int u = edge[0];
@@ -93,8 +92,6 @@ public:
 //Using Dijkstra's
 //T.C : O(n+E) , where n = number of vertices, E = number of edges
 //S.C : O(n)
-import java.util.*;
-
 class Solution {
     static class Pair implements Comparable<Pair> {
         long first;
