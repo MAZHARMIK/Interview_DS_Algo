@@ -407,5 +407,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/First%20Missing%20Positive.cpp"> Find Missing Positive (Leetcode-41)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20All%20Groups%20of%20Farmland.cpp"> Find All Groups of Farmland (Leetcode-1992)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
