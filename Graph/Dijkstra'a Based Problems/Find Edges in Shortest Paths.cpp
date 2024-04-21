@@ -14,7 +14,7 @@ public:
     typedef long long ll;
     typedef pair<ll, ll> P;
     
-    vector<int> getShortestPath(vector<vector<P>>& adj, int src, int n) {
+    vector<int> dijkstra(vector<vector<P>>& adj, int src, int n) {
         priority_queue<P, vector<P>, greater<P>> pq;
         
         vector<int> dist(n, INT_MAX);
@@ -59,8 +59,8 @@ public:
             adj[v].push_back({u, w});
         }
         
-        vector<int> fromSrc = getShortestPath(adj, 0, n);
-        vector<int> fromEnd = getShortestPath(adj, n - 1, n);         
+        vector<int> fromSrc = dijkstra(adj, 0, n);
+        vector<int> fromEnd = dijkstra(adj, n - 1, n);         
            
         
         vector<bool> res(E, false);
@@ -110,7 +110,7 @@ class Solution {
         }
     }
 
-    public int[] getShortestPath(List<List<Pair>> adj, int src, int n) {
+    public int[] dijkstra(List<List<Pair>> adj, int src, int n) {
         PriorityQueue<Pair> pq = new PriorityQueue<>(Comparator.comparingLong(p -> p.first));
 
         int[] dist = new int[n];
@@ -156,8 +156,8 @@ class Solution {
             adj.get(v).add(new Pair(u, w));
         }
 
-        int[] fromSrc = getShortestPath(adj, 0, n);
-        int[] fromEnd = getShortestPath(adj, n - 1, n);
+        int[] fromSrc = dijkstra(adj, 0, n);
+        int[] fromEnd = dijkstra(adj, n - 1, n);
 
         boolean[] res = new boolean[E];
         for (int i = 0; i < E; i++) {
