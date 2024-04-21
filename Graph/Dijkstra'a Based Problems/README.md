@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Path%20with%20Maximum%20Probability.cpp"> Path with Maximum Probability (Leetcode-1514)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Find%20Edges%20in%20Shortest%20Paths.cpp"> Find Edges in Shortest Paths (Leetcode-3123)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
