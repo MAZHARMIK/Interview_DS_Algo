@@ -20,6 +20,7 @@ class Solution
 
 		result[S] = 0;
 		pq.push({0, S});
+		//NOTE - You can add a visited vector to avoid revisiting a node again and again. It will reduce the time complexity.
 
 		while(!pq.empty()) {
 
