@@ -137,7 +137,7 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Open_the_Lock.cpp">Open the Lock (Leetcode-752)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Open%20the%20Lock.cpp">Open the Lock (Leetcode-752)</a>
 				</td>
 			</tr>
 			<tr>
