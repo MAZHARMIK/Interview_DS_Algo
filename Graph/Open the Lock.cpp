@@ -5,8 +5,11 @@
     Company Tags                 : META
     Leetcode Link                : https://leetcode.com/problems/open-the-lock/
     
-    Similar Question : Word Ladder ( Microsoft, Amazon ) : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Word_Ladder.cpp
-                       Print all Jumping Numbers smaller than or equal to a given value (https://www.geeksforgeeks.org/print-all-jumping-numbers-smaller-than-or-equal-to-a-given-value/)
+    Similar Question :  1. Word Ladder (Leetcode) 
+                        2. Gene Mutation (Leetcode)
+                        3. Sequential Digits (Leetcode)
+                        4. Print all Jumping Numbers smaller than or equal to a given value (GFG)
+                        
     
 */
 
