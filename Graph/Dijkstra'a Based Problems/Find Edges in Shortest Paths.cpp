@@ -104,43 +104,50 @@ public:
 //Using Dijkstra's
 //T.C : O(n+E) , where n = number of vertices, E = number of edges
 //S.C : O(n+E)
-class Solution {
-    static class Pair implements Comparable<Pair> {
+import java.util.*;
+
+public class Solution {
+    class Pair {
         long first;
         long second;
-
+        
         public Pair(long first, long second) {
             this.first = first;
             this.second = second;
         }
-
-        public int compareTo(Pair other) {
-            return Long.compare(this.first, other.first);
-        }
     }
 
-    public int[] dijkstra(List<List<Pair>> adj, int src, int n) {
-        PriorityQueue<Pair> pq = new PriorityQueue<>(Comparator.comparingLong(p -> p.first));
-
-        int[] dist = new int[n];
+    public long[] dijkstra(HashMap<Integer, ArrayList<Pair>> adj, int src, int n) {
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> Long.compare(a.first, b.first));
+        long[] dist = new long[n];
+        boolean[] visited = new boolean[n];
         Arrays.fill(dist, Integer.MAX_VALUE);
-
+        
         dist[src] = 0;
-
-        pq.offer(new Pair(0, src));
+        pq.add(new Pair(0, src));
 
         while (!pq.isEmpty()) {
-            long currWt = pq.peek().first;
-            int currNode = (int) pq.peek().second;
-            pq.poll();
+            Pair top = pq.poll();
+            long currWt = top.first;
+            int currNode = (int) top.second;
 
-            for (Pair next : adj.get(currNode)) {
-                int nextNode = (int) next.first;
-                long nextWt = next.second;
+            if (visited[currNode]) {
+                continue;
+            }
+
+            visited[currNode] = true;
+
+            if (!adj.containsKey(currNode)) {
+                continue; // Skip if there are no neighbors for this node
+            }
+
+            for (Pair neighbor : adj.get(currNode)) {
+                int nextNode = (int) neighbor.first;
+                long nextWt = neighbor.second;
 
                 if (dist[nextNode] > currWt + nextWt) {
-                    dist[nextNode] = (int) (currWt + nextWt);
-                    pq.offer(new Pair(currWt + nextWt, nextNode));
+                    dist[nextNode] = currWt + nextWt;
+                    pq.add(new Pair(dist[nextNode], nextNode));
                 }
             }
         }
@@ -151,42 +158,45 @@ class Solution {
     public boolean[] findAnswer(int n, int[][] edges) {
         int E = edges.length;
 
-        List<List<Pair>> adj = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            adj.add(new ArrayList<>());
-        }
-
+        HashMap<Integer, ArrayList<Pair>> adj = new HashMap<>();
         for (int[] edge : edges) {
             int u = edge[0];
             int v = edge[1];
             int w = edge[2];
 
+            if (!adj.containsKey(u))
+                adj.put(u, new ArrayList<>());
+            if (!adj.containsKey(v))
+                adj.put(v, new ArrayList<>());
+
             adj.get(u).add(new Pair(v, w));
             adj.get(v).add(new Pair(u, w));
         }
 
-        int[] fromSrc = dijkstra(adj, 0, n);
-        int[] fromEnd = dijkstra(adj, n - 1, n);
+        long[] fromSrc = dijkstra(adj, 0, n);
+        long[] fromDest = dijkstra(adj, n - 1, n);
 
-        boolean[] res = new boolean[E];
+        boolean[] result = new boolean[E];
+
         for (int i = 0; i < E; i++) {
-            int distFromStart = fromSrc[edges[i][0]];
-            int distFromEnd = fromEnd[edges[i][1]];
+            int u = edges[i][0];
+            int v = edges[i][1];
             int w = edges[i][2];
 
-            if (distFromStart + distFromEnd + w == fromSrc[n - 1]) {
-                res[i] = true;
-                continue;
+            long distFromSrc = fromSrc[u]; // x
+            long distFromDest = fromDest[v]; // y
+
+            if (distFromSrc + w + distFromDest == fromSrc[n - 1]) {
+                result[i] = true;
             }
 
-            distFromStart = fromSrc[edges[i][1]];
-            distFromEnd = fromEnd[edges[i][0]];
-
-            if (distFromStart + distFromEnd + w == fromSrc[n - 1]) {
-                res[i] = true;
+            distFromSrc = fromSrc[v]; // x
+            distFromDest = fromDest[u]; // y
+            if (distFromSrc + w + distFromDest == fromSrc[n - 1]) {
+                result[i] = true;
             }
         }
 
-        return res;
+        return result;
     }
 }
