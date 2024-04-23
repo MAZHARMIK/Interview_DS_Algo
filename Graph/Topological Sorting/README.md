@@ -57,5 +57,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Parallel%20Courses%20III.cpp"> Parallel Courses III (Leetcode-2050)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Minimum%20Height%20Trees.cpp"> Minimum Height Trees (Leetcode-310)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
