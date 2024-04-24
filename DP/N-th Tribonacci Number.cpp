@@ -36,8 +36,9 @@ public:
 //T.C : O(n)
 //S.C : O(n)  (But size of t is 38 which is constant hence O(1))
 class Solution {
-    public int tribonacci(int n) {
-        int[] t = new int[38];
+public:
+    int tribonacci(int n) {
+        int t[38];
 
         t[0] = 0;
         t[1] = 1;
@@ -49,7 +50,7 @@ class Solution {
         
         return t[n];
     }
-}
+};
 
 
 //APproach-3 (Using constant space)
