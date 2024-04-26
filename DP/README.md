@@ -402,6 +402,11 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Falling%20Path%20Sum%20II.cpp">Minimum Falling Path Sum II (Leetcode-1289)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/01%20Matrix.cpp">01 Matrix (Leetcode-542)</a>
 				</td>
 			</tr>
