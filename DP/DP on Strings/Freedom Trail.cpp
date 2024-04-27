@@ -16,10 +16,11 @@ class Solution {
 public:
     int t[101][101];
     
-    int countSteps(int curr, int next, int ringLength) {
-        int stepsBetween = abs(curr - next);
-        int stepsAround = ringLength - stepsBetween;
-        return min(stepsBetween, stepsAround);
+    int countSteps(int ringIndex, int i, int n) {
+        int dist       = abs(i - ringIndex);
+        int wrapAround =  n - dist;
+        
+        return min(dist, wrapAround);
     }
     
     int solve(int ringIndex, int keyIndex, string& ring, string& key) {
@@ -57,10 +58,11 @@ public:
 //State Def - t[ringIndex][keyIndex] = minimum number of steps to get key[keyIndex] when the ring[ringIndex] is aligned with the "12:00" position.
 class Solution {
 public:
-    int countSteps(int curr, int next, int ringLength) {
-        int stepsBetween = abs(curr - next);
-        int stepsAround = ringLength - stepsBetween;
-        return min(stepsBetween, stepsAround);
+    int countSteps(int ringIndex, int i, int n) {
+        int dist       = abs(i - ringIndex);
+        int wrapAround =  n - dist;
+        
+        return min(dist, wrapAround);
     }
     
     int findRotateSteps(string ring, string key) {
@@ -102,11 +104,12 @@ public:
 //S.C : O(101*101) ~ O(1)
 public class Solution {
     private int[][] t = new int[101][101];
-    
-    private int countSteps(int curr, int next, int ringLength) {
-        int stepsBetween = Math.abs(curr - next);
-        int stepsAround = ringLength - stepsBetween;
-        return Math.min(stepsBetween, stepsAround);
+
+    int countSteps(int ringIndex, int i, int n) {
+        int dist       = Math.abs(i - ringIndex);
+        int wrapAround =  n - dist;
+        
+        return Math.min(dist, wrapAround);
     }
     
     private int solve(int ringIndex, int keyIndex, String ring, String key) {
@@ -145,10 +148,11 @@ public class Solution {
 //S.C : O(n*m)
 //State Def - t[ringIndex][keyIndex] = minimum number of steps to get key[keyIndex] when the ring[ringIndex] is aligned with the "12:00" position.
 public class Solution {
-    public int countSteps(int curr, int next, int ringLength) {
-        int stepsBetween = Math.abs(curr - next);
-        int stepsAround = ringLength - stepsBetween;
-        return Math.min(stepsBetween, stepsAround);
+    int countSteps(int ringIndex, int i, int n) {
+        int dist       = Math.abs(i - ringIndex);
+        int wrapAround =  n - dist;
+        
+        return Math.min(dist, wrapAround);
     }
     
     public int findRotateSteps(String ring, String key) {
