@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Find%20Edges%20in%20Shortest%20Paths.cpp"> Find Edges in Shortest Paths (Leetcode-3123)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Freedom%20Trail.cpp"> Freedom Trail (Leetcode-514)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
