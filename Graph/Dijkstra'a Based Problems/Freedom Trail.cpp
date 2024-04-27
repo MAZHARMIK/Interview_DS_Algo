@@ -25,7 +25,7 @@ public:
         int m = key.length();
         
         unordered_map<char, vector<int>> adj; // char --> {indices in ring where char is present}
-        for (int i = 0; i < ring.length(); i++) {
+        for (int i = 0; i < n; i++) {
             char ch = ring[i];
             adj[ch].push_back(i);
         }
@@ -39,9 +39,10 @@ public:
         while (!pq.empty()) {
             vector<int> vec = pq.top();
             pq.pop();
-            totalSteps = vec[0];
+            
+            totalSteps    = vec[0];
             int ringIndex = vec[1];
-            int keyIndex = vec[2];
+            int keyIndex  = vec[2];
             
             if (keyIndex == m) {
                 break;
@@ -63,7 +64,6 @@ public:
     }
 };
 
-
 /************************************************************ JAVA ************************************************/
 //Approach (Using DIjkstra's)
 //T.C : O(nm log(nm)) where n = length of ring, m = length of keyword. n*m = maximum number of pairs we visit is the number of unique possible pairs and push and pop
@@ -84,7 +84,7 @@ public class Solution {
         int m = key.length();
         
         Map<Character, List<Integer>> adj = new HashMap<>(); // char --> {indices in ring where char is present}
-        for (int i = 0; i < ring.length(); i++) {
+        for (int i = 0; i < n; i++) {
             char ch = ring.charAt(i);
             if (!adj.containsKey(ch)) {
                 adj.put(ch, new ArrayList<>());
@@ -100,9 +100,10 @@ public class Solution {
         int totalSteps = 0;
         while (!pq.isEmpty()) {
             int[] vec = pq.poll();
-            totalSteps = vec[0];
+            
+            totalSteps    = vec[0];
             int ringIndex = vec[1];
-            int keyIndex = vec[2];
+            int keyIndex  = vec[2];
             
             if (keyIndex == m) {
                 break;
