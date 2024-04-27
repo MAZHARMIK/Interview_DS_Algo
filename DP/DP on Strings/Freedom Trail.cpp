@@ -6,6 +6,7 @@
 */
 
 
+/************************************************************ C++ ************************************************/
 //Approach-1 (Recursion  + Memoization)
 //T.C : Without Memoization : O(n^m), where n is the length of the ring string and m is the length of the key string. This is because for each character in the key, 
                              //the algorithm will explore all possible positions in the ring string recursively, without reusing any previous results.
@@ -92,3 +93,90 @@ public:
     }
 };
 
+
+/************************************************************ JAVA ***************************************************/
+//Approach-1 (Recursion  + Memoization)
+//T.C : Without Memoization : O(n^m), where n is the length of the ring string and m is the length of the key string. This is because for each character in the key, 
+                             //the algorithm will explore all possible positions in the ring string recursively, without reusing any previous results.
+        //With Memoization  : O(n^2 * m)
+//S.C : O(101*101) ~ O(1)
+public class Solution {
+    private int[][] t = new int[101][101];
+    
+    private int countSteps(int curr, int next, int ringLength) {
+        int stepsBetween = Math.abs(curr - next);
+        int stepsAround = ringLength - stepsBetween;
+        return Math.min(stepsBetween, stepsAround);
+    }
+    
+    private int solve(int ringIndex, int keyIndex, String ring, String key) {
+        
+        if (keyIndex == key.length()) {
+            return 0;
+        }
+        
+        if (t[ringIndex][keyIndex] != -1) {
+            return t[ringIndex][keyIndex];
+        }
+        
+        int result = Integer.MAX_VALUE;
+        for (int i = 0; i < ring.length(); i++) {
+            if (ring.charAt(i) == key.charAt(keyIndex)) {
+                int totalSteps = countSteps(ringIndex, i, ring.length()) + 1 +
+                        solve(i, keyIndex + 1, ring, key);
+                result = Math.min(result, totalSteps);
+            }
+        }
+        
+        return t[ringIndex][keyIndex] = result;
+    }
+    
+    public int findRotateSteps(String ring, String key) {
+        for (int[] row : t) {
+            Arrays.fill(row, -1);
+        }
+        return solve(0, 0, ring, key);
+    }
+}
+
+
+//Approach-2 (Bottom Up)
+//T.C : O(n^2 * m)
+//S.C : O(n*m)
+//State Def - t[ringIndex][keyIndex] = minimum number of steps to get key[keyIndex] when the ring[ringIndex] is aligned with the "12:00" position.
+public class Solution {
+    public int countSteps(int curr, int next, int ringLength) {
+        int stepsBetween = Math.abs(curr - next);
+        int stepsAround = ringLength - stepsBetween;
+        return Math.min(stepsBetween, stepsAround);
+    }
+    
+    public int findRotateSteps(String ring, String key) {
+        int n = ring.length();
+        int m = key.length(); 
+        
+        int[][] t = new int[n+1][m+1];
+        //t[ringIndex][keyIndex] = minimum number of steps to get key[keyIndex] when the ring[ringIndex] is aligned with the "12:00" position.
+        
+        // Base case: when all key characters are done (we reached index n).
+        for(int ringIndex = 0; ringIndex < n; ringIndex++) {
+            t[ringIndex][m] = 0;
+        }
+    
+        for(int keyIndex = m-1; keyIndex >= 0; keyIndex--) {
+            for(int ringIndex = 0; ringIndex < n; ringIndex++) {
+                
+                int result = Integer.MAX_VALUE;
+                for (int i = 0; i < ring.length(); i++) {
+                    if (ring.charAt(i) == key.charAt(keyIndex)) {
+                        int totalSteps = countSteps(ringIndex, i, ring.length()) + 1 +
+                                            t[i][keyIndex + 1];
+                        result = Math.min(result, totalSteps);
+                    }
+                }
+                t[ringIndex][keyIndex] = result;
+            }
+        }
+        return t[0][0];
+    }
+}
