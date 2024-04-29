@@ -1,5 +1,7 @@
 /*
-
+    MY YOUTUBE VIDEO ON THIS Qn - 
+    Compnay Tags                - Amazon
+    Leetcode Link               - https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/description/
 */
 
 class Solution {
