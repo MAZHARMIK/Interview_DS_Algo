@@ -133,5 +133,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Bitwise%20AND%20of%20Numbers%20Range.cpp"> Bitwise AND of Numbers Range (Leetcode - 201)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Minimum%20Number%20of%20Operations%20to%20Make%20Array%20XOR%20Equal%20to%20K.cpp"> Minimum Number of Operations to Make Array XOR Equal to K (Leetcode - 2997)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
