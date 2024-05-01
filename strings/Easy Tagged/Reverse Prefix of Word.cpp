@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also   */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=EH3EdJobbA8
     Company Tags                : Amazon (Need to double confirm on this)
     Leetcode Link               : https://leetcode.com/problems/reverse-prefix-of-word/
 */
