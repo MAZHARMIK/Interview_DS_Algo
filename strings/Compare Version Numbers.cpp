@@ -1,41 +1,124 @@
+/*        Scroll below to see JAVA code also        */
 /*
-    Company Tags  : Apple, Microsoft (They check how easily you are able to manage strict corner cases)
-    Leetcode Link : https://leetcode.com/problems/compare-version-numbers/
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : Apple, Microsoft (They check how easily you are able to manage strict corner cases)
+    Leetcode Link               : https://leetcode.com/problems/compare-version-numbers/
 */
 
+
+/****************************************************************** C++ ******************************************************************/
+//Approach (Using stringstream tokenizer in C++)
+//T.C : O(m+n)
+//S.C : O(m+n)
 class Solution {
 public:
-    void getTokenNumbers(vector<int>& num, string& version) {
-        stringstream ss(version);
-        string token;
-        while(getline(ss, token, '.')) {
-            num.push_back(stoi(token));
+    vector<string> getTokens(string version) {
+        stringstream v(version);
+        string token_v = "";
+        vector<string> version_tokens;
+        while(getline(v, token_v, '.')) {
+            version_tokens.push_back(token_v);
         }
+        return version_tokens;
     }
     int compareVersion(string version1, string version2) {
-        vector<int> nums1;
-        getTokenNumbers(nums1, version1);
-        
-        vector<int> nums2;
-        getTokenNumbers(nums2, version2);
-        
-        
-        int i = 0, j = 0;
-        int m = nums1.size();
-        int n = nums2.size();
 
-        while( i < m || j < n) {
-            int num1 = i>=m ? 0 : nums1[i];
-            int num2 = j>=n ? 0 : nums2[j];
-            if(num1 > num2)
+        vector<string> v1 = getTokens(version1);
+        vector<string> v2 = getTokens(version2);  
+        
+        int m = v1.size();
+        int n = v2.size();
+            
+        int  i = 0;
+        while(i < m || i < n) {
+            
+            int a = i < m ? stoi(v1[i]) : 0 ;
+            int b = i < n ? stoi(v2[i])  : 0 ;
+            
+            if(a > b)
                 return 1;
-            else if(num1 < num2)
+            else if(b > a)
                 return -1;
-            else {
+            else
                 i++;
-                j++;
-            }
         }
         return 0;
     }
 };
+
+
+/****************************************************************** JAVA ******************************************************************/
+//Approach-1 (Using StringTokenizer Class in JAVA)
+//T.C : O(m+n)
+//S.C : O(m+n)
+import java.util.StringTokenizer;
+class Solution {
+    public int compareVersion(String version1, String version2) {
+        List<String> v1 = getTokens(version1);
+        List<String> v2 = getTokens(version2);
+        
+        int m = v1.size();
+        int n = v2.size();
+        
+        int i = 0;
+        while (i < m || i < n) {
+            int a = i < m ? Integer.parseInt(v1.get(i)) : 0;
+            int b = i < n ? Integer.parseInt(v2.get(i)) : 0;
+            
+            if (a > b)
+                return 1;
+            else if (b > a)
+                return -1;
+            else
+                i++;
+        }
+        return 0;
+    }
+    
+    private List<String> getTokens(String version) {
+        StringTokenizer tokenizer = new StringTokenizer(version, ".");
+        List<String> versionTokens = new ArrayList<>();
+        while (tokenizer.hasMoreTokens()) {
+            versionTokens.add(tokenizer.nextToken());
+        }
+        return versionTokens;
+    }
+}
+
+
+
+//Approach-2 (Using split() method in JAVA)
+//T.C : O(m+n)
+//S.C : O(m+n)
+class Solution {
+    public int compareVersion(String version1, String version2) {
+        List<String> v1 = getTokens(version1);
+        List<String> v2 = getTokens(version2);
+        
+        int m = v1.size();
+        int n = v2.size();
+        
+        int i = 0;
+        while (i < m || i < n) {
+            int a = i < m ? Integer.parseInt(v1.get(i)) : 0;
+            int b = i < n ? Integer.parseInt(v2.get(i)) : 0;
+            
+            if (a > b)
+                return 1;
+            else if (b > a)
+                return -1;
+            else
+                i++;
+        }
+        return 0;
+    }
+    
+    private List<String> getTokens(String version) {
+        String[] tokens = version.split("\\.");
+        List<String> versionTokens = new ArrayList<>();
+        for (String token : tokens) {
+            versionTokens.add(token);
+        }
+        return versionTokens;
+    }
+}
