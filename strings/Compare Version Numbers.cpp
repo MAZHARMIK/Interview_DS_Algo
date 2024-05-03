@@ -1,6 +1,6 @@
 /*        Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Mmy9hdPXwRc
     Company Tags                : Apple, Microsoft (They check how easily you are able to manage strict corner cases)
     Leetcode Link               : https://leetcode.com/problems/compare-version-numbers/
 */
