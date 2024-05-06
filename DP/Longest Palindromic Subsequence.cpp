@@ -118,8 +118,6 @@ public:
 //Approach-1 (Recursion + Memoization)
 //T.C : O(m*n)
 //S.C : O(m*n)
-import java.util.Arrays;
-
 class Solution {
     int[][] t = new int[1001][1001];
 
@@ -182,8 +180,6 @@ class Solution {
 //Approach-3 (Using LCS Concept)
 //T.C : O(m*n)
 //S.C : O(m*n)
-import java.util.*;
-
 class Solution {
     // Approach-1 (Using Concept of LCS)
     public int LCS(String s1, String s2, int m, int n) {
