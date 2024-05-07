@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will soon update
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=RTVG66xulcA
+    Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/remove-nodes-from-linked-list/
 */
 
