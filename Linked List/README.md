@@ -209,5 +209,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Remove%20Nodes%20From%20Linked%20List.cpp"> Remove Nodes From Linked List (Leetcode-2487)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Double%20a%20Number%20Represented%20as%20a%20Linked%20List.cpp"> Double a Number Represented as a Linked List (Leetcode-2816)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
