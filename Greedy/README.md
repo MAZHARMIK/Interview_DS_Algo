@@ -239,5 +239,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Deletions%20to%20Make%20String%20K-Special.cpp"> Minimum Deletions to Make String K-Special (Leetcode-3085)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximize%20Happiness%20of%20Selected%20Children.cpp"> Maximize Happiness of Selected Children (Leetcode-3075)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
