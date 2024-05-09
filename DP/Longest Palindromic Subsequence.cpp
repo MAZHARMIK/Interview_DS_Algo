@@ -38,7 +38,7 @@ public:
 };
 
 
-//Approach-2 (Bottom Up)
+//Approach-2 (Bottom Up - My Favourite Blue Print of Pallindrome Qns)
 //T.C : O(n*n)
 //S.C : O(n*n)
 class Solution {
@@ -53,13 +53,13 @@ public:
             t[i][i] = 1;
         }
         
-        for(int L = 2; L<=n; L++) {
-            for(int i = 0; i<n-L+1; i++) {
+        for(int L = 1; L <= n; L++) {
+            for(int i = 0; i+L <= n; i++) {
                 int j = i + L - 1;
                 
-                if(s[i] == s[j] && L == 2)
-                    t[i][j] = 2;
-                else if(s[i] == s[j]) {
+                if(i == j) {
+                    t[i][j] = 1;
+                } else if(s[i] == s[j]) {
                     t[i][j] = 2 + t[i+1][j-1];
                 } else {
                     t[i][j] = max(t[i+1][j], t[i][j-1]);
