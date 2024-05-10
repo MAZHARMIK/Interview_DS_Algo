@@ -10,7 +10,6 @@
 //S.C : 
 class Solution {
 public:
-    typedef pair<double, pair<double, double>> P;
     vector<int> kthSmallestPrimeFraction(vector<int>& arr, int k) {
         priority_queue<vector<double>> pq;
 
