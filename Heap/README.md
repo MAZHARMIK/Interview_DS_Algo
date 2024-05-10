@@ -144,5 +144,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Reorganize%20String.cpp"> Reorganize String (Leetcode-767)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/K-th%20Smallest%20Prime%20Fraction.cpp"> K-th Smallest Prime Fraction (Leetcode-786)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
