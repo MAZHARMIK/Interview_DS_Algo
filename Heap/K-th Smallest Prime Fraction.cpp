@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn :
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=92SDuUKAR3s
     Company Tags                : Pony.ai
     Leetcode Link               : https://leetcode.com/problems/k-th-smallest-prime-fraction/
 */
