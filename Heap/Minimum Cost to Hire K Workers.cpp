@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also     */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=kxR52OB_I8k
     Company Tags                : GOOGLE
     Leetcode Link               : https://leetcode.com/problems/minimum-cost-to-hire-k-workers
 */
