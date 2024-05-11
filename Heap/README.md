@@ -149,5 +149,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/K-th%20Smallest%20Prime%20Fraction.cpp"> K-th Smallest Prime Fraction (Leetcode-786)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Minimum%20Cost%20to%20Hire%20K%20Workers.cpp"> Minimum Cost to Hire K Workers (Leetcode-857)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
