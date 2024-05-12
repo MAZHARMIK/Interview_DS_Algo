@@ -171,5 +171,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Combinations.cpp"> Combinations (Leetcode-77)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Find%20the%20Minimum%20Cost%20Array%20Permutation.cpp"> Find the Minimum Cost Array Permutation (Leetcode-3149)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
