@@ -143,5 +143,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Number%20of%20Wonderful%20Substrings.cpp"> Number of Wonderful Substrings (Leetcode - 1915)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Score%20After%20Flipping%20Matrix.cpp"> Score After Flipping Matrix (Leetcode - 861)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
