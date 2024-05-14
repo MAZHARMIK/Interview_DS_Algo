@@ -176,5 +176,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Find%20the%20Minimum%20Cost%20Array%20Permutation.cpp"> Find the Minimum Cost Array Permutation (Leetcode-3149)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Path%20with%20Maximum%20Gold.cpp"> Path with Maximum Gold (Leetcode-1219)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
