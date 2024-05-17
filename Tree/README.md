@@ -449,5 +449,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Smallest%20String%20Starting%20From%20Leaf.cpp"> Smallest String Starting From Leaf (Leetcode-988)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Delete%20Leaves%20With%20a%20Given%20Value.cpp"> Delete Leaves With a Given Value (Leetcode-1325)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
