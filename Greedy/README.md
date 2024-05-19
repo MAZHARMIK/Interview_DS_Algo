@@ -244,5 +244,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximize%20Happiness%20of%20Selected%20Children.cpp"> Maximize Happiness of Selected Children (Leetcode-3075)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Find%20the%20Maximum%20Sum%20of%20Node%20Values.cpp"> Find the Maximum Sum of Node Values (Leetcode-3068)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
