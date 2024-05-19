@@ -683,5 +683,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Sum%20of%20Values%20by%20Dividing%20Array.cpp"> Minimum Sum of Values by Dividing Array (Leetcode - 3117)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Find%20Number%20of%20Ways%20to%20Reach%20the%20K-th%20Stair.cpp"> Find Number of Ways to Reach the K-th Stair (Leetcode - 3154)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
