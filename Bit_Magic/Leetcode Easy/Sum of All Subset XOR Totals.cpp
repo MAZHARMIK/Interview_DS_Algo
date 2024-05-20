@@ -67,6 +67,24 @@ public:
     }
 };
 
+
+//Approach-3 (Observing pattern)
+//T.C : O(n)
+//S.C : O(1)
+class Solution {
+public:
+    int subsetXORSum(vector<int>& nums) {
+        int n = nums.size();
+        int result = 0;
+
+        for(int &num : nums) {
+            result |= num;
+        }
+
+        return result << (n-1);
+    }
+};
+
 /******************************************************* JAVA *******************************************************/
 //Approach-1 (Using simple backtracking to generate subsets)
 //T.C : O(n * 2^n)
@@ -123,5 +141,22 @@ class Solution {
 
     public int subsetXORSum(int[] nums) {
         return solve(0, nums, 0);
+    }
+}
+
+
+//Approach-3 (Observing pattern)
+//T.C : O(n)
+//S.C : O(1)
+class Solution {
+    public int subsetXORSum(int[] nums) {
+        int n = nums.length;
+        int result = 0;
+
+        for (int num : nums) {
+            result |= num;
+        }
+
+        return result << (n - 1);
     }
 }
