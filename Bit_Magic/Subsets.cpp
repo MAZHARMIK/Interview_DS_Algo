@@ -36,6 +36,9 @@ public:
 
 
 /************************************************************ JAVA ************************************************************/
+//Using Bit magic. You can also use Backtracking (See my Subsets II in Backtracking section)
+//T.C : O(2^n * L), where L is the average length of each subset
+//S.C : O(2^n * L), where L is the average length of each subset
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
