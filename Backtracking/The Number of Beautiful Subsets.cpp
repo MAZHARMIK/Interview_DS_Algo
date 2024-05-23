@@ -1,6 +1,6 @@
 /*     Scroll down to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=RoEzdG1bB9s
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/the-number-of-beautiful-subsets/
 */
