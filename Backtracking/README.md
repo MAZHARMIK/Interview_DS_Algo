@@ -181,5 +181,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Path%20with%20Maximum%20Gold.cpp"> Path with Maximum Gold (Leetcode-1219)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/The%20Number%20of%20Beautiful%20Subsets.cpp"> The Number of Beautiful Subsets (Leetcode-2597)				</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
