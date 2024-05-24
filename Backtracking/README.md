@@ -186,5 +186,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/The%20Number%20of%20Beautiful%20Subsets.cpp"> The Number of Beautiful Subsets (Leetcode-2597)				</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Maximum%20Score%20Words%20Formed%20by%20Letters.cpp"> Maximum Score Words Formed by Letters (Leetcode-1255)				</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
