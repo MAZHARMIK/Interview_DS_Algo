@@ -688,5 +688,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Find%20Number%20of%20Ways%20to%20Reach%20the%20K-th%20Stair.cpp"> Find Number of Ways to Reach the K-th Stair (Leetcode - 3154)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Student%20Attendance%20Record%20II.cpp"> Student Attendance Record II (Leetcode - 552)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
