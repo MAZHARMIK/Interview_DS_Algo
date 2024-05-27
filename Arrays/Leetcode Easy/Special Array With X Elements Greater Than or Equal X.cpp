@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
       MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=pYqncHGUqh4
-      Company Tags                : will update soon
+      Company Tags                : AMAZON
       Leetcode Link               : https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x
 */
 
