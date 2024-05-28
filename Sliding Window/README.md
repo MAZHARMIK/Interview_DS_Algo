@@ -154,5 +154,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Subarrays%20with%20K%20Different%20Integers.cpp"> Subarrays with K Different Integers (Leetcode - 992) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Get%20Equal%20Substrings%20Within%20Budget.cpp"> Get Equal Substrings Within Budget (Leetcode - 1208) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
