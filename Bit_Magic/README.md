@@ -148,5 +148,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Score%20After%20Flipping%20Matrix.cpp"> Score After Flipping Matrix (Leetcode - 861)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary%20Representation%20to%20One.cpp"> Number of Steps to Reduce a Number in Binary Representation to One (Leetcode - 1404)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
