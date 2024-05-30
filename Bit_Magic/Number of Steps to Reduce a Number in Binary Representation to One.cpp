@@ -1,6 +1,6 @@
 /*    Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=sGweAOKMyeI
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one
 */
@@ -76,5 +76,20 @@ public:
 //Approach-1 (Simple simulation - Do what is beinhg asked)
 //T.C : O(n^2)
 //S.C : O(1)
+class Solution {
+    public int numSteps(String s) {
+        int n = s.length();
+        int op = 0;
+        int carry = 0;
 
-//Will update tonight
+        for(int i = n-1; i >= 1; i--){
+            if(((s.charAt(i) - '0') + carry) % 2 == 1){ //odd
+                op += 2;
+                carry = 1;
+            }else{
+                op += 1;
+            }
+        }
+        return op + carry;
+    }
+}
