@@ -1,7 +1,7 @@
 /*    Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=sGweAOKMyeI
-    Company Tags                : will soon update
+    Company Tags                : MICROSOFT
     Leetcode Link               : https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one
 */
 
