@@ -153,5 +153,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary%20Representation%20to%20One.cpp"> Number of Steps to Reduce a Number in Binary Representation to One (Leetcode - 1404)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Count%20Triplets%20That%20Can%20Form%20Two%20Arrays%20of%20Equal%20XOR.cpp"> Count Triplets That Can Form Two Arrays of Equal XOR (Leetcode - 1442)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
