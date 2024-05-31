@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                :
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=TgkxnZ6oPYU
+    Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor
 */
 
