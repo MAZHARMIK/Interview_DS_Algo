@@ -30,7 +30,7 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 		<tbody>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Single%20Number%20III">Single Number III (Leetcode-260)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Single%20Number%20III.cpp">Single Number III (Leetcode-260)</a>
 				</td>
 			</tr>
 			<tr>
