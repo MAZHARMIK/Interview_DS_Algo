@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also  */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=-0xkQYTP1I0
     Company Tags                : soon
     Leetcode Link               : https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars/description/
 */
