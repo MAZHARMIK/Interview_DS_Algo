@@ -154,5 +154,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Minimum%20Cost%20to%20Hire%20K%20Workers.cpp"> Minimum Cost to Hire K Workers (Leetcode-857)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Lexicographically%20Minimum%20String%20After%20Removing%20Stars.cpp"> Lexicographically Minimum String After Removing Stars (Leetcode-3170)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
