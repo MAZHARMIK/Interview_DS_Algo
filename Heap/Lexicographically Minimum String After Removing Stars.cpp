@@ -55,3 +55,42 @@ public:
 //Simple approach using heap
 //T.C : O(nlogn)
 //S.C : O(n)
+class Data {
+    public char c;
+    public int i;
+    public Data(char c, int i) {
+        this.c = c;
+        this.i = i;
+    }
+}
+
+class Solution {
+    public String clearStars(String s) {
+        char[] ans = s.toCharArray();
+        Queue<Data> queue = new PriorityQueue<>((a, b) -> {
+           if (a.c == b.c) {
+               return b.i - a.i;
+           }
+            return Character.compare(a.c, b.c);
+        });
+        for (int i = 0;i < ans.length;i++) {
+            char c = ans[i];
+            if (c != '*') {
+                queue.add(new Data(c, i));
+                continue;
+            }
+            
+            if (!queue.isEmpty()) {
+                Data d = queue.poll();
+                ans[d.i] = '*';
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        for (char c : ans) {
+            if (c != '*') {
+                sb.append(c);
+            }
+        }
+        return sb.toString();
+    }
+}
