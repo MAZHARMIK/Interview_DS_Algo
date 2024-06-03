@@ -282,5 +282,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20Substrings%20Starting%20and%20Ending%20with%20Given%20Character.cpp"> Count Substrings Starting and Ending with Given Character (Leetcode-3084)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Append%20Characters%20to%20String%20to%20Make%20Subsequence.cpp"> Append Characters to String to Make Subsequence (Leetcode-2486)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
