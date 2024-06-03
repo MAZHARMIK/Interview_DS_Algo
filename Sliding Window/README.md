@@ -159,5 +159,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Get%20Equal%20Substrings%20Within%20Budget.cpp"> Get Equal Substrings Within Budget (Leetcode - 1208) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20Subarray%20With%20Bitwise%20AND%20Closest%20to%20K.cpp"> Find Subarray With Bitwise AND Closest to K (Leetcode - 3171) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
