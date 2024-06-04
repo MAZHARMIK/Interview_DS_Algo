@@ -1,6 +1,6 @@
 /*   Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=BWBKtU8Euno
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/find-subarray-with-bitwise-and-closest-to-k/description/
 */
