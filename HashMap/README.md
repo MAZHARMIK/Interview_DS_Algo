@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Isomorphic%20Strings.cpp"> Isomorphic Strings (Leetcode-205)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Hand%20of%20Straights.cpp"> Hand of Straights (Leetcode-846)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
