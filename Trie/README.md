@@ -59,5 +59,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Longest%20Common%20Suffix%20Queries.cpp"> Longest Common Suffix Queries (Suffix Tree) (Leetcode-3093)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Replace%20Words.cpp"> Replace Words (Leetcode-648)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
