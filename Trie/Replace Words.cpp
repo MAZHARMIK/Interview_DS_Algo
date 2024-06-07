@@ -87,6 +87,10 @@ public:
 //Using Trie
 //T.C : o(n*l + m*l) , n = number of words in the dictionary, m be the number of words in the sentence, and l be the average length of each word.
 //S.C : O(n*l + m*l)
+import java.util.List;
+import java.util.StringTokenizer;
+import java.util.StringJoiner;
+
 class Solution {
     class TrieNode {
         TrieNode[] children;
