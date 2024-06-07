@@ -9,6 +9,7 @@
 /*************************************************************************** C++ ******************************************************************************************/
 //Approach (Using normal hashset and generating all substrings)
 //T.C : o(n*l + m*l^2) , n = number of words in the dictionary, m be the number of words in the sentence, and l be the average length of each word.
+//S.C : O(n*l)
 class Solution {
 public:
 
@@ -47,6 +48,7 @@ public:
 /*************************************************************************** JAVA ******************************************************************************************/
 //Approach (Using normal hashset and generating all substrings)
 //T.C : o(n*l + m*l^2) , n = number of words in the dictionary, m be the number of words in the sentence, and l be the average length of each word.
+//S.C : O(n*l)
 class Solution {
     private String findRoot(String word, Set<String> st) {
         // Try all length substring starting from 0th index
