@@ -34,5 +34,10 @@
 				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Array%20Pair%20Sum%20Divisibility%20Problem.cpp"> Array Pair Sum Divisibility Problem (GeeksForGeeks)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Replace%20Words.cpp"> Replace Words (Leetcode-648)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
