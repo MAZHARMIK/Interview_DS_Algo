@@ -693,5 +693,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Student%20Attendance%20Record%20II.cpp"> Student Attendance Record II (Leetcode - 552)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Total%20Reward%20Using%20Operations%20I.cpp"> Maximum Total Reward Using Operations I (Leetcode - 3180)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
