@@ -412,5 +412,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20All%20Groups%20of%20Farmland.cpp"> Find All Groups of Farmland (Leetcode-1992)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Increment%20to%20Make%20Array%20Unique.cpp"> Minimum Increment to Make Array Unique (Leetcode-945)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
