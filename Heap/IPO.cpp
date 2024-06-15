@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will soon update (Good for OA)
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=b12SZXrZF9I
+    Company Tags                : MICROSOFT
     Leetcode Link               : https://leetcode.com/problems/ipo/description/
 */
 
