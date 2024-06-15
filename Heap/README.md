@@ -159,5 +159,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Lexicographically%20Minimum%20String%20After%20Removing%20Stars.cpp"> Lexicographically Minimum String After Removing Stars (Leetcode-3170)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/IPO.cpp"> IPO (Leetcode-502)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
