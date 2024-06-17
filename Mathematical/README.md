@@ -194,5 +194,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Find%20the%20Pivot%20Integer.cpp"> Find the Pivot Integer (Leetcode - 2485)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Sum%20of%20Square%20Numbers.cpp"> Sum of Square Numbers (Leetcode - 633)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
