@@ -191,5 +191,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets.cpp"> Minimum Number of Days to Make m Bouquets (Leetcode-1482)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Magnetic%20Force%20Between%20Two%20Balls.cpp"> Magnetic Force Between Two Balls (Leetcode-1552)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
