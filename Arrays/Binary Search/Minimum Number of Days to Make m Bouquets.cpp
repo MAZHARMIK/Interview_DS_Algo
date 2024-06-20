@@ -1,7 +1,7 @@
 /*    Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=erWfh_hBF80
-    Company Tags                : will soon update
+    Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets
 */
 
