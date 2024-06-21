@@ -164,5 +164,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20Subarray%20With%20Bitwise%20AND%20Closest%20to%20K.cpp"> Find Subarray With Bitwise AND Closest to K (Leetcode - 3171) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Grumpy%20Bookstore%20Owner.cpp"> Grumpy Bookstore Owner (Leetcode - 1052) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
