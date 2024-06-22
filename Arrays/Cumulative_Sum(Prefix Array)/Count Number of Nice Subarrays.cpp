@@ -54,7 +54,7 @@ public:
 
             if(nums[j] % 2 != 0) { //ODD
                 oddCount++;
-                count    = 0;
+                count    = 0; //We need to reset this to avoid over counting. Example : [1,1,2,1,1], k = 3
             }
 
             while(oddCount == k) {
