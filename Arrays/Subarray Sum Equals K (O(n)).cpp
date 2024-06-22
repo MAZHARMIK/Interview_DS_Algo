@@ -2,6 +2,7 @@
   MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=-SWrz90jCUM
   Company Tags                : Amazon, Meta
   Leetcode Qn Link            : https://leetcode.com/problems/subarray-sum-equals-k/
+  Similar Problem             : https://www.youtube.com/watch?v=-SWrz90jCUM
 */
 
 /**************************************************************** C++ ***************************************************************/
