@@ -52,19 +52,19 @@ public:
 
         int flips = 0;
         
-        int index_i_kitna_flip_jhela = 0;
+        int flipCountFromPastForCurri = 0;
 
         for(int i = 0; i < n; i++) {
 
             if(i >= k && nums[i-k] == 2) { //Was it flipped
-                index_i_kitna_flip_jhela--;
+                flipCountFromPastForCurri--;
             }
             
-            if(index_i_kitna_flip_jhela % 2 == nums[i]) {
+            if(flipCountFromPastForCurri % 2 == nums[i]) {
                 if(i+k > n){
                     return -1;
                 }
-                index_i_kitna_flip_jhela++;
+                flipCountFromPastForCurri++;
                 nums[i] = 2; //Marking as flipped
                 flips++;
             }
@@ -85,19 +85,19 @@ public:
 
         int flips = 0;
         deque<int> flipQue;
-        int index_i_kitna_flip_jhela = 0;
+        int flipCountFromPastForCurri = 0;
 
         for(int i = 0; i < n; i++) {
             if(i >= k){
-                index_i_kitna_flip_jhela -= flipQue.front();
+                flipCountFromPastForCurri -= flipQue.front();
                 flipQue.pop_front();
             }
             
-            if(index_i_kitna_flip_jhela % 2 == nums[i]) {
+            if(flipCountFromPastForCurri % 2 == nums[i]) {
                 if(i+k > n){
                     return -1;
                 }
-                index_i_kitna_flip_jhela++;
+                flipCountFromPastForCurri++;
                 flipQue.push_back(1);
                 flips++;
             } else {
@@ -151,19 +151,19 @@ class Solution {
         int n = nums.length;
 
         int flips = 0;
-        int index_i_kitna_flip_jhela = 0;
+        int flipCountFromPastForCurri = 0;
 
         for (int i = 0; i < n; i++) {
 
             if (i >= k && nums[i - k] == 2) { // Was it flipped
-                index_i_kitna_flip_jhela--;
+                flipCountFromPastForCurri--;
             }
 
-            if (index_i_kitna_flip_jhela % 2 == nums[i]) {
+            if (flipCountFromPastForCurri % 2 == nums[i]) {
                 if (i + k > n) {
                     return -1;
                 }
-                index_i_kitna_flip_jhela++;
+                flipCountFromPastForCurri++;
                 nums[i] = 2; // Marking as flipped
                 flips++;
             }
@@ -183,18 +183,18 @@ class Solution {
 
         int flips = 0;
         Deque<Integer> flipQue = new LinkedList<>();
-        int index_i_kitna_flip_jhela = 0;
+        int flipCountFromPastForCurri = 0;
 
         for (int i = 0; i < n; i++) {
             if (i >= k) {
-                index_i_kitna_flip_jhela -= flipQue.pollFirst();
+                flipCountFromPastForCurri -= flipQue.pollFirst();
             }
 
-            if (index_i_kitna_flip_jhela % 2 == nums[i]) {
+            if (flipCountFromPastForCurri % 2 == nums[i]) {
                 if (i + k > n) {
                     return -1;
                 }
-                index_i_kitna_flip_jhela++;
+                flipCountFromPastForCurri++;
                 flipQue.addLast(1);
                 flips++;
             } else {
