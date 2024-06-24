@@ -417,5 +417,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Increment%20to%20Make%20Array%20Unique.cpp"> Minimum Increment to Make Array Unique (Leetcode-945)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Number%20of%20K%20Consecutive%20Bit%20Flips.cpp"> Minimum Number of K Consecutive Bit Flips (Leetcode-995)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
