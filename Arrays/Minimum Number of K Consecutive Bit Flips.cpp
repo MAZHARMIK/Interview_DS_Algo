@@ -1,10 +1,11 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=NtCLzpLmxNU
     Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/description
 */
 
+//SAMEW PROBLEM WITH  K = 3 - (Leetcode - 3191) "Minimum Operations to Make Binary Array Elements Equal to One I"
 //SUGGESTION - Solve Leetcode-319 (Bulb Switcher) as well. It's kind of a similar problem (not exactly same)
 
 
