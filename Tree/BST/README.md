@@ -31,7 +31,7 @@
       			</tr>
 			<tr>
           			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/BST/Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.cpp"> Find Mode in Binary Search Tree (Leetcode-501)						  </a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/BST/Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.cpp"> Binary Search Tree to Greater Sum Tree (Leetcode-1038)						  </a>
 				  </td>
       			</tr>
 		</tbody>
