@@ -1,8 +1,8 @@
 /*    scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=8YuKhynQaqA
     Company Tags                : AMAZON
-    Leetcode Link               : 
+    Leetcode Link               : https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree
 */
 
 //NOTE - You can do it in many ways, Brute Force , Better Brute Force, Iterative Inorder, Morris Traversal etc - You can give them a try for your practice.
