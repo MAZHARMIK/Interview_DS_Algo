@@ -40,7 +40,20 @@ public:
 //Approach-2 (Constant time)
 //T.C : O(1)
 //S.C : O(1)
+class Solution {
+public:
+    int findCenter(vector<vector<int>>& edges) {
+        vector<int> first  = edges[0]; //{a, b}
+        vector<int> second = edges[1]; //{c, a}
 
+        if(first[0] == second[0] || first[0] == second[1]) {
+            return first[0];
+        }
+
+        return first[1];
+
+    }
+};
 
 /************************************************************************ JAVA ********************************************************/
 //Approach-1 (Using map)
