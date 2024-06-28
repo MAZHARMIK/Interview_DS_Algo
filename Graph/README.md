@@ -315,5 +315,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Vertex%20Cover.cpp"> Vertex Cover (GfG) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Maximum%20Total%20Importance%20of%20Roads.cpp"> Maximum Total Importance of Roads (Leetcode-2285) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
