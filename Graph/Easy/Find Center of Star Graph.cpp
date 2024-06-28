@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Sp9kcIX0Ep0
-    Company Tags                : will soon update
+    Company Tags                : MICROSOFT
     Leetcode Link               : https://leetcode.com/problems/find-center-of-star-graph
 */
 
