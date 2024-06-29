@@ -100,7 +100,9 @@ public:
 
 //Approach-3 (Using Topological Sorting)
 //T.C : O(n * (n+m)) , n = number of vertices and m = number of edges
-//S.C : O(n+m)
+//S.C : O(n + m + n^2 + nlogn) -> O(n+m) for building the graph and performing the topological sort, 
+//                     -> O(n^2) for processing each node and merging ancestor lists.
+//                     -> O(nlogn) for sorting the ancestor lists for each node.
 class Solution {
 public:
     vector<vector<int>> getAncestors(int n, vector<vector<int>>& edges) {
@@ -258,9 +260,9 @@ class Solution {
 
 //Approach-3 (Using Topological Sorting)
 //T.C : O(n * (n+m)) , n = number of vertices and m = number of edges
-//S.C : O(n+m)
-import java.util.*;
-
+//S.C : O(n + m + n^2 + nlogn) -> O(n+m) for building the graph and performing the topological sort, 
+//                     -> O(n^2) for processing each node and merging ancestor lists.
+//                     -> O(nlogn) for sorting the ancestor lists for each node.
 class Solution {
 
     public List<List<Integer>> getAncestors(int n, int[][] edges) {
