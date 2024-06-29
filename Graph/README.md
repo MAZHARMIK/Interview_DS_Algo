@@ -320,5 +320,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Maximum%20Total%20Importance%20of%20Roads.cpp"> Maximum Total Importance of Roads (Leetcode-2285) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/All%20Ancestors%20of%20a%20Node%20in%20a%20Directed%20Acyclic%20Graph.cpp"> All Ancestors of a Node in a Directed Acyclic Graph (Leetcode-2192) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
