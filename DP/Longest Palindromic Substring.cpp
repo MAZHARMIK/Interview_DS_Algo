@@ -1,6 +1,7 @@
 /*         Scroll below to see JAVA code aslo         */
 /*
-    MY YOUTUBE VIDEO ON THIS : https://www.youtube.com/watch?v=n_kL8BkURVA
+    MY YOUTUBE VIDEO ON THIS : Recursion + Memo -> https://www.youtube.com/watch?v=n_kL8BkURVA
+                               Bottom Up (Blue Print) -> https://www.youtube.com/watch?v=ij3X5SAhf_0
     Company Tags             : Accolite, Amazon, Groupon, MakeMyTrip, Microsoft, Qualcomm, Samsung, Visa, Walmart, Zoho
     Leetcode Link            : https://leetcode.com/problems/longest-palindromic-substring/
 */
