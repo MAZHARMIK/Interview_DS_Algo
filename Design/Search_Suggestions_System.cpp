@@ -111,7 +111,11 @@ public:
             result.push_back({});
             
             for(int i = start; i<min(start+3, n); i++) {
-                if(products[i].find(prefix) < n) {
+                if(products[i].find(prefix) == 0) { // 
+                    /*
+                NOTE : Because find returns  the starting index, in this case we need from starting 
+                       index of word, which is 0
+                   */             
                     result.back().push_back(products[i]);
                 }
             }
