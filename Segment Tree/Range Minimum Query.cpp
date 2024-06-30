@@ -1,9 +1,10 @@
 /*   Scroll below to see JAVA code also	*/
 /*
-	MY YOUTUBE VIDEO ON THIS Qn : 
-   	Company Tags  : Facebook (Variation)
-    	GFG Link       : https://practice.geeksforgeeks.org/problems/range-minimum-query/1#
-    	Below code for "Min" Query. Simply replace min() with max() and it will be "Max" Query
+	MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=qU4DAnv3o7g
+   	Company Tags   	  	    : Facebook (Variation)
+    	GFG Link       		    : https://practice.geeksforgeeks.org/problems/range-minimum-query/1#
+
+    	Below code is for "Min" Query. Simply replace min() with max() and it will become for "Max" Query
 */
 
 
