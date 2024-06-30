@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=VJ67kQHYbv8
     Company Tags                : AMAZON
     GfG Link                    : https://www.geeksforgeeks.org/problems/sum-of-query-ii5310/1
 */
