@@ -1,6 +1,7 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=M4pfB3G-YQc
+    MY YOUTUBE VIDEO ON THIS Qn : Recursion + Memo and Normal Bottom Up    = https://www.youtube.com/watch?v=M4pfB3G-YQc
+                                  Using my favourite Blue Print Bottom Up  = coming today
     Company Tags                : Amazon, LinkedIn, Paypal, Rivigo, Uber, Google
     Leetcode Link               : https://leetcode.com/problems/longest-palindromic-subsequence/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1
@@ -45,28 +46,28 @@ class Solution {
 public:
     int longestPalindromeSubseq(string s) {
         int n = s.length();
-        
+
         vector<vector<int>> t(n, vector<int>(n));
-        //t[i][j] = longest common subsequence in string from i to j indices;
-        //strings of length 1 are always a palindorme
-        for(int i = 0; i<n; i++) {
-            t[i][i] = 1;
+        //t[i][j] = LPS in s[i...j]
+
+        for(int i = 0; i < n; i++) {
+            t[i][i] = 1; // 1 length is always a palindrome
         }
-        
-        for(int L = 1; L <= n; L++) {
-            for(int i = 0; i+L <= n; i++) {
+
+        for(int L = 2; L<=n; L++) {
+            for(int i = 0; i < n-L+1; i++) {
                 int j = i + L - 1;
-                
-                if(i == j) {
-                    t[i][j] = 1;
-                } else if(s[i] == s[j]) {
+
+                if(s[i] == s[j]) {
                     t[i][j] = 2 + t[i+1][j-1];
                 } else {
-                    t[i][j] = max(t[i+1][j], t[i][j-1]);
+                    t[i][j] = max(t[i][j-1], t[i+1][j]);
                 }
             }
         }
-        return t[0][n-1];
+
+        return t[0][n-1]; //LPS of whole string s[0..n-1]
+
     }
 };
 
