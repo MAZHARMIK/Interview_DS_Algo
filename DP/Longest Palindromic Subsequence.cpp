@@ -1,7 +1,8 @@
 /*         Scroll down to see JAVA code also        */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : Recursion + Memo and Normal Bottom Up    = https://www.youtube.com/watch?v=M4pfB3G-YQc
-                                  Using my favourite Blue Print Bottom Up  = coming today
+                                  Using my favourite Blue Print Bottom Up  = https://www.youtube.com/watch?v=WIhQ5NOzCKM
+
     Company Tags                : Amazon, LinkedIn, Paypal, Rivigo, Uber, Google
     Leetcode Link               : https://leetcode.com/problems/longest-palindromic-subsequence/
     GfG Link                    : https://practice.geeksforgeeks.org/problems/longest-palindromic-subsequence-1612327878/1
