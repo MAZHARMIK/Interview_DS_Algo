@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=zdGouql8XKs
-    Company Tags                : GOOGLE
+    Company Tags                : GOOGLE, ORACLE, PALANTIR TECHNOLOGIES
     Leetcode Link               : https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/
 */
 
