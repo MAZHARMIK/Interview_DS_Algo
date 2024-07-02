@@ -37,8 +37,8 @@ public:
 
 
 //Approach-2 (Using sorting and 2-Pointers)
-//T.C:  O(n)
-//S.C : O(n)
+//T.C:  O(nlogn)
+//S.C : O(1)
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
