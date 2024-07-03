@@ -422,5 +422,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Number%20of%20K%20Consecutive%20Bit%20Flips.cpp"> Minimum Number of K Consecutive Bit Flips (Leetcode-995)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Difference%20Between%20Largest%20and%20Smallest%20Value%20in%20Three%20Moves.cpp"> Minimum Difference Between Largest and Smallest Value in Three Moves (Leetcode-1509)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
