@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=CHxya52oxCM
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves
 */
@@ -30,7 +30,7 @@ public:
 };
 
 
-//Approach-2
+//Approach-2 (Using Partial Sorting)
 //T.C : O(n)
 //S.C : O(1)
 class Solution {
@@ -82,8 +82,11 @@ class Solution {
 
 
 
+
+//Approach-2 (Using Partial Sorting)
 //T.C : O(n)
 //S.C : O(1)
+//Please note that in Java , there is nothing like partial_sort or nth_element, hence we used heap to solve it.
 public class Solution {
 
     public int minDifference(int[] nums) {
