@@ -214,5 +214,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Double%20a%20Number%20Represented%20as%20a%20Linked%20List.cpp"> Double a Number Represented as a Linked List (Leetcode-2816)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Merge%20Nodes%20in%20Between%20Zeros.cpp"> Merge Nodes in Between Zeros (Leetcode-2181)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
