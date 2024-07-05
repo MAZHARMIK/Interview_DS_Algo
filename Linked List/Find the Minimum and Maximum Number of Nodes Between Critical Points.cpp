@@ -61,15 +61,15 @@ public:
 class Solution {
 public:
     vector<int> nodesBetweenCriticalPoints(ListNode* head) {
-        int firstCriticalIndex = -1;
-        int previousCriticalIndex = -1;
+        int firstCriticalIndex    = 0;
+        int previousCriticalIndex = 0;
 
         int prevValue = 0;
         int currValue = 0;
         int nextValue = 0;
 
         int minDistance = INT_MAX;
-        int index = 1;
+        int index = 0;
         vector<int> result = {-1, -1};
 
         while (head != NULL) {
@@ -81,7 +81,7 @@ public:
                 (prevValue > currValue && currValue < nextValue ||
                 prevValue < currValue && currValue > nextValue)) {
                 
-                if (firstCriticalIndex == -1) {
+                if (firstCriticalIndex == 0) {
                     firstCriticalIndex = index;
                 } else {
                     minDistance = min(minDistance, index - previousCriticalIndex);
@@ -148,15 +148,15 @@ class Solution {
 //S.C : O(1)
 class Solution {
     public int[] nodesBetweenCriticalPoints(ListNode head) {
-        int firstCriticalIndex = -1;
-        int previousCriticalIndex = -1;
+        int firstCriticalIndex    = 0;
+        int previousCriticalIndex = 0;
 
         int prevValue = 0;
         int currValue = 0;
         int nextValue = 0;
 
         int minDistance = Integer.MAX_VALUE;
-        int index = 1;
+        int index = 0;
         int[] result = {-1, -1};
 
         while (head != null) {
@@ -168,7 +168,7 @@ class Solution {
                 ((prevValue > currValue && currValue < nextValue) ||
                 (prevValue < currValue && currValue > nextValue))) {
                 
-                if (firstCriticalIndex == -1) {
+                if (firstCriticalIndex == 0) {
                     firstCriticalIndex = index;
                 } else {
                     minDistance = Math.min(minDistance, index - previousCriticalIndex);
