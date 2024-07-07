@@ -1,5 +1,5 @@
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=FB_LjtTQwlw
     Company Tags                : Google and many other companies ask problems based on this
     GfG Link                    : https://www.geeksforgeeks.org/lazy-propagation-in-segment-tree/
 */
