@@ -24,5 +24,10 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Range%20Min-Max%20Query.cpp">Range Min-Max Query</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Lazy%20Propagation%20Range%20Update.cpp">Lazy Propagation Range Update</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
