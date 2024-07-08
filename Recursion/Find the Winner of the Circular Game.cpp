@@ -1,7 +1,7 @@
 /*      					Scroll down to see JAVA code also 					*/
 /*
 	MY YOUTUBE VIDEO ON THIS Qn : 
-    	Company Tags 		    : NIL
+    	Company Tags 		    : Goldman Sachs, Amazon
         Leetcode Link		    : https://leetcode.com/problems/find-the-winner-of-the-circular-game
     	GFG Link      		    : https://www.geeksforgeeks.org/problems/game-of-death-in-a-circle1840/1
      							
