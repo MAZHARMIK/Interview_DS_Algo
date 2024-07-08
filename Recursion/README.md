@@ -26,7 +26,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Game%20of%20Death%20in%20a%20circle%20%7C%20Josephus%20Problem%20%7C%20Find%20the%20Winner%20of%20the%20Circular%20Game.cpp"> Game of Death in a circle | Josephus Problem | Find the Winner of the Circular Game (Leetcode-1823)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Find%20the%20Winner%20of%20the%20Circular%20Game.cpp"> Game of Death in a circle | Josephus Problem | Find the Winner of the Circular Game (Leetcode-1823)</a>
 				</td>
 			</tr>
 			<tr>
