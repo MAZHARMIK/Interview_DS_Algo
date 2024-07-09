@@ -24,5 +24,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Number%20of%20Students%20Unable%20to%20Eat%20Lunch.cpp"> Number of Students Unable to Eat Lunch (Leetcode-1700)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Average%20Waiting%20Time.cpp"> Average Waiting Time (Leetcode-1701)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
