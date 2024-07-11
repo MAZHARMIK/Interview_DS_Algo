@@ -155,5 +155,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Build%20an%20Array%20With%20Stack%20Operations.cpp"> Build an Array With Stack Operations (Leetcode-1441)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses.cpp"> Reverse Substrings Between Each Pair of Parentheses (Leetcode-1190)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
