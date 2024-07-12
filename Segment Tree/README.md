@@ -21,7 +21,7 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Range%20Min-Max%20Query.cpp">Range Min-Max Query</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Range%20Minimum%20Query.cpp">Range Minimum Query</a>
 				</td>
 			</tr>
 			<tr>
