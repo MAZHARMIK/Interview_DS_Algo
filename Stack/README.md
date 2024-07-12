@@ -160,5 +160,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses.cpp"> Reverse Substrings Between Each Pair of Parentheses (Leetcode-1190)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Maximum%20Score%20From%20Removing%20Substrings.cpp"> Maximum Score From Removing Substrings (Leetcode-1717)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
