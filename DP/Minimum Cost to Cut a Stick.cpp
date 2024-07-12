@@ -50,4 +50,30 @@ public:
 
 
 //Approach-2 (Using Bottom Up)
-//<soon>
+
+class Solution {
+public:
+    int minCost(int n, vector<int>& cuts) {
+        int m = cuts.size();
+        vector<int> newCuts(m + 2);
+        copy(cuts.begin(), cuts.end(), newCuts.begin() + 1);
+        newCuts[m + 1] = n;
+        sort(newCuts.begin(), newCuts.end());
+        vector<vector<int>> dp(m + 2, vector<int>(m + 2, 0));
+        for (int diff = 2; diff < m + 2; ++diff) {
+            for (int left = 0; left < m + 2 - diff; ++left) {
+                int right = left + diff;
+                int ans = INT_MAX;
+                for (int mid = left + 1; mid < right; ++mid) {
+                    ans = min(ans, dp[left][mid] + dp[mid][right] + newCuts[right] - newCuts[left]);
+                }
+                dp[left][right] = ans;
+            }
+        }
+        return dp[0][m + 1];
+    }
+};
+
+// Time complexity: O(m^3). The number of states in our DP is the number of possible combinations of (left, right), which is O(m^2). For each subproblem dp[left][right], we need to try all possible cutting positions between new_cuts[left] and new_cuts[right], which is right - left - 1, resulting in an additional factor of m. Therefore, the overall time complexity is O(m^3).
+
+// Space complexity: O(m^2). We create a table of size (m+2)×(m+2) or a hash map that contains at most O(m×m) values, which is the number of different kinds of stick fragments.
