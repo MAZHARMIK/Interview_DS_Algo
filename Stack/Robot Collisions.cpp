@@ -65,8 +65,6 @@ public:
 //Using Stack
 //T.C : O(nlogn)
 //T.C : O(n)
-import java.util.*;
-
 class Solution {
     public List<Integer> survivedRobotsHealths(int[] positions, int[] healths, String directions) {
         int n = positions.length;
