@@ -14,19 +14,19 @@ class Solution {
 public:
     vector<int> survivedRobotsHealths(vector<int>& positions, vector<int>& healths, string directions) {
         int n = positions.size();
-        vector<int> j(n);
+        vector<int> indices(n);
         
-        iota(j.begin(), j.end(), 0); //This will fill the array as -> 0, 1, 2, 3, 4, n-1
+        iota(indices.begin(), indices.end(), 0); //This will fill the array as -> 0, 1, 2, 3, 4, n-1
         stack<int> st;
 
         auto lambda = [&](int i, int j) {
             return positions[i] < positions[j];
         };
 
-        sort(j.begin(), j.end(), lambda);
+        sort(begin(indices), end(indices), lambda);
 
         vector<int> result;
-        for (int currentIndex : j) {
+        for (int currentIndex : indices) {
             if (directions[currentIndex] == 'R') {
                 st.push(currentIndex);
             } else {
@@ -60,26 +60,29 @@ public:
 
 
 
+
 /*********************************************************************** JAVA ********************************************************************************/
 //Using Stack
 //T.C : O(nlogn)
 //T.C : O(n)
+import java.util.*;
+
 class Solution {
     public List<Integer> survivedRobotsHealths(int[] positions, int[] healths, String directions) {
         int n = positions.length;
-        Integer[] j = new Integer[n];
+        Integer[] indices = new Integer[n];
         
         for (int i = 0; i < n; i++) {
-            j[i] = i;
+            indices[i] = i;
         }
 
         Stack<Integer> stack = new Stack<>();
 
-        Arrays.sort(j, (i, k) -> Integer.compare(positions[i], positions[k]));
+        Arrays.sort(indices, (i, j) -> Integer.compare(positions[i], positions[j]));
 
         List<Integer> result = new ArrayList<>();
         
-        for (int currentIndex : j) {
+        for (int currentIndex : indices) {
             if (directions.charAt(currentIndex) == 'R') {
                 stack.push(currentIndex);
             } else {
