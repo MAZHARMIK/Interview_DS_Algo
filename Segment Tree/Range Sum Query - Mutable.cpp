@@ -1,8 +1,8 @@
 /*	 Scroll below to see JAVA code also	*/
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags  		: META
-    Leetcode Link 		: https://leetcode.com/problems/range-sum-query-mutable/description/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=82HaBghHuDU
+    Company Tags  		        : META
+    Leetcode Link 		        : https://leetcode.com/problems/range-sum-query-mutable/description/
 */
 //Range Queries are generally asked to check if the person knows about segment tree or not
 
