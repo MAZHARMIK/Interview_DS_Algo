@@ -1,7 +1,7 @@
 /*         Scroll below to see JAVA code also        */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : Recur + Memo - https://www.youtube.com/watch?v=99S-xuAbwoc
-                                  Bottom Up - Coming soon today
+                                  Bottom Up - https://www.youtube.com/watch?v=jEDPdAwnxV0
     Company Tags                : Google, Amazon, Microsoft, Airtel
     Leetcode Link               : https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
 */
