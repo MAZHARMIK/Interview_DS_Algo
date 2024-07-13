@@ -165,5 +165,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Maximum%20Score%20From%20Removing%20Substrings.cpp"> Maximum Score From Removing Substrings (Leetcode-1717)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Robot%20Collisions.cpp"> Robot Collisions (Leetcode-2751)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
