@@ -249,5 +249,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Find%20the%20Maximum%20Sum%20of%20Node%20Values.cpp"> Find the Maximum Sum of Node Values (Leetcode-3068)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Cost%20for%20Cutting%20Cake%20I%20-%20II.cpp"> Minimum Cost for Cutting Cake I - II (Leetcode-3218 & 3219)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
