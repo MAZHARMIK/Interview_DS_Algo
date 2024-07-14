@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also  */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=aim6BEc9aMk
     Company Tags                : will update soon
     Leetcode Link               : PART-1 : https://leetcode.com/problems/minimum-cost-for-cutting-cake-i/description/
                                   PART-2 : https://leetcode.com/problems/minimum-cost-for-cutting-cake-ii/description/
