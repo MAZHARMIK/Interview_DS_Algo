@@ -454,5 +454,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Delete%20Leaves%20With%20a%20Given%20Value.cpp"> Delete Leaves With a Given Value (Leetcode-1325)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Create%20Binary%20Tree%20From%20Descriptions.cpp"> Create Binary Tree From Descriptions (Leetcode-2196)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
