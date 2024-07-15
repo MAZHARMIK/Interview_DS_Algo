@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will update soon
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Rt2prDOV2hU
+    Company Tags                : Uber
     Leetcode Link               : https://leetcode.com/problems/create-binary-tree-from-descriptions/description
 */
 
