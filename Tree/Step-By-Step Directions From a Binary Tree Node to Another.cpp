@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-      MY YOUTUBE VIDEO ON THIS Qn : 
-      Company Tags                : will soon update
+      MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6GXfmgfOGeQ
+      Company Tags                : AMAZON
       Leetcode Link               : https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another
 */
 
