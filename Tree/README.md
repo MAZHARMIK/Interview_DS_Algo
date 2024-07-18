@@ -464,5 +464,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another.cpp"> Step-By-Step Directions From a Binary Tree Node to Another (Leetcode-2096)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Number%20of%20Good%20Leaf%20Nodes%20Pairs.cpp"> Number of Good Leaf Nodes Pairs (Leetcode-1530)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
