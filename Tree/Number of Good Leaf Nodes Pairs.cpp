@@ -1,6 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://youtu.be/vrbJ7aDuK-A?si=3-8sRu8qdYcJvJf1
+    MY YOUTUBE VIDEO ON THIS Qn : Approach-1 : https://youtu.be/vrbJ7aDuK-A?si=3-8sRu8qdYcJvJf1
+                                  Approach-2 : https://www.youtube.com/watch?v=AW-gpXiR5DQ
     Company Tags                : TIKTOK
     Leetcode Link               : https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/description/
 */
