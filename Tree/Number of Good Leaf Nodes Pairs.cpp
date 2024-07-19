@@ -76,9 +76,56 @@ public:
 
 
 
-//Approach-2 (Please let me know in the comment section of my YouTube Video above if you need this as well)
-/////
-/////
+//Approach-2 (Using DFS)
+//T.C : O(n*m^2) where m = number of leaf nodes
+//S.C : O(n*m) where m = number of leaf nodes
+class Solution {
+public:
+
+    vector<int> solve(TreeNode* root, int distance, int &goodLeafNodes) {
+        if(!root) {
+            return {0};
+        }
+
+        if(root->left == NULL && root->right == NULL) {
+            return {1};
+        }
+
+        auto left_d  = solve(root->left, distance, goodLeafNodes);
+        auto right_d = solve(root->right, distance, goodLeafNodes);
+
+        for(int &l : left_d) {
+            for(int &r : right_d) {
+                if((l != 0 && r != 0) && l + r <= distance) {
+                    goodLeafNodes++;
+                }
+            }
+        }
+
+        vector<int> curr_d;
+        for(int &ld : left_d) {
+            if(ld != 0 && ld + 1 <= distance) {
+                curr_d.push_back(ld+1);
+            }
+        }
+
+        for(int &rd : right_d) {
+            if(rd != 0 && rd+1 <= distance) {
+                curr_d.push_back(rd+1);
+            }
+        }
+
+        return curr_d;
+        
+    }
+
+    int countPairs(TreeNode* root, int distance) {
+        int goodLeafNodes = 0;
+        solve(root, distance, goodLeafNodes);
+
+        return goodLeafNodes;
+    }
+};
 
 
 /****************************************************** JAVA *********************************************/
@@ -143,7 +190,54 @@ class Solution {
 
 
 
+//Approach-2 (Using DFS)
+//T.C : O(n*m^2) where m = number of leaf nodes
+//S.C : O(n*m) where m = number of leaf nodes
+public class Solution {
 
-//Approach-2 (Please let me know in the comment section of my YouTube Video above if you need this as well)
-/////
-/////
+    public List<Integer> solve(TreeNode root, int distance, int[] goodLeafNodes) {
+        if (root == null) {
+            List<Integer> emptyList = new ArrayList<>();
+            emptyList.add(0);
+            return emptyList;
+        }
+
+        if (root.left == null && root.right == null) {
+            List<Integer> leafList = new ArrayList<>();
+            leafList.add(1);
+            return leafList;
+        }
+
+        List<Integer> leftDistances = solve(root.left, distance, goodLeafNodes);
+        List<Integer> rightDistances = solve(root.right, distance, goodLeafNodes);
+
+        for (int l : leftDistances) {
+            for (int r : rightDistances) {
+                if (l != 0 && r != 0 && l + r <= distance) {
+                    goodLeafNodes[0]++;
+                }
+            }
+        }
+
+        List<Integer> currentDistances = new ArrayList<>();
+        for (int ld : leftDistances) {
+            if (ld != 0 && ld + 1 <= distance) {
+                currentDistances.add(ld + 1);
+            }
+        }
+
+        for (int rd : rightDistances) {
+            if (rd != 0 && rd + 1 <= distance) {
+                currentDistances.add(rd + 1);
+            }
+        }
+
+        return currentDistances;
+    }
+
+    public int countPairs(TreeNode root, int distance) {
+        int[] goodLeafNodes = new int[1];
+        solve(root, distance, goodLeafNodes);
+        return goodLeafNodes[0];
+    }
+}
