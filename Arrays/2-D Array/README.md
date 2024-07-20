@@ -155,5 +155,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Convert%20an%20Array%20Into%20a%202D%20Array%20With%20Conditions.cpp"> Convert an Array Into a 2D Array With Conditions (Leetcode-2610)</a>
 				  </td>
      		        </tr>
+						<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Find%20Valid%20Matrix%20Given%20Row%20and%20Column%20Sums.cpp">Find Valid Matrix Given Row and Column Sums (Leetcode-1605)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
