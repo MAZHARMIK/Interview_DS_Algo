@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=9dKdLNlmxco
     Company Tags                : Facebook, Uber, Google, Microsoft
     Leetcode Link               : https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/
 */
