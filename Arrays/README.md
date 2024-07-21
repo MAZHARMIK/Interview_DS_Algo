@@ -427,5 +427,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Difference%20Between%20Largest%20and%20Smallest%20Value%20in%20Three%20Moves.cpp"> Minimum Difference Between Largest and Smallest Value in Three Moves (Leetcode-1509)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array.cpp"> Minimum Number of Increments on Subarrays to Form a Target Array (Leetcode-1526)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
