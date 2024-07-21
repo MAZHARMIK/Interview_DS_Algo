@@ -62,5 +62,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Minimum%20Height%20Trees.cpp"> Minimum Height Trees (Leetcode-310)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Build%20a%20Matrix%20With%20Conditions.cpp"> Build a Matrix With Conditions (Leetcode-2392)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
