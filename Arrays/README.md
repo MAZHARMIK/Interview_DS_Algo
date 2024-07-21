@@ -432,5 +432,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array.cpp"> Minimum Number of Increments on Subarrays to Form a Target Array (Leetcode-1526)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Operations%20to%20Make%20Array%20Equal%20to%20Target.cpp"> Minimum Operations to Make Array Equal to Target (Leetcode-3229)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
