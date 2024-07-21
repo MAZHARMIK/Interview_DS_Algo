@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will update soon
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=QyrmIu4Vo8A
+    Company Tags                : APPLE
     Leetcode Link               : https://leetcode.com/problems/build-a-matrix-with-conditions
 */
 
