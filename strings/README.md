@@ -287,5 +287,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Append%20Characters%20to%20String%20to%20Make%20Subsequence.cpp"> Append Characters to String to Make Subsequence (Leetcode-2486)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Sort%20the%20Jumbled%20Numbers.cpp"> Sort the Jumbled Numbers (Leetcode-2191)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
