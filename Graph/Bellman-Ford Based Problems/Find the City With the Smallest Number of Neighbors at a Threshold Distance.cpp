@@ -5,9 +5,10 @@
     Leetcode Link               : https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance
 */
 
+//Using Dijkstra's - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Find%20the%20City%20With%20the%20Smallest%20Number%20of%20Neighbors%20at%20a%20Threshold%20Distance.cpp
 
 /************************************************************ C++ ************************************************************/
-//Approach (Using Dijkstra's)
+//Approach (Using Bellman-Ford)
 //T.C : O(V * (V * E)) where E is the number of edges and V = number of vertices. We call Bellman(V*E) for each vertex.
         //In worst case , max edges = V*(V-1)/2
         //O(V * V*(V-1)/2 * log V)
@@ -85,7 +86,7 @@ public:
 
 
 /************************************************************ JAVA ************************************************************/
-//Approach (Using Dijkstra's)
+//Approach (Using Bellman-Ford)
 //T.C : O(V * (V * E)) where E is the number of edges and V = number of vertices. We call Bellman(V*E) for each vertex.
         //In worst case , max edges = V*(V-1)/2
         //O(V * V*(V-1)/2 * log V)
