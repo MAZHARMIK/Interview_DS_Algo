@@ -115,6 +115,8 @@ class Solution {
             int d = top[0];
             int node = top[1];
 
+            if (adj.get(node) == null) continue;  // Check if adjacency list is null
+
             for (int[] p : adj.get(node)) {
                 int adjNode = p[0];
                 int dist = p[1];
