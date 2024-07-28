@@ -85,8 +85,8 @@ public:
             que.pop();
 
             int timePassed = (freq == 1) ? d1[node] : d2[node];
-            if (freq == 2 && node == n) { //We reached n 2nd time means it's the second minimum
-                return timePassed;
+            if (d2[n] != INT_MAX && node == n) { //We reached n 2nd time means it's the second minimum
+                return d2[n];
             }
 
             int mult = timePassed / change;
@@ -196,8 +196,8 @@ class Solution {
             int freq = curr[1];
 
             int timePassed = (freq == 1) ? d1[node] : d2[node];
-            if (freq == 2 && node == n) { // We reached n 2nd time means it's the second minimum
-                return timePassed;
+            if (d2[n] != Integer.MAX_VALUE && node == n) { // We reached n 2nd time means it's the second minimum
+                return d2[n];
             }
 
             int mult = timePassed / change;
