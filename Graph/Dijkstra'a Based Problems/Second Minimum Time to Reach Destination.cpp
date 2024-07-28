@@ -179,8 +179,6 @@ class Solution {
 //Approach-2 (Using BFS)
 //T.C : O(V + E) - where E = number of edges and V = number of vertices
 //S.C : O(V+E)
-import java.util.*;
-
 class Solution {
     public int secondMinimum(int n, int[][] edges, int time, int change) {
         List<List<Integer>> adj = new ArrayList<>();
