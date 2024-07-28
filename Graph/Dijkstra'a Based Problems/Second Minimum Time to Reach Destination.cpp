@@ -15,7 +15,7 @@ public:
     #define P pair<int, int>
 
     int secondMinimum(int n, vector<vector<int>>& edges, int time, int change) {
-        vector<vector<int>> adj(n + 1);
+        unordered_map<int, vector<int>> adj(n + 1);
         for (auto& edge : edges) {
             int u = edge[0];
             int v = edge[1];
