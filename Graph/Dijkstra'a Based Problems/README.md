@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Find%20the%20City%20With%20the%20Smallest%20Number%20of%20Neighbors%20at%20a%20Threshold%20Distance.cpp"> Find the City With the Smallest Number of Neighbors at a Threshold Distance (Leetcode-1334)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Second%20Minimum%20Time%20to%20Reach%20Destination.cpp"> Second Minimum Time to Reach Destination (Leetcode-2045)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
