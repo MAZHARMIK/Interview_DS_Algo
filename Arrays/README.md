@@ -437,5 +437,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Operations%20to%20Make%20Array%20Equal%20to%20Target.cpp"> Minimum Operations to Make Array Equal to Target (Leetcode-3229)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Count%20Number%20of%20Teams.cpp"> Count Number of Teams (Leetcode-1395)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
