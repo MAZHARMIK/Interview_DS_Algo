@@ -30,8 +30,13 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Minimum%20Swaps%20to%20Group%20All%201s%20Together.cpp">Minimum Swaps to Group All 1's Together (Leetcode-1151)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Minimum%20Swaps%20to%20Group%20All%201's%20Together%20II.cpp">Minimum Swaps to Group All 1's Together II (Leetcode-2134)</a>
 				</td>
 			</tr>
 			<tr>
