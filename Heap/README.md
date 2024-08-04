@@ -164,5 +164,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/IPO.cpp"> IPO (Leetcode-502)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Range%20Sum%20of%20Sorted%20Subarray%20Sums.cpp"> Range Sum of Sorted Subarray Sums (Leetcode-1508)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
