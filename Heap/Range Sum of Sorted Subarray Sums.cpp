@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=oMHO5iti5_c
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/range-sum-of-sorted-subarray-sums
 */
