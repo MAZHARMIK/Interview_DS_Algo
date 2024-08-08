@@ -91,13 +91,18 @@
 				  </td>
       			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Spiral%20Matrix.cpp">Spiral Matrix (Leetcode - 54)</a>
 				</td>
 			</tr>
 			<tr>
-        <td>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Spiral%20Matrix%20II.cpp">Spiral Matrix II (Leetcode - 59)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Spiral%20Matrix%20III.cpp">Spiral Matrix III (Leetcode - 885)</a>
 				</td>
 			</tr>
 			<tr>
