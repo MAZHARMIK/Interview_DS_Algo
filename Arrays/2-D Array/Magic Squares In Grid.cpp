@@ -77,6 +77,7 @@ public:
 //Approach-2 (Using Maths and Observation) - LET ME KNOW IF YOU NEED THIS VIDEO AS WELL
 //T.C : O(m*n)
 //S.C : O(1)
+//Some hint - You can put int SUM = 15 and it will work fine.
 
 
 
@@ -145,3 +146,4 @@ class Solution {
 //Approach-2 (Using Maths and Observation) - LET ME KNOW IF YOU NEED THIS VIDEO AS WELL
 //T.C : O(m*n)
 //S.C : O(1)
+//Some hint - You can put int SUM = 15 and it will work fine.
