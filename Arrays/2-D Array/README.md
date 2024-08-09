@@ -165,5 +165,11 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Find%20Valid%20Matrix%20Given%20Row%20and%20Column%20Sums.cpp">Find Valid Matrix Given Row and Column Sums (Leetcode-1605)</a>
 				</td>
 			</tr>
+			</tr>
+						<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Magic%20Squares%20In%20Grid.cpp"> Magic Squares In Grid (Leetcode-840)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
