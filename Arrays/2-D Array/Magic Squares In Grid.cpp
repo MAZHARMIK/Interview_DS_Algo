@@ -57,7 +57,7 @@ public:
 
     int numMagicSquaresInside(vector<vector<int>>& grid) {
         int rows = grid.size();
-        int cols = grid.size();
+        int cols = grid[0].size();
 
         int count = 0;
 
