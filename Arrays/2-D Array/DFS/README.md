@@ -28,5 +28,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Number%20of%20Enclaves.cpp">Number of Enclaves (Leetcode-1020)</a>
 				  </td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Regions%20Cut%20By%20Slashes.cpp"> Regions Cut By Slashes (Leetcode-959)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
