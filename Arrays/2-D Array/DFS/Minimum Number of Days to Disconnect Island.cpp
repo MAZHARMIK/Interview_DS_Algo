@@ -15,8 +15,8 @@ public:
     vector<vector<int>> directions{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     int m;
     int n;
-    void DFS(vector<vector<int>>& matrix, int i, int j, vector<vector<bool>>& visited) {
-        if(i < 0 || i >= matrix.size() || j < 0 || j >= matrix[0].size() || visited[i][j] || matrix[i][j] == 0)
+    void DFS(vector<vector<int>>& grid, int i, int j, vector<vector<bool>>& visited) {
+        if(i < 0 || i >= m || j < 0 || j >= n || visited[i][j] || grid[i][j] == 0)
             return;
         
         visited[i][j] = 1; //mark visited
@@ -24,7 +24,7 @@ public:
         for(auto& dir : directions) {
             int new_i = i + dir[0];
             int new_j = j + dir[1];
-            DFS(matrix, new_i, new_j, visited);
+            DFS(grid, new_i, new_j, visited);
         }
     }
 
@@ -86,8 +86,8 @@ class Solution {
     private int m;
     private int n;
 
-    private void DFS(int[][] matrix, int i, int j, boolean[][] visited) {
-        if (i < 0 || i >= matrix.length || j < 0 || j >= matrix[0].length || visited[i][j] || matrix[i][j] == 0)
+    private void DFS(int[][] grid, int i, int j, boolean[][] visited) {
+        if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || visited[i][j] || grid[i][j] == 0)
             return;
 
         visited[i][j] = true; // mark visited
@@ -95,7 +95,7 @@ class Solution {
         for (int[] dir : directions) {
             int new_i = i + dir[0];
             int new_j = j + dir[1];
-            DFS(matrix, new_i, new_j, visited);
+            DFS(grid, new_i, new_j, visited);
         }
     }
 
