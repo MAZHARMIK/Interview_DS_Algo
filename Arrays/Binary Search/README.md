@@ -196,5 +196,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Magnetic%20Force%20Between%20Two%20Balls.cpp"> Magnetic Force Between Two Balls (Leetcode-1552)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20K-th%20Smallest%20Pair%20Distance.cpp"> Find K-th Smallest Pair Distance (Leetcode-719)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
