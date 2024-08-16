@@ -249,5 +249,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Cost%20for%20Cutting%20Cake%20I%20-%20II.cpp"> Minimum Cost for Cutting Cake I - II (Leetcode-3218 & 3219)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Distance%20in%20Arrays.cpp"> Maximum Distance in Arrays (Leetcode-624)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
