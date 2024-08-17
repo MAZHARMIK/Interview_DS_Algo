@@ -1,8 +1,8 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=0AlKD9rZfm4
     Company Tags                : will update soon
-    Leetcode Link               : https://leetcode.com/problems/maximum-number-of-points-with-cost/
+    Leetcode Link               : https://leetcode.com/problems/maximum-number-of-points-with-cost
 */
 
 
