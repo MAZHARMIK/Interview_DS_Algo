@@ -703,5 +703,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Filling%20Bookcase%20Shelves.cpp"> Filling Bookcase Shelves (Leetcode - 1105)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Number%20of%20Points%20with%20Cost.cpp"> Maximum Number of Points with Cost (Leetcode - 1937)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
