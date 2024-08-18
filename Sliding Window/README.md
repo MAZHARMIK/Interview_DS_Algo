@@ -181,7 +181,7 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Longest%20Continuous%20Subarray%20With%20Absolute%20Diff%20Less%20Than%20or%20Equal%20to%20Limit.cpp"> Count Substrings That Satisfy K-Constraint I & II (Leetcode - 3258 & 3261) </a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Substrings%20That%20Satisfy%20K-Constraint%20I%20%26%20II.cpp"> Count Substrings That Satisfy K-Constraint I & II (Leetcode - 3258 & 3261) </a>
 				</td>
 			</tr>
 		</tbody>
