@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=2d1ALG8wwDc
     Company Tags                : Will update soon
     Leetcode Link -
     Count Substrings That Satisfy K-Constraint I  : https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-i
