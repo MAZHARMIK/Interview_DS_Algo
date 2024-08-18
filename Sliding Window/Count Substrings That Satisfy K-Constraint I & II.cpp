@@ -47,7 +47,7 @@ public:
 
 
 ////////////////////////////////////////////// "Count Substrings That Satisfy K-Constraint I" //////////////////////////////////////////////
-//Approach-1 (Using Sliding Window)
+//Approach-2 (Using Sliding Window)
 //T.C : O(n)
 //S.C : O(1)
 class Solution {
@@ -208,7 +208,7 @@ class Solution {
 
 
 ////////////////////////////////////////////// "Count Substrings That Satisfy K-Constraint I" //////////////////////////////////////////////
-//Approach-1 (Using Sliding Window)
+//Approach-2 (Using Sliding Window)
 //T.C : O(n)
 //S.C : O(1)
 class Solution {
