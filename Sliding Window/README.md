@@ -179,5 +179,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Longest%20Continuous%20Subarray%20With%20Absolute%20Diff%20Less%20Than%20or%20Equal%20to%20Limit.cpp"> Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit (Leetcode - 1438) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Longest%20Continuous%20Subarray%20With%20Absolute%20Diff%20Less%20Than%20or%20Equal%20to%20Limit.cpp"> Count Substrings That Satisfy K-Constraint I & II (Leetcode - 3258 & 3261) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
