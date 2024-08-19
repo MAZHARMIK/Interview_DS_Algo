@@ -47,7 +47,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/2%20Keys%20Keyboard">2 Keys Keyboard (3 approaches) - Leetcode : 650</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/2%20Keys%20Keyboard.cpp">2 Keys Keyboard  (Leetcode : 650)</a>
 				</td>
 			</tr>
 			<tr>
