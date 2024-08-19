@@ -1,8 +1,8 @@
 /*    Scroll below to see JAVA code also    */
 /*
-	MY YOUTUBE VIDEO ON THIS Qn : 
-	Company Tags     			: LinkedIn, Amazon
-  	Leetcode Qn Link 			: https://leetcode.com/problems/2-keys-keyboard/
+	MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=zELBK8_vB7Y
+	Company Tags     	    : LinkedIn, Amazon
+  	Leetcode Qn Link 	    : https://leetcode.com/problems/2-keys-keyboard/
 */
 
 /********************************************************** C++ *********************************************************/
