@@ -34,7 +34,7 @@ public:
         int number_of_bits = (int)(log2(num)) + 1;
         
         // Create a mask with all bits set to 1 that are of the same length as num
-        int mask = (1 << number_of_bits) - 1;
+        unsigned int mask = (1U << numBits) - 1; //unsigned taken to avoid integer overflow
 
         // XOR num with mask to get the complement
         return num ^ mask;
