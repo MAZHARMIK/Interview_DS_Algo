@@ -31,16 +31,12 @@ public:
         if (num == 0)
             return 1;
 
-        int mask = 0;
-        int temp = num;
+        int number_of_bits = (int)(log2(num)) + 1;
+        
+        // Create a mask with all bits set to 1 that are of the same length as num
+        int mask = (1 << number_of_bits) - 1;
 
-        // Create a mask with all bits set to 1 that are of the same length as N
-        while (temp) {
-            mask = (mask << 1) | 1;
-            temp >>= 1;
-        }
-
-        // XOR N with mask to get the complement
+        // XOR num with mask to get the complement
         return num ^ mask;
     }
 };
@@ -89,14 +85,11 @@ class Solution {
         if (num == 0)
             return 1;
 
-        int mask = 0;
-        int temp = num;
-
+        // Calculate the number of bits in num
+        int number_of_bits = (int)(Math.log(num) / Math.log(2)) + 1;
+        
         // Create a mask with all bits set to 1 that are of the same length as num
-        while (temp != 0) {
-            mask = (mask << 1) | 1;
-            temp >>= 1;
-        }
+        int mask = (1 << number_of_bits) - 1;
 
         // XOR num with mask to get the complement
         return num ^ mask;
