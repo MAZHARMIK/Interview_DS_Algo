@@ -8,7 +8,7 @@
 /*********************************************************************** C++ ************************************************************/
 //Approach (Using simple observation)
 //T.C : O(n)
-//S.C : O(n)
+//S.C : O(1) //Ignoring space taken during string copy internally
 class Solution {
 public:
     long halfToPalindrome(long left, bool even) {
@@ -69,7 +69,7 @@ public:
 /*********************************************************************** JAVA ************************************************************/
 //Approach (Using simple observation)
 //T.C : O(n)
-//S.C : O(n)
+//S.C : O(1) //Ignoring space taken during string copy internally
 class Solution {
 
     // Helper function to create a palindrome by mirroring the first half
