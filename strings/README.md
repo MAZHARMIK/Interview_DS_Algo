@@ -294,7 +294,12 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Fraction%20Addition%20and%20Subtraction.cpp"> Fraction Addition and Subtraction (Leetcode-592)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Fraction%20Addition%20and%20Subtraction.cpp"> Find the Closest Palindrome (Leetcode-592)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20the%20Closest%20Palindrome.cpp"> Fraction Addition and Subtraction (Leetcode-564)</a>
 				</td>
 			</tr>
 		</tbody>
