@@ -4,7 +4,7 @@
     Leetcode Link               : https://leetcode.com/problems/contains-duplicate-ii/
     Using sliding window        : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Contains%20Duplicate%20II.cpp
 */
-/**************************************** JAVA ****************************************/
+/**************************************** C++ ****************************************/
 //T.C. :O(n)
 //S.C. :O(n)
 class Solution {
