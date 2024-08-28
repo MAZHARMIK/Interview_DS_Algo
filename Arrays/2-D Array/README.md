@@ -171,5 +171,11 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Magic%20Squares%20In%20Grid.cpp"> Magic Squares In Grid (Leetcode-840)</a>
 				</td>
 			</tr>
+			</tr>
+						<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Count%20Sub%20Islands.cpp"> Count Sub Islands (Leetcode-1905)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
