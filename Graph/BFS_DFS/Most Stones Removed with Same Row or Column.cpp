@@ -1,3 +1,4 @@
+/*         Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ZsGTpXm966E
     Company Tags                : Google
@@ -6,6 +7,10 @@
     Please see the "Disjoint Set" solution : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Most%20Stones%20Removed%20with%20Same%20Row%20or%20Column.cpp
 */
 
+
+/************************************************ C++ ************************************************/
+//T.C : O(n^2)
+//S.C : O(n)
 class Solution {
 public:
     int n ;
@@ -34,3 +39,37 @@ public:
         return n - count;
     }
 };
+
+
+
+/************************************************ JAVA ************************************************/
+//T.C : O(n^2)
+//S.C : O(n)
+class Solution {
+    private int n;
+    
+    private void dfs(int[][] stones, int index, boolean[] visited) {
+        visited[index] = true;
+        
+        for (int i = 0; i < n; i++) {
+            if (!visited[i] &&
+                (stones[i][0] == stones[index][0] || stones[i][1] == stones[index][1])) {
+                dfs(stones, i, visited);
+            }
+        }
+    }
+    
+    public int removeStones(int[][] stones) {
+        n = stones.length;
+        boolean[] visited = new boolean[n];
+        
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            if (visited[i]) continue;
+            dfs(stones, i, visited);
+            count++;
+        }
+        
+        return n - count;
+    }
+}
