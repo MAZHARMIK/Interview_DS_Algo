@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=cmqIeBFx01w
     Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
     
