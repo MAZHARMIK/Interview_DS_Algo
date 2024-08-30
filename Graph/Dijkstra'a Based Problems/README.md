@@ -49,5 +49,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Second%20Minimum%20Time%20to%20Reach%20Destination.cpp"> Second Minimum Time to Reach Destination (Leetcode-2045)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Modify%20Graph%20Edge%20Weights.cpp"> Modify Graph Edge Weights (Leetcode-2699)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
