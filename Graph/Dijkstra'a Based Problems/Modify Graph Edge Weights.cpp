@@ -34,7 +34,7 @@ public:
 
         priority_queue<P, vector<P>, greater<P>> pq;
         vector<ll> result(n, INT_MAX); //result[i] = shortest path distance of src to ith node
-        vector<bool> visited(n, false);
+        //vector<bool> visited(n, false); //YOU DON"T NEED VISITED ARRAY BECAUSE ANYWAYS YOU WILL NOT VISIT SAME NODE AS IT's DISTANCE WILL BE INCREASED NEXT TIME DIJKSTRA YOU WILL SKIP IT
 
         result[src] = 0; //src to src distance is 0
         pq.push({0, src});
@@ -44,10 +44,12 @@ public:
             ll currNode = pq.top().second;
             pq.pop();
 
+            /*We don't need visited vector in Dijkstra
             if(visited[currNode] == true) {
                 continue;
             }
             visited[currNode] = true;
+            */
 
             for(auto&[nbr, wt] : adj[currNode]) {
                 if(result[nbr] > currDist + wt) {
@@ -102,46 +104,42 @@ public:
 class Solution {
     private static final int LARGE_VALUE = (int) 2e9;
 
-    // Dijkstra's algorithm to find the shortest path
-    private long dijkstraAlgo(int[][] edges, int n, int src, int dest) {
-        // Create adjacency list excluding edges with -1 weight
-        Map<Long, List<long[]>> adj = new HashMap<>();
+    private long dijkstraAlgorithm(int[][] edges, int n, int src, int dest) {
+        // Construct the graph, excluding edges with -1 weight
+        Map<Integer, List<int[]>> adj = new HashMap<>();
+
         for (int[] edge : edges) {
             if (edge[2] != -1) {
                 int u = edge[0];
                 int v = edge[1];
                 int wt = edge[2];
 
-                adj.computeIfAbsent((long) u, k -> new ArrayList<>()).add(new long[]{v, wt});
-                adj.computeIfAbsent((long) v, k -> new ArrayList<>()).add(new long[]{u, wt});
+                adj.computeIfAbsent(u, k -> new ArrayList<>()).add(new int[]{v, wt});
+                adj.computeIfAbsent(v, k -> new ArrayList<>()).add(new int[]{u, wt});
             }
         }
 
-        // Priority queue for Dijkstra's algorithm
-        PriorityQueue<long[]> pq = new PriorityQueue<>(Comparator.comparingLong(a -> a[0]));
-        long[] result = new long[n];  // shortest path distance from src to each node
-        boolean[] visited = new boolean[n];
-        Arrays.fill(result, Long.MAX_VALUE); // Initialize distances as infinity
-        result[src] = 0;  // Distance from src to src is 0
-        pq.offer(new long[]{0, src}); // (distance, node)
+        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
+        long[] result = new long[n];
+        Arrays.fill(result, Integer.MAX_VALUE); // Fill result array with max value
+
+        result[src] = 0;
+        pq.add(new int[]{0, src});
 
         while (!pq.isEmpty()) {
-            long[] curr = pq.poll();
-            long currDist = curr[0];
-            int currNode = (int) curr[1];
+            int[] current = pq.poll();
+            int currDist = current[0];
+            int currNode = current[1];
 
-            if (visited[currNode]) continue;
-            visited[currNode] = true;
+            if (!adj.containsKey(currNode)) continue;
 
-            if (!adj.containsKey((long) currNode)) continue;
+            for (int[] neighbor : adj.get(currNode)) {
+                int nbr = neighbor[0];
+                int wt = neighbor[1];
 
-            for (long[] neighbor : adj.get((long) currNode)) {
-                int nbr = (int) neighbor[0];
-                long weight = neighbor[1];
-
-                if (result[nbr] > currDist + weight) {
-                    result[nbr] = currDist + weight;
-                    pq.offer(new long[]{result[nbr], nbr});
+                if (result[nbr] > currDist + wt) {
+                    result[nbr] = currDist + wt;
+                    pq.add(new int[]{(int) result[nbr], nbr});
                 }
             }
         }
@@ -150,32 +148,31 @@ class Solution {
     }
 
     public int[][] modifiedGraphEdges(int n, int[][] edges, int source, int destination, int target) {
-        long currShortestDist = dijkstraAlgo(edges, n, source, destination);
+        long currShortestDist = dijkstraAlgorithm(edges, n, source, destination);
 
         if (currShortestDist < target) {
-            return new int[0][];
+            return new int[][]{};
         }
 
         boolean matchedTarget = (currShortestDist == target);
 
-        // Iterate through each edge with -1 weight
         for (int[] edge : edges) {
             if (edge[2] == -1) {
-                edge[2] = matchedTarget ? LARGE_VALUE : 1; // Assign the smallest possible value if no match
+                edge[2] = matchedTarget ? LARGE_VALUE : 1; // Assign lowest number i.e. 1
 
                 if (!matchedTarget) {
-                    long newShortestDist = dijkstraAlgo(edges, n, source, destination);
+                    long newShortestDist = dijkstraAlgorithm(edges, n, source, destination);
 
                     if (newShortestDist <= target) {
                         matchedTarget = true;
-                        edge[2] += (target - newShortestDist);  // Adjust weight to match target distance
+                        edge[2] += (target - newShortestDist);
                     }
                 }
             }
         }
 
         if (!matchedTarget) {
-            return new int[0][];
+            return new int[][]{};
         }
         return edges;
     }
