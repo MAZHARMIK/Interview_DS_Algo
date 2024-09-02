@@ -442,5 +442,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Count%20Number%20of%20Teams.cpp"> Count Number of Teams (Leetcode-1395)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Student%20that%20Will%20Replace%20the%20Chalk.cpp"> Find the Student that Will Replace the Chalk (Leetcode-1894)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
