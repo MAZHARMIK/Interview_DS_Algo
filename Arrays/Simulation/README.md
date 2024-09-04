@@ -29,5 +29,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Average%20Waiting%20Time.cpp"> Average Waiting Time (Leetcode-1701)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Walking%20Robot%20Simulation.cpp"> Walking Robot Simulation (Leetcode-874)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
