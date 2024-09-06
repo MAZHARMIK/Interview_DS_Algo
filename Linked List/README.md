@@ -226,7 +226,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Find%20the%20Minimum%20and%20Maximum%20Number%20of%20Nodes%20Between%20Critical%20Points.cpp"> Find the Minimum and Maximum Number of Nodes Between Critical Points (Leetcode-3217)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Find%20the%20Minimum%20and%20Maximum%20Number%20of%20Nodes%20Between%20Critical%20Points.cpp"> Delete Nodes From Linked List Present in Array (Leetcode-3217)</a>
 				</td>
 			</tr>
 		</tbody>
