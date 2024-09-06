@@ -1,6 +1,6 @@
 /*   Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=qb7br7auuOc
     Company Tags                : AMAZON
     Leetcode Link               : https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/
 */
