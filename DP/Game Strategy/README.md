@@ -39,5 +39,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Predict%20the%20Winner.cpp">Predict the Winner (Leetcode-486)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Maximum%20Number%20of%20Moves%20to%20Kill%20All%20Pawns.cpp"> Maximum Number of Moves to Kill All Pawns (Leetcode-3283)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
