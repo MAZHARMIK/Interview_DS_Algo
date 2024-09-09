@@ -107,7 +107,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Spiral%20Matrix%20III.cpp">Spiral Matrix IV (Leetcode - 2326)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Spiral%20Matrix%20IV.cpp">Spiral Matrix IV (Leetcode - 2326)</a>
 				</td>
 			</tr>
 			<tr>
