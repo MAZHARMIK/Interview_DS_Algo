@@ -1,6 +1,6 @@
 /*   Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=BYXcK48Bzok
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list
 */
