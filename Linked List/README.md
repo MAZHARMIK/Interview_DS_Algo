@@ -229,5 +229,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Delete%20Nodes%20From%20Linked%20List%20Present%20in%20Array.cpp"> Delete Nodes From Linked List Present in Array (Leetcode-3217)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Insert%20Greatest%20Common%20Divisors%20in%20Linked%20List.cpp"> Insert Greatest Common Divisors in Linked List (Leetcode-2807)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
