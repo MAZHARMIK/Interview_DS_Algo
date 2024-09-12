@@ -39,5 +39,10 @@
 				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Replace%20Words.cpp"> Replace Words (Leetcode-648)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Count%20the%20Number%20of%20Consistent%20Strings.cpp"> Count the Number of Consistent Strings (Leetcode-1684)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
