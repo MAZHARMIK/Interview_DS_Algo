@@ -18,21 +18,24 @@ public:
         int streak = 0;
 
         for (int num : nums) {
-            if (num == maxVal) {
-                streak++;
-            } else if (num > maxVal) {
+            if (num > maxVal) {
                 maxVal = num;
-                streak = 1; // Start a new streak
+                result = 0;
+                streak = 0;
+            }
+
+            if (maxVal == num) {
+                streak++;
             } else {
                 streak = 0;
             }
+
             result = max(result, streak);
         }
+
         return result;
     }
 };
-
-
 
 
 /************************************************************ JAVA ************************************************/
@@ -45,17 +48,22 @@ class Solution {
         int result = 0;
         int streak = 0;
 
-        for (int num : nums) {
-            if (num == maxVal) {
-                streak++;
-            } else if (num > maxVal) {
+        for(int num : nums) {
+            if(num > maxVal) {
                 maxVal = num;
-                streak = 1; // Start a new streak
+                result = 0;
+                streak = 0;
+            }
+
+            if(maxVal == num) {
+                streak++;
             } else {
                 streak = 0;
             }
+
             result = Math.max(result, streak);
         }
+
         return result;
     }
 }
