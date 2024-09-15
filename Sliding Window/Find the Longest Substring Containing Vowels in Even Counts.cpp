@@ -1,6 +1,6 @@
 /*        Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : <soon>
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6Xf5LfM-ciI
     Company Tags                : Yogiyo (Food delivering app)
     Leetcode Link               : https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/
 */
