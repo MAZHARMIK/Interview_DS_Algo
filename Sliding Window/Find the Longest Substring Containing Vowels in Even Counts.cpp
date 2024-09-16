@@ -43,7 +43,7 @@ public:
             }
 
             // Check if we've seen this state before
-            if (stateMap.find(currentState) != mp.end()) {
+            if (mp.find(currentState) != mp.end()) {
                 // Calculate the length of the substring
                 maxLength = max(maxLength, i - mp[currentState]);
             } else {
@@ -89,7 +89,7 @@ public:
             }
 
             // Check if we've seen this state before
-            if (stateMap.find(currentState) != mp.end()) {
+            if (mp.find(currentState) != mp.end()) {
                 // Calculate the length of the substring
                 maxLength = max(maxLength, i - mp[currentState]);
             } else {
