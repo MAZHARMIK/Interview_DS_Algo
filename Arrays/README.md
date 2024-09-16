@@ -452,5 +452,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Longest%20Subarray%20With%20Maximum%20Bitwise%20AND.cpp"> Longest Subarray With Maximum Bitwise AND (Leetcode-2419)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Time%20Difference.cpp"> Minimum Time Difference (Leetcode-539)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
