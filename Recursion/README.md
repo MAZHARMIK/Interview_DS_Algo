@@ -99,5 +99,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Integer%20to%20English%20Words.cpp"> Integer to English Words (Leetcode - 273)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Different%20Ways%20to%20Add%20Parentheses.cpp"> Different Ways to Add Parentheses (Leetcode - 241)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
