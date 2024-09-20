@@ -302,5 +302,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20the%20Closest%20Palindrome.cpp"> Fraction Addition and Subtraction (Leetcode-564)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Shortest%20Palindrome.cpp"> Shortest Palindrome (Leetcode-214)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
