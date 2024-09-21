@@ -104,5 +104,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Different%20Ways%20to%20Add%20Parentheses.cpp"> Different Ways to Add Parentheses (Leetcode - 241)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Lexicographical%20Numbers.cpp"> Lexicographical Numbers (Leetcode - 386)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
