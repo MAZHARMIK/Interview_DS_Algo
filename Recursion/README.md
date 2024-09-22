@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Lexicographical%20Numbers.cpp"> Lexicographical Numbers (Leetcode - 386)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/K-th%20Smallest%20in%20Lexicographical%20Order.cpp"> K-th Smallest in Lexicographical Order (Leetcode - 440)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
