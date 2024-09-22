@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=pQ_BQ9J9p-c
     Company Tags                : Hulu
     Leetcode Link               : https://leetcode.com/problems/k-th-smallest-in-lexicographical-order
 */
