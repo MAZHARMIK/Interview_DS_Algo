@@ -64,5 +64,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Replace%20Words.cpp"> Replace Words (Leetcode-648)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix.cpp"> Find the Length of the Longest Common Prefix (Leetcode-3043)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
