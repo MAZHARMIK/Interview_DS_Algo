@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix.cpp"> Find the Length of the Longest Common Prefix (Leetcode-3043)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Sum%20of%20Prefix%20Scores%20of%20Strings.cpp"> Sum of Prefix Scores of Strings (Leetcode-2416)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
