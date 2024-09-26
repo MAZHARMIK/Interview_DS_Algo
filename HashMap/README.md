@@ -31,11 +31,6 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/My%20Calendar%20I.cpp">My Calendar I (Leetcode-729)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Palindrome%20Pairs.cpp">Palindrome Pairs (Leetcode-336)</a>
 				</td>
 			</tr>
