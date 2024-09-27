@@ -94,5 +94,11 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/My%20Calendar%20I.cpp">My Calendar I (Leetcode-729)</a>
 				</td>
 			</tr>
+			</tr>
+						<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/My%20Calendar%20II.cpp">My Calendar II (Leetcode-731)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
