@@ -15,7 +15,7 @@ private:
     // Doubly Linked List node to store count and a set of strings with that count
     struct Node {
         int count;
-        list<string> keys;
+        list<string> keys; //You can use an unordered_set<string> here as well
         Node *prev, *next;
         Node(int c) : count(c), prev(nullptr), next(nullptr) {}
     };
