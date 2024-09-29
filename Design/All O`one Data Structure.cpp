@@ -15,7 +15,7 @@ private:
     // Doubly Linked List node to store count and a set of strings with that count
     struct Node {
         int count;
-        list<string> keys; //You should use an unordered_set<string> here because it will have Amortized O(1) time complexity.
+        list<string> keys; //You should use an unordered_set<string> here because it will have Amortized O(1) time complexity for erae() function.
         Node *prev, *next;
         Node(int c) : count(c), prev(nullptr), next(nullptr) {}
     };
