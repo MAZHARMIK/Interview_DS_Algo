@@ -149,5 +149,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20a%20Food%20Rating%20System.cpp"> Design a Food Rating System (Leetcode - 2353)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/All%20O%60one%20Data%20Structure.cpp"> All O`one Data Structure (Leetcode - 432)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
