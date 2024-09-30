@@ -1,8 +1,8 @@
 /*        Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO IN THIS QN : https://www.youtube.com/watch?v=GJJ2OWKHADs
+    MY YOUTUBE VIDEO IN THIS QN : 
     Company Tags  : LinkedIn
-    Leetcode Link : https://leetcode.com/problems/all-oone-data-structure/
+    Leetcode Link : https://leetcode.com/problems/design-a-stack-with-increment-operation/
 */
 
 
