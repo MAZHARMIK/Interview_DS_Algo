@@ -154,5 +154,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/All%20O%60one%20Data%20Structure.cpp"> All O`one Data Structure (Leetcode - 432)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20a%20Stack%20With%20Increment%20Operation.cpp"> Design a Stack With Increment Operation (Leetcode - 1381)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
