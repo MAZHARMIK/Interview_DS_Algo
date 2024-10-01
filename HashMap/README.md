@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Hand%20of%20Straights.cpp"> Hand of Straights (Leetcode-846)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Check%20If%20Array%20Pairs%20Are%20Divisible%20by%20k.cpp">  Check If Array Pairs Are Divisible by k (Leetcode - 1497)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
