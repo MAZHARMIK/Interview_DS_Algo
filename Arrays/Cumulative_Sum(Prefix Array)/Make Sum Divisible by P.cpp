@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=5jpCEfRI1sM
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/make-sum-divisible-by-p/description/
 */
