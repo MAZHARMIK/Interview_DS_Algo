@@ -68,5 +68,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Count%20Number%20of%20Nice%20Subarrays.cpp"> Count Number of Nice Subarrays (Leetcode-1248)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Make%20Sum%20Divisible%20by%20P.cpp"> Make Sum Divisible by P (Leetcode-1590)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
