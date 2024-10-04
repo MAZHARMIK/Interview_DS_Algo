@@ -129,51 +129,41 @@ class Solution {
 //Approach-2 (Using frequency of skills similar to counting sort)
 //T.C : O(n)
 //S.C : O(1000) ~= O(1)
-import java.util.HashMap;
-import java.util.Map;
-
 class Solution {
     public long dividePlayers(int[] skill) {
         int n = skill.length;
 
-        // Frequency array to keep track of skill counts
+        // Frequency array to count occurrences of each skill value
         int[] freq = new int[1001];
-        int SUM = 0;
+        int totalSum = 0;
 
-        // Calculate the sum and update the frequency array
         for (int s : skill) {
-            SUM += s;
-            freq[s]++;
+            totalSum += s;
+            freq[s]++; // Update frequency
         }
 
         int teams = n / 2;
 
-        // If the total sum cannot be divided evenly into teams, return -1
-        if (SUM % teams != 0) {
+        // Check if total sum is divisible by the number of teams
+        if (totalSum % teams != 0) {
             return -1;
         }
 
-        int target = SUM / teams;
-        long chem = 0;
+        int targetSum = totalSum / teams;
+        long chemistry = 0;
 
-        // Traverse through the skill array
         for (int currSkill : skill) {
-            int remainSkill = target - currSkill;
+            int remainingSkill = targetSum - currSkill;
 
-            // If the remaining skill is not present in the frequency map, return -1
-            if (freq[currSkill] <= 0) {
-                continue;  // Skip if already used
-            }
-            if (remainSkill < 0 || remainSkill > 1000 || freq[remainSkill] <= 0) {
+            // If the complementary skill is not available, return -1
+            if (freq[remainingSkill] <= 0) {
                 return -1;
             }
 
-            // Calculate the chemistry and update the frequency array
-            chem += (long) currSkill * (long) remainSkill;
-            freq[currSkill]--;
-            freq[remainSkill]--;
+            chemistry += (long) currSkill * (long) remainingSkill;
+            freq[remainingSkill]--; // Reduce the frequency of used skill
         }
 
-        return chem / 2;
+        return chemistry / 2;
     }
 }
