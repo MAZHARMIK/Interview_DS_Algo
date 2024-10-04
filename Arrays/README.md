@@ -457,5 +457,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Time%20Difference.cpp"> Minimum Time Difference (Leetcode-539)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Divide%20Players%20Into%20Teams%20of%20Equal%20Skill.cpp"> Divide Players Into Teams of Equal Skill (Leetcode - 2491)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
