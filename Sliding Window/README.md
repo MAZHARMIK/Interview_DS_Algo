@@ -11,7 +11,7 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 		<tbody>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Permutation%20in%20String">Permutation in String (Leetcode-567)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Permutation%20in%20String.cpp">Permutation in String (Leetcode-567)</a>
 				</td>
 			</tr>
 			<tr>
