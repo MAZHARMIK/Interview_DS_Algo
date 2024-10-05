@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS QN : 
+    MY YOUTUBE VIDEO ON THIS QN : https://www.youtube.com/watch?v=iTwwvsyUsi4
     Company Tags                : Microsoft, Amazon
     Leetcode Link               : https://leetcode.com/problems/permutation-in-string
 */
