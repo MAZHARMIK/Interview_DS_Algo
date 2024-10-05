@@ -91,33 +91,40 @@ public:
         int m = s2.length();
 
         // If s1 is larger than s2, no permutation can exist
-        if (n > m) 
-            return false;
+        if (n > m) return false;
 
         // Frequency vectors for s1 and the current window in s2
-        vector<int> s1Freq(26, 0);
-        vector<int> s2Freq(26, 0);
+        vector<int> s1_freq(26, 0);
+        vector<int> s2_freq(26, 0);
+
+        // Fill frequency of characters in s1
+        for (int i = 0; i < n; i++) {
+            s1_freq[s1[i] - 'a']++;
+        }
 
         // Slide the window over s2
-        int i = 0;
-        int j = 0;
-        while(j < m) {
+        int i = 0; // left index of the sliding window
+        int j = 0; // right index of the sliding window
+        while (j < m) {
             // Include a new character from the right end of the window
-            s2Freq[s2[j] - 'a']++;
-            
-            if(j - i + 1 == n) {
-                // Check if the frequency vectors match
-                if (s1Freq == s2Freq) 
-                    return true;
+            s2_freq[s2[j] - 'a']++;
+
+            // Check if the current window size matches the size of s1
+            if (j - i + 1 > n) {
+                // If we have passed the size of s1, we need to remove the leftmost character
+                s2_freq[s2[i] - 'a']--;
+                i++;
             }
 
-                            
-            // Exclude the character from the left end of the window
-            s2Freq[s2[i] - 'a']--;
-            i++;
+            // Check if the current window's frequency matches s1's frequency
+            if (s1_freq == s2_freq) {
+                return true;
+            }
+
             j++;
         }
 
+        // No matching window found
         return false;
     }
 };
@@ -214,52 +221,48 @@ class Solution {
 //Approach-3 (Sliding Window) - ACCEPTED
 //T.C : O(m+n)
 //S.C : O(26)
+import java.util.Arrays;
+
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
         int n = s1.length();
         int m = s2.length();
 
         // If s1 is larger than s2, no permutation can exist
-        if (n > m) 
-            return false;
+        if (n > m) return false;
 
         // Frequency arrays for s1 and the current window in s2
-        int[] s1Freq = new int[26];
-        int[] s2Freq = new int[26];
+        int[] s1_freq = new int[26];
+        int[] s2_freq = new int[26];
 
-        // Fill the frequency array for s1
-        for (char c : s1.toCharArray()) {
-            s1Freq[c - 'a']++;
+        // Fill frequency of characters in s1
+        for (int i = 0; i < n; i++) {
+            s1_freq[s1.charAt(i) - 'a']++;
         }
 
         // Slide the window over s2
-        int i = 0; // Start of the window
-        for (int j = 0; j < m; j++) {
+        int i = 0; // left index of the sliding window
+        int j = 0; // right index of the sliding window
+        while (j < m) {
             // Include a new character from the right end of the window
-            s2Freq[s2.charAt(j) - 'a']++;
-            
-            // Check if the window size is equal to s1
-            if (j - i + 1 == n) {
-                // Check if the frequency arrays match
-                if (compareArrays(s1Freq, s2Freq)) 
-                    return true;
-                
-                // Exclude the character from the left end of the window
-                s2Freq[s2.charAt(i) - 'a']--;
-                i++; // Move the start of the window
+            s2_freq[s2.charAt(j) - 'a']++;
+
+            // Check if the current window size matches the size of s1
+            if (j - i + 1 > n) {
+                // If we have passed the size of s1, we need to remove the leftmost character
+                s2_freq[s2.charAt(i) - 'a']--;
+                i++;
             }
+
+            // Check if the current window's frequency matches s1's frequency
+            if (Arrays.equals(s1_freq, s2_freq)) {
+                return true;
+            }
+
+            j++;
         }
 
+        // No matching window found
         return false;
-    }
-
-    // Helper method to compare two frequency arrays
-    private boolean compareArrays(int[] arr1, int[] arr2) {
-        for (int i = 0; i < 26; i++) {
-            if (arr1[i] != arr2[i]) {
-                return false;
-            }
-        }
-        return true;
     }
 }
