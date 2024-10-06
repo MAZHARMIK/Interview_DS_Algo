@@ -307,5 +307,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Shortest%20Palindrome.cpp"> Shortest Palindrome (Leetcode-214)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Sentence%20Similarity%20III.cpp"> Sentence Similarity III (Leetcode - 1813)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
