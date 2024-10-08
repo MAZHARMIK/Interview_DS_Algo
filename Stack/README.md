@@ -180,5 +180,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Minimum%20Deletions%20to%20Make%20String%20Balanced.cpp"> Minimum Deletions to Make String Balanced (Leetcode-1653)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Minimum%20Number%20of%20Swaps%20to%20Make%20the%20String%20Balanced.cpp"> Minimum Number of Swaps to Make the String Balanced (Leetcode - 1963)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
