@@ -53,8 +53,6 @@ public:
 //Approach-1 (Using stack)
 //T.C : O(n)
 //S.C : O(n)
-import java.util.Stack;
-
 class Solution {
     public int minSwaps(String s) {
         Stack<Character> stack = new Stack<>();
