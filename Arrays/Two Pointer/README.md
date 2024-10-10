@@ -129,5 +129,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Count%20Alternating%20Subarrays.cpp"> Count Alternating Subarrays (Leetcode-3101)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Maximum%20Width%20Ramp.cpp"> Maximum Width Ramp (Leetcode - 962)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
