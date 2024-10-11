@@ -1,6 +1,6 @@
 /*	Scroll below to see JAVA code also	*/
 /*
-	MY YOUTUBE VIDEO ON THIS Qn : 
+	MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=NePJRPCuOwg
     	Company Tags  		    : Uber, Facebook, Microsoft, Yelp, Google, Snapchat, Amazon, Cisco - Qn had small Variations
     	Leetcode Link 		    : https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/
 */
