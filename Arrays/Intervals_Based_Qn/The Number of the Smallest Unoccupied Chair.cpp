@@ -154,14 +154,91 @@ public:
 //Approach-1 (Naive O(n^2) approach that comes to mind first)
 //T.C : O(n^2)
 //S.C : O(n)
-
+class Solution {
+    public int smallestChair(int[][] times, int targetFriend) {
+        int n = times.length;
+        
+        int[] endTimes = new int[n]; // at max we will have 0 to n-1 chairs
+        Arrays.fill(endTimes, -1); 
+        
+        /*
+            We need to sort the times based on arrival time but we don't want to
+            lose the friend number after sorting. So, store the arrival time
+            of targetFriend because it's given in the question that 
+            Each arrival time is distinct.
+        */
+        
+        int targetArrivalTime = times[targetFriend][0];
+        
+        Arrays.sort(times, (a, b) -> a[0] - b[0]); // Sorting based on arrival time
+        
+        for (int[] time : times) {
+            int arrival = time[0];
+            int depart  = time[1];
+            // Find the first unoccupied chair
+            for (int i = 0; i < n; i++) {
+                if (endTimes[i] <= arrival) {
+                    endTimes[i] = depart; // update with current friend's departure time
+                    
+                    if (arrival == targetArrivalTime)
+                        return i;
+                    break;
+                }
+            }
+        }
+        return -1;
+    }
+}
 
 
 
 //Approach-2 (Using min-heaps)
 //T.C : O(nlogn)
 //S.C : O(n)
+class Solution {
+    public int smallestChair(int[][] times, int targetFriend) {
+        
+        int n = times.length;
+        // Priority Queue for occupied chairs, storing {departTime, chairNo}
+        PriorityQueue<int[]> occupied = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+        // Min heap for free chairs
+        PriorityQueue<Integer> free = new PriorityQueue<>();
+        
+        int targetFriendArrival = times[targetFriend][0];
 
+        // Sort based on arrival time
+        Arrays.sort(times, (a, b) -> a[0] - b[0]);
+        
+        int chairNo = 0;
+        
+        for (int i = 0; i < n; i++) {
+            int arrival = times[i][0];
+            int depart = times[i][1];
+            
+            // Free chairs accordingly
+            while (!occupied.isEmpty() && occupied.peek()[0] <= arrival) {
+                free.offer(occupied.poll()[1]); // this chair is now free
+            }
+            
+            if (free.isEmpty()) {
+                occupied.offer(new int[]{depart, chairNo});
+                
+                if (arrival == targetFriendArrival)
+                    return chairNo;
+                
+                chairNo++;
+            } else {
+                int leastChairAvailable = free.poll();
+                if (arrival == targetFriendArrival) {
+                    return leastChairAvailable;
+                }
+                occupied.offer(new int[]{depart, leastChairAvailable});
+            }
+        }
+        
+        return -1;
+    }
+}
 
 
 //Approach - 3 (min heap + set)
@@ -171,3 +248,51 @@ public:
 */
 //T.C : O(nlogn)
 //S.C : O(n)
+class Solution {
+
+    // Declare priority queue to hold pairs {departTime, chairNumber}
+    PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+
+    public int smallestChair(int[][] times, int targetFriend) {
+        int n = times.length;
+        
+        // Get the arrival time of the target friend
+        int targetArrivalTime = times[targetFriend][0];
+
+        // Sort the times based on arrival time
+        Arrays.sort(times, (a, b) -> a[0] - b[0]);
+        
+        // Set to store available chairs (automatically ordered)
+        TreeSet<Integer> chairNum = new TreeSet<>(); 
+        int lastChair = 0; // To keep track of the next chair number if none are free
+        
+        for (int[] time : times) {
+            int arrival = time[0];
+            int depart = time[1];
+            int currSeat = -1;
+
+            // Free chairs that have been vacated before the current friend's arrival
+            while (!pq.isEmpty() && pq.peek()[0] <= arrival) {
+                chairNum.add(pq.poll()[1]); // Add vacated chairs back to available set
+            }
+
+            // Assign a chair to the current friend
+            if (chairNum.isEmpty()) {
+                currSeat = lastChair; // Use the next available chair number
+                lastChair++;
+            } else {
+                currSeat = chairNum.pollFirst(); // Get the least available chair number
+            }
+            
+            // Push the current friend's departure time and chair number to priority queue
+            pq.offer(new int[]{depart, currSeat});
+
+            // If this is the target friend, return the chair number
+            if (arrival == targetArrivalTime) {
+                return currSeat;
+            }
+        }
+
+        return -1;
+    }
+}
