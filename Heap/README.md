@@ -174,5 +174,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Smallest%20Range%20Covering%20Elements%20from%20K%20Lists.cpp"> Smallest Range Covering Elements from K Lists (Leetcode - 632)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Maximal%20Score%20After%20Applying%20K%20Operations.cpp"> Maximal Score After Applying K Operations (Leetcode - 2530)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
