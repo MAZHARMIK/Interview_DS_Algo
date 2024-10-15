@@ -312,5 +312,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Sentence%20Similarity%20III.cpp"> Sentence Similarity III (Leetcode - 1813)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Separate%20Black%20and%20White%20Balls.cpp"> Separate Black and White Balls (Leetcode - 2938)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
