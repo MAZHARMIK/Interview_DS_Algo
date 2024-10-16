@@ -179,5 +179,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Maximal%20Score%20After%20Applying%20K%20Operations.cpp"> Maximal Score After Applying K Operations (Leetcode - 2530)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Longest%20Happy%20String.cpp"> Longest Happy String (Leetcode - 1405)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
