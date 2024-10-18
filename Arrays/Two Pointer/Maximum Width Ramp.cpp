@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also   */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=mcJBhWXel-Y
-    Company Tags                : Google, Amazon
+    Company Tags                : Google, Amazon, Microsoft, Adobe
     Leetcode Link               : https://leetcode.com/problems/maximum-width-ramp
 */
 
