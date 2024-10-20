@@ -190,5 +190,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Minimum%20Add%20to%20Make%20Parentheses%20Valid.cpp"> Minimum Add to Make Parentheses Valid (Leetcode - 921)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Parsing%20A%20Boolean%20Expression.cpp"> Parsing A Boolean Expression (Leetcode - 1106)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
