@@ -474,5 +474,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Linked%20List%20in%20Binary%20Tree.cpp"> Linked List in Binary Tree (Leetcode-1367)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Cousins%20in%20Binary%20Tree%20II.cpp"> Cousins in Binary Tree II (Leetcode - 2641)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
