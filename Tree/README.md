@@ -479,5 +479,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Cousins%20in%20Binary%20Tree%20II.cpp"> Cousins in Binary Tree II (Leetcode - 2641)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Flip%20Equivalent%20Binary%20Trees.cpp"> Flip Equivalent Binary Trees (Leetcode - 951)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
