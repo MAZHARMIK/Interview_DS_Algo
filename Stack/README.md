@@ -5,7 +5,8 @@
 <details>
   <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics</summary>
 
-  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Stack/Easy">:file_folder:Leetcode Easy</a>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Stack/Easy">:file_folder:Leetcode Easy</a>  
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Stack/Monotonic%20Stack">:file_folder:Monotonic Stack</a>
   
 </details>
 
