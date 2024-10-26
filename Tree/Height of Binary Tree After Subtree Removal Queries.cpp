@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=eEfW7CLbhvU
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries
 */
