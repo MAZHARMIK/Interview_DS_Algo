@@ -14,6 +14,8 @@
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/DP/Bit%20Magic%20DP">:file_folder:Bit Magic DP</a>
 
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/DP/Game%20Strategy">:file_folder:Game Strategy</a>
+
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/DP/DP%20on%20Grids">:file_folder:DP On Grids</a>
 </details>
 
 <h1>Questions</h1>
