@@ -162,7 +162,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximal%20Square">Maximal Square (Leetcode - 221)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximal%20Square.cpp">Maximal Square (Leetcode - 221)</a>
 				</td>
 			</tr>
 			<tr>
