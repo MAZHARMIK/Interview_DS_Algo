@@ -467,5 +467,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Count%20Number%20of%20Maximum%20Bitwise-OR%20Subsets.cpp"> Count Number of Maximum Bitwise-OR Subsets (Leetcode - 2044)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Longest%20Square%20Streak%20in%20an%20Array.cpp"> Longest Square Streak in an Array (Leetcode - 2501)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
