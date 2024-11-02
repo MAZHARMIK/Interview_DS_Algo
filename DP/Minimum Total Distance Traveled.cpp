@@ -2,7 +2,7 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6fBEjFKQhhs
     Company Tags                : will update soon
-    Leetcode Link               : https://leetcode.com/problems/maximum-number-of-points-with-cost
+    Leetcode Link               : https://leetcode.com/problems/minimum-total-distance-traveled/description/
 */
 
 
