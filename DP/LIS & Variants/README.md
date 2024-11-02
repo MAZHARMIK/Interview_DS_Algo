@@ -49,5 +49,10 @@
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Longest%20Ideal%20Subsequence.cpp"> Longest Ideal Subsequence (Leetcode-2370)</a>
 			</td>
 		</tr>
+		<tr>
+        		<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Minimum%20Number%20of%20Removals%20to%20Make%20Mountain%20Array.cpp"> Minimum Number of Removals to Make Mountain Array (Leetcode - 1671)</a>
+			</td>
+		</tr>
 	</tbody>
 </table>
