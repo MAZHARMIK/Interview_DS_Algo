@@ -1,7 +1,7 @@
 /*    Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS QN : 
-    Company Tags                : will update later
+    Company Tags                : LinkedIn
     Leetcode Link               : https://leetcode.com/problems/rotate-string
 */
 
