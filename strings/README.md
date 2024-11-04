@@ -327,5 +327,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Remove%20Sub-Folders%20from%20the%20Filesystem.cpp"> Remove Sub-Folders from the Filesystem (Leetcode - 1233)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/String%20Compression%20III.cpp"> String Compression III (Leetcode - 3163)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
