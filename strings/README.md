@@ -332,5 +332,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/String%20Compression%20III.cpp"> String Compression III (Leetcode - 3163)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Number%20of%20Changes%20to%20Make%20Binary%20String%20Beautiful.cpp"> Minimum Number of Changes to Make Binary String Beautiful (Leetcode - 2914)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
