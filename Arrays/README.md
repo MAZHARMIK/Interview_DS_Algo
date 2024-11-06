@@ -472,5 +472,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Longest%20Square%20Streak%20in%20an%20Array.cpp"> Longest Square Streak in an Array (Leetcode - 2501)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20if%20Array%20Can%20Be%20Sorted.cpp"> Find if Array Can Be Sorted (Leetcode - 3011)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
