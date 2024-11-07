@@ -163,5 +163,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/XOR%20Queries%20of%20a%20Subarray.cpp"> XOR Queries of a Subarray (Leetcode - 1310)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Largest%20Combination%20With%20Bitwise%20AND%20Greater%20Than%20Zero.cpp"> Largest Combination With Bitwise AND Greater Than Zero (Leetcode - 2275)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
