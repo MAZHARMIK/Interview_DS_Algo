@@ -168,5 +168,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Largest%20Combination%20With%20Bitwise%20AND%20Greater%20Than%20Zero.cpp"> Largest Combination With Bitwise AND Greater Than Zero (Leetcode - 2275)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20XOR%20for%20Each%20Query.cpp"> Maximum XOR for Each Query (Leetcode - 1829)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
