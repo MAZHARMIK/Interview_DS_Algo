@@ -173,5 +173,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20XOR%20for%20Each%20Query.cpp"> Maximum XOR for Each Query (Leetcode - 1829)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Minimum%20Array%20End.cpp"> Minimum Array End (Leetcode - 3133)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
