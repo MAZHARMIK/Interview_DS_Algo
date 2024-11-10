@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=pXr8CF7-5_Y
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii
 */
