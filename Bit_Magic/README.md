@@ -178,5 +178,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Minimum%20Array%20End.cpp"> Minimum Array End (Leetcode - 3133)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Shortest%20Subarray%20With%20OR%20at%20Least%20K%20II.cpp"> Shortest Subarray With OR at Least K II (Leetcode - 3097)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
