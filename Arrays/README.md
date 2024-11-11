@@ -477,5 +477,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20if%20Array%20Can%20Be%20Sorted.cpp"> Find if Array Can Be Sorted (Leetcode - 3011)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Prime%20Subtraction%20Operation.cpp"> Prime Subtraction Operation (Leetcode - 2601)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
