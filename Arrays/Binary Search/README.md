@@ -201,5 +201,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20K-th%20Smallest%20Pair%20Distance.cpp"> Find K-th Smallest Pair Distance (Leetcode-719)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Most%20Beautiful%20Item%20for%20Each%20Query.cpp"> Most Beautiful Item for Each Query (Leetcode - 2070)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
