@@ -206,5 +206,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Most%20Beautiful%20Item%20for%20Each%20Query.cpp"> Most Beautiful Item for Each Query (Leetcode - 2070)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Count%20the%20Number%20of%20Fair%20Pairs.cpp"> Count the Number of Fair Pairs (Leetcode - 2563)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
