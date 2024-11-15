@@ -134,5 +134,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Maximum%20Width%20Ramp.cpp"> Maximum Width Ramp (Leetcode - 962)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Shortest%20Subarray%20to%20be%20Removed%20to%20Make%20Array%20Sorted.cpp"> Shortest Subarray to be Removed to Make Array Sorted (Leetcode - 1574)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
