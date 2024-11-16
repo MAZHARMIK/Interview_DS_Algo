@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : Approach-1 : https://www.youtube.com/watch?v=P1_yXMhqC50
-                                  Approach-2 : 
+                                  Approach-2 : https://www.youtube.com/watch?v=7xkCA80h5a4
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i
 */
