@@ -184,5 +184,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Substrings%20That%20Satisfy%20K-Constraint%20I%20%26%20II.cpp"> Count Substrings That Satisfy K-Constraint I & II (Leetcode - 3258 & 3261) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20the%20Power%20of%20K-Size%20Subarrays%20I.cpp"> Find the Power of K-Size Subarrays I (Leetcode - 3254) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
