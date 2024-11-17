@@ -62,8 +62,6 @@ public:
 //Approach (Using sliding window + monotinic deque
 //T.C : O(n)
 //S.C : O(n)
-import java.util.*;
-
 class Solution {
     public int shortestSubarray(int[] nums, int k) {
         int N = nums.length;
