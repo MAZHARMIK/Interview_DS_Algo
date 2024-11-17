@@ -189,5 +189,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20the%20Power%20of%20K-Size%20Subarrays%20I.cpp"> Find the Power of K-Size Subarrays I (Leetcode - 3254) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Shortest%20Subarray%20with%20Sum%20at%20Least%20K.cpp"> Shortest Subarray with Sum at Least K (Leetcode - 862) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
