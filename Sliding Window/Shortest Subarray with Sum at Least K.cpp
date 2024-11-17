@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn   : 
+    MY YOUTUBE VIDEO ON THIS Qn   : https://www.youtube.com/watch?v=Z4tH40wH6JA
     Company Tags                  : Will update soon
     Leetcode Link                 : https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k
     Similar Easy Version Problem  : https://www.youtube.com/watch?v=D2MbogiFXWU
