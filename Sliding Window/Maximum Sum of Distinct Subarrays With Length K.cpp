@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn   : 
+    MY YOUTUBE VIDEO ON THIS Qn   : https://www.youtube.com/watch?v=X1LgOR-_pJE
     Company Tags                  : Will update soon
     Leetcode Link                 : https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k
 */
