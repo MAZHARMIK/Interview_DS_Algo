@@ -194,5 +194,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Shortest%20Subarray%20with%20Sum%20at%20Least%20K.cpp"> Shortest Subarray with Sum at Least K (Leetcode - 862) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Maximum%20Sum%20of%20Distinct%20Subarrays%20With%20Length%20K.cpp"> Maximum Sum of Distinct Subarrays With Length K (Leetcode - 2461) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
