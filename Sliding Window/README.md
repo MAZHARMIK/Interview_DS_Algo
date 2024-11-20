@@ -199,5 +199,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Maximum%20Sum%20of%20Distinct%20Subarrays%20With%20Length%20K.cpp"> Maximum Sum of Distinct Subarrays With Length K (Leetcode - 2461) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Take%20K%20of%20Each%20Character%20From%20Left%20and%20Right.cpp"> Take K of Each Character From Left and Right (Leetcode - 2516) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
