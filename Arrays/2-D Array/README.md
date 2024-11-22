@@ -177,9 +177,14 @@
 				</td>
 			</tr>
 			</tr>
-						<tr>
+			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Count%20Sub%20Islands.cpp"> Count Sub Islands (Leetcode-1905)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Flip%20Columns%20For%20Maximum%20Number%20of%20Equal%20Rows.cpp"> Flip Columns For Maximum Number of Equal Rows (Leetcode - 1072)</a>
 				</td>
 			</tr>
 		</tbody>
