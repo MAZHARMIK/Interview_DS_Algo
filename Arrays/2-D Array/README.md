@@ -187,5 +187,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Flip%20Columns%20For%20Maximum%20Number%20of%20Equal%20Rows.cpp"> Flip Columns For Maximum Number of Equal Rows (Leetcode - 1072)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Rotating%20the%20Box.cpp"> Rotating the Box (Leetcode - 1861)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
