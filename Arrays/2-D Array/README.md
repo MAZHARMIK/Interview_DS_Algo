@@ -192,5 +192,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Rotating%20the%20Box.cpp"> Rotating the Box (Leetcode - 1861)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Maximum%20Matrix%20Sum.cpp"> Maximum Matrix Sum (Leetcode - 1975)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
