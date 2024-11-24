@@ -38,6 +38,11 @@
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Longest%20Arithmetic%20Subsequence%20of%20Given%20Difference.cpp"> Longest Arithmetic Subsequence of Given Difference (Leetcode-1218)</a>
 			</td>
      		</tr>
+       		<tr>
+			<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Minimum%20Array%20Sum.cpp"> Minimum Array Sum (Leetcode - 3366)</a>
+			</td>
+     		</tr>
 		
 	</tbody>
 </table>
