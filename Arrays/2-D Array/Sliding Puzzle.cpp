@@ -51,10 +51,10 @@ public:
                 }
 
                 // Find the index of '0' and explore its neighbors
-                int zeroIndex = curr.find('0');
-                for (int dir : dirs[zeroIndex]) {
+                int zeroIdx = curr.find('0');
+                for (int dir : dirs[zeroIdx]) {
                     string next = curr;
-                    swap(next[zeroIndex], next[dir]);
+                    swap(next[zeroIdx], next[dir]);
                     if (!visited.count(next)) {
                         visited.insert(next);
                         que.push(next);
@@ -112,13 +112,13 @@ class Solution {
                     return steps;
                 }
                 
-                int zeroIndex = curr.indexOf('0');
+                int zeroIdx = curr.indexOf('0');
                 
-                for (int dir : dirs[zeroIndex]) {
+                for (int dir : dirs[zeroIdx]) {
                     char[] next = curr.toCharArray();
                     // Swap the 0 with its adjacent position
-                    char temp = next[zeroIndex];
-                    next[zeroIndex] = next[dir];
+                    char temp = next[zeroIdx];
+                    next[zeroIdx] = next[dir];
                     next[dir] = temp;
                     
                     String nextStr = new String(next);
