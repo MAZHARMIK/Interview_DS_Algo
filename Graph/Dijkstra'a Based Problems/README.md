@@ -59,5 +59,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Shortest%20Distance%20After%20Road%20Addition%20Queries%20I.cpp"> Shortest Distance After Road Addition Queries I (Leetcode - 3243)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Minimum%20Obstacle%20Removal%20to%20Reach%20Corner.cpp"> Minimum Obstacle Removal to Reach Corner (Leetcode - 2290)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
