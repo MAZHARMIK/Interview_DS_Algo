@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=2H9CVEmmMUM
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid
 */
