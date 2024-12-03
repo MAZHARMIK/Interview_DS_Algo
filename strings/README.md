@@ -337,5 +337,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Number%20of%20Changes%20to%20Make%20Binary%20String%20Beautiful.cpp"> Minimum Number of Changes to Make Binary String Beautiful (Leetcode - 2914)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Adding%20Spaces%20to%20a%20String.cpp"> Adding Spaces to a String (Leetcode - 2109)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
