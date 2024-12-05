@@ -347,5 +347,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Make%20String%20a%20Subsequence%20Using%20Cyclic%20Increments.cpp"> Make String a Subsequence Using Cyclic Increments (Leetcode - 2825)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Move%20Pieces%20to%20Obtain%20a%20String.cpp"> Move Pieces to Obtain a String (Leetcode - 2337)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
