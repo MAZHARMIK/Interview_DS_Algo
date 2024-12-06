@@ -254,5 +254,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Distance%20in%20Arrays.cpp"> Maximum Distance in Arrays (Leetcode-624)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Number%20of%20Integers%20to%20Choose%20From%20a%20Range%20I.cpp"> Maximum Number of Integers to Choose From a Range I (Leetcode - 2554)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
