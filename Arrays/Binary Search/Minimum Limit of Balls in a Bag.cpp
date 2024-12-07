@@ -2,7 +2,7 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
     Company Tags                : Will update soon
-    Leetcode Link               : 
+    Leetcode Link               : https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag
 */
 
 
