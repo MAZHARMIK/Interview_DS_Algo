@@ -110,5 +110,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Two%20Best%20Non-Overlapping%20Events.cpp"> Two Best Non-Overlapping Events (Leetcode - 2054)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Special%20Array%20II.cpp"> Special Array II (Leetcode - 3152)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
