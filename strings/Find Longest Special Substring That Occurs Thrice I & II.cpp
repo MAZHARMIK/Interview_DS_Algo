@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=fDUPCtPqzss
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i
                                 : https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii
