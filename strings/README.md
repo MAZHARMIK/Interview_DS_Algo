@@ -352,5 +352,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Move%20Pieces%20to%20Obtain%20a%20String.cpp"> Move Pieces to Obtain a String (Leetcode - 2337)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20Longest%20Special%20Substring%20That%20Occurs%20Thrice%20I%20%26%20II.cpp"> Find Longest Special Substring That Occurs Thrice I & II (Leetcode - 2981 & 2982)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
