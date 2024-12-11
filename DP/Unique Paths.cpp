@@ -1,3 +1,4 @@
+/*                   Scroll below to see JAVA code as well                */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=DaakAKiCkyc
     Company Tags                : Amazon, Cisco, Paytm, OLA Cabs, Walmart, LinkedIn
@@ -5,7 +6,9 @@
 */
 
 ************************************************************ C++ ************************************************************
-//Approach-1 - Recursion + Memoization - T.C : O(m*n)
+//Approach-1 - Recursion + Memoization
+//T.C : O(m*n)
+//S.C : O(m*n)
 class Solution {
 public:
     int t[101][101];
@@ -31,7 +34,9 @@ public:
     }
 };
 
-//Approach-2 (using Bottom Up) - T.C : O(m*n)
+//Approach-2 (using Bottom Up)
+//T.C : O(m*n)
+//S.C : O(m*n)
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -64,7 +69,9 @@ public:
 
 
 ************************************************************ JAVA ************************************************************
-//Approach-1 - Recursion + Memoization - T.C : O(m*n)
+//Approach-1 - Recursion + Memoization
+//T.C : O(m*n)
+//S.C : O(m*n)
 class Solution {
     int[][] t;
 
@@ -91,7 +98,9 @@ class Solution {
 
 }
     
-//Approach-2 (using Bottom Up) - T.C : O(m*n)
+//Approach-2 (using Bottom Up)
+//T.C : O(m*n)
+//S.C : O(m*n)
 //Note : You can write C++ code above as simple as this one but I commented the code above for clarity and added some extra line of code for clarity
 public class Solution {
     public int uniquePaths(int m, int n) {
