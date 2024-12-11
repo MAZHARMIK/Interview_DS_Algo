@@ -21,7 +21,7 @@ public:
         sort(ranges.begin(), ranges.end());
 
         int maxBeauty = 0;
-        deque<int> deq;
+        deque<int> deq; //You can use queue as well - See my video above
 
         for (const auto& range : ranges) {
             while (!deq.empty() && deq.front() < range.first) {
@@ -48,7 +48,7 @@ public:
         int maxBeauty = 0;
         //Proof in the video for nums[i] + 2*k
         for (int i = 0; i < nums.size(); i++) {
-            auto upperBound = upper_bound(nums.begin(), nums.end(), nums[i] + 2 * k);
+            auto upperBound = upper_bound(nums.begin(), nums.end(), nums[i] + 2 * k); //You can write your own binarySearch - See my video above
 
             maxBeauty = max(maxBeauty, int(upperBound - nums.begin()) - i);
         }
@@ -132,7 +132,7 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             int upperBound = findUpperBound(nums, nums[i] + 2 * k);
 
-            maxBeauty = Math.max(maxBeauty, upperBound - i);
+            maxBeauty = Math.max(maxBeauty, upperBound - i + 1);
         }
 
         return maxBeauty;
@@ -140,17 +140,20 @@ class Solution {
 
     private int findUpperBound(int[] nums, int target) {
         int low = 0, high = nums.length;
+        int result = 0;
         while (low < high) {
             int mid = low + (high - low) / 2;
             if (nums[mid] <= target) {
+                result = mid;
                 low = mid + 1;
             } else {
                 high = mid;
             }
         }
-        return low;
+        return result;
     }
 }
+
 
 // Approach-3 (Using Sliding Window)
 // T.C : O(nlogn)
