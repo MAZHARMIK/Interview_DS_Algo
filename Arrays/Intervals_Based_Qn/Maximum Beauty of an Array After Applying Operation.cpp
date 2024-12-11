@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=VrFolxiw_yQ
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation
 */
