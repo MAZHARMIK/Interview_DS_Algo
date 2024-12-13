@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=VsMVlAPolXw
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements
 */
