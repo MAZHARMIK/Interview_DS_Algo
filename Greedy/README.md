@@ -259,5 +259,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Number%20of%20Integers%20to%20Choose%20From%20a%20Range%20I.cpp"> Maximum Number of Integers to Choose From a Range I (Leetcode - 2554)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Average%20Pass%20Ratio.cpp"> Maximum Average Pass Ratio (Leetcode - 1792)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
