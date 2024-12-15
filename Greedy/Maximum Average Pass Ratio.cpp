@@ -7,7 +7,7 @@
 
 
 /************************************************************ C++ ************************************************/
-//Approach-1 : (Chossing class with max delta/improvement everytime)
+//Approach-1 : (Chossing class with max delta/improvement everytime) - Will give TLE/MLE
 //T.C : O(extraStudents * n)
 //S.C : O(n)
 class Solution {
