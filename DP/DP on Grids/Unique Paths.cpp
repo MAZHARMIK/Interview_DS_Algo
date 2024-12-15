@@ -1,6 +1,7 @@
 /*                   Scroll below to see JAVA code as well                */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=DaakAKiCkyc
+    MY YOUTUBE VIDEO ON THIS Qn : Recursion Memoization Only - https://www.youtube.com/watch?v=DaakAKiCkyc
+                                  Bottom Up Also             - 
     Company Tags                : Amazon, Cisco, Paytm, OLA Cabs, Walmart, LinkedIn
     Leetcode Link               : https://leetcode.com/problems/unique-paths/
 */
@@ -11,26 +12,28 @@
 //S.C : O(m*n)
 class Solution {
 public:
-    int t[101][101];
-        
-    int solve(int m, int n, int i, int j) {
-        if(i >= m || j >= n || i < 0 || j < 0)
+    int solve(int i, int j, int m, int n, vector<vector<int>>& t) {
+        if(i == m-1 && j == n-1) {
+            return 1; //we found 1 path to reach [m-1][n-1]
+        }
+
+        if(i < 0 || i >= m || j < 0 || j >= n) {
             return 0;
-        
-        if(i == m-1 && j == n-1)
-            return 1;
-        
-        if(t[i][j] != -1)
+        }
+
+        if(t[i][j] != -1) {
             return t[i][j];
-        
-        return t[i][j] = solve(m, n, i+1, j) + solve(m, n, i, j+1);
-        
+        }
+
+        int right = solve(i, j+1, m, n, t);
+        int down  = solve(i+1, j, m, n, t);
+
+        return t[i][j] = right + down;
     }
-    
+
     int uniquePaths(int m, int n) {
-        memset(t, -1, sizeof(t));
-        
-        return solve(m, n, 0, 0);
+        vector<vector<int>> t(m+1, vector<int>(n+1, -1));
+        return solve(0, 0, m, n, t);
     }
 };
 
@@ -39,30 +42,32 @@ public:
 //S.C : O(m*n)
 class Solution {
 public:
+    //source = [0][0]
+    //Dest = [0][0]
     int uniquePaths(int m, int n) {
-        vector<vector<int>> t(m, vector<int>(n, 0));
-        //t[i][j] = total ways to reach at [i][j]
-        
-        //Since we start from[0][0], we move right and right
-        //so, there is only one way to reach each cell in the first row
-        for(int col = 0; col<n; col++) {
+        vector<vector<int>> t(m, vector<int>(n));
+        //t[i][j] = total no. of ways to reach [i][j] from [0][0]
+
+        t[0][0] = 1; //total ways to reach 0,0 from 0,0
+
+        //Fill 0th row
+        for(int col = 1; col < n; col++) {
             t[0][col] = 1;
         }
-        
-        //Since we start from[0][0], we move down and down
-        //so, there is only one way to reach each cell in the first column
-        for(int row = 0; row<m; row++) {
+
+        //Fill 0th col
+        for(int row = 1; row < m; row++) {
             t[row][0] = 1;
         }
-        
-        for(int i = 1; i<m; i++) {
-            for(int j = 1; j<n; j++) {
-                //ways to reach [i][j] will be from up [i-1][j] or from left [i][j-1]
+
+        for(int i = 1; i < m; i++) {
+            for(int j = 1; j < n; j++) {
                 t[i][j] = t[i-1][j] + t[i][j-1];
             }
         }
-        
-        return t[m-1][n-1];//return total ways to reach [m-1][n-1] which is our Finish
+
+        return t[m-1][n-1];
+
     }
 };
 
@@ -73,48 +78,70 @@ public:
 //T.C : O(m*n)
 //S.C : O(m*n)
 class Solution {
-    int[][] t;
-
-    public int solve(int m, int n, int i, int j) {
-        if(i >= m || i < 0 || j >= n || j < 0)
-            return 0;
-           
-        if(i == m-1 && j == n-1)
+    public int solve(int i, int j, int m, int n, int[][] t) {
+        // Base case: Reached the bottom-right cell
+        if (i == m - 1 && j == n - 1) {
             return 1;
-        
-        if(t[i][j] != -1) 
+        }
+
+        // Out of bounds
+        if (i < 0 || i >= m || j < 0 || j >= n) {
+            return 0;
+        }
+
+        // If already computed, return the stored result
+        if (t[i][j] != -1) {
             return t[i][j];
-        
-        return t[i][j] = solve(m, n, i+1, j) + solve(m, n, i, j+1);
+        }
+
+        // Calculate the number of paths by going right and down
+        int right = solve(i, j + 1, m, n, t);
+        int down = solve(i + 1, j, m, n, t);
+
+        // Store the result in the memoization table
+        return t[i][j] = right + down;
     }
 
     public int uniquePaths(int m, int n) {
-        t = new int[m][n];
-        for (int[] row: t)
+        // Create a memoization table initialized with -1
+        int[][] t = new int[m][n];
+        for (int[] row : t) {
             Arrays.fill(row, -1);
-        
-        return solve(m, n, 0, 0);
-    }
+        }
 
+        // Start the recursive computation from the top-left cell
+        return solve(0, 0, m, n, t);
+    }
 }
     
 //Approach-2 (using Bottom Up)
 //T.C : O(m*n)
 //S.C : O(m*n)
 //Note : You can write C++ code above as simple as this one but I commented the code above for clarity and added some extra line of code for clarity
-public class Solution {
+class Solution {
     public int uniquePaths(int m, int n) {
-        int[][] grid = new int[m][n];
-        
-        for(int i = 0; i<m; i++){
-            for(int j = 0; j<n; j++){
-                if(i==0 || j==0)
-                    grid[i][j] = 1;
-                else
-                    grid[i][j] = grid[i][j-1] + grid[i-1][j];
+        // Create a 2D array for storing the number of ways to reach each cell
+        int[][] t = new int[m][n];
+
+        // Initialize the first row
+        for (int col = 0; col < n; col++) {
+            t[0][col] = 1; // Only one way to reach any cell in the first row
+        }
+
+        // Initialize the first column
+        for (int row = 0; row < m; row++) {
+            t[row][0] = 1; // Only one way to reach any cell in the first column
+        }
+
+        // Fill the rest of the table using the relation:
+        // t[i][j] = t[i-1][j] + t[i][j-1]
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                t[i][j] = t[i - 1][j] + t[i][j - 1];
             }
         }
-        
-        return grid[m-1][n-1];
+
+        // The bottom-right cell contains the total number of unique paths
+        return t[m - 1][n - 1];
     }
 }
