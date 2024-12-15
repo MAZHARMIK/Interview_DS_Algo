@@ -1,8 +1,8 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=8SzJbx1Xme0
     Company Tags                : Will update soon
-    Leetcode Link               : 
+    Leetcode Link               : https://leetcode.com/problems/maximum-average-pass-ratio/
 */
 
 
