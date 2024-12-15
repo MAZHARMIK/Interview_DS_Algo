@@ -5,6 +5,13 @@
     Leetcode Link               : https://leetcode.com/problems/maximum-average-pass-ratio/
 */
 
+/*
+    Why normal Greedy fails ?
+    Assigning extra students to the class with the least passing ratio assumes that improving the worst-performing class will maximize the overall average.
+    However, this ignores the fact that the rate of improvement (or marginal gain) varies depending on the current number of passing and total students
+    in the class. A class with a low passing ratio might require many additional students to see a significant improvement in its passing ratio,
+    while a class with a higher passing ratio might see a much larger improvement with the same number of extra students.
+*/
 
 /************************************************************ C++ ************************************************/
 //Approach-1 : (Chossing class with max delta/improvement everytime) - Will give TLE/MLE
