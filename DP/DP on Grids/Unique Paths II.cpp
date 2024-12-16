@@ -9,7 +9,7 @@
 
 /************************************************************ C++ ************************************************************/
 //Approach-1 (Recursion + Memo)
-//Recursion T.C : O(2^(m*n))
+//Recursion T.C : O(m*n)
 //Memo T.C      : O(m*n)
 class Solution {
 public:
@@ -112,7 +112,7 @@ public:
 
 ************************************************************ JAVA ************************************************************
 //Approach-1 (Recursion + Memo)
-//Recursion T.C : O(2^(m*n))
+//Recursion T.C : O(m*n)
 //Memo T.C      : O(m*n)
 class Solution {
     Integer t[][]=new Integer[101][101];
