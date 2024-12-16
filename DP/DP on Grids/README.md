@@ -10,12 +10,17 @@
 		</thead>
 		<tbody>
 			<tr>
-         <td>
+         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Unique%20Paths.cpp"> Unique Paths (Leetcode - 62)</a>
 				</td>
 			</tr>
-      <tr>
-         <td>
+			<tr>
+         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Unique%20Paths%20II.cpp"> Unique Paths II (Leetcode - 63)</a>
+				</td>
+			</tr>
+      			<tr>
+         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Count%20Square%20Submatrices%20with%20All%20Ones.cpp"> Count Square Submatrices with All Ones (Leetcode - 1277)</a>
 				</td>
 			</tr>
