@@ -1,6 +1,6 @@
 /*                   Scroll below to see JAVA code as well                */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=y5CZ7LhqSAU
     Company Tags                : will update later
     Letcode Link                : https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop
 */
