@@ -26,7 +26,10 @@ public:
 
         int chunksCount = 0;
         for (int i = 0; i < n; i++) {
-            if (i == 0 || suffixMin[i] > prefixMax[i - 1]) {
+            int pehleKaMax = i > 0 ? prefixMax[i - 1] : -1;
+            int baadKaMin  = suffixMin[i];
+            
+            if(pehleKaMax < baadKaMin) {
                 chunksCount++;
             }
         }
