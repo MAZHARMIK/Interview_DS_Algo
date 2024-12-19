@@ -92,3 +92,44 @@ public:
 //T.C : O(n)
 //S.C : O(n)
 //Will add tonight when I am free (currently travelling) :-) 
+
+
+class Solution {
+    public int maxChunksToSorted(int[] arr) {
+        int n = arr.length;
+        int[] prefixMax = new int[n];
+        int[] suffixMin = new int[n];
+
+        // Fill prefixMax array
+        prefixMax[0] = arr[0];
+        for (int i = 1; i < n; i++) {
+            prefixMax[i] = Math.max(prefixMax[i - 1], arr[i]);
+        }
+
+        // Fill suffixMin array
+        suffixMin[n - 1] = arr[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            suffixMin[i] = Math.min(suffixMin[i + 1], arr[i]);
+        }
+
+        // Count chunks
+        int chunksCount = 0;
+        for (int i = 0; i < n; i++) {
+            int pehleKaMax = i > 0 ? prefixMax[i - 1] : -1;
+            int baadKaMin = suffixMin[i];
+
+            if (pehleKaMax < baadKaMin) {
+                chunksCount++;
+            }
+        }
+
+        return chunksCount;
+    }
+
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        int[] arr = {2, 1, 3, 4, 4};
+        System.out.println(sol.maxChunksToSorted(arr)); // Example usage
+    }
+}
+
