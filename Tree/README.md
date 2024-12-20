@@ -489,5 +489,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Height%20of%20Binary%20Tree%20After%20Subtree%20Removal%20Queries.cpp"> Height of Binary Tree After Subtree Removal Queries (Leetcode - 2458)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Reverse%20Odd%20Levels%20of%20Binary%20Tree.cpp"> Reverse Odd Levels of Binary Tree (Leetcode - 2415)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
