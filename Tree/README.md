@@ -491,7 +491,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Reverse%20Odd%20Levels%20of%20Binary%20Tree.cpp"> Reverse Odd Levels of Binary Tree (Leetcode - 2415)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Minimum%20Number%20of%20Operations%20to%20Sort%20a%20Binary%20Tree%20by%20Level.cpp"> Minimum Number of Operations to Sort a Binary Tree by Level (Leetcode - 2471)</a>
 				</td>
 			</tr>
 		</tbody>
