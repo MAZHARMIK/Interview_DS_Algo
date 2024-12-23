@@ -59,7 +59,7 @@ public:
     }
 
     // Function to return the index of the maximum element in the range from a to b
-    int RMQ(int st[], vector<int>& heights, int n, int a, int b) {
+    int RMIQ(int st[], vector<int>& heights, int n, int a, int b) {
         return querySegmentTree(a, b, 0, 0, n - 1, st, heights);
     }
 
@@ -82,7 +82,7 @@ public:
             int result_idx = INT_MAX;
             while (l <= r) {
                 int mid = l + (r - l) / 2;
-                int idx = RMQ(segmentTree, heights, n, l, mid);
+                int idx = RMIQ(segmentTree, heights, n, l, mid);
 
                 if (heights[idx] > heights[alice]) {
                     r = mid - 1;
@@ -158,7 +158,7 @@ class Solution {
     }
 
     // Function to return the index of the maximum element in the range from a to b
-    public int RMQ(int[] segmentTree, int[] heights, int n, int a, int b) {
+    public int RMIQ(int[] segmentTree, int[] heights, int n, int a, int b) {
         return querySegmentTree(a, b, 0, 0, n - 1, segmentTree, heights);
     }
 
@@ -181,7 +181,7 @@ class Solution {
             int result_idx = Integer.MAX_VALUE;
             while (l <= r) {
                 int mid = l + (r - l) / 2;
-                int idx = RMQ(segmentTree, heights, n, l, mid);
+                int idx = RMIQ(segmentTree, heights, n, l, mid);
 
                 if (heights[idx] > heights[alice]) {
                     r = mid - 1;
