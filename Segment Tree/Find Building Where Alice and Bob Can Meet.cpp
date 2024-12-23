@@ -72,7 +72,7 @@ public:
             int alice = min(query[0],query[1]);
             int bob   = max(query[0],query[1]);
 
-            if(alice == bob or heights[bob] > heights[alice]){
+            if(alice == bob || heights[bob] > heights[alice]){
                 result.push_back(bob);
                 continue;
             }
