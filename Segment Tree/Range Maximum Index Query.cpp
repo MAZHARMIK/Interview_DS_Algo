@@ -68,8 +68,8 @@ public:
 
         vector<int> result;
         for(auto& query: queries){
-            int a = min(query[0],query[1]);
-            int b = max(query[0],query[1]);
+            int a = query[0];
+            int b = query[1];
 
             int idx = RMIQ(segmentTree, arr, n, a, b);
             result.push_back(idx);
@@ -142,8 +142,8 @@ class Solution {
 
         int[] result = new int[queries.length];
         for (int i = 0; i < queries.length; i++) {
-            int a = Math.min(queries[i][0], queries[i][1]);
-            int b = Math.max(queries[i][0], queries[i][1]);
+            int a = queries[i][0];
+            int b = queries[i][1];
 
             int idx = RMIQ(segmentTree, arr, n, a, b);
             result[i] = idx;
