@@ -31,6 +31,11 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Range%20Maximum%20Index%20Query.cpp"> Range Maximum Index Query </a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Find%20Building%20Where%20Alice%20and%20Bob%20Can%20Meet.cpp"> Find Building Where Alice and Bob Can Meet - (Leetcode - 2940) </a>
 				</td>
 			</tr>
