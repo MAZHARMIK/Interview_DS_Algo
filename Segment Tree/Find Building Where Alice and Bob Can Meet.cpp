@@ -84,7 +84,7 @@ public:
                 int mid = l + (r - l) / 2;
                 int idx = RMIQ(segmentTree, heights, n, l, mid);
 
-                if (heights[idx] > heights[alice]) {
+                if (heights[idx] > max(heights[alice], heights[bob])) {
                     r = mid - 1;
                     result_idx = min(result_idx, idx);
                 } else {
@@ -183,7 +183,7 @@ class Solution {
                 int mid = l + (r - l) / 2;
                 int idx = RMIQ(segmentTree, heights, n, l, mid);
 
-                if (heights[idx] > heights[alice]) {
+                if (heights[idx] > Math.max(heights[alice], heights[bob])) {
                     r = mid - 1;
                     result_idx = Math.min(result_idx, idx);
                 } else {
