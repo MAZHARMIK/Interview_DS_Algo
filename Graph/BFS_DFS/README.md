@@ -104,5 +104,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Tree%20Diameter.cpp"> Tree Diameter (Leetcode - 1245)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Find%20Minimum%20Diameter%20After%20Merging%20Two%20Trees.cpp"> Find Minimum Diameter After Merging Two Trees (Leetcode - 3203)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
