@@ -1,6 +1,6 @@
 /*	 Scroll below to see JAVA code also	*/
 /*
-    MY YOUTUBE VIDEO ON THIS Qn   : Concept Video      : 
+    MY YOUTUBE VIDEO ON THIS Qn   : Concept Video      : https://www.youtube.com/watch?v=SpBjlU3ETL0
                                     This problem Video : 
     Company Tags  		          : will update later
     Leetcode Link 		          : https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet
