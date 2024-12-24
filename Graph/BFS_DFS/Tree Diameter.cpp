@@ -1,6 +1,6 @@
 /*                       Scroll down to see JAVA code also             */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn  : 
+    MY YOUTUBE VIDEO ON THIS Qn  : https://www.youtube.com/watch?v=na3LE8CBYLo
     Company Tags                 : GOOGLE, META
     Leetcode Link                : https://leetcode.com/problems/tree-diameter/description/
     Hard Version of This Problem : https://leetcode.com/problems/find-minimum-diameter-after-merging-two-trees
