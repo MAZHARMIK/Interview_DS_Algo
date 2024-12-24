@@ -16,51 +16,20 @@
 //S.C : O(V+E)
 class Solution {
 public:
-    unordered_map<int, vector<int>> buildAdjList(int size, vector<vector<int>>& edges) {
-        unordered_map<int, vector<int>> adjList;
-        for (auto edge : edges) {
-            adjList[edge[0]].push_back(edge[1]);
-            adjList[edge[1]].push_back(edge[0]);
-        }
-        return adjList;
-    }
-    
-    int minimumDiameterAfterMerge(vector<vector<int>>& edges1,
-                                  vector<vector<int>>& edges2) {
-        // Calculate the number of nodes for each tree
-        int n = edges1.size() + 1;
-        int m = edges2.size() + 1;
-
-        // Build adjacency lists for both trees
-        unordered_map<int, vector<int>> adj1 = buildAdjList(n, edges1);
-        unordered_map<int, vector<int>> adj2 = buildAdjList(m, edges2);
-
-        // Calculate the diameters of both trees
-        int d1 = findDiameter(n, adj1);
-        int d2 = findDiameter(m, adj2);
-
-        // Calculate the longest path that spans across both trees
-        int combined = (d1+1)/2 + (d2+1)/2 + 1;
-
-        // Return the maximum of the three possibilities
-        return max({d1, d2, combined});
-    }
-
-private:
 
     // Function to find the diameter of a tree using two BFS calls
-    int findDiameter(int n, unordered_map<int, vector<int>>& adjList) {
+    int findDiameter(unordered_map<int, vector<int>>& adjList) {
         // First BFS to find the farthest node from any arbitrary node (e.g., 0)
-        auto [farthestNode, _] = findFarthestNode(n, adjList, 0);
+        auto [farthestNode, _] = findFarthestNode(adjList, 0);
 
         // Second BFS from the farthest node to determine the diameter
-        auto [_, diameter] = findFarthestNode(n, adjList, farthestNode);
+        auto [_, diameter] = findFarthestNode(adjList, farthestNode);
         return diameter;
     }
 
     // BFS helper function to find the farthest node and its distance from the
     // source
-    pair<int, int> findFarthestNode(int n, unordered_map<int, vector<int>>& adjList,
+    pair<int, int> findFarthestNode(unordered_map<int, vector<int>>& adjList,
                                     int sourceNode) {
         queue<int> nodesQueue;
         unordered_map<int, bool> visited;
@@ -95,18 +64,45 @@ private:
         }
         return {farthestNode, maxDistance};
     }
-};
 
+    unordered_map<int, vector<int>> buildAdjList(vector<vector<int>>& edges) {
+        unordered_map<int, vector<int>> adjList;
+        for (auto edge : edges) {
+            adjList[edge[0]].push_back(edge[1]);
+            adjList[edge[1]].push_back(edge[0]);
+        }
+        return adjList;
+    }
+    
+    int minimumDiameterAfterMerge(vector<vector<int>>& edges1,
+                                  vector<vector<int>>& edges2) {
+        // Build adjacency lists for both trees
+        unordered_map<int, vector<int>> adj1 = buildAdjList(edges1);
+        unordered_map<int, vector<int>> adj2 = buildAdjList(edges2);
+
+        // Calculate the diameters of both trees
+        int d1 = findDiameter(adj1);
+        int d2 = findDiameter(adj2);
+
+        // Calculate the longest path that spans across both trees
+        int combined = (d1 + 1) / 2 + (d2 + 1) / 2 + 1;
+
+        // Return the maximum of the three possibilities
+        return max({d1, d2, combined});
+    }
+};
 
 
 /********************************************************************** JAVA **********************************************************************/
 //Approach (Using BFS)
 //T.C : O(V+E)
 //S.C : O(V+E)
-class Solution {
+import java.util.*;
+
+public class Solution {
 
     // Function to build the adjacency list for a tree
-    public Map<Integer, List<Integer>> buildAdjList(int size, int[][] edges) {
+    public Map<Integer, List<Integer>> buildAdjList(int[][] edges) {
         Map<Integer, List<Integer>> adjList = new HashMap<>();
         for (int[] edge : edges) {
             adjList.computeIfAbsent(edge[0], k -> new ArrayList<>()).add(edge[1]);
@@ -116,17 +112,13 @@ class Solution {
     }
 
     public int minimumDiameterAfterMerge(int[][] edges1, int[][] edges2) {
-        // Calculate the number of nodes for each tree
-        int n = edges1.length + 1;
-        int m = edges2.length + 1;
-
         // Build adjacency lists for both trees
-        Map<Integer, List<Integer>> adj1 = buildAdjList(n, edges1);
-        Map<Integer, List<Integer>> adj2 = buildAdjList(m, edges2);
+        Map<Integer, List<Integer>> adj1 = buildAdjList(edges1);
+        Map<Integer, List<Integer>> adj2 = buildAdjList(edges2);
 
         // Calculate the diameters of both trees
-        int d1 = findDiameter(n, adj1);
-        int d2 = findDiameter(m, adj2);
+        int d1 = findDiameter(adj1);
+        int d2 = findDiameter(adj2);
 
         // Calculate the longest path that spans across both trees
         int combined = (d1 + 1) / 2 + (d2 + 1) / 2 + 1;
@@ -136,17 +128,17 @@ class Solution {
     }
 
     // Function to find the diameter of a tree using two BFS calls
-    public int findDiameter(int n, Map<Integer, List<Integer>> adjList) {
+    public int findDiameter(Map<Integer, List<Integer>> adjList) {
         // First BFS to find the farthest node from any arbitrary node (e.g., 0)
-        List<Integer> farthestNode = findFarthestNode(n, adjList, 0);
+        List<Integer> farthestNode = findFarthestNode(adjList, 0);
 
         // Second BFS from the farthest node to determine the diameter
-        farthestNode = findFarthestNode(n, adjList, farthestNode.get(0));
+        farthestNode = findFarthestNode(adjList, farthestNode.get(0));
         return farthestNode.get(1);
     }
 
     // BFS helper function to find the farthest node and its distance from the source
-    public List<Integer> findFarthestNode(int n, Map<Integer, List<Integer>> adjList, int sourceNode) {
+    public List<Integer> findFarthestNode(Map<Integer, List<Integer>> adjList, int sourceNode) {
         Queue<Integer> nodesQueue = new LinkedList<>();
         Map<Integer, Boolean> visited = new HashMap<>();
         
