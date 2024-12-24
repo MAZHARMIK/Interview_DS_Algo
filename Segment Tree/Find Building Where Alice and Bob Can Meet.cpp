@@ -77,7 +77,7 @@ public:
                 continue;
             }
 
-            int l = bob;
+            int l = bob+1;
             int r = n - 1;
             int result_idx = INT_MAX;
             while (l <= r) {
@@ -176,7 +176,7 @@ class Solution {
                 continue;
             }
 
-            int l = bob;
+            int l = bob+1;
             int r = n - 1;
             int result_idx = Integer.MAX_VALUE;
             while (l <= r) {
