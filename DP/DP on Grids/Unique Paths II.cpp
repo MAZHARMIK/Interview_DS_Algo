@@ -1,7 +1,7 @@
 /*                   Scroll below to see JAVA code as well                */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : Recursion + Memo        - https://www.youtube.com/watch?v=JC1fSPdJjMc
-                                  Bottom Up Also Detailed - soon
+                                  Bottom Up Also Detailed - https://www.youtube.com/watch?v=9RUpue4oMx4
     Company Tags                : Amazon, Cisco, Paytm, OLA Cabs, Walmart, LinkedIn
     Letcode Link                : https://leetcode.com/problems/unique-paths-ii/
 */
