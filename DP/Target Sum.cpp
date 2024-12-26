@@ -7,7 +7,42 @@
 
 
 /*************************************************************** C++ ******************************************************/
-//Approach-1 (Normal Recursion & Memoization)
+//Approach-1 (Normal Recursion & Memoization using unordered_map)
+//T.C : O(n*totalSum)
+//S.C : O(n*totalSum)
+class Solution {
+public:
+    int solve(vector<int>& nums, int &target, int i, int sum, unordered_map<string, int>& memo) {
+        if (i == nums.size()) {
+            return sum == target ? 1 : 0;
+        }
+
+        // Create a unique key for the current state
+        string key = to_string(i) + "," + to_string(sum);
+
+        // Check if the result is already computed
+        if (memo.find(key) != memo.end()) {
+            return memo[key];
+        }
+
+        // Compute the result recursively
+        int plus = solve(nums, target, i + 1, sum + nums[i], memo);
+        int minus = solve(nums, target, i + 1, sum - nums[i], memo);
+
+        // Store the result in the memo
+        memo[key] = plus + minus;
+
+        return memo[key];
+    }
+
+    int findTargetSumWays(vector<int>& nums, int target) {
+        unordered_map<string, int> memo;
+        return solve(nums, target, 0, 0, memo);
+    }
+};
+
+
+//Approach-2 (Normal Recursion & Memoization using vector)
 //T.C : O(n*totalSum)
 //S.C : O(n*totalSum)
 class Solution {
@@ -35,7 +70,7 @@ public:
     }
 };
 
-//Approach-2 (Recursion + Memoization) - Using concept of SubsetSum and Partition Equal Subset Sum
+//Approach-3 (Recursion + Memoization) - Using concept of SubsetSum and Partition Equal Subset Sum
 //T.C : O(n*target)
 //S.C : O(n*target)
 class Solution {
@@ -75,7 +110,8 @@ public:
     }
 };
 
-//Approach-3 (Bottom Up DP) - Using concept of SubsetSum and Partition Equal Subset Sum
+
+//Approach-4 (Bottom Up DP) - Using concept of SubsetSum and Partition Equal Subset Sum
 //T.C : O(n*target)
 //S.C : O(n*target)
 class Solution {
@@ -132,7 +168,11 @@ public:
 
 
 /*************************************************************** JAVA ******************************************************/
-//Approach-1 (Normal Recursion & Memoization)
+//Approach-1 (Normal Recursion & Memoization using unordered_map)
+//T.C : O(n*totalSum)
+//S.C : O(n*totalSum)
+
+//Approach-2 (Normal Recursion & Memoization)
 //T.C : O(n*totalSum)
 //S.C : O(n*totalSum)
 class Solution {
@@ -166,7 +206,7 @@ class Solution {
     }
 }
 
-//Approach-2 (Recursion + Memoization) - Using concept of SubsetSum and Partition Equal Subset Sum
+//Approach-3 (Recursion + Memoization) - Using concept of SubsetSum and Partition Equal Subset Sum
 //T.C : O(n*target)
 //S.C : O(n*target)
 class Solution {
@@ -214,7 +254,7 @@ class Solution {
 }
 
 
-//Approach-3 (Bottom Up DP) - Using concept of SubsetSum and Partition Equal Subset Sum
+//Approach-4 (Bottom Up DP) - Using concept of SubsetSum and Partition Equal Subset Sum
 //T.C : O(n*target)
 //S.C : O(n*target)
 class Solution {
