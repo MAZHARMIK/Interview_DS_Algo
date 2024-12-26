@@ -7,7 +7,35 @@
 
 
 /*************************************************************** C++ ******************************************************/
-//Approach-1 (Recursion + Memoization)
+//Approach-1 (Normal Recursion & Memoization)
+//T.C : O(n*totalSum)
+//S.C : O(n*totalSum)
+class Solution {
+public:
+    int S;
+    int solve(vector<int>& nums, int &target, int i, int sum, vector<vector<int>>& t) {
+        if(i == nums.size()) {
+            return sum == target ? 1 : 0;
+        }
+
+        if(t[i][sum+S] != INT_MIN) {
+            return t[i][sum+S];
+        }
+        int plus  = solve(nums, target, i+1, sum+nums[i], t);
+        int minus = solve(nums, target, i+1, sum-nums[i], t);
+
+        return t[i][sum+S] = plus+minus;
+    }
+
+    int findTargetSumWays(vector<int>& nums, int target) {
+        int n = nums.size();
+        S = accumulate(begin(nums), end(nums), 0);
+        vector<vector<int>> t(n, vector<int>(2*S+1, INT_MIN));
+        return solve(nums, target, 0, 0, t);
+    }
+};
+
+//Approach-2 (Recursion + Memoization) - Using concept of SubsetSum and Partition Equal Subset Sum
 //T.C : O(n*target)
 //S.C : O(n*target)
 class Solution {
@@ -47,7 +75,7 @@ public:
     }
 };
 
-//Approach-2 (Bottom Up DP)
+//Approach-3 (Bottom Up DP) - Using concept of SubsetSum and Partition Equal Subset Sum
 //T.C : O(n*target)
 //S.C : O(n*target)
 class Solution {
@@ -104,7 +132,41 @@ public:
 
 
 /*************************************************************** JAVA ******************************************************/
-//Approach-1 (Recursion + Memoization)
+//Approach-1 (Normal Recursion & Memoization)
+//T.C : O(n*totalSum)
+//S.C : O(n*totalSum)
+class Solution {
+    private int S;
+
+    private int solve(int[] nums, int target, int i, int sum, int[][] t) {
+        if (i == nums.length) {
+            return sum == target ? 1 : 0;
+        }
+
+        if (t[i][sum + S] != Integer.MIN_VALUE) {
+            return t[i][sum + S];
+        }
+
+        int plus = solve(nums, target, i + 1, sum + nums[i], t);
+        int minus = solve(nums, target, i + 1, sum - nums[i], t);
+
+        return t[i][sum + S] = plus + minus;
+    }
+
+    public int findTargetSumWays(int[] nums, int target) {
+        int n = nums.length;
+        S = Arrays.stream(nums).sum();
+        int[][] t = new int[n][2 * S + 1];
+
+        for (int[] row : t) {
+            Arrays.fill(row, Integer.MIN_VALUE);
+        }
+
+        return solve(nums, target, 0, 0, t);
+    }
+}
+
+//Approach-2 (Recursion + Memoization) - Using concept of SubsetSum and Partition Equal Subset Sum
 //T.C : O(n*target)
 //S.C : O(n*target)
 class Solution {
@@ -152,7 +214,7 @@ class Solution {
 }
 
 
-//Approach-2 (Bottom Up DP)
+//Approach-3 (Bottom Up DP) - Using concept of SubsetSum and Partition Equal Subset Sum
 //T.C : O(n*target)
 //S.C : O(n*target)
 class Solution {
