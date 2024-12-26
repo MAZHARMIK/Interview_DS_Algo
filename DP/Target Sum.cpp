@@ -1,7 +1,7 @@
 /*        Scroll below to see JAVA code also        */
 /*
     MY YOUTUBE VIDEO LINK : 
-    Company Tags          : Google, Facebook, 
+    Company Tags          : Google, Meta
     Leetcode Link         : https://leetcode.com/problems/target-sum/
 */
 
