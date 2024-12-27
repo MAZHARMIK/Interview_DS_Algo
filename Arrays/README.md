@@ -482,5 +482,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Prime%20Subtraction%20Operation.cpp"> Prime Subtraction Operation (Leetcode - 2601)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Best%20Sightseeing%20Pair.cpp"> Best Sightseeing Pair (Leetcode - 1014)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
