@@ -705,5 +705,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Total%20Distance%20Traveled.cpp"> Minimum Total Distance Traveled (Leetcode - 2463)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Sum%20of%203%20Non-Overlapping%20Subarrays.cpp"> Maximum Sum of 3 Non-Overlapping Subarrays (Leetcode - 689)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
