@@ -24,5 +24,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Count%20Square%20Submatrices%20with%20All%20Ones.cpp"> Count Square Submatrices with All Ones (Leetcode - 1277)</a>
 				</td>
 			</tr>
+			<tr>
+         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Maximum%20Non%20Negative%20Product%20in%20a%20Matrix.cpp"> Maximum Non Negative Product in a Matrix (Leetcode - 1594)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
