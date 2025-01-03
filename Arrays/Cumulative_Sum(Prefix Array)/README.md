@@ -83,5 +83,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Count%20Vowel%20Strings%20in%20Ranges.cpp"> Count Vowel Strings in Ranges (Leetcode - 2559)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Number%20of%20Ways%20to%20Split%20Array.cpp"> Number of Ways to Split Array (Leetcode - 2270)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
