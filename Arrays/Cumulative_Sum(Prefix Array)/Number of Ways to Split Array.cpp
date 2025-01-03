@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=BcW6MZCHLdA
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/number-of-ways-to-split-array
 */
