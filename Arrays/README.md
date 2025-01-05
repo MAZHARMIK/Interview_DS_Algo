@@ -7,6 +7,8 @@
   
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Intervals_Based_Qn">:file_folder:Intervals_Based_Qn</a>
 
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Difference%20Array%20Technique">:file_folder:Difference Array Technique</a>
+
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/2-D%20Array">:file_folder:2-D Array</a>
 
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Binary%20Search">:file_folder:Binary Search</a>
