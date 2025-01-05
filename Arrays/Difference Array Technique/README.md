@@ -10,9 +10,14 @@
 		</thead>
 		<tbody>
 			<tr>
-          <td>
+          			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Range%20Addition.cpp"> Range Addition (Leetcode - 370)</a>
-				  </td>
-      </tr>
+				</td>
+      			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Shifting%20Letters%20II.cpp"> Range Addition (Leetcode - 2381)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
