@@ -362,5 +362,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Construct%20String%20With%20Repeat%20Limit.cpp"> Construct String With Repeat Limit (Leetcode - 2182)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Number%20of%20Operations%20to%20Move%20All%20Balls%20to%20Each%20Box.cpp"> Minimum Number of Operations to Move All Balls to Each Box (Leetcode - 1769)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
