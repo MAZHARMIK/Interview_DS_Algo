@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS QN : 
+    MY YOUTUBE VIDEO ON THIS QN : https://www.youtube.com/watch?v=BsR6ZVwxrvE
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/string-matching-in-an-array
 
