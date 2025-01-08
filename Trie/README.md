@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Sum%20of%20Prefix%20Scores%20of%20Strings.cpp"> Sum of Prefix Scores of Strings (Leetcode-2416)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Count%20Prefix%20and%20Suffix%20Pairs%20I.cpp"> Count Prefix and Suffix Pairs I (Leetcode - 3042)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
