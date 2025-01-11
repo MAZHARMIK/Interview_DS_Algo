@@ -367,5 +367,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Number%20of%20Operations%20to%20Move%20All%20Balls%20to%20Each%20Box.cpp"> Minimum Number of Operations to Move All Balls to Each Box (Leetcode - 1769)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Construct%20K%20Palindrome%20Strings.cpp"> Construct K Palindrome Strings (Leetcode - 1400)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
