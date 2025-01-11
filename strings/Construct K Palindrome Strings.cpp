@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Hh14hvVIHJc
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/construct-k-palindrome-strings
 */
