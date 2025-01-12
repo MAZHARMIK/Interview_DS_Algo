@@ -1,12 +1,33 @@
-<img src="https://vectorified.com/images/small-pdf-icon-21.png" alt="drawing" width="200"><img src="https://vectorified.com/images/small-pdf-icon-21.png" alt="drawing" width="200"><img src="https://vectorified.com/images/small-pdf-icon-21.png" alt="drawing" width="200"><img src="https://vectorified.com/images/small-pdf-icon-21.png" alt="drawing" width="200"><img src="https://vectorified.com/images/small-pdf-icon-21.png" alt="drawing" width="200">
+<div align="center">
+  <img src="https://vectorified.com/images/small-pdf-icon-21.png" alt="PDF Icon" width="150">
+  <img src="https://vectorified.com/images/small-pdf-icon-21.png" alt="PDF Icon" width="150">
+  <img src="https://vectorified.com/images/small-pdf-icon-21.png" alt="PDF Icon" width="150">
+  <img src="https://vectorified.com/images/small-pdf-icon-21.png" alt="PDF Icon" width="150">
+  <img src="https://vectorified.com/images/small-pdf-icon-21.png" alt="PDF Icon" width="150">
+</div>
 
+---
 
-<h1>This folder will now contain all my iPad PDF Notes. Hope that will help you do a quick revision even when you are on your bed or travelling.</h1>
+<h1 align="center">📚 iPad PDF Notes 📚</h1>
 
-***Love and Respect to all of you :heart::heart::heart:***
+<p align="center">
+  This folder now contains all my iPad PDF Notes.  
+  Hope these notes help you do a quick revision, whether you're relaxing on your bed or traveling!  
+</p>
 
-Subscribe my channel to see all videos - <a href = "https://www.youtube.com/@codestorywithMIK">codestorywithMIK</a>
+<p align="center">
+  <strong>Love and Respect to all of you ❤️❤️❤️</strong>
+</p>
 
-<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/codestorywithMIK.png">
+---
 
-
+<div align="center">
+  <h3>Subscribe to My YouTube Channel for All Videos:</h3>
+  <a href="https://www.youtube.com/@codestorywithMIK">
+    <img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/codestorywithmik.png" alt="codestorywithMIK" width="300">
+  </a>
+  <br>
+  <a href="https://www.youtube.com/@codestorywithMIK">
+    <strong>👉 codestorywithMIK</strong>
+  </a>
+</div>
