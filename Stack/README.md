@@ -196,5 +196,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Parsing%20A%20Boolean%20Expression.cpp"> Parsing A Boolean Expression (Leetcode - 1106)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid.cpp"> Check if a Parentheses String Can Be Valid (Leetcode - 2116)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
