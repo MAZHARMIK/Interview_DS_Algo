@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Find%20Minimum%20Diameter%20After%20Merging%20Two%20Trees.cpp"> Find Minimum Diameter After Merging Two Trees (Leetcode - 3203)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Minimize%20the%20Maximum%20Edge%20Weight%20of%20Graph.cpp"> Minimize the Maximum Edge Weight of Graph (Leetcode - 3419)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
