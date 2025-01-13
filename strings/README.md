@@ -372,5 +372,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Construct%20K%20Palindrome%20Strings.cpp"> Construct K Palindrome Strings (Leetcode - 1400)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Length%20of%20String%20After%20Operations.cpp"> Minimum Length of String After Operations (Leetcode - 3223)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
