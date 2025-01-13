@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=VZ9Qiy75rZU
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/minimum-length-of-string-after-operations/
 */
