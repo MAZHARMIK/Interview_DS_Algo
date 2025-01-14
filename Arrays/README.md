@@ -489,5 +489,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Best%20Sightseeing%20Pair.cpp"> Best Sightseeing Pair (Leetcode - 1014)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.cpp"> Find the Prefix Common Array of Two Arrays (Leetcode - 2657)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
