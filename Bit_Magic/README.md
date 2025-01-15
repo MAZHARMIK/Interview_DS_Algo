@@ -183,5 +183,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Shortest%20Subarray%20With%20OR%20at%20Least%20K%20II.cpp"> Shortest Subarray With OR at Least K II (Leetcode - 3097)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Minimize%20XOR.cpp"> Minimize XOR (Leetcode - 2429)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
