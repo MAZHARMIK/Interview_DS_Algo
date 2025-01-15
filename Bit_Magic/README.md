@@ -189,5 +189,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Minimize%20XOR.cpp"> Minimize XOR (Leetcode - 2429)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Neighboring%20Bitwise%20XOR.cpp"> Neighboring Bitwise XOR (Leetcode - 2683)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
