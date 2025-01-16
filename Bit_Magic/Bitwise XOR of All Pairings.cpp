@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=19-Q_Krxj1w
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/bitwise-xor-of-all-pairings
 */
