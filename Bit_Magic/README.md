@@ -194,5 +194,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Neighboring%20Bitwise%20XOR.cpp"> Neighboring Bitwise XOR (Leetcode - 2683)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Bitwise%20XOR%20of%20All%20Pairings.cpp"> Bitwise XOR of All Pairings (Leetcode - 2425)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
