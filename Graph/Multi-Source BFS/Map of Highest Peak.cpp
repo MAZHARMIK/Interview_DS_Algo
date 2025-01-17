@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : Will update soon
+    Company Tags                : Google, Microsoft
     Leetcode Link               : https://leetcode.com/problems/map-of-highest-peak/description/
 */
 
