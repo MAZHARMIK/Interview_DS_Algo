@@ -8,7 +8,7 @@
 
 /************************************************************ C++ ************************************************/
 //Approach - Using Multi-Source BFS
-//T.C : O(m * n) , We will all cells once
+//T.C : O(m * n) , We will visit all cells once
 //S.C : O(m * n), in worst case queue will contain all the cells
 class Solution {
 public:
@@ -71,10 +71,9 @@ public:
 };
 
 
-
 /************************************************************ JAVA ************************************************/
 //Approach - Using Multi-Source BFS
-//T.C : O(m * n) , We will all cells once
+//T.C : O(m * n) , We will visit all cells once
 //S.C : O(m * n), in worst case queue will contain all the cells
 class Solution {
     public int orangesRotting(int[][] grid) {
