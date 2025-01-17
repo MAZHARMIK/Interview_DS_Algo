@@ -9,10 +9,15 @@
       <th>Problem Name</th>
 		</thead>
 		<tbody>
-			  <tr>
-          <td>
-					    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Multi-Source%20BFS/Rotting%20Oranges.cpp"> Rotting Oranges (Leetcode - 994)</a>
-				  </td>
-      	</tr>
+			<tr>
+          			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Multi-Source%20BFS/Rotting%20Oranges.cpp"> Rotting Oranges (Leetcode - 994)</a>
+				</td>
+      			</tr>
+			<tr>
+          			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Multi-Source%20BFS/Map%20of%20Highest%20Peak.cpp"> Map of Highest Peak (Leetcode - 1765)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
