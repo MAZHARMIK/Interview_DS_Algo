@@ -69,5 +69,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid.cpp"> Minimum Time to Visit a Cell In a Grid (Leetcode - 2577)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid.cpp"> Minimum Cost to Make at Least One Valid Path in a Grid (Leetcode - 1368)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
