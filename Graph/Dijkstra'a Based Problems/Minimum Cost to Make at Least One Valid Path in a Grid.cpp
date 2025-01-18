@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=NS3C4W_jJJM
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid
 */
