@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will soon update
+    Company Tags                : Twitter, Google
     Leetcode Link               : https://leetcode.com/problems/trapping-rain-water-ii
 */
 
