@@ -189,5 +189,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Find%20Score%20of%20an%20Array%20After%20Marking%20All%20Elements.cpp"> Find Score of an Array After Marking All Elements (Leetcode - 2593)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Trapping%20Rain%20Water%20II.cpp"> Trapping Rain Water II (Leetcode - 407)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
