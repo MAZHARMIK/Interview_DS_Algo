@@ -88,5 +88,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Number%20of%20Ways%20to%20Split%20Array.cpp"> Number of Ways to Split Array (Leetcode - 2270)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Grid%20Game.cpp"> Grid Game (Leetcode - 2017)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
