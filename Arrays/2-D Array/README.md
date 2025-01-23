@@ -207,5 +207,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/First%20Completely%20Painted%20Row%20or%20Column.cpp"> First Completely Painted Row or Column (Leetcode - 2661)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Count%20Servers%20that%20Communicate.cpp"> Count Servers that Communicate (Leetcode - 1267)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
