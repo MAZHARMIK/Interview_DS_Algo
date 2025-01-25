@@ -494,5 +494,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.cpp"> Find the Prefix Common Array of Two Arrays (Leetcode - 2657)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.cpp"> Make Lexicographically Smallest Array by Swapping Elements (Leetcode - 2948)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
