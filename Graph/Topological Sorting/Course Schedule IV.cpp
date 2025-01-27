@@ -117,7 +117,7 @@ public:
 
 
 //Approach-3 (Kahn's Algorithm)
-//T.C : O(V^2 * (V+E))
+//T.C : O(V^2 + V + E) -> Processing Nodes (each node pushed once in queue) = O(V), Processing edges = O(E), Inserting prerequisites (each node can have ~V prerequisites in worst case): O(V^2)
 //S.C : O(V+E)
 class Solution {
 public:
@@ -149,7 +149,7 @@ public:
             for (auto &ngbr : adj[node]) {
                 // Add node and prerequisite of node to the prerequisites of adj
                 mp[ngbr].insert(node);
-                for (auto &prereq : mp[node]) {
+                for (auto &prereq : mp[node]) { //worst case , it has V prerequisites - O(V) time
                     mp[ngbr].insert(prereq);
                 }
 
@@ -285,7 +285,7 @@ class Solution {
 
 
 //Approach-3 (Kahn's Algorithm)
-//T.C : O(V^2 * (V+E))
+//T.C : O(V^2 + V + E) -> Processing Nodes (each node pushed once in queue) = O(V), Processing edges = O(E), Inserting prerequisites (each node can have ~V prerequisites in worst case): O(V^2)
 //S.C : O(V+E)
 class Solution {
     public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
