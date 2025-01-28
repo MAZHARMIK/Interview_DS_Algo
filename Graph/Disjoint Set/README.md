@@ -79,5 +79,10 @@
 					        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Greatest%20Common%20Divisor%20Traversal.cpp"> Greatest Common Divisor Traversal (Leetcode - 2709)</a>
 				      </td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Maximum%20Number%20of%20Fish%20in%20a%20Grid.cpp"> Maximum Number of Fish in a Grid (Leetcode - 2658)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
