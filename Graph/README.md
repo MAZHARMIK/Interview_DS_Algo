@@ -232,7 +232,7 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Redundant%20Connection.cpp">Redundant Connection (4 approaches) (Leetcode : 684)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Redundant%20Connection.cpp">Redundant Connection (3 approaches) (Leetcode : 684)</a>
 				</td>
 			</tr>
 			<tr>
