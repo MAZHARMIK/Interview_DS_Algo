@@ -3,10 +3,12 @@
     MY YOUTUBE VIDEO ON THIS Qn : 
     Company Tags                : Google, Uber
     Leetcode Link               : https://leetcode.com/problems/making-a-large-island/
+    NOTE : You can solve it using BFS or DSU as well
 */
 
 
 /********************************************************************** C++ **********************************************************************/
+//Approach - Using DFS
 //T.C : O(m*n)
 //S.C : O(m*n)
 class Solution {
