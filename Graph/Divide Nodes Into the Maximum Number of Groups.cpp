@@ -184,13 +184,15 @@ class Solution {
     // Main function to calculate the result
     public int magnificentSets(int n, int[][] edges) {
         Map<Integer, List<Integer>> adj = new HashMap<>();
-        
+        for (int i = 0; i < n; i++) {
+            adj.put(i, new ArrayList<>());
+        }
         for (int[] edge : edges) {
             int u = edge[0] - 1;
             int v = edge[1] - 1;
-            
-            adj.computeIfAbsent(u, k -> new ArrayList<>()).add(v);
-            adj.computeIfAbsent(v, k -> new ArrayList<>()).add(u);
+
+            adj.get(u).add(v);
+            adj.get(v).add(u);
         }
 
         // Bipartite check
