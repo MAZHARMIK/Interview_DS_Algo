@@ -1,5 +1,6 @@
-<a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+<a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_orange_ff7600.png?resize=149%2C149" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
 <img src="https://1.bp.blogspot.com/-71RCmZ89ljY/Vi_VOMruhGI/AAAAAAAAAnI/nVf2cJj8tac/s1600/BitManipulation.png" width="600" height="250">
+
 
 # Bit_Magic : :triangular_flag_on_post:
 Remember Few Things : 
@@ -181,6 +182,21 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 			<tr>
        				 <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Shortest%20Subarray%20With%20OR%20at%20Least%20K%20II.cpp"> Shortest Subarray With OR at Least K II (Leetcode - 3097)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Minimize%20XOR.cpp"> Minimize XOR (Leetcode - 2429)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Neighboring%20Bitwise%20XOR.cpp"> Neighboring Bitwise XOR (Leetcode - 2683)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Bitwise%20XOR%20of%20All%20Pairings.cpp"> Bitwise XOR of All Pairings (Leetcode - 2425)</a>
 				</td>
 			</tr>
 		</tbody>

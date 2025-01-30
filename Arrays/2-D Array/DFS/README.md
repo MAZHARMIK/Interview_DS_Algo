@@ -38,5 +38,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Minimum%20Number%20of%20Days%20to%20Disconnect%20Island.cpp"> Minimum Number of Days to Disconnect Island (Leetcode-1568)</a>
 				  </td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Count%20Unguarded%20Cells%20in%20the%20Grid.cpp"> Count Unguarded Cells in the Grid (Leetcode - 2257)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>

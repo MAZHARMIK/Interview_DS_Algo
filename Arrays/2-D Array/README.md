@@ -1,4 +1,4 @@
-<a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+<a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_orange_ff7600.png?resize=149%2C149" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
 <img src="https://www.101computing.net/wp/wp-content/uploads/javascript-2d-array.png" width="600" height="250">
 
 # Arrays/2-D Array : :triangular_flag_on_post:
@@ -177,9 +177,39 @@
 				</td>
 			</tr>
 			</tr>
-						<tr>
+			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Count%20Sub%20Islands.cpp"> Count Sub Islands (Leetcode-1905)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Flip%20Columns%20For%20Maximum%20Number%20of%20Equal%20Rows.cpp"> Flip Columns For Maximum Number of Equal Rows (Leetcode - 1072)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Rotating%20the%20Box.cpp"> Rotating the Box (Leetcode - 1861)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Maximum%20Matrix%20Sum.cpp"> Maximum Matrix Sum (Leetcode - 1975)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Sliding%20Puzzle.cpp"> Sliding Puzzle (Leetcode - 773)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/First%20Completely%20Painted%20Row%20or%20Column.cpp"> First Completely Painted Row or Column (Leetcode - 2661)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Count%20Servers%20that%20Communicate.cpp"> Count Servers that Communicate (Leetcode - 1267)</a>
 				</td>
 			</tr>
 		</tbody>

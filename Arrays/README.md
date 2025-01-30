@@ -1,4 +1,4 @@
-<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icon.png" align="right" /><a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icon.png" align="right" /><a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_orange_ff7600.png?resize=149%2C149" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
 <img src="https://ecdn.teacherspayteachers.com/thumbitem/Hooray-for-Arrays-Second-Grade-Common-Core-Mega-Pack-2OAC4-1528408502/750-598355-1.jpg" width="600" height="250">
 
 # Arrays : :triangular_flag_on_post:
@@ -6,6 +6,8 @@
   <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics (Example : Binary Search, Two Pointer etc.)</summary>
   
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Intervals_Based_Qn">:file_folder:Intervals_Based_Qn</a>
+
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/Difference%20Array%20Technique">:file_folder:Difference Array Technique</a>
 
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Arrays/2-D%20Array">:file_folder:2-D Array</a>
 
@@ -475,6 +477,26 @@
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20if%20Array%20Can%20Be%20Sorted.cpp"> Find if Array Can Be Sorted (Leetcode - 3011)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Prime%20Subtraction%20Operation.cpp"> Prime Subtraction Operation (Leetcode - 2601)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Best%20Sightseeing%20Pair.cpp"> Best Sightseeing Pair (Leetcode - 1014)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.cpp"> Find the Prefix Common Array of Two Arrays (Leetcode - 2657)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.cpp"> Make Lexicographically Smallest Array by Swapping Elements (Leetcode - 2948)</a>
 				</td>
 			</tr>
 		</tbody>

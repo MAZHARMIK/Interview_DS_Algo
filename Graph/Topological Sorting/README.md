@@ -67,5 +67,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Build%20a%20Matrix%20With%20Conditions.cpp"> Build a Matrix With Conditions (Leetcode-2392)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Course%20Schedule%20IV.cpp"> Course Schedule IV (Leetcode - 1462)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

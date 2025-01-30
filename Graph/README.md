@@ -232,7 +232,7 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Redundant%20Connection.cpp">Redundant Connection (4 approaches) (Leetcode : 684)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Redundant%20Connection.cpp">Redundant Connection (3 approaches) (Leetcode : 684)</a>
 				</td>
 			</tr>
 			<tr>
@@ -323,6 +323,21 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			<tr>
        				 <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/All%20Ancestors%20of%20a%20Node%20in%20a%20Directed%20Acyclic%20Graph.cpp"> All Ancestors of a Node in a Directed Acyclic Graph (Leetcode-2192) </a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Find%20Champion%20II.cpp"> Find Champion II (Leetcode - 2924) </a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting.cpp"> Maximum Employees to Be Invited to a Meeting (Leetcode - 2127) </a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Divide%20Nodes%20Into%20the%20Maximum%20Number%20of%20Groups.cpp"> Divide Nodes Into the Maximum Number of Groups (Leetcode - 2493) </a>
 				</td>
 			</tr>
 		</tbody>

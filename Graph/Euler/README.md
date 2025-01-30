@@ -19,5 +19,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Euler/Euler%20Circuit%20in%20an%20Undirected%20Graph.cpp"> Euler Circuit in an Undirected Graph </a>
 				 </td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Euler/Valid%20Arrangement%20of%20Pairs.cpp"> Valid Arrangement of Pairs (Leetcode - 2097) </a>
+				 </td>
+			</tr>
 		</tbody>
 </table>

@@ -73,5 +73,25 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Make%20Sum%20Divisible%20by%20P.cpp"> Make Sum Divisible by P (Leetcode-1590)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Max%20Chunks%20To%20Make%20Sorted.cpp"> Max Chunks To Make Sorted (Leetcode - 769)</a>
+				  </td>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Count%20Vowel%20Strings%20in%20Ranges.cpp"> Count Vowel Strings in Ranges (Leetcode - 2559)</a>
+				  </td>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Number%20of%20Ways%20to%20Split%20Array.cpp"> Number of Ways to Split Array (Leetcode - 2270)</a>
+				  </td>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Grid%20Game.cpp"> Grid Game (Leetcode - 2017)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
