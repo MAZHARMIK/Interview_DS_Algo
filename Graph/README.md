@@ -335,5 +335,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting.cpp"> Maximum Employees to Be Invited to a Meeting (Leetcode - 2127) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Divide%20Nodes%20Into%20the%20Maximum%20Number%20of%20Groups.cpp"> Divide Nodes Into the Maximum Number of Groups (Leetcode - 2493) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
