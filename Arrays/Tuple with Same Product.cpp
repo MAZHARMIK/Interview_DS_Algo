@@ -49,6 +49,42 @@ public:
 };
 
 
+//Approach-2 (Improving a little more after sorting)
+//T.C : O(n^4 + nlogn)
+//S.C : O(1)
+class Solution {
+public:
+    int tupleSameProduct(vector<int>& nums) {
+        int totalNumberOfTuples = 0;
+        int n = nums.size();
+        sort(begin(nums), end(nums));
+
+        // Four nested loops to select a, b, c, d
+        for (int i = 0; i < n; i++) {           // Choose a
+            for (int j = n-1; j > i; j--) {   // Choose b (distinct from a)
+
+                for(int k = i+1; k < j; k++) {
+                    for(int l = j-1; l > k; l--) {
+
+                        int p1 = nums[i] * nums[j];
+                        int p2 = nums[k] * nums[l];
+
+                        if(p1 == p2) {
+                            totalNumberOfTuples++;
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+        // Each unique combination corresponds to 8 possible tuples
+        return totalNumberOfTuples * 8;
+    }
+};
+
+
 //Approach-2 (Better Brute Force)
 //T.C : O(n^3)
 //S.C : O(1)
