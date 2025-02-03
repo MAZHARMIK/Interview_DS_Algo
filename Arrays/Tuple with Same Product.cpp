@@ -37,7 +37,14 @@ public:
         }
 
         // Each unique combination corresponds to 8 possible tuples
-        return totalNumberOfTuples / 2 * 8;  // Divide by 2 to correct double-counting
+        return (totalNumberOfTuples / 2) * 8;  // Divide by 2 to correct double-counting
+        /*
+            For example : for nums = {2, 3, 4, 6}, one tuple will be {2, 6, 3, 4} -> we count 8 possible permutations for this.
+            (2,6,3,4) , (2,6,4,3) , (6,2,3,4) , (6,2,4,3)
+            (3,4,2,6) , (4,3,2,6) , (3,4,6,2) , (4,3,6,2)
+
+            Now, our for loop later will also pick tuple {3, 4, 2, 6} which will again give same 8 permutations.
+        */
     }
 };
 
@@ -77,6 +84,6 @@ public:
         }
 
         // Each unique combination corresponds to 8 possible tuples
-        return totalNumberOfTuples * 8;  // Divide by 2 to correct double-counting
+        return totalNumberOfTuples * 8;
     }
 };
