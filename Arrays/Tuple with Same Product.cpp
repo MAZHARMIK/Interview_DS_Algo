@@ -85,7 +85,7 @@ public:
 };
 
 
-//Approach-2 (Better Brute Force)
+//Approach-3 (Better Brute Force)
 //T.C : O(n^3)
 //S.C : O(1)
 class Solution {
