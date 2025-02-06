@@ -87,7 +87,7 @@ public:
 
 //Approach-3 (Better Brute Force)
 //T.C : O(n^3)
-//S.C : O(1)
+//S.C : O(n)
 class Solution {
 public:
     int tupleSameProduct(vector<int>& nums) {
@@ -123,3 +123,38 @@ public:
         return totalNumberOfTuples * 8;
     }
 };
+
+
+
+//Approach-4 (Using maths and combination)
+//T.C : O(n^2)
+//S.C : O(n)
+class Solution {
+public:
+    int tupleSameProduct(vector<int>& nums) {
+        int n = nums.size();
+        int tuples = 0;
+
+        unordered_map<int, int> mp; //product -> frequency
+
+        for(int i = 0; i < n; i++) {
+            for(int j = i+1; j < n; j++) {
+                int p = nums[i] * nums[j];
+                mp[p]++;
+            }
+        }
+
+        for(auto &it : mp) {
+            int prod = it.first;
+            int freq = it.second;
+
+            tuples += (freq * (freq-1))/2;
+        }
+
+        return tuples * 8;
+    }
+};
+
+
+/************************************************************ JAVA *****************************************************/
+//will add tonight (currently travelling)
