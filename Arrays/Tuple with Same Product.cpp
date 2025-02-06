@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=aC7q-YCFV2o
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/tuple-with-same-product/description/
 */
