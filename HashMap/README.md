@@ -149,5 +149,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Find%20the%20Number%20of%20Distinct%20Colors%20Among%20the%20Balls.cpp"> Find the Number of Distinct Colors Among the Balls (Leetcode - 3160)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20Number%20of%20Bad%20Pairs.cpp"> Count Number of Bad Pairs (Leetcode - 2364)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
