@@ -144,5 +144,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Check%20If%20Array%20Pairs%20Are%20Divisible%20by%20k.cpp">  Check If Array Pairs Are Divisible by k (Leetcode - 1497)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Find%20the%20Number%20of%20Distinct%20Colors%20Among%20the%20Balls.cpp"> Find the Number of Distinct Colors Among the Balls (Leetcode - 3160)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
