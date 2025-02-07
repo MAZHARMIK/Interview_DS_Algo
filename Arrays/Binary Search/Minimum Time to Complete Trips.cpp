@@ -1,6 +1,6 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=tUCVupA0lAc
-    Company Tags                : Google, PhonePe
+    Company Tags                : Google, PhonePe, Meesho (SDE-2 Role, Year - 2025)
     Leetcode Link               : https://leetcode.com/problems/minimum-time-to-complete-trips/
 */
 
