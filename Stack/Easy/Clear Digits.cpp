@@ -103,3 +103,96 @@ public:
         return s;
     }
 };
+
+
+
+/********************************************* Java *********************************************/
+// Approach-1 (Brute Force)  
+// T.C : O(n^2)  
+// S.C : O(1)  
+class Solution {
+    public String clearDigits(String s) {
+        StringBuilder sb = new StringBuilder(s);
+        int i = 0;
+
+        while (i < sb.length()) {
+            if (Character.isDigit(sb.charAt(i))) {
+                sb.deleteCharAt(i);
+                if (i > 0) {
+                    sb.deleteCharAt(i - 1);
+                    i--;
+                }
+            } else {
+                i++;
+            }
+        }
+        return sb.toString();
+    }
+}
+
+
+// Approach-2 (Using stack)  
+// T.C : O(n)  
+// S.C : O(n) for stack  
+class Solution {
+    public String clearDigits(String s) {
+        Stack<Character> stack = new Stack<>();
+
+        for (char ch : s.toCharArray()) {
+            if (ch >= 'a' && ch <= 'z') {
+                stack.push(ch);
+            } else if (!stack.isEmpty()) {
+                stack.pop();
+            }
+        }
+
+        StringBuilder result = new StringBuilder();
+        while (!stack.isEmpty()) {
+            result.append(stack.pop());
+        }
+
+        return result.reverse().toString();
+    }
+}
+
+
+// Approach-3 (Using result string to avoid reverse call)  
+// T.C : O(n)  
+// S.C : O(1)  
+class Solution {
+    public String clearDigits(String s) {
+        StringBuilder result = new StringBuilder();
+
+        for (char ch : s.toCharArray()) {
+            if (ch >= 'a' && ch <= 'z') {
+                result.append(ch);
+            } else if (result.length() > 0) {
+                result.deleteCharAt(result.length() - 1);
+            }
+        }
+
+        return result.toString();
+    }
+}
+
+
+// Approach-4 (Solving inplace)  
+// T.C : O(n)  
+// S.C : O(1)  
+class Solution {
+    public String clearDigits(String s) {
+        char[] arr = s.toCharArray();
+        int j = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (Character.isDigit(arr[i])) {
+                j = Math.max(j - 1, 0);
+            } else {
+                arr[j] = arr[i];
+                j++;
+            }
+        }
+
+        return new String(arr, 0, j);
+    }
+}
