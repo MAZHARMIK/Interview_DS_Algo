@@ -499,5 +499,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.cpp"> Make Lexicographically Smallest Array by Swapping Elements (Leetcode - 2948)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Max%20Sum%20of%20a%20Pair%20With%20Equal%20Sum%20of%20Digits.cpp"> Max Sum of a Pair With Equal Sum of Digits (Leetcode - 2342)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
