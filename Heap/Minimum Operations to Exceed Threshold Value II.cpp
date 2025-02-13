@@ -39,8 +39,6 @@ public:
 //Approach (Using Heap)
 //T.C : Onlogn)
 //S.C : O(n)
-import java.util.PriorityQueue;
-
 class Solution {
     public int minOperations(int[] nums, int k) {
         PriorityQueue<Long> pq = new PriorityQueue<>();
