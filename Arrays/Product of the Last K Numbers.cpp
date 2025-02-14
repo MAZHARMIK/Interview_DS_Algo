@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Jvu3hd8A2rg
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/product-of-the-last-k-numbers
 */
