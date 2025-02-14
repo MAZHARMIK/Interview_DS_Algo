@@ -504,5 +504,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Max%20Sum%20of%20a%20Pair%20With%20Equal%20Sum%20of%20Digits.cpp"> Max Sum of a Pair With Equal Sum of Digits (Leetcode - 2342)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Product%20of%20the%20Last%20K%20Numbers.cpp"> Product of the Last K Numbers (Leetcode - 1352)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
