@@ -8,7 +8,7 @@
 
 /************************************************************ C++ ************************************************/
 //Approach-1 : (Recursion + Memoization)
-//T.C : O(n * log10(n^2))
+//T.C : O(n * 2^(log10(n^2)))
 //S.C : O(n * log10(n^2))
 class Solution {
 public:
@@ -53,7 +53,7 @@ public:
 
 
 //Approach-2 : (Recursion + Memoization)
-//T.C : O(n * log10(n^2))
+//T.C : O(n * 2^(log10(n^2)))
 //S.C : O(log10(n^2))
 class Solution {
 public:
@@ -83,7 +83,7 @@ public:
 
 /************************************************************ Java ************************************************/
 // Approach-1 : (Recursion + Memoization)
-// T.C : O(n * log10(n^2))
+// T.C : O(n * 2^(log10(n^2)))
 // S.C : O(n * log10(n^2))
 class Solution {
     public boolean check(int i, int currsum, String s, int num, int[][] t) {
@@ -129,7 +129,7 @@ class Solution {
 }
 
 // Approach-2 : (Recursion + Memoization)
-// T.C : O(n * log10(n^2))
+// T.C : O(n * 2^(log10(n^2)))
 // S.C : O(log10(n^2))
 class Solution {
     public boolean check(int num, int currnum, int target) {
