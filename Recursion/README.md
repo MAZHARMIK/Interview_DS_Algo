@@ -124,5 +124,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Find%20Kth%20Bit%20in%20Nth%20Binary%20String.cpp"> Find Kth Bit in Nth Binary String (Leetcode - 1545)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Find%20the%20Punishment%20Number%20of%20an%20Integer.cpp"> Find the Punishment Number of an Integer (Leetcode - 2698)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
