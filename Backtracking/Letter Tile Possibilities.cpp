@@ -49,36 +49,33 @@ public:
 //S.C : O(n), total possible sequences = n! and each having n length
 class Solution {
 public:
-    int totalCount;
-    int numTilePossibilities(string tiles) {
-        totalCount = 0;
-        
-        int charCount[26] = {0};
-        for (char c : tiles) {
-            charCount[c - 'A']++;
-        }
+    int total;
+    void findSequences(vector<int>& count) {
+        total++;
 
-        findSequences(charCount);
-        return totalCount-1; //excluding empty one
-    }
-
-private:
-    void findSequences(int charCount[26]) {
-        totalCount++;
-
-        // Try using each available character
         for (int pos = 0; pos < 26; pos++) {
-            if (charCount[pos] == 0) {
+            if (count[pos] == 0) {
                 continue;
             }
 
-            charCount[pos]--;
-            findSequences(charCount);
-            charCount[pos]++;
+            count[pos]--;
+            findSequences(count);
+            count[pos]++;
         }
     }
-};
 
+    int numTilePossibilities(std::string tiles) {
+        total = 0;
+
+        vector<int> count(26, 0);
+        for (char c : tiles) {
+            count[c - 'A']++;
+        }
+
+        findSequences(count);
+        return total-1;
+    }
+};
 
 
 /************************************************************ JAVA ************************************************/
@@ -123,33 +120,32 @@ class Solution {
 // Approach-2 (Using count of characters + backtracking)
 // T.C : O(n!)
 // S.C : O(n), total possible sequences = n! and each having n length
-class Solution2 {
-    int totalCount;
+class Solution {
+    private int total;
 
-    public int numTilePossibilities(String tiles) {
-        totalCount = 0;
-        int[] charCount = new int[26];
+    private void findSequences(int[] count) {
+        total++;
 
-        // Count the frequency of each character in tiles
-        for (char c : tiles.toCharArray()) {
-            charCount[c - 'A']++;
+        for (int pos = 0; pos < 26; pos++) {
+            if (count[pos] == 0) {
+                continue;
+            }
+
+            count[pos]--;
+            findSequences(count);
+            count[pos]++;
         }
-
-        findSequences(charCount);
-        return totalCount - 1; // Subtract 1 to exclude the empty sequence
     }
 
-    private void findSequences(int[] charCount) {
-        totalCount++;
+    public int numTilePossibilities(String tiles) {
+        total = 0;
 
-        // Try using each available character
-        for (int pos = 0; pos < 26; pos++) {
-            if (charCount[pos] == 0)
-                continue;
-
-            charCount[pos]--;
-            findSequences(charCount);
-            charCount[pos]++;
+        int[] count = new int[26];
+        for (char c : tiles.toCharArray()) {
+            count[c - 'A']++;
         }
+
+        findSequences(count);
+        return total - 1;
     }
 }
