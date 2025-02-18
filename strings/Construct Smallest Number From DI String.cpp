@@ -12,29 +12,33 @@
 //S.C : O(n+1) for result
 class Solution {
 public:
-    bool matchesPattern(string &sequence, string &pattern) {
-        for (int i = 0; i < pattern.length(); i++) {
-            if ((pattern[i] == 'I' && sequence[i] > sequence[i + 1]) ||
-                (pattern[i] == 'D' && sequence[i] < sequence[i + 1])) {
+    bool matchesPattern(string &num, string &pattern) {
+        for(int i = 0; i < pattern.length(); i++) {
+            if((pattern[i] == 'I' && num[i] > num[i+1]) ||
+                (pattern[i] == 'D' && num[i] < num[i+1])) {
                 return false;
             }
         }
+
         return true;
     }
 
     string smallestNumber(string pattern) {
-        int n = pattern.length();
-        string result = "";
-
-        for (int number = 1; number <= n + 1; number++) {
-            result.push_back(number + '0');
+        int n = pattern.length(); //"IID" , n = 3
+        string num = "";
+        
+        for(int i = 1; i <= n+1; i++) {
+            num.push_back(i + '0'); 
         }
 
-        while (!matchesPattern(result, pattern)) {
-            next_permutation(begin(result), end(result));
+        //num = "1234"
+
+        while(!matchesPattern(num, pattern)) {
+            next_permutation(begin(num), end(num));
         }
 
-        return result;
+        return num;
+
     }
 };
 
@@ -46,26 +50,28 @@ class Solution {
 public:
     string smallestNumber(string pattern) {
         int n = pattern.length();
-        string result;
-        string numStack;
-        int counter = 1;
 
-        for (int i = 0; i <= n; i++) {
-            numStack.push_back(counter + '0');
+        string num = ""; //(n+1) //index 0 to index n
+
+        int counter = 1;
+        stack<char> st;
+
+        for(int i = 0; i <= n; i++) {
+            st.push(counter + '0');
             counter++;
 
-            if (i == n || pattern[i] == 'I') {
-                while (!numStack.empty()) {
-                    result += numStack.back();
-                    numStack.pop_back();
+            if(i == n || pattern[i] == 'I') {
+                while(!st.empty()) {
+                    num += st.top();
+                    st.pop();
                 }
             }
         }
 
-        return result;
+        return num;
+
     }
 };
-
 
 
 /**************************************************************** Java ****************************************************************/
@@ -73,10 +79,10 @@ public:
 // T.C : O(n * (n+1)!), (n+1)! permutations and n for matchesPattern()
 // S.C : O(n+1) for result
 class Solution {
-    private boolean matchesPattern(String sequence, String pattern) {
+    private boolean matchesPattern(String num, String pattern) {
         for (int i = 0; i < pattern.length(); i++) {
-            if ((pattern.charAt(i) == 'I' && sequence.charAt(i) > sequence.charAt(i + 1)) ||
-                (pattern.charAt(i) == 'D' && sequence.charAt(i) < sequence.charAt(i + 1))) {
+            if ((pattern.charAt(i) == 'I' && num.charAt(i) > num.charAt(i + 1)) ||
+                (pattern.charAt(i) == 'D' && num.charAt(i) < num.charAt(i + 1))) {
                 return false;
             }
         }
@@ -85,47 +91,46 @@ class Solution {
 
     public String smallestNumber(String pattern) {
         int n = pattern.length();
-        StringBuilder result = new StringBuilder();
-        
-        for (int number = 1; number <= n + 1; number++) {
-            result.append(number);
+        char[] num = new char[n + 1];
+
+        // Initialize num as "1234..." (n+1 characters)
+        for (int i = 0; i <= n; i++) {
+            num[i] = (char) ('1' + i);
         }
 
-        char[] resultArr = result.toString().toCharArray();
-        while (!matchesPattern(new String(resultArr), pattern)) {
-            nextPermutation(resultArr);
+        // Generate permutations until we find one that matches the pattern
+        while (!matchesPattern(new String(num), pattern)) {
+            nextPermutation(num);
         }
 
-        return new String(resultArr);
+        return new String(num);
     }
 
-    private void nextPermutation(char[] arr) {
-        int i = arr.length - 2;
-        while (i >= 0 && arr[i] >= arr[i + 1]) {
+    private void nextPermutation(char[] num) {
+        int i = num.length - 2;
+        while (i >= 0 && num[i] >= num[i + 1]) {
             i--;
         }
         if (i >= 0) {
-            int j = arr.length - 1;
-            while (arr[j] <= arr[i]) {
+            int j = num.length - 1;
+            while (num[j] <= num[i]) {
                 j--;
             }
-            swap(arr, i, j);
+            swap(num, i, j);
         }
-        reverse(arr, i + 1);
+        reverse(num, i + 1);
     }
 
-    private void swap(char[] arr, int i, int j) {
-        char temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+    private void swap(char[] num, int i, int j) {
+        char temp = num[i];
+        num[i] = num[j];
+        num[j] = temp;
     }
 
-    private void reverse(char[] arr, int start) {
-        int end = arr.length - 1;
+    private void reverse(char[] num, int start) {
+        int end = num.length - 1;
         while (start < end) {
-            swap(arr, start, end);
-            start++;
-            end--;
+            swap(num, start++, end--);
         }
     }
 }
@@ -138,16 +143,16 @@ class Solution {
     public String smallestNumber(String pattern) {
         int n = pattern.length();
         StringBuilder result = new StringBuilder();
-        StringBuilder numStack = new StringBuilder();
+        Stack<Character> stack = new Stack<>();
         int counter = 1;
 
         for (int i = 0; i <= n; i++) {
-            numStack.append(counter);
-            counter++;
+            stack.push((char) ('0' + counter++)); // Push the next number
 
             if (i == n || pattern.charAt(i) == 'I') {
-                result.append(numStack.reverse());
-                numStack.setLength(0);
+                while (!stack.isEmpty()) {
+                    result.append(stack.pop());
+                }
             }
         }
 
