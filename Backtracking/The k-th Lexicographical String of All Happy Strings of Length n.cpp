@@ -110,7 +110,7 @@ class Solution {
             curr.append(ch);
 
             // Explore
-            solve(n, curr, happyStrings);
+            solve(n, curr, result);
 
             // Undo
             curr.deleteCharAt(curr.length() - 1);
