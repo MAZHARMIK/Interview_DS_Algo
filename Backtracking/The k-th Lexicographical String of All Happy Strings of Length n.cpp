@@ -12,31 +12,31 @@
 //S.C : O(n * 2^n) , total 2^n strings eaching having length n
 class Solution {
 public:
-    void solve(int n, string &currentString, vector<string> &happyStrings) {
-        if (currentString.length() == n) {
-            happyStrings.push_back(currentString);
+    void solve(int n, string &curr, vector<string> &result) {
+        if (curr.length() == n) {
+            result.push_back(curr);
             return;
         }
         
         for (char ch = 'a'; ch <= 'c'; ch++) {
-            if (!currentString.empty() && currentString.back() == ch)
+            if (!curr.empty() && curr.back() == ch)
                 continue;
             
             // Do
-            currentString.push_back(ch);
+            curr.push_back(ch);
 
             // Explore
-            solve(n, currentString, happyStrings);
+            solve(n, curr, result);
 
             // Undo
-            currentString.pop_back();
+            curr.pop_back();
         }
     }
 
     string getHappyString(int n, int k) {
-        string currentString = "";
+        string curr = "";
         vector<string> result;
-        solve(n, currentString, result);
+        solve(n, curr, result);
 
         if (result.size() < k) 
             return "";
@@ -46,44 +46,45 @@ public:
 };
 
 
+
 //Approach-2 (Khandani Backtracking remplate - Without storing all possible strings)
 //T.C : O(n * 3 * 2^(n-1)) ~= O(n*2^n)
 //S.C : O(n) by recursion system stack
 class Solution {
 public:
-    void solve(int n, string &currentString, int &count, int k, string &result) {
-        if (currentString.length() == n) {
+    void solve(int n, string &curr, int &count, int k, string &result) {
+        if (curr.length() == n) {
             count++;
             if (count == k) {
-                result = currentString;  // Store only the k-th string
+                result = curr;  // Store only the k-th string
             }
             return;
         }
         
         for (char ch = 'a'; ch <= 'c'; ch++) {
-            if (!currentString.empty() && currentString.back() == ch)
+            if (!curr.empty() && curr.back() == ch)
                 continue;
             
             // Do
-            currentString.push_back(ch);
+            curr.push_back(ch);
 
             // Explore
-            solve(n, currentString, count, k, result);
+            solve(n, curr, count, k, result);
 
             // If result is found, exit early
             if (!result.empty()) return;
 
             // Undo
-            currentString.pop_back();
+            curr.pop_back();
         }
     }
 
     string getHappyString(int n, int k) {
-        string currentString = "";
+        string curr = "";
         string result = "";
         int count = 0;
         
-        solve(n, currentString, count, k, result);
+        solve(n, curr, count, k, result);
 
         return result;
     }
