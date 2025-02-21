@@ -494,5 +494,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Minimum%20Number%20of%20Operations%20to%20Sort%20a%20Binary%20Tree%20by%20Level.cpp"> Minimum Number of Operations to Sort a Binary Tree by Level (Leetcode - 2471)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree.cpp"> Find Elements in a Contaminated Binary Tree (Leetcode - 1261)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
