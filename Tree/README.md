@@ -499,5 +499,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree.cpp"> Find Elements in a Contaminated Binary Tree (Leetcode - 1261)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Recover%20a%20Tree%20From%20Preorder%20Traversal.cpp"> Recover a Tree From Preorder Traversal (Leetcode - 1028)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
