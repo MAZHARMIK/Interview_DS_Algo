@@ -504,5 +504,10 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Recover%20a%20Tree%20From%20Preorder%20Traversal.cpp"> Recover a Tree From Preorder Traversal (Leetcode - 1028)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal.cpp"> Construct Binary Tree from Preorder and Postorder Traversal (Leetcode - 889)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
