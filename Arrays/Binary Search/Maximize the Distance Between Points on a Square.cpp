@@ -17,7 +17,7 @@ public:
         return abs(vec1[0] - vec2[0]) + abs(vec1[1] - vec2[1]);
     }
 
-    bool dfs(vector<vector<int>>& points, int k, int d, int start, vector<int>& chosen) {
+    bool solve(vector<vector<int>>& points, int k, int d, int start, vector<int>& chosen) {
         if (chosen.size() == k)
             return true;
         
@@ -33,7 +33,7 @@ public:
                 continue;
             
             chosen.push_back(i);
-            if (dfs(points, k, d, i + 1, chosen))
+            if (solve(points, k, d, i + 1, chosen))
                 return true;
             chosen.pop_back();
         }
@@ -48,7 +48,7 @@ public:
             int mid = (l + r) / 2;
             vector<int> chosen;
             
-            if (dfs(points, k, mid, 0, chosen)) {
+            if (solve(points, k, mid, 0, chosen)) {
                 best = mid;
                 l = mid + 1;
             } else {
@@ -144,7 +144,7 @@ class Solution {
         return Math.abs(vec1[0] - vec2[0]) + Math.abs(vec1[1] - vec2[1]);
     }
 
-    public boolean dfs(int[][] points, int k, int d, int start, List<Integer> chosen) {
+    public boolean solve(int[][] points, int k, int d, int start, List<Integer> chosen) {
         if (chosen.size() == k)
             return true;
         
@@ -160,7 +160,7 @@ class Solution {
                 continue;
             
             chosen.add(i);
-            if (dfs(points, k, d, i + 1, chosen))
+            if (solve(points, k, d, i + 1, chosen))
                 return true;
             chosen.remove(chosen.size() - 1);
         }
@@ -175,7 +175,7 @@ class Solution {
             int mid = (l + r) / 2;
             List<Integer> chosen = new ArrayList<>();
             
-            if (dfs(points, k, mid, 0, chosen)) {
+            if (solve(points, k, mid, 0, chosen)) {
                 best = mid;
                 l = mid + 1;
             } else {
