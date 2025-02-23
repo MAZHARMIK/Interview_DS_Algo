@@ -9,7 +9,7 @@
 
 /****************************************************************** C++ ******************************************************************/
 //Approach-1 (Binary Search + Backtracking Brute Force)
-//T.C : O(n^k * k² * log side)
+//T.C : O(n^k * n*k * log side)
 //S.C : O(k)
 class Solution {
 public:
@@ -137,7 +137,7 @@ public:
 
 /****************************************************************** Java ******************************************************************/
 // Approach-1 (Binary Search + Backtracking Brute Force)
-// T.C : O(n^k * k² * log side)
+// T.C : O(n^k * n*k * log side)
 // S.C : O(k)
 class Solution {
     public int manhattan(int[] vec1, int[] vec2) {
