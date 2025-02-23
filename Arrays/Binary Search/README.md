@@ -221,5 +221,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximize%20the%20Minimum%20Game%20Score.cpp"> Maximize the Minimum Game Score (Leetcode - 3449)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximize%20the%20Distance%20Between%20Points%20on%20a%20Square.cpp"> Maximize the Distance Between Points on a Square (Leetcode - 3464)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
