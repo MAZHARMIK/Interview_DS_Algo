@@ -98,5 +98,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Number%20of%20Sub-arrays%20With%20Odd%20Sum.cpp"> Number of Sub-arrays With Odd Sum (Leetcode - 1524)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Maximum%20Absolute%20Sum%20of%20Any%20Subarray.cpp"> Maximum Absolute Sum of Any Subarray (Leetcode - 1749)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
