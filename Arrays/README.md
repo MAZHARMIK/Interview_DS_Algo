@@ -509,5 +509,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Product%20of%20the%20Last%20K%20Numbers.cpp"> Product of the Last K Numbers (Leetcode - 1352)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Partition%20Array%20According%20to%20Given%20Pivot.cpp"> Partition Array According to Given Pivot (Leetcode - 2161)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
