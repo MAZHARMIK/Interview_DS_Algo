@@ -199,5 +199,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Sum%20of%20Square%20Numbers.cpp"> Sum of Square Numbers (Leetcode - 633)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.cpp"> Check if Number is a Sum of Powers of Three (Leetcode - 1780)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
