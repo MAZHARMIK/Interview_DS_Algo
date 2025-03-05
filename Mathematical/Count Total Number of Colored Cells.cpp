@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=LakDs5OBiGM
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/count-total-number-of-colored-cells
 */
