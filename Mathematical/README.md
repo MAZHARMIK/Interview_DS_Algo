@@ -209,5 +209,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Total%20Number%20of%20Colored%20Cells.cpp"> Count Total Number of Colored Cells (Leetcode - 2579)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Closest%20Prime%20Numbers%20in%20Range.cpp"> Closest Prime Numbers in Range (Leetcode - 2523)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
