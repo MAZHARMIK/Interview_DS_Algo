@@ -199,5 +199,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Minimum%20Operations%20to%20Exceed%20Threshold%20Value%20II.cpp"> Minimum Operations to Exceed Threshold Value II (Leetcode - 3066)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Choose%20K%20Elements%20With%20Maximum%20Sum.cpp"> Choose K Elements With Maximum Sum (Leetcode - 3478)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
