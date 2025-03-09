@@ -11,11 +11,6 @@
 //S.C : O(n*k)
 class Solution {
 public:
-    Solution() { // ✅ Constructor to apply Fast I/O once
-        ios::sync_with_stdio(false);
-        cin.tie(nullptr);
-        cout.tie(nullptr);
-    }
     typedef long long ll;
     vector<long long> findMaxSum(vector<int>& nums1, vector<int>& nums2, int k) {
         
@@ -58,10 +53,6 @@ public:
 class Solution {
 public:
     typedef long long ll;
-    Solution() {
-        ios::sync_with_stdio(false);
-        cin.tie(nullptr);
-    }
     vector<long long> findMaxSum(vector<int>& nums1, vector<int>& nums2, int k) {
         int n = nums1.size();
 
