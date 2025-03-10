@@ -214,5 +214,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/edit/master/Sliding%20Window/Alternating%20Groups%20II.cpp"> Alternating Groups II (Leetcode - 3208) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20II.cpp"> Count of Substrings Containing Every Vowel and K Consonants II (Leetcode - 3306) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
