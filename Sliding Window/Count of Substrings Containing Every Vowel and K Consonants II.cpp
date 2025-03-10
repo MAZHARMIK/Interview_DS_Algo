@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=8FP1kkYf2U4
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii
 */
