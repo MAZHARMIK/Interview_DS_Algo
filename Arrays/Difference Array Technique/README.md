@@ -19,5 +19,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Shifting%20Letters%20II.cpp"> Shifting Letters II (Leetcode - 2381)</a>
 				</td>
       			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Zero%20Array%20Transformation%20II.cpp"> Zero Array Transformation II (Leetcode - 3356)</a>
+				</td>
+      			</tr>
 		</tbody>
 </table>
