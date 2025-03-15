@@ -231,5 +231,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximum%20Candies%20Allocated%20to%20K%20Children.cpp"> Maximum Candies Allocated to K Children (Leetcode - 2226)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/House%20Robber%20IV.cpp"> House Robber IV (Leetcode - 2560)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
