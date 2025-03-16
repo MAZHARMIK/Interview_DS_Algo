@@ -65,7 +65,8 @@ class Solution {
     }
 
     public long repairCars(int[] ranks, int cars) {
-        long l = 1, r = 1L * cars * cars * ranks[0];
+        long l = 1;
+        long r = 1L * cars * cars * Arrays.stream(ranks).max().orElse(Integer.MIN_VALUE);
         
         while (l < r) {
             long mid = l + (r - l) / 2;
