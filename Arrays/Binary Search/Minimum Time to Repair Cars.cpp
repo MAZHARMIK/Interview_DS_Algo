@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=tOo5RX2pt0g
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/minimum-time-to-repair-cars
 */
