@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=t2p4Sn0Qepo
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/longest-nice-subarray/description/
 */
