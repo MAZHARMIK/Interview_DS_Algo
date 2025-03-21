@@ -74,7 +74,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Find%20All%20Possible%20Recipes%20from%20Given%20Supplies"> Find All Possible Recipes from Given Supplies (Leetcode - 2115)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Topological%20Sorting/Find%20All%20Possible%20Recipes%20from%20Given%20Supplies.cpp"> Find All Possible Recipes from Given Supplies (Leetcode - 2115)</a>
 				</td>
 			</tr>
 		</tbody>
