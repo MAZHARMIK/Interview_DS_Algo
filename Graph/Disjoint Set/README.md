@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Maximum%20Number%20of%20Fish%20in%20a%20Grid.cpp"> Maximum Number of Fish in a Grid (Leetcode - 2658)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Count%20the%20Number%20of%20Complete%20Components.cpp"> Count the Number of Complete Components (Leetcode - 2685)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
