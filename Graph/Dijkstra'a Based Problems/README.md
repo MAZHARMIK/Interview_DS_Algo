@@ -74,5 +74,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid.cpp"> Minimum Cost to Make at Least One Valid Path in a Grid (Leetcode - 1368)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Number%20of%20Ways%20to%20Arrive%20at%20Destination.cpp"> Number of Ways to Arrive at Destination (Leetcode - 1976)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
