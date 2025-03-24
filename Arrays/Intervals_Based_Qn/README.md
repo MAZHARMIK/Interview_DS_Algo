@@ -120,5 +120,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Maximum%20Beauty%20of%20an%20Array%20After%20Applying%20Operation.cpp"> Maximum Beauty of an Array After Applying Operation (Leetcode - 2779)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Count%20Days%20Without%20Meetings.cpp"> Count Days Without Meetings (Leetcode - 3169)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
