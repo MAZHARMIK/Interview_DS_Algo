@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code as well        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=9rCmrMed8h8
     Company Tags                : Amazon, Google, Nutanix
     Leetcode Qn Link            : https://leetcode.com/problems/merge-intervals/
 */
