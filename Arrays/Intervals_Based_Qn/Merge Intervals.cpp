@@ -44,7 +44,7 @@ public:
 
 
 //Approach-2 (Using sorting)
-//T.C : O(n)
+//T.C : O(nlogn)
 //S.C : O(n)
 class Solution {
 public:
