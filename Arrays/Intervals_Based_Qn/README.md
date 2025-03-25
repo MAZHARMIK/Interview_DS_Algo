@@ -125,5 +125,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Count%20Days%20Without%20Meetings.cpp"> Count Days Without Meetings (Leetcode - 3169)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Check%20if%20Grid%20can%20be%20Cut%20into%20Sections.cpp"> Check if Grid can be Cut into Sections (Leetcode - 3394)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
