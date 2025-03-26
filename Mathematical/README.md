@@ -214,5 +214,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Closest%20Prime%20Numbers%20in%20Range.cpp"> Closest Prime Numbers in Range (Leetcode - 2523)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.cpp"> Minimum Operations to Make a Uni-Value Grid (Leetcode - 2033)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
