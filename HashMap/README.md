@@ -154,5 +154,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20Number%20of%20Bad%20Pairs.cpp"> Count Number of Bad Pairs (Leetcode - 2364)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Minimum%20Index%20of%20a%20Valid%20Split.cpp"> Minimum Index of a Valid Split (Leetcode - 2780)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
