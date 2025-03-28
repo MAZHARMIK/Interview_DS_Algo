@@ -103,7 +103,7 @@ public:
 
 
 //Approach-3 (Optimal Approach using sorting and min-heap)
-//T.C : O(QlogQ + m*nlog(m*n))
+//T.C : O(QlogQ + m*nlog(m*n)) - Notice that we won't visit any cell more than once. Total cells = m*n and heap can have m*n cells in worst case
 //S.C : O(m*n)
 class Solution {
 public:
