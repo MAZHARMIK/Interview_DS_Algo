@@ -212,5 +212,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Count%20Servers%20that%20Communicate.cpp"> Count Servers that Communicate (Leetcode - 1267)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Maximum%20Number%20of%20Points%20From%20Grid%20Queries.cpp"> Maximum Number of Points From Grid Queries (Leetcode - 2503)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
