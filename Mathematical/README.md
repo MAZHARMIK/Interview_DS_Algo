@@ -219,5 +219,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.cpp"> Minimum Operations to Make a Uni-Value Grid (Leetcode - 2033)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Apply%20Operations%20to%20Maximize%20Score.cpp"> Apply Operations to Maximize Score (Leetcode - 2818)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
