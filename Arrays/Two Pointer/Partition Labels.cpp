@@ -1,6 +1,6 @@
 /*			Scroll below to see JAVA code also			*/
 /*
-	MY YOUTUBE VIDEO ON THIS Qn : 
+	MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=c11UizbJYZU
     	Company Tags  		    : Amazon (many times), Meta
     	Leetcode Link 		    : https://leetcode.com/problems/partition-labels/
 */
