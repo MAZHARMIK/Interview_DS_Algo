@@ -7,6 +7,7 @@
 */
 
 /****************************************************** C++ ******************************************/
+//Approach - Recursively finding the best path
 //T.C : O(n)
 //S.C : O(n)
 class Solution {
@@ -47,6 +48,7 @@ public:
 
 
 /****************************************************** JAVA ******************************************/
+//Approach - Recursively finding the best path
 //T.C : O(n)
 //S.C : O(n)
 class Solution {
