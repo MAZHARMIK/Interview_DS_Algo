@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6UI_f7_epV0
     Company Tags                : 
     Leetcode Link               : https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct
 */
