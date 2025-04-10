@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=dDl_tmwd6HQ
     Company Tags                : 
     Leetcode Link               : https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k
 */
