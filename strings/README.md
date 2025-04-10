@@ -382,5 +382,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Construct%20Smallest%20Number%20From%20DI%20String.cpp"> Construct Smallest Number From DI String (Leetcode - 2375)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20the%20Number%20of%20Powerful%20Integers.cpp"> Count the Number of Powerful Integers (Leetcode - 2999)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
