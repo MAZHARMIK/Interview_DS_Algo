@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=4I1c9esy54s
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/find-the-count-of-good-integers
 */
