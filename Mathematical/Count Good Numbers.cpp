@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=rYLRgdj0n4s
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/count-good-numbers
     Binary Exponentiation Video : https://www.youtube.com/watch?v=D320QeHS0XQ
