@@ -229,5 +229,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Find%20the%20Count%20of%20Good%20Integers.cpp"> Find the Count of Good Integers (Leetcode - 3272)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Good%20Numbers.cpp"> Count Good Numbers (Leetcode - 1922)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
