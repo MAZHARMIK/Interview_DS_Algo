@@ -39,5 +39,10 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Find%20Building%20Where%20Alice%20and%20Bob%20Can%20Meet.cpp"> Find Building Where Alice and Bob Can Meet - (Leetcode - 2940) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Count%20Good%20Triplets%20in%20an%20Array.cpp"> Count Good Triplets in an Array. - (Leetcode - 2179) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
