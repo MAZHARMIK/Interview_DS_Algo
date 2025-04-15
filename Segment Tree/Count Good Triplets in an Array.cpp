@@ -13,7 +13,7 @@ class Solution {
 public:
     void updateSegmentTree(int i, int l, int r, int updateIndex, vector<long long>& segmentTree) {
         if (l == r) {
-            segmentTree[i] += 1;
+            segmentTree[i] = 1;
             return;
         }
 
@@ -81,7 +81,7 @@ import java.util.*;
 class Solution {
     public void updateSegmentTree(int i, int l, int r, int updateIndex, long[] segmentTree) {
         if (l == r) {
-            segmentTree[i] += 1;
+            segmentTree[i] = 1;
             return;
         }
 
