@@ -229,5 +229,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Longest%20Nice%20Subarray.cpp"> Longest Nice Subarray (Leetcode - 2401) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20the%20Number%20of%20Good%20Subarrays.cpp"> Count the Number of Good Subarrays (Leetcode - 2537) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
