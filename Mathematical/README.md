@@ -231,7 +231,7 @@
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Good%20Numbers.cpp"> Count Good Numbers (Leetcode - 1922)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20the%20Hidden%20Sequences.cpp"> Count the Hidden Sequences (Leetcode - 2145)</a>
 				</td>
 			</tr>
 		</tbody>
