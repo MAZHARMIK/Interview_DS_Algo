@@ -7,7 +7,7 @@
 
 /*********************************************************** C++ **************************************************/
 //Approach (Simulation)
-//T.C : O(n * d), d = average number of digits in all numbers
+//T.C : O(n * logn)
 //S.C : O(n)
 class Solution {
 public:
