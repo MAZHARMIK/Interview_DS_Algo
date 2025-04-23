@@ -99,10 +99,14 @@ public:
             maximum = max(maximum, current->val);
 
             if (current->val < maximum) {
-                prev->next = current->next;
-                ListNode* deleted = current;
-                current = current->next;
-                delete(deleted);
+                if (prev == NULL) {
+                    // we're deleting the head of the list
+                    head = current->next;
+                    current = head;
+                } else {
+                    prev->next = current->next;
+                    current = current->next;
+                }
             }
 
             else {
@@ -203,10 +207,14 @@ class Solution {
             maximum = Math.max(maximum, current.val);
 
             if (current.val < maximum) {
-                prev.next = current.next;
-                ListNode deleted = current;
-                current = current.next;
-                deleted.next = null;
+                if (prev == null) {
+                    // we're deleting the head of the list
+                    head = current.next;
+                    current = head;
+                } else {
+                    prev.next = current.next;
+                    current = current.next;
+                }
             }
 
             else {
