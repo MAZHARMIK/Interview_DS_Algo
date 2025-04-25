@@ -104,5 +104,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Maximum%20Absolute%20Sum%20of%20Any%20Subarray.cpp"> Maximum Absolute Sum of Any Subarray (Leetcode - 1749)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Count%20of%20Interesting%20Subarrays.cpp"> Count of Interesting Subarrays (Leetcode - 2845)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
