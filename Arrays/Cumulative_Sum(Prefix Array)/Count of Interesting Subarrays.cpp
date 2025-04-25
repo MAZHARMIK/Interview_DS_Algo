@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn    : 
+    MY YOUTUBE VIDEO ON THIS Qn    : https://www.youtube.com/watch?v=MTQWe8qHcz0
     Company Tags                   : Will update soon
     Leetcode Link                  : https://leetcode.com/problems/count-of-interesting-subarrays/description/
     Similar Problem Leetcode - 974 : https://www.youtube.com/watch?v=7Xeorb721LQ
