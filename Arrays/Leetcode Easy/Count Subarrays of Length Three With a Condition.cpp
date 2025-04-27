@@ -1,8 +1,8 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=EM97x6t8BM4
     Company Tags                : 
-    Leetcode Link               : 
+    Leetcode Link               : https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/
 */
 
 /*********************************************************** C++ **************************************************/
