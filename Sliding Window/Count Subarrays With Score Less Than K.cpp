@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=wxd3SWgzoKA
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/count-subarrays-with-score-less-than-k
 */
