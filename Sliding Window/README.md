@@ -239,5 +239,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Complete%20Subarrays%20in%20an%20Array.cpp"> Count Complete Subarrays in an Array (Leetcode - 2799) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Subarrays%20With%20Score%20Less%20Than%20K.cpp"> Count Subarrays With Score Less Than K (Leetcode - 2302) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
