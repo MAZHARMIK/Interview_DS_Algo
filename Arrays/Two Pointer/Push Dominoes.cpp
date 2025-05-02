@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Google
+    Company Tags  : Google, Microsoft
     Leetcode Link : https://leetcode.com/problems/push-dominoes/
 */
 
