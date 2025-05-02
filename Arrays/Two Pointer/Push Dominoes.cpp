@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-	MY YOUTUBE VIDEO ON THIS Qn : 
+	MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=HrUZKTzStII
     	Company Tags                : Google, Microsoft
     	Leetcode Link               : https://leetcode.com/problems/push-dominoes/
 */
