@@ -12,28 +12,38 @@
 //S.C : O(1)
 class Solution {
 public:
-    int find(vector<int>& A, vector<int>& B, int val) {
-        int ansA = 0;
-        int ansB = 0;
-        int n = A.size();
-        for(int i = 0; i<n; i++) {
-            if(A[i] != val && B[i] != val)
+
+    int find(vector<int>& tops, vector<int>& bottoms, int val) {
+        int n = tops.size();
+
+        int swapTop = 0;
+        int swapBottom = 0;
+
+        for(int i = 0; i < n; i++) {
+            if(tops[i] != val && bottoms[i] != val) {
                 return -1;
-            else if(A[i] != val)
-                ansA++; //swap A
-            else if(B[i] != val)
-                ansB++; //swap B
+            } else if(tops[i] != val) {
+                swapTop++;
+            } else if(bottoms[i] != val) {
+                swapBottom++;
+            }
         }
-        return min(ansA, ansB);
+
+        return min(swapTop, swapBottom);
     }
-    int minDominoRotations(vector<int>& A, vector<int>& B) {
-        int result = -1;
-        for(int i = 1; i<=6; i++) {
-            int ans = find(A, B, i);
-            if(ans != -1 && (result == -1 || result > ans))
-                result = ans;
+
+    int minDominoRotations(vector<int>& tops, vector<int>& bottoms) {
+        int result = INT_MAX;
+
+        for(int val = 1; val <= 6; val++) {
+            int swaps = find(tops, bottoms, val);
+
+            if(swaps != -1) {
+                result = min(result, swaps);
+            }
         }
-        return result;
+
+        return result == INT_MAX ? -1 : result;
     }
 };
 
@@ -44,30 +54,32 @@ public:
 //T.C : O(n)
 //S.C : O(1)
 class Solution {
-    private int find(int[] A, int[] B, int val) {
-        int ansA = 0;
-        int ansB = 0;
-        int n = A.length;
+    private int find(int[] tops, int[] bottoms, int val) {
+        int swapTop = 0;
+        int swapBottom = 0;
+        int n = tops.length;
         for (int i = 0; i < n; i++) {
-            if (A[i] != val && B[i] != val) {
+            if (tops[i] != val && bottoms[i] != val) {
                 return -1;
-            } else if (A[i] != val) {
-                ansA++; // swap A
-            } else if (B[i] != val) {
-                ansB++; // swap B
+            } else if (tops[i] != val) {
+                swapTop++; // swap top
+            } else if (bottoms[i] != val) {
+                swapBottom++; // swap bottom
             }
         }
-        return Math.min(ansA, ansB);
+        return Math.min(swapTop, swapBottom);
     }
 
-    public int minDominoRotations(int[] A, int[] B) {
-        int result = -1;
-        for (int i = 1; i <= 6; i++) {
-            int ans = find(A, B, i);
-            if (ans != -1 && (result == -1 || result > ans)) {
-                result = ans;
+    public int minDominoRotations(int[] tops, int[] bottoms) {
+        int result = Integer.MAX_VALUE;
+
+        for (int val = 1; val <= 6; val++) {
+            int swaps = find(tops, bottoms, val);
+            if (swaps != -1) {
+                result = Math.min(result, swaps);
             }
         }
-        return result;
+
+        return result == Integer.MAX_VALUE ? -1 : result;
     }
 }
