@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=fCB9ZZ-o2Sc
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=R4qAV4rjTc4
     Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
 */
