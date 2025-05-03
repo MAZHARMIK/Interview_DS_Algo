@@ -1,0 +1,73 @@
+/*     Scroll below to see JAVA code also    */
+/*
+    MY YOUTUBE VIDEO ON THIS Qn : 
+    Company Tags                : Google
+    Leetcode Link               : https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
+*/
+
+
+/************************************************************ C++ ************************************************/
+//Approach (Greedy)
+//T.C : O(n)
+//S.C : O(1)
+class Solution {
+public:
+    int find(vector<int>& A, vector<int>& B, int val) {
+        int ansA = 0;
+        int ansB = 0;
+        int n = A.size();
+        for(int i = 0; i<n; i++) {
+            if(A[i] != val && B[i] != val)
+                return -1;
+            else if(A[i] != val)
+                ansA++; //swap A
+            else if(B[i] != val)
+                ansB++; //swap B
+        }
+        return min(ansA, ansB);
+    }
+    int minDominoRotations(vector<int>& A, vector<int>& B) {
+        int result = -1;
+        for(int i = 1; i<=6; i++) {
+            int ans = find(A, B, i);
+            if(ans != -1 && (result == -1 || result > ans))
+                result = ans;
+        }
+        return result;
+    }
+};
+
+
+
+/************************************************************ JAVA ************************************************/
+//Approach (Greedy)
+//T.C : O(n)
+//S.C : O(1)
+class Solution {
+    private int find(int[] A, int[] B, int val) {
+        int ansA = 0;
+        int ansB = 0;
+        int n = A.length;
+        for (int i = 0; i < n; i++) {
+            if (A[i] != val && B[i] != val) {
+                return -1;
+            } else if (A[i] != val) {
+                ansA++; // swap A
+            } else if (B[i] != val) {
+                ansB++; // swap B
+            }
+        }
+        return Math.min(ansA, ansB);
+    }
+
+    public int minDominoRotations(int[] A, int[] B) {
+        int result = -1;
+        for (int i = 1; i <= 6; i++) {
+            int ans = find(A, B, i);
+            if (ans != -1 && (result == -1 || result > ans)) {
+                result = ans;
+            }
+        }
+        return result;
+    }
+}
