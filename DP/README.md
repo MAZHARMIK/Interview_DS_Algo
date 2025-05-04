@@ -715,5 +715,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Length%20of%20Longest%20Fibonacci%20Subsequence.cpp"> Length of Longest Fibonacci Subsequence (Leetcode - 873)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Merge%20Operations%20for%20Minimum%20Travel%20Time.cpp"> Merge Operations for Minimum Travel Time (Leetcode - 3538)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
