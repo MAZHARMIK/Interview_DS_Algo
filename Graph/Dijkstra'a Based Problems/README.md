@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Number%20of%20Ways%20to%20Arrive%20at%20Destination.cpp"> Number of Ways to Arrive at Destination (Leetcode - 1976)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Find%20Minimum%20Time%20to%20Reach%20Last%20Room%20I.cpp"> Find Minimum Time to Reach Last Room I (Leetcode - 3341)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
