@@ -38,5 +38,10 @@
                 <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Palindrome%20Partitioning%20II.cpp"> Palindrome Partitioning II (Leetcode-132) </a>
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Count%20Number%20of%20Balanced%20Permutations.cpp"> Count Number of Balanced Permutations (Leetcode - 3343) </a>
+            </td>
+        </tr>
     </tbody>
 </table>
