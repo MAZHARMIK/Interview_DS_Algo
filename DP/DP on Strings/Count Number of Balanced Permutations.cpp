@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS QN : 
+    MY YOUTUBE VIDEO ON THIS QN : https://www.youtube.com/watch?v=_9YlLoFT8JQ
     Company Tags                : 
     Leetcode Link               : https://leetcode.com/problems/count-number-of-balanced-permutations
 */
