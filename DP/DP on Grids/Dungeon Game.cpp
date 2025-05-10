@@ -39,7 +39,9 @@ public:
         m = dungeon.size();
         n = dungeon[0].size();
 
-        int left = 1, right = 1e9, result = right;
+        int left = 1;
+        int right = 4 * 1e7;
+        int result = right;
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
@@ -174,7 +176,8 @@ class Solution {
         m = dungeon.length;
         n = dungeon[0].length;
 
-        int left = 1, right = (int)1e9, result = right;
+        int left = 1, right = 4*(int)1e7;
+        int result = right;
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
