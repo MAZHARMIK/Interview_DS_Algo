@@ -112,28 +112,19 @@ public:
         vector<vector<int>> t(m, vector<int>(n, 0));
         //t[i][j] = min health needed to reach (m-1, n-1) from (i,j)
 
-        // base case
-        t[m-1][n-1] = (dungeon[m-1][n-1] > 0 ? 1 : abs(dungeon[m-1][n-1]) + 1);
-
-        // Fill the last row (can only come from the right)
-        for (int j = n - 2; j >= 0; --j) {
-            t[m-1][j] = max(1, t[m-1][j+1] - dungeon[m-1][j]);
-        }
-
-        // Fill the last column (can only come from below)
-        for (int i = m - 2; i >= 0; --i) {
-            t[i][n-1] = max(1, t[i+1][n-1] - dungeon[i][n-1]);
-        }
-
         // Fill the rest of the DP table
-        for (int i = m - 2; i >= 0; --i) {
-            for (int j = n - 2; j >= 0; --j) {
-                int down = t[i+1][j];  // Health needed if moving down
-                int right = t[i][j+1]; // Health needed if moving right
-                int res = min(down, right) - dungeon[i][j];  // Calculate the required health
+        for (int i = m - 1; i >= 0; --i) {
+            for (int j = n - 1; j >= 0; --j) {
+                if(i == m-1 && j == n-1) {
+                    t[i][j] = (dungeon[m-1][n-1] > 0 ? 1 : abs(dungeon[m-1][n-1]) + 1);
+                } else {
+                    int down  = (i+1 >= m) ? 1e9 : t[i+1][j];  // Health needed if moving down
+                    int right = (j+1 >= n) ? 1e9 : t[i][j+1]; // Health needed if moving right
+                    int res = min(down, right) - dungeon[i][j];  // Calculate the required health
 
-                // If the result is <= 0, we need at least 1 health
-                t[i][j] = (res > 0 ? res : 1);
+                    // If the result is <= 0, we need at least 1 health
+                    t[i][j] = (res > 0 ? res : 1);
+                }
             }
         }
 
@@ -141,7 +132,6 @@ public:
         return t[0][0];
     }
 };
-
 
 /************************************************************ C++ ************************************************************/
 //Approach-1 - Brute Force (Binary Search on Answer) and also memoizing it - TLE
@@ -249,28 +239,19 @@ class Solution {
         int[][] t = new int[m][n];
         //t[i][j] = min health needed to reach (m-1, n-1) from (i,j)
 
-        // base case
-        t[m-1][n-1] = (dungeon[m-1][n-1] > 0 ? 1 : Math.abs(dungeon[m-1][n-1]) + 1);
-
-        // Fill the last row (can only come from the right)
-        for (int j = n - 2; j >= 0; --j) {
-            t[m-1][j] = Math.max(1, t[m-1][j+1] - dungeon[m-1][j]);
-        }
-
-        // Fill the last column (can only come from below)
-        for (int i = m - 2; i >= 0; --i) {
-            t[i][n-1] = Math.max(1, t[i+1][n-1] - dungeon[i][n-1]);
-        }
-
         // Fill the rest of the DP table
-        for (int i = m - 2; i >= 0; --i) {
-            for (int j = n - 2; j >= 0; --j) {
-                int down = t[i+1][j];  // Health needed if moving down
-                int right = t[i][j+1]; // Health needed if moving right
-                int res = Math.min(down, right) - dungeon[i][j];  // Calculate the required health
+        for (int i = m - 1; i >= 0; --i) {
+            for (int j = n - 1; j >= 0; --j) {
+                if (i == m - 1 && j == n - 1) {
+                    t[i][j] = (dungeon[m - 1][n - 1] > 0 ? 1 : Math.abs(dungeon[m - 1][n - 1]) + 1);
+                } else {
+                    int down = (i + 1 >= m) ? (int)1e9 : t[i + 1][j];  // Health needed if moving down
+                    int right = (j + 1 >= n) ? (int)1e9 : t[i][j + 1]; // Health needed if moving right
+                    int res = Math.min(down, right) - dungeon[i][j];  // Calculate the required health
 
-                // If the result is <= 0, we need at least 1 health
-                t[i][j] = (res > 0 ? res : 1);
+                    // If the result is <= 0, we need at least 1 health
+                    t[i][j] = (res > 0 ? res : 1);
+                }
             }
         }
 
