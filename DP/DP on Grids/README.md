@@ -29,5 +29,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Maximum%20Non%20Negative%20Product%20in%20a%20Matrix.cpp"> Maximum Non Negative Product in a Matrix (Leetcode - 1594)</a>
 				</td>
 			</tr>
+			<tr>
+         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Dungeon%20Game.cpp"> Dungeon Game (Leetcode - 174)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
