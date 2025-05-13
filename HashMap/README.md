@@ -164,5 +164,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Rabbits%20in%20Forest.cpp"> Rabbits in Forest (Leetcode - 781)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Total%20Characters%20in%20String%20After%20Transformations%20I.cpp"> Total Characters in String After Transformations I (Leetcode - 3335)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
