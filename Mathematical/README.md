@@ -244,5 +244,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Matrix%20Exponentiation.cpp"> Matrix Exponentiation </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Total%20Characters%20in%20String%20After%20Transformations%20II.cpp"> Total Characters in String After Transformations II (Leetcode - 3337) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
