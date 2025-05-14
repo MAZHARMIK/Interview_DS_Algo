@@ -239,5 +239,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20the%20Number%20of%20Ideal%20Arrays.cpp"> Count the Number of Ideal Arrays (Leetcode - 2338)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Matrix%20Exponentiation.cpp"> Matrix Exponentiation </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
