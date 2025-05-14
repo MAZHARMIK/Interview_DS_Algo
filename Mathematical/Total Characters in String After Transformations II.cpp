@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn                : 
+    MY YOUTUBE VIDEO ON THIS Qn                : https://www.youtube.com/watch?v=MGu9Zr5RFtg
     Prerequisite Video (Matrix Exponentiation) : https://www.youtube.com/watch?v=gX8KaRlkoN0
     Company Tags                               : will soon update
     Leetcode Link                              : https://leetcode.com/problems/total-characters-in-string-after-transformations-ii
