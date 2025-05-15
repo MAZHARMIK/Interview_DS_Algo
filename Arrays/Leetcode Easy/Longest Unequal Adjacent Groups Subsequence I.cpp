@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6zb5qH4oNSY
     Company Tags                : 
     Leetcode Link               : https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i
 */
