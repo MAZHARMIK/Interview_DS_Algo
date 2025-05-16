@@ -3,6 +3,8 @@
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=geXrFFZXQTc
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii/
+    Leetcode 2900 Video Link    : https://www.youtube.com/watch?v=6zb5qH4oNSY
+    LIS Printing Pattern Video  : https://youtu.be/rYuLUjRSTeo?si=Dm--R2jBXZmM8WtZ
 */
 
 
