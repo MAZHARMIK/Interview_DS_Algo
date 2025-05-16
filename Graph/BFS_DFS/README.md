@@ -114,5 +114,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Minimize%20the%20Maximum%20Edge%20Weight%20of%20Graph.cpp"> Minimize the Maximum Edge Weight of Graph (Leetcode - 3419)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Most%20Profitable%20Path%20in%20a%20Tree.cpp"> Most Profitable Path in a Tree (Leetcode - 2467)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

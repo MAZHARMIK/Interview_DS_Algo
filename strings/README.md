@@ -377,5 +377,15 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Length%20of%20String%20After%20Operations.cpp"> Minimum Length of String After Operations (Leetcode - 3223)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Construct%20Smallest%20Number%20From%20DI%20String.cpp"> Construct Smallest Number From DI String (Leetcode - 2375)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20the%20Number%20of%20Powerful%20Integers.cpp"> Count the Number of Powerful Integers (Leetcode - 2999)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

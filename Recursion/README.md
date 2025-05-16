@@ -1,4 +1,4 @@
-<a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icon.png" align="right" /><a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_orange_ff7600.png?resize=149%2C149" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.programiz.com%2Fsites%2Ftutorial2program%2Ffiles%2Fc-recursion_0.jpg&f=1&nofb=1&ipt=7ad9d2769681a49bc0c495cec0fe995807f71e28335abd320f3662a90f2e2d1e&ipo=images" width="600" height="250">
 
 # Recursion : :triangular_flag_on_post:
@@ -122,6 +122,11 @@
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Find%20Kth%20Bit%20in%20Nth%20Binary%20String.cpp"> Find Kth Bit in Nth Binary String (Leetcode - 1545)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Find%20the%20Punishment%20Number%20of%20an%20Integer.cpp"> Find the Punishment Number of an Integer (Leetcode - 2698)</a>
 				</td>
 			</tr>
 		</tbody>

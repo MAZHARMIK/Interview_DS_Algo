@@ -159,5 +159,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20a%20Stack%20With%20Increment%20Operation.cpp"> Design a Stack With Increment Operation (Leetcode - 1381)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20a%20Number%20Container%20System.cpp"> Design a Number Container System (Leetcode - 2349)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

@@ -2,7 +2,7 @@
     Company Tags  : Google, Phonepay, Directi
     Leetcode Link : https://leetcode.com/problems/count-of-smaller-numbers-after-self/
     
-    //Fenwick Tree (BIT tree) approach will be in Fenwick Tree section. I will add that soon after getting hands on it :-)
+    //Fenwick Tree (BIT tree) approach will be in Fenwick Tree section. I will add that soon.
 */
 
 //Approach : Using the concept of Merge Sort. Small tweak and you are done. Time : O(nlogn)

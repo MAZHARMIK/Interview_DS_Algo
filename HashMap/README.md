@@ -144,5 +144,30 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Check%20If%20Array%20Pairs%20Are%20Divisible%20by%20k.cpp">  Check If Array Pairs Are Divisible by k (Leetcode - 1497)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Find%20the%20Number%20of%20Distinct%20Colors%20Among%20the%20Balls.cpp"> Find the Number of Distinct Colors Among the Balls (Leetcode - 3160)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20Number%20of%20Bad%20Pairs.cpp"> Count Number of Bad Pairs (Leetcode - 2364)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Minimum%20Index%20of%20a%20Valid%20Split.cpp"> Minimum Index of a Valid Split (Leetcode - 2780)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Rabbits%20in%20Forest.cpp"> Rabbits in Forest (Leetcode - 781)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Total%20Characters%20in%20String%20After%20Transformations%20I.cpp"> Total Characters in String After Transformations I (Leetcode - 3335)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

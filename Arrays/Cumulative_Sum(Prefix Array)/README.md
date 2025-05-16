@@ -1,4 +1,5 @@
-🚩🚩<a href="https://github.com/MAZHARMIK">Fork me on Github</a>🚩🚩
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icon.png" align="right" /><a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_orange_ff7600.png?resize=149%2C149" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Cumulative%20Sum%20Array.jpg" width="600" height="250">
 
 # Arrays/Cumulative_Sum(Prefix Array) : :triangular_flag_on_post:
 
@@ -91,6 +92,21 @@
 			<tr>
           			  <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Grid%20Game.cpp"> Grid Game (Leetcode - 2017)</a>
+				  </td>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Number%20of%20Sub-arrays%20With%20Odd%20Sum.cpp"> Number of Sub-arrays With Odd Sum (Leetcode - 1524)</a>
+				  </td>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Maximum%20Absolute%20Sum%20of%20Any%20Subarray.cpp"> Maximum Absolute Sum of Any Subarray (Leetcode - 1749)</a>
+				  </td>
+      			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Count%20of%20Interesting%20Subarrays.cpp"> Count of Interesting Subarrays (Leetcode - 2845)</a>
 				  </td>
       			</tr>
 		</tbody>

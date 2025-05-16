@@ -201,5 +201,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid.cpp"> Check if a Parentheses String Can Be Valid (Leetcode - 2116)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Remove%20All%20Occurrences%20of%20a%20Substring.cpp"> Remove All Occurrences of a Substring (Leetcode - 1910)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

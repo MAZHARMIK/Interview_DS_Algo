@@ -199,5 +199,55 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Sum%20of%20Square%20Numbers.cpp"> Sum of Square Numbers (Leetcode - 633)</a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Check%20if%20Number%20is%20a%20Sum%20of%20Powers%20of%20Three.cpp"> Check if Number is a Sum of Powers of Three (Leetcode - 1780)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Total%20Number%20of%20Colored%20Cells.cpp"> Count Total Number of Colored Cells (Leetcode - 2579)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Closest%20Prime%20Numbers%20in%20Range.cpp"> Closest Prime Numbers in Range (Leetcode - 2523)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.cpp"> Minimum Operations to Make a Uni-Value Grid (Leetcode - 2033)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Apply%20Operations%20to%20Maximize%20Score.cpp"> Apply Operations to Maximize Score (Leetcode - 2818)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Find%20the%20Count%20of%20Good%20Integers.cpp"> Find the Count of Good Integers (Leetcode - 3272)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20the%20Hidden%20Sequences.cpp"> Count the Hidden Sequences (Leetcode - 2145)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20the%20Number%20of%20Ideal%20Arrays.cpp"> Count the Number of Ideal Arrays (Leetcode - 2338)</a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Matrix%20Exponentiation.cpp"> Matrix Exponentiation </a>
+				</td>
+			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Total%20Characters%20in%20String%20After%20Transformations%20II.cpp"> Total Characters in String After Transformations II (Leetcode - 3337) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>

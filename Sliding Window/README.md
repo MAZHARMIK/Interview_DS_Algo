@@ -209,5 +209,40 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Continuous%20Subarrays.cpp"> Continuous Subarrays (Leetcode - 2762) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/edit/master/Sliding%20Window/Alternating%20Groups%20II.cpp"> Alternating Groups II (Leetcode - 3208) </a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20of%20Substrings%20Containing%20Every%20Vowel%20and%20K%20Consonants%20II.cpp"> Count of Substrings Containing Every Vowel and K Consonants II (Leetcode - 3306) </a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Number%20of%20Substrings%20Containing%20All%20Three%20Characters.cpp"> Number of Substrings Containing All Three Characters (Leetcode - 1358) </a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Longest%20Nice%20Subarray.cpp"> Longest Nice Subarray (Leetcode - 2401) </a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20the%20Number%20of%20Good%20Subarrays.cpp"> Count the Number of Good Subarrays (Leetcode - 2537) </a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Complete%20Subarrays%20in%20an%20Array.cpp"> Count Complete Subarrays in an Array (Leetcode - 2799) </a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Subarrays%20With%20Score%20Less%20Than%20K.cpp"> Count Subarrays With Score Less Than K (Leetcode - 2302) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>

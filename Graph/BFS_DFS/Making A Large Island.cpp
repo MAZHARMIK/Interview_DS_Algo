@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code as well        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=iCAC-QrQ-4A
     Company Tags                : Google, Uber
     Leetcode Link               : https://leetcode.com/problems/making-a-large-island/
 */
@@ -64,8 +64,67 @@ public:
     }
 };
 
+//Approach - 2 - Better Brute Force DFS (you can do BFS as well)
+//T.C : O(n^4)
+//S.C : O(n^2)
+class Solution {
+public:
+    int m, n;
+    vector<vector<int>> directions{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
-//Approach - 2 - Using DFS (You can use BFS as well)
+    int DFS(vector<vector<int>>& grid, int i, int j, vector<vector<bool>>& visited) {
+        if(i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == 0 || visited[i][j])
+            return 0;
+
+        visited[i][j] = true;
+        int count = 1;
+
+        for(vector<int>& dir : directions) {
+            count += DFS(grid, i + dir[0], j + dir[1], visited);
+        }
+
+        return count;
+    }
+
+    int findLargestIsland(vector<vector<int>>& grid) {
+        m = grid.size();
+        n = grid[0].size();
+        int maxArea = 0;
+        vector<vector<bool>> visited(m, vector<bool>(n, false));
+
+        for(int i = 0; i<m; i++) {
+            for(int j = 0; j<n; j++) {
+                if(grid[i][j] == 1 && !visited[i][j]) {
+                    int size = DFS(grid, i, j, visited);
+                    maxArea = max(maxArea, size);
+                }
+            }
+        }
+
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j] == 0) {  // Try converting each 0 to 1
+                    grid[i][j] = 1;
+                    
+                    visited = vector<vector<bool>>(n, vector<bool>(n, false));
+                    int size = DFS(grid, i, j, visited);
+                    
+                    maxArea = max(maxArea, size);
+                    grid[i][j] = 0; // Backtrack
+                }
+            }
+        }
+        
+        return (maxArea == 0) ? m * n : maxArea; // If the grid was full of 1s
+    }
+
+    int largestIsland(vector<vector<int>>& grid) {
+        return findLargestIsland(grid);
+    }
+};
+
+
+//Approach - 3  - Optimal DFS (You can use BFS as well)
 //T.C : O(m*n)
 //S.C : O(m*n)
 class Solution {
@@ -132,7 +191,7 @@ public:
 };
 
 
-//Approach-3 (Using DSU)
+//Approach-4 (Using DSU)
 //T.C : O(m*n * alpha(m*n))
 //S.C : O(m*n)
 class DSU {
@@ -291,8 +350,62 @@ class Solution {
     }
 }
 
+//Approach - 2 - Better Brute Force DFS (you can do BFS as well)
+//T.C : O(n^4)
+//S.C : O(n^2)
+class Solution {
+    private int n;
+    private final int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
-//Approach-2 (Using DFS) - You can use BFS as well
+    public int largestIsland(int[][] grid) {
+        n = grid.length;
+        int maxArea = 0;
+
+        // Try changing each '0' to '1' and compute the largest island
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == 0) {
+                    grid[i][j] = 1; // Change 0 to 1
+
+                    boolean[][] visited = new boolean[n][n];
+                    int largest = 0;
+
+                    // Compute the largest island from scratch
+                    for (int x = 0; x < n; x++) {
+                        for (int y = 0; y < n; y++) {
+                            if (grid[x][y] == 1 && !visited[x][y]) {
+                                largest = Math.max(largest, dfs(grid, x, y, visited));
+                            }
+                        }
+                    }
+
+                    maxArea = Math.max(maxArea, largest);
+                    grid[i][j] = 0; // Backtrack
+                }
+            }
+        }
+
+        return (maxArea == 0) ? n * n : maxArea; // If grid was full of 1s
+    }
+
+    private int dfs(int[][] grid, int i, int j, boolean[][] visited) {
+        if (i < 0 || i >= n || j < 0 || j >= n || grid[i][j] == 0 || visited[i][j]) {
+            return 0;
+        }
+
+        visited[i][j] = true;
+        int count = 1;
+
+        for (int[] dir : directions) {
+            count += dfs(grid, i + dir[0], j + dir[1], visited);
+        }
+
+        return count;
+    }
+}
+
+
+//Approach - 3  - Optimal DFS (You can use BFS as well)
 //T.C : O(m*n)
 //S.C : O(m*n)
 class Solution {
@@ -361,7 +474,7 @@ class Solution {
 
 
 
-//Approach-3 (Using DSU)
+//Approach-4 (Using DSU)
 //T.C : O(m*n * alpha(m*n))
 //S.C : O(m*n)
 class DSU {
