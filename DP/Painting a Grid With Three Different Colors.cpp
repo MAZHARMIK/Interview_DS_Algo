@@ -18,18 +18,18 @@ public:
 
     // Recursively generate all valid column colorings of height 'rows'
     // such that no two vertically adjacent cells have the same color
-    void generateColumnStates(string currentColumn, int rowsRemaining, int prevColor) {
+    void generateColumnStates(string currentColumn, int rowsRemaining, char prevColor) {
         if (rowsRemaining == 0) {
             columnStates.push_back(currentColumn);
             return;
         }
 
-        //Treating 1 = Red, 2 = Green, 3 = Blue
-        for (int color = 1; color <= 3; color++) {
+        // Colors: 'R' = Red, 'G' = Green, 'B' = Blue
+        for (char color : {'R', 'G', 'B'}) {
             if (color == prevColor) 
                 continue;  // adjacent vertical cells must be different
 
-            generateColumnStates(currentColumn + to_string(color), rowsRemaining - 1, color);
+            generateColumnStates(currentColumn + color, rowsRemaining - 1, color);
         }
     }
 
@@ -64,7 +64,7 @@ public:
 
     int colorTheGrid(int m, int n) {
         columnStates.clear();
-        generateColumnStates("", m, -1);
+        generateColumnStates("", m, '#');  // '#' indicates no previous color
 
         int numColumnPatterns = columnStates.size();
         t.assign(n, vector<int>(numColumnPatterns, -1));
@@ -80,25 +80,28 @@ public:
 
 
 
+
 /**************************************************************** JAVA ****************************************************************/
 //Approach (Recursion + Memoization)
 //T.C : O(n * S * S * m), where S = total states i.e. 3 * 2^m-1
 //S.C : O((n * S) + (S * m)) where n * S is because of memoization array t, and S * m is for storing columnStates
+import java.util.*;
+
 public class Solution {
     private List<String> columnStates = new ArrayList<>();
     private int[][] t;
     private final int MOD = 1_000_000_007;
 
-    // Recursively generate all valid column colorings of height 'rows'
+    // Recursively generate all valid column colorings of height 'm'
     // such that no two vertically adjacent cells have the same color
-    private void generateColumnStates(String currentColumn, int rowsRemaining, int prevColor) {
+    private void generateColumnStates(String currentColumn, int rowsRemaining, char prevColor) {
         if (rowsRemaining == 0) {
             columnStates.add(currentColumn);
             return;
         }
 
-        // Treating 1 = Red, 2 = Green, 3 = Blue
-        for (int color = 1; color <= 3; color++) {
+        // Colors: 'R' = Red, 'G' = Green, 'B' = Blue
+        for (char color : new char[]{'R', 'G', 'B'}) {
             if (color == prevColor) continue;
             generateColumnStates(currentColumn + color, rowsRemaining - 1, color);
         }
@@ -115,7 +118,7 @@ public class Solution {
             String nextColumn = columnStates.get(nextColumnIdx);
             boolean valid = true;
 
-            // Check horizontal adjacency (no adjacent same color in same row)
+            // Check horizontal adjacency (no same color in same row across adjacent columns)
             for (int r = 0; r < m; r++) {
                 if (prevColumn.charAt(r) == nextColumn.charAt(r)) {
                     valid = false;
@@ -133,7 +136,7 @@ public class Solution {
 
     public int colorTheGrid(int m, int n) {
         columnStates.clear();
-        generateColumnStates("", m, -1);
+        generateColumnStates("", m, '#'); // '#' denotes no previous color
 
         int numColumnPatterns = columnStates.size();
         t = new int[n][numColumnPatterns];
