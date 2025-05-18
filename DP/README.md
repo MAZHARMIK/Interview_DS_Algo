@@ -720,5 +720,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Merge%20Operations%20for%20Minimum%20Travel%20Time.cpp"> Merge Operations for Minimum Travel Time (Leetcode - 3538)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Painting%20a%20Grid%20With%20Three%20Different%20Colors.cpp"> Painting a Grid With Three Different Colors (Leetcode - 1931)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
