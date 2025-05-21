@@ -1,8 +1,8 @@
 /*	Scroll below to see JAVA code as well		*/
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 	
-    Company Tags  		: Microsoft, Amazon
-    Leetcode Link 		: https://leetcode.com/problems/set-matrix-zeroes/
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=A0_hEzQFP9U
+    Company Tags  		        : Microsoft, Amazon
+    Leetcode Link 		        : https://leetcode.com/problems/set-matrix-zeroes/
 */
 
 
