@@ -1,94 +1,247 @@
+/*	Scroll below to see JAVA code as well		*/
 /*
-    Company Tags  : Microsoft, Amazon
-    Leetcode Link : https://leetcode.com/problems/set-matrix-zeroes/
+    MY YOUTUBE VIDEO ON THIS Qn : 	
+    Company Tags  		: Microsoft, Amazon
+    Leetcode Link 		: https://leetcode.com/problems/set-matrix-zeroes/
 */
 
-//Approch-1 (The first solution that comes to our mind)
+
+/************************************************************************ C++ ************************************************************************/
+//Approch-1 (Using extra space of m*n)
+//T.C : O(m*n*(m+n))
+//S.C : O(m*n)
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
         int m = matrix.size();
         int n = matrix[0].size();
-        vector<vector<int>> t(m, vector<int>(n, 0));
-        unordered_set<pair<int, int>> st;
-        
-        for(int i = 0; i<m; i++) {
-            for(int j = 0; j<n; j++) {
-                if(matrix[i][j] == 0)
-                    st.insert({i, j});
+
+        vector<vector<int>> temp = matrix;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 0) {
+                    for (int k = 0; k < n; k++) {
+                        temp[i][k] = 0;  // zero out the entire row
+                    }
+                    for (int k = 0; k < m; k++) {
+                        temp[k][j] = 0;  // zero out the entire column
+                    }
+                }
             }
         }
-        
-        for(const pair<int, int>& p : st) {
-            int row = p.first;
-            int col = p.second;
-            
-            int c = 0;
-            while(c < n) {
-                matrix[row][c] = 0;
-                c++;
-            }
-            int r = 0;
-            while(r < m) {
-                matrix[r][col] = 0;
-                r++;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                matrix[i][j] = temp[i][j];
             }
         }
     }
 };
 
-//Approach-2 (Read below)
-/*
-a) If you see a 0 at [i][j] then make [0][j] = 0 and [i][0] = 0
-They will act as a flag that the corresponding row and column are meant to be 0s
 
-However, note one thing we need to be careful at one point. We need to handle column0
-carefully. Why ?????
+//Approch-2 (Using m+n extra space)
+//T.C : O(m*n)
+//S.C : O(m+n)
+class Solution {
+public:
+    void setZeroes(vector<vector<int>>& matrix) {
+        int m = matrix.size();        // number of rows
+        int n = matrix[0].size();     // number of columns
 
-You are here n the DISCUSS section to learn. So, let's start with not handling the 0th column 
-specially and do (a) mentioned above blindly. Submit it and check what's error you are getting.
-It will fail in test cases like :
+        vector<bool> row(m, false);
+        vector<bool> col(n, false);
 
-    Why did we handled column 0 like above ?
-    Because if we don't do so, your code will fail for cases like this below : 
-	(Do a dry run to see for yourself)
-    [[1,2,3,4],[5,0,7,8],[0,10,11,12],[13,14,15,0]]
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(matrix[i][j] == 0){
+                    row[i] = true; //mark it for zero
+                    col[j] = true; //mark it for zero
+                }
+            }
+        }
 
-*/
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(row[i] || col[j]){
+                    matrix[i][j] = 0;
+                }
+            }
+        }
+    }
+};
 
+
+//Approach-3 (In place constant space)
+//T.C : O(m*n)
+//S.C : O(1)
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
         int m = matrix.size();
         int n = matrix[0].size();
-        
-        bool col0_zero = false;
-        
-        for(int i = 0; i<m; i++) {
-            if(matrix[i][0] == 0) col0_zero = true;
-            
-            for(int j = 1; j<n; j++) {
+        bool firstRowZero = false;
+        bool firstColZero = false;
+
+        // Check first row and col separately
+        for(int i = 0; i < m; i++) {
+            if(matrix[i][0] == 0) 
+                firstColZero = true;
+        }
+
+        for(int j = 0; j < n; j++) {
+            if(matrix[0][j] == 0) 
+                firstRowZero = true;
+        }
+
+        for(int i = 1; i < m; i++) {
+            for(int j = 1; j < n; j++) {
                 if(matrix[i][j] == 0) {
                     matrix[i][0] = 0;
                     matrix[0][j] = 0;
                 }
             }
         }
-        
-		//Also, why I had to traverse from bottom right to top ?
-		//Do the same thing here, traverse from top right instead and submit
-		//and you will yourself find the error in some test case after dry run.
-		//That's how I came to this solution. This is the best way to understand an approach.
-		//Don't memorise. Try and then understand and learn from your mistakes.
-        for(int i = m-1; i>=0; i--) {
-            for(int j = n-1; j>=1; j--) {
+
+
+        for(int i = 1; i < m; i++) {
+            for(int j = 1; j < n; j++) {
                 if(matrix[i][0] == 0 || matrix[0][j] == 0) {
                     matrix[i][j] = 0;
                 }
             }
-            if(col0_zero)
+        }
+
+        if(firstRowZero) {
+            for(int j = 0; j < n; j++) 
+                matrix[0][j] = 0;
+        }
+        if(firstColZero) {
+            for(int i = 0; i < m; i++) 
                 matrix[i][0] = 0;
         }
-                
     }
 };
+
+
+
+/************************************************************************ Java ************************************************************************/
+//Approch-1 (Using extra space of m*n)
+//T.C : O(m*n*(m+n))
+//S.C : O(m*n)
+class Solution {
+    public void setZeroes(int[][] matrix) {
+        int m = matrix.length;
+        int n = matrix[0].length;
+
+        int[][] temp = new int[m][n];
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                temp[i][j] = matrix[i][j];
+            }
+        }
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 0) {
+                    for (int k = 0; k < n; k++) {
+                        temp[i][k] = 0;  // zero out the entire row
+                    }
+                    for (int k = 0; k < m; k++) {
+                        temp[k][j] = 0;  // zero out the entire column
+                    }
+                }
+            }
+        }
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                matrix[i][j] = temp[i][j];
+            }
+        }
+    }
+}
+
+
+//Approch-2 (Using m+n extra space)
+//T.C : O(m*n)
+//S.C : O(m+n)
+class Solution {
+    public void setZeroes(int[][] matrix) {
+        int m = matrix.length;        // number of rows
+        int n = matrix[0].length;     // number of columns
+
+        boolean[] row = new boolean[m];
+        boolean[] col = new boolean[n];
+
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(matrix[i][j] == 0){
+                    row[i] = true; //mark it for zero
+                    col[j] = true; //mark it for zero
+                }
+            }
+        }
+
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(row[i] || col[j]){
+                    matrix[i][j] = 0;
+                }
+            }
+        }
+    }
+}
+
+
+//Approach-3 (In place constant space)
+//T.C : O(m*n)
+//S.C : O(1)
+class Solution {
+    public void setZeroes(int[][] matrix) {
+        int m = matrix.length;
+        int n = matrix[0].length;
+        boolean firstRowZero = false;
+        boolean firstColZero = false;
+
+        // Check first column separately
+        for(int i = 0; i < m; i++) {
+            if(matrix[i][0] == 0) 
+                firstColZero = true;
+        }
+
+        // Check first row separately
+        for(int j = 0; j < n; j++) {
+            if(matrix[0][j] == 0) 
+                firstRowZero = true;
+        }
+
+        for(int i = 1; i < m; i++) {
+            for(int j = 1; j < n; j++) {
+                if(matrix[i][j] == 0) {
+                    matrix[i][0] = 0;
+                    matrix[0][j] = 0;
+                }
+            }
+        }
+
+        for(int i = 1; i < m; i++) {
+            for(int j = 1; j < n; j++) {
+                if(matrix[i][0] == 0 || matrix[0][j] == 0) {
+                    matrix[i][j] = 0;
+                }
+            }
+        }
+
+        if(firstRowZero) {
+            for(int j = 0; j < n; j++) 
+                matrix[0][j] = 0;
+        }
+
+        if(firstColZero) {
+            for(int i = 0; i < m; i++) 
+                matrix[i][0] = 0;
+        }
+    }
+}
