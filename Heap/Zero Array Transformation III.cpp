@@ -63,8 +63,6 @@ public:
 //Approach (Using heaps)
 //T.C : O(QlogQ + n * QlogQ)
 //S.C : O(Q)
-import java.util.*;
-
 class Solution {
     public int maxRemoval(int[] nums, int[][] queries) {
         int n = nums.length;
