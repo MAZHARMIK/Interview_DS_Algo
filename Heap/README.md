@@ -204,5 +204,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Choose%20K%20Elements%20With%20Maximum%20Sum.cpp"> Choose K Elements With Maximum Sum (Leetcode - 3478)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Zero%20Array%20Transformation%20III.cpp"> Zero Array Transformation III (Leetcode - 3362)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
