@@ -249,5 +249,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Total%20Characters%20in%20String%20After%20Transformations%20II.cpp"> Total Characters in String After Transformations II (Leetcode - 3337) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Divisible%20and%20Non-divisible%20Sums%20Difference.cpp"> Divisible and Non-divisible Sums Difference (Leetcode - 2894) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
