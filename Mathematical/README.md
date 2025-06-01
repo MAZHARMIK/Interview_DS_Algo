@@ -254,5 +254,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Divisible%20and%20Non-divisible%20Sums%20Difference.cpp"> Divisible and Non-divisible Sums Difference (Leetcode - 2894) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Distribute%20Candies%20Among%20Children%20II.cpp"> Distribute Candies Among Children II (Leetcode - 2929) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
