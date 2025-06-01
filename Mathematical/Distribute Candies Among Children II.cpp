@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn                : 
+    MY YOUTUBE VIDEO ON THIS Qn                : https://www.youtube.com/watch?v=eL_3cDp0zjE
     Company Tags                               : will soon update
     Leetcode Link                              : https://leetcode.com/problems/distribute-candies-among-children-ii
     
