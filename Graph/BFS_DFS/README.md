@@ -124,5 +124,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Maximize%20the%20Number%20of%20Target%20Nodes%20After%20Connecting%20Trees%20I.cpp"> Maximize the Number of Target Nodes After Connecting Trees I (Leetcode - 3372)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Maximum%20Candies%20You%20Can%20Get%20from%20Boxes.cpp"> Maximum Candies You Can Get from Boxes (Leetcode - 1298)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
