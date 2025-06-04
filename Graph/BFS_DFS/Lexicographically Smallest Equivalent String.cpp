@@ -2,7 +2,7 @@
     MY YOUTUBE VIDEO ON THIS Qn : DFS - https://www.youtube.com/watch?v=DsAIuJmiT1c
                                   BFS - <soon>
                                   DSU - <soon>
-    Company Tags                : <soon>
+    Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
 */
 
