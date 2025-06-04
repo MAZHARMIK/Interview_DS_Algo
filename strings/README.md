@@ -387,5 +387,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20the%20Number%20of%20Powerful%20Integers.cpp"> Count the Number of Powerful Integers (Leetcode - 2999)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20the%20Lexicographically%20Largest%20String%20From%20the%20Box%20I.cpp"> Find the Lexicographically Largest String From the Box I (Leetcode - 3403)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
