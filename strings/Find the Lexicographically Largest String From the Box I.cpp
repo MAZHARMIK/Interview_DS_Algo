@@ -34,7 +34,7 @@ public:
 
 
 //Approach-2 (2 Pointer)
-//T.C : O(n)
+//T.C : It can also go to O(n^2) in worst case
 //S.C : O(1)
 class Solution {
 public:
@@ -106,7 +106,7 @@ class Solution {
 
 
 //Approach-2 (2 Pointer) - Coming soon
-//T.C : O(n)
+//T.C : It can also go to O(n^2) in worst case
 //S.C : O(1)
 public class Solution {
 
