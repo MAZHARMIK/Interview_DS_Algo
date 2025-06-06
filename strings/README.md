@@ -392,5 +392,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Find%20the%20Lexicographically%20Largest%20String%20From%20the%20Box%20I.cpp"> Find the Lexicographically Largest String From the Box I (Leetcode - 3403)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Using%20a%20Robot%20to%20Print%20the%20Lexicographically%20Smallest%20String.cpp"> Using a Robot to Print the Lexicographically Smallest String (Leetcode - 2434)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
