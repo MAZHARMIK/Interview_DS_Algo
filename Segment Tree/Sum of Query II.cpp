@@ -30,10 +30,17 @@ public:
         if(l > end || r < start) {
             return 0;
         }
-        
+
+
+ //<---- this if else  statement might be wrong as , left should be l<= start ------>
         if(l >= start && r <= end) {
             return segmentTree[i];
         }
+/*<--- my suggestion to change  to confusion---->
+        if (start <= l && r <= end) {
+            return segmentTree[i];
+        }
+*/
         
         int mid = l + (r-l)/2;
         return querySegmentTree(start, end, 2*i+1, l,    mid, segmentTree) + 
