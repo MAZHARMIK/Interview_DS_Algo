@@ -244,5 +244,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Subarrays%20With%20Score%20Less%20Than%20K.cpp"> Count Subarrays With Score Less Than K (Leetcode - 2302) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Maximum%20Difference%20Between%20Even%20and%20Odd%20Frequency%20II.cpp"> Maximum Difference Between Even and Odd Frequency II (Leetcode - 3445) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
