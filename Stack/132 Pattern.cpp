@@ -2,6 +2,7 @@
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=RZXxX1EU364
     Company Tags                : Amazon, META
     Leetcode Link               : https://leetcode.com/problems/132-pattern/
+    Monotonic Data Structures Concepts Playlist - https://www.youtube.com/watch?v=yRyumGu_owg&list=PLpIkg8OmuX-IpUPXh3z8oeKSfRkKhjaTV
 */
 
 /*********************************************************** C++ *********************************************/
