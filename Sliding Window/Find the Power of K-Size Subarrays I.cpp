@@ -4,6 +4,8 @@
                                   Approach-2 : https://www.youtube.com/watch?v=7xkCA80h5a4
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i
+
+    Monotonic Data Structures Concepts Playlist - https://www.youtube.com/watch?v=yRyumGu_owg&list=PLpIkg8OmuX-IpUPXh3z8oeKSfRkKhjaTV
 */
 
 
