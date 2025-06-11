@@ -4,6 +4,8 @@
     Company Tags                  : Will update soon
     Leetcode Link                 : https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k
     Similar Easy Version Problem  : https://www.youtube.com/watch?v=D2MbogiFXWU
+
+    Monotonic Data Structures Concepts Playlist - https://www.youtube.com/watch?v=yRyumGu_owg&list=PLpIkg8OmuX-IpUPXh3z8oeKSfRkKhjaTV
 */
 
 
