@@ -8,6 +8,8 @@
 /*
   It can be solved using DP as well. See my 2 approaches here in DP section 
   Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Constrained%20Subsequence%20Sum.cpp
+
+  Monotonic Data Structures Concepts Playlist - https://www.youtube.com/watch?v=yRyumGu_owg&list=PLpIkg8OmuX-IpUPXh3z8oeKSfRkKhjaTV
 */
 
 
