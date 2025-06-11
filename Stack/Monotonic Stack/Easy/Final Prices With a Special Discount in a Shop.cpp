@@ -3,6 +3,8 @@
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=y5CZ7LhqSAU
     Company Tags                : will update later
     Letcode Link                : https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop
+    
+    Monotonic Data Structures Concepts Playlist - https://www.youtube.com/watch?v=yRyumGu_owg&list=PLpIkg8OmuX-IpUPXh3z8oeKSfRkKhjaTV
 */
 
 
