@@ -1,6 +1,9 @@
  /*
  	Company Tags  : Not known yet (Let me know if you find it :-) )
 	Leetcode Link : https://leetcode.com/problems/jump-game-vi/
+ 	
+  	For approach-3, we solved it using Monotonic Dequeu, so if you want to study, Monotonic Data Structures, refer the small playlist below.
+	Monotonic Data Structures Concepts Playlist - https://www.youtube.com/watch?v=yRyumGu_owg&list=PLpIkg8OmuX-IpUPXh3z8oeKSfRkKhjaTV
  */
 
 //Approach-1
