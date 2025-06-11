@@ -2,6 +2,7 @@
     MY YOUTUBE VIDEO ON THIS Qn : Will soon come
     Company Tags                : Accolite, Adobe, Amazon, D-E-Shaw, MakeMyTrip, Microsoft, Payu
     Leetcode Link               : https://leetcode.com/problems/trapping-rain-water/
+    Monotonic Data Structures Concepts Playlist - https://www.youtube.com/watch?v=yRyumGu_owg&list=PLpIkg8OmuX-IpUPXh3z8oeKSfRkKhjaTV
 */
 
 
