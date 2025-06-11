@@ -1,9 +1,10 @@
 /*
     Company Tags  : Amazon, MAQ Software, Paytm, Snapdeal
     Leetcode Link : https://leetcode.com/problems/largest-rectangle-in-histogram/
+    Monotonic Data Structures Concepts Playlist - https://www.youtube.com/watch?v=yRyumGu_owg&list=PLpIkg8OmuX-IpUPXh3z8oeKSfRkKhjaTV
 */
 
-//Approach-1 (Using NSL, NSR concept)
+//Approach-1 (Using NSL, NSR concept - Monotonic Stack)
 class Solution {
 public:
     //NSR = Next smaller to right
