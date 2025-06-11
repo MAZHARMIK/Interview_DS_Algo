@@ -1,6 +1,7 @@
 /*
     Two approaches
-    Leetcode weekly contest 217 (https://leetcode.com/contest/weekly-contest-217/problems/find-the-most-competitive-subsequence/)    
+    Leetcode weekly contest 217 (https://leetcode.com/contest/weekly-contest-217/problems/find-the-most-competitive-subsequence/) 
+    Monotonic Data Structures Concepts Playlist - https://www.youtube.com/watch?v=yRyumGu_owg&list=PLpIkg8OmuX-IpUPXh3z8oeKSfRkKhjaTV
 */
 
 //Using concept of monotonic stack
