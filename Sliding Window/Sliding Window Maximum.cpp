@@ -7,6 +7,9 @@
     
     NOTE : Please also see hard version of this question : Leetcode-1425
     Explained Solution Link : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Constrained%20Subsequence%20Sum.cpp
+
+    Monotonic Data Structures Concepts Playlist - https://www.youtube.com/watch?v=yRyumGu_owg&list=PLpIkg8OmuX-IpUPXh3z8oeKSfRkKhjaTV
+    
 */
 
 ****************************************** C++ ******************************************************
