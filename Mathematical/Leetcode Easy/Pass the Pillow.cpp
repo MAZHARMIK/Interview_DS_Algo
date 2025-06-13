@@ -28,6 +28,29 @@ public:
     }
 };
 
+//Approach-3
+//T.C : O(time)
+//S.C : O(1)
+class Solution {
+public:
+    int passThePillow(int n, int time) {
+        int p=1;
+        bool rev = false;
+        while(time--){
+            if(p == n){
+                rev=true;
+            }else if(p == 1){
+                rev = false;
+            }
+            if(rev){
+                p--;
+            }else{
+                p++;
+            }
+        }
+        return p;
+    }
+};
 
 
 //Approach-2 (Simple Maths)
