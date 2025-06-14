@@ -269,5 +269,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Equal%20Sum%20of%20Two%20Arrays%20After%20Replacing%20Zeros.cpp"> Minimum Equal Sum of Two Arrays After Replacing Zeros (Leetcode - 2918)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Max%20Difference%20You%20Can%20Get%20From%20Changing%20an%20Integer.cpp"> Max Difference You Can Get From Changing an Integer (Leetcode - 1432)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
