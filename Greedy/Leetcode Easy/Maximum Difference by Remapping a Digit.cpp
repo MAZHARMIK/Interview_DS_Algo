@@ -51,21 +51,19 @@ public:
 class Solution {
 public:
     int minMaxDifference(int num) {
-        string s = to_string(num);
-        string t = s;
+        string str1 = to_string(num);
+        string str2 = str1;
 
-        // Replace first non-'9' digit in s with '9' to maximize
-        int pos = s.find_first_not_of('9');
-        if (pos != string::npos) {
-            char a = s[pos];
-            replace(s.begin(), s.end(), a, '9');
+        int idx = str1.find_first_not_of('9');
+        if(idx != string::npos) {
+            char ch = str1[idx];
+            replace(begin(str1), end(str1), ch, '9');
         }
 
-        // Replace all occurrences of the first digit in t with '0' to minimize
-        char b = t[0];
-        replace(t.begin(), t.end(), b, '0');
+        char ch = str2[0]; //given input will not have leading zero
+        replace(begin(str2), end(str2), ch, '0');
 
-        return stoi(s) - stoi(t);
+        return stoi(str1) - stoi(str2);
     }
 };
 
@@ -107,24 +105,24 @@ class Solution {
 //T.C : O(log10(n))
 //S.C : O(log10(n))
 class Solution {
-
     public int minMaxDifference(int num) {
-        String s = Integer.toString(num);
-        String t = s;
-        
-        int pos = 0;
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) != '9') {
-                pos = i;
+        String str1 = Integer.toString(num);
+        String str2 = str1;
+
+        int idx = 0;
+        for(int i = 0; i < str1.length(); i++) {
+            if(str1.charAt(i) != '9') {
+                idx = i;
                 break;
             }
         }
 
-        if (pos < s.length()) {
-            s = s.replace(s.charAt(pos), '9');
+        if(idx < str1.length()) {
+            str1 = str1.replace(str1.charAt(idx), '9');
         }
 
-        t = t.replace(t.charAt(0), '0');
-        return Integer.parseInt(s) - Integer.parseInt(t);
+        str2 = str2.replace(str2.charAt(0), '0');
+
+        return Integer.parseInt(str1) - Integer.parseInt(str2);
     }
 }
