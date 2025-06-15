@@ -1,6 +1,7 @@
+/*         Scroll below to see JAVA code as well        */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=nmNLu1Qz-C0
-    Company Tags                : will soon update
+    Company Tags                : Google, Adobe
     Leetcode Link               : https://leetcode.com/problems/build-an-array-with-stack-operations/
 */
 
