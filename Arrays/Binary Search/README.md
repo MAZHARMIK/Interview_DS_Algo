@@ -246,5 +246,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximum%20Number%20of%20Tasks%20You%20Can%20Assign.cpp"> Maximum Number of Tasks You Can Assign (Leetcode - 2071)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimize%20the%20Maximum%20Adjacent%20Element%20Difference.cpp"> Minimize the Maximum Adjacent Element Difference (Leetcode - 3357)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
