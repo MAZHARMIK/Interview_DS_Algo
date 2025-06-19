@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=4Tptf8TvYag
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k
 */
