@@ -274,5 +274,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Max%20Difference%20You%20Can%20Get%20From%20Changing%20an%20Integer.cpp"> Max Difference You Can Get From Changing an Integer (Leetcode - 1432)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Manhattan%20Distance%20After%20K%20Changes.cpp"> Maximum Manhattan Distance After K Changes (Leetcode - 3443)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
