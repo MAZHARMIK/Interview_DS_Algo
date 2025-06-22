@@ -264,5 +264,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20the%20Number%20of%20Arrays%20with%20K%20Matching%20Adjacent%20Elements.cpp"> Count the Number of Arrays with K Matching Adjacent Elements (Leetcode - 3405) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Sum%20of%20k-Mirror%20Numbers.cpp"> Sum of k-Mirror Numbers (Leetcode - 2081) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
