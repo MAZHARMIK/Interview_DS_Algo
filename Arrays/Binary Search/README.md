@@ -251,5 +251,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimize%20the%20Maximum%20Adjacent%20Element%20Difference.cpp"> Minimize the Maximum Adjacent Element Difference (Leetcode - 3357)</a>
 				  </td>
       			</tr>
+			<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Kth%20Smallest%20Product%20of%20Two%20Sorted%20Arrays.cpp"> Kth Smallest Product of Two Sorted Arrays (Leetcode - 2040)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
