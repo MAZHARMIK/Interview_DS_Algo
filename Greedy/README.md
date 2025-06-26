@@ -279,5 +279,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Manhattan%20Distance%20After%20K%20Changes.cpp"> Maximum Manhattan Distance After K Changes (Leetcode - 3443)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Longest%20Binary%20Subsequence%20Less%20Than%20or%20Equal%20to%20K.cpp"> Longest Binary Subsequence Less Than or Equal to K (Leetcode - 2311)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
