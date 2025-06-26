@@ -43,22 +43,22 @@ public:
 class Solution {
 public:
     int longestSubsequence(string s, int k) {
-        int count = 0;
-        long long power = 1;
+        int length = 0;
+        long long powerValue = 1;
         
         for (int i = s.size() - 1; i >= 0; --i) {
             if (s[i] == '0') {
-                ++count;
-            } else if(power <= k) {
-                count++;
-                k -= power;
+                length++;
+            } else if(powerValue <= k) {
+                length++;
+                k -= powerValue;
             }
 
-            if (power <= k)
-                power <<= 1; //power *= 2;
+            if (powerValue <= k)
+                powerValue <<= 1; //powerValue *= 2;
         }
         
-        return count;
+        return length;
     }
 };
 
@@ -98,22 +98,22 @@ class Solution {
 //S.C : O(1)
 class Solution {
     public int longestSubsequence(String s, int k) {
-        int count = 0;
-        long power = 1;
+        int length = 0;
+        long powerValue = 1;
 
         for (int i = s.length() - 1; i >= 0; --i) {
             if (s.charAt(i) == '0') {
-                count++;
-            } else if (power <= k) {
-                count++;
-                k -= power;
+                length++;
+            } else if (powerValue <= k) {
+                length++;
+                k -= powerValue;
             }
 
-            if (power <= k) {
-                power <<= 1; // power *= 2
+            if (powerValue <= k) {
+                powerValue <<= 1; // powerValue *= 2
             }
         }
 
-        return count;
+        return length;
     }
 }
