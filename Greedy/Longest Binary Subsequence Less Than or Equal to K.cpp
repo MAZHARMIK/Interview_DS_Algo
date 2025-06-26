@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ca04hcfuGlY
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k
 */
