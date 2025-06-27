@@ -2,7 +2,7 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Kc4eUX-heL4
     Company Tags                : Will update soon
-    Leetcode Link               : https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n
+    Leetcode Link               : https://leetcode.com/problems/longest-subsequence-repeated-k-times/
 */
 
 
