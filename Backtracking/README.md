@@ -216,5 +216,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.cpp"> The k-th Lexicographical String of All Happy Strings of Length n (Leetcode - 1415)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Longest%20Subsequence%20Repeated%20k%20Times.cpp"> Longest Subsequence Repeated k Times (Leetcode - 2014)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
