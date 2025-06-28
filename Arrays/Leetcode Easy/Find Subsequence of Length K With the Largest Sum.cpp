@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=J6tGPJmCXG4
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum
 */
