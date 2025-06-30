@@ -231,11 +231,6 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Longest%20Harmonious%20Subsequence.cpp">Longest Harmonious Subsequence (Leetcode - 594)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Wiggle%20Sort.cpp">Wiggle Sort (Leetcode - 280)</a>
 				</td>
 			</tr>
