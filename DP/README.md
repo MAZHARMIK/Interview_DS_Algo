@@ -725,5 +725,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Painting%20a%20Grid%20With%20Three%20Different%20Colors.cpp"> Painting a Grid With Three Different Colors (Leetcode - 1931)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Find%20the%20Original%20Typed%20String%20II.cpp"> Find the Original Typed String II (Leetcode - 3333)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
