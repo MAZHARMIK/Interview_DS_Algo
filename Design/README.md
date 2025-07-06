@@ -164,5 +164,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20a%20Number%20Container%20System.cpp"> Design a Number Container System (Leetcode - 2349)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Finding%20Pairs%20With%20a%20Certain%20Sum.cpp"> Finding Pairs With a Certain Sum (Leetcode - 1865)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
