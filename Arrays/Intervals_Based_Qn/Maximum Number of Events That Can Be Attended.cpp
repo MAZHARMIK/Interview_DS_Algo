@@ -7,7 +7,7 @@
 
 
 /************************************************************************ C++ ************************************************************/
-//Approach (Using Sorting and heap and hreedily picking the ones ending earliest)
+//Approach (Using Sorting and heap and greedily picking the ones ending earliest)
 //T.C : O(nlogn)
 //S.C : O(n)
 class Solution {
@@ -53,7 +53,7 @@ public:
 
 
 /************************************************************************ JAVA ************************************************************/
-//Approach (Using Sorting and heap and hreedily picking the ones ending earliest)
+//Approach (Using Sorting and heap and greedily picking the ones ending earliest)
 //T.C : O(nlogn)
 //S.C : O(n)
 class Solution {
