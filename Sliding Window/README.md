@@ -249,5 +249,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Maximum%20Difference%20Between%20Even%20and%20Odd%20Frequency%20II.cpp"> Maximum Difference Between Even and Odd Frequency II (Leetcode - 3445) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I.cpp"> Reschedule Meetings for Maximum Free Time I (Leetcode - 3439) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
