@@ -33,22 +33,24 @@ public:
             maxRight[i] = max(maxRight[i + 1], freeArray[i + 1]);
         }
 
+        vector<int> maxLeft(n, 0);
+        for (int i = 2; i < n; i++) {
+            maxLeft[i] = max(maxLeft[i - 1], freeArray[i - 2]);
+        }
+
         // Step 3: Try moving each meeting and calculate max free time
-        int result = 0, maxLeft = 0;
+        int result = 0;
         for (int i = 1; i < n; ++i) {
             int curMeetingDuration = endTime[i - 1] - startTime[i - 1];  // Duration of the (i-1)th meeting
 
             //Move the meeting to another free spot
             //But, check if moving is possible or not
-            if (curMeetingDuration <= max(maxLeft, maxRight[i])) {
+            if (curMeetingDuration <= max(maxLeft[i], maxRight[i])) {
                 result = max(result, freeArray[i - 1] + curMeetingDuration + freeArray[i]);
             }
 
             //Merge left and right free time
             result = max(result, freeArray[i - 1] + freeArray[i]);
-
-            // Update maxLeft for the next iteration
-            maxLeft = max(maxLeft, freeArray[i - 1]);
         }
 
         return result;
@@ -78,27 +80,30 @@ class Solution {
 
         int n = freeArray.length;
         int[] maxRight = new int[n];
+        
         // Precompute max free time to the right
-        maxRight[n - 1] = 0;
         for (int i = n - 2; i >= 0; i--) {
             maxRight[i] = Math.max(maxRight[i + 1], freeArray[i + 1]);
         }
 
-        int result = 0, maxLeft = 0;
+        int[] maxLeft = new int[n];
+        // Precompute max free time to the left
+        for (int i = 2; i < n; i++) {
+            maxLeft[i] = Math.max(maxLeft[i - 1], freeArray[i - 2]);
+        }
+        
+        int result = 0;
         // Try moving each meeting and calculate max free time
         for (int i = 1; i < n; ++i) {
             int curMeetingDuration = endTime[i - 1] - startTime[i - 1];
 
             // Move the meeting to another free spot if possible
-            if (curMeetingDuration <= Math.max(maxLeft, maxRight[i])) {
+            if (curMeetingDuration <= Math.max(maxLeft[i], maxRight[i])) {
                 result = Math.max(result, freeArray[i - 1] + curMeetingDuration + freeArray[i]);
             }
 
             // Merge left and right free time
             result = Math.max(result, freeArray[i - 1] + freeArray[i]);
-
-            // Update maxLeft for the next iteration
-            maxLeft = Math.max(maxLeft, freeArray[i - 1]);
         }
 
         return result;
