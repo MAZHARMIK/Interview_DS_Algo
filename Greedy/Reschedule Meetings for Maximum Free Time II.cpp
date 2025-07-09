@@ -44,7 +44,7 @@ public:
                 result = max(result, freeArray[i - 1] + curMeetingDuration + freeArray[i]);
             }
 
-            //Merge left and right free time (always possible)
+            //Merge left and right free time
             result = max(result, freeArray[i - 1] + freeArray[i]);
 
             // Update maxLeft for the next iteration
@@ -94,7 +94,7 @@ class Solution {
                 result = Math.max(result, freeArray[i - 1] + curMeetingDuration + freeArray[i]);
             }
 
-            // Merge left and right free time (always possible)
+            // Merge left and right free time
             result = Math.max(result, freeArray[i - 1] + freeArray[i]);
 
             // Update maxLeft for the next iteration
