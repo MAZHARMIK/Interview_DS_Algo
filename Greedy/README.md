@@ -284,5 +284,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Longest%20Binary%20Subsequence%20Less%20Than%20or%20Equal%20to%20K.cpp"> Longest Binary Subsequence Less Than or Equal to K (Leetcode - 2311)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20II.cpp"> Reschedule Meetings for Maximum Free Time II (Leetcode - 3440)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
