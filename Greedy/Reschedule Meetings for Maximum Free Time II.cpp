@@ -36,15 +36,15 @@ public:
         // Step 3: Try moving each meeting and calculate max free time
         int result = 0, maxLeft = 0;
         for (int i = 1; i < n; ++i) {
-            int duration = endTime[i - 1] - startTime[i - 1];  // Duration of the (i-1)th meeting
+            int curMeetingDuration = endTime[i - 1] - startTime[i - 1];  // Duration of the (i-1)th meeting
 
             //Move the meeting to another free spot
             //But, check if moving is possible or not
-            if (duration <= max(maxLeft, maxRight[i])) {
-                result = max(result, freeArray[i - 1] + duration + freeArray[i]);
+            if (curMeetingDuration <= max(maxLeft, maxRight[i])) {
+                result = max(result, freeArray[i - 1] + curMeetingDuration + freeArray[i]);
             }
 
-            // Case 2: Merge left and right free time (always possible)
+            //Merge left and right free time (always possible)
             result = max(result, freeArray[i - 1] + freeArray[i]);
 
             // Update maxLeft for the next iteration
@@ -87,11 +87,11 @@ class Solution {
         int result = 0, maxLeft = 0;
         // Try moving each meeting and calculate max free time
         for (int i = 1; i < n; ++i) {
-            int duration = endTime[i - 1] - startTime[i - 1];
+            int curMeetingDuration = endTime[i - 1] - startTime[i - 1];
 
             // Move the meeting to another free spot if possible
-            if (duration <= Math.max(maxLeft, maxRight[i])) {
-                result = Math.max(result, freeArray[i - 1] + duration + freeArray[i]);
+            if (curMeetingDuration <= Math.max(maxLeft, maxRight[i])) {
+                result = Math.max(result, freeArray[i - 1] + curMeetingDuration + freeArray[i]);
             }
 
             // Merge left and right free time (always possible)
