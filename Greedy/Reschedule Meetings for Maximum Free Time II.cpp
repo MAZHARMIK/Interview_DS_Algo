@@ -2,7 +2,7 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
     Company Tags                : will update soon
-    Leetcode Link               : https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/submissions/1691929382/
+    Leetcode Link               : https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii
 */
 
 
