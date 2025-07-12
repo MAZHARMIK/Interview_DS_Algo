@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Find%20the%20Punishment%20Number%20of%20an%20Integer.cpp"> Find the Punishment Number of an Integer (Leetcode - 2698)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/The%20Earliest%20and%20Latest%20Rounds%20Where%20Players%20Compete.cpp"> The Earliest and Latest Rounds Where Players Compete (Leetcode - 1900)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
