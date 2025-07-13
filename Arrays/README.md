@@ -514,5 +514,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Partition%20Array%20Such%20That%20Maximum%20Difference%20Is%20K.cpp"> Partition Array Such That Maximum Difference Is K (Leetcode - 2294)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum%20Matching%20of%20Players%20With%20Trainers.cpp"> Maximum Matching of Players With Trainers (Leetcode - 2410)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
