@@ -519,5 +519,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum%20Matching%20of%20Players%20With%20Trainers.cpp"> Maximum Matching of Players With Trainers (Leetcode - 2410)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I.cpp"> Find the Maximum Length of Valid Subsequence I (Leetcode - 3201)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
