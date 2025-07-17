@@ -64,5 +64,10 @@
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I.cpp"> Find the Maximum Length of Valid Subsequence I (Leetcode - 3201)</a>
 			</td>
 		</tr>
+		<tr>
+        		<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20II.cpp"> Find the Maximum Length of Valid Subsequence II (Leetcode - 3202)</a>
+			</td>
+		</tr>
 	</tbody>
 </table>
