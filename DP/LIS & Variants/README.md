@@ -59,5 +59,10 @@
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20&%20Variants/Longest%20Unequal%20Adjacent%20Groups%20Subsequence%20II.cpp"> Longest Unequal Adjacent Groups Subsequence II (Leetcode - 2901)</a>
 			</td>
 		</tr>
+		<tr>
+        		<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I.cpp"> Find the Maximum Length of Valid Subsequence I (Leetcode - 3201)</a>
+			</td>
+		</tr>
 	</tbody>
 </table>
