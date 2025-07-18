@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=uURBjheosXU
-    Company Tags                : Will update later
+    Company Tags                : Amazon Online Assessment (Dublin)
     Leetcode Link               : https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements
 */
 
