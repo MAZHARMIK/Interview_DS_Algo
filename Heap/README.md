@@ -209,5 +209,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Zero%20Array%20Transformation%20III.cpp"> Zero Array Transformation III (Leetcode - 3362)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Minimum%20Difference%20in%20Sums%20After%20Removal%20of%20Elements.cpp">  (Leetcode - 2163)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
