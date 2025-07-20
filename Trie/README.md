@@ -84,5 +84,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Counting%20Words%20With%20a%20Given%20Prefix.cpp"> Counting Words With a Given Prefix (Leetcode - 2185)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Trie/Delete%20Duplicate%20Folders%20in%20System.cpp"> Delete Duplicate Folders in System (Leetcode - 1948)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
