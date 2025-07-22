@@ -59,19 +59,21 @@ public:
         vector<int> mp(10001, -1); //Using as a map 1 <= nums[i] <= 10^4
         int maxS   = 0;
         int i      = 0;
+        int j      = 0;
         
-        for(int j  = 0; j < n; j++) {
+        while(j < n) {
             i       = max(i, mp[nums[j]]+1);
             int jthSum  = cus[j];
             int ithSum  = i-1 < 0 ? 0 : cus[i-1];
             maxS        = max(maxS, jthSum - ithSum);
             mp[nums[j]] = j;
+
+            j++;
         }
         
         return maxS;
     }
 };
-
 
 
 /*************************************************************** JAVA *************************************************/
@@ -121,13 +123,16 @@ class Solution {
         
         int maxS = 0;
         int i = 0;
+        int j = 0;
 
-        for(int j = 0; j < n; j++) {
+        while(j < n) {
             i       = Math.max(i, mp[nums[j]] + 1); 
             int jthSum  = cus[j];
             int ithSum  = i-1 < 0 ? 0 : cus[i-1];
             maxS        = Math.max(maxS, jthSum - ithSum);
             mp[nums[j]] = j;
+
+            j++;
         }
 
         return maxS;
