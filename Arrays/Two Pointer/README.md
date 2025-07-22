@@ -36,11 +36,6 @@
       			</tr>
 			<tr>
           			<td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Maximum_Erasure_Value.cpp">Maximum Erasure Value (2 approaches) (Leetcode-1695)</a>
-				</td>
-      			</tr>
-			<tr>
-          			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Two%20Sum%20II%20-%20Input%20array%20is%20sorted.cpp">Two Sum II - Input array is sorted (Leetcode-167)</a>
 				</td>
       			</tr>
