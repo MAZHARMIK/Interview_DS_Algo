@@ -17,7 +17,7 @@ public:
         int score = 0;
 
         string maxStr = (x > y) ? "ab" : "ba";
-        string minStr = (x < y) ? "ab" : "ba";
+        string minStr = (maxStr == "ab") ? "ba" : "ab"; //This is updated after the video was made as a new test case was added in Leetcode
 
         //First Pass
         string temp_first     = removeSubstring(s, maxStr);
@@ -67,7 +67,7 @@ public:
         int score = 0;
 
         string maxStr = (x > y) ? "ab" : "ba";
-        string minStr = (x < y) ? "ab" : "ba";
+        string minStr = (maxStr == "ab") ? "ba" : "ab"; //This is updated after the video was made as a new test case was added in Leetcode
 
         //First Pass
         string temp_first     = removeSubstring(s, maxStr);
@@ -110,15 +110,19 @@ public:
 //Approach-1 (Using Stack)
 //T.C : O(n)
 //S.C : O(n)
-import java.util.Stack;
-
 class Solution {
     public int maximumGain(String s, int x, int y) {
         int n = s.length();
         int score = 0;
 
         String maxStr = (x > y) ? "ab" : "ba";
-        String minStr = (x < y) ? "ab" : "ba";
+        String minStr;
+        if(maxStr.equals("ab")) { //This is updated after the video was made as a new test case was added in Leetcode
+            minStr = "ba";
+        }
+        else {
+            minStr = "ab";
+        }
 
         // First Pass
         String tempFirst = removeSubstring(s, maxStr);
@@ -163,7 +167,13 @@ class Solution {
         int score = 0;
 
         String maxStr = (x > y) ? "ab" : "ba";
-        String minStr = (x < y) ? "ab" : "ba";
+        String minStr;
+        if(maxStr.equals("ab")) { //This is updated after the video was made as a new test case was added in Leetcode
+            minStr = "ba";
+        }
+        else {
+            minStr = "ab";
+        }
 
         // First Pass
         String tempFirst = removeSubstring(s, maxStr);
