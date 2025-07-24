@@ -12,17 +12,17 @@
 //S.C : O(V+E), V = number of vertices and E = number of edges
 class Solution {
 public:
-    void dfs(int node, int par, vector<int>& xorFromRoot,
+    void dfs(int node, int par, vector<int>& subtreeXor,
             vector<int>& parent, vector<int>& inTime, vector<int>& outTime,
             int& timer, vector<int>& nums, unordered_map<int, vector<int>>& adj) {
 
-        xorFromRoot[node] = nums[node];
+        subtreeXor[node] = nums[node];
         parent[node] = par;
         inTime[node] = timer++;
         for (int ngbr : adj[node]) {
             if (ngbr != par) {
-                dfs(ngbr, node, xorFromRoot, parent, inTime, outTime, timer, nums, adj);
-                xorFromRoot[node] ^= xorFromRoot[ngbr];
+                dfs(ngbr, node, subtreeXor, parent, inTime, outTime, timer, nums, adj);
+                subtreeXor[node] ^= subtreeXor[ngbr];
             }
         }
         outTime[node] = timer++;
@@ -36,7 +36,7 @@ public:
             adj[edge[1]].push_back(edge[0]);
         }
 
-        vector<int> xorFromRoot(n, 0);
+        vector<int> subtreeXor(n, 0);
         vector<int> parent(n, -1);
 
         //Using time, to find ancestor
@@ -44,7 +44,7 @@ public:
         vector<int> outTime(n, 0);
         int timer = 0;
 
-        dfs(0, -1, xorFromRoot, parent, inTime, outTime, timer, nums, adj);
+        dfs(0, -1, subtreeXor, parent, inTime, outTime, timer, nums, adj);
 
         //To check if v is descendant of u or not (i.e. if u is an ancestor of v)
         auto isDescendant = [&](int u, int v) {
@@ -62,17 +62,17 @@ public:
             for (int j = i + 1; j < n; ++j) {
                 int x, y, z;
                 if (isDescendant(i, j)) {
-                    x = xorFromRoot[j];
-                    y = xorFromRoot[i] ^ xorFromRoot[j];
-                    z = xorFromRoot[0] ^ xorFromRoot[i];
+                    x = subtreeXor[j];
+                    y = subtreeXor[i] ^ subtreeXor[j];
+                    z = subtreeXor[0] ^ subtreeXor[i];
                 } else if (isDescendant(j, i)) {
-                    x = xorFromRoot[i];
-                    y = xorFromRoot[j] ^ xorFromRoot[i];
-                    z = xorFromRoot[0] ^ xorFromRoot[j];
+                    x = subtreeXor[i];
+                    y = subtreeXor[j] ^ subtreeXor[i];
+                    z = subtreeXor[0] ^ subtreeXor[j];
                 } else {
-                    x = xorFromRoot[i];
-                    y = xorFromRoot[j];
-                    z = xorFromRoot[0] ^ x ^ y;
+                    x = subtreeXor[i];
+                    y = subtreeXor[j];
+                    z = subtreeXor[0] ^ x ^ y;
                 }
 
                 result = min(result, getScore(x, y, z));
@@ -99,13 +99,13 @@ class Solution {
             adj.get(edge[1]).add(edge[0]);
         }
 
-        int[] xorFromRoot = new int[n];
+        int[] subtreeXor = new int[n];
         int[] parent = new int[n];
         int[] inTime = new int[n];
         int[] outTime = new int[n];
         int[] timer = new int[1]; // Using array to mimic pass-by-reference
 
-        dfs(0, -1, xorFromRoot, parent, inTime, outTime, timer, nums, adj);
+        dfs(0, -1, subtreeXor, parent, inTime, outTime, timer, nums, adj);
 
         int result = Integer.MAX_VALUE;
 
@@ -113,17 +113,17 @@ class Solution {
             for (int j = i + 1; j < n; ++j) {
                 int x, y, z;
                 if (isDescendant(i, j, inTime, outTime)) {
-                    x = xorFromRoot[j];
-                    y = xorFromRoot[i] ^ xorFromRoot[j];
-                    z = xorFromRoot[0] ^ xorFromRoot[i];
+                    x = subtreeXor[j];
+                    y = subtreeXor[i] ^ subtreeXor[j];
+                    z = subtreeXor[0] ^ subtreeXor[i];
                 } else if (isDescendant(j, i, inTime, outTime)) {
-                    x = xorFromRoot[i];
-                    y = xorFromRoot[j] ^ xorFromRoot[i];
-                    z = xorFromRoot[0] ^ xorFromRoot[j];
+                    x = subtreeXor[i];
+                    y = subtreeXor[j] ^ subtreeXor[i];
+                    z = subtreeXor[0] ^ subtreeXor[j];
                 } else {
-                    x = xorFromRoot[i];
-                    y = xorFromRoot[j];
-                    z = xorFromRoot[0] ^ x ^ y;
+                    x = subtreeXor[i];
+                    y = subtreeXor[j];
+                    z = subtreeXor[0] ^ x ^ y;
                 }
 
                 int maxXor = Math.max(x, Math.max(y, z));
@@ -135,15 +135,15 @@ class Solution {
         return result;
     }
 
-    private void dfs(int node, int par, int[] xorFromRoot, int[] parent,
+    private void dfs(int node, int par, int[] subtreeXor, int[] parent,
                      int[] inTime, int[] outTime, int[] timer, int[] nums, List<List<Integer>> adj) {
-        xorFromRoot[node] = nums[node];
+        subtreeXor[node] = nums[node];
         parent[node] = par;
         inTime[node] = timer[0]++;
         for (int ngbr : adj.get(node)) {
             if (ngbr != par) {
-                dfs(ngbr, node, xorFromRoot, parent, inTime, outTime, timer, nums, adj);
-                xorFromRoot[node] ^= xorFromRoot[ngbr];
+                dfs(ngbr, node, subtreeXor, parent, inTime, outTime, timer, nums, adj);
+                subtreeXor[node] ^= subtreeXor[ngbr];
             }
         }
         outTime[node] = timer[0]++;
