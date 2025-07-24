@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=3IomMslYOOY
     Company Tags                : Will update soon
     Leetcode Link               : https://leetcode.com/problems/minimum-score-after-removals-on-a-tree
 */
@@ -12,73 +12,81 @@
 //S.C : O(V+E), V = number of vertices and E = number of edges
 class Solution {
 public:
-    void dfs(int node, int par, vector<int>& subtreeXor,
-            vector<int>& parent, vector<int>& inTime, vector<int>& outTime,
-            int& timer, vector<int>& nums, unordered_map<int, vector<int>>& adj) {
-
-        subtreeXor[node] = nums[node];
-        parent[node] = par;
-        inTime[node] = timer++;
-        for (int ngbr : adj[node]) {
-            if (ngbr != par) {
-                dfs(ngbr, node, subtreeXor, parent, inTime, outTime, timer, nums, adj);
-                subtreeXor[node] ^= subtreeXor[ngbr];
+    void dfs(int node, int parent, vector<int>& subtreeXor, vector<int>& inTime, vector<int>& outTime,
+            int &timer, vector<int>& nums, unordered_map<int, vector<int>>& adj) {
+                
+            subtreeXor[node] = nums[node];
+            inTime[node] = timer;
+            timer++;
+            for(int &ngbr : adj[node]) {
+                if(ngbr != parent) {
+                    dfs(ngbr, node, subtreeXor, inTime, outTime, timer, nums, adj);
+                    subtreeXor[node] ^= subtreeXor[ngbr];
+                }
             }
-        }
-        outTime[node] = timer++;
+            outTime[node] = timer;
+            timer++;
     }
 
+    bool isAncestor(int u, int v, vector<int>& inTime, vector<int>& outTime) {
+        return inTime[v] >= inTime[u] && outTime[v] <= outTime[u];
+    }
+
+    int getScore(int a, int b, int c) {
+        int maxXor = max({a, b, c});
+        int minXor = min({a, b, c});
+
+        return maxXor - minXor;
+    }
     int minimumScore(vector<int>& nums, vector<vector<int>>& edges) {
-        int n = nums.size();
-        unordered_map<int, vector<int>> adj;
-        for (auto& edge : edges) {
-            adj[edge[0]].push_back(edge[1]);
-            adj[edge[1]].push_back(edge[0]);
+        int n = nums.size(); //Total number of nodes
+
+        unordered_map<int, vector<int>> adj; //adjacency list
+        for(auto &edge : edges) {
+            int u = edge[0];
+            int v = edge[1];
+
+            adj[u].push_back(v);
+            adj[v].push_back(u);
         }
 
         vector<int> subtreeXor(n, 0);
-        vector<int> parent(n, -1);
 
-        //Using time, to find ancestor
         vector<int> inTime(n, 0);
         vector<int> outTime(n, 0);
+
         int timer = 0;
 
-        dfs(0, -1, subtreeXor, parent, inTime, outTime, timer, nums, adj);
-
-        //To check if v is descendant of u or not (i.e. if u is an ancestor of v)
-        auto isDescendant = [&](int u, int v) {
-            return inTime[v] >= inTime[u] && outTime[v] <= outTime[u];
-        };
-
-        auto getScore = [](int a, int b, int c) {
-            int maxXor = max({a, b, c});
-            int minXor = min({a, b, c});
-            return maxXor - minXor;
-        };
+        //root = 0
+        dfs(0, -1, subtreeXor, inTime, outTime, timer, nums, adj);
 
         int result = INT_MAX;
-        for (int i = 1; i < n; ++i) {
-            for (int j = i + 1; j < n; ++j) {
-                int x, y, z;
-                if (isDescendant(i, j)) {
-                    x = subtreeXor[j];
-                    y = subtreeXor[i] ^ subtreeXor[j];
-                    z = subtreeXor[0] ^ subtreeXor[i];
-                } else if (isDescendant(j, i)) {
-                    x = subtreeXor[i];
-                    y = subtreeXor[j] ^ subtreeXor[i];
-                    z = subtreeXor[0] ^ subtreeXor[j];
+        for(int u = 1; u < n; u++) {
+            for(int v = u+1; v < n; v++) {
+                int xor1;
+                int xor2;
+                int xor3;
+
+                if(isAncestor(u, v, inTime, outTime)) {
+                    xor1 = subtreeXor[v];
+                    xor2 = subtreeXor[u] ^ subtreeXor[v];
+                    xor3 = subtreeXor[0] ^ xor1 ^ xor2;
+                } else if(isAncestor(v, u, inTime, outTime)) {
+                    xor1 = subtreeXor[u];
+                    xor2 = subtreeXor[v] ^ subtreeXor[u];
+                    xor3 = subtreeXor[0] ^ xor1 ^ xor2;
                 } else {
-                    x = subtreeXor[i];
-                    y = subtreeXor[j];
-                    z = subtreeXor[0] ^ x ^ y;
+                    xor1 = subtreeXor[u];
+                    xor2 = subtreeXor[v];
+                    xor3 = subtreeXor[0] ^ xor1 ^ xor2;
                 }
 
-                result = min(result, getScore(x, y, z));
+                result = min(result, getScore(xor1, xor2, xor3));
             }
         }
+
         return result;
+
     }
 };
 
@@ -88,68 +96,77 @@ public:
 //T.C : O(n^2)
 //S.C : O(V+E), V = number of vertices and E = number of edges
 class Solution {
-    public int minimumScore(int[] nums, int[][] edges) {
-        int n = nums.length;
-        List<List<Integer>> adj = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            adj.add(new ArrayList<>());
-        }
-        for (int[] edge : edges) {
-            adj.get(edge[0]).add(edge[1]);
-            adj.get(edge[1]).add(edge[0]);
-        }
+ public
+  int minimumScore(int[] nums, int[][] edges) {
+    int n = nums.length;
 
-        int[] subtreeXor = new int[n];
-        int[] parent = new int[n];
-        int[] inTime = new int[n];
-        int[] outTime = new int[n];
-        int[] timer = new int[1]; // Using array to mimic pass-by-reference
-
-        dfs(0, -1, subtreeXor, parent, inTime, outTime, timer, nums, adj);
-
-        int result = Integer.MAX_VALUE;
-
-        for (int i = 1; i < n; ++i) {
-            for (int j = i + 1; j < n; ++j) {
-                int x, y, z;
-                if (isDescendant(i, j, inTime, outTime)) {
-                    x = subtreeXor[j];
-                    y = subtreeXor[i] ^ subtreeXor[j];
-                    z = subtreeXor[0] ^ subtreeXor[i];
-                } else if (isDescendant(j, i, inTime, outTime)) {
-                    x = subtreeXor[i];
-                    y = subtreeXor[j] ^ subtreeXor[i];
-                    z = subtreeXor[0] ^ subtreeXor[j];
-                } else {
-                    x = subtreeXor[i];
-                    y = subtreeXor[j];
-                    z = subtreeXor[0] ^ x ^ y;
-                }
-
-                int maxXor = Math.max(x, Math.max(y, z));
-                int minXor = Math.min(x, Math.min(y, z));
-                result = Math.min(result, maxXor - minXor);
-            }
-        }
-
-        return result;
+    // Build adjacency list
+    Map<Integer, List<Integer>> adj = new HashMap<>();
+    for (int i = 0; i < n; i++) adj.put(i, new ArrayList<>());
+    for (int[] edge : edges) {
+      adj.get(edge[0]).add(edge[1]);
+      adj.get(edge[1]).add(edge[0]);
     }
 
-    private void dfs(int node, int par, int[] subtreeXor, int[] parent,
-                     int[] inTime, int[] outTime, int[] timer, int[] nums, List<List<Integer>> adj) {
-        subtreeXor[node] = nums[node];
-        parent[node] = par;
-        inTime[node] = timer[0]++;
-        for (int ngbr : adj.get(node)) {
-            if (ngbr != par) {
-                dfs(ngbr, node, subtreeXor, parent, inTime, outTime, timer, nums, adj);
-                subtreeXor[node] ^= subtreeXor[ngbr];
-            }
+    int[] subtreeXor = new int[n];
+    int[] inTime = new int[n];
+    int[] outTime = new int[n];
+    int[] timer = new int[1];  // To simulate pass-by-reference
+
+    dfs(0, -1, subtreeXor, inTime, outTime, timer, nums, adj);
+
+    int result = Integer.MAX_VALUE;
+
+    for (int u = 1; u < n; u++) {
+      for (int v = u + 1; v < n; v++) {
+        int xor1, xor2, xor3;
+
+        if (isAncestor(u, v, inTime, outTime)) {
+          xor1 = subtreeXor[v];
+          xor2 = subtreeXor[u] ^ subtreeXor[v];
+          xor3 = subtreeXor[0] ^ xor1 ^ xor2;
+        } else if (isAncestor(v, u, inTime, outTime)) {
+          xor1 = subtreeXor[u];
+          xor2 = subtreeXor[v] ^ subtreeXor[u];
+          xor3 = subtreeXor[0] ^ xor1 ^ xor2;
+        } else {
+          xor1 = subtreeXor[u];
+          xor2 = subtreeXor[v];
+          xor3 = subtreeXor[0] ^ xor1 ^ xor2;
         }
-        outTime[node] = timer[0]++;
+
+        result = Math.min(result, getScore(xor1, xor2, xor3));
+      }
     }
 
-    private boolean isDescendant(int u, int v, int[] inTime, int[] outTime) {
-        return inTime[v] >= inTime[u] && outTime[v] <= outTime[u];
+    return result;
+  }
+
+ private
+  void dfs(int node, int parent, int[] subtreeXor, int[] inTime, int[] outTime,
+           int[] timer, int[] nums, Map<Integer, List<Integer>> adj) {
+    subtreeXor[node] = nums[node];
+    inTime[node] = timer[0]++;
+
+    for (int neighbor : adj.get(node)) {
+      if (neighbor != parent) {
+        dfs(neighbor, node, subtreeXor, inTime, outTime, timer, nums, adj);
+        subtreeXor[node] ^= subtreeXor[neighbor];
+      }
     }
+
+    outTime[node] = timer[0]++;
+  }
+
+ private
+  boolean isAncestor(int u, int v, int[] inTime, int[] outTime) {
+    return inTime[v] >= inTime[u] && outTime[v] <= outTime[u];
+  }
+
+ private
+  int getScore(int a, int b, int c) {
+    int max = Math.max(a, Math.max(b, c));
+    int min = Math.min(a, Math.min(b, c));
+    return max - min;
+  }
 }
