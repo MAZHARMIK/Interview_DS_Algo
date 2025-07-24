@@ -340,5 +340,10 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Divide%20Nodes%20Into%20the%20Maximum%20Number%20of%20Groups.cpp"> Divide Nodes Into the Maximum Number of Groups (Leetcode - 2493) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Minimum%20Score%20After%20Removals%20on%20a%20Tree.cpp"> Minimum Score After Removals on a Tree (Leetcode - 2322) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
