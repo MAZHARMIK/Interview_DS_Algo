@@ -289,5 +289,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20II.cpp"> Reschedule Meetings for Maximum Free Time II (Leetcode - 3440)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximize%20Subarrays%20After%20Removing%20One%20Conflicting%20Pair.cpp"> Maximize Subarrays After Removing One Conflicting Pair (Leetcode - 3480)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
