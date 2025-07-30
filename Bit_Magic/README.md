@@ -9,7 +9,7 @@ Remember Few Things :
 
 - Similarly, n >> x = n / 2^x
 
-- if ( (x & (1 << i)) == 0 ) , then ith bit of x is set (i.e. 1)
+- if ( (x & (1 << i)) == 0 ) , This  checks whether the i-th bit of x is not set, meaning the bit at position i is 0, not 1.
   This will help you find subset using bit manipulation. 
   
 - If we subtract a power of 2 number by 1 then all unset bits after the
