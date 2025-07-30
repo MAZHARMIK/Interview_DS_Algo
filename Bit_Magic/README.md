@@ -18,7 +18,7 @@ Remember Few Things :
       3 –> 011 
       15 –> 01111
 
-   So, if( (n&(n-1)) == 0) - n is even
+   So, if( (n&(n-1)) == 0) , then n is even else it is odd
 ```
 See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Subsets.cpp">Subsets</a> And <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Calculate%207n%5C8%20without%20using%20division%20and%20multiplication.cpp">This</a> for Questions based on above.
 
