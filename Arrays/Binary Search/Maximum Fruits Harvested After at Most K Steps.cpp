@@ -83,8 +83,8 @@ class Solution {
             int j = startPos + remain;
 
             // Find the range [i, j] using binary search
-            int left = lowerBound(indices, left);
-            int right = upperBound(indices, right) - 1;
+            int left  = lowerBound(indices, i);
+            int right = upperBound(indices, j) - 1;
 
             if (left <= right) {
                 int total = prefixSum[right] - (left > 0 ? prefixSum[left - 1] : 0);
@@ -96,8 +96,8 @@ class Solution {
             i  = startPos - remain;
             j = startPos + d;
 
-            left = lowerBound(indices, left);
-            right = upperBound(indices, right) - 1;
+            left = lowerBound(indices, i);
+            right = upperBound(indices, j) - 1;
 
             if (left <= right) {
                 int total = prefixSum[right] - (left > 0 ? prefixSum[left - 1] : 0);
