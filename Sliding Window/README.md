@@ -254,9 +254,14 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Reschedule%20Meetings%20for%20Maximum%20Free%20Time%20I.cpp"> Reschedule Meetings for Maximum Free Time I (Leetcode - 3439) </a>
 				</td>
 			</tr>
-						<tr>
+			<tr>
           			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sliding%20Window/Maximum%20Erasure%20Value.cpp"> Maximum Erasure Value (Leetcode 1695) </a>
+				</td>
+      			</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Fruit%20Into%20Baskets.cpp"> Fruit Into Baskets (Leetcode 904) </a>
 				</td>
       			</tr>
 		</tbody>
