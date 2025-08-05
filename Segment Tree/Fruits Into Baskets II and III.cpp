@@ -1,9 +1,9 @@
 /*	 Scroll below to see JAVA code also	*/
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn   : https://www.youtube.com/watch?v=OC3zzMwCdSk
     Company Tags  		          : will update later
     Leetcode Link 		          : PART-II https://leetcode.com/problems/fruits-into-baskets-ii/description/
-                                  PART-III https://leetcode.com/problems/fruits-into-baskets-iii/description/
+                                    PART-III https://leetcode.com/problems/fruits-into-baskets-iii/description/
 */
 
 
