@@ -44,5 +44,10 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Count%20Good%20Triplets%20in%20an%20Array.cpp"> Count Good Triplets in an Array. - (Leetcode - 2179) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Fruits%20Into%20Baskets%20II%20and%20III.cpp"> Fruits Into Baskets II and III (Leetcode - 3477 and 3479) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
