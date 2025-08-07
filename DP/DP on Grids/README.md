@@ -34,5 +34,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Dungeon%20Game.cpp"> Dungeon Game (Leetcode - 174)</a>
 				</td>
 			</tr>
+			<tr>
+         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Find%20the%20Maximum%20Number%20of%20Fruits%20Collected.cpp"> Find the Maximum Number of Fruits Collected (Leetcode - 3363)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
