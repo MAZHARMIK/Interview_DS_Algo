@@ -524,5 +524,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I.cpp"> Find the Maximum Length of Valid Subsequence I (Leetcode - 3201)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I.cpp"> Range Product Queries of Powers (Leetcode - 2438)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
