@@ -526,7 +526,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20I.cpp"> Range Product Queries of Powers (Leetcode - 2438)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Range%20Product%20Queries%20of%20Powers.cpp"> Range Product Queries of Powers (Leetcode - 2438)</a>
 				</td>
 			</tr>
 		</tbody>
