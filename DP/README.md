@@ -730,5 +730,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Find%20the%20Original%20Typed%20String%20II.cpp"> Find the Original Typed String II (Leetcode - 3333)</a>
 				</td>
 			</tr>
+			</tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Ways%20to%20Express%20an%20Integer%20as%20Sum%20of%20Powers.cpp"> Ways to Express an Integer as Sum of Powers (Leetcode - 2787)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
