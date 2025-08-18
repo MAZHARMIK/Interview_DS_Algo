@@ -35,14 +35,14 @@ public:
 
                 double a = cards[i];
                 double b = cards[j];
-                vector<double> possibleVal = {a+b, a-b, b-a, a*b};
+                vector<double> possibleVal = {a+b, a-b, b-a, a*b}; //b-a is not required, our i and j for loop will take care of it
 
                 if(abs(b) > 0.0) {
                     possibleVal.push_back(a/b);
                 }
 
                 if(abs(a) > 0.0) {
-                    possibleVal.push_back(b/a);
+                    possibleVal.push_back(b/a); //b/a is not required, our i and j for loop will take care of it
                 }
 
                 for(double val : possibleVal) {
@@ -106,14 +106,14 @@ class Solution {
                 List<Double> possibleVals = new ArrayList<>();
                 possibleVals.add(a + b);
                 possibleVals.add(a - b);
-                possibleVals.add(b - a);
+                possibleVals.add(b - a); //b-a is not required, our i and j for loop will take care of it
                 possibleVals.add(a * b);
 
                 if (Math.abs(b) > 0.0) {
                     possibleVals.add(a / b);
                 }
                 if (Math.abs(a) > 0.0) {
-                    possibleVals.add(b / a);
+                    possibleVals.add(b / a); //b/a is not required, our i and j for loop will take care of it
                 }
 
                 for (double val : possibleVals) {
