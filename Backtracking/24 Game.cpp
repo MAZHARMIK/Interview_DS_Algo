@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : Will update soon
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=mmu3_8n0fVM
+    Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/24-game/description
 */
 
