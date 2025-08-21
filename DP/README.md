@@ -174,11 +174,6 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20Submatrices%20With%20All%20Ones">Count Submatrices With All Ones (Leetcode - 1504)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Matrix%20Chain%20Multiplication%20(3%20approaches)">Matrix Chain Multiplication (3 approaches)</a>
 				</td>
 			</tr>
