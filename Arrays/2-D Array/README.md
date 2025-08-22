@@ -222,5 +222,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Count%20Submatrices%20With%20All%20Ones.cpp"> Count Submatrices With All Ones (Leetcode - 1504)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Find%20the%20Minimum%20Area%20to%20Cover%20All%20Ones%20I.cpp"> Find the Minimum Area to Cover All Ones I (Leetcode - 3195)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
