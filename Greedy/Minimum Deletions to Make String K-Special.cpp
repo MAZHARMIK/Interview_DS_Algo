@@ -57,7 +57,7 @@ public:
 
         sort(begin(freq), end(freq));
 
-        int result           = INT_MAX;
+        int result = INT_MAX;
         int deleted_till_now = 0;
 
         for(int i = 0; i < 26; i++) {
