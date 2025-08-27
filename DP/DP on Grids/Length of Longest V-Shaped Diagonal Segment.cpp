@@ -88,7 +88,7 @@ class Solution {
             return t[i_][j_][d][canTurn];
         }
 
-        int nextVal = (val == 2 ? 1 : 2);
+        int nextVal = (val == 2 ? 0 : 2);
 
         int result = 0;
 
