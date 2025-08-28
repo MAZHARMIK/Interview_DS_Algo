@@ -232,5 +232,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Find%20the%20Minimum%20Area%20to%20Cover%20All%20Ones%20II.cpp"> Find the Minimum Area to Cover All Ones II (Leetcode - 3197)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Sort%20Matrix%20by%20Diagonals.cpp"> Sort Matrix by Diagonals (Leetcode - 3446)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
