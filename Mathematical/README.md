@@ -269,5 +269,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Sum%20of%20k-Mirror%20Numbers.cpp"> Sum of k-Mirror Numbers (Leetcode - 2081) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Alice%20and%20Bob%20Playing%20Flower%20Game.cpp"> Alice and Bob Playing Flower Game (Leetcode - 3021) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
