@@ -19,7 +19,7 @@
 	<tbody>
 		<tr>
 			<td>
-				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Knapsack/FractionalKnapsack.java"> Fractional Knapsack (Greedy)</a>
+				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Knapsack%20Series/Fractional%20Knapsack.cpp"> Fractional Knapsack (Greedy)</a>
 			</td>
     </tr>
 	</tbody>
