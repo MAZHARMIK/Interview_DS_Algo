@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will update soon
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=TGzyArbMu7w
+    Company Tags                : Microsoft
     Leetcode Link               : https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
 */
 
