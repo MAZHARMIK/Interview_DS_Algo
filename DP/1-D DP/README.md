@@ -30,7 +30,7 @@
      		</tr>
        		<tr>
 			<td>
-				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Maximum%20Alternating%20Subsequence%20Sum.cpp"> Maximum Alternating Subsequence Sum (Leetcode-1911)</a>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Maximum%20Alternating%20Subsequence%20Sum.cpp"> Maximum Alternating Subsequence Sum (Leetcode-1911)           </a>
 			</td>
      		</tr>
        		<tr>
@@ -42,7 +42,6 @@
 			<td>
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Minimum%20Array%20Sum.cpp"> Minimum Array Sum (Leetcode - 3366)</a>
 			</td>
-     		</tr>
-		
+			</tr>
 	</tbody>
 </table>
