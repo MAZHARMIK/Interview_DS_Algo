@@ -534,5 +534,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Number%20of%20Ways%20to%20Place%20People%20I.cpp"> Find the Number of Ways to Place People I (Leetcode - 3025)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Number%20of%20Ways%20to%20Place%20People%20II.cpp"> Find the Number of Ways to Place People II (Leetcode - 3027)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
