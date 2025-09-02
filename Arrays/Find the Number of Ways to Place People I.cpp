@@ -160,8 +160,6 @@ class Solution {
 //Approach-2 (Using Sorting)
 //T.C : O(n^2)
 //S.C : O(1)
-import java.util.*;
-
 class Solution {
     public int numberOfPairs(int[][] points) {
         int n = points.length;
