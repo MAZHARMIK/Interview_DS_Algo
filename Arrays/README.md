@@ -529,5 +529,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Range%20Product%20Queries%20of%20Powers.cpp"> Range Product Queries of Powers (Leetcode - 2438)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Number%20of%20Ways%20to%20Place%20People%20I.cpp"> Find the Number of Ways to Place People I (Leetcode - 3025)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
