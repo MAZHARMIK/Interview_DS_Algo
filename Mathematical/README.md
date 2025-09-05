@@ -274,5 +274,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Alice%20and%20Bob%20Playing%20Flower%20Game.cpp"> Alice and Bob Playing Flower Game (Leetcode - 3021) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Minimum%20Operations%20to%20Make%20the%20Integer%20Zero.cpp"> Minimum Operations to Make the Integer Zero (Leetcode - 2749) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
