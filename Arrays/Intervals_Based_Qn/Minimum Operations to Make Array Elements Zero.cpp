@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code as well        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=VYDl3p9bkkw
     Company Tags                : Will update later
     Leetcode Qn Link            : https://leetcode.com/problems/minimum-operations-to-make-array-elements-zero
 */
