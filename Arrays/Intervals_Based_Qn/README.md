@@ -135,5 +135,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended.cpp"> Maximum Number of Events That Can Be Attended (Leetcode - 1353)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Minimum%20Operations%20to%20Make%20Array%20Elements%20Zero.cpp"> Minimum Operations to Make Array Elements Zero (Leetcode - 3495)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
