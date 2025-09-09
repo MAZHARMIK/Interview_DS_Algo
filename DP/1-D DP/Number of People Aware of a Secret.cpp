@@ -43,14 +43,14 @@ public:
         this->forget = forget;
         t.assign(n + 1, -1);
 
-        long long total = 0;
+        int total = 0;
         // only count people who haven't forgotten by day n
         for (int day = n - forget + 1; day <= n; day++) {
             if (day > 0) {
                 total = (total + solve(day)) % MOD;
             }
         }
-        return (int) total;
+        return total;
     }
 };
 
@@ -84,14 +84,14 @@ public:
         }
 
         // Count the people who still remember on day n
-        long long result = 0;
+        int result = 0;
         for (int day = n - forget + 1; day <= n; day++) {
             if (day > 0) {
                 result = (result + t[day]) % MOD;
             }
         }
 
-        return (int) result;
+        return result;
     }
 };
 
@@ -131,7 +131,7 @@ class Solution {
         t = new int[n + 1];
         Arrays.fill(t, -1);
 
-        long total = 0;
+        int total = 0;
         // only count people who still remember on day n
         for (int day = n - forget + 1; day <= n; day++) {
             if (day > 0) {
@@ -139,7 +139,7 @@ class Solution {
             }
         }
 
-        return (int) total;
+        return total;
     }
 }
 
@@ -170,13 +170,13 @@ class Solution {
         }
 
         // count the people who still remember on day n
-        long result = 0;
+        int result = 0;
         for (int day = n - forget + 1; day <= n; day++) {
             if (day > 0) {
                 result = (result + t[day]) % MOD;
             }
         }
 
-        return (int) result;
+        return result;
     }
 }
