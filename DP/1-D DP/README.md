@@ -43,5 +43,10 @@
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Minimum%20Array%20Sum.cpp"> Minimum Array Sum (Leetcode - 3366)</a>
 			</td>
 			</tr>
+			<tr>
+			<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Number%20of%20People%20Aware%20of%20a%20Secret.cpp"> Number of People Aware of a Secret (Leetcode - 2327)</a>
+			</td>
+			</tr>
 	</tbody>
 </table>
