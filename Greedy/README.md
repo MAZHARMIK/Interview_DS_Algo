@@ -299,5 +299,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Rearranging%20Fruits.cpp"> Rearranging Fruits (Leetcode - 2561)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20People%20to%20Teach.cpp"> Minimum Number of People to Teach (Leetcode - 1733)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
