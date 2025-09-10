@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=mToBak5z4BA
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/minimum-number-of-people-to-teach
 */
