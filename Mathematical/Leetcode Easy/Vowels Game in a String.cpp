@@ -7,7 +7,7 @@
 
 
 /********************************************************************* C++ *********************************************************************/
-//Approach (Simple math)
+//Approach-1 (Simple math)
 //T.C : O(n)
 //S.C : O(1)
 class Solution {
@@ -25,6 +25,22 @@ public:
 };
 
 
+//Approach-2 (Using one liner STL)
+//T.C : O(n)
+//S.C : O(1)
+class Solution {
+public:
+    bool doesAliceWin(string s) {
+        auto lambda = [](char ch) {
+            return string("aeiou").find(ch) != string::npos;
+        };
+
+        return any_of(s.begin(), s.end(), lambda);
+    }
+};
+
+
+
 
 /********************************************************************* JAVA *********************************************************************/
 //Approach (Simple math)
@@ -38,5 +54,15 @@ class Solution {
             }
         }
         return false;
+    }
+}
+
+
+//Approach-2 (Using one liner JCF)
+//T.C : O(n)
+//S.C : O(1)
+class Solution {
+    public boolean doesAliceWin(String s) {
+        return s.chars().anyMatch(ch -> "aeiou".indexOf(ch) >= 0);
     }
 }
