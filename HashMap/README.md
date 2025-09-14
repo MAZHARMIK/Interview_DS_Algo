@@ -174,5 +174,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Longest%20Palindrome%20by%20Concatenating%20Two%20Letter%20Words.cpp"> Longest Palindrome by Concatenating Two Letter Words (Leetcode - 2131)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Vowel%20Spellchecker.cpp"> Vowel Spellchecker (Leetcode - 966)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
