@@ -1,6 +1,6 @@
 /*    Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS QN : 
+    MY YOUTUBE VIDEO ON THIS QN : https://www.youtube.com/watch?v=4UsWxLV_6Ho
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/maximum-number-of-words-you-can-type
 */
