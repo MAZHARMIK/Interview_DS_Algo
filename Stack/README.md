@@ -206,5 +206,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Remove%20All%20Occurrences%20of%20a%20Substring.cpp"> Remove All Occurrences of a Substring (Leetcode - 1910)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Replace%20Non-Coprime%20Numbers%20in%20Array.cpp"> Replace Non-Coprime Numbers in Array (Leetcode - 2197)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
