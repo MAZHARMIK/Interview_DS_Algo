@@ -74,9 +74,8 @@ public:
         if (it == destTimestamps.end() || it->second.empty())
             return 0;
 
-        vector<int>& list = it->second;
-        int leftIdx  = (lower_bound(list.begin(), list.end(), startTime) - list.begin());
-        int rightIdx = (upper_bound(list.begin(), list.end(), endTime) - list.begin());
+        int i = lower_bound(begin(it->second), end(it->second), startTime) - begin(it->second);//log(size of vec)
+        int j = upper_bound(begin(it->second), end(it->second), endTime) - begin(it->second); //log(size of vec)
 
         return rightIdx - leftIdx;
     }
