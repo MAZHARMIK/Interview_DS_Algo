@@ -179,5 +179,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Spreadsheet.cpp"> Design Spreadsheet (Leetcode - 3484)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Implement%20Router.cpp"> Implement Router (Leetcode - 3508)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
