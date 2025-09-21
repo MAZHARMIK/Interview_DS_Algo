@@ -1,6 +1,6 @@
 /*        Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO IN THIS QN : 
+    MY YOUTUBE VIDEO IN THIS QN : https://www.youtube.com/watch?v=17UaJS5dYVc
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/design-movie-rental-system/
 */
@@ -22,43 +22,47 @@
 // movieToShopPrice   -> O(n) (sum of all shop-price pairs)
 // rented             -> O(r) (r = total rented movies)
 class MovieRentingSystem {
-    typedef pair<int,int> P;
-    unordered_map<int, set<P>> available;        // movie -> {price, shop}
-    unordered_map<int, set<P>> movieToShopPrice; // movie -> {shop, price}
-    set<tuple<int,int,int>> rented;              // {price, shop, movie}
-
+class MovieRentingSystem {
 public:
+    typedef pair<int, int> P;
+
+    unordered_map<int, set<P>> available; //movei -> set<{price, shop}>
+    unordered_map<int, set<P>> movieToShopPrice; //movie -> set<shop, price>
+    set<tuple<int, int, int>> rented; //{price, shop, movie}
+
     MovieRentingSystem(int n, vector<vector<int>>& entries) {
-        for (auto &entry : entries) {
-            int shop  = entry[0];
+        for(auto &entry : entries) {
+            int shop = entry[0];
             int movie = entry[1];
             int price = entry[2];
-            available[movie].insert({price, shop});
-            movieToShopPrice[movie].insert({shop, price});
+            available[movie].insert({price, shop}); //log(n)
+            movieToShopPrice[movie].insert({shop, price}); //log(n)
         }
     }
-
+    
     vector<int> search(int movie) {
         vector<int> result;
         int count = 0;
-        if (available.count(movie)) {
-            for (auto &[price, shop] : available[movie]) {
+        if(available.count(movie)) { //O(1)
+            for(auto &[_, shop] : available[movie]) { //O(5)
                 result.push_back(shop);
-                if (++count >= 5)
+                count++;
+                if(count >= 5)
                     break;
             }
         }
+
         return result;
     }
-
+    
     void rent(int shop, int movie) {
-        auto it = movieToShopPrice[movie].lower_bound({shop, INT_MIN});
+        auto it   = movieToShopPrice[movie].lower_bound({shop, INT_MIN}); //log(n)
         int price = it->second;
 
-        available[movie].erase({price, shop});
-        rented.insert({price, shop, movie});
+        available[movie].erase({price, shop}); //log(n)
+        rented.insert({price, shop, movie}); //log(n)
     }
-
+    
     void drop(int shop, int movie) {
         auto it = movieToShopPrice[movie].lower_bound({shop, INT_MIN});
         int price = it->second;
@@ -66,18 +70,30 @@ public:
         available[movie].insert({price, shop});
         rented.erase({price, shop, movie});
     }
-
+    
     vector<vector<int>> report() {
         vector<vector<int>> result;
         int count = 0;
-        for (auto &[price, shop, movie] : rented) {
+
+        for(auto &[price, shop, movie] : rented) { //O(5)
             result.push_back({shop, movie});
-            if (++count >= 5)
+            count++;
+            if(count >= 5)
                 break;
         }
+
         return result;
     }
 };
+
+/**
+ * Your MovieRentingSystem object will be instantiated and called as such:
+ * MovieRentingSystem* obj = new MovieRentingSystem(n, entries);
+ * vector<int> param_1 = obj->search(movie);
+ * obj->rent(shop,movie);
+ * obj->drop(shop,movie);
+ * vector<vector<int>> param_4 = obj->report();
+ */
 
 
 /***************************************************************** JAVA *****************************************************************/
@@ -158,7 +174,9 @@ class MovieRentingSystem {
             int count = 0;
             for (PriceShop ps : available.get(movie)) {
                 res.add(ps.shop);
-                if (++count >= 5) break;
+                count++;
+                if (count >= 5) 
+                    break;
             }
         }
         return res;
@@ -181,7 +199,9 @@ class MovieRentingSystem {
         int count = 0;
         for (RentedMovie rm : rented) {
             res.add(Arrays.asList(rm.shop, rm.movie));
-            if (++count >= 5) break;
+            count++;
+            if (count >= 5) 
+                break;
         }
         return res;
     }
