@@ -77,7 +77,7 @@ public:
         int i = lower_bound(begin(it->second), end(it->second), startTime) - begin(it->second);//log(size of vec)
         int j = upper_bound(begin(it->second), end(it->second), endTime) - begin(it->second); //log(size of vec)
 
-        return rightIdx - leftIdx;
+        return j - i;
     }
 };
 
