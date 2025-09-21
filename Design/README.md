@@ -184,5 +184,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Implement%20Router.cpp"> Implement Router (Leetcode - 3508)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Movie%20Rental%20System.cpp"> Design Movie Rental System (Leetcode - 1912)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
