@@ -279,5 +279,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Minimum%20Operations%20to%20Make%20the%20Integer%20Zero.cpp"> Minimum Operations to Make the Integer Zero (Leetcode - 2749) </a>
 				</td>
 			</tr>
+			<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Fraction%20to%20Recurring%20Decimal.cpp"> Fraction to Recurring Decimal (Leetcode - 166) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
