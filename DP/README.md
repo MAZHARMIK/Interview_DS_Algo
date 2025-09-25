@@ -268,8 +268,8 @@ Scramble String (Leetcode-87) (Memoized) </a>
 				</td>
 			</tr>
 			<tr>
-        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Triangle">Triangle (3 approaches) (Leetcode-120)</a>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Triangle.cpp"> Triangle (Leetcode - 120)</a>
 				</td>
 			</tr>
 			<tr>
