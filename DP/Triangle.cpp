@@ -44,16 +44,16 @@ class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size();
-        vector<vector<int>> dp = triangle;  // copy triangle for dp
+        vector<vector<int>> t = triangle;  // copy triangle for t
 
         // Start from second last row and move upwards
         for (int row = n - 2; row >= 0; row--) {
             for (int col = 0; col <= row; col++) { //1st row me 1 column, 2nd Row me 2 Columns, and so on, that's why (col <= row)
-                dp[row][col] += min(dp[row + 1][col], dp[row + 1][col + 1]);
+                t[row][col] += min(t[row + 1][col], t[row + 1][col + 1]);
             }
         }
 
-        return dp[0][0];  // minimum path sum
+        return t[0][0];  // minimum path sum
     }
 };
 
@@ -65,15 +65,15 @@ class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size();
-        vector<int> dp = triangle.back();  // last row
+        vector<int> t = triangle.back();  // last row
 
         for (int row = n - 2; row >= 0; row--) {
             for (int col = 0; col <= row; col++) {
-                dp[col] = triangle[row][col] + min(dp[col], dp[col + 1]);
+                t[col] = triangle[row][col] + min(t[col], t[col + 1]);
             }
         }
 
-        return dp[0];
+        return t[0];
     }
 };
 
@@ -85,24 +85,24 @@ class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size();
-        vector<int> dp(n, 0);
+        vector<int> t(n, 0);
 
-        dp[0] = triangle[0][0];
+        t[0] = triangle[0][0];
 
         for (int row = 1; row < n; row++) {
             // go right → left to avoid overwriting
             for (int col = row; col >= 0; col--) {
                 if (col == 0) {
-                    dp[col] = dp[col] + triangle[row][col];  // only from above
+                    t[col] = t[col] + triangle[row][col];  // only from above
                 } else if (col == row) {
-                    dp[col] = dp[col - 1] + triangle[row][col];  // only from above-left
+                    t[col] = t[col - 1] + triangle[row][col];  // only from above-left
                 } else {
-                    dp[col] = min(dp[col], dp[col - 1]) + triangle[row][col];
+                    t[col] = min(t[col], t[col - 1]) + triangle[row][col];
                 }
             }
         }
 
-        return *min_element(dp.begin(), dp.end());
+        return *min_element(t.begin(), t.end());
     }
 };
 
@@ -113,9 +113,9 @@ public:
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
-        int rows = triangle.size();
+        int n = triangle.size();
         
-        for(int row = 1; row < rows; row++) {
+        for(int row = 1; row < n; row++) {
             for(int col = 0; col<triangle[row].size(); col++) {
                 int prev_up_val  = triangle[row-1][min(col, (int)triangle[row-1].size()-1)];
                 int prev_up_left = triangle[row-1][max(col-1, 0)];
@@ -124,7 +124,7 @@ public:
             }
         }
         
-        return *min_element(triangle[rows-1].begin(), triangle[rows-1].end());
+        return *min_element(triangle[n-1].begin(), triangle[n-1].end());
         
     }
 };
@@ -176,23 +176,23 @@ class Solution {
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
-        int[][] dp = new int[n][n];
+        int[][] t = new int[n][n];
 
-        // Copy triangle into dp
+        // Copy triangle into t
         for (int i = 0; i < n; i++) {
             for (int j = 0; j <= i; j++) {
-                dp[i][j] = triangle.get(i).get(j);
+                t[i][j] = triangle.get(i).get(j);
             }
         }
 
         // Bottom-up calculation
         for (int row = n - 2; row >= 0; row--) {
             for (int col = 0; col <= row; col++) {
-                dp[row][col] += Math.min(dp[row + 1][col], dp[row + 1][col + 1]);
+                t[row][col] += Math.min(t[row + 1][col], t[row + 1][col + 1]);
             }
         }
 
-        return dp[0][0];
+        return t[0][0];
     }
 }
 
@@ -204,20 +204,20 @@ class Solution {
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
-        int[] dp = new int[n];
+        int[] t = new int[n];
 
         // Initialize with last row
         for (int i = 0; i < n; i++) {
-            dp[i] = triangle.get(n - 1).get(i);
+            t[i] = triangle.get(n - 1).get(i);
         }
 
         for (int row = n - 2; row >= 0; row--) {
             for (int col = 0; col <= row; col++) {
-                dp[col] = triangle.get(row).get(col) + Math.min(dp[col], dp[col + 1]);
+                t[col] = triangle.get(row).get(col) + Math.min(t[col], t[col + 1]);
             }
         }
 
-        return dp[0];
+        return t[0];
     }
 }
 
@@ -229,25 +229,25 @@ class Solution {
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
-        int[] dp = new int[n];
+        int[] t = new int[n];
 
-        dp[0] = triangle.get(0).get(0);
+        t[0] = triangle.get(0).get(0);
 
         for (int row = 1; row < n; row++) {
             // Go right → left to avoid overwriting previous values
             for (int col = row; col >= 0; col--) {
                 if (col == 0) {
-                    dp[col] = dp[col] + triangle.get(row).get(col);
+                    t[col] = t[col] + triangle.get(row).get(col);
                 } else if (col == row) {
-                    dp[col] = dp[col - 1] + triangle.get(row).get(col);
+                    t[col] = t[col - 1] + triangle.get(row).get(col);
                 } else {
-                    dp[col] = Math.min(dp[col], dp[col - 1]) + triangle.get(row).get(col);
+                    t[col] = Math.min(t[col], t[col - 1]) + triangle.get(row).get(col);
                 }
             }
         }
 
-        int minPath = dp[0];
-        for (int val : dp) {
+        int minPath = t[0];
+        for (int val : t) {
             minPath = Math.min(minPath, val);
         }
 
