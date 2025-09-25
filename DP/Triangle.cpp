@@ -9,7 +9,7 @@
 
 
 /**************************************************************** C++ ****************************************************************/
-//Approach-1 Recursion with Memoization - TLE
+//Approach-1 Recursion with Memoization - Accepted (In the video I initialized the t[][] by -1 by mistake. That's why you will see TLE in the video)
 //T.C : O(n^2) states in t[][]
 //S.C : O(n^2)
 class Solution {
@@ -20,7 +20,7 @@ public:
         if (row == n-1)
             return triangle[row][col];
 
-        if(t[row][col] != -1)
+        if(t[row][col] != INT_MAX)
             return t[row][col];
         
         int minPath = triangle[row][col] + 
@@ -31,7 +31,12 @@ public:
     }
     int minimumTotal(vector<vector<int>>& triangle) {
         n = triangle.size();
-        memset(t, -1, sizeof(t));
+       
+        for (int i = 0; i < 201; i++) {
+            for (int j = 0; j < 201; j++) {
+                t[i][j] = INT_MAX;
+            }
+        }
         return solve(triangle, 0, 0);
     }
 };
@@ -133,7 +138,7 @@ public:
 
 
 /**************************************************************** Java ****************************************************************/
-//Approach-1 Recursion with Memoization - TLE
+//Approach-1 Recursion with Memoization - Accepted (In the video I initialized the t[][] by -1 by mistake. That's why you will see TLE in the video)
 //T.C : O(n^2) states in t[][]
 //S.C : O(n^2)
 class Solution {
@@ -145,7 +150,7 @@ class Solution {
             return triangle.get(row).get(col);
         }
 
-        if (t[row][col] != -1) {
+        if (t[row][col] != Integer.MAX_VALUE) {
             return t[row][col];
         }
 
@@ -161,7 +166,7 @@ class Solution {
         t = new int[n][n];
 
         for (int i = 0; i < n; i++) {
-            Arrays.fill(t[i], -1);
+            Arrays.fill(t[i], Integer.MAX_VALUE);
         }
 
         return solve(triangle, 0, 0);
