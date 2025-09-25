@@ -1,8 +1,8 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn :
-    Company Tags  : Will updat elater
-    Leetcode Link : https://leetcode.com/problems/triangle/  
+    MY YOUTUBE VIDEO ON THIS Qn   :
+    Company Tags                  : Will updat elater
+    Leetcode Link                 : https://leetcode.com/problems/triangle/  
     
     Solve "Minimum Falling Path Sum" (Leetcode-931) before this question - https://www.youtube.com/watch?v=rpW1qKAs4V4
 */
