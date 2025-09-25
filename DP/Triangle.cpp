@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn   :
+    MY YOUTUBE VIDEO ON THIS Qn   : https://www.youtube.com/watch?v=zABL4mxtlj0
     Company Tags                  : Will updat elater
     Leetcode Link                 : https://leetcode.com/problems/triangle/  
     
