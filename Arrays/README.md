@@ -539,5 +539,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Number%20of%20Ways%20to%20Place%20People%20II.cpp"> Find the Number of Ways to Place People II (Leetcode - 3027)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20Triangular%20Sum%20of%20an%20Array.cpp"> Find Triangular Sum of an Array (Leetcode - 2221)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
