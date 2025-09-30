@@ -37,8 +37,8 @@ public:
         int n = nums.size();
         for (int size = n - 1; size >= 1; size--) {
 
-            for (int j = 0; j < size; j++) {
-                nums[j] = (nums[j] + nums[j + 1]) % 10;
+            for (int i = 0; i < size; i++) {
+                nums[i] = (nums[i] + nums[i + 1]) % 10;
             }
             
         }
@@ -72,8 +72,8 @@ class Solution {
 class Solution {
     public int triangularSum(int[] nums) {
         for (int size = nums.length - 1; size >= 1; size--) {
-            for (int j = 0; j < size; j++) {
-                nums[j] = (nums[j] + nums[j + 1]) % 10;
+            for (int i = 0; i < size; i++) {
+                nums[i] = (nums[i] + nums[i + 1]) % 10;
             }
         }
         return nums[0];
