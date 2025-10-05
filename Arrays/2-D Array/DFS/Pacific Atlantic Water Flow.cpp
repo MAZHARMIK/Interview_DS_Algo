@@ -1,6 +1,6 @@
 /*           Scroll below to see JAVA code also   */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=t0C4MzNf-1o
     Company Tags                : Amazon, Google
     Leetcode Link               : https://leetcode.com/problems/pacific-atlantic-water-flow/
 */
@@ -19,63 +19,67 @@
 //S.C : O(m*n)
 class Solution {
 public:
-    //helping variables
-    vector<vector<int>> directions{{1,0}, {-1, 0}, {0, 1}, {0, -1}};
-    
-    void DFS(vector<vector<int>>& matrix, int i, int j, int prev, vector<vector<bool>>& visited) {
-        if(i<0 || i >= matrix.size() || j < 0 || j >= matrix[0].size())
+    vector<vector<int>> directions = {{1, 0}, {-1, 0}, {0, -1}, {0, 1}};
+
+    void DFS(vector<vector<int>>& heights, int i, int j, int prevCellVal, vector<vector<bool>>& visited) {
+        if(i < 0 || i >= heights.size() || j < 0 || j >= heights[0].size()) { //invalid cell
             return;
-        
-        //Why matrix[i][j] < prev ?
-        //Ans : Because we are thinking backwards here, i.e. if one wants to flow toward pacific/atlantic from inwards to outwards
-        //Then, outwards value should be smaller or equal to inwards(prev) value (from where we are coming i.e. from matrix[i][j])
-        if(matrix[i][j] < prev || visited[i][j])
+        }
+
+        if(heights[i][j] < prevCellVal || visited[i][j])
             return;
+
         visited[i][j] = true;
-        for(auto dir:directions) {
-            int ni = i + dir[0];
-            int nj = j + dir[1];
-            
-            DFS(matrix, ni, nj, matrix[i][j], visited);
+        for(auto &dir : directions) {
+            int i_ = i + dir[0];
+            int j_ = j + dir[1];
+
+            DFS(heights, i_, j_, heights[i][j], visited);
         }
+
     }
-    
-    vector<vector<int>> pacificAtlantic(vector<vector<int>>& matrix) {
-        int row = matrix.size();
-        if(row == 0)
-            return {};
-        int col = matrix[0].size();
+
+    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
+        int m = heights.size(); //rows
+        int n = heights[0].size(); //cols
+
         vector<vector<int>> result;
-        vector<vector<bool>> pacific_visited(row, vector<bool>(col));
-        vector<vector<bool>> atlantic_visited(row, vector<bool>(col));
-        
-        //top row and bottom row
-        //top    : pacific
-        //bottom : atlantic
-        for(int j = 0; j<col; j++) {
-            DFS(matrix, 0, j, INT_MIN, pacific_visited); //pacific
-            DFS(matrix, row-1, j, INT_MIN, atlantic_visited); //atlantic
+
+        vector<vector<bool>> pacificVisited(m, vector<bool>(n, false)); //pacificVisited[i][j] = true, means [i][j] water can go to Pacific //m*n
+        vector<vector<bool>> atlanticVisited(m, vector<bool>(n, false)); //atlanticVisited[i][j] = true, means [i][j] water can go to atlantic //m*n
+        //T.C : O(m*n)
+        //S.C : O(m*n)
+
+
+        //Top Row and Bottom Row
+        //Top Row : Pacific connected already
+        //Bottom Row : atlantic connected already
+
+        for(int j = 0; j < n; j++) {
+            DFS(heights, 0, j, INT_MIN, pacificVisited); //Top Row
+            DFS(heights, m-1, j, INT_MIN, atlanticVisited); //Top Row
         }
-        
-        //left col and right col
-        //left   : pacific
-        //right  : atlantic
-        for(int i = 0; i<row; i++) {
-            DFS(matrix, i, 0, INT_MIN, pacific_visited); //pacific
-            DFS(matrix, i, col-1, INT_MIN, atlantic_visited); //atlantic
+
+        //First col and last column
+        //First col : Pacific connected already
+        //Last col : atlantic connected already
+        for(int i = 0; i < m; i++) {
+            DFS(heights, i, 0, INT_MIN, pacificVisited); //First column
+            DFS(heights, i, n-1, INT_MIN, atlanticVisited); //Last Column
         }
-        
-        for(int i = 0; i<row; i++) {
-            for(int j = 0; j<col; j++) {
-                if(pacific_visited[i][j] && atlantic_visited[i][j])
+
+
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(pacificVisited[i][j] && atlanticVisited[i][j]) {
                     result.push_back({i, j});
+                }
             }
         }
-        
+
         return result;
     }
 };
-
 
 
 
@@ -102,23 +106,23 @@ class Solution {
         int m = heights.length;
         int n = heights[0].length;
         
-        boolean[][] pacific = new boolean[m][n];
-        boolean[][] atlantic = new boolean[m][n];
+        boolean[][] pacificVisited = new boolean[m][n];
+        boolean[][] atlanticVisited = new boolean[m][n];
         
-        // Start DFS from Pacific border (top row and left column)
+        // Start DFS from pacificVisited border (top row and left column)
         for (int i = 0; i < m; i++) {
-            dfs(heights, pacific, i, 0, Integer.MIN_VALUE);
-            dfs(heights, atlantic, i, n - 1, Integer.MIN_VALUE);
+            dfs(heights, pacificVisited, i, 0, Integer.MIN_VALUE);
+            dfs(heights, atlanticVisited, i, n - 1, Integer.MIN_VALUE);
         }
         for (int j = 0; j < n; j++) {
-            dfs(heights, pacific, 0, j, Integer.MIN_VALUE);
-            dfs(heights, atlantic, m - 1, j, Integer.MIN_VALUE);
+            dfs(heights, pacificVisited, 0, j, Integer.MIN_VALUE);
+            dfs(heights, atlanticVisited, m - 1, j, Integer.MIN_VALUE);
         }
         
         // Collect cells that can reach both oceans
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (pacific[i][j] && atlantic[i][j]) {
+                if (pacificVisited[i][j] && atlanticVisited[i][j]) {
                     result.add(Arrays.asList(i, j));
                 }
             }
