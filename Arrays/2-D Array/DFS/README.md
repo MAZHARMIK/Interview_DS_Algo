@@ -10,7 +10,7 @@
 		<tbody>
 			<tr>
           			<td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Pacific%20Atlantic%20Water%20Flow">Pacific Atlantic Water Flow (Leetcode-417)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/DFS/Pacific%20Atlantic%20Water%20Flow.cpp"> Pacific Atlantic Water Flow (Leetcode 417)</a>
 				  </td>
       			</tr>
 			<tr>
