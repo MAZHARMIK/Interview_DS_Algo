@@ -8,7 +8,7 @@
 
 
 /*************************************************************** C++ ***************************************************************/
-//Approach - 1
+//Approach - 1 Brute Force
 /*
     Do a DFS on every cell and if a cell reaches both (pacific and atlantic), mark them as the result
     TIme Complexity : (m*n)*(m*n)
@@ -89,6 +89,78 @@ public:
     Do a DFS on every cell and if a cell reaches both (pacific and atlantic), mark them as the result
     TIme Complexity : (m*n)*(m*n)
 */
+class Solution {
+    public static boolean canReachAtlantic(int[][] heights, int i, int j, boolean[][] isVis){
+        if(i >= heights.length || j >= heights[0].length) return true;
+        if(i < 0 || j < 0) return false;
+        if(isVis[i][j]) return false;
+        isVis[i][j] = true;
+
+        int[] dx = {0, 1, 0, -1};
+        int[] dy = {1, 0, -1, 0};
+
+        for(int k = 0; k < 4; k++){
+            int newRow = i + dx[k];
+            int newCol = j + dy[k];
+
+            if(newRow >= 0 && newCol >= 0 && newRow < heights.length && newCol < heights[0].length && heights[newRow][newCol] <= heights[i][j]){
+                if(canReachAtlantic(heights, newRow, newCol, isVis)) return true;
+            }
+            else if(newRow >= heights.length || newCol >= heights[0].length){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static boolean canReachPacific(int[][] heights, int i, int j, boolean[][] isVis){
+        if(i < 0 || j < 0) return true;
+        if(i >= heights.length || j >= heights[0].length) return false;
+        if(isVis[i][j]) return false;
+        isVis[i][j] = true;
+
+        int[] dx = {0, 1, 0, -1};
+        int[] dy = {1, 0, -1, 0};
+
+        for(int k = 0; k < 4; k++){
+            int newRow = i + dx[k];
+            int newCol = j + dy[k];
+
+            if(newRow >= 0 && newCol >= 0 && newRow < heights.length && newCol < heights[0].length && heights[newRow][newCol] <= heights[i][j]){
+                if(canReachPacific(heights, newRow, newCol, isVis)) return true;
+            }
+            else if(newRow < 0 || newCol < 0){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public List<List<Integer>> pacificAtlantic(int[][] heights) {
+        List<List<Integer>> ans = new ArrayList<>();
+        int n = heights.length;
+        int m = heights[0].length;
+
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                boolean[][] vis1 = new boolean[n][m];
+                boolean[][] vis2 = new boolean[n][m];
+
+                boolean pacific = canReachPacific(heights, i, j, vis1);
+                boolean atlantic = canReachAtlantic(heights, i, j, vis2);
+
+                if(pacific && atlantic){
+                    List<Integer> list = new ArrayList<>();
+                    list.add(i);
+                    list.add(j);
+                    ans.add(i)(j);
+                }
+            }
+        }
+        return ans;
+    }
+}
+
 
 //Approach - 2 (Better DFS)
 //T.C : O(m*n)
