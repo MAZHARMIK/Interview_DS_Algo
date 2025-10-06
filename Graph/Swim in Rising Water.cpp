@@ -10,16 +10,17 @@
 */
 
 //Approach -1 (Binary Search + BFS) Time : O(n^2 * log(n))
+//NOTE - In the paths, we have to find the maximum from the minimum path (Minimize the Maximum Hints towards Binary Search)
 class Solution {
 public:
     int n;
     vector<vector<int>> directions{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-    int visited[50][50];
+    bool visited[50][50];
     bool reachable(vector<vector<int>>& grid, int i, int j, int mid) {
         if(i < 0 || i >= n || j < 0 || j >= n || visited[i][j] || grid[i][j] > mid)
             return false;
         
-        visited[i][j] = 1;
+        visited[i][j] = true;
         
         if(i == n-1 && j == n-1)
             return true;
@@ -39,77 +40,69 @@ public:
         n = grid.size();
         
         int l = grid[0][0], r = n*n-1;
-        
-        while(l < r) {
+        int result = 0;
+
+        while(l <= r) {
             int mid = l + (r-l)/2;
             memset(visited, 0, sizeof(visited));
             
             if(reachable(grid, 0, 0, mid)) {
-                r = mid;
+                result = mid;
+                r = mid-1;
             } else {
                 l = mid+1;
             }
         }
         
-        return l;
+        return result;
     }
 };
 
+
+
 //Approach-2 Dijkstra's Algo (priority_queue) Time : O(n^2 * log(n))
-//In every step, find lowest water level to move forward, so using PQ rather than queue
+//Single Source, Single Destination, We have to find the shortest path to reach m-1, n-1 and in the process, calculate result
 class Solution {
-    class cell {
-        public:
-            int x;
-            int y;
-            int timeRequired;
-            cell(int x, int y, int timeRe) {
-                this->x = x;
-                this->y = y;
-                this->timeRequired = timeRe;
-            }
-    };
-    
 public:
-    int m, n;
     vector<vector<int>> directions{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-    
+    using P = pair<int, pair<int, int>>; // {time, {i, j}}
+
     int swimInWater(vector<vector<int>>& grid) {
-        m = grid.size();
-        n = grid[0].size();
+        int n = grid.size();
+        vector<vector<int>> result(n, vector<int>(n, INT_MAX));
         
-        int visited[50][50] = {0};
-        
-        auto lambda = [&](cell& c1, cell& c2) {
-            return c1.timeRequired > c2.timeRequired;
-        };
-        
-        priority_queue<cell, vector<cell>, decltype(lambda)> pq(lambda);
-        
-        pq.push(cell(0, 0, grid[0][0]));
-        visited[0][0] = 1;
-        int leastTime = grid[0][0];
-        
-        while(!pq.empty()) {
-            cell currCell = pq.top();
+        priority_queue<P, vector<P>, greater<P>> pq; // min-heap by time
+        result[0][0] = grid[0][0];
+        pq.push({grid[0][0], {0, 0}});
+
+        while (!pq.empty()) {
+            int currTime = pq.top().first;
+            auto cell = pq.top().second;
+            int i = cell.first;
+            int j = cell.second;
             pq.pop();
-            
-            leastTime = max(leastTime, currCell.timeRequired);
-            if(currCell.x == m-1 && currCell.y == n-1)
-                break;
-            
-            for(vector<int>& dir : directions) {
-                int new_x = currCell.x + dir[0];
-                int new_y = currCell.y + dir[1];
-                
-                if(new_x >= 0 && new_x < m && new_y >= 0 && new_y < n && !visited[new_x][new_y]) {
-                    visited[new_x][new_y] = 1;
-                    pq.push(cell(new_x, new_y, grid[new_x][new_y]));
+
+            // if we reached destination, return time
+            if (i == n - 1 && j == n - 1)
+                return currTime;
+
+            // Skip if we’ve already found a better path
+            if (currTime > result[i][j]) continue;
+
+            for (auto& dir : directions) {
+                int i_ = i + dir[0];
+                int j_ = j + dir[1];
+                if (i_ >= 0 && i_ < n && j_ >= 0 && j_ < n) {
+                    int nextTime = max(currTime, grid[i_][j_]);
+
+                    if (nextTime < result[i_][j_]) {
+                        result[i_][j_] = nextTime;
+                        pq.push({nextTime, {i_, j_}});
+                    }
                 }
-                
             }
         }
-        
-        return leastTime;
+
+        return -1; // should never reach here
     }
 };
