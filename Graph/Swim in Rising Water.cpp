@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=9WYhuzn8hd8
     Company Tags                : Amazon
     Leetcode Link               : https://leetcode.com/problems/swim-in-rising-water/
     
