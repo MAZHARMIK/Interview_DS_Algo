@@ -53,7 +53,7 @@ public:
 /****************************************************************** JAVA ******************************************************************/
 //Approach (Binary search along with map and set and greedy)
 //T.C : O(n*logn)
-//S.C : O(1)
+//S.C : O(n)
 class Solution {
     public int[] avoidFlood(int[] rains) {
         int n = rains.length;
