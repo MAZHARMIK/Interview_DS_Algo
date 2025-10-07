@@ -256,9 +256,14 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Kth%20Smallest%20Product%20of%20Two%20Sorted%20Arrays.cpp"> Kth Smallest Product of Two Sorted Arrays (Leetcode - 2040)</a>
 				  </td>
       			</tr>
-			<tr>
+				<tr>
           			  <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximum%20Fruits%20Harvested%20After%20at%20Most%20K%20Steps.cpp"> Maximum Fruits Harvested After at Most K Steps (Leetcode - 2106)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Avoid%20Flood%20in%20The%20City.cpp"> Avoid Flood in The City (Leetcode - 1488)</a>
 				  </td>
       			</tr>
 		</tbody>
