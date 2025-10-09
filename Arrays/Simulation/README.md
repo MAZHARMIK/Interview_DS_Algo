@@ -36,7 +36,12 @@
       			</tr>
 				<tr>
           			<td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Walking%20Robot%20Simulation.cpp"> Walking Robot Simulation (Leetcode-874)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Walking%20Robot%20Simulation.cpp"> Walking Robot Simulation (Leetcode - 874)</a>
+				    </td>
+      			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions.cpp"> Find the Minimum Amount of Time to Brew Potions (Leetcode - 3494)</a>
 				    </td>
       			</tr>
 		</tbody>
