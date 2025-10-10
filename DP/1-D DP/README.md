@@ -44,9 +44,14 @@
 			</td>
 			</tr>
 			<tr>
-			<td>
-				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Number%20of%20People%20Aware%20of%20a%20Secret.cpp"> Number of People Aware of a Secret (Leetcode - 2327)</a>
-			</td>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Number%20of%20People%20Aware%20of%20a%20Secret.cpp"> Number of People Aware of a Secret (Leetcode - 2327)</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon.cpp"> Taking Maximum Energy From the Mystic Dungeon (Leetcode - 3147)</a>
+				</td>
 			</tr>
 	</tbody>
 </table>
