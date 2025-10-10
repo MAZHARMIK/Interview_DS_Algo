@@ -50,19 +50,16 @@ class Solution {
 public:
     int maximumEnergy(vector<int>& energy, int k) {
         int n = energy.size();
+        vector<int> t(n, 0); // DP array
 
-        // Fill dp values from the back
-        for (int i = n - 1; i >= 0; i--) { //see my video to understand why right to left traversal is needed here
-            if(i + k < n)
-                energy[i] += energy[i + k];
+        for (int i = n - 1; i >= 0; i--) { // see my video to understand why right to left traversal is needed here
+            if (i + k < n)
+                t[i] = energy[i] + t[i + k];
+            else
+                t[i] = energy[i];
         }
 
-        int maxEnergy = energy[0];
-        for (int i = 1; i < n; i++) {
-            maxEnergy = max(maxEnergy, energy[i]);
-        }
-
-        return maxEnergy;
+        return *max_element(begin(t), end(t));
     }
 };
 
@@ -108,16 +105,19 @@ class Solution {
 class Solution {
     public int maximumEnergy(int[] energy, int k) {
         int n = energy.length;
+        int[] t = new int[n]; // DP array to store max energy starting from each index
 
-        for (int i = n - 1; i >= 0; i--) { // see my video to understand why right to left traversal is needed here
-            if (i + k < n) {
-                energy[i] += energy[i + k];
-            }
+        for (int i = n - 1; i >= 0; i--) {
+            if (i + k < n)
+                t[i] = energy[i] + t[i + k];
+            else
+                t[i] = energy[i];
         }
 
-        int maxEnergy = energy[0];
+        // Find the maximum energy possible among all starting points
+        int maxEnergy = t[0];
         for (int i = 1; i < n; i++) {
-            maxEnergy = Math.max(maxEnergy, energy[i]);
+            maxEnergy = Math.max(maxEnergy, t[i]);
         }
 
         return maxEnergy;
