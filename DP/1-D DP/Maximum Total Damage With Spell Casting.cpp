@@ -65,9 +65,8 @@ public:
         for (int &x : power)
             mp[x]++;
 
-        // Step 2: Collect and sort unique values
-        vector<ll> nums;
-        nums.reserve(mp.size());
+        // Step 2: \\Collect and sort unique values
+        vector<ll> nums(mp.size());
         for (auto &p : mp)
             nums.push_back(p.first);
 
