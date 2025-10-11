@@ -3,6 +3,7 @@
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=i0hOOfgEJaU
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/maximum-total-damage-with-spell-casting
+    Same problem                : Leetcode 740. Delete and Earn
 */
 
 
