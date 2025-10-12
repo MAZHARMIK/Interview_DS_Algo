@@ -1,6 +1,6 @@
 /*      SCROLL BELOW TO SEE JAVA CODE AS WELL    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=tC698np8o6s
     Company Tags                : will soon update
     Leetcode Link               : https://leetcode.com/problems/find-sum-of-array-product-of-magical-sequences
 */
