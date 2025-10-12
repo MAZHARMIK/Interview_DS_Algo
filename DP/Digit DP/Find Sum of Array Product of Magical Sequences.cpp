@@ -7,9 +7,51 @@
 
 
 /************************************************************ C++ ***************************************************************************/
-//Approach : Usin Recursion + Memo with Bit Memoization (Digit DP)
-//T.C : 
-//S.C : 
+//Approach-1 (Recursion + Memoization with Brute Force)
+//T.C : O(m*N) after memoization but sum value becomes extremely high - Not feasible
+//S.C : O(M*2^N)
+class Solution {
+public:
+    typedef long long ll;
+    const int MOD = 1e9+7;
+    int N, M, K;
+    unordered_map<string, int> mp;
+
+    ll solve(int count, ll sum, vector<int>& nums) {
+        if(count == M) {
+            return (__builtin_popcountll(sum) == K) ? 1 : 0;
+        }
+
+        string key = to_string(count) + "_" + to_string(sum);
+        if(mp.count(key)) {
+            return mp[key];
+        }
+
+
+        ll totalSum = 0;
+        for(int i = 0; i < N; i++) {
+            ll newSum = sum + (1LL << i);
+
+            ll prod = (nums[i] * solve(count+1, newSum, nums)) % MOD;
+
+            totalSum = (totalSum + prod) % MOD;
+        }
+
+        return mp[key] = totalSum;
+    }
+
+    int magicalSum(int m, int k, vector<int>& nums) {
+        M = m;
+        K = k;
+        N = nums.size();
+
+        return (int)(solve(0, 0, nums) % MOD);
+    }
+};
+
+//Approach-2 : Usin Recursion + Memo with Bit Memoization (Digit DP)
+//T.C : O(N* M^2 * K)
+//S.C : O(N*M*K)
 class Solution {
 public:
     typedef long long ll;
@@ -102,9 +144,52 @@ public:
 
 
 /************************************************************ JAVA ***************************************************************************/
-//Approach : Usin Recursion + Memo with Bit Memoization (Digit DP)
-//T.C : 
-//S.C : 
+//Approach-1 (Recursion + Memoization with Brute Force)
+//T.C : O(m*N) after memoization but sum value becomes extremely high - Not feasible
+//S.C : O(M*2^N)
+class Solution {
+    final int MOD = 1_000_000_007;
+    int N, M, K;
+    Map<String, Long> memo = new HashMap<>();
+
+    long solve(int count, long sum, int[] nums) {
+        if (count == M) {
+            // Base condition — when we have picked M elements
+            return (Long.bitCount(sum) == K) ? 1 : 0;
+        }
+
+        String key = count + "_" + sum;
+        if (memo.containsKey(key)) {
+            return memo.get(key);
+        }
+
+        long totalSum = 0;
+        for (int i = 0; i < N; i++) {
+            long newSum = sum + (1L << i);
+
+            long prod = (nums[i] * solve(count + 1, newSum, nums)) % MOD;
+
+            totalSum = (totalSum + prod) % MOD;
+        }
+
+        memo.put(key, totalSum);
+        return totalSum;
+    }
+
+    public int magicalSum(int m, int k, int[] nums) {
+        this.M = m;
+        this.K = k;
+        this.N = nums.length;
+        memo.clear();
+        return (int)(solve(0, 0L, nums) % MOD);
+    }
+}
+
+
+
+//Approach-2 : Usin Recursion + Memo with Bit Memoization (Digit DP)
+//T.C : O(N* M^2 * K)
+//S.C : O(N*M*K)
 class Solution {
     static final int MOD = 1_000_000_007;
     int N, K;
