@@ -55,28 +55,45 @@ public:
 //Approach (simple traverse and check)
 //T.C : O(n*m)
 //S.C : O(1)
-class Solution {
-    public boolean isValid(String word) {
-        if (word.length() < 3) {
+public class Solution {
+
+    private boolean checkAnagram(String s1, String s2) {
+        if (s1.length() != s2.length()) {
             return false;
         }
 
-        boolean hasVowel = false;
-        boolean hasConsonant = false;
+        int[] arr = new int[26];
 
-        for (char ch : word.toCharArray()) {
-            if (Character.isLetter(ch)) {
-                ch = Character.toLowerCase(ch);
-                if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-                    hasVowel = true;
-                } else {
-                    hasConsonant = true;
-                }
-            } else if (!Character.isDigit(ch)) {
+        for (int i = 0; i < s1.length(); i++) {
+            arr[s1.charAt(i) - 'a']++;
+        }
+
+        for (int i = 0; i < s2.length(); i++) {
+            arr[s2.charAt(i) - 'a']--;
+        }
+
+        for (int i = 0; i < 26; i++) {
+            if (arr[i] != 0) {
                 return false;
             }
         }
 
-        return hasVowel && hasConsonant;
+        return true;
+    }
+
+    public List<String> removeAnagrams(String[] words) {
+        int n = words.length;
+        List<String> result = new ArrayList<>();
+
+        result.add(words[0]);
+
+        for (int i = 1; i < n; i++) {
+            String lastWord = result.get(result.size() - 1);
+            if (!checkAnagram(words[i], lastWord)) {
+                result.add(words[i]);
+            }
+        }
+
+        return result;
     }
 }
