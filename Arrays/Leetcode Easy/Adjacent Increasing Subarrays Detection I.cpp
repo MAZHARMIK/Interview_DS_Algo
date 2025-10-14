@@ -41,26 +41,26 @@ class Solution {
 public:
     bool hasIncreasingSubarrays(vector<int>& nums, int k) {
         int n = nums.size();
-        int currentRun = 1;
-        int previousRun = 0;
-        int maxAdjacentLen = 0;
 
-        for (int i = 1; i < n; i++) {
-            if (nums[i] > nums[i - 1]) {
-                currentRun++;
-            } else {
-                previousRun = currentRun;
-                currentRun = 1;
+        int currRun = 1;
+        int prevRun = 0;
+
+        for(int i = 1; i < n; i++) {
+            if(nums[i] > nums[i-1]) {
+                currRun++;
+            } else { //increaseing order break hogaya yaha par
+                prevRun = currRun;
+                currRun = 1;
             }
 
-            int longRunPossible = currentRun / 2;
-
-            int adjacentRunPossible = min(previousRun, currentRun);
-
-            maxAdjacentLen = max({maxAdjacentLen, longRunPossible, adjacentRunPossible}); //see my video for full intuition about it
-
-            if (maxAdjacentLen >= k)
+            if(currRun >= 2*k) {
+                //we can accomodate two subarrays in it length. >= k
                 return true;
+            }
+
+            if(min(currRun, prevRun) >= k) {
+                return true;
+            }
         }
 
         return false;
@@ -102,24 +102,27 @@ class Solution {
 class Solution {
     public boolean hasIncreasingSubarrays(List<Integer> nums, int k) {
         int n = nums.size();
-        int currentRun = 1;
-        int previousRun = 0;
-        int maxAdjacentLen = 0;
+
+        int currRun = 1;
+        int prevRun = 0;
 
         for (int i = 1; i < n; i++) {
             if (nums.get(i) > nums.get(i - 1)) {
-                currentRun++;
-            } else {
-                previousRun = currentRun;
-                currentRun = 1;
+                currRun++;
+            } else { // increasing order breaks here
+                prevRun = currRun;
+                currRun = 1;
             }
 
-            int longRunPossible = currentRun / 2;
-            int adjacentRunPossible = Math.min(previousRun, currentRun);
-            maxAdjacentLen = Math.max(maxAdjacentLen, Math.max(longRunPossible, adjacentRunPossible));
-
-            if (maxAdjacentLen >= k)
+            // if current run itself can fit two subarrays of length k
+            if (currRun >= 2 * k) {
                 return true;
+            }
+
+            // if current and previous increasing runs can fit one subarray each
+            if (Math.min(currRun, prevRun) >= k) {
+                return true;
+            }
         }
 
         return false;
