@@ -544,5 +544,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20Triangular%20Sum%20of%20an%20Array.cpp"> Find Triangular Sum of an Array (Leetcode - 2221)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Adjacent%20Increasing%20Subarrays%20Detection%20II.cpp"> Adjacent Increasing Subarrays Detection II (Leetcode - 3350)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
