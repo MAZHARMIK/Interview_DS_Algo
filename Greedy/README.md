@@ -304,5 +304,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20People%20to%20Teach.cpp"> Minimum Number of People to Teach (Leetcode - 1733)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations.cpp"> Maximum Number of Distinct Elements After Operations (Leetcode - 3397)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
