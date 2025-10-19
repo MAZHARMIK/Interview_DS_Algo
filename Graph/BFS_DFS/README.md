@@ -129,5 +129,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Maximum%20Candies%20You%20Can%20Get%20from%20Boxes.cpp"> Maximum Candies You Can Get from Boxes (Leetcode - 1298)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Lexicographically%20Smallest%20String%20After%20Applying%20Operations.cpp"> Lexicographically Smallest String After Applying Operations (Leetcode - 1625)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
