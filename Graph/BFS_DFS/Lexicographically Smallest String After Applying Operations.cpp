@@ -9,7 +9,9 @@
 
 /****************************************************************** C++ ******************************************************************/
 //Approach-1 (Using BFS)
-//T.C : O(n^2)
+//T.C : O(n^2) 
+//More Detailed TC : O(n × (n / gcd(n, b)) × (10 / gcd(10, a))) -> Here, n / gcd(n, b) represents the number of unique rotations possible, 
+//and 10 / gcd(10, a) represents the number of distinct digit patterns achievable through repeated additions modulo 10.
 //S.C : O(n^2)
 class Solution {
 public:
@@ -63,6 +65,8 @@ public:
 
 //Approach-2 (Using DFS)
 //T.C : O(n^2)
+//More Detailed TC : O(n × (n / gcd(n, b)) × (10 / gcd(10, a))) -> Here, n / gcd(n, b) represents the number of unique rotations possible, 
+//and 10 / gcd(10, a) represents the number of distinct digit patterns achievable through repeated additions modulo 10.
 //S.C : O(n^2)
 class Solution {
 public:
@@ -98,6 +102,8 @@ public:
 /****************************************************************** JAVA ******************************************************************/
 //Approach-1 (Using BFS)
 //T.C : O(n^2)
+//More Detailed TC : O(n × (n / gcd(n, b)) × (10 / gcd(10, a))) -> Here, n / gcd(n, b) represents the number of unique rotations possible, 
+//and 10 / gcd(10, a) represents the number of distinct digit patterns achievable through repeated additions modulo 10.
 //S.C : O(n^2)
 class Solution {
     private String rotate(String s, int b) {
@@ -157,6 +163,8 @@ class Solution {
 
 //Approach-2 (Using DFS)
 //T.C : O(n^2)
+//More Detailed TC : O(n × (n / gcd(n, b)) × (10 / gcd(10, a))) -> Here, n / gcd(n, b) represents the number of unique rotations possible, 
+//and 10 / gcd(10, a) represents the number of distinct digit patterns achievable through repeated additions modulo 10.
 //S.C : O(n^2)
 class Solution {
     void rotate(StringBuilder s, int b) {
