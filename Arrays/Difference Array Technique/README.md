@@ -24,10 +24,15 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Zero%20Array%20Transformation%20II.cpp"> Zero Array Transformation II (Leetcode - 3356)</a>
 				</td>
       			</tr>
-			<tr>
+			    <tr>
           			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Zero%20Array%20Transformation%20I.cpp"> Zero Array Transformation I (Leetcode - 3355)</a>
-				</td>
+				   </td>
+      			</tr>
+				 <tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I.cpp"> Maximum Frequency of an Element After Performing Operations I (Leetcode - 3346)</a>
+				   </td>
       			</tr>
 		</tbody>
 </table>
