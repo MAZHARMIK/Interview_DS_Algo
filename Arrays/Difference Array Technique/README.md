@@ -34,5 +34,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I.cpp"> Maximum Frequency of an Element After Performing Operations I (Leetcode - 3346)</a>
 				   </td>
       			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II.cpp"> Maximum Frequency of an Element After Performing Operations II (Leetcode - 3347)</a>
+				   </td>
+      			</tr>
 		</tbody>
 </table>
