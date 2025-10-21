@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn    : https://www.youtube.com/watch?v=CKha8fqTwBA
-    Company Tags                   : Will update soon
+    Company Tags                   : Google
     Leetcode Link                  : https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i
 */
 
