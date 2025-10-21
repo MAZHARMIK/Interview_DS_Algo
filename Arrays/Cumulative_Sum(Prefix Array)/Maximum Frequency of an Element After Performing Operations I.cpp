@@ -5,6 +5,10 @@
     Leetcode Link                  : https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i
 */
 
+//NOTE : It can also be solved using Difference Array Technique
+//YouTube Video - https://www.youtube.com/watch?v=BaEebscdBJM
+//Github Code - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I.cpp
+
 
 /************************************************************ C++ *****************************************************/
 //Approach - Using Cumulative Sum of Frequencies and trying all possible targets in nums
