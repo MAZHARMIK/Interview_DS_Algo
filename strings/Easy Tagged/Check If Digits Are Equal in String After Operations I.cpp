@@ -1,6 +1,6 @@
 /*    Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS QN : 
+    MY YOUTUBE VIDEO ON THIS QN : https://youtu.be/7Fhpx_pvAMo?si=o2ZjmvNulh0o-iGX
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i
 */
