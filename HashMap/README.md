@@ -179,5 +179,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Vowel%20Spellchecker.cpp"> Vowel Spellchecker (Leetcode - 966)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Next%20Greater%20Numerically%20Balanced%20Number.cpp"> Next Greater Numerically Balanced Number (Leetcode - 2048)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
