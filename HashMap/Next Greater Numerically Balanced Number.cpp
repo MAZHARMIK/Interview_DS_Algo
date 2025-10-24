@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=MLXm_hhOTmc
-    Company Tags                : Will update soon
+    Company Tags                : Adobe
     Leetcode Link               : https://leetcode.com/problems/next-greater-numerically-balanced-number
 */
 
