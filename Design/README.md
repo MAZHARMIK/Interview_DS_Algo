@@ -189,5 +189,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Design%20Movie%20Rental%20System.cpp"> Design Movie Rental System (Leetcode - 1912)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Simple%20Bank%20System.cpp"> Simple Bank System (Leetcode - 2043)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
