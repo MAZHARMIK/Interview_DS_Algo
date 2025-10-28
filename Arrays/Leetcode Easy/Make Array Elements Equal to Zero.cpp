@@ -68,8 +68,7 @@ public:
         int currSum = 0;
         int totalSum = accumulate(begin(nums), end(nums), 0);
         
-        for(int i = 0; i < n; i++)
-        {
+        for(int i = 0; i < n; i++) {
             currSum  += nums[i];
             totalSum -= nums[i];
             
