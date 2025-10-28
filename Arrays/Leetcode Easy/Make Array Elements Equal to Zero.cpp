@@ -64,28 +64,32 @@ class Solution {
 public:
     int countValidSelections(vector<int>& nums) {
         int n = nums.size();
-        int result = 0;
-        int currSum = 0;
-        int totalSum = accumulate(begin(nums), end(nums), 0);
-        
+
+        int result =0;
+        int curr = 0;
+        int S = accumulate(begin(nums), end(nums), 0);//for loop bhi likh sakte ho
+
+
         for(int i = 0; i < n; i++) {
-            currSum  += nums[i];
-            totalSum -= nums[i];
-            
-            if(nums[i] != 0) 
+            curr += nums[i]; //left sum
+
+            int left  = curr;
+            int right = S - left;
+
+            if(nums[i] != 0) {
                 continue;
+            }
 
-            if(currSum == totalSum) 
+            if(left == right)
                 result += 2;
-
-            if(abs(currSum - totalSum) == 1)
-                result++;
+            
+            if(abs(left - right) == 1)
+                result += 1;
         }
 
         return result;
     }
 };
-
 
 
 /*********************************************************** JAVA **************************************************/
@@ -140,21 +144,24 @@ class Solution {
         int n = nums.length;
         int result = 0;
         int currSum = 0;
-        int totalSum = 0;
+        int S = 0;
 
         for (int num : nums) {
-            totalSum += num;
+            S += num;
         }
 
         for (int i = 0; i < n; i++) {
             currSum += nums[i];
-            totalSum -= nums[i];
 
-            if (nums[i] != 0) continue;
+            int left  = currSum;
+            int right = S - left;
 
-            if (currSum == totalSum)
+            if (nums[i] != 0) 
+                continue;
+
+            if (left == right)
                 result += 2;
-            else if (Math.abs(currSum - totalSum) == 1)
+            else if (Math.abs(left - right) == 1)
                 result++;
         }
 
