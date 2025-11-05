@@ -258,11 +258,16 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
           			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sliding%20Window/Maximum%20Erasure%20Value.cpp"> Maximum Erasure Value (Leetcode 1695) </a>
 				</td>
-      			</tr>
+      		</tr>
 			<tr>
           			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Fruit%20Into%20Baskets.cpp"> Fruit Into Baskets (Leetcode 904) </a>
 				</td>
-      			</tr>
+      		</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20II.cpp"> Find X-Sum of All K-Long Subarrays II (Leetcode 3321) </a>
+				</td>
+      		</tr>
 		</tbody>
 </table>
