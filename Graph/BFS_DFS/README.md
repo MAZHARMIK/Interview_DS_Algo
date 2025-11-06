@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Lexicographically%20Smallest%20String%20After%20Applying%20Operations.cpp"> Lexicographically Smallest String After Applying Operations (Leetcode - 1625)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Power%20Grid%20Maintenance.cpp"> Power Grid Maintenance (Leetcode - 3607)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
