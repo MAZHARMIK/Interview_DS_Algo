@@ -1,6 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=ylJ2lDHUBZA
+    MY YOUTUBE VIDEO ON THIS Qn : DFS - https://www.youtube.com/watch?v=ylJ2lDHUBZA
+                                  DSU - https://www.youtube.com/watch?v=R85fl-ku9WQ
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/power-grid-maintenance
 */
