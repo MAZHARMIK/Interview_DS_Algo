@@ -266,5 +266,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Avoid%20Flood%20in%20The%20City.cpp"> Avoid Flood in The City (Leetcode - 1488)</a>
 				  </td>
       			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximize%20the%20Minimum%20Powered%20City.cpp"> Maximize the Minimum Powered City (Leetcode - 2528)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
