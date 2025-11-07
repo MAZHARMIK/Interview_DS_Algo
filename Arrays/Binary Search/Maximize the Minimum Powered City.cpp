@@ -14,57 +14,63 @@
 class Solution {
 public:
 
-    bool check(long long mid, vector<long long>& diff, int n, int r, int k) {
+    bool check(long long mid, vector<long long>& diff, int r, int k, int n) {
         vector<long long> tempDiff = diff;
-        long long cumSum = 0;
 
-        for (int i = 0; i < n; i++) {
+        long long cumSum = 0; //it will give power of a city at any point of time
+
+        for(int i = 0; i < n; i++) {
             cumSum += tempDiff[i];
 
-            if (cumSum < mid) {
+            if(cumSum < mid) {
                 long long need = mid - cumSum;
-                if (need > k)
+                if(need > k) {
                     return false;
+                }
 
-                k      -= need;
-                cumSum += need;
-                //Gredily adding the value to (i+r)th city because it will anyways cover ith city.
-                //And using difference array technique below to find cumulative sum
-                int idx = i + 2*r + 1;
-                if (idx < n)
-                    tempDiff[idx] -= need;
+                k -= need;
+                cumSum += need; //gredily I had chosen to add station on the city which can cover more range
+
+                //i......X.....i+2*r
+                if(i + 2*r + 1 < n)
+                    tempDiff[i+2*r+1] -= need; //applying difference array technique
             }
         }
+
         return true;
     }
 
     long long maxPower(vector<int>& stations, int r, int k) {
         int n = stations.size();
 
-        vector<long long> diff(n + 1, 0);
+        vector<long long> diff(n, 0);
 
-        // Build difference array
-        for (int i = 0; i < n; i++) {
-            diff[max(0, i - r)]     += stations[i];
+        for(int i = 0; i < n; i++) {
+            diff[max(0, i-r)] += stations[i];
 
-            if(i+r+1 < n)
+            if(i + r + 1 < n)
                 diff[i+r+1] -= stations[i];
         }
 
-        long long left  = *min_element(stations.begin(), stations.end());
-        long long right = accumulate(stations.begin(), stations.end(), 0LL) + k;
+        long long left  = *min_element(begin(stations), end(stations));
+        long long right = accumulate(begin(stations), end(stations), 0LL) + k;
 
-        // Binary search
-        while (left < right) {
-            long long mid = left + (right - left + 1) / 2;
 
-            if (check(mid, diff, n, r, k))
-                left = mid;
-            else
-                right = mid - 1;
+        long long result = 0;
+
+        //T.C : n * log(sum)
+        while(left <= right) {
+            long long mid = left + (right - left)/2;
+
+            if(check(mid, diff, r, k, n)) {
+                result = mid;
+                left = mid+1;
+            } else {
+                right = mid-1;
+            }
         }
 
-        return left;
+        return result;
     }
 };
 
@@ -77,8 +83,8 @@ public:
 //S.C : O(n)
 class Solution {
 
-    private boolean check(long mid, long[] diff, int n, int r, long k) {
-        long[] tempDiff = diff.clone();
+    private boolean check(long mid, long[] diff, int r, long k, int n) {
+        long[] tempDiff = Arrays.copyOf(diff, n);
         long cumSum = 0;
 
         for (int i = 0; i < n; i++) {
@@ -86,14 +92,17 @@ class Solution {
 
             if (cumSum < mid) {
                 long need = mid - cumSum;
-                if (need > k) return false;
+                if (need > k) {
+                    return false;
+                }
 
-                k      -= need;
+                k -= need;
                 cumSum += need;
 
-                // Greedy placement at i+r, applied through diff-array at (i + 2r + 1)
-                int idx = i + 2 * r + 1;
-                if (idx < n) tempDiff[idx] -= need;
+                // apply difference array logic
+                if (i + 2L * r + 1 < n) {
+                    tempDiff[(int)(i + 2L * r + 1)] -= need;
+                }
             }
         }
         return true;
@@ -101,39 +110,32 @@ class Solution {
 
     public long maxPower(int[] stations, int r, int k) {
         int n = stations.length;
-
-        long[] diff = new long[n + 1];
+        long[] diff = new long[n];
 
         // Build difference array
         for (int i = 0; i < n; i++) {
-            int L = Math.max(0, i - r);
-            int R = i + r + 1;
-
-            diff[L] += stations[i];
-            if (R < n) diff[R] -= stations[i];
+            int left = Math.max(0, i - r);
+            int right = i + r + 1;
+            diff[left] += stations[i];
+            if (right < n) diff[right] -= stations[i];
         }
 
-        // lower bound = min window sum = min prefix of diff
-        long minVal = Long.MAX_VALUE;
-        long sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum += diff[i];
-            minVal = Math.min(minVal, sum);
-        }
+        long left = Arrays.stream(stations).min().getAsInt();
+        long right = Arrays.stream(stations).asLongStream().sum() + k;
+        long result = 0;
 
-        long left = minVal;                         // min coverage
-        long right = Arrays.stream(stations).asLongStream().sum() + k;  // max possible
+        // Binary search
+        while (left <= right) {
+            long mid = left + (right - left) / 2;
 
-        // Binary search on answer
-        while (left < right) {
-            long mid = left + (right - left + 1) / 2;
-
-            if (check(mid, diff, n, r, k))
-                left = mid;
-            else
+            if (check(mid, diff, r, k, n)) {
+                result = mid;
+                left = mid + 1;
+            } else {
                 right = mid - 1;
+            }
         }
 
-        return left;
+        return result;
     }
 }
