@@ -7,7 +7,7 @@
 
 
 /********************************************************************* C++ *********************************************************************/
-//Approach-1 (Using Maths similar to Euclidean Formula - Iterative)
+//Approach-1 (Using Maths similar to Euclidean Algorithm - Iterative)
 //T.C : O(log(min(a, b)))
 //S.C : O(1)
 class Solution {
@@ -28,7 +28,7 @@ public:
 };
 
 
-//Approach-2 (Using Maths similar to Euclidean Formula - Recursion)
+//Approach-2 (Using Maths similar to Euclidean Algorithm - Recursion)
 //T.C : O(log(min(a, b)))
 //S.C : O(1)
 class Solution {
@@ -50,7 +50,7 @@ public:
 
 
 /********************************************************************* C++ *********************************************************************/
-//Approach-1 (Using Maths similar to Euclidean Formula - Iterative)
+//Approach-1 (Using Maths similar to Euclidean Algorithm - Iterative)
 //T.C : O(log(min(a, b)))
 //S.C : O(1)
 
@@ -74,7 +74,7 @@ class Solution {
 
 
 
-//Approach-2 (Using Maths similar to Euclidean Formula - Recursion)
+//Approach-2 (Using Maths similar to Euclidean Algorithm - Recursion)
 //T.C : O(log(min(a, b)))
 //S.C : O(1)
 
