@@ -1,8 +1,8 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags  : Google
-    Leetcode Link : https://leetcode.com/problems/ones-and-zeroes
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=P_mC0wOTNV4
+    Company Tags                : Google
+    Leetcode Link               : https://leetcode.com/problems/ones-and-zeroes
 */
 
 
