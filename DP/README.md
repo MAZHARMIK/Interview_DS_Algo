@@ -732,7 +732,7 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			</tr>
         		<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Ways%20to%20Express%20an%20Integer%20as%20Sum%20of%20Powers.cpp"> Ways to Express an Integer as Sum of Powers (Leetcode - 2787)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Ones%20and%20Zeroes.cpp"> Ones and Zeroes (Leetcode - 474)</a>
 				</td>
 			</tr>
 		</tbody>
