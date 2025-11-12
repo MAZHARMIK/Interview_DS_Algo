@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=6VuCJCcpcZI
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1
 */
