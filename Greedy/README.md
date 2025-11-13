@@ -314,5 +314,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Number%20of%20Operations%20to%20Make%20All%20Array%20Elements%20Equal%20to%201.cpp"> Minimum Number of Operations to Make All Array Elements Equal to 1 (Leetcode - 2654)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Number%20of%20Operations%20to%20Move%20Ones%20to%20the%20End.cpp"> Maximum Number of Operations to Move Ones to the End (Leetcode - 3228)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
