@@ -397,5 +397,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Using%20a%20Robot%20to%20Print%20the%20Lexicographically%20Smallest%20String.cpp"> Using a Robot to Print the Lexicographically Smallest String (Leetcode - 2434)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20the%20Number%20of%20Substrings%20With%20Dominant%20Ones.cpp"> Count the Number of Substrings With Dominant Ones (Leetcode - 3234)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
