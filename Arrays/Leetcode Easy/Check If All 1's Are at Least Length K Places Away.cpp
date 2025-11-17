@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=tEi_ZUkC7wk
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away
 */
