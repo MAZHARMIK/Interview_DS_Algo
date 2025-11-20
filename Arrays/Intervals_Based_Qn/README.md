@@ -140,5 +140,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Minimum%20Operations%20to%20Make%20Array%20Elements%20Zero.cpp"> Minimum Operations to Make Array Elements Zero (Leetcode - 3495)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Set%20Intersection%20Size%20At%20Least%20Two.cpp"> Set Intersection Size At Least Two (Leetcode - 757)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
