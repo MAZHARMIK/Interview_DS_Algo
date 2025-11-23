@@ -319,5 +319,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Number%20of%20Operations%20to%20Move%20Ones%20to%20the%20End.cpp"> Maximum Number of Operations to Move Ones to the End (Leetcode - 3228)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Greatest%20Sum%20Divisible%20by%20Three.cpp"> Greatest Sum Divisible by Three (Leetcode - 1262)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
