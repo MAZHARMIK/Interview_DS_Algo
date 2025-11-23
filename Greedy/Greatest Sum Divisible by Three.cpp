@@ -36,12 +36,12 @@ public:
 
         if (sum % 3 == 1) {
             int remove1 = remain1.size() >= 1 ? remain1[0] : INT_MAX;
-            int remove2 = remain2.size() >  1 ? remain2[0] + remain2[1] : INT_MAX;
+            int remove2 = remain2.size() >= 2 ? remain2[0] + remain2[1] : INT_MAX;
             result      = sum - min(remove1, remove2);
         } 
         else { // sum % 3 == 2
             int remove1 = remain2.size() >= 1 ? remain2[0] : INT_MAX;
-            int remove2 = remain1.size() >  1 ? remain1[0] + remain1[1] : INT_MAX;
+            int remove2 = remain1.size() >= 2 ? remain1[0] + remain1[1] : INT_MAX;
             result      = sum - min(remove1, remove2);
         }
 
@@ -150,12 +150,12 @@ class Solution {
 
         if (sum % 3 == 1) {
             int remove1 = remain1.size() >= 1 ? remain1.get(0) : Integer.MAX_VALUE;
-            int remove2 = remain2.size() > 1 ? remain2.get(0) + remain2.get(1) : Integer.MAX_VALUE;
+            int remove2 = remain2.size() >= 2 ? remain2.get(0) + remain2.get(1) : Integer.MAX_VALUE;
             result = sum - Math.min(remove1, remove2);
         } 
         else { // sum % 3 == 2
             int remove1 = remain2.size() >= 1 ? remain2.get(0) : Integer.MAX_VALUE;
-            int remove2 = remain1.size() > 1 ? remain1.get(0) + remain1.get(1) : Integer.MAX_VALUE;
+            int remove2 = remain1.size() >= 2 ? remain1.get(0) + remain1.get(1) : Integer.MAX_VALUE;
             result = sum - Math.min(remove1, remove2);
         }
 
