@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=yqCSa29Ugxc
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/smallest-integer-divisible-by-k/
 */
