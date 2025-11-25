@@ -46,7 +46,7 @@
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Smallest%20Integer%20Divisible%20by%20K">Smallest Integer Divisible by K (Leetcode : 1015)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Smallest%20Integer%20Divisible%20by%20K.cpp">Smallest Integer Divisible by K (Leetcode : 1015)</a>
 				</td>
 			</tr>
 			<tr>
