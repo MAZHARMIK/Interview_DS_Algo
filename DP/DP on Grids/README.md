@@ -44,5 +44,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Length%20of%20Longest%20V-Shaped%20Diagonal%20Segment.cpp"> Length of Longest V-Shaped Diagonal Segment (Leetcode - 3459)</a>
 				</td>
 			</tr>
+			<tr>
+         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K.cpp"> Paths in Matrix Whose Sum Is Divisible by K (Leetcode - 2435)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
