@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=k-9LZZEB1sI
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k
 */
