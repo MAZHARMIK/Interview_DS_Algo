@@ -58,7 +58,7 @@ public:
         int m = grid.size();
         int n = grid[0].size();
 
-        int t[m][n][k];
+        int t[m+1][n+1][k+1];
         memset(t, 0, sizeof(t));
         // t[i][j][remain] = number of paths from [i][j] to [m-1][n-1] with current remainder = remain
 
@@ -77,8 +77,8 @@ public:
 
                     int newRemain = (remain + grid[row][col]) % k;
 
-                    long long down  = (row + 1 < m) ? t[row + 1][col][newRemain] : 0;
-                    long long right = (col + 1 < n) ? t[row][col + 1][newRemain] : 0;
+                    long long down  = t[row + 1][col][newRemain];
+                    long long right = t[row][col + 1][newRemain];
 
                     t[row][col][remain] = (down + right) % M;
                 }
@@ -88,6 +88,7 @@ public:
         return t[0][0][0];
     }
 };
+
 
 
 
@@ -146,7 +147,7 @@ class Solution {
         int m = grid.length;
         int n = grid[0].length;
 
-        int[][][] t = new int[m][n][k];
+        int[][][] t = new int[m+1][n+1][k+1];
 
         // Base case same as recursion
         for (int remain = 0; remain < k; remain++) {
@@ -165,8 +166,8 @@ class Solution {
 
                     int newRemain = (remain + grid[row][col]) % k;
 
-                    long down  = (row + 1 < m) ? t[row + 1][col][newRemain] : 0;
-                    long right = (col + 1 < n) ? t[row][col + 1][newRemain] : 0;
+                    long down  = t[row + 1][col][newRemain];
+                    long right = t[row][col + 1][newRemain];
 
                     t[row][col][remain] = (int)((down + right) % M);
                 }
