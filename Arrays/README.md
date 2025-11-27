@@ -549,5 +549,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Adjacent%20Increasing%20Subarrays%20Detection%20II.cpp"> Adjacent Increasing Subarrays Detection II (Leetcode - 3350)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K.cpp"> Maximum Subarray Sum With Length Divisible by K (Leetcode - 3381)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
