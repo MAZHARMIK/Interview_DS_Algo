@@ -21,9 +21,9 @@ public:
 
         int sum = 0;
 
-        for (int neighbor : adj[curr]) {
-            if (neighbor != parent) {
-                sum += dfs(neighbor, curr, adj, values, k);
+        for (int &ngbr : adj[curr]) {
+            if (ngbr != parent) {
+                sum += dfs(ngbr, curr, adj, values, k);
                 sum %= k;
             }
         }
@@ -73,9 +73,9 @@ class Solution {
 
         int sum = 0;
 
-        for (int neighbor : adj.get(curr)) {
-            if (neighbor != parent) {
-                sum += dfs(neighbor, curr, adj, values, k);
+        for (int ngbr : adj.get(curr)) {
+            if (ngbr != parent) {
+                sum += dfs(ngbr, curr, adj, values, k);
                 sum %= k;
             }
         }
