@@ -139,5 +139,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Power%20Grid%20Maintenance.cpp"> Power Grid Maintenance (Leetcode - 3607)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Maximum%20Number%20of%20K-Divisible%20Components.cpp"> Maximum Number of K-Divisible Components (Leetcode - 2872)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
