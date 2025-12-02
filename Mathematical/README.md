@@ -289,5 +289,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Smallest%20Missing%20Non-negative%20Integer%20After%20Operations.cpp"> Smallest Missing Non-negative Integer After Operations (Leetcode - 2598) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Number%20of%20Trapezoids%20I.cpp"> Count Number of Trapezoids I (Leetcode - 3623) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
