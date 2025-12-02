@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn                : 
+    MY YOUTUBE VIDEO ON THIS Qn                : https://www.youtube.com/watch?v=YI5ALyXyv_Q
     Company Tags                               : will soon update
     Leetcode Link                              : https://leetcode.com/problems/count-number-of-trapezoids-i
     
