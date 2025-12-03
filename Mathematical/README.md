@@ -294,5 +294,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Number%20of%20Trapezoids%20I.cpp"> Count Number of Trapezoids I (Leetcode - 3623) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Number%20of%20Trapezoids%20II.cpp"> Count Number of Trapezoids II (Leetcode - 3625) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
