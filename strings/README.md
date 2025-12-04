@@ -407,5 +407,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Number%20of%20Substrings%20With%20Only%201s.cpp"> Number of Substrings With Only 1s (Leetcode - 1513)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20Collisions%20on%20a%20Road.cpp"> Count Collisions on a Road (Leetcode - 2211)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
