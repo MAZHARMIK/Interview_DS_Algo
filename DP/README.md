@@ -735,5 +735,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Ones%20and%20Zeroes.cpp"> Ones and Zeroes (Leetcode - 474)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.cpp"> Count Partitions With Max-Min Difference at Most K (Leetcode - 3578)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
