@@ -7,7 +7,24 @@
 
 
 /********************************************************************* C++ *********************************************************************/
-//Approach-1 (Simple maths)
+//Approach-1 - Brute Force
+//T.C : O(high-low)
+//S.C : O(1)
+class Solution {
+public:
+    int countOdds(int low, int high) {
+        int count = 0;
+        low = low%2 ? low : low+1; //Make it odd
+
+        for(int num = low; num <= high; num+=2) { //move to alternate numbers for odd
+                count++;
+        }
+
+        return count;
+    }
+};
+
+//Approach-2 (Simple maths)
 //T.C : O(1)
 //S.C : O(1)
 class Solution {
@@ -25,8 +42,7 @@ public:
 };
 
 
-
-//Approach-2 (Simple maths)
+//Approach-3 (Simple maths)
 //T.C : O(1)
 //S.C : O(1)
 class Solution {
@@ -39,7 +55,23 @@ public:
 
 
 /********************************************************************* JAVA *********************************************************************/
-// Approach-1 (Simple maths)
+//Approach-1 - Brute Force
+//T.C : O(high-low)
+//S.C : O(1)
+class Solution {
+    public int countOdds(int low, int high) {
+        int count = 0;
+        low = (low%2 == 1) ? low : low+1; //Make it odd
+
+        for(int num = low; num <= high; num+=2) { //move to alternate numbers for odd
+                count++;
+        }
+
+        return count;
+    }
+}
+
+// Approach-2 (Simple maths)
 // T.C : O(1)
 // S.C : O(1)
 class Solution {
@@ -59,7 +91,7 @@ class Solution {
     }
 }
 
-// Approach-2 (Simple maths)
+// Approach-3 (Simple maths)
 // T.C : O(1)
 // S.C : O(1)
 class Solution {
