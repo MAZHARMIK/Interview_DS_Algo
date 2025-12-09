@@ -184,5 +184,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Next%20Greater%20Numerically%20Balanced%20Number.cpp"> Next Greater Numerically Balanced Number (Leetcode - 2048)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20Special%20Triplets.cpp"> Count Special Triplets (Leetcode - 3583)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
