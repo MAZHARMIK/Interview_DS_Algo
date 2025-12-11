@@ -189,5 +189,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20Special%20Triplets.cpp"> Count Special Triplets (Leetcode - 3583)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20Covered%20Buildings.cpp"> Count Covered Buildings (Leetcode - 3531)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
