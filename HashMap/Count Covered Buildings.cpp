@@ -20,17 +20,17 @@ public:
             int x = building[0];
             int y = building[1];
 
-            if (!yToMinMaxX.count(x))
-                yToMinMaxX[x] = {INT_MAX, INT_MIN};
+            if (!yToMinMaxX.count(y))
+                yToMinMaxX[y] = {INT_MAX, INT_MIN};
 
-            if (!xToMinMaxY.count(y))
-                xToMinMaxY[y] = {INT_MAX, INT_MIN};
+            if (!xToMinMaxY.count(x))
+                xToMinMaxY[x] = {INT_MAX, INT_MIN};
 
-            yToMinMaxX[x].first = min(yToMinMaxX[x].first, y);
-            yToMinMaxX[x].second = max(yToMinMaxX[x].second, y);
+            yToMinMaxX[y].first  = min(yToMinMaxX[y].first, x);
+            yToMinMaxX[y].second = max(yToMinMaxX[y].second, x);
 
-            xToMinMaxY[y].first = min(xToMinMaxY[y].first, x);
-            xToMinMaxY[y].second = max(xToMinMaxY[y].second, x);
+            xToMinMaxY[x].first = min(xToMinMaxY[x].first, y);
+            xToMinMaxY[x].second = max(xToMinMaxY[x].second, y);
         }
 
         int result = 0;
@@ -40,8 +40,8 @@ public:
             int y = building[1];
 
 
-            auto &xr = xToMinMaxY[y];
-            auto &yr = yToMinMaxX[x];
+            auto &xr = yToMinMaxX[y];
+            auto &yr = xToMinMaxY[x];
 
             if (xr.first < x && x < xr.second &&
                 yr.first < y && y < yr.second) {
@@ -52,6 +52,7 @@ public:
         return result;
     }
 };
+
 
 
 
@@ -69,16 +70,16 @@ class Solution {
             int x = building[0];
             int y = building[1];
 
-            yToMinMaxX.putIfAbsent(x, new int[]{Integer.MAX_VALUE, Integer.MIN_VALUE});
-            xToMinMaxY.putIfAbsent(y, new int[]{Integer.MAX_VALUE, Integer.MIN_VALUE});
+            yToMinMaxX.putIfAbsent(y, new int[]{Integer.MAX_VALUE, Integer.MIN_VALUE});
+            xToMinMaxY.putIfAbsent(x, new int[]{Integer.MAX_VALUE, Integer.MIN_VALUE});
 
-            int[] yr = yToMinMaxX.get(x);
-            yr[0] = Math.min(yr[0], y);
-            yr[1] = Math.max(yr[1], y);
-
-            int[] xr = xToMinMaxY.get(y);
+            int[] xr = yToMinMaxX.get(y);
             xr[0] = Math.min(xr[0], x);
             xr[1] = Math.max(xr[1], x);
+
+            int[] yr = xToMinMaxY.get(x);
+            yr[0] = Math.min(yr[0], y);
+            yr[1] = Math.max(yr[1], y);
         }
 
         int result = 0;
@@ -87,8 +88,8 @@ class Solution {
             int x = building[0];
             int y = building[1];
 
-            int[] xr = xToMinMaxY.get(y);
-            int[] yr = yToMinMaxX.get(x);
+            int[] xr = yToMinMaxX.get(y);
+            int[] yr = xToMinMaxY.get(x);
 
             if (xr[0] < x && x < xr[1] &&
                 yr[0] < y && y < yr[1]) {
