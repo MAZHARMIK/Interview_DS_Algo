@@ -1,4 +1,4 @@
-<a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icon.png" align="right" /><a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_orange_ff7600.png?resize=149%2C149" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
 <img src="https://1.bp.blogspot.com/-OalFqOUvJb0/X_hPAYM4rSI/AAAAAAAAAv4/9CumEdhng7MtVyyFjY_K6G0oxWV_0mPtACLcBGAsYHQ/s1000/AdobeStock_190193472_Preview.jpeg" width="600" height="250">
 
 # Arrays/Simulation : :triangular_flag_on_post:
@@ -42,6 +42,11 @@
 				<tr>
           			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions.cpp"> Find the Minimum Amount of Time to Brew Potions (Leetcode - 3494)</a>
+				    </td>
+      			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Count%20Mentions%20Per%20User.cpp"> Count Mentions Per User (Leetcode - 3433)</a>
 				    </td>
       			</tr>
 		</tbody>
