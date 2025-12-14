@@ -64,3 +64,46 @@ public:
 //Approach (Using Greedy)
 //T.C : O(n)
 //S.C : O(1)
+class Solution {
+    public long minMoves(int[] balance) {
+        int n = balance.length;
+
+        int culpritIndex = -1;
+        long sum = 0;
+
+        for (int i = 0; i < n; i++) {
+            sum += balance[i];
+            if (balance[i] < 0) {
+                culpritIndex = i;
+            }
+        }
+
+        if (culpritIndex == -1)
+            return 0;
+
+        if (sum < 0)
+            return -1;
+
+        long moves = 0;
+        int dist = 1; // neighbour distance
+
+        while (balance[culpritIndex] < 0) {
+            int right = (culpritIndex + dist) % n;
+            int left  = (culpritIndex - dist + n) % n;
+
+            long available = (long) balance[left] + balance[right];
+            if (left == right)
+                available -= balance[right];
+
+            long needed = -balance[culpritIndex];
+            long taken = Math.min(needed, available);
+
+            moves += taken * dist;
+            balance[culpritIndex] += taken;
+
+            dist++;
+        }
+
+        return moves;
+    }
+}
