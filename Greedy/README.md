@@ -324,5 +324,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Greatest%20Sum%20Divisible%20by%20Three.cpp"> Greatest Sum Divisible by Three (Leetcode - 1262)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Moves%20to%20Balance%20Circular%20Array.cpp"> Minimum Moves to Balance Circular Array (Leetcode - 3776)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
