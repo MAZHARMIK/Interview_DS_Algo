@@ -554,5 +554,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K.cpp"> Maximum Subarray Sum With Length Divisible by K (Leetcode - 3381)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.cpp"> Number of Smooth Descent Periods of a Stock (Leetcode - 2110)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
