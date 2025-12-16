@@ -740,5 +740,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.cpp"> Count Partitions With Max-Min Difference at Most K (Leetcode - 3578)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts.cpp"> Maximum Profit from Trading Stocks with Discounts (Leetcode - 3562)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
