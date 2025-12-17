@@ -78,7 +78,7 @@ public:
     long long maximumProfit(vector<int>& prices, int K) {
         int n = prices.size();
 
-        static long long t[1002][502][3];
+        long long t[1001][501][3];
 
         // Base case: i == n
         for (int k = 0; k <= K; k++) {
