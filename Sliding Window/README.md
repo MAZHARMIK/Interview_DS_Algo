@@ -269,5 +269,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20II.cpp"> Find X-Sum of All K-Long Subarrays II (Leetcode 3321) </a>
 				</td>
       		</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.cpp"> Best Time to Buy and Sell Stock using Strategy (Leetcode 3652) </a>
+				</td>
+      		</tr>
 		</tbody>
 </table>
