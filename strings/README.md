@@ -408,8 +408,13 @@
 				</td>
 			</tr>
 			<tr>
-        			<td>
+        		<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20Collisions%20on%20a%20Road.cpp"> Count Collisions on a Road (Leetcode - 2211)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Delete%20Columns%20to%20Make%20Sorted%20II.cpp"> Delete Columns to Make Sorted II (Leetcode - 955)</a>
 				</td>
 			</tr>
 		</tbody>
