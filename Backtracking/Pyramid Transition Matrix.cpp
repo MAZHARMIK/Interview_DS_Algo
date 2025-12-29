@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will update later
+    Company Tags                : Airbnb, Google, Uber, Snapchat
     Leetcode Link               : https://leetcode.com/problems/pyramid-transition-matrix
 */
 
