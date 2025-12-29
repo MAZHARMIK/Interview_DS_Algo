@@ -226,5 +226,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/24%20Game.cpp"> 24 Game (Leetcode - 679)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Pyramid%20Transition%20Matrix.cpp"> Pyramid Transition Matrix (Leetcode - 756)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
