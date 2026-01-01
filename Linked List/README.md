@@ -91,7 +91,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Plus%20One%20Linked%20List">Plus One Linked List (Leetcode-369)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Plus%20One%20Linked%20List.cpp">Plus One Linked List (Leetcode-369)</a>
 				</td>
 			</tr>
 			<tr>
@@ -232,6 +232,11 @@
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Insert%20Greatest%20Common%20Divisors%20in%20Linked%20List.cpp"> Insert Greatest Common Divisors in Linked List (Leetcode-2807)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Leetcode%20Easy/Plus%20One.cpp"> Plus One (Leetcode - 66)</a>
 				</td>
 			</tr>
 		</tbody>
