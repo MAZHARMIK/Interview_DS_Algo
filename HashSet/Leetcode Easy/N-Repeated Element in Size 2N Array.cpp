@@ -60,7 +60,7 @@ public:
                 return nums[i];
         }
         
-        return nums[n-1];
+        return nums[n-1]; //or, nums[0]
     }
 };
 
@@ -116,6 +116,6 @@ class Solution {
                 return nums[i];
         }
         
-        return nums[n - 1];
+        return nums[n - 1]; //or, nums[0]
     }
 }
