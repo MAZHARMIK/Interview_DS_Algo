@@ -60,7 +60,7 @@ public:
                 return nums[i];
         }
         
-        return nums[n-1]; //or, nums[0]
+        return nums[0]; //TO handles cases like [1, 1, 2, 3] or [1, 2, 3, 1]
     }
 };
 
@@ -116,6 +116,6 @@ class Solution {
                 return nums[i];
         }
         
-        return nums[n - 1]; //or, nums[0]
+        return nums[0];//TO handles cases like [1, 1, 2, 3] or [1, 2, 3, 1]
     }
 }
