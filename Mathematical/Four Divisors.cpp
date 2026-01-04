@@ -1,14 +1,14 @@
 /*     Scroll below to see JAVA code    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn                : 
-    Company Tags                               : will soon update
+    MY YOUTUBE VIDEO ON THIS Qn                : https://www.youtube.com/watch?v=MOYYok4_e0I
+    Company Tags                               : Capital One, Amazon, Microsoft, Google, Meta
     Leetcode Link                              : https://leetcode.com/problems/four-divisors/description/
     
 */
 
 /****************************************************** C++ **************************************************************/
 //Approach - Simple maths - Iterate and find factors
-//T.C : O(n * sqrt(n))
+//T.C : O(n * sqrt(maxNumber))
 //S.C : O(1)
 class Solution {
 public:
@@ -51,7 +51,7 @@ public:
 
 /****************************************************** JAVA **************************************************************/
 //Approach - Simple maths - Iterate and find factors
-//T.C : O(n * sqrt(n))
+//T.C : O(n * sqrt(maxNumber))
 //S.C : O(1)
 class Solution {
 
