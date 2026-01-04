@@ -301,7 +301,12 @@
 			</tr>
 			<tr>
        			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.cpp"> CCount the Number of Computer Unlocking Permutations (Leetcode - 3577) </a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.cpp"> Count the Number of Computer Unlocking Permutations (Leetcode - 3577) </a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Four%20Divisors.cpp"> Four Divisors (Leetcode - 1390) </a>
 				</td>
 			</tr>
 		</tbody>
