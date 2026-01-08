@@ -1,8 +1,8 @@
 /*            SCROLL BELOW TO SEE JAVA CODE AS WELL            */
 /*
       MY YOUTUBE VIDEO ON THIS Qn : Recur + memo - https://www.youtube.com/watch?v=Tk70PLqbYH4
-                                    Bottom Up - 
-      Company Tags                : Soon I will update
+                                    Bottom Up - Let me know if you want me to upload a separate video on Bottom Up :-)
+      Company Tags                : AMAZON
       Leetcode Link               : https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 */
 
