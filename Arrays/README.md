@@ -559,5 +559,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.cpp"> Number of Smooth Descent Periods of a Stock (Leetcode - 2110)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximize%20Area%20of%20Square%20Hole%20in%20Grid.cpp"> Maximize Area of Square Hole in Grid (Leetcode - 2943)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
