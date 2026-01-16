@@ -14,35 +14,39 @@ class Solution {
 public:
     int M = 1e9+7;
     int maximizeSquareArea(int m, int n, vector<int>& hFences, vector<int>& vFences) {
-        sort(begin(hFences), end(hFences));
-        sort(begin(vFences), end(vFences));
-
-        unordered_set<int> horDiff;
-        unordered_set<int> verDiff;
         hFences.push_back(1);
         hFences.push_back(m);
+
         vFences.push_back(1);
         vFences.push_back(n);
 
-        for(int i = 0; i < hFences.size(); i++) {
-            for(int j = i+1; j < hFences.size(); j++) {
-                int diff = abs(hFences[i] - hFences[j]);
-                horDiff.insert(diff);
+        sort(begin(hFences), end(hFences)); 
+        sort(begin(vFences), end(vFences));
+
+        unordered_set<int> widths;
+        unordered_set<int> heights;
+
+        for(int i = 0; i < vFences.size(); i++) {
+            for(int j = i+1; j < vFences.size(); j++) {
+                int width = vFences[j] - vFences[i];
+                widths.insert(width);
             }
         }
 
-        int side = 0;
-        for(int i = 0; i < vFences.size(); i++) {
-            for(int j = i+1; j < vFences.size(); j++) {
-                int diff = abs(vFences[i] - vFences[j]);
+        int maxSide = 0;
 
-                if(horDiff.find(diff) != horDiff.end()) {
-                    side = max(side, diff);
+        for(int i = 0; i < hFences.size(); i++) {
+            for(int j = i+1; j < hFences.size(); j++) {
+                int height = hFences[j] - hFences[i];
+                if(widths.find(height) != widths.end()) { //found a square
+                    maxSide = max(maxSide, height);
                 }
             }
         }
 
-        return side == 0 ? -1 : (1LL * side*side) % M;
+        return maxSide == 0 ? -1 : (1LL * maxSide * maxSide) % M;
+
+        
     }
 };
 
@@ -58,9 +62,6 @@ class Solution {
 
     public int maximizeSquareArea(int m, int n, int[] hFences, int[] vFences) {
 
-        Arrays.sort(hFences);
-        Arrays.sort(vFences);
-
         List<Integer> hList = new ArrayList<>();
         List<Integer> vList = new ArrayList<>();
 
@@ -73,30 +74,34 @@ class Solution {
         vList.add(1);
         vList.add(n);
 
-        Set<Integer> horDiff = new HashSet<>();
+        Collections.sort(hList);
+        Collections.sort(vList);
 
-        // all horizontal differences
-        for (int i = 0; i < hList.size(); i++) {
-            for (int j = i + 1; j < hList.size(); j++) {
-                horDiff.add(Math.abs(hList.get(i) - hList.get(j)));
+        Set<Integer> widths = new HashSet<>();
+
+        // all vertical widths
+        for (int i = 0; i < vList.size(); i++) {
+            for (int j = i + 1; j < vList.size(); j++) {
+                widths.add(vList.get(j) - vList.get(i));
             }
         }
 
-        int side = 0;
+        int maxSide = 0;
 
-        // match vertical differences
-        for (int i = 0; i < vList.size(); i++) {
-            for (int j = i + 1; j < vList.size(); j++) {
-                int diff = Math.abs(vList.get(i) - vList.get(j));
-                if (horDiff.contains(diff)) {
-                    side = Math.max(side, diff);
+        // check horizontal heights
+        for (int i = 0; i < hList.size(); i++) {
+            for (int j = i + 1; j < hList.size(); j++) {
+                int height = hList.get(j) - hList.get(i);
+                if (widths.contains(height)) {
+                    maxSide = Math.max(maxSide, height);
                 }
             }
         }
 
-        if (side == 0) return -1;
+        if (maxSide == 0) 
+            return -1;
 
-        long area = (long) side * side;
+        long area = (long) maxSide * maxSide;
         return (int) (area % M);
     }
 }
