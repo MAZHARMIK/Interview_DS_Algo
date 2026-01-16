@@ -49,5 +49,10 @@
 				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Bitwise%20ORs%20of%20Subarrays.cpp"> Bitwise ORs of Subarrays (Leetcode - 898)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashSet/Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field.cpp"> Maximum Square Area by Removing Fences From a Field (Leetcode - 2975)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
