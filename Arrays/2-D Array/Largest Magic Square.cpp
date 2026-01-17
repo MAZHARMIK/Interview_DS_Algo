@@ -39,8 +39,8 @@ public:
         for (int side = min(rows, cols); side >= 2; side--) {
             
             // Check square of length = side starting from all possible cells
-            for (int i = 0; i + side <= rows; ++i) {
-                for (int j = 0; j + side <= cols; ++j) {
+            for (int i = 0; i + side - 1 < rows; ++i) {
+                for (int j = 0; j + side - 1 < cols; ++j) {
 
                     int targetSum = rowCumsum[i][j + side - 1] - (j > 0 ? rowCumsum[i][j - 1] : 0);
 
@@ -120,8 +120,8 @@ class Solution {
         for (int side = Math.min(rows, cols); side >= 2; side--) {
 
             // Top-left corner of square
-            for (int i = 0; i + side <= rows; i++) {
-                for (int j = 0; j + side <= cols; j++) {
+            for (int i = 0; i + side - 1 < rows; i++) {
+                for (int j = 0; j + side - 1 < cols; j++) {
 
                     int targetSum =
                         rowCumsum[i][j + side - 1] - (j > 0 ? rowCumsum[i][j - 1] : 0);
