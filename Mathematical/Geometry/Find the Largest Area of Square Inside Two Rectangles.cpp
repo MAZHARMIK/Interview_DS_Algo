@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn                : 
+    MY YOUTUBE VIDEO ON THIS Qn                : https://www.youtube.com/watch?v=Py-QkipMstQ
     Company Tags                               : will update later
     Leetcode Link                              : https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles
     
