@@ -71,8 +71,7 @@ public:
     int maxSideLength(vector<vector<int>>& mat, int threshold) {
         int rows = mat.size();
         int cols = mat[0].size();
-
-        // Prefix sum with +1 padding (same as Python)
+        
         vector<vector<int>> prefix(rows + 1, vector<int>(cols + 1, 0));
 
         for (int i = 0; i < rows; i++) {
