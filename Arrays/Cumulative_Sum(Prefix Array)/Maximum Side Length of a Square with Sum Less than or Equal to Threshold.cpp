@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn    : 
-    Company Tags                   : Will update later
+    Company Tags                   : DE Shaw
     Leetcode Link                  : https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold
 */
 
