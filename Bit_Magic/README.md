@@ -200,8 +200,13 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 				</td>
 			</tr>
 			<tr>
-       				 <td>
+       			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Smallest%20Subarrays%20With%20Maximum%20Bitwise%20OR.cpp"> Smallest Subarrays With Maximum Bitwise OR (Leetcode - 2411)</a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Construct%20the%20Minimum%20Bitwise%20Array%20II.cpp"> Construct the Minimum Bitwise Array II (Leetcode - 3315)</a>
 				</td>
 			</tr>
 		</tbody>
