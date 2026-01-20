@@ -1,6 +1,6 @@
 /*   Scroll below to see JAVA code also  */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=RnCZCzFivl8
     Company Tags                : Will udpate later
     Leetcode Link               : https://leetcode.com/problems/construct-the-minimum-bitwise-array-i
     PART - II                   : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Construct%20the%20Minimum%20Bitwise%20Array%20II.cpp
