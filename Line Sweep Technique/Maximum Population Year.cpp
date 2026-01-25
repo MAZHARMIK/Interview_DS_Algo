@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : Will update later
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=hpbYXxKk-Sg
+    Company Tags                : Atlassian, Goldman Sachs, Wayfair, Oracle, Agoda, TripAdvisor, Morgan Stanley, Adobe, Amazon
     Leetcode Link               : https://leetcode.com/problems/maximum-population-year
 */
 
