@@ -134,10 +134,15 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Shortest%20Subarray%20to%20be%20Removed%20to%20Make%20Array%20Sorted.cpp"> Shortest Subarray to be Removed to Make Array Sorted (Leetcode - 1574)</a>
 				</td>
       			</tr>
-			<tr>
+			    <tr>
           			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Partition%20Labels.cpp"> Partition Labels (Leetcode - 763)</a>
-				</td>
+					</td>
+      			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Minimum%20Difference%20Between%20Highest%20and%20Lowest%20of%20K%20Scores.cpp"> Minimum Difference Between Highest and Lowest of K Scores (Leetcode - 1984)</a>
+					</td>
       			</tr>
 		</tbody>
 </table>
