@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=zKSDKQ-ifmI
     Company Tags                : Amazon, Uber, Meta
     Leetcode Link               : https://leetcode.com/problems/meeting-rooms-ii/   (Premium Locked)
     GfG Link                    : https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1
