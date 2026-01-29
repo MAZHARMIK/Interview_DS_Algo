@@ -138,54 +138,50 @@ public:
 class Solution {
 public:
     int minCost(vector<vector<int>>& grid, int k) {
-        int n = grid.size();
-        int m = grid[0].size();
+        int m = grid.size();
+        int n = grid[0].size();
 
-        // t[i][j] = minimum cost to reach (n-1, m-1) from (i, j)
-        vector<vector<int>> t(n, vector<int>(m, INT_MAX));
-        t[n-1][m-1] = 0;
+        vector<vector<int>> dp(m, vector<int>(n, INT_MAX));
+        dp[m-1][n-1] = 0;
 
         int maxVal = 0;
-        for (auto &row : grid) {
-            for (int& val : row) {
+        for(auto &row : grid) {
+            for(int &val : row) {
                 maxVal = max(maxVal, val);
             }
         }
 
-        vector<int> teleportCost(maxVal + 1, INT_MAX);
-        // teleportCost[val] = min cost to reach end from any cell having value = val
+        vector<int> teleportCost(maxVal+1, INT_MAX);
 
-        for (int tp = 0; tp <= k; tp++) {
+        for(int t = 0; t <= k; t++) {
 
-            // DP from bottom-right to top-left
-            for (int i = n - 1; i >= 0; i--) {
-                for (int j = m - 1; j >= 0; j--) {
+            for(int i = m-1; i >= 0; i--) {
+                for(int j = n-1; j >= 0; j--) {
 
-                    if (i < n - 1)
-                        t[i][j] = min(t[i][j], t[i + 1][j] + grid[i + 1][j]);
+                    if(i+1 < m)
+                        dp[i][j] = min(dp[i][j], grid[i+1][j] + dp[i+1][j]);
+                    
+                    if(j+1 < n)
+                        dp[i][j] = min(dp[i][j], grid[i][j+1] + dp[i][j+1]);
 
-                    if (j < m - 1)
-                        t[i][j] = min(t[i][j], t[i][j + 1] + grid[i][j + 1]);
-
-                    if (tp > 0)
-                        t[i][j] = min(t[i][j], teleportCost[grid[i][j]]);
+                    if(t > 0) {
+                        dp[i][j] = min(dp[i][j], teleportCost[grid[i][j]]);
+                    }
                 }
             }
 
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < m; j++) {
-                    int v = grid[i][j];
-                    teleportCost[v] = min(teleportCost[v], t[i][j]);
+            for(int i = 0; i < m; i++) {
+                for(int j = 0; j < n; j++) {
+                    teleportCost[grid[i][j]] = min(teleportCost[grid[i][j]], dp[i][j]);
                 }
             }
 
-            // prefix minimum so smaller values can teleport to larger ones
-            for (int i = 1; i < teleportCost.size(); i++) {
-                teleportCost[i] = min(teleportCost[i], teleportCost[i - 1]);
+            for(int i = 1; i < teleportCost.size(); i++) {
+                teleportCost[i] = min(teleportCost[i], teleportCost[i-1]);
             }
         }
 
-        return t[0][0];
+        return dp[0][0];
     }
 };
 
@@ -312,52 +308,61 @@ class Solution {
 
 // T.C : O(m*n*k)
 // S.C : O(m*n*k)
+import java.util.*;
+
 class Solution {
     public int minCost(int[][] grid, int k) {
-        int n = grid.length;
-        int m = grid[0].length;
+        int m = grid.length;        // rows
+        int n = grid[0].length;     // columns
 
-        int[][] t = new int[n][m];
-        for (int[] row : t)
-            Arrays.fill(row, Integer.MAX_VALUE);
-
-        t[n - 1][m - 1] = 0;
+        int[][] dp = new int[m][n];
+        for (int[] row : dp) Arrays.fill(row, Integer.MAX_VALUE);
+        dp[m - 1][n - 1] = 0;
 
         int maxVal = 0;
-        for (int[] row : grid)
-            for (int val : row)
+        for (int[] row : grid) {
+            for (int val : row) {
                 maxVal = Math.max(maxVal, val);
+            }
+        }
 
         int[] teleportCost = new int[maxVal + 1];
         Arrays.fill(teleportCost, Integer.MAX_VALUE);
 
-        for (int tp = 0; tp <= k; tp++) {
+        for (int t = 0; t <= k; t++) {
 
-            for (int i = n - 1; i >= 0; i--) {
-                for (int j = m - 1; j >= 0; j--) {
+            // Bottom-right → top-left DP
+            for (int i = m - 1; i >= 0; i--) {
+                for (int j = n - 1; j >= 0; j--) {
 
-                    if (i < n - 1 && t[i + 1][j] != Integer.MAX_VALUE)
-                        t[i][j] = Math.min(t[i][j], t[i + 1][j] + grid[i + 1][j]);
+                    if (i + 1 < m && dp[i + 1][j] != Integer.MAX_VALUE) {
+                        dp[i][j] = Math.min(dp[i][j], grid[i + 1][j] + dp[i + 1][j]);
+                    }
 
-                    if (j < m - 1 && t[i][j + 1] != Integer.MAX_VALUE)
-                        t[i][j] = Math.min(t[i][j], t[i][j + 1] + grid[i][j + 1]);
+                    if (j + 1 < n && dp[i][j + 1] != Integer.MAX_VALUE) {
+                        dp[i][j] = Math.min(dp[i][j], grid[i][j + 1] + dp[i][j + 1]);
+                    }
 
-                    if (tp > 0)
-                        t[i][j] = Math.min(t[i][j], teleportCost[grid[i][j]]);
+                    if (t > 0) {
+                        dp[i][j] = Math.min(dp[i][j], teleportCost[grid[i][j]]);
+                    }
                 }
             }
 
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < m; j++) {
-                    int v = grid[i][j];
-                    teleportCost[v] = Math.min(teleportCost[v], t[i][j]);
+            // Update teleport cost using current dp
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
+                    int val = grid[i][j];
+                    teleportCost[val] = Math.min(teleportCost[val], dp[i][j]);
                 }
             }
 
-            for (int i = 1; i < teleportCost.length; i++)
-                teleportCost[i] = Math.min(teleportCost[i], teleportCost[i - 1]);
+            // Prefix minimum
+            for (int v = 1; v <= maxVal; v++) {
+                teleportCost[v] = Math.min(teleportCost[v], teleportCost[v - 1]);
+            }
         }
 
-        return t[0][0];
+        return dp[0][0];
     }
 }
