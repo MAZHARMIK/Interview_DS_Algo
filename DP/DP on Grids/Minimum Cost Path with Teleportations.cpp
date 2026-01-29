@@ -172,9 +172,6 @@ public:
                 }
             }
 
-            // recompute teleportCost for next teleport layer
-            fill(begin(teleportCost), end(teleportCost), INT_MAX);
-
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < m; j++) {
                     int v = grid[i][j];
@@ -349,8 +346,6 @@ class Solution {
                         t[i][j] = Math.min(t[i][j], teleportCost[grid[i][j]]);
                 }
             }
-
-            Arrays.fill(teleportCost, Integer.MAX_VALUE);
 
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < m; j++) {
