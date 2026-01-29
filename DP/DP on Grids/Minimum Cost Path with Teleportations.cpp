@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : coming soon
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=KySBrz1lk4I
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/minimum-cost-path-with-teleportations
 */
