@@ -54,5 +54,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Number%20of%20Ways%20to%20Paint%20N%20%C3%97%203%20Grid.cpp"> Number of Ways to Paint N × 3 Grid (Leetcode - 1411)</a>
 				</td>
 			</tr>
+			<tr>
+         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Minimum%20Cost%20Path%20with%20Teleportations.cpp"> Minimum Cost Path with Teleportations (Leetcode - 3651)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
