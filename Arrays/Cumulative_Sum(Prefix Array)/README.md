@@ -114,5 +114,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I.cpp"> Maximum Frequency of an Element After Performing Operations I (Leetcode - 3346)</a>
 				  </td>
       			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.cpp"> Maximum Side Length of a Square with Sum Less than or Equal to Threshold (Leetcode - 1292)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>

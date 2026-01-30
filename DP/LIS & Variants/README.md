@@ -69,5 +69,10 @@
 				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Find%20the%20Maximum%20Length%20of%20Valid%20Subsequence%20II.cpp"> Find the Maximum Length of Valid Subsequence II (Leetcode - 3202)</a>
 			</td>
 		</tr>
+		<tr>
+        		<td>
+				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/LIS%20%26%20Variants/Delete%20Columns%20to%20Make%20Sorted%20III.cpp"> Delete Columns to Make Sorted III (Leetcode - 960)</a>
+			</td>
+		</tr>
 	</tbody>
 </table>
