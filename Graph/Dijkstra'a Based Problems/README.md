@@ -94,5 +94,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Minimum%20Cost%20Path%20with%20Edge%20Reversals.cpp"> Minimum Cost Path with Edge Reversals (Leetcode - 3650)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Minimum%20Cost%20to%20Convert%20String%20II.cpp"> Minimum Cost to Convert String II (Leetcode - 2977)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
