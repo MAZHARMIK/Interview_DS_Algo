@@ -74,8 +74,8 @@ public:
         if (it == destTimestamps.end() || it->second.empty())
             return 0;
 
-        int i = lower_bound(begin(it->second), end(it->second), startTime) - begin(it->second);//log(size of vec)
-        int j = upper_bound(begin(it->second), end(it->second), endTime) - begin(it->second); //log(size of vec)
+        int leftIdx = lower_bound(begin(it->second), end(it->second), startTime) - begin(it->second);//log(size of vec)
+        int rightIdx = upper_bound(begin(it->second), end(it->second), endTime) - begin(it->second); //log(size of vec)
 
         return j - i;
     }
