@@ -31,7 +31,7 @@
 			</tr>
 			<tr>
           		<td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Line%20Sweep%20Technique/My%20Calendar%20III.cpp"> My Calendar II (Leetcode 732)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Line%20Sweep%20Technique/My%20Calendar%20III.cpp"> My Calendar III (Leetcode 732)</a>
 				</td>
 			</tr>
 		</tbody>
