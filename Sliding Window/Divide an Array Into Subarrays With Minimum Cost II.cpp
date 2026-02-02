@@ -1,6 +1,6 @@
 /*			Scroll below to see JAVA code also			*/
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=hnj5JrPVqZk
     Company Tag                 : will update later
     Leetcode Link               : https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii
 */
