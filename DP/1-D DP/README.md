@@ -58,5 +58,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Maximum%20Total%20Damage%20With%20Spell%20Casting.cpp"> Maximum Total Damage With Spell Casting (Leetcode - 3186)</a>
 				</td>
 			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Maximum%20Total%20Damage%20With%20Spell%20Casting.cpp"> Trionic Array II (Leetcode - 3640)</a>
+				</td>
+			</tr>
 	</tbody>
 </table>
