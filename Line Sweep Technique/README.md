@@ -39,5 +39,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Line%20Sweep%20Technique/Describe%20the%20Painting.cpp"> Describe the Painting (Leetcode 1943)</a>
 				</td>
 			</tr>
+			<tr>
+          		<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Line%20Sweep%20Technique/Maximum%20Sum%20Obtained%20of%20Any%20Permutation.cpp"> Maximum Sum Obtained of Any Permutation (Leetcode 1589)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
