@@ -149,5 +149,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Minimum%20Removals%20to%20Balance%20Array.cpp"> Minimum Removals to Balance Array (Leetcode - 3634)</a>
 					</td>
       			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Longest%20Balanced%20Substring%20I.cpp"> Longest Balanced Substring I (Leetcode - 3713)</a>
+					</td>
+      			</tr>
 		</tbody>
 </table>
