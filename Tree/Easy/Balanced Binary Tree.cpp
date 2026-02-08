@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will update soon
+    Company Tags                : Adobe, Apple, Capgemini, Meta, CBSL Group (India)
     Leetcode Link               : https://leetcode.com/problems/balanced-binary-tree
 */
 
