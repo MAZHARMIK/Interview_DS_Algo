@@ -156,7 +156,7 @@
       			</tr>
 				<tr>
           			<td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Longest%20Balanced%20Substring%20I.cpp"> Longest Balanced Subarray I (Leetcode - 3719)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Longest%20Balanced%20Subarray%20I.cpp"> Longest Balanced Subarray I (Leetcode - 3719)</a>
 					</td>
       			</tr>
 		</tbody>
