@@ -49,5 +49,10 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Fruits%20Into%20Baskets%20II%20and%20III.cpp"> Fruits Into Baskets II and III (Leetcode - 3477 and 3479) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Longest%20Balanced%20Subarray%20II.cpp"> Longest Balanced Subarray II (Leetcode - 3721) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
