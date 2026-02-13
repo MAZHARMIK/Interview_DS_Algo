@@ -194,5 +194,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20Covered%20Buildings.cpp"> Count Covered Buildings (Leetcode - 3531)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Longest%20Balanced%20Substring%20II.cpp"> Longest Balanced Substring II (Leetcode - 3714)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
