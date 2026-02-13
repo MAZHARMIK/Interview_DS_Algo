@@ -108,101 +108,120 @@ public:
 
 
 /************************************************************ JAVA *****************************************************/
-//Approach (storing diff in Map)
+//Approach (storing diff in Map) - (For Case-3, I used pair(diffAB, diffAC) in map for avoiding TLE in Java)
 //T.C : O(nlogn)
 //S.C : O(n)
 class Solution {
 
-    private int helper(String s, char ch1, char ch2) {
-        int n = s.length();
-        Map<Integer, Integer> diffMap = new HashMap<>();
-        int maxL = 0;
-        int count1 = 0;
-        int count2 = 0;
+    static class Pair {
+        int d1, d2;
 
-        for (int i = 0; i < n; i++) {
-
-            char ch = s.charAt(i);
-
-            if (ch != ch1 && ch != ch2) {
-                diffMap.clear();
-                count1 = 0;
-                count2 = 0;
-                continue;
-            }
-
-            if (ch == ch1) count1++;
-            if (ch == ch2) count2++;
-
-            if (count1 == count2) {
-                maxL = Math.max(maxL, count1 + count2);
-            }
-
-            int diff = count1 - count2;
-
-            if (diffMap.containsKey(diff)) {
-                maxL = Math.max(maxL, i - diffMap.get(diff));
-            } else {
-                diffMap.put(diff, i);
-            }
+        Pair(int d1, int d2) {
+            this.d1 = d1;
+            this.d2 = d2;
         }
 
-        return maxL;
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (!(o instanceof Pair)) return false;
+            Pair p = (Pair) o;
+            return d1 == p.d1 && d2 == p.d2;
+        }
+
+        @Override
+        public int hashCode() {
+            return 31 * d1 + d2;
+        }
     }
 
     public int longestBalanced(String s) {
 
-        int n = s.length();
-        int maxL = 0;
+        char[] c = s.toCharArray();
+        int n = c.length;
 
-        // Case 1: All same characters (e.g. "aaaa")
-        int count = 1;
+        int res = 0;
+
+        //Case-1
+        int cur = 1;
+
         for (int i = 1; i < n; i++) {
-            if (s.charAt(i) == s.charAt(i - 1)) {
-                count++;
+            if (c[i] == c[i - 1]) {
+                cur++;
             } else {
-                maxL = Math.max(maxL, count);
-                count = 1;
+                res = Math.max(res, cur);
+                cur = 1;
             }
         }
-        maxL = Math.max(maxL, count);
+        res = Math.max(res, cur);
 
-        // Case 2: Any two characters balanced
-        maxL = Math.max(maxL, helper(s, 'a', 'b'));
-        maxL = Math.max(maxL, helper(s, 'a', 'c'));
-        maxL = Math.max(maxL, helper(s, 'b', 'c'));
+        //Case-2
+        res = Math.max(res, find2(c, 'a', 'b'));
+        res = Math.max(res, find2(c, 'a', 'c'));
+        res = Math.max(res, find2(c, 'b', 'c'));
 
-        // Case 3: All three characters balanced
-        int countA = 0;
-        int countB = 0;
-        int countC = 0;
+        
+        //Case-3
+        int ca = 0, cb = 0, cc = 0;
 
-        Map<String, Integer> diffMap = new HashMap<>();
+        Map<Pair, Integer> mp = new HashMap<>();
 
         for (int i = 0; i < n; i++) {
 
-            char ch = s.charAt(i);
+            if (c[i] == 'a') ca++;
+            else if (c[i] == 'b') cb++;
+            else cc++;
 
-            if (ch == 'a') countA++;
-            if (ch == 'b') countB++;
-            if (ch == 'c') countC++;
+            if(ca == cb && ca == cc)
+                res = Math.max(res, ca+cb+cc);
 
-            if (countA == countB && countA == countC) {
-                maxL = Math.max(maxL, countA + countB + countC);
-            }
+            Pair key = new Pair(ca - cb, ca - cc);
 
-            int diffAB = countA - countB;
-            int diffAC = countA - countC;
-
-            String key = diffAB + "_" + diffAC;
-
-            if (diffMap.containsKey(key)) {
-                maxL = Math.max(maxL, i - diffMap.get(key));
+            Integer prev = mp.get(key);
+            if (prev != null) {
+                res = Math.max(res, i - prev);
             } else {
-                diffMap.put(key, i);
+                mp.put(key, i);
             }
         }
 
-        return maxL;
+        return res;
+    }
+
+    private int find2(char[] c, char x, char y) {
+
+        int n = c.length;
+        int max_len = 0;
+
+        int[] first = new int[2 * n + 1];
+        Arrays.fill(first, -2);
+
+        int clear_idx = -1;
+        int diff = n;
+
+        first[diff] = -1;
+
+        for (int i = 0; i < n; i++) {
+
+            if (c[i] != x && c[i] != y) {
+
+                clear_idx = i;
+                diff = n;
+                first[diff] = clear_idx;
+
+            } else {
+
+                if (c[i] == x) diff++;
+                else diff--;
+
+                if (first[diff] < clear_idx) {
+                    first[diff] = i;
+                } else {
+                    max_len = Math.max(max_len, i - first[diff]);
+                }
+            }
+        }
+
+        return max_len;
     }
 }
