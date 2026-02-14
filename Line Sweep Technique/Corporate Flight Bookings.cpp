@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will update later
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=17sXcR5zGSs
+    Company Tags                : Goldman Sachs
     Leetcode Link               : https://leetcode.com/problems/corporate-flight-bookings
 */
 
