@@ -1,7 +1,7 @@
 /*   Scroll below to see JAVA code also  */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : Will udpate later
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=gl_6rVkbrHI
+    Company Tags                : Adobe, Amazon, Meta, Google, Microsoft
     Leetcode Link               : https://leetcode.com/problems/add-binary
 */
 
