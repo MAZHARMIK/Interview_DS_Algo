@@ -30,7 +30,7 @@ public:
             int taken = nums[curr_index] + solve(nums, curr_index, curr_index+1);
             
             //don't take curr_index element
-            int not_taken = solve(nums, -1, curr_index+1);
+            int not_taken = solve(nums, last_chosen_index, curr_index+1);
             
             result = max(taken, not_taken);
             
