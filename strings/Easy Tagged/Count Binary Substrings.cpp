@@ -1,7 +1,7 @@
 /*    Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS QN : 
-    Company Tags                : will update later
+    MY YOUTUBE VIDEO ON THIS QN : https://www.youtube.com/watch?v=9N2TwXfTYVY
+    Company Tags                : Helix
     Leetcode Link               : https://leetcode.com/problems/count-binary-substrings
 */
 
