@@ -1,7 +1,7 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will update soon
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=EJ4hBpyYGDM
+    Company Tags                : Coursera, Quip
     Leetcode Link               : https://leetcode.com/problems/special-binary-string
 */
 
