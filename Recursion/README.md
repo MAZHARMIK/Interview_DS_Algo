@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/The%20Earliest%20and%20Latest%20Rounds%20Where%20Players%20Compete.cpp"> The Earliest and Latest Rounds Where Players Compete (Leetcode - 1900)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Special%20Binary%20String.cpp"> Special Binary String (Leetcode - 761)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
