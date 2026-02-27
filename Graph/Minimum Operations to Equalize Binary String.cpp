@@ -132,3 +132,131 @@ public:
     }
 };
 
+
+
+/************************************************************ JAVA ************************************************/
+//Approach-1 - Brute Force
+//T.C : O(n*k) ~ O(n^2)
+//S.C : O(n)
+class Solution {
+    public int minOperations(String s, int k) {
+
+        int n = s.length();
+
+        int startZeros = 0;
+        for(char ch : s.toCharArray()) {
+            if(ch == '0')
+                startZeros++;
+        }
+
+        if(startZeros == 0)
+            return 0;
+
+        int[] operations = new int[n+1];
+        Arrays.fill(operations, -1);
+
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(startZeros);
+
+        operations[startZeros] = 0;
+
+        while(!queue.isEmpty()) {
+
+            int z = queue.poll();
+
+            int minF = Math.max(0, k - n + z);
+            int maxF = Math.min(k, z);
+
+            for(int f = minF; f <= maxF; f++) {
+
+                int newZ = z + k - 2*f;
+
+                if(operations[newZ] == -1) {
+
+                    operations[newZ] = operations[z] + 1;
+
+                    if(newZ == 0)
+                        return operations[newZ];
+
+                    queue.offer(newZ);
+                }
+            }
+        }
+
+        return -1;
+    }
+}
+
+
+//Approach-2 - Optimal - Skipping already visited states
+//T.C : O(n*logn)
+//S.C : O(n)
+class Solution {
+    public int minOperations(String s, int k) {
+
+        int n = s.length();
+
+        int startZeros = 0;
+        for(char ch : s.toCharArray()) {
+            if(ch == '0')
+                startZeros++;
+        }
+
+        if(startZeros == 0)
+            return 0;
+
+        int[] operations = new int[n+1];
+        Arrays.fill(operations, -1);
+
+        TreeSet<Integer> evenSet = new TreeSet<>();
+        TreeSet<Integer> oddSet = new TreeSet<>();
+
+        for(int count = 0; count <= n; count++) {
+            if(count % 2 == 0)
+                evenSet.add(count);
+            else
+                oddSet.add(count);
+        }
+
+        Queue<Integer> queue = new LinkedList<>();
+
+        queue.offer(startZeros);
+        operations[startZeros] = 0;
+
+        if(startZeros % 2 == 0)
+            evenSet.remove(startZeros);
+        else
+            oddSet.remove(startZeros);
+
+        while(!queue.isEmpty()) {
+
+            int z = queue.poll();
+
+            int minNewZ = z + k - 2*Math.min(k, z);
+            int maxNewZ = z + k - 2*Math.max(0, k-n+z);
+
+            TreeSet<Integer> currSet =
+                    (minNewZ % 2 == 0) ? evenSet : oddSet;
+
+            Integer val = currSet.ceiling(minNewZ); // lower_bound
+
+            while(val != null && val <= maxNewZ) {
+
+                int newZ = val;
+
+                operations[newZ] = operations[z] + 1;
+
+                if(newZ == 0)
+                    return operations[newZ];
+
+                queue.offer(newZ);
+
+                currSet.remove(val);
+
+                val = currSet.ceiling(minNewZ);
+            }
+        }
+
+        return -1;
+    }
+}
