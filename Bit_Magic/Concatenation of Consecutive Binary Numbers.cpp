@@ -41,7 +41,8 @@ public:
         int digits = 0;
 
         for(int num = 1; num <= n; num++) {
-            if((num & (num-1)) == 0) //power of 2 agaya hai so increase digits
+            //digit count tabhi barhta hai jab power of 2 ata hai
+            if((num & (num-1)) == 0)
                 digits++;
 
             result = ((result << digits)%M + num)%M;
