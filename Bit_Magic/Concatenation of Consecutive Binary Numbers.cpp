@@ -1,6 +1,6 @@
 /*   Scroll below to see JAVA code also  */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=JwiTzOEzy44
     Company Tags                : Will udpate later
     Leetcode Link               : https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/
 */
