@@ -242,5 +242,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Largest%20Magic%20Square.cpp"> Largest Magic Square (Leetcode - 1895)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.cpp"> Minimum Swaps to Arrange a Binary Grid (Leetcode - 1536)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
