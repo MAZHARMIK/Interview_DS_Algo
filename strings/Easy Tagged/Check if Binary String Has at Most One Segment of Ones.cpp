@@ -1,6 +1,6 @@
 /*    Scroll below to see JAVA code as well    */
 /*
-    MY YOUTUBE VIDEO ON THIS QN : 
+    MY YOUTUBE VIDEO ON THIS QN : https://www.youtube.com/watch?v=JG2kuNPIy1s
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones
 */
