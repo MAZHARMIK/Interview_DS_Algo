@@ -1,6 +1,6 @@
 /*			Scroll below to see JAVA code also			*/
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=T3lhIT7hbl4
     Company Tag                 : will update later
     Leetcode Link               : https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating
 */
