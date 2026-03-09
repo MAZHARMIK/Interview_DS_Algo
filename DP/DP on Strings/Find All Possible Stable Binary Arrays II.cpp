@@ -41,13 +41,13 @@ public:
         if (last == 0) {
             result = (solve(i-1, j, 0, limit) + solve(i-1, j, 1, limit)) % M;
 
-            if (i > limit)
+            if (i-1 >= limit)
                 result = (result - solve(i-1-limit, j, 1, limit) + M) % M;
 
         } else {
             result = (solve(i, j-1, 0, limit) + solve(i, j-1, 1, limit)) % M;
 
-            if (j > limit)
+            if (j-1 >= limit)
                 result = (result - solve(i, j-1-limit, 0, limit) + M) % M;
         }
 
@@ -143,14 +143,14 @@ class Solution {
 
             result = (solve(i-1, j, 0, limit) + solve(i-1, j, 1, limit)) % M;
 
-            if (i > limit)
+            if (i-1 >= limit)
                 result = (result - solve(i-1-limit, j, 1, limit) + M) % M;
 
         } else {
 
             result = (solve(i, j-1, 0, limit) + solve(i, j-1, 1, limit)) % M;
 
-            if (j > limit)
+            if (j-1 >= limit)
                 result = (result - solve(i, j-1-limit, 0, limit) + M) % M;
         }
 
@@ -199,7 +199,7 @@ class Solution {
                 // end with 0
                 int val0 = (t[i-1][j][0] + t[i-1][j][1]) % M;
 
-                if (i > limit)
+                if (i-1 >= limit)
                     val0 = (val0 - t[i-1-limit][j][1] + M) % M;
 
                 t[i][j][0] = val0;
@@ -207,7 +207,7 @@ class Solution {
                 // end with 1
                 int val1 = (t[i][j-1][0] + t[i][j-1][1]) % M;
 
-                if (j > limit)
+                if (j-1 >= limit)
                     val1 = (val1 - t[i][j-1-limit][0] + M) % M;
 
                 t[i][j][1] = val1;
