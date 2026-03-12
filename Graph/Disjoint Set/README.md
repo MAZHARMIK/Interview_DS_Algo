@@ -89,5 +89,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Count%20the%20Number%20of%20Complete%20Components.cpp"> Count the Number of Complete Components (Leetcode - 2685)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Disjoint%20Set/Maximize%20Spanning%20Tree%20Stability%20with%20Upgrades.cpp"> Maximize Spanning Tree Stability with Upgrades (Leetcode - 3600)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
