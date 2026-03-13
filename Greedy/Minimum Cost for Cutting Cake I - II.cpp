@@ -9,7 +9,7 @@
 
 /*************************************************************** C++ **********************************************************************/
 //Greedy Approach
-//T.C : O(xlog + ylogy) where x and y are lengths of horizontal and vertical cuts array
+//T.C : O(xlogx + ylogy) where x and y are lengths of horizontal and vertical cuts array
 //S.C : O(1)
 class Solution {
 public:
@@ -63,7 +63,7 @@ public:
 
 /*************************************************************** JAVA **********************************************************************/
 //Greedy Approach
-//T.C : O(xlog + ylogy) where x and y are lengths of horizontal and vertical cuts array
+//T.C : O(xlogx + ylogy) where x and y are lengths of horizontal and vertical cuts array
 //S.C : O(1)
 class Solution {
     public int minimumCost(int m, int n, int[] horizontalCut, int[] verticalCut) {
