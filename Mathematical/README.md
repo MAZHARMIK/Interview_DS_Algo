@@ -309,5 +309,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Four%20Divisors.cpp"> Four Divisors (Leetcode - 1390) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Fancy%20Sequence.cpp"> Fancy Sequence (Leetcode - 1622) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
