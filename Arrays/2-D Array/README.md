@@ -247,5 +247,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.cpp"> Minimum Swaps to Arrange a Binary Grid (Leetcode - 1536)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Get%20Biggest%20Three%20Rhombus%20Sums%20in%20a%20Grid.cpp"> Get Biggest Three Rhombus Sums in a Grid. (Leetcode - 1878)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
