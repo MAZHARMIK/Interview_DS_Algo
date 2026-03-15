@@ -1,6 +1,6 @@
 /*             SCROLL BELOW TO SEE JAVA CODE                */
 /*
-	    MY YOUTUBE VIDEO ON THIS Qn : 
+	    MY YOUTUBE VIDEO ON THIS Qn   : https://www.youtube.com/watch?v=O306K1S7A8U
     	Company Tags  		          : will update later
     	Leetcode Link 		          : https://leetcode.com/problems/fancy-sequence/description/
 */
