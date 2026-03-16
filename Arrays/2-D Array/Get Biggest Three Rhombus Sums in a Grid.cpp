@@ -32,11 +32,11 @@ public:
 
                     int sum = 0;
 
-                    for (int i = 0; i < side; i++) {
-                        sum += grid[r-side+i][c+i];     // top to right corner
-                        sum += grid[r+i][c+side-i];     // right to bottom corner
-                        sum += grid[r+side-i][c-i];     // bottom to left corner
-                        sum += grid[r-i][c-side+i];     // left to top corner
+                    for (int k = 0; k < side; k++) {
+                        sum += grid[r - side + k][c + k];   // top to right corner
+                        sum += grid[r + k][c + side - k];   // right to bottom corner
+                        sum += grid[r + side - k][c - k];   // bottom to left corner
+                        sum += grid[r - k][c - side + k];   // left to top corner
                     }
 
                     addToSet(sum);
@@ -164,11 +164,11 @@ class Solution {
 
                     int sum = 0;
 
-                    for (int i = 0; i < side; i++) {
-                        sum += grid[r-side+i][c+i];     // top to right corner
-                        sum += grid[r+i][c+side-i];     // right to bottom corner
-                        sum += grid[r+side-i][c-i];     // bottom to left corner
-                        sum += grid[r-i][c-side+i];     // left to top corner
+                    for (int k = 0; k < side; k++) {
+                        sum += grid[r - side + k][c + k];   // top to right corner
+                        sum += grid[r + k][c + side - k];   // right to bottom corner
+                        sum += grid[r + side - k][c - k];   // bottom to left corner
+                        sum += grid[r - k][c - side + k];   // left to top corner
                     }
 
                     addToSet(st, sum);
