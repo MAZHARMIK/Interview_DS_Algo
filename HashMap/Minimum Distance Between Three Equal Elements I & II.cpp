@@ -58,7 +58,7 @@ class Solution {
 
             if (mp.get(nums[k]).size() >= 3) {
                 List<Integer> list = mp.get(nums[k]);
-                int siz = vec.size();
+                int siz = list.size();
                 int i = list.get(siz - 3);
                 result = Math.min(result, k - i);
             }
