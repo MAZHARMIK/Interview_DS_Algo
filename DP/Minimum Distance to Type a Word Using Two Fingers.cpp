@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=26jlH4R9cf8
     Company Tags                : Will update later
     Leetcode Link               : https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers
 */
