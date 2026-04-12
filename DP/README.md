@@ -755,5 +755,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Walls%20Destroyed%20by%20Robots.cpp"> Maximum Walls Destroyed by Robots (Leetcode - 3661)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Distance%20to%20Type%20a%20Word%20Using%20Two%20Fingers.cpp"> Minimum Distance to Type a Word Using Two Fingers (Leetcode - 1320)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
