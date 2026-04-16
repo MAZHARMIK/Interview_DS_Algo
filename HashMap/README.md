@@ -209,5 +209,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I%20%26%20II.cpp"> Minimum Distance Between Three Equal Elements I & II (Leetcode - 3740 & 3741)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Closest%20Equal%20Element%20Queries.cpp"> Closest Equal Element Queries (Leetcode - 3488)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
