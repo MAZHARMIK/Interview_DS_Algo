@@ -210,8 +210,13 @@
 				</td>
 			</tr>
 			<tr>
-        			<td>
+        		<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Closest%20Equal%20Element%20Queries.cpp"> Closest Equal Element Queries (Leetcode - 3488)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs.cpp"> Minimum Absolute Distance Between Mirror Pairs (Leetcode - 3761)</a>
 				</td>
 			</tr>
 		</tbody>
