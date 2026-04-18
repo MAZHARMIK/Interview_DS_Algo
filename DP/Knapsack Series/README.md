@@ -42,6 +42,11 @@
 				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Knapsack%20Series/Subset%20Sum%20Problem.cpp"> Subset Sum Problem </a>
 			</td>
     	</tr>
+		<tr>
+			<td>
+				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Knapsack%20Series/Partition%20Equal%20Subset%20Sum%20(Bottom%20UP%20%26%20Memo).cpp"> Partition Equal Subset Sum (Bottom UP & Memo) - Leetcode 416 </a>
+			</td>
+    	</tr>
 	</tbody>
 </table>
 
