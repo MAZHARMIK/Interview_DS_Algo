@@ -159,5 +159,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Longest%20Balanced%20Subarray%20I.cpp"> Longest Balanced Subarray I (Leetcode - 3719)</a>
 					</td>
       			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Maximum%20Distance%20Between%20a%20Pair%20of%20Values.cpp"> Maximum Distance Between a Pair of Values (Leetcode - 1855)</a>
+					</td>
+      			</tr>
 		</tbody>
 </table>
