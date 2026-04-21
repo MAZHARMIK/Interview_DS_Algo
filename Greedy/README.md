@@ -329,5 +329,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Moves%20to%20Balance%20Circular%20Array.cpp"> Minimum Moves to Balance Circular Array (Leetcode - 3776)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Lexicographically%20Smallest%20Generated%20String.cpp"> Lexicographically Smallest Generated String (Leetcode - 3474)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

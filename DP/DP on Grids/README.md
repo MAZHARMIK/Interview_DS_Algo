@@ -59,5 +59,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Minimum%20Cost%20Path%20with%20Teleportations.cpp"> Minimum Cost Path with Teleportations (Leetcode - 3651)</a>
 				</td>
 			</tr>
+			<tr>
+         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn.cpp"> Maximum Amount of Money Robot Can Earn (Leetcode - 3418)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

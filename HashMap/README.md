@@ -194,5 +194,30 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20Covered%20Buildings.cpp"> Count Covered Buildings (Leetcode - 3531)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Longest%20Balanced%20Substring%20II.cpp"> Longest Balanced Substring II (Leetcode - 3714)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Check%20if%20Strings%20Can%20be%20Made%20Equal%20With%20Operations%20II.cpp"> Check if Strings Can be Made Equal With Operations II (Leetcode - 2840)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I%20%26%20II.cpp"> Minimum Distance Between Three Equal Elements I & II (Leetcode - 3740 & 3741)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Closest%20Equal%20Element%20Queries.cpp"> Closest Equal Element Queries (Leetcode - 3488)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs.cpp"> Minimum Absolute Distance Between Mirror Pairs (Leetcode - 3761)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

@@ -119,5 +119,15 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.cpp"> Maximum Side Length of a Square with Sum Less than or Equal to Threshold (Leetcode - 1292)</a>
 				  </td>
       			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Equal%20Sum%20Grid%20Partition%20I.cpp"> Equal Sum Grid Partition I (Leetcode - 3546)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Equal%20Sum%20Grid%20Partition%20II.cpp"> Equal Sum Grid Partition II (Leetcode - 3548)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>

@@ -43,5 +43,20 @@
                 <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Count%20Number%20of%20Balanced%20Permutations.cpp"> Count Number of Balanced Permutations (Leetcode - 3343) </a>
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Find%20All%20Possible%20Stable%20Binary%20Arrays%20I.cpp"> Find All Possible Stable Binary Arrays I (Leetcode - 3129) </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Find%20All%20Possible%20Stable%20Binary%20Arrays%20II.cpp"> Find All Possible Stable Binary Arrays II (Leetcode - 3130) </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Find%20the%20String%20with%20LCP.cpp"> Find the String with LCP (Leetcode - 2573) </a>
+            </td>
+        </tr>
     </tbody>
 </table>

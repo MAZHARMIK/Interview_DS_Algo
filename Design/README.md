@@ -194,5 +194,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Simple%20Bank%20System.cpp"> Simple Bank System (Leetcode - 2043)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Design/Walking%20Robot%20Simulation%20II.cpp"> Walking Robot Simulation II (Leetcode - 2069)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

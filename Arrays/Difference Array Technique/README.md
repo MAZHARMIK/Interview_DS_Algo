@@ -44,5 +44,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Increment%20Submatrices%20by%20One.cpp"> Increment Submatrices by One (Leetcode - 2536)</a>
 				   </td>
       			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/XOR%20After%20Range%20Multiplication%20Queries%20II.cpp"> XOR After Range Multiplication Queries II (Leetcode - 3655)</a>
+				   </td>
+      			</tr>
 		</tbody>
 </table>
