@@ -13,132 +13,156 @@
 //S.C : O(k)
 class Solution {
 public:
-    int manhattan(vector<int>& vec1, vector<int>& vec2) {
-        return abs(vec1[0] - vec2[0]) + abs(vec1[1] - vec2[1]);
+    int manhattanDist(vector<int>& p1, vector<int>& p2) {
+        return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1]);
     }
-
-    bool solve(vector<vector<int>>& points, int k, int d, int start, vector<int>& chosen) {
-        if (chosen.size() == k)
+    bool check(vector<vector<int>>& points, int k, int mid, int i, vector<int>& chosen) {
+        if(chosen.size() == k) {
             return true;
-        
-        for (int i = start; i < points.size(); i++) {
+        }
+
+        for(int p = i; p < points.size(); p++) {
             bool valid = true;
-            for (int idx : chosen) {
-                if (manhattan(points[i], points[idx]) < d) {
+
+            for(int idx : chosen) {
+                if(manhattanDist(points[p], points[idx]) < mid) {
                     valid = false;
                     break;
                 }
             }
-            if (!valid)
+
+            if(!valid) {
                 continue;
-            
-            chosen.push_back(i);
-            if (solve(points, k, d, i + 1, chosen))
+            }
+
+            chosen.push_back(p);
+            if(check(points, k, mid, p+1, chosen)) {
                 return true;
+            }
             chosen.pop_back();
         }
+
         return false;
     }
 
     int maxDistance(int side, vector<vector<int>>& points, int k) {
-        int l = 0, r = 2 * side;
-        int best = 0;
-        
-        while (l <= r) {
-            int mid = (l + r) / 2;
+        int l = 0;
+        int r = 2*side;
+
+        int result = 0;
+
+        while(l <= r) {
+            int mid = l + (r-l)/2;
+
             vector<int> chosen;
-            
-            if (solve(points, k, mid, 0, chosen)) {
-                best = mid;
-                l = mid + 1;
+
+            if(check(points, k, mid, 0, chosen)) {
+                result = mid;
+                l = mid+1;
             } else {
-                r = mid - 1;
+                r = mid-1;
             }
         }
-        return best;
+
+        return result;
     }
 };
 
 
-
 //Approach-2 (Binary Search + Optimised check)
-//T.C : O(nlogn + log(side) + nlogn)
+//T.C : O(nlogn+log(side)⋅n⋅klogn)
 //S.C : O(n)
 class Solution {
 public:
     typedef long long ll;
 
     ll get1D(int side, int x, int y) {
-        if (y == 0) 
-            return x; 
-        if (x == side)
-            return side + y;
-        if (y == side)
-            return 3LL * side - x;
-        
+        if(y == 0) return x;
+
+        if(x == side) return side + y;
+
+        if(y == side) return 3LL * side - x;
+
         return 4LL * side - y;
     }
-    
-    bool canSelectKPoints(const vector<ll>& extended, int n, int k, int side, int minDist) {
+
+    bool check(vector<ll>& doubled, int n, int k, int side, int mid) {
         ll perimeter = 4LL * side;
-        
-        for (int i = 0; i < n; i++) {
-            int count = 1;
-            int index = i;
-            ll lastPos = extended[i];
 
-            for (int j = 1; j < k; j++) {
-                ll target = lastPos + minDist;
-                auto it = lower_bound(extended.begin() + index + 1, extended.begin() + i + n, target);
-                if (it == extended.begin() + i + n) break;
+        for(int i = 0; i < n; i++) { //O(n)
+            int count = 1; //Picked one point
+            int idx   = i;
 
-                index = it - extended.begin();
-                lastPos = extended[index];
+            ll lastPos = doubled[idx];
+
+            for(int j = 2; j <= k; j++) { //O(k * log(n))
+                ll target = lastPos + mid;
+
+                auto it = lower_bound(begin(doubled) + idx + 1, begin(doubled) + i + n, target);
+
+                if(it == begin(doubled) + i + n) break;
+
+                idx = it - begin(doubled);
+                lastPos = doubled[idx];
                 count++;
             }
 
-            if (count == k && (extended[i] + perimeter - lastPos) >= minDist)
+            if(count == k && (doubled[i] + perimeter - lastPos >= mid)) {
                 return true;
-        }
-        return false;
-    }
-    
-    int maxDistance(int side, vector<vector<int>>& points, int k) {
-        int n = points.size();
-        vector<ll> positions(n);
-        ll perimeter = 4LL * side;
-
-        for (int i = 0; i < n; i++)
-            positions[i] = get1D(side, points[i][0], points[i][1]);
-
-        sort(positions.begin(), positions.end());
-
-        vector<ll> extended(2 * n);
-        for (int i = 0; i < n; i++) {
-            extended[i] = positions[i];
-            extended[i + n] = positions[i] + perimeter;
-        }
-
-        int left = 0, right = 2 * side, result = 0;
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (canSelectKPoints(extended, n, k, side, mid)) {
-                result = mid;
-                left = mid + 1;
-            } else {
-                right = mid - 1;
             }
         }
+
+        return false;
+    }
+
+    int maxDistance(int side, vector<vector<int>>& points, int k) {
+        ll perimeter = 4LL * side;
+        int n = points.size();
+
+        vector<ll> positions(n);
+
+        for(int i = 0; i < n; i++) {
+            positions[i] = get1D(side, points[i][0], points[i][1]);
+        }
+
+        sort(begin(positions), end(positions));
+
+        //double the positions array to easily handle round wrap
+        vector<ll> doubled(2*n);
+        for(int i = 0; i < n; i++) {
+            doubled[i]   = positions[i];
+            doubled[i+n] = positions[i] + perimeter;
+        }
+
+        int l = 0;
+        int r = 2*side;
+
+        int result = 0;
+
+        //log(side) * n * klog(n)
+        while(l <= r) {
+            int mid = l + (r-l)/2;
+
+            if(check(doubled, n, k, side, mid)) {
+                result = mid;
+                l = mid+1;
+            } else {
+                r = mid-1;
+            }
+        }
+
         return result;
+
+
     }
 };
 
 
 
 /****************************************************************** Java ******************************************************************/
-// Approach-1 (Binary Search + Backtracking Brute Force)
-// T.C : O(nCk * k * log side)
-// S.C : O(k)
+//Approach-1 (Binary Search + Backtracking Brute Force)
+//T.C : O(nCk * k * log side)
+//S.C : O(k)
 class Solution {
     public int manhattan(int[] vec1, int[] vec2) {
         return Math.abs(vec1[0] - vec2[0]) + Math.abs(vec1[1] - vec2[1]);
@@ -187,72 +211,101 @@ class Solution {
 }
 
 
-// Approach-2 (Binary Search + Optimized Check)
-// T.C : O(nlogn + log(side) + nlogn)
-// S.C : O(n)
+//Approach-2 (Binary Search + Optimised check)
+//T.C : O(nlogn+log(side)⋅n⋅klogn)
+//S.C : O(n)
 class Solution {
-    public long get1D(int side, int x, int y) {
-        if (y == 0) 
-            return x; 
-        if (x == side)
-            return side + y;
-        if (y == side)
-            return 3L * side - x;
-        
+
+    long get1D(int side, int x, int y) {
+        if (y == 0) return x;
+
+        if (x == side) return (long) side + y;
+
+        if (y == side) return 3L * side - x;
+
         return 4L * side - y;
     }
-    
-    public boolean canSelectKPoints(long[] extended, int n, int k, int side, int minDist) {
+
+    boolean check(long[] doubled, int n, int k, int side, int mid) {
         long perimeter = 4L * side;
-        
-        for (int i = 0; i < n; i++) {
+
+        for (int i = 0; i < n; i++) {   // O(n)
             int count = 1;
-            int index = i;
-            long lastPos = extended[i];
+            int idx = i;
 
-            for (int j = 1; j < k; j++) {
-                long target = lastPos + minDist;
-                int it = Arrays.binarySearch(extended, index + 1, i + n, target);
-                if (it < 0) it = -it - 1; 
-                if (it == i + n) break;
+            long lastPos = doubled[idx];
 
-                index = it;
-                lastPos = extended[index];
+            for (int j = 2; j <= k; j++) {   // O(k log n)
+                long target = lastPos + mid;
+
+                int nextIdx = lowerBound(doubled, idx + 1, i + n, target);
+
+                if (nextIdx == i + n) break;
+
+                idx = nextIdx;
+                lastPos = doubled[idx];
                 count++;
             }
 
-            if (count == k && (extended[i] + perimeter - lastPos) >= minDist)
+            if (count == k && (doubled[i] + perimeter - lastPos >= mid)) {
                 return true;
+            }
         }
+
         return false;
     }
-    
+
+    // Custom lower_bound (first index >= target)
+    int lowerBound(long[] arr, int left, int right, long target) {
+        int ans = right;
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+
+            if (arr[mid] >= target) {
+                ans = mid;
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        return ans;
+    }
+
     public int maxDistance(int side, int[][] points, int k) {
         int n = points.length;
-        long[] positions = new long[n];
         long perimeter = 4L * side;
 
-        for (int i = 0; i < n; i++)
+        long[] positions = new long[n];
+
+        for (int i = 0; i < n; i++) {
             positions[i] = get1D(side, points[i][0], points[i][1]);
+        }
 
         Arrays.sort(positions);
 
-        long[] extended = new long[2 * n];
+        // double array
+        long[] doubled = new long[2 * n];
         for (int i = 0; i < n; i++) {
-            extended[i] = positions[i];
-            extended[i + n] = positions[i] + perimeter;
+            doubled[i] = positions[i];
+            doubled[i + n] = positions[i] + perimeter;
         }
 
-        int left = 0, right = 2 * side, result = 0;
-        while (left <= right) {
+        int left = 0, right = 2 * side;
+        int result = 0;
+
+        while (left <= right) {   // O(log side)
             int mid = left + (right - left) / 2;
-            if (canSelectKPoints(extended, n, k, side, mid)) {
+
+            if (check(doubled, n, k, side, mid)) {
                 result = mid;
                 left = mid + 1;
             } else {
                 right = mid - 1;
             }
         }
+
         return result;
     }
 }
