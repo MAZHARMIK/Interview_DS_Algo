@@ -64,5 +64,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn.cpp"> Maximum Amount of Money Robot Can Earn (Leetcode - 3418)</a>
 				</td>
 			</tr>
+			<tr>
+         			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Maximum%20Path%20Score%20in%20a%20Grid.cpp"> Maximum Path Score in a Grid (Leetcode - 3742)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
