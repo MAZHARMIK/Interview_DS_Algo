@@ -564,5 +564,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximize%20Area%20of%20Square%20Hole%20in%20Grid.cpp"> Maximize Area of Square Hole in Grid (Leetcode - 2943)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximize%20Area%20of%20Square%20Hole%20in%20Grid.cpp"> Rotate Function (Leetcode - 396)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
