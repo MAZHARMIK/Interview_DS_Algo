@@ -63,5 +63,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Trionic%20Array%20II.cpp"> Trionic Array II (Leetcode - 3640)</a>
 				</td>
 			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Rotated%20Digits.cpp"> Rotated Digits (Leetcode - 788)</a>
+				</td>
+			</tr>
 	</tbody>
 </table>
