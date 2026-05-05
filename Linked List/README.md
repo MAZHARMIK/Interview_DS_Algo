@@ -241,7 +241,7 @@
 			</tr>
 			<tr>
         		<td>
-					<a href="https://leetcode.com/problems/rotate-list/description/?envType=daily-question&envId=2026-05-05"> Rotate List (Leetcode - 61)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Linked%20List/Rotate%20List.cpp"> Rotate List (Leetcode - 61)</a>
 				</td>
 			</tr>
 		</tbody>
