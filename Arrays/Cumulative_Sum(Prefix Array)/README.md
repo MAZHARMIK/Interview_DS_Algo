@@ -134,5 +134,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Sum%20of%20Distances.cpp"> Sum of Distances (Leetcode - 2615)</a>
 				  </td>
       			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Jump%20Game%20IX.cpp"> Jump Game IX (Leetcode - 3660)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
