@@ -154,5 +154,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.cpp"> Check if There is a Valid Path in a Grid (Leetcode - 1391)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Minimum%20Jumps%20to%20Reach%20End%20via%20Prime%20Teleportation.cpp"> Minimum Jumps to Reach End via Prime Teleportation (Leetcode - 3629)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
