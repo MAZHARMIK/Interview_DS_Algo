@@ -68,5 +68,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Rotated%20Digits.cpp"> Rotated Digits (Leetcode - 788)</a>
 				</td>
 			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Maximum%20Number%20of%20Jumps%20to%20Reach%20the%20Last%20Index.cpp"> Maximum Number of Jumps to Reach the Last Index (Leetcode - 2770)</a>
+				</td>
+			</tr>
 	</tbody>
 </table>
