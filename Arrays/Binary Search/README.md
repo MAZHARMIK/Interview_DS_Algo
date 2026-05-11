@@ -281,5 +281,10 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Number%20of%20Seconds%20to%20Make%20Mountain%20Height%20Zero.cpp"> Minimum Number of Seconds to Make Mountain Height Zero (Leetcode - 3296)</a>
 				  </td>
       			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Initial%20Energy%20to%20Finish%20Tasks.cpp"> Minimum Number of Seconds to Make Mountain Height Zero (Leetcode - 1665)</a>
+				  </td>
+      			</tr>
 		</tbody>
 </table>
