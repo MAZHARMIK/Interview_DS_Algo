@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=OzBKFDXNCkY
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/minimum-moves-to-make-array-complementary
     Pre-Requisite               : https://www.youtube.com/watch?v=ZHNVmtm08WY&list=PLpIkg8OmuX-Kqkb8DqDe_4-Tiav6ilS_L (Difference Array Technique)
