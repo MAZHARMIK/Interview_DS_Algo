@@ -49,5 +49,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/XOR%20After%20Range%20Multiplication%20Queries%20II.cpp"> XOR After Range Multiplication Queries II (Leetcode - 3655)</a>
 				   </td>
       			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Minimum%20Moves%20to%20Make%20Array%20Complementary.cpp"> Minimum Moves to Make Array Complementary (Leetcode - 1674)</a>
+				   </td>
+      			</tr>
 		</tbody>
 </table>
