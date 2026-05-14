@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : h
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=68cEmBbqZRE
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/check-if-array-is-good/
 */
