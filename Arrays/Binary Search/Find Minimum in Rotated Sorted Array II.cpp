@@ -37,7 +37,7 @@ public:
             if(nums[mid] > nums[r]) {
                 l = mid + 1;
             }
-            // minimum can be mid or on left side
+            // minimum can be on left side
             else {
                 r = mid - 1;
             }
@@ -78,7 +78,7 @@ class Solution {
             if (nums[mid] > nums[r]) {
                 l = mid + 1;
             }
-            // minimum can be mid or on left side
+            // minimum can be on left side
             else {
                 r = mid - 1;
             }
