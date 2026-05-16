@@ -18,7 +18,7 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
       </tr>
       <tr>
           <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II">Find Minimum in Rotated Sorted Array II (Leetcode-154)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.cpp">Find Minimum in Rotated Sorted Array II (Leetcode-154)</a>
 				  </td>
       </tr>
       <tr>
