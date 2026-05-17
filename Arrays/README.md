@@ -569,5 +569,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Rotate%20Function.cpp"> Rotate Function (Leetcode - 396)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Jump%20Game%20III.cpp"> Jump Game III (Leetcode - 1306)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
