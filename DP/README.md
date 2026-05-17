@@ -144,11 +144,6 @@ Scramble String (Leetcode-87) (Memoized) </a>
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump_Game_III.cpp">Jump Game III (2 approaches) (Leetcode-1306)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20VI.cpp">Jump Game VI (3 approaches) (Leetcode-1696)</a>
 				</td>
 			</tr>
