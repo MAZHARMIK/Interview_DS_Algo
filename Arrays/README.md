@@ -574,5 +574,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Jump%20Game%20III.cpp"> Jump Game III (Leetcode - 1306)</a>
 				</td>
 			</tr>
+						<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Jump%20Game%20IV.cpp">Jump Game IV (Leetcode : 1345)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
