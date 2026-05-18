@@ -1,3 +1,4 @@
+/*     Scroll below to see JAVA code also    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=tr1WHelOhJU
     Company Tags                : Google, Microsoft, Adobe, Amazon
@@ -5,7 +6,10 @@
 */
 
 
-//Approach-2 (BFS : Accepted) - O(n)
+/************************************************************ C++ ************************************************/
+//Approach-1 (BFS)
+//T.C : O(n)
+//S.C : O(n)
 class Solution {
 public:
     int solve_BFS(vector<int>& arr, int& n) {
@@ -88,7 +92,8 @@ Why BFS ?
 With BFS you can stop as soon as you reach the goal. With DFS you might reach the goal (or memoize any result) via a sub-optimal path.
 To be sure you get the optimal solution with DFS, you can't use memoization because you might still find a shorter path at any point in the future.
 */
-//Approach-2 (DFS - TLE)
+//Approach-2 
+//(DFS - TLE - 15/33 Tests Pass Only)
 class Solution {
 public:
     vector<bool> visited;
@@ -138,3 +143,158 @@ public:
     }
 };
 
+
+
+/************************************************************ JAVA ************************************************/
+//Approach-1 (BFS)
+//T.C : O(n)
+//S.C : O(n)
+class Solution {
+    public int minJumps(int[] arr) {
+        int n = arr.length;
+        
+        if(n == 1)
+            return 0;
+        
+        boolean[] visited = new boolean[n];
+        
+        // why ?
+        // Because, we need to access those indices where arr[i] == arr[j]
+        HashMap<Integer, List<Integer>> mp = new HashMap<>();
+        
+        for(int i = 0; i < n; i++) {
+            mp.putIfAbsent(arr[i], new ArrayList<>());
+            mp.get(arr[i]).add(i);
+        }
+        
+        Queue<Integer> que = new LinkedList<>();
+        que.offer(0);
+        visited[0] = true;
+        
+        int steps = 0;
+        
+        while(!que.isEmpty()) {
+            int size = que.size();
+            
+            //check this level
+            while(size-- > 0) {
+                int curr = que.poll();
+                
+                if(curr == n - 1) {
+                    //BFS ensures minimum steps
+                    //We are moving level by level
+                    return steps;
+                }
+                
+                int left  = curr - 1;
+                int right = curr + 1;
+                
+                if(left >= 0 && !visited[left]) {
+                    que.offer(left);
+                    visited[left] = true;
+                }
+                
+                if(right < n && !visited[right]) {
+                    que.offer(right);
+                    visited[right] = true;
+                }
+                
+                for(int idx : mp.get(arr[curr])) {
+                    if(!visited[idx]) {
+                        que.offer(idx);
+                        visited[idx] = true;
+                    }
+                }
+                
+                //If you don't erase it, you may be again checking for it
+                //in future. It will cause TLE
+                mp.remove(arr[curr]);
+            }
+            
+            steps++;
+        }
+        
+        return -1;
+    }
+}
+
+
+//Approach-2 
+//(DFS - TLE - 15/33 Tests Pass Only)
+class Solution {
+    
+    boolean[] visited;
+    int[] t;
+    HashMap<Integer, List<Integer>> mp;
+    
+    public int solve_DFS(int[] arr, int idx) {
+        
+        //reached destination
+        if(idx == arr.length - 1)
+            return 0;
+        
+        int min_step = Integer.MAX_VALUE;
+        
+        // jump to idx + 1
+        if(idx + 1 < arr.length && !visited[idx + 1]) {
+            visited[idx + 1] = true;
+            
+            min_step = Math.min(min_step,
+                                solve_DFS(arr, idx + 1) + 1);
+            
+            //you need to do this for trying
+            //(idx-1) and same number indices
+            visited[idx + 1] = false;
+        }
+        
+        // jump to idx - 1
+        if(idx - 1 >= 0 && !visited[idx - 1]) {
+            visited[idx - 1] = true;
+            
+            min_step = Math.min(min_step,
+                                solve_DFS(arr, idx - 1) + 1);
+            
+            visited[idx - 1] = false;
+        }
+        
+        // jump to same number with different idx
+        for(int next_idx : mp.get(arr[idx])) {
+            
+            if(next_idx == idx)
+                continue;
+            
+            if(!visited[next_idx]) {
+                visited[next_idx] = true;
+                
+                min_step = Math.min(min_step,
+                                    solve_DFS(arr, next_idx) + 1);
+                
+                visited[next_idx] = false;
+            }
+        }
+        
+        t[idx] = Math.min(t[idx], min_step);
+        
+        return t[idx];
+    }
+    
+    public int minJumps(int[] arr) {
+        int n = arr.length;
+        
+        visited = new boolean[n];
+        t = new int[n];
+        
+        Arrays.fill(t, Integer.MAX_VALUE);
+        
+        mp = new HashMap<>();
+        
+        for(int i = 0; i < n; i++) {
+            mp.putIfAbsent(arr[i], new ArrayList<>());
+            mp.get(arr[i]).add(i);
+        }
+        
+        visited[0] = true;
+        
+        return solve_DFS(arr, 0);
+    }
+}
