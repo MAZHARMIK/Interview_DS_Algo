@@ -177,11 +177,6 @@ Another good source for all Graph Algorithms at one spot : <a href = "https://le
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Jump%20Game%20IV.cpp">Jump Game IV (Leetcode : 1345)</a>
-				</td>
-			</tr>
-			<tr>
-       				 <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Bipartite%20Graph.cpp">Is Graph Bipartite? (3 approaches) (Leetcode : 785)</a>
 				</td>
 			</tr>
