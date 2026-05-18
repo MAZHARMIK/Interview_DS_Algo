@@ -760,5 +760,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Score%20From%20Grid%20Operations.cpp"> Maximum Score From Grid Operations (Leetcode - 3225)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20V.cpp"> Jump Game V (Leetcode - 1340)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
