@@ -219,5 +219,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs.cpp"> Minimum Absolute Distance Between Mirror Pairs (Leetcode - 3761)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20the%20Number%20of%20Special%20Characters%20II.cpp"> Count the Number of Special Characters II (Leetcode - 3121)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
