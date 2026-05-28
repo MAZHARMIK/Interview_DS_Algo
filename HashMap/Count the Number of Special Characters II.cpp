@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=0xsr7j5hdcY
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/count-the-number-of-special-characters-ii/description/
     Part I of this problem      : http://youtube.com/post/UgkxA76EhTpRxCqK4apoG-YaaQ5Lao9VypAU?si=Gi0wKGIFA-kr9iaF
