@@ -1,26 +1,30 @@
+/*			Scroll below to see JAVA code also			*/
 /*
-    Company Tags  : Google (variation in qn)
-    Leetcode Link : https://leetcode.com/problems/valid-triangle-number/
+	    MY YOUTUBE VIDEO ON THIS Qn   : https://www.youtube.com/watch?v=lblGlKlXUBM
+    	Company Tags  		          : will update later
+    	Leetcode Link 		          : https://leetcode.com/problems/valid-triangle-number
 */
 
-//Approach-1 (Using Binary Search)
+
+/*************************************************************** C++ *************************************************/
+//Approach-1 (Brute Force)
+//T.C : O(n^3)
+//S.C : O(1)
 class Solution {
 public:
     int triangleNumber(vector<int>& nums) {
         int n = nums.size();
-        if(n < 3)
-            return 0;
-        
-        sort(begin(nums), end(nums));
         int count = 0;
-        for(int i = 0; i<n-2; i++) {
-            for(int j = i+1; j<n-1; j++) {
-                int k = j+1;
-                int sum = nums[i] + nums[j];
-                
-                if(k < n) {
-                    int idx = lower_bound(begin(nums)+k, end(nums), sum) - begin(nums);
-                    count += (idx-j-1);
+        
+        // check all triplets
+        for(int i = 0; i < n; i++) {
+            for(int j = i+1; j < n; j++) {
+                for(int k = j+1; k < n; k++) {
+                    if(nums[i] + nums[j] > nums[k] &&
+                       nums[i] + nums[k] > nums[j] &&
+                       nums[j] + nums[k] > nums[i]) {
+                        count++;
+                    }
                 }
             }
         }
@@ -29,7 +33,56 @@ public:
     }
 };
 
-//Approach-2 (O(n^2) Using concept similar two 3-Sum)
+
+
+//Approach-2 (Binary Search)
+//T.C : O(n^2 * logn)
+//S.C : O(1)
+class Solution {
+public:
+    int binarySearch(const vector<int>& nums, int l, int r, int target) {
+        int k = -1;
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+            if (nums[mid] < target) {
+                k = mid;         // mid is valid
+                l = mid + 1;     // try to go right
+            } else {
+                r = mid - 1;     // go left
+            }
+        }
+        return k;
+    }
+
+    int triangleNumber(vector<int>& nums) {
+        int n = nums.size();
+        if (n < 3) return 0;
+
+        sort(nums.begin(), nums.end());
+        int count = 0;
+
+        for (int i = 0; i < n; ++i) {
+            if (nums[i] == 0) 
+                continue;  
+            
+            for (int j = i + 1; j < n; ++j) {
+
+                int sum = nums[i] + nums[j]; //sum of two sides
+                int k = binarySearch(nums, j + 1, n - 1, sum);
+                if (k != -1) 
+                    count += (k - j);
+            }
+        }
+
+        return count;
+    }
+};
+
+
+
+//Approach-3 (Two Pointer)
+//T.C : O(n^2)
+//S.C : O(1)
 class Solution {
 public:
     int triangleNumber(vector<int>& nums) {
@@ -39,59 +92,117 @@ public:
         
         sort(begin(nums), end(nums));
         int count = 0;
-        for(int i = n-1; i>1; i--) {
-            int l = 0, r = i-1;
+        
+        for(int k = n-1; k > 1; k--) {    // k is the largest side
+            int i = 0, j = k-1;           // two pointers
             
-            while(l < r) {
-                if(nums[l] + nums[r] > nums[i]) {
-                    count += (r-l);
-                    r--;
+            while(i < j) {
+                if(nums[i] + nums[j] > nums[k]) {
+                    count += (j - i);     // all pairs (i..j-1, j) will satisfy the inequality 
+                    j--;
                 } else {
-                    l++;
+                    i++;
                 }
             }
-        }     
+        }
+        
         return count;
     }
 };
 
-/*
-Note : If we use 3-SUM approach like as shown below :
-for(int i = 0; i<n-2;  i++) {
-            int l = i+1,  r = n-1;
-			while(l < r) {
-			///code
-			}
+
+
+
+/*************************************************************** JAVA *************************************************/
+//Approach-1 (Brute Force)
+//T.C : O(n^3)
+//S.C : O(1)
+class Solution {
+    public int triangleNumber(int[] nums) {
+        int n = nums.length;
+        int count = 0;
+
+        // check all triplets
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                for (int k = j + 1; k < n; k++) {
+                    if (nums[i] + nums[j] > nums[k] &&
+                        nums[i] + nums[k] > nums[j] &&
+                        nums[j] + nums[k] > nums[i]) {
+                        count++;
+                    }
+                }
+            }
+        }
+        return count;
+    }
 }
 
-We won't be getting correct result.
-Example : 
-    2     2    3    4
-	i     l         r
-	
-	nums[l]+nums[r] is not greater than nums[r]
-	So, we increase l
-	
-	2     2    3    4
-	i          l    r
-	nums[l]+nums[r] > nums[r], we increment count by 1
-	
-	But if you notice we missed the triplet {2, 2, 3} XXXXXXXX ALERT!!!!!
-	
-	-----------------------------
-	
-	So, let's take same example with Approach-2
-	 2     2    3    4
-	 l		    r    i
-	
-	nums[l]+nums[r] is greater than nums[r], 
-	it means nums[l+1]+nums[r]  > nums[r] or sure
-	Also, nums[l+2]+nums[r]  > nums[r] or sure and so on until l < r
-	So, {2, 3, 4}, {2, 3, 4} are valid
-	
-	Now, we decrement i--
-	
-	2     2    3    4
-	l     r    i
-	Here also, {2, 2, 3} is valid until l < r
-*/
+
+//Approach-2 (Binary Search)
+//T.C : O(n^2 * logn)
+//S.C : O(1)
+class Solution {
+    private int binarySearch(int[] nums, int l, int r, int target) {
+        int k = -1;
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+            if (nums[mid] < target) {
+                k = mid;          // mid is valid
+                l = mid + 1;      // try to go right
+            } else {
+                r = mid - 1;      // go left
+            }
+        }
+        return k;
+    }
+
+    public int triangleNumber(int[] nums) {
+        int n = nums.length;
+        if (n < 3) return 0;
+
+        Arrays.sort(nums);
+        int count = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (nums[i] == 0) continue;
+
+            for (int j = i + 1; j < n; j++) {
+                int sum = nums[i] + nums[j];
+                int k = binarySearch(nums, j + 1, n - 1, sum);
+                if (k != -1) {
+                    count += (k - j);
+                }
+            }
+        }
+        return count;
+    }
+}
+
+
+
+//Approach-3 (Two Pointer)
+//T.C : O(n^2)
+//S.C : O(1)
+class Solution {
+    public int triangleNumber(int[] nums) {
+        int n = nums.length;
+        if (n < 3) return 0;
+
+        Arrays.sort(nums);
+        int count = 0;
+
+        for (int k = n - 1; k > 1; k--) {  // k is the largest side
+            int i = 0, j = k - 1;          // two pointers
+            while (i < j) {
+                if (nums[i] + nums[j] > nums[k]) {
+                    count += (j - i);      // all pairs (i..j-1, j) will satisfy inequality
+                    j--;
+                } else {
+                    i++;
+                }
+            }
+        }
+        return count;
+    }
+}

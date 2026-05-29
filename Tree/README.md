@@ -186,7 +186,7 @@ Another good resource to find all tree concepts at one spot : <a href=  "https:/
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves.cpp">Lowest Common Ancestor of Deepest Leaves (Leetcode-1123)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves.cpp">Lowest Common Ancestor of Deepest Leaves & Smallest Subtree with all the Deepest Nodes (Leetcode 1123 and Leetcode 865)</a>
 				</td>
 			</tr>
 			<tr>

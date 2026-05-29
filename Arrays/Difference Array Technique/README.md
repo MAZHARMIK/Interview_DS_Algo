@@ -24,10 +24,35 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Zero%20Array%20Transformation%20II.cpp"> Zero Array Transformation II (Leetcode - 3356)</a>
 				</td>
       			</tr>
-			<tr>
+			    <tr>
           			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Zero%20Array%20Transformation%20I.cpp"> Zero Array Transformation I (Leetcode - 3355)</a>
-				</td>
+				   </td>
+      			</tr>
+				 <tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I.cpp"> Maximum Frequency of an Element After Performing Operations I (Leetcode - 3346)</a>
+				   </td>
+      			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II.cpp"> Maximum Frequency of an Element After Performing Operations II (Leetcode - 3347)</a>
+				   </td>
+      			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Increment%20Submatrices%20by%20One.cpp"> Increment Submatrices by One (Leetcode - 2536)</a>
+				   </td>
+      			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/XOR%20After%20Range%20Multiplication%20Queries%20II.cpp"> XOR After Range Multiplication Queries II (Leetcode - 3655)</a>
+				   </td>
+      			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Difference%20Array%20Technique/Minimum%20Moves%20to%20Make%20Array%20Complementary.cpp"> Minimum Moves to Make Array Complementary (Leetcode - 1674)</a>
+				   </td>
       			</tr>
 		</tbody>
 </table>

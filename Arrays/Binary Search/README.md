@@ -18,7 +18,7 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
       </tr>
       <tr>
           <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II">Find Minimum in Rotated Sorted Array II (Leetcode-154)</a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.cpp">Find Minimum in Rotated Sorted Array II (Leetcode-154)</a>
 				  </td>
       </tr>
       <tr>
@@ -256,9 +256,34 @@ When to use what Binary Search - <a href = "https://leetcode.com/discuss/general
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Kth%20Smallest%20Product%20of%20Two%20Sorted%20Arrays.cpp"> Kth Smallest Product of Two Sorted Arrays (Leetcode - 2040)</a>
 				  </td>
       			</tr>
-			<tr>
+				<tr>
           			  <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximum%20Fruits%20Harvested%20After%20at%20Most%20K%20Steps.cpp"> Maximum Fruits Harvested After at Most K Steps (Leetcode - 2106)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Avoid%20Flood%20in%20The%20City.cpp"> Avoid Flood in The City (Leetcode - 1488)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Maximize%20the%20Minimum%20Powered%20City.cpp"> Maximize the Minimum Powered City (Leetcode - 2528)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Separate%20Squares%20I.cpp"> Separate Squares I (Leetcode - 3453)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Number%20of%20Seconds%20to%20Make%20Mountain%20Height%20Zero.cpp"> Minimum Number of Seconds to Make Mountain Height Zero (Leetcode - 3296)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Binary%20Search/Minimum%20Initial%20Energy%20to%20Finish%20Tasks.cpp"> Minimum Number of Seconds to Make Mountain Height Zero (Leetcode - 1665)</a>
 				  </td>
       			</tr>
 		</tbody>

@@ -539,5 +539,45 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20the%20Number%20of%20Ways%20to%20Place%20People%20II.cpp"> Find the Number of Ways to Place People II (Leetcode - 3027)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Find%20Triangular%20Sum%20of%20an%20Array.cpp"> Find Triangular Sum of an Array (Leetcode - 2221)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Adjacent%20Increasing%20Subarrays%20Detection%20II.cpp"> Adjacent Increasing Subarrays Detection II (Leetcode - 3350)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K.cpp"> Maximum Subarray Sum With Length Divisible by K (Leetcode - 3381)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.cpp"> Number of Smooth Descent Periods of a Stock (Leetcode - 2110)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Maximize%20Area%20of%20Square%20Hole%20in%20Grid.cpp"> Maximize Area of Square Hole in Grid (Leetcode - 2943)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Rotate%20Function.cpp"> Rotate Function (Leetcode - 396)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Jump%20Game%20III.cpp"> Jump Game III (Leetcode - 1306)</a>
+				</td>
+			</tr>
+						<tr>
+       				 <td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Jump%20Game%20IV.cpp">Jump Game IV (Leetcode : 1345)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

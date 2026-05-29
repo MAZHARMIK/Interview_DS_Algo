@@ -1,6 +1,6 @@
 /*         Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=jnj87BSi9Is&t=592s
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=jnj87BSi9Is
     Company Tags                : Apple, AMAZON, VMWARE, GOOGLE, MICROSOFT, GOLDMAN SACHS, Adobe, Belzabar, SAP Labs, Yahoo,
                                   D-E-Shaw, Facebook, Flipkart, Google, Intuit, Microsoft, Morgan Stanley, Ola Cabs, Oracle, Samsung
     Leetcode Link               : https://leetcode.com/problems/find-median-from-data-stream/

@@ -228,13 +228,58 @@
 				</td>
 			</tr>
 			<tr>
-        			<td>
+        		<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Find%20the%20Minimum%20Area%20to%20Cover%20All%20Ones%20II.cpp"> Find the Minimum Area to Cover All Ones II (Leetcode - 3197)</a>
 				</td>
 			</tr>
 			<tr>
-        			<td>
+        		<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Sort%20Matrix%20by%20Diagonals.cpp"> Sort Matrix by Diagonals (Leetcode - 3446)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Largest%20Magic%20Square.cpp"> Largest Magic Square (Leetcode - 1895)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.cpp"> Minimum Swaps to Arrange a Binary Grid (Leetcode - 1536)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Get%20Biggest%20Three%20Rhombus%20Sums%20in%20a%20Grid.cpp"> Get Biggest Three Rhombus Sums in a Grid. (Leetcode - 1878)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Count%20Submatrices%20with%20Top-Left%20Element%20and%20Sum%20Less%20Than%20k.cpp"> Count Submatrices with Top-Left Element and Sum Less Than k (Leetcode - 3070)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Count%20Submatrices%20With%20Equal%20Frequency%20of%20X%20and%20Y.cpp"> Count Submatrices With Equal Frequency of X and Y (Leetcode - 3212)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Minimum%20Absolute%20Difference%20in%20Sliding%20Submatrix.cpp"> Minimum Absolute Difference in Sliding Submatrix (Leetcode - 3567)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Construct%20Product%20Matrix.cpp"> Construct Product Matrix (Leetcode - 2906)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Minimum%20Cost%20Homecoming%20of%20a%20Robot%20in%20a%20Grid.cpp"> Minimum Cost Homecoming of a Robot in a Grid (Leetcode - 2087)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Cyclically%20Rotating%20a%20Grid.cpp"> Cyclically Rotating a Grid (Leetcode - 1914)</a>
 				</td>
 			</tr>
 		</tbody>

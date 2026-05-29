@@ -1,7 +1,8 @@
+/*            SCROLL BELOW TO SEE JAVA CODE AS WELL            */
 /*
       MY YOUTUBE VIDEO ON THIS Qn : Recur + memo - https://www.youtube.com/watch?v=Tk70PLqbYH4
-                                    Bottom Up - 
-      Company Tags                : Soon I will update
+                                    Bottom Up - Let me know if you want me to upload a separate video on Bottom Up :-)
+      Company Tags                : AMAZON
       Leetcode Link               : https://leetcode.com/problems/max-dot-product-of-two-subsequences/
 */
 
@@ -10,6 +11,7 @@
 /*********************************************** C++ ***********************************************/
 //Approach-1 (Using concept of LCS - same code)
 //T.C : O(m*n)
+//S.C : O(m*n)
 class Solution {
 public:
     int m, n;
@@ -49,14 +51,15 @@ public:
     }
 };
 
+
 //Approach-2 (Bottom Up same as LCS)
-//T.C : O(m*n)
-//Sooooon coming
+//Let me know if you want me to upload a separate video on Bottom Up :-)
 
 
 /*********************************************** JAVA ***********************************************/
 //Approach-1 (Using concept of LCS - same code)
 //T.C : O(m*n)
+//S.C : O(m*n)
 class Solution {
     int m, n;
     int[][] t;
@@ -92,6 +95,6 @@ class Solution {
 }
 
 
+
 //Approach-2 (Bottom Up same as LCS)
-//T.C : O(m*n)
-//Sooooon coming
+//Let me know if you want me to upload a separate video on Bottom Up :-)

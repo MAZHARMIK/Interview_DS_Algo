@@ -36,11 +36,6 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Jump%20Game%20III%20(Recursive(DFS)%20-%3E%20BFS)">Jump Game III  (Leetcode-1306)</a>
-				</td>
-			</tr>
-			<tr>
-        			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Maximum%20Length%20of%20a%20Concatenated%20String%20with%20Unique%20Characters.cpp">Maximum Length of a Concatenated String with Unique Characters (Leetcode-1239)</a>
 				</td>
 			</tr>
@@ -132,6 +127,11 @@
 			<tr>
         			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/The%20Earliest%20and%20Latest%20Rounds%20Where%20Players%20Compete.cpp"> The Earliest and Latest Rounds Where Players Compete (Leetcode - 1900)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Special%20Binary%20String.cpp"> Special Binary String (Leetcode - 761)</a>
 				</td>
 			</tr>
 		</tbody>

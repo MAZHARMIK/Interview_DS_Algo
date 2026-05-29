@@ -258,11 +258,31 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
           			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Sliding%20Window/Maximum%20Erasure%20Value.cpp"> Maximum Erasure Value (Leetcode 1695) </a>
 				</td>
-      			</tr>
+      		</tr>
 			<tr>
           			<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Fruit%20Into%20Baskets.cpp"> Fruit Into Baskets (Leetcode 904) </a>
 				</td>
-      			</tr>
+      		</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20II.cpp"> Find X-Sum of All K-Long Subarrays II (Leetcode 3321) </a>
+				</td>
+      		</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.cpp"> Best Time to Buy and Sell Stock using Strategy (Leetcode 3652) </a>
+				</td>
+      		</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Divide%20an%20Array%20Into%20Subarrays%20With%20Minimum%20Cost%20II.cpp"> Divide an Array Into Subarrays With Minimum Cost II (Leetcode 3013) </a>
+				</td>
+      		</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Minimum%20Number%20of%20Flips%20to%20Make%20the%20Binary%20String%20Alternating.cpp"> Minimum Number of Flips to Make the Binary String Alternating (Leetcode 1888) </a>
+				</td>
+      		</tr>
 		</tbody>
 </table>

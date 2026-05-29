@@ -51,7 +51,7 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Concatenation%20of%20Consecutive%20Binary%20Numbers">Concatenation of Consecutive Binary Numbers (Leetcode-1680)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Concatenation%20of%20Consecutive%20Binary%20Numbers.cpp">Concatenation of Consecutive Binary Numbers (Leetcode-1680)</a>
 				</td>
 			</tr>
 			<tr>
@@ -61,7 +61,7 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K">Check If a String Contains All Binary Codes of Size K (Leetcode-1461)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.cpp">Check If a String Contains All Binary Codes of Size K (Leetcode-1461)</a>
 				</td>
 			</tr>
 			<tr>
@@ -200,8 +200,13 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 				</td>
 			</tr>
 			<tr>
-       				 <td>
+       			<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Smallest%20Subarrays%20With%20Maximum%20Bitwise%20OR.cpp"> Smallest Subarrays With Maximum Bitwise OR (Leetcode - 2411)</a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Construct%20the%20Minimum%20Bitwise%20Array%20II.cpp"> Construct the Minimum Bitwise Array II (Leetcode - 3315)</a>
 				</td>
 			</tr>
 		</tbody>

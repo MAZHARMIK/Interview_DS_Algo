@@ -104,9 +104,39 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Maximum%20Absolute%20Sum%20of%20Any%20Subarray.cpp"> Maximum Absolute Sum of Any Subarray (Leetcode - 1749)</a>
 				  </td>
       			</tr>
-			<tr>
+			    <tr>
           			  <td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Count%20of%20Interesting%20Subarrays.cpp"> Count of Interesting Subarrays (Leetcode - 2845)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I.cpp"> Maximum Frequency of an Element After Performing Operations I (Leetcode - 3346)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.cpp"> Maximum Side Length of a Square with Sum Less than or Equal to Threshold (Leetcode - 1292)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Equal%20Sum%20Grid%20Partition%20I.cpp"> Equal Sum Grid Partition I (Leetcode - 3546)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Equal%20Sum%20Grid%20Partition%20II.cpp"> Equal Sum Grid Partition II (Leetcode - 3548)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Sum%20of%20Distances.cpp"> Sum of Distances (Leetcode - 2615)</a>
+				  </td>
+      			</tr>
+				<tr>
+          			  <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Jump%20Game%20IX.cpp"> Jump Game IX (Leetcode - 3660)</a>
 				  </td>
       			</tr>
 		</tbody>

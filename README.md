@@ -44,6 +44,7 @@ Latest Update⏰  -
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Design">Design :scissors::triangular_ruler:</a></li>
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/strings">Strings :bookmark_tabs:</a></li>
   <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Segment%20Tree">Segment Tree 🌳</a></li>
+ <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Line%20Sweep%20Technique">Line Sweep Technique 📈</a></li>
 </ul>
 
 

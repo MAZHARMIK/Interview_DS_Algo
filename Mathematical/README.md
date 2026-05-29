@@ -1,4 +1,4 @@
-<a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icon.png" align="right" /><a href="https://github.com/MAZHARMIK"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_orange_ff7600.png?resize=149%2C149" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
 <img src="http://www.freeimageslive.com/galleries/workplace/education/pics/maths_school.jpg" width="600" height="250">
 
 # Mathematical : :triangular_flag_on_post:
@@ -46,7 +46,7 @@
 			</tr>
 			<tr>
        				 <td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Smallest%20Integer%20Divisible%20by%20K">Smallest Integer Divisible by K (Leetcode : 1015)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Smallest%20Integer%20Divisible%20by%20K.cpp">Smallest Integer Divisible by K (Leetcode : 1015)</a>
 				</td>
 			</tr>
 			<tr>
@@ -277,6 +277,46 @@
 			<tr>
        				 <td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Minimum%20Operations%20to%20Make%20the%20Integer%20Zero.cpp"> Minimum Operations to Make the Integer Zero (Leetcode - 2749) </a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Fraction%20to%20Recurring%20Decimal.cpp"> Fraction to Recurring Decimal (Leetcode - 166) </a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Smallest%20Missing%20Non-negative%20Integer%20After%20Operations.cpp"> Smallest Missing Non-negative Integer After Operations (Leetcode - 2598) </a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Number%20of%20Trapezoids%20I.cpp"> Count Number of Trapezoids I (Leetcode - 3623) </a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Number%20of%20Trapezoids%20II.cpp"> Count Number of Trapezoids II (Leetcode - 3625) </a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.cpp"> Count the Number of Computer Unlocking Permutations (Leetcode - 3577) </a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Four%20Divisors.cpp"> Four Divisors (Leetcode - 1390) </a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Fancy%20Sequence.cpp"> Fancy Sequence (Leetcode - 1622) </a>
+				</td>
+			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Direction%20Assignments%20with%20Exactly%20K%20Visible%20People.cpp"> Direction Assignments with Exactly K Visible People (Leetcode - 3881) </a>
 				</td>
 			</tr>
 		</tbody>

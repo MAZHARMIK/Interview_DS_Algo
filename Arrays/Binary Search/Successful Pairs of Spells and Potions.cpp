@@ -1,10 +1,15 @@
+/*     Scroll below to see JAVA code also    */
 /*
       MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=QZI4TCVckpA
       Company Tags                : MICROSOFT
       Leetcode Link               : https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
 */
 
+
+/****************************************************************** C++ ******************************************************************/
 //Approach-1 : Using lower_bound STL
+//T.C : O(nlogn)
+//S.C : O(1)
 class Solution {
 public:
     vector<int> successfulPairs(vector<int>& spells, vector<int>& potions, long long success) {
@@ -42,6 +47,8 @@ public:
 
 
 //Approach-2 : Using self written Binary Search for lower bound
+//T.C : O(nlogn)
+//S.C : O(1)
 class Solution {
 public:
     
@@ -104,3 +111,53 @@ public:
 
 //Approach-3 (Using 2 pointers - It will be posted in Two Pointer sub-repository)
 //Two Pointer Sub-repo - https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Two%20Pointer/Successful%20Pairs%20of%20Spells%20and%20Potions.cpp
+
+
+
+
+/****************************************************************** JAVA ******************************************************************/
+//Approach : Using custom binary search for lower_bound
+//T.C : O(nlogn)
+//S.C : O(1)
+class Solution {
+    public int[] successfulPairs(int[] spells, int[] potions, long success) {
+        int m = spells.length;
+        int n = potions.length;
+
+        Arrays.sort(potions);
+        int maxPotion = potions[n - 1];
+
+        int[] answer = new int[m];
+
+        for (int i = 0; i < m; i++) {
+            int spell = spells[i];
+            long minPotion = (long) Math.ceil((1.0 * success) / spell);
+
+            if (minPotion > maxPotion) {
+                answer[i] = 0;
+                continue;
+            }
+
+            int index = lowerBound(potions, (int) minPotion);
+            answer[i] = n - index;
+        }
+
+        return answer;
+    }
+
+    private int lowerBound(int[] arr, int target) {
+        int l = 0, r = arr.length;
+
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+
+            if (arr[mid] < target) {
+                l = mid + 1;
+            } else {
+                r = mid;
+            }
+        }
+
+        return l;
+    }
+}

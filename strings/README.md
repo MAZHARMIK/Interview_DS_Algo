@@ -397,5 +397,30 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Using%20a%20Robot%20to%20Print%20the%20Lexicographically%20Smallest%20String.cpp"> Using a Robot to Print the Lexicographically Smallest String (Leetcode - 2434)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20the%20Number%20of%20Substrings%20With%20Dominant%20Ones.cpp"> Count the Number of Substrings With Dominant Ones (Leetcode - 3234)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Number%20of%20Substrings%20With%20Only%201s.cpp"> Number of Substrings With Only 1s (Leetcode - 1513)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Count%20Collisions%20on%20a%20Road.cpp"> Count Collisions on a Road (Leetcode - 2211)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Delete%20Columns%20to%20Make%20Sorted%20II.cpp"> Delete Columns to Make Sorted II (Leetcode - 955)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Words%20Within%20Two%20Edits%20of%20Dictionary.cpp"> Words Within Two Edits of Dictionary (Leetcode - 2452)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>

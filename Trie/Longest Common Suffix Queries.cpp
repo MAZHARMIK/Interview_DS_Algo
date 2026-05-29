@@ -18,6 +18,11 @@ public:
     struct trieNode {
         int idx;
         trieNode* children[26];
+        ~trieNode() {
+            for (int i = 0; i < 26; i++) {
+                delete children[i];
+            }
+        }
     };
 
     trieNode* getNode(int i) {
@@ -80,6 +85,8 @@ public:
         for(int i = 0; i < n; i++) {
             result[i] = search(root, wordsQuery[i]);
         }
+
+        delete root;   // invokes destructor
 
         return result;
     }

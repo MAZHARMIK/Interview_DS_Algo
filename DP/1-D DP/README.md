@@ -44,9 +44,34 @@
 			</td>
 			</tr>
 			<tr>
-			<td>
-				<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Number%20of%20People%20Aware%20of%20a%20Secret.cpp"> Number of People Aware of a Secret (Leetcode - 2327)</a>
-			</td>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Number%20of%20People%20Aware%20of%20a%20Secret.cpp"> Number of People Aware of a Secret (Leetcode - 2327)</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon.cpp"> Taking Maximum Energy From the Mystic Dungeon (Leetcode - 3147)</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Maximum%20Total%20Damage%20With%20Spell%20Casting.cpp"> Maximum Total Damage With Spell Casting (Leetcode - 3186)</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Trionic%20Array%20II.cpp"> Trionic Array II (Leetcode - 3640)</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Rotated%20Digits.cpp"> Rotated Digits (Leetcode - 788)</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/1-D%20DP/Maximum%20Number%20of%20Jumps%20to%20Reach%20the%20Last%20Index.cpp"> Maximum Number of Jumps to Reach the Last Index (Leetcode - 2770)</a>
+				</td>
 			</tr>
 	</tbody>
 </table>

@@ -9,8 +9,13 @@
 		</thead>
 		<tbody>
 			<tr>
-        			<td>
+        		<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Monotonic%20Stack/Maximum%20Width%20Ramp.cpp"> Maximum Width Ramp (Leetcode : 962)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Monotonic%20Stack/Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero.cpp"> Minimum Operations to Convert All Elements to Zero (Leetcode : 3542)</a>
 				</td>
 			</tr>
 		</tbody>

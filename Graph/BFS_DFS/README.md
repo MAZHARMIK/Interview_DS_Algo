@@ -129,5 +129,35 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Maximum%20Candies%20You%20Can%20Get%20from%20Boxes.cpp"> Maximum Candies You Can Get from Boxes (Leetcode - 1298)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Lexicographically%20Smallest%20String%20After%20Applying%20Operations.cpp"> Lexicographically Smallest String After Applying Operations (Leetcode - 1625)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Power%20Grid%20Maintenance.cpp"> Power Grid Maintenance (Leetcode - 3607)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Maximum%20Number%20of%20K-Divisible%20Components.cpp"> Maximum Number of K-Divisible Components (Leetcode - 2872)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Detect%20Cycles%20in%202D%20Grid.cpp"> Detect Cycles in 2D Grid (Leetcode - 1559)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.cpp"> Check if There is a Valid Path in a Grid (Leetcode - 1391)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Minimum%20Jumps%20to%20Reach%20End%20via%20Prime%20Teleportation.cpp"> Minimum Jumps to Reach End via Prime Teleportation (Leetcode - 3629)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
