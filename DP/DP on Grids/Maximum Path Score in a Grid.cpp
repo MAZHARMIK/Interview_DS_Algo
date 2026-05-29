@@ -25,7 +25,7 @@ public:
             for (int j = n - 1; j >= 0; j--) {
                 for (int cost = k; cost >= 0; cost--) {
 
-                    int newCost = cost + (grid[i][j] > 0);
+                    int newCost = cost + (grid[i][j] > 0); // Please change in c++ also
 
                     if (newCost > k) continue;
 
@@ -69,7 +69,7 @@ public:
         if(i >= m || j >= n)
             return INT_MIN;
         
-        int newCost = cost + (grid[i][j] > 0);
+        int newCost = cost + (grid[i][j] > 0); // Please change in c++ also
 
         if(newCost > k)
             return INT_MIN;
@@ -133,7 +133,8 @@ class Solution {
             for (int j = n - 1; j >= 0; j--) {
                 for (int cost = k; cost >= 0; cost--) {
 
-                    int newCost = cost + (grid[i][j] > 0);
+                    int newCost = cost + (grid[i][j] > 0);  // Not like this - Missing conditional operator sysntax
+        int newCost = cost + (grid[i][j] > 0 ? 1 : 0);  // It should be like this 
 
                     if (newCost > k) continue;
 
@@ -177,7 +178,8 @@ class Solution {
 
         if (i >= m || j >= n) return Integer.MIN_VALUE;
 
-        int newCost = cost + (grid[i][j] > 0);
+        int newCost = cost + (grid[i][j] > 0);  // Not like this - Missing conditional operator sysntax
+        int newCost = cost + (grid[i][j] > 0 ? 1 : 0);  // It should be like this 
 
         if (newCost > k) return Integer.MIN_VALUE;
 
