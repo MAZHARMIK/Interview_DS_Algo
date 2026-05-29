@@ -90,3 +90,58 @@ class Solution {
         return result;
     }
 }
+//ALTERNATE APPROACH
+
+class Solution {
+
+    private static final int MAX = 100001;
+    private static int[] spf = new int[MAX];
+
+    static {
+        sieve();
+    }
+
+    private static void sieve() {
+        for (int i = 0; i < MAX; i++)
+            spf[i] = i;
+
+        for (int i = 2; i * i < MAX; i++) {
+            if (spf[i] == i) { // prime
+                for (int j = i * i; j < MAX; j += i) {
+                    if (spf[j] == j)
+                        spf[j] = i;
+                }
+            }
+        }
+    }
+
+    public int sumFourDivisors(int[] nums) {
+        int ans = 0;
+        for (int n : nums) {
+            ans += fourDivisorSum(n);
+        }
+        return ans;
+    }
+
+    private int fourDivisorSum(int n) {
+        // Special case: 1 has only 1 divisor
+        if (n == 1)
+            return 0;
+
+        int p = spf[n];
+        int q = n / p;
+
+        // Case 1: p^3
+        if (p * p * p == n) {
+            return 1 + p + p * p + n;
+        }
+
+        // Case 2: p * q (distinct primes, and q > 1)
+        if (p != q && q > 1 && spf[q] == q) {
+            return 1 + p + q + n;
+        }
+
+        return 0;
+    }
+
+}
