@@ -334,5 +334,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Lexicographically%20Smallest%20Generated%20String.cpp"> Lexicographically Smallest Generated String (Leetcode - 3474)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Destroying%20Asteroids.cpp"> Destroying Asteroids (Leetcode - 2126)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
