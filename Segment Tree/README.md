@@ -54,5 +54,10 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Longest%20Balanced%20Subarray%20II.cpp"> Longest Balanced Subarray II (Leetcode - 3721) </a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Block%20Placement%20Queries.cpp"> Block Placement Queries (Leetcode - 3161) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
