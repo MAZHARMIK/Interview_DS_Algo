@@ -319,5 +319,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Direction%20Assignments%20with%20Exactly%20K%20Visible%20People.cpp"> Direction Assignments with Exactly K Visible People (Leetcode - 3881) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Total%20Waviness%20of%20Numbers%20in%20Range%20I.cpp"> Total Waviness of Numbers in Range I (Leetcode - 3751) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
