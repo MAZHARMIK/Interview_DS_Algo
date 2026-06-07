@@ -3,6 +3,7 @@
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=aGmHF7Rs0R8
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays
+    Similar Hard Version        : https://leetcode.com/problems/maximum-sum-of-m-non-overlapping-subarrays-i/description/
 */
 
 
