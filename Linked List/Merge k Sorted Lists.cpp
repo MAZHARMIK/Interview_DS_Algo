@@ -1,7 +1,7 @@
 /*         Scroll down to see JAVA code also        */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : Approach-1 (Merge Sort) - https://www.youtube.com/watch?v=Q64u-W3l3mA
-                                  Approach-2 (Using Heap) - 
+                                  Approach-2 (Using Heap) - https://www.youtube.com/watch?v=WtsbSJybOnM
     Company Tags                : VMWare, Amazon, Uber, Google, Twitter, LinkedIn, Airbnb, Facebook, Microsoft, IXL
     Leetcode Link               : https://leetcode.com/problems/merge-k-sorted-lists/
 */
