@@ -214,5 +214,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Minimum%20Difference%20in%20Sums%20After%20Removal%20of%20Elements.cpp"> Minimum Difference in Sums After Removal of Elements (Leetcode - 2163)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Maximum%20Total%20Subarray%20Value%20II.cpp"> Maximum Total Subarray Value II (Leetcode - 3691)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
