@@ -324,5 +324,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Total%20Waviness%20of%20Numbers%20in%20Range%20I.cpp"> Total Waviness of Numbers in Range I (Leetcode - 3751) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Number%20of%20Ways%20to%20Assign%20Edge%20Weights%20I.cpp"> Number of Ways to Assign Edge Weights I (Leetcode - 3558) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
