@@ -70,9 +70,9 @@ public:
       
        if(mp.count(s))
             return mp[s];
-
-        if(mp.count(s))
-            return mp[s];
+        // twice this conditon written 
+        // if(mp.count(s))
+        //     return mp[s];
         
         vector<string> result;
         for(int l = 1; l <= s.length(); l++) {
