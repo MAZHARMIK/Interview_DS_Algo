@@ -6,6 +6,7 @@
 
 ![Problems](https://img.shields.io/badge/Problems-81-4f46e5?style=flat-square)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Language](https://img.shields.io/badge/Language-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Topic](https://img.shields.io/badge/Topic-Strings-FFB454?style=flat-square)
 ![LeetCode](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)
 
