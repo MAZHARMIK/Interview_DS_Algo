@@ -6,6 +6,7 @@
   <summary>:arrow_down_small:Click to :mag: and :dizzy_face: the sub-topics</summary>
   
   <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/strings/Easy%20Tagged">:file_folder:Easy Tagged (Phone Inteview Problems)</a>
+  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/strings/Simulation">:file_folder:Simulation</a>
 
 </details>
 
