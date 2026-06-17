@@ -35,6 +35,7 @@ public:
                 parent[root_i] = root_j;
             } else {
                 parent[root_j] = root_i;
+                rank[root_j]++;
             }
         }
     }
