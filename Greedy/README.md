@@ -335,8 +335,13 @@
 				</td>
 			</tr>
 			<tr>
-        			<td>
+        		<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Destroying%20Asteroids.cpp"> Destroying Asteroids (Leetcode - 2126)</a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Building%20Height.cpp"> Maximum Building Height (Leetcode - 1840)</a>
 				</td>
 			</tr>
 		</tbody>
