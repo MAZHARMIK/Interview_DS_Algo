@@ -770,5 +770,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Jump%20Game%20VII.cpp"> Jump Game VII (Leetcode - 1871)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20ZigZag%20Arrays%20I.cpp"> Number of ZigZag Arrays I (Leetcode - 3699)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
