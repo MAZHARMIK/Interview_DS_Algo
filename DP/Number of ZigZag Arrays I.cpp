@@ -82,7 +82,7 @@ public:
             t[N][prevVal][1] = 1;
         }
 
-        for(int i = N-1; i >= 1; i--) {
+        for(int i = N-1; i >= 0; i--) {
 
             for(int prevVal = 1; prevVal <= M; prevVal++) {
 
@@ -134,7 +134,7 @@ public:
             t[N][prevVal][1] = 1;
         }
 
-        for(int i = N-1; i >= 1; i--) {
+        for(int i = N-1; i >= 0; i--) {
 
             vector<ll> prefDir0(M+1, 0);
             vector<ll> prefDir1(M+1, 0);
@@ -244,7 +244,7 @@ class Solution {
             t[N][prevVal][1] = 1;
         }
 
-        for (int i = N - 1; i >= 1; i--) {
+        for (int i = N - 1; i >= 0; i--) {
             for (int prevVal = 1; prevVal <= M; prevVal++) {
 
                 for (int nextVal = prevVal + 1; nextVal <= M; nextVal++) {
@@ -287,7 +287,7 @@ class Solution {
             t[N][prevVal][1] = 1;
         }
 
-        for (int i = N - 1; i >= 1; i--) {
+        for (int i = N - 1; i >= 0; i--) {
 
             long[] prefDir0 = new long[M + 1];
             long[] prefDir1 = new long[M + 1];
