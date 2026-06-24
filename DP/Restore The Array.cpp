@@ -24,6 +24,7 @@ public:
             return t[start] = 0;
         
         long ans = 0;
+        long long num=0;
         
         long long num = 0;
         
