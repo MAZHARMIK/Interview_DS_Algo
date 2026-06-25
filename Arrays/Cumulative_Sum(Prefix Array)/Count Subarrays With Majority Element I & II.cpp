@@ -88,7 +88,7 @@ public:
 
         long long validLeftPoints = 0;
 
-        int result = 0;
+        long long result = 0;
 
         for (int x : nums) {
             if (x == target) {
