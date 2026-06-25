@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=d8gBjEG6Ouc
     Company Tags                : Will update later
     Leetcode-3737 Link          : https://leetcode.com/problems/count-subarrays-with-majority-element-i
     Leetcode-3739 Link          : https://leetcode.com/problems/count-subarrays-with-majority-element-ii
