@@ -224,5 +224,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Count%20the%20Number%20of%20Special%20Characters%20II.cpp"> Count the Number of Special Characters II (Leetcode - 3121)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/HashMap/Find%20the%20Maximum%20Number%20of%20Elements%20in%20Subset.cpp"> Find the Maximum Number of Elements in Subset (Leetcode - 3020)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
