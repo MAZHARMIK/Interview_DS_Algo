@@ -1,8 +1,8 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=_71KQ4Voj3c
     Company Tags                : will update soon
-    Leetcode Link               : https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/description/
+    Leetcode Link               : https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset
 */
 
 /*************************************************************** C++ ***************************************************************/
