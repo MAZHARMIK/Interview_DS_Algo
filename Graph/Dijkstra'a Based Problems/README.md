@@ -99,5 +99,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Minimum%20Cost%20to%20Convert%20String%20II.cpp"> Minimum Cost to Convert String II (Leetcode - 2977)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Find%20a%20Safe%20Walk%20Through%20a%20Grid.cpp"> Find a Safe Walk Through a Grid (Leetcode - 3286)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
