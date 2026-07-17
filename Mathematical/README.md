@@ -329,5 +329,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Number%20of%20Ways%20to%20Assign%20Edge%20Weights%20I.cpp"> Number of Ways to Assign Edge Weights I (Leetcode - 3558) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Sorted%20GCD%20Pair%20Queries.cpp"> Sorted GCD Pair Queries (Leetcode - 3312) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
