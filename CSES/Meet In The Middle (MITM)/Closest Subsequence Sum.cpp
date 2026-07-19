@@ -38,15 +38,21 @@ public:
         sort(begin(sumsB), end(sumsB));
 
         int minValue = INT_MAX;
-        for (int s : sumsA) {
-            int need = goal - s;
-            int low = lower_bound(begin(sumsB), end(sumsB), need) - begin(sumsB);
+        for (int sum1 : sumsA) {
+            int need = goal - sum1;
+            int low  = lower_bound(begin(sumsB), end(sumsB), need) - begin(sumsB);
 
-            if (low < sumsB.size())
-                minValue = min(minValue, abs(need - sumsB[low]));
+            if (low < sumsB.size()) {
+                int sum2 = sumsB[low];
+                int total = sum1 + sum2;
+                minValue = min(minValue, abs(total - goal));
+            }
 
-            if (low > 0)
-                minValue = min(minValue, abs(need - sumsB[low - 1]));
+            if (low > 0) {
+                int sum2 = sumsB[low-1];
+                int total = sum1 + sum2;
+                minValue = min(minValue, abs(total - goal));
+            }
         }
 
         return minValue;
@@ -95,17 +101,23 @@ class Solution {
         Arrays.sort(sumsB);
 
         int minValue = Integer.MAX_VALUE;
-        for (int s : sumsA) {
-            int need = goal - s;
-            int low = lowerBound(sumsB, need);
-
-            if (low < sumsB.length)
-                minValue = Math.min(minValue, Math.abs(need - sumsB[low]));
-
-            if (low > 0)
-                minValue = Math.min(minValue, Math.abs(need - sumsB[low - 1]));
+        for (int sum1 : sumsA) {
+            int need = goal - sum1;
+            int low  = lowerBound(sumsB, need);
+        
+            if (low < sumsB.length) {
+                int sum2 = sumsB[low];
+                int total = sum1 + sum2;
+                minValue = Math.min(minValue, Math.abs(total - goal));
+            }
+        
+            if (low > 0) {
+                int sum2 = sumsB[low - 1];
+                int total = sum1 + sum2;
+                minValue = Math.min(minValue, Math.abs(total - goal));
+            }
         }
-
+        
         return minValue;
     }
 }
