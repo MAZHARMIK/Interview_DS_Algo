@@ -570,25 +570,28 @@
 				</td>
 			</tr>
 			<tr>
-        			<td>
+        		<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Jump%20Game%20III.cpp"> Jump Game III (Leetcode - 1306)</a>
 				</td>
 			</tr>
-				<tr>
+			<tr>
        				 <td>
 						<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Jump%20Game%20IV.cpp">Jump Game IV (Leetcode - 1345)</a>
 					</td>
 			</tr>
-			</tr>
-				<tr>
+			<tr>
        				 <td>
 						<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I%20and%20II.cpp"> Earliest Finish Time for Land and Water Rides I and II (Leetcode - 3633 and 3635)</a>
 					</td>
 			</tr>
-			</tr>
-				<tr>
+			<tr>
        				 <td>
 						<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Rotate%20Array.cpp"> Rotate Array (Leetcode - 189)</a>
+					</td>
+			</tr>
+			<tr>
+       				 <td>
+						<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Shift%202D%20Grid.cpp"> Shift 2D Grid (Leetcode - 1260)</a>
 					</td>
 			</tr>
 		</tbody>
