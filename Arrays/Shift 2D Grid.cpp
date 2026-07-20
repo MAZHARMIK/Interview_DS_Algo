@@ -8,7 +8,7 @@
 
 /*********************************************************** C++ **************************************************/
 //Approach (Reverse Trick)
-//T.C : O(n)
+//T.C : O(n), n = row*col
 //S.C : O(1)
 class Solution {
 public:
@@ -40,7 +40,7 @@ public:
 
 /*********************************************************** JAVA **************************************************/
 //Approach (Reverse Trick)
-//T.C : O(n)
+//T.C : O(n), n = row*col
 //S.C : O(1)
 class Solution {
     public List<List<Integer>> shiftGrid(int[][] grid, int k) {
