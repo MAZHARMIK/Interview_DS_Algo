@@ -118,6 +118,6 @@ Each row links straight to its C++ solution. Sorted in curated study order — s
 
 <div align="center">
 
-**curated by [MAZHARMIK](https://github.com/MAZHARMIK) · part of [Interview_DS_Algo](https://github.com/MAZHARMIK/Interview_DS_Algo)
+curated by [MAZHARMIK](https://github.com/MAZHARMIK) · part of [Interview_DS_Algo](https://github.com/MAZHARMIK/Interview_DS_Algo)
 
 </div>
