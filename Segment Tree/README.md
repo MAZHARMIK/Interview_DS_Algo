@@ -55,8 +55,13 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 				</td>
 			</tr>
 			<tr>
-        			<td>
+        		<td>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Block%20Placement%20Queries.cpp"> Block Placement Queries (Leetcode - 3161) </a>
+				</td>
+			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Maximize%20Active%20Section%20with%20Trade%20II.cpp"> Maximize Active Section with Trade II (Leetcode - 3501) </a>
 				</td>
 			</tr>
 		</tbody>
