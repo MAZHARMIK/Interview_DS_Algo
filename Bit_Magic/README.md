@@ -209,5 +209,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Construct%20the%20Minimum%20Bitwise%20Array%20II.cpp"> Construct the Minimum Bitwise Array II (Leetcode - 3315)</a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Number%20of%20Unique%20XOR%20Triplets%20I.cpp"> Number of Unique XOR Triplets I (Leetcode - 3513)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
