@@ -1,6 +1,6 @@
 /*   Scroll below to see JAVA code also  */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=FbD3Tfwhi0Q
     Company Tags                : Will udpate later
     Leetcode Link               : https://leetcode.com/problems/number-of-unique-xor-triplets-i
 */
