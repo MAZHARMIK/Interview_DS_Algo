@@ -82,7 +82,7 @@ public:
 
 
 /******************************************************* JAVA *******************************************************/
-//Approach-1 (Xor Pairs and then Xor triplets)
+//Approach-1 (Xor Pairs and then Xor triplets) - Java Gives TLE if you use hashset
 //T.C : O(n^2 + n*maxEl), maxEl = max element in nums
 //S.C : O(maxEl), less than next power of 2 after maxEl
 class Solution {
