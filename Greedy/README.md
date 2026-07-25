@@ -344,5 +344,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Building%20Height.cpp"> Maximum Building Height (Leetcode - 1840)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Smallest%20Palindromic%20Rearrangement%20I.cpp"> Smallest Palindromic Rearrangement I (Leetcode - 3517)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
