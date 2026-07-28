@@ -149,5 +149,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20II.cpp"> Concatenate Non-Zero Digits and Multiply by Sum II (Leetcode - 3756)</a>
 				  	</td>
       			</tr>
+				<tr>
+          			 <td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Cumulative_Sum(Prefix%20Array)/Maximum%20Sum%20of%20Two%20Non-Overlapping%20Subarrays.cpp"> Maximum Sum of Two Non-Overlapping Subarrays (Leetcode - 1031)</a>
+				  	</td>
+      			</tr>
 		</tbody>
 </table>
