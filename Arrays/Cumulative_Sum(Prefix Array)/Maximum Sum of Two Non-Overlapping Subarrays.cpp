@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=aazI9CgH2aU
     Company Tags                : Asked by Sprinkler in Online Assessment on 27th July, 2026
     Leetcode Link               : https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
 */
