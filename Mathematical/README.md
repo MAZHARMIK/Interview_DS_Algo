@@ -334,5 +334,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Sorted%20GCD%20Pair%20Queries.cpp"> Sorted GCD Pair Queries (Leetcode - 3312) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Smallest%20Palindromic%20Rearrangement%20II.cpp"> Smallest Palindromic Rearrangement II (Leetcode - 3518) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
