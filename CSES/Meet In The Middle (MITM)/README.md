@@ -22,5 +22,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/CSES/Meet%20In%20The%20Middle%20(MITM)/Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.cpp"> Partition Array Into Two Arrays to Minimize Sum Difference (Leetcode 2035)</a>
 				</td>
 			</tr>
+			<tr>
+          		<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/CSES/Meet%20In%20The%20Middle%20(MITM)/Split%20Array%20With%20Same%20Average.cpp"> Split Array With Same Average (Leetcode 805)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
