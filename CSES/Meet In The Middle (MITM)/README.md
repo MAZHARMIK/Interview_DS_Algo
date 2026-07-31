@@ -5,27 +5,32 @@
 <table id = "example" class="SectionTable display" >
 		<thead>
       <th>Problem Name</th>
+      <th>Difficulty</th>
 		</thead>
 		<tbody>
 			<tr>
           		<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/CSES/Meet%20In%20The%20Middle%20(MITM)/CSES-1628-Meet%20In%20The%20Middle.cpp"> Meet In The Middle (CSES 1628)</a>
 				</td>
+				<td><img src="https://img.shields.io/badge/Medium-orange"></td>
 			</tr>
 			<tr>
           		<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/CSES/Meet%20In%20The%20Middle%20(MITM)/Closest%20Subsequence%20Sum.cpp"> Closest Subsequence Sum (Leetcode 1755)</a>
 				</td>
+				<td><img src="https://img.shields.io/badge/Hard-red"></td>
 			</tr>
 			<tr>
           		<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/CSES/Meet%20In%20The%20Middle%20(MITM)/Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference.cpp"> Partition Array Into Two Arrays to Minimize Sum Difference (Leetcode 2035)</a>
 				</td>
+				<td><img src="https://img.shields.io/badge/Hard-red"></td>
 			</tr>
 			<tr>
           		<td>
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/CSES/Meet%20In%20The%20Middle%20(MITM)/Split%20Array%20With%20Same%20Average.cpp"> Split Array With Same Average (Leetcode 805)</a>
 				</td>
+				<td><img src="https://img.shields.io/badge/Hard-red"></td>
 			</tr>
 		</tbody>
 </table>
