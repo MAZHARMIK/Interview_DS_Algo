@@ -3,7 +3,7 @@
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=tCoxxtYG2k8
     What is Meet In The Middle  : https://www.youtube.com/watch?v=NCr27WYjCH4
     Company Tags                : Will update later
-    CSES Link                   : https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference
+    Leetcode Link               : https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference
 */
 
 
