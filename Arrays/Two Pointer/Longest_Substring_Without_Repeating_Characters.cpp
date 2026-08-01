@@ -1,5 +1,5 @@
 /*
-    Company Tags  : Morgan Stanley, Amazon, Microsoft, Housing.com
+    Company Tags  : Morgan Stanley, Amazon, Microsoft, Housing.com, Datazip Online Assessment (July, 2026)
     Leetcode Link : https://leetcode.com/problems/longest-substring-without-repeating-characters/
 */
 
