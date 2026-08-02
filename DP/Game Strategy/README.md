@@ -4,45 +4,53 @@
 # DP/Game Strategy : :triangular_flag_on_post:
 
 <h1>Questions</h1>
-<table id = "example" class="SectionTable display" >
-		<thead>
-      <th>Problem Name</th>
-		</thead>
-		<tbody>
-			<tr>
-          <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Optimal%20Strategy%20For%20A%20Game">Optimal Strategy For A Game</a>
-				  </td>
-      </tr>
-			<tr>
-          			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20VII">Stone Game VII (Leetcode-1690)</a>
-				  </td>
-      			</tr>
-			<tr>
-          			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game.cpp">Stone Game (Leetcode-877)</a>
-				  </td>
-      			</tr>
-			<tr>
-          			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20II.cpp">Stone Game II (Leetcode-1140)</a>
-				  </td>
-      			</tr>
-			<tr>
-          			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20III.cpp">Stone Game III (Leetcode-1406)</a>
-				  </td>
-      			</tr>
-			<tr>
-          			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Predict%20the%20Winner.cpp">Predict the Winner (Leetcode-486)</a>
-				  </td>
-      			</tr>
-			<tr>
-          			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Maximum%20Number%20of%20Moves%20to%20Kill%20All%20Pawns.cpp"> Maximum Number of Moves to Kill All Pawns (Leetcode-3283)</a>
-				  </td>
-      			</tr>
-		</tbody>
+
+<table id="example" class="SectionTable display">
+    <thead>
+        <tr>
+            <th>Problem Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Optimal%20Strategy%20For%20A%20Game">Optimal Strategy For A Game</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20VII">Stone Game VII (Leetcode-1690)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game.cpp">Stone Game (Leetcode-877)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20II.cpp">Stone Game II (Leetcode-1140)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20III.cpp">Stone Game III (Leetcode-1406)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Predict%20the%20Winner.cpp">Predict the Winner (Leetcode-486)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Maximum%20Number%20of%20Moves%20to%20Kill%20All%20Pawns.cpp">Maximum Number of Moves to Kill All Pawns (Leetcode-3283)</a>
+            </td>
+        </tr>
+		<tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game.cpp"> Stone Game (Leetcode - 877)</a>
+            </td>
+        </tr>
+    </tbody>
 </table>
