@@ -164,5 +164,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Path%20Existence%20Queries%20in%20a%20Graph%20I.cpp"> Path Existence Queries in a Graph I (Leetcode - 3532)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/BFS_DFS/Remove%20Methods%20From%20Project.cpp"> Remove Methods From Project (Leetcode - 3310)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
