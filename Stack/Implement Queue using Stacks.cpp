@@ -23,7 +23,7 @@ public:
     
     void push(int x) {
         if(input.empty()) {
-            peekEl = x;
+            peekEl = x;  // ye pehla item array se ayega bas
         }
         input.push(x); //ye to har baar karna hai
     }
