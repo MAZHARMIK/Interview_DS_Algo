@@ -349,5 +349,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Smallest%20Palindromic%20Rearrangement%20I.cpp"> Smallest Palindromic Rearrangement I (Leetcode - 3517)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Smallest%20Divisible%20Digit%20Product%20II.cpp"> Smallest Divisible Digit Product II (Leetcode - 3348)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
