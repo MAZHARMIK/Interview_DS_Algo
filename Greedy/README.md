@@ -354,5 +354,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Smallest%20Divisible%20Digit%20Product%20II.cpp"> Smallest Divisible Digit Product II (Leetcode - 3348)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Find%20the%20Lexicographically%20Smallest%20Valid%20Sequence.cpp"> Find the Lexicographically Smallest Valid Sequence (Leetcode - 3302)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
