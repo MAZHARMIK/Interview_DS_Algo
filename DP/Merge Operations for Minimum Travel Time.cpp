@@ -157,3 +157,41 @@ public class Solution {
         return dp[i][k][currRate] = result;
     }
 }
+
+/**************************************************************** JAVA ****************************************************************/
+//Approach 3
+
+
+
+
+
+public class Solution {
+    private static final int MOD = 1_000_000_007;
+
+    /**
+     * Function to return the number of ways to tile a 2 x n board
+     * using 2x1 dominoes and L-shaped trominoes.
+     *
+     * @param n the length of the board
+     * @return the number of ways to tile the board modulo 1e9+7
+     */
+    public int numTilings(int n) {
+        if (n == 0) return 1;
+        if (n == 1) return 1;
+        if (n == 2) return 2;
+        if (n == 3) return 5;
+
+        long[] dp = new long[n + 1];
+        dp[0] = 1; // Empty board
+        dp[1] = 1; // Only one vertical domino
+        dp[2] = 2; // Either two vertical or two horizontal
+        dp[3] = 5; // Precomputed base case
+
+        for (int i = 4; i <= n; i++) {
+            dp[i] = (2 * dp[i - 1] % MOD + dp[i - 3]) % MOD;
+        }
+
+        return (int) dp[n];
+    }
+}
+
