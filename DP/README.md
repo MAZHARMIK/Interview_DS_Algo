@@ -780,5 +780,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Find%20the%20Number%20of%20Subsequences%20With%20Equal%20GCD.cpp"> Find the Number of Subsequences With Equal GCD (Leetcode - 3336)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Stone%20Game%20IV.cpp"> Stone Game IV (Leetcode - 1510)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
