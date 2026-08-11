@@ -1,6 +1,6 @@
 /*   SCROLL BELOW TO SEE THE JAVA CODE AS WELL  */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=K8vdd4IeD-o
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/description/
 */
