@@ -2,7 +2,7 @@
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Mlcy-9hB6Jc
     Company Tags                : Microsoft, Amazon, Uber
-    Leetcode Link               : https://leetcode.com/problems/unique-paths/
+    Leetcode Link               : https://leetcode.com/problems/dungeon-game/description/
 */
 
 /************************************************************ C++ ************************************************************/
