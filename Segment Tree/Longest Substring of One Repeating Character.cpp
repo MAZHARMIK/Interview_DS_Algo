@@ -13,14 +13,11 @@
 class Solution {
 public:
     struct Node {
+        int pre = 0; 
+        int suf = 0;
         int maxLen = 0;
-
         char leftChar = 0;
         char rightChar = 0;
-
-        int pre = 0;
-        int suf = 0;
-        
     };
 
     int n;
@@ -104,13 +101,11 @@ public:
 //S.C : O(4*n) ~ O(n)
 class Solution {
     static class Node {
+        int pre = 0; 
+        int suf = 0;
         int maxLen = 0;
-
         char leftChar = 0;
         char rightChar = 0;
-
-        int pre = 0;
-        int suf = 0;
 
         Node() {}
         Node(int pre, int suf, int maxLen, char leftChar, char rightChar) {
