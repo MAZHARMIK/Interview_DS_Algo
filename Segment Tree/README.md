@@ -64,5 +64,10 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Maximize%20Active%20Section%20with%20Trade%20II.cpp"> Maximize Active Section with Trade II (Leetcode - 3501) </a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Longest%20Substring%20of%20One%20Repeating%20Character.cpp"> Longest Substring of One Repeating Character (Leetcode - 2213) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
