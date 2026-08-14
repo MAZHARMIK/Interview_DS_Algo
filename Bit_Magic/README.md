@@ -219,5 +219,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Number%20of%20Unique%20XOR%20Triplets%20II.cpp"> Number of Unique XOR Triplets II (Leetcode - 3514)</a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR.cpp"> Longest Subsequence With Non-Zero Bitwise XOR (Leetcode - 3702)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
