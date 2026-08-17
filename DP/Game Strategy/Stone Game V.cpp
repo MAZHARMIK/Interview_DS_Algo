@@ -1,7 +1,7 @@
 /*         Scroll down to see JAVA code also                    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=zIy0DkjsNuI
-    Company Tags                : will update later
+    Company Tags                : Infosys OA held on 14th August 2026
     Leetcode Link               : https://leetcode.com/problems/stone-game-v
     NOTE - Python will TLE and will pass 131/132 cases
 */
