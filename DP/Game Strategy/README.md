@@ -57,5 +57,10 @@
                 <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20IX.cpp"> Stone Game IX (Leetcode - 2029)</a>
             </td>
         </tr>
+		<tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Game%20Strategy/Stone%20Game%20V.cpp"> Stone Game V (Leetcode - 1563)</a>
+            </td>
+        </tr>
     </tbody>
 </table>
