@@ -3,6 +3,7 @@
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=zIy0DkjsNuI
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/stone-game-v
+    NOTE - Python will TLE and will pass 131/132 cases
 */
 
 
