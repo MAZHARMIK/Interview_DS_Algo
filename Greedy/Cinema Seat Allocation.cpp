@@ -1,7 +1,7 @@
 /*         Scroll down to see JAVA code also                    */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : 
-    Company Tags                : will update later
+    Company Tags                : Microsoft
     Leetcode Link               : https://leetcode.com/problems/cinema-seat-allocation/
 */
 
