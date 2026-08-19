@@ -359,5 +359,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Find%20the%20Lexicographically%20Smallest%20Valid%20Sequence.cpp"> Find the Lexicographically Smallest Valid Sequence (Leetcode - 3302)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Cinema%20Seat%20Allocation.cpp"> Cinema Seat Allocation (Leetcode - 1386)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
