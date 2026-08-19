@@ -30,9 +30,9 @@ public:
                 return bookedSeats.find(seat) == bookedSeats.end();
             };
 
-            bool graupA = isAvailable(2) && isAvailable(3) && isAvailable(4) & isAvailable(5);
-            bool graupB = isAvailable(4) && isAvailable(5) && isAvailable(6) & isAvailable(7);
-            bool graupC = isAvailable(6) && isAvailable(7) && isAvailable(8) & isAvailable(9);
+            bool graupA = isAvailable(2) && isAvailable(3) && isAvailable(4) && isAvailable(5);
+            bool graupB = isAvailable(4) && isAvailable(5) && isAvailable(6) && isAvailable(7);
+            bool graupC = isAvailable(6) && isAvailable(7) && isAvailable(8) && isAvailable(9);
 
             if(graupA && graupC)
                 result += 2;
