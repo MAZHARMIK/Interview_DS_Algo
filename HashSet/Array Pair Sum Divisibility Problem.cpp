@@ -43,36 +43,41 @@ class Solution {
 
 
 
-//Approach-2 (Using hashset)
+//Approach-2 (Using hashmap)
 //T.C : O(n)
 //S.C : O(n)
 class Solution {
-  public:
+public:
     bool canPair(vector<int> nums, int k) {
         int n = nums.size();
+        if (n % 2 != 0) return false;
+
+        unordered_map<int, int> remainderCount;
         
-        if(n%2 == 1){
-            return false;
+        // Count the remainders
+        for (int num : nums) {
+            int remainder = num % k;
+            remainderCount[remainder]++;
         }
-        
-        unordered_set<int> st;
-        
-        for(int i=0; i < n; i++) {
-            int remain       = nums[i] % k;
-            int other_remain = k - remain;
-            
-            if(st.find(other_remain) != st.end() || ( (remain == 0) && (st.find(0) != st.end() ))){
-                st.erase(remain);
-                st.erase(other_remain);
-            }
-            else{
-                st.insert(remain);
+
+        // Check pairs
+        for (auto& entry : remainderCount) {
+            int remainder = entry.first;
+            int count = entry.second;
+
+            if (remainder == 0) {
+                // For remainder 0, count must be even
+                if (count % 2 != 0) return false;
+            } else {
+                // For other remainders, count must match with k - remainder
+                if (remainderCount[remainder] != remainderCount[k - remainder]) return false;
             }
         }
-        
-        return st.size() == 0;
+
+        return true;
     }
 };
+
 
 
 
@@ -119,26 +124,30 @@ public class Solution {
 class Solution {
     public boolean canPair(int[] nums, int k) {
         int n = nums.length;
+        if (n % 2 != 0) return false;
 
-        if (n % 2 == 1) {
-            return false;
+        Map<Integer, Integer> remainderCount = new HashMap<>();
+        
+        // Count the remainders
+        for (int num : nums) {
+            int remainder = num % k;
+            remainderCount.put(remainder, remainderCount.getOrDefault(remainder, 0) + 1);
         }
 
-        Set<Integer> st = new HashSet<>();
+        // Check pairs
+        for (Map.Entry<Integer, Integer> entry : remainderCount.entrySet()) {
+            int remainder = entry.getKey();
+            int count = entry.getValue();
 
-        for (int i = 0; i < n; i++) {
-            int remain = nums[i] % k;
-            int other_remain = k - remain;
-
-            if (st.contains(other_remain) || ((remain == 0) && (st.contains(0)))) {
-                st.remove(remain);
-                st.remove(other_remain);
+            if (remainder == 0) {
+                // For remainder 0, count must be even
+                if (count % 2 != 0) return false;
             } else {
-                st.add(remain);
+                // For other remainders, count must match with k - remainder
+                if (!remainderCount.getOrDefault(k - remainder, 0).equals(count)) return false;
             }
         }
 
-        return st.size() == 0;
+        return true;
     }
 }
-
