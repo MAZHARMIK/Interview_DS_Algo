@@ -339,5 +339,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Smallest%20Palindromic%20Rearrangement%20II.cpp"> Smallest Palindromic Rearrangement II (Leetcode - 3518) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Kth%20Smallest%20Amount%20With%20Single%20Denomination%20Combination.cpp"> Kth Smallest Amount With Single Denomination Combination (Leetcode - 3116) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
