@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=9mN6Te6Tuj0
     Company Tags                : Amazon, Microsoft, Tesco
     Problem Link                : https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1
 */
