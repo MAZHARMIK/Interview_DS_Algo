@@ -284,5 +284,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Minimum%20Number%20of%20Flips%20to%20Make%20the%20Binary%20String%20Alternating.cpp"> Minimum Number of Flips to Make the Binary String Alternating (Leetcode 1888) </a>
 				</td>
       		</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.cpp"> Shortest and Lexicographically Smallest Beautiful String (Leetcode 2904) </a>
+				</td>
+      		</tr>
 		</tbody>
 </table>
