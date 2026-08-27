@@ -76,10 +76,12 @@ public:
         for(int i = k; i<n; i++) {
             
             //taking minimum as vec[i].second
-            Ksum += vec[i].first - pq.top();
+            if(vec[i].first > pq.top()){    // add this condition as without this we blindly add next vec[i].first element I don't know why your earlier test case submitted may be due to some weak test cases but anyways
+                Ksum += vec[i].first - pq.top();
             pq.pop();
             
             pq.push(vec[i].first);
+            }
             
             result = max(result, Ksum * vec[i].second);
             
