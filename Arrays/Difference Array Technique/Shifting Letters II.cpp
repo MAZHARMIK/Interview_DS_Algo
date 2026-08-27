@@ -40,9 +40,7 @@ public:
         
         // Step 3: Apply the shifts to the string
         for (int i = 0; i < n; ++i) {
-            int shift = diff[i] % 26; // Ensure shift is within the range [0, 25]
-            if (shift < 0)
-                shift += 26; // Handle negative shifts (backward)
+            int shift = (diff[i] % 26 + 26) % 26 ; // handles negative as well 
             
             // Apply the shift to character
             s[i] = ((s[i] - 'a' + shift) % 26) + 'a';
