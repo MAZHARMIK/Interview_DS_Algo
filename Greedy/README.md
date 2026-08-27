@@ -369,5 +369,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Sum%20Game.cpp"> Sum Game (Leetcode - 1927)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Lexicographically%20Smallest%20Permutation%20Greater%20Than%20Target.cpp">  Lexicographically Smallest Permutation Greater Than Target (Leetcode - 3720)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
