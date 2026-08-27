@@ -99,6 +99,88 @@ public:
         
     }
 };
+\
+
+//Approach-3 (Starting from num1 and then forming result)
+//T.C : O(30) ~ O(1)
+//S.C : O(30) ~ O(1)
+
+class Solution {
+public:
+    int minimizeXor(int num1, int num2) {
+        
+        // calculate number of set bits in both num1 and num2
+        int num1_setBits = __builtin_popcount(num1); // O(30)
+        int num2_setBits = __builtin_popcount(num2); // O(30)
+
+        if (num1_setBits == num2_setBits)
+            return num1;
+
+        int ans = 0;
+
+        // O(30)
+        char number[30]; // initializing number array to represent num1 in binary
+
+        // representing num1 in binary
+        int num1_copy = num1;
+        int i = 29;
+        while (num1_copy > 0) { // O(30)
+            number[i] = num1_copy % 2 + '0';
+            num1_copy >>= 1;
+            i--;
+        }
+        // padding zeros to the left side
+        while (i >= 0) { // O(30)
+            number[i] = '0';
+            i--;
+        }
+        // representation of num1 in binary finished
+
+        if (num1_setBits < num2_setBits) { // fill '1' from LSB
+            int k = num2_setBits - num1_setBits;
+            int bit = 29;
+            while (k > 0) { // O(30)
+                if (number[bit] == '0') {
+                    number[bit] = '1';
+                    k--;
+                }
+                bit--;
+            }
+
+            bit = 29;
+            int i = 0;
+            while (bit >= 0) { // O(30)
+                ans += ((number[bit] - '0') * pow(2, i));
+                bit--;
+                i++;
+            }
+            return ans;
+        }
+        // fill '1' from MSB
+        int k = num2_setBits;
+        int bit = 0;
+
+        while (bit < 29 && k > 0) { // O(30)
+            if (number[bit] == '1')
+                k--;
+            bit++;
+        }
+
+        while (bit <= 29) { // O(30)
+            number[bit++] = '0';
+        }
+
+        // construct the answer
+        bit = 29;
+        i = 0;
+        while (bit >= 0) { // O(30)
+            ans += ((number[bit] - '0') * pow(2, i));
+            bit--;
+            i++;
+        }
+        return ans;
+    }
+};
 
 
 
