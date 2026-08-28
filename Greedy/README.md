@@ -374,5 +374,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Lexicographically%20Smallest%20Permutation%20Greater%20Than%20Target.cpp">  Lexicographically Smallest Permutation Greater Than Target (Leetcode - 3720)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Lexicographically%20Smallest%20Palindromic%20Permutation%20Greater%20Than%20Target.cpp">  Lexicographically Smallest Palindromic Permutation Greater Than Target (Leetcode - 3734)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
