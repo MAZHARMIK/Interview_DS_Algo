@@ -52,6 +52,11 @@
 				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Knapsack%20Series/Count%20Subsets%20with%20Sum.cpp"> Count Subsets with Sum Solved </a>
 			</td>
     	</tr>
+		<tr>
+			<td>
+				    <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Knapsack%20Series/Partitions%20with%20Given%20Difference.cpp"> Partitions with Given Difference </a>
+			</td>
+    	</tr>
 	</tbody>
 </table>
 
