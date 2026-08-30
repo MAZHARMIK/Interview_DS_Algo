@@ -594,5 +594,10 @@
 						<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Shift%202D%20Grid.cpp"> Shift 2D Grid (Leetcode - 1260)</a>
 					</td>
 			</tr>
+			<tr>
+       				 <td>
+						<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Removing%20Minimum%20and%20Maximum%20From%20Array.cpp"> Removing Minimum and Maximum From Array (Leetcode - 2091)</a>
+					</td>
+			</tr>
 		</tbody>
 </table>
