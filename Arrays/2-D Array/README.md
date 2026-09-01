@@ -282,5 +282,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Cyclically%20Rotating%20a%20Grid.cpp"> Cyclically Rotating a Grid (Leetcode - 1914)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/2-D%20Array/Minimum%20Moves%20to%20Clean%20the%20Classroom.cpp"> Minimum Moves to Clean the Classroom (Leetcode - 3568)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
