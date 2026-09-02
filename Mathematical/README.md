@@ -344,5 +344,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Kth%20Smallest%20Amount%20With%20Single%20Denomination%20Combination.cpp"> Kth Smallest Amount With Single Denomination Combination (Leetcode - 3116) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Construct%20Uniform%20Parity%20Array%20II.cpp"> Construct Uniform Parity Array II (Leetcode - 3876) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
