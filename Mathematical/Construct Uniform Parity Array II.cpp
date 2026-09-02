@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=Ee_0S2bzJeI
     Company Tags                : will update later
     Leetcode Link Part I        : https://leetcode.com/problems/construct-uniform-parity-array-i
     Leetcode Link Part II       : https://leetcode.com/problems/construct-uniform-parity-array-ii
