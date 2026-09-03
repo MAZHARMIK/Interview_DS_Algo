@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=KBc7A_3tBBs
     Company Tags                : will update later
     Leetcode Link Part I        : https://leetcode.com/problems/smallest-stable-index-i/description/
     Leetcode Link Part II       : https://leetcode.com/problems/smallest-stable-index-ii/description/
