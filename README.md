@@ -47,10 +47,6 @@ Latest Update⏰  -
  <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Line%20Sweep%20Technique">Line Sweep Technique 📈</a></li>
 </ul>
 
-## License
- 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
 # Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
