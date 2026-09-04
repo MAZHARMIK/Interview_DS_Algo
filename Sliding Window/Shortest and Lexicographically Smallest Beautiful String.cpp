@@ -60,7 +60,7 @@ public:
                 ones++;
 
             //remove extra 1's, then trim leading 0's
-            while (ones > k || s[i] == '0') {
+            while (i<n && (ones > k || s[i] == '0')) {
                 if (s[i] == '1') 
                     ones--;
                 i++;
