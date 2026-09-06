@@ -56,8 +56,6 @@ public:
     int numDistinct(string s, string t) {
         int m = s.length();
         int n = t.length();
-        if(m < n)
-            return 0;
         
         vector<vector<ull>> dp(m+1, vector<ull>(n+1));
         
@@ -104,10 +102,8 @@ public:
     int numDistinct(string s, string t) {
         int m = s.length();
         int n = t.length();
-        if(m < n)
-            return 0;
 
-        vector<ull> curr(m+1, 0); //Replace dp[i] with curr
+        vector<ull> curr(n+1, 0); //Replace dp[i] with curr
         vector<ull> prev(n+1, 0); //Replace dp[i-1] with prev
         
         prev[0] = curr[0] = 1;
@@ -170,8 +166,7 @@ class Solution {
     public int numDistinct(String s, String t) {
         int m = s.length();
         int n = t.length();
-        if(m < n)
-            return 0;
+
         
         long[][] dp = new long[m+1][n+1];
         
@@ -214,9 +209,8 @@ class Solution {
     public int numDistinct(String s, String t) {
         int m = s.length();
         int n = t.length();
-        if(m < n)
-            return 0;
-        long[] curr = new long[m+1];
+
+        long[] curr = new long[n+1];
         long[] prev = new long[n+1];
         
         prev[0] = curr[0] = 1;
