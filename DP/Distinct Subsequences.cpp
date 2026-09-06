@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO LINK : 
+    MY YOUTUBE VIDEO LINK : https://www.youtube.com/watch?v=CIZa4MhIoI8
     Company Tags          : Google, Twitter
     Frequency             : 71%
     Leetcode Link         : https://leetcode.com/problems/distinct-subsequences/
