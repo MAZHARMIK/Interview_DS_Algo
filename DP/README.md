@@ -785,5 +785,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Stone%20Game%20IV.cpp"> Stone Game IV (Leetcode - 1510)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Distinct%20Subsequences%20II.cpp"> Distinct Subsequences II (Leetcode - 940)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
