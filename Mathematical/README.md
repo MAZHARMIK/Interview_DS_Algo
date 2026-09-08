@@ -349,5 +349,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Construct%20Uniform%20Parity%20Array%20II.cpp"> Construct Uniform Parity Array II (Leetcode - 3876) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Commas%20in%20Range%20II.cpp"> Count Commas in Range II (Leetcode - 3871) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
