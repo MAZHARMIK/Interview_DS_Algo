@@ -222,7 +222,7 @@ public:
 
         int j = n - 1;
         //end the current palindrome at the current character s[n-1]
-        for (int i = 0; i + k <= n; i++) {
+        for (int i = 0; j-i+1>=k; i++) {
             if (isPalindrome[i][j]) {
                 result = max(result, 1 + solve(i, k));
             }
@@ -292,7 +292,7 @@ public:
             int result = t[len - 1];      // int result = solve(n - 1, k);
 
             int j = len - 1;
-            for (int i = 0; i + k <= len; i++) {
+            for (int i = 0; j-i+1 >= k; i++) {
                 if (isPalindrome[i][j]) {
                     result = max(result, 1 + t[i]);   // result = max(result, 1 + solve(i, k));
                 }
