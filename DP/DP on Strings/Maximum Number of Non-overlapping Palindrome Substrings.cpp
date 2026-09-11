@@ -304,3 +304,302 @@ public:
         return t[n];                      // return solve(n, k);
     }
 };
+
+
+
+
+/****************************************************************** JAVA **********************************************************/
+//Approach-1 (Simple Recursion Memoization)
+//T.C : O(n^3)
+//S.C : O(n^2)
+class Solution {
+    public boolean isPalindrome(String s, int i, int j) {
+        while (i < j) {
+            if (s.charAt(i++) != s.charAt(j--)) return false;
+        }
+        return true;
+    }
+
+    //max non-overlapping palindromic pieces (length >= k) from s[i..j]
+    public int solve(String s, int k, int i, int j, int[][] t) {
+        int n = s.length();
+        if (i >= n || j >= n)
+            return 0;
+
+        if (t[i][j] != -1)
+            return t[i][j];
+
+        if (isPalindrome(s, i, j)) {
+            int growWindow  = solve(s, k, i, j + 1, t);
+            int takeIt      = 1 + solve(s, k, j + 1, j + k, t);
+            int slideWindow = solve(s, k, i + 1, j + 1, t);
+
+            return t[i][j] = Math.max(growWindow, Math.max(takeIt, slideWindow));
+        }
+
+        int slideWindow = solve(s, k, i + 1, j + 1, t);
+        int growWindow  = solve(s, k, i, j + 1, t);
+
+        return t[i][j] = Math.max(slideWindow, growWindow);
+    }
+
+    public int maxPalindromes(String s, int k) {
+        int n = s.length();
+        if (k == 1)
+            return n; //each character can be a substring
+
+        int[][] t = new int[n][n];
+        for (int[] row : t) Arrays.fill(row, -1);
+
+        return solve(s, k, 0, k - 1, t);
+    }
+}
+
+
+//Approach-2 (Using Blueprint of Palindrome Strings to convert isPalindrome check to O(1))
+//T.C : O(n^2)
+//S.C : O(n^3)
+class Solution {
+    boolean[][] isPalindrome;
+
+    //max non-overlapping palindromic pieces (length >= k) from s[i..j]
+    public int solve(String s, int k, int i, int j, int[][] t) {
+        int n = s.length();
+        if (i >= n || j >= n)
+            return 0;
+
+        if (t[i][j] != -1)
+            return t[i][j];
+
+        if (isPalindrome[i][j]) { //O(1)
+            int growWindow  = solve(s, k, i, j + 1, t);
+            int takeIt      = 1 + solve(s, k, j + 1, j + k, t);
+            int slideWindow = solve(s, k, i + 1, j + 1, t);
+
+            return t[i][j] = Math.max(growWindow, Math.max(takeIt, slideWindow));
+        }
+
+        int slideWindow = solve(s, k, i + 1, j + 1, t);
+        int growWindow  = solve(s, k, i, j + 1, t);
+
+        return t[i][j] = Math.max(slideWindow, growWindow);
+    }
+
+    public int maxPalindromes(String s, int k) {
+        int n = s.length();
+        if (k == 1)
+            return n; //each character can be a substring
+
+        isPalindrome = new boolean[n + 1][n + 1];
+        //Palindromic substring Blueprint
+        for (int L = 1; L <= n; L++) {
+            for (int i = 0; i + L <= n; i++) {
+                int j = i + L - 1;
+
+                if (i == j) {
+                    isPalindrome[i][i] = true; //Single characters are palindrome
+                } else if (i + 1 == j) {
+                    isPalindrome[i][j] = (s.charAt(i) == s.charAt(j)); //Strings of 2 Length
+                } else {
+                    isPalindrome[i][j] = (s.charAt(i) == s.charAt(j)) && isPalindrome[i + 1][j - 1];
+                }
+            }
+        }
+
+        int[][] t = new int[n][n];
+        for (int[] row : t) Arrays.fill(row, -1);
+
+        return solve(s, k, 0, k - 1, t);
+    }
+}
+
+
+//Approach-3 (Bottom Up of Approach-1 Above)
+//T.C : O(n^3)
+//S.C : O(n^2)
+class Solution {
+    public boolean isPalindrome(String s, int i, int j) {
+        while (i < j) {
+            if (s.charAt(i++) != s.charAt(j--)) return false;
+        }
+        return true;
+    }
+
+    public int maxPalindromes(String s, int k) {
+        int n = s.length();
+        if (k == 1)
+            return n; //each character can be a substring
+
+        int[][] t = new int[n + 1][n + 1];
+
+        for (int i = n - 1; i >= 0; --i) {
+            for (int j = n - 1; j >= i; --j) {
+
+                if (isPalindrome(s, i, j)) {
+                    int growWindow  = t[i][j + 1];
+                    int takeIt      = 1 + (j + k <= n ? t[j + 1][j + k] : 0);
+                    int slideWindow = t[i + 1][j + 1];
+
+                    t[i][j] = Math.max(growWindow, Math.max(takeIt, slideWindow));
+                }
+
+                int slideWindow = t[i + 1][j + 1];
+                int growWindow  = t[i][j + 1];
+                t[i][j] = Math.max(t[i][j], Math.max(slideWindow, growWindow));
+            }
+        }
+
+        return t[0][k - 1];
+    }
+}
+
+
+//Approach-4 (Using Blueprint of Palindrome Strings to convert isPalindrome check to O(1))
+//T.C : O(n^3)
+//S.C : O(n^2)
+class Solution {
+    public int maxPalindromes(String s, int k) {
+        int n = s.length();
+        if (k == 1)
+            return n; //each character can be a substring
+
+        boolean[][] isPalindrome = new boolean[n][n];
+
+        //Palindromic substring Blueprint
+        for (int L = 1; L <= n; L++) {
+            for (int i = 0; i + L <= n; i++) {
+                int j = i + L - 1;
+
+                if (i == j) {
+                    isPalindrome[i][i] = true; //Single characters are palindrome
+                } else if (i + 1 == j) {
+                    isPalindrome[i][j] = (s.charAt(i) == s.charAt(j)); //Strings of 2 Length
+                } else {
+                    isPalindrome[i][j] = (s.charAt(i) == s.charAt(j)) && isPalindrome[i + 1][j - 1];
+                }
+            }
+        }
+
+        int[][] t = new int[n + 1][n + 1];
+
+        for (int i = n - 1; i >= 0; --i) {
+            for (int j = n - 1; j >= i; --j) {
+
+                if (isPalindrome[i][j]) {
+                    int growWindow  = t[i][j + 1];
+                    int takeIt      = 1 + (j + k <= n ? t[j + 1][j + k] : 0);
+                    int slideWindow = t[i + 1][j + 1];
+
+                    t[i][j] = Math.max(growWindow, Math.max(takeIt, slideWindow));
+                }
+
+                int slideWindow = t[i + 1][j + 1];
+                int growWindow  = t[i][j + 1];
+                t[i][j] = Math.max(t[i][j], Math.max(slideWindow, growWindow));
+            }
+        }
+
+        return t[0][k - 1];
+    }
+}
+
+
+//Approach-5 (using different recursion style + Using BluePrint for solving palindromic DP problems as above for O(1) isPalindrome)
+//T.C : O(n^2)
+//S.C : O(n^2)
+class Solution {
+    boolean[][] isPalindrome;
+    int[] t;
+
+    public int solve(int n, int k) {
+        if (n < k) return 0;
+
+        if (t[n] != -1)
+            return t[n];
+
+        int result = solve(n - 1, k); //ignore the current character s[n-1]
+
+        int j = n - 1;
+        //end the current palindrome at the current character s[n-1]
+        for (int i = 0; j - i + 1 >= k; i++) {
+            if (isPalindrome[i][j]) {
+                result = Math.max(result, 1 + solve(i, k));
+            }
+        }
+
+        return t[n] = result;
+    }
+
+    public int maxPalindromes(String s, int k) {
+        int n = s.length();
+        isPalindrome = new boolean[n][n];
+
+        for (int L = 1; L <= n; L++) {
+            for (int i = 0; i + L <= n; i++) {
+                int j = i + L - 1;
+
+                if (i == j) {
+                    isPalindrome[i][i] = true;
+                } else if (i + 1 == j) {
+                    isPalindrome[i][j] = (s.charAt(i) == s.charAt(j));
+                } else {
+                    isPalindrome[i][j] = (s.charAt(i) == s.charAt(j)) && isPalindrome[i + 1][j - 1];
+                }
+            }
+        }
+
+        t = new int[n + 1];
+        Arrays.fill(t, -1);
+        return solve(n, k);
+    }
+}
+
+
+//Approach-6 (Bottom-up version of Approach-5 above)
+//T.C : O(n^2)
+//S.C : O(n^2)
+class Solution {
+    boolean[][] isPalindrome;
+    int[] t;
+
+    public int maxPalindromes(String s, int k) {
+        int n = s.length();
+        isPalindrome = new boolean[n][n];
+
+        for (int L = 1; L <= n; L++) {
+            for (int i = 0; i + L <= n; i++) {
+                int j = i + L - 1;
+
+                if (i == j) {
+                    isPalindrome[i][i] = true;
+                } else if (i + 1 == j) {
+                    isPalindrome[i][j] = (s.charAt(i) == s.charAt(j));
+                } else {
+                    isPalindrome[i][j] = (s.charAt(i) == s.charAt(j)) && isPalindrome[i + 1][j - 1];
+                }
+            }
+        }
+
+        t = new int[n + 1];
+        //base case
+        for (int len = 0; len < k; len++) {
+            t[len] = 0; // if (n < k) return 0;
+        }
+
+        for (int len = k; len <= n; len++) {
+
+            int result = t[len - 1];      // int result = solve(n - 1, k);
+
+            int j = len - 1;
+            for (int i = 0; j - i + 1 >= k; i++) {
+                if (isPalindrome[i][j]) {
+                    result = Math.max(result, 1 + t[i]);   // result = max(result, 1 + solve(i, k));
+                }
+            }
+
+            t[len] = result;              // return t[n] = result;
+        }
+
+        return t[n];                      // return solve(n, k);
+    }
+}
