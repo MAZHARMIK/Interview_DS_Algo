@@ -204,45 +204,103 @@ public:
 };
 
 
-//Approach-5 (Using My BluePrint for solving palindromic DP problems)
+//Approach-5 (using different recursion style + Using BluePrint for solving palindromic DP problems as above for O(1) isPalindrome)
 //T.C : O(n^2)
 //S.C : O(n^2)
 class Solution {
 public:
+    vector<vector<bool>> isPalindrome;
+    vector<int> t;
+
+    int solve(int n, int k) {
+        if (n < k) return 0;
+
+        if (t[n] != -1) 
+            return t[n];
+
+        int result = solve(n - 1, k); //ignore the current character s[n-1]
+
+        int j = n - 1;
+        //end the current palindrome at the current character s[n-1]
+        for (int i = 0; i + k <= n; i++) {
+            if (isPalindrome[i][j]) {
+                result = max(result, 1 + solve(i, k));
+            }
+        }
+
+        return t[n] = result;
+    }
+
     int maxPalindromes(string s, int k) {
         int n = s.length();
-        vector<vector<bool>> isPalindrome(n, vector<bool>(n, false));
+        isPalindrome.assign(n, vector<bool>(n, false));
 
-        //Palindromic substring Blueprint
-        for(int L = 1; L <= n; L++) {
-            for(int i = 0; i+L <= n; i++) {
+        for (int L = 1; L <= n; L++) {
+            for (int i = 0; i + L <= n; i++) {
                 int j = i + L - 1;
 
-                if(i == j) {
-                    isPalindrome[i][i] = true; //Single characters are palindrome
-                } else if(i+1 == j) {
-                    isPalindrome[i][j] = (s[i] == s[j]); //Strings of 2 Length
+                if (i == j) {
+                    isPalindrome[i][i] = true;
+                } else if (i + 1 == j) {
+                    isPalindrome[i][j] = (s[i] == s[j]);
                 } else {
                     isPalindrome[i][j] = ((s[i] == s[j]) && isPalindrome[i+1][j-1] == true);
                 }
             }
         }
 
-        // best[prefixLen] = max non-overlapping valid palindromic substrings from s[0 .. prefixLen-1]
-        vector<int> best(n + 1);
+        t.assign(n + 1, -1);
+        return solve(n, k);
+    }
+};
 
-        for (int prefixLen = k; prefixLen <= n; ++prefixLen) {
-            best[prefixLen] = best[prefixLen - 1];
 
-            for (int startIdx = 0; startIdx + k <= prefixLen; startIdx++) {
-                int endIdx = prefixLen - 1;
+//Approach-6 (Bottom-up version of Approach-5 above)
+//T.C : O(n^2)
+//S.C : O(n^2)
+class Solution {
+public:
+    vector<vector<bool>> isPalindrome;
+    vector<int> t;
 
-                if (isPalindrome[startIdx][endIdx]) {
-                    best[prefixLen] = max(best[prefixLen], best[startIdx] + 1);
+    int maxPalindromes(string s, int k) {
+        int n = s.length();
+        isPalindrome.assign(n, vector<bool>(n, false));
+
+        for (int L = 1; L <= n; L++) {
+            for (int i = 0; i + L <= n; i++) {
+                int j = i + L - 1;
+
+                if (i == j) {
+                    isPalindrome[i][i] = true;
+                } else if (i + 1 == j) {
+                    isPalindrome[i][j] = (s[i] == s[j]);
+                } else {
+                    isPalindrome[i][j] = ((s[i] == s[j]) && isPalindrome[i+1][j-1] == true);
                 }
             }
         }
 
-        return best[n];
+        t.assign(n + 1, -1);
+        //base case
+        for(int len = 0; len < k; len++) {
+            t[len] = 0; // if (n < k) return 0;
+        }
+
+        for (int len = k; len <= n; len++) {
+
+            int result = t[len - 1];      // int result = solve(n - 1, k);
+
+            int j = len - 1;
+            for (int i = 0; i + k <= len; i++) {
+                if (isPalindrome[i][j]) {
+                    result = max(result, 1 + t[i]);   // result = max(result, 1 + solve(i, k));
+                }
+            }
+
+            t[len] = result;              // return t[n] = result;
+        }
+
+        return t[n];                      // return solve(n, k);
     }
 };
