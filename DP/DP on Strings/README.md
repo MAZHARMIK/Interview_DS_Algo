@@ -58,5 +58,10 @@
                 <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Find%20the%20String%20with%20LCP.cpp"> Find the String with LCP (Leetcode - 2573) </a>
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Strings/Maximum%20Number%20of%20Non-overlapping%20Palindrome%20Substrings.cpp"> Maximum Number of Non-overlapping Palindrome Substrings (Leetcode - 2472) </a>
+            </td>
+        </tr>
     </tbody>
 </table>
