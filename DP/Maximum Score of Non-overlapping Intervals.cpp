@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO LINK : 
+    MY YOUTUBE VIDEO LINK : https://www.youtube.com/watch?v=pqYk8mUEK18
     Company Tags          : Will update later
     Leetcode Link         : https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals
 */
