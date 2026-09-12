@@ -790,5 +790,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Distinct%20Subsequences%20II.cpp"> Distinct Subsequences II (Leetcode - 940)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Score%20of%20Non-overlapping%20Intervals.cpp"> Maximum Score of Non-overlapping Intervals (Leetcode - 3414)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
