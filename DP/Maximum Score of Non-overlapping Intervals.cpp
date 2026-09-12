@@ -44,7 +44,6 @@ public:
         if (t[i][k].score != -1)
             return t[i][k];
 
-        int r      = intervals[i][1];
         int weight = intervals[i][2];
         int idx    = intervals[i][3];
         int j      = nextIdx[i];
