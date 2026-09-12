@@ -3,6 +3,10 @@
     MY YOUTUBE VIDEO LINK : https://www.youtube.com/watch?v=pqYk8mUEK18
     Company Tags          : Will update later
     Leetcode Link         : https://leetcode.com/problems/maximum-score-of-non-overlapping-intervals
+    
+    Similar Problems : 
+        1)  Maximum Profit in Job Scheduling - https://www.youtube.com/watch?v=LL0tVxlAeV4
+        2)  Maximum Number of Events That Can Be Attended II - https://www.youtube.com/watch?v=9ykgLt25X9c
 */
 
 
