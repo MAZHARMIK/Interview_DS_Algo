@@ -8,7 +8,7 @@
 
 /*********************************************************** C++ **************************************************/
 //Approach-1 (Recursion Memo)
-//T.C : O(n·K·log K), where K = 4
+//T.C : O(nlogn + n·K·log K), where K = 4
 //S.C : O(n·K), where K = 4
 class Solution {
 public:
@@ -94,7 +94,7 @@ public:
 
 
 //Approach-2 (Bottom up)
-//T.C : O(n·K·log K), where K = 4
+//T.C : O(nlogn + n·K·log K), where K = 4
 //S.C : O(n·K), where K = 4
 class Solution {
 public:
