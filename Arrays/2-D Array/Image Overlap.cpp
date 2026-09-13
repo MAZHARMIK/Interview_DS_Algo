@@ -9,8 +9,8 @@
 
 /************************************************** C++ **************************************************/
 //Approach-1
-//T.C : 
-//S.C : 
+//T.C : O(n^4)
+//S.C : O(1)
 class Solution {
 public:
     int countOverlaps(vector<vector<int>>& A, vector<vector<int>>& B, int rowOff, int colOff) {
@@ -84,8 +84,8 @@ public:
 
 
 //Approach-2 (Cartesia Plane visualization)
-//T.C : 
-//S.C : 
+//T.C : O(n^4)
+//S.C : O(1)
 class Solution {
 public:
     int shiftAndCount(vector<vector<int>>& A, vector<vector<int>>& B, int x_shift, int y_shift) {
@@ -150,8 +150,8 @@ public:
 //Approach-3 (Why it's wrong ? Read the comment)
 //This earlier solution fails because it doesn't check all possible moves. It only checks right/down and left/up but NOT right/up and left/down.
 //Earlier it passed because of weak test cases on Leetcode. But I have still kept this solution because it teaches a very good concept of shifting coordinates
-//T.C : 
-//S.C : 
+//T.C : O(n^4)
+//S.C : O(1)
 class Solution {
 public:
     int maxOverlap(vector<vector<int>>& A, vector<vector<int>>& B) {
