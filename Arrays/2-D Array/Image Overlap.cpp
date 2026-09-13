@@ -1,10 +1,16 @@
+/*     Scroll below to see JAVA code also   */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=3--u8aPXzWs
     Company Tags                : Google
     Leetcode Link               : https://leetcode.com/problems/image-overlap/
 */
 
+
+
+/************************************************** C++ **************************************************/
 //Approach-1
+//T.C : 
+//S.C : 
 class Solution {
 public:
     int countOverlaps(vector<vector<int>>& A, vector<vector<int>>& B, int rowOff, int colOff) {
@@ -75,7 +81,11 @@ public:
     }
 };
 
+
+
 //Approach-2 (Cartesia Plane visualization)
+//T.C : 
+//S.C : 
 class Solution {
 public:
     int shiftAndCount(vector<vector<int>>& A, vector<vector<int>>& B, int x_shift, int y_shift) {
@@ -140,6 +150,8 @@ public:
 //Approach-3 (Why it's wrong ? Read the comment)
 //This earlier solution fails because it doesn't check all possible moves. It only checks right/down and left/up but NOT right/up and left/down.
 //Earlier it passed because of weak test cases on Leetcode. But I have still kept this solution because it teaches a very good concept of shifting coordinates
+//T.C : 
+//S.C : 
 class Solution {
 public:
     int maxOverlap(vector<vector<int>>& A, vector<vector<int>>& B) {
@@ -163,3 +175,111 @@ public:
         return max(maxOverlap(A, B), maxOverlap(B, A));
     }
 };
+
+
+
+/************************************************** Java **************************************************/
+//Approach-1
+//T.C : O(n^4)
+//S.C : O(1)
+class Solution {
+    public int countOverlaps(int[][] A, int[][] B, int rowOff, int colOff) {
+        int n = A.length;
+        int count = 0;
+
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col < n; col++) {
+                if (row + rowOff < 0 || row + rowOff >= n || col + colOff < 0 || col + colOff >= n)
+                    continue;
+
+                count += A[row][col] * B[row + rowOff][col + colOff];
+            }
+        }
+
+        return count;
+    }
+
+    public int largestOverlap(int[][] img1, int[][] img2) {
+        int n = img1.length;
+        int maxOverlap = 0;
+
+        for (int rowOff = -n + 1; rowOff < n; rowOff++) {
+            for (int colOff = -n + 1; colOff < n; colOff++) {
+                maxOverlap = Math.max(maxOverlap, countOverlaps(img1, img2, rowOff, colOff));
+            }
+        }
+
+        return maxOverlap;
+    }
+}
+
+
+//Approach-2 (Cartesian Plane visualization)
+//T.C : O(n^4)
+//S.C : O(1)
+class Solution {
+    public int shiftAndCount(int[][] A, int[][] B, int x_shift, int y_shift) {
+        int n = A.length;
+        int leftShiftCount = 0;
+        int rightShiftCount = 0;
+
+        int A_row = 0;
+
+        for (int B_row = x_shift; B_row < n; B_row++) {
+            int A_col = 0;
+            for (int B_col = y_shift; B_col < n; B_col++) {
+                if (B[B_row][B_col] == 1 && B[B_row][B_col] == A[A_row][A_col])
+                    leftShiftCount++;
+                if (B[B_row][A_col] == 1 && B[B_row][A_col] == A[A_row][B_col])
+                    rightShiftCount++;
+                A_col++;
+            }
+            A_row++;
+        }
+        return Math.max(leftShiftCount, rightShiftCount);
+    }
+
+    public int largestOverlap(int[][] img1, int[][] img2) {
+        int n = img1.length;
+        int maxOverlap = 0;
+        for (int x_shift = 0; x_shift < n; x_shift++) {
+            for (int y_shift = 0; y_shift < n; y_shift++) {
+                //Fix A, move B left and right
+                maxOverlap = Math.max(maxOverlap, shiftAndCount(img1, img2, x_shift, y_shift));
+                //Fix B, move A
+                maxOverlap = Math.max(maxOverlap, shiftAndCount(img2, img1, x_shift, y_shift));
+            }
+        }
+        return maxOverlap;
+    }
+}
+
+
+//Approach-3 (Why it's wrong ? Read the comment)
+//This earlier solution fails because it doesn't check all possible moves. It only checks right/down and left/up but NOT right/up and left/down.
+//Earlier it passed because of weak test cases on Leetcode. But I have still kept this solution because it teaches a very good concept of shifting coordinates
+//T.C : O(n^4)
+//S.C : O(1)
+class Solution {
+    public int maxOverlap(int[][] A, int[][] B) {
+        int n = A.length;
+        int count = 0;
+        for (int x_shift = 0; x_shift < n; x_shift++) {
+            for (int y_shift = 0; y_shift < n; y_shift++) {
+                int temp = 0;
+                for (int i = y_shift; i < n; i++) { //because y-shift changes row
+                    for (int j = x_shift; j < n; j++) { //because x-shift changes column
+                        if (A[i][j] == 1 && B[i - y_shift][j - x_shift] == 1)
+                            temp++;
+                    }
+                }
+                count = Math.max(count, temp);
+            }
+        }
+        return count;
+    }
+
+    public int largestOverlap(int[][] img1, int[][] img2) {
+        return Math.max(maxOverlap(img1, img2), maxOverlap(img2, img1));
+    }
+}
