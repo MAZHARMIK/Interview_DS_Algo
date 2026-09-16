@@ -16,7 +16,7 @@ public:
     int t[1001][1001];
     
     int solve(int n, int k, int i) {
-        if (k <= 0) 
+        if (k == 0) 
             return (i < n) ? 1 : 0;
 
         if (i >= n) 
@@ -176,7 +176,7 @@ class Solution {
     int[][] t = new int[1001][1001];
 
     public int solve(int n, int k, int i) {
-        if (k <= 0)
+        if (k == 0)
             return (i < n) ? 1 : 0;
 
         if (i >= n)
