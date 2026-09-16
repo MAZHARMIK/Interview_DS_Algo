@@ -116,7 +116,7 @@ public:
 };
 
 
-//Approach-4 (Combinatorics + Binary Exponentiation + Fermat's Little Theorem)
+//Approach-4 (Combinatorics + Binary Exponentiation + Fermat's Little Theorem) - If you want a separate video on this, do let me know.
 //T.C : O((n+k) * log(MOD)) ~= O(n+k)
 //S.C : O(n + K)
 #define ll long long
@@ -275,7 +275,7 @@ class Solution {
 }
 
 
-//Approach-4 (Combinatorics + Binary Exponentiation + Fermat's Little Theorem)
+//Approach-4 (Combinatorics + Binary Exponentiation + Fermat's Little Theorem) - If you want a separate video on this, do let me know.
 //T.C : O((n+k) * log(MOD)) ~= O(n+k)
 //S.C : O(n + K)
 class Solution {
