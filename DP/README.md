@@ -795,5 +795,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximum%20Score%20of%20Non-overlapping%20Intervals.cpp"> Maximum Score of Non-overlapping Intervals (Leetcode - 3414)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Sets%20of%20K%20Non-Overlapping%20Line%20Segments.cpp"> Number of Sets of K Non-Overlapping Line Segments (Leetcode - 1621)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
