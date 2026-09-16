@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO LINK : 
+    MY YOUTUBE VIDEO LINK : https://www.youtube.com/watch?v=rpcnlDOvNMs
     Company Tags          : Will update later
     Leetcode Link         : https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/
 */
@@ -126,7 +126,7 @@ public:
     vector<ll> invFact;
     const int MOD = 1e9+7;
 
-    //Binary Exponentiation
+    //Binary Exponentiation - Taught here - https://www.youtube.com/watch?v=D320QeHS0XQ
     ll findPower(ll a, ll b) {
         if(b == 0)
             return 1;
@@ -148,7 +148,7 @@ public:
     }
 
     int numberOfSets(int n, int k) {
-        //Precompute factoriala and inverse factorials
+        //Precompute factoriala and inverse factorials - required for Fermat's Little Theorem
         fact.assign(n+k, 1);
         invFact.assign(n+k, 1);
 
@@ -157,6 +157,7 @@ public:
         }
 
         //Fermat's little theorem for inverse factorials
+        //Taught here - https://www.youtube.com/watch?v=FMBW7m1Wap0
         for(int i = 0; i < n+k; i++) {
             invFact[i] = findPower(fact[i], MOD-2);
         }
@@ -283,7 +284,7 @@ class Solution {
     long[] invFact;
     final int MOD = 1_000_000_007;
 
-    //Binary Exponentiation
+    //Binary Exponentiation - Taught here - https://www.youtube.com/watch?v=D320QeHS0XQ
     public long findPower(long a, long b) {
         if (b == 0)
             return 1;
@@ -305,7 +306,7 @@ class Solution {
     }
 
     public int numberOfSets(int n, int k) {
-        //Precompute factorials and inverse factorials
+        //Precompute factorials and inverse factorials - Required for Fermat's Little Theorem
         fact = new long[n + k];
         invFact = new long[n + k];
         Arrays.fill(fact, 1);
@@ -316,6 +317,7 @@ class Solution {
         }
 
         //Fermat's little theorem for inverse factorials
+        //Taught here - https://www.youtube.com/watch?v=FMBW7m1Wap0
         for (int i = 0; i < n + k; i++) {
             invFact[i] = findPower(fact[i], MOD - 2);
         }
