@@ -65,10 +65,10 @@ public:
 
                 int take = 0;
                 for (int j = i + 1; j < n; j++) {
-                    take = (take + dp[k - 1][j]) % MOD;
+                    take = (take + dp[k - 1][j]) % M;
                 }
 
-                dp[k][i] = (take + skip) % MOD;
+                dp[k][i] = (take + skip) % M;
             }
         }
 
@@ -97,7 +97,7 @@ public:
 
             //prevRowSum[x] = dp[k-1][x] + dp[k-1][x+1] + ... + dp[k-1][n-1]
             for (int x = n - 1; x >= 0; x--) {
-                prevRowSum[x] = (prevRowSum[x + 1] + dp[k - 1][x]) % MOD;
+                prevRowSum[x] = (prevRowSum[x + 1] + dp[k - 1][x]) % M;
             }
 
             for (int i = n - 1; i >= 0; i--) {
@@ -107,7 +107,7 @@ public:
                 int take = prevRowSum[i+1];
                 //dp[k-1][i+1] + dp[k-1][i+2] ...... + dp[k-1][n-1]
 
-                dp[k][i] = (take + skip) % MOD;
+                dp[k][i] = (take + skip) % M;
             }
         }
 
