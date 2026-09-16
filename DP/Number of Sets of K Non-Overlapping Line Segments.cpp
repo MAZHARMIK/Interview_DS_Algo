@@ -12,33 +12,33 @@
 //S.C : O(n*K)
 class Solution {
 public:
-    const int MOD = 1e9+7;
+    int M = 1e9+7;
     int t[1001][1001];
-    
+    //O(n * k * n)
     int solve(int n, int k, int i) {
         if (k == 0) 
             return 1;
 
-        if (i >= n) 
+        if (i >= n)
             return 0;
 
-        if (t[k][i] != -1) 
+        if(t[k][i] != -1) {
             return t[k][i];
+        }
 
-        // take: start a segment at point i, ending at some j > i
-        int take = 0;
-        for (int j = i+1; j < n; j++) 
-            take = (take + solve(n, k-1, j)) % MOD;
+        long long take = 0; //start segment from ith point
+        for(int j = i+1; j <= n-1; j++) {
+            take = (take + solve(n, k-1, j)) % M;
+        }
 
-        // skip: don't start a segment at point i, move to i+1
-        int skip = solve(n, k, i+1) % MOD;
+        long long skip = solve(n, k, i+1) % M;
 
         return t[k][i] = take + skip;
     }
 
     int numberOfSets(int n, int k) {
         memset(t, -1, sizeof(t));
-        return solve(n, k, 0) % MOD;
+        return solve(n, k, 0) % M;
     }
 };
 
@@ -186,12 +186,12 @@ class Solution {
             return t[k][i];
 
         // take: start a segment at point i, ending at some j > i
-        int take = 0;
+        long take = 0;
         for (int j = i + 1; j < n; j++)
             take = (take + solve(n, k - 1, j)) % MOD;
 
         // skip: don't start a segment at point i, move to i+1
-        int skip = solve(n, k, i + 1) % MOD;
+        long skip = solve(n, k, i + 1) % MOD;
 
         return t[k][i] = (int) ((take + skip) % MOD);
     }
