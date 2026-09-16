@@ -26,12 +26,12 @@ public:
             return t[k][i];
 
         // take: start a segment at point i, ending at some j > i
-        long long take = 0;
+        int take = 0;
         for (int j = i+1; j < n; j++) 
             take = (take + solve(n, k-1, j)) % MOD;
 
         // skip: don't start a segment at point i, move to i+1
-        long long skip = solve(n, k, i+1) % MOD;
+        int skip = solve(n, k, i+1) % MOD;
 
         return t[k][i] = take + skip;
     }
@@ -186,12 +186,12 @@ class Solution {
             return t[k][i];
 
         // take: start a segment at point i, ending at some j > i
-        long take = 0;
+        int take = 0;
         for (int j = i + 1; j < n; j++)
             take = (take + solve(n, k - 1, j)) % MOD;
 
         // skip: don't start a segment at point i, move to i+1
-        long skip = solve(n, k, i + 1) % MOD;
+        int skip = solve(n, k, i + 1) % MOD;
 
         return t[k][i] = (int) ((take + skip) % MOD);
     }
