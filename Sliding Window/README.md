@@ -289,5 +289,10 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.cpp"> Shortest and Lexicographically Smallest Beautiful String (Leetcode 2904) </a>
 				</td>
       		</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Find%20Two%20Non-overlapping%20Sub-arrays%20Each%20With%20Target%20Sum.cpp"> Find Two Non-overlapping Sub-arrays Each With Target Sum (Leetcode 1477) </a>
+				</td>
+      		</tr>
 		</tbody>
 </table>
