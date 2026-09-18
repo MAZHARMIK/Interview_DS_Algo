@@ -379,5 +379,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Lexicographically%20Smallest%20Palindromic%20Permutation%20Greater%20Than%20Target.cpp">  Lexicographically Smallest Palindromic Permutation Greater Than Target (Leetcode - 3734)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Number%20of%20Non-Overlapping%20Substrings.cpp">  Maximum Number of Non-Overlapping Substrings (Leetcode - 1520)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
