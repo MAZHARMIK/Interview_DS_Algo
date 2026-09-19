@@ -354,5 +354,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Count%20Commas%20in%20Range%20II.cpp"> Count Commas in Range II (Leetcode - 3871) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Circle%20and%20Rectangle%20Overlapping.cpp"> Circle and Rectangle Overlapping (Leetcode - 1401) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
