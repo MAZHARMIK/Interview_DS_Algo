@@ -74,5 +74,10 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Distribute%20Elements%20Into%20Two%20Arrays%20II.cpp"> Distribute Elements Into Two Arrays II (Leetcode - 3072) </a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Find%20X%20Value%20of%20Array%20II.cpp"> Find X Value of Array II (Leetcode - 3525) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
