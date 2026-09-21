@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO LINK : 
+    MY YOUTUBE VIDEO LINK : https://www.youtube.com/watch?v=uzycW0qCd0o
     Company Tags          : Will update later
     Leetcode Link         : https://leetcode.com/problems/find-x-value-of-array-i/description/
 */
