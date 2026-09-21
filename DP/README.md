@@ -800,5 +800,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Number%20of%20Sets%20of%20K%20Non-Overlapping%20Line%20Segments.cpp"> Number of Sets of K Non-Overlapping Line Segments (Leetcode - 1621)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Find%20X%20Value%20of%20Array%20I.cpp"> Find X Value of Array I (Leetcode - 3524)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
