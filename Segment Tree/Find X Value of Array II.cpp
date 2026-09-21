@@ -12,7 +12,7 @@
 //S.C : O(n*k)   [segment tree storage, since each node stores an array of size k]
 struct Node {
     int cnt[5] = {0};
-    int mul = 0;
+    int prod = 0;
 };
 
 class SegmentTree {
@@ -46,18 +46,18 @@ public:
         
         int r = value % k;
         segTree[i].cnt[r] = 1;
-        segTree[i].mul = r;
+        segTree[i].prod = r;
     }
 
     Node mergeNodes(Node& left, Node& right) {
         Node result;
-        result.mul = (left.mul * right.mul) % k;
+        result.prod = (left.prod * right.prod) % k;
 
         for (int x = 0; x < k; x++) {
             result.cnt[x] = left.cnt[x];
         }
         for (int x = 0; x < k; x++) {
-            int newRem = (left.mul * x) % k;
+            int newRem = (left.prod * x) % k;
             result.cnt[newRem] += right.cnt[x];
         }
 
@@ -144,7 +144,7 @@ public:
 //S.C : O(n*k)   [segment tree storage, since each node stores an array of size k]
 class Node {
     int[] cnt = new int[5];
-    int mul = 0;
+    int prod = 0;
 }
 
 class SegmentTree {
@@ -180,18 +180,18 @@ class SegmentTree {
 
         int r = value % k;
         segTree[i].cnt[r] = 1;
-        segTree[i].mul = r;
+        segTree[i].prod = r;
     }
 
     Node mergeNodes(Node left, Node right) {
         Node result = new Node();
-        result.mul = (left.mul * right.mul) % k;
+        result.prod = (left.prod * right.prod) % k;
 
         for (int x = 0; x < k; x++) {
             result.cnt[x] = left.cnt[x];
         }
         for (int x = 0; x < k; x++) {
-            int newRem = (left.mul * x) % k;
+            int newRem = (left.prod * x) % k;
             result.cnt[newRem] += right.cnt[x];
         }
 
