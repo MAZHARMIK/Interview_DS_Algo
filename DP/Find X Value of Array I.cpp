@@ -7,7 +7,7 @@
 
 
 /*********************************************************** C++ **************************************************/
-//Approach-1 (Super Brute Force)
+//Approach-1 (Super Brute Force) - TLE
 //T.C : O(n^3)
 //S.C : O(1)
 class Solution {
@@ -38,9 +38,9 @@ public:
 
 
 
-//Approach-2 (Improved Brute Force)
+//Approach-2 (Improved Brute Force) - MLE
 //T.C : O(n^3)
-//S.C : O(n^2) for memo
+//S.C : O(n^2) for memo - Causing MLE
 class Solution {
 public:
     int solve(int i, int j, vector<int>& nums, int k, vector<vector<int>>& memo) {
@@ -110,7 +110,7 @@ public:
 
 
 /*********************************************************** JAVA **************************************************/
-//Approach-1 (Super Brute Force)
+//Approach-1 (Super Brute Force)) - TLE
 //T.C : O(n^3)
 //S.C : O(1)
 class Solution {
@@ -139,9 +139,9 @@ class Solution {
 
 
 
-//Approach-2 (Improved Brute Force)
+//Approach-2 (Improved Brute Force) - MLE
 //T.C : O(n^3)
-//S.C : O(n^2) for memo
+//S.C : O(n^2) for memo - Causing MLE
 class Solution {
     public int solve(int i, int j, int[] nums, int k, int[][] memo) {
         if (memo[i][j] != -1) return memo[i][j];
