@@ -134,5 +134,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Special%20Binary%20String.cpp"> Special Binary String (Leetcode - 761)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Recursion/Brace%20Expansion%20II.cpp"> Brace Expansion II (Leetcode - 1096)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
