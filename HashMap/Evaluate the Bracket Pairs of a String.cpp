@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=nZvRDBEH8OQ
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string
 */
