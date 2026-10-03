@@ -68,7 +68,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Longest%20Valid%20Parentheses%20(2%20Approaches)">Longest Valid Parentheses (2 Approaches) (Leetcode-32)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Longest%20Valid%20Parentheses.cpp">Longest Valid Parentheses (Leetcode-32)</a>
 				</td>
 			</tr>
 			<tr>
