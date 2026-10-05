@@ -1,5 +1,8 @@
-# Repository Name - Interview_DS_Algo
-# My YouTube Channel Name - codestorywithMIK <img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/icons8-youtube.gif"/>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:FF0000,100:282828&height=180&section=header&text=YouTube%20-%20codestorywithMIK&fontSize=40&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40)
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MAZHARMIK&color=red&style=flat-square&label=Profile+Views" />
+</p>
 
 <img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/codestorywithmik.png" align="right" /> 
 🦸🏻‍♂️On a mission to make a Super Repository for Interview Prep for everyone. :checkered_flag: One stop Solution.  
@@ -15,10 +18,18 @@
  <li> Why I am doing this ? Because knowledge should be free. You don't need to pay for courses. Learn free, share free. PEACE :heartbeat:</li>
  <li> You can join this group on LinkedIn - <a href="https://www.linkedin.com/groups/12559380/">LinkedIn Page : codestorywithMIK</a></li>
 </ul>
-Latest Update⏰  -  
-<em>It helped me to crack interviews of <strong>"Microsoft", "Tower Research", "Tokopedia" and "Expedia" </strong>. I hope to add more to this list later 🙂</em>
 
-![](https://komarev.com/ghpvc/?username=MAZHARMIK)
+### 🏆 Success Stories ⏰
+<em>It helped me to crack interviews of:</em>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Microsoft-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tower%20Research-000000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Tokopedia-42B549?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Expedia-FFC72C?style=for-the-badge"/>
+</p>
+
+<em>This repo has genuinely helped people land offers.</em>
 
 <!-- Visitor Count : ![Visitor Count](https://profile-counter.glitch.me/{MAZHARMIK}/count.svg) -->
  
@@ -47,8 +58,18 @@ Latest Update⏰  -
  <li><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/tree/master/Line%20Sweep%20Technique">Line Sweep Technique 📈</a></li>
 </ul>
 
-# Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
- [<img src="https://avatars0.githubusercontent.com/u/17107752?s=400&v=4" width="100px;"/>](https://github.com/MAZHARMIK)
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+![divider](https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:2C5364&height=3&section=header)
+
+## 🔗 Connect With Me
+
+- 📺 [YouTube](https://www.youtube.com/@codestorywithMIK)
+- 📷 [Instagram](https://www.instagram.com/codestorywithmik/)
+- 📘 [Facebook](https://www.facebook.com/people/codestorywithmik/100090524295846/)
+- 🐦 [Twitter](https://twitter.com/CSwithMIK)
+- 💬 [WhatsApp Community](https://www.whatsapp.com/channel/0029Va6kVSjICVfiVdsHgi1A)
+- 💻 [GitHub (DSA Prep)](https://github.com/MAZHARMIK/Interview_DS_Algo)
+
+<p align="center">⭐ If this repo helped you, consider giving it a star!</p>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:282828,100:FF0000&height=120&section=footer)
