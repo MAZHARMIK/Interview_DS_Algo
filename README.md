@@ -69,6 +69,7 @@
 - 🐦 [Twitter](https://twitter.com/CSwithMIK)
 - 💬 [WhatsApp Community](https://www.whatsapp.com/channel/0029Va6kVSjICVfiVdsHgi1A)
 - 💻 [GitHub (DSA Prep)](https://github.com/MAZHARMIK/Interview_DS_Algo)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/mazhar-imam-khan-95a34ab3)
 
 <p align="center">⭐ If this repo helped you, consider giving it a star!</p>
 
