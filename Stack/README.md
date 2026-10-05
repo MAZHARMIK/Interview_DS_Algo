@@ -98,7 +98,7 @@
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Score%20of%20Parentheses">Score of Parentheses (Leetcode-856)</a>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Stack/Score%20of%20Parentheses.cpp">Score of Parentheses (Leetcode-856)</a>
 				</td>
 			</tr>
 			<tr>
