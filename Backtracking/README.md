@@ -231,5 +231,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Pyramid%20Transition%20Matrix.cpp"> Pyramid Transition Matrix (Leetcode - 756)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Backtracking/Remove%20Invalid%20Parentheses.cpp"> Remove Invalid Parentheses (Leetcode - 301)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
