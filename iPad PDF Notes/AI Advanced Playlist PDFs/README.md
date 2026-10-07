@@ -27,6 +27,16 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=f0HBW-47wwU) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=f0HBW-47wwU)
 </td>
 </tr>
+<tr>
+<td width="200">
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/IMbdnfco3t1HI.png" width="180"/>
+</td>
+<td>
+
+### Video 2: Complete Setup for AI Development | VS Code, Python, Ollama | Local LLM | Advanced AI Playlist | MIK
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=8xQOyAxSqg8) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=8xQOyAxSqg8)
+</td>
+</tr>
 </table>
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:2C5364&height=3&section=header)
