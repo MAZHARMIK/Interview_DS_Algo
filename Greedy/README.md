@@ -389,5 +389,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Insertions%20to%20Balance%20a%20Parentheses%20String.cpp"> Minimum Insertions to Balance a Parentheses String (Leetcode - 1541)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Sum%20of%20Squared%20Difference.cpp"> Minimum Sum of Squared Difference (Leetcode - 2333)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
