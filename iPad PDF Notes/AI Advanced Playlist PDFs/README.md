@@ -37,6 +37,17 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=8xQOyAxSqg8) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=8xQOyAxSqg8)
 </td>
 </tr>
+
+<tr>
+<td width="200">
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/IMG_1698.PNG" width="180"/>
+</td>
+<td>
+
+### Video 3: Build Your First AI Assistant in Python | OpenAI API Style | Deep Dive | Advanced AI Playlist | MIK
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=gj3u7OxE0o0) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=gj3u7OxE0o0)
+</td>
+</tr>
 </table>
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:2C5364&height=3&section=header)
