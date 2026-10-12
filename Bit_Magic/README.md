@@ -224,5 +224,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR.cpp"> Longest Subsequence With Non-Zero Bitwise XOR (Leetcode - 3702)</a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Apply%20Operations%20on%20Array%20to%20Maximize%20Sum%20of%20Squares.cpp"> Apply Operations on Array to Maximize Sum of Squares (Leetcode - 2897)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
