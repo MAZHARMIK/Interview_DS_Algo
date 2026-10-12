@@ -23,7 +23,7 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 </td>
 <td>
 
-### Video 1: Your Roadmap to Master Advanced AI | What's Coming in This Playlist? | Advanced AI Playlist | MIK
+### Video 1: Your Roadmap to Master Advanced AI | What's Coming in This Playlist? | Advanced AI Playlist | codestorywithMIK
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=f0HBW-47wwU) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=f0HBW-47wwU)
 </td>
 </tr>
@@ -33,7 +33,7 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 </td>
 <td>
 
-### Video 2: Complete Setup for AI Development | VS Code, Python, Ollama | Local LLM | Advanced AI Playlist | MIK
+### Video 2: Complete Setup for AI Development | VS Code, Python, Ollama | Local LLM | Advanced AI Playlist | codestorywithMIK
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=8xQOyAxSqg8) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=8xQOyAxSqg8)
 </td>
 </tr>
@@ -44,7 +44,7 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 </td>
 <td>
 
-### Video 3: Build Your First AI Assistant in Python | OpenAI API Style | Deep Dive | Advanced AI Playlist | MIK
+### Video 3: Build Your First AI Assistant in Python | OpenAI API Style | Deep Dive | Advanced AI Playlist | codestorywithMIK
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=gj3u7OxE0o0) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=gj3u7OxE0o0)
 </td>
 </tr>
@@ -55,8 +55,19 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 </td>
 <td>
 
-### Video 4: Build Your First AI Assistant in Python | OpenAI API Style | Deep Dive | Advanced AI Playlist | MIK
+### Video 4: Build Your First AI Assistant in Python | OpenAI API Style | Deep Dive | Advanced AI Playlist | codestorywithMIK
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=8EnFDW3LmvY) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=8EnFDW3LmvY)
+</td>
+</tr>
+
+<tr>
+<td width="200">
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/IMOH6WmZ3Kyao.png" width="180"/>
+</td>
+<td>
+
+### Video 5: Give Your AI Assistant Memory | Conversation History | Context Window Explained | Advanced AI Playlist | codestorywithMIK
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=uMyhG6usK2o) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=uMyhG6usK2o)
 </td>
 </tr>
 </table>
