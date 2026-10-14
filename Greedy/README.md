@@ -394,5 +394,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Sum%20of%20Squared%20Difference.cpp"> Minimum Sum of Squared Difference (Leetcode - 2333)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximize%20Sum%20of%20Squares%20of%20Digits.cpp"> Maximize Sum of Squares of Digits (Leetcode - 3723)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
