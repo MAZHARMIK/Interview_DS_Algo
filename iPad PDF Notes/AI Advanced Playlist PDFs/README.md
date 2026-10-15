@@ -81,6 +81,17 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=JAn2cd6e-Jo) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=JAn2cd6e-Jo)
 </td>
 </tr>
+
+<tr>
+<td width="200">
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/IMG_1906.PNG" width="180"/>
+</td>
+<td>
+
+### Video 7: Make Your AI Assistant Use Tools | Tool Calling | Function Calling Explained | Advanced AI Playlist | codestorywithMIK
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=yqy-nwsFG9M) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=yqy-nwsFG9M)
+</td>
+</tr>
 </table>
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:2C5364&height=3&section=header)
