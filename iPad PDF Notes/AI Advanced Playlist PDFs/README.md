@@ -92,6 +92,17 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=yqy-nwsFG9M) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=yqy-nwsFG9M)
 </td>
 </tr>
+
+<tr>
+<td width="200">
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/IMVS8__qHzDXU.png" width="180"/>
+</td>
+<td>
+
+### Video 8: Tool Calling With Parameters | Add a Weather API Tool to Your AI Assistant | Advanced AI Playlist | codestorywithMIK
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=XIu9qPeL6Ak) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=XIu9qPeL6Ak)
+</td>
+</tr>
 </table>
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:2C5364&height=3&section=header)
