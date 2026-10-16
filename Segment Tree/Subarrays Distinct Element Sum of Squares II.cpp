@@ -1,6 +1,6 @@
 /*     Scroll below to see JAVA code also    */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=8Fjin_L8Qmw
     Company Tags                : will update soon
     Leetcode Link               : https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii/
 */
