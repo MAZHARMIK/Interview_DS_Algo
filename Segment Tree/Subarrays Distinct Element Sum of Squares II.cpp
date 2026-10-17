@@ -61,7 +61,7 @@ public:
         sumSegTree[i]   = sumSegTree[2*i+1] + sumSegTree[2*i+2];
         sqSumSegTree[i] = sqSumSegTree[2*i+1] + sqSumSegTree[2*i+2];
     }
-2w
+
     int sumCounts(vector<int>& nums) {
         n = nums.size();
 
