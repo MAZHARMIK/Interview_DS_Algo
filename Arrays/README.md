@@ -599,5 +599,10 @@
 						<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Removing%20Minimum%20and%20Maximum%20From%20Array.cpp"> Removing Minimum and Maximum From Array (Leetcode - 2091)</a>
 					</td>
 			</tr>
+			<tr>
+       				 <td>
+						<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Swaps%20to%20Sort%20by%20Digit%20Sum.cpp"> Minimum Swaps to Sort by Digit Sum (Leetcode - 3551)</a>
+					</td>
+			</tr>
 		</tbody>
 </table>
