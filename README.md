@@ -23,6 +23,7 @@
 <em>It helped me to crack interviews of:</em>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Siemens-009999?style=for-the-badge&logo=siemens&logoColor=white"/>
   <img src="https://img.shields.io/badge/Microsoft-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white"/>
   <img src="https://img.shields.io/badge/Tower%20Research-000000?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Tokopedia-42B549?style=for-the-badge"/>
