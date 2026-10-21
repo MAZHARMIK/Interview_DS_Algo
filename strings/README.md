@@ -113,6 +113,7 @@ Each row links straight to its C++ solution. Sorted in curated study order — s
 | `955` | Delete Columns to Make Sorted II | [Code](https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Delete%20Columns%20to%20Make%20Sorted%20II.cpp) |
 | `2452` | Words Within Two Edits of Dictionary | [Code](https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Words%20Within%20Two%20Edits%20of%20Dictionary.cpp) |
 | `3499` | Maximize Active Section with Trade I | [Code](https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Maximize%20Active%20Section%20with%20Trade%20I.cpp) |
+| `3863`  |Minimum Operations to Sort a String | [Code](https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/strings/Minimum%20Operations%20to%20Sort%20a%20String.cpp) |
 
 ---
 
