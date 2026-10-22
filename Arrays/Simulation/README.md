@@ -49,5 +49,10 @@
 					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Count%20Mentions%20Per%20User.cpp"> Count Mentions Per User (Leetcode - 3433)</a>
 				    </td>
       			</tr>
+				<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Simulation/Minimum%20Operations%20to%20Sort%20a%20Permutation.cpp">  Minimum Operations to Sort a Permutation (Leetcode - 3942)</a>
+				    </td>
+      			</tr>
 		</tbody>
 </table>
