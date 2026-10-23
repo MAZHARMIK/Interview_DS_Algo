@@ -229,5 +229,10 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Apply%20Operations%20on%20Array%20to%20Maximize%20Sum%20of%20Squares.cpp"> Apply Operations on Array to Maximize Sum of Squares (Leetcode - 2897)</a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20K%20to%20Sort%20a%20Permutation.cpp"> Apply Operations on Array to Maximize Sum of Squares (Leetcode - 3644)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
