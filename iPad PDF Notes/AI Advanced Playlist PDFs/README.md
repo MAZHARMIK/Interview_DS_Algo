@@ -10,6 +10,8 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 
 📺 **Watch the full playlist here:** [Advanced AI Playlist](https://www.youtube.com/watch?v=f0HBW-47wwU&list=PLGSKQmIKK2zQ)
 
+💻 **Source code for this series:** [python-ai-agent-ollama](https://github.com/MAZHARMIK/python-ai-agent-ollama) — the local AI agent we build step by step in these videos.
+
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:2C5364&height=3&section=header)
 
 ## 🎥 Videos & Notes
