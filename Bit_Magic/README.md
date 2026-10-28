@@ -234,5 +234,11 @@ See <a href= "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Mag
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Maximum%20K%20to%20Sort%20a%20Permutation.cpp"> Apply Operations on Array to Maximize Sum of Squares (Leetcode - 3644)</a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Bit_Magic/Minimum%20XOR%20Path%20in%20a%20Grid.cpp"> Minimum XOR Path in a Grid
+ (Leetcode - 3882)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
