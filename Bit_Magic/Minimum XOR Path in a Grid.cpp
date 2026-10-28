@@ -1,7 +1,7 @@
 /*   Scroll below to see JAVA code also  */
 /*
     MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=JznAgCmAATo
-    Company Tags                : Will udpate later
+    Company Tags                : Google, Meta
     Leetcode Link               : https://leetcode.com/problems/minimum-xor-path-in-a-grid
 */
 
