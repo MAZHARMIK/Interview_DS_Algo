@@ -84,5 +84,10 @@ First do this : <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/mas
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Subarrays%20Distinct%20Element%20Sum%20of%20Squares%20II.cpp"> Subarrays Distinct Element Sum of Squares II (Leetcode - 2916) </a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Segment%20Tree/Palindromic%20Path%20Queries%20in%20a%20Tree.cpp"> Palindromic Path Queries in a Tree (Leetcode - 3841) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
