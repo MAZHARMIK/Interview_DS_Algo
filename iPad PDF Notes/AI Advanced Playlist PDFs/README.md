@@ -160,6 +160,17 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=tBDI4RTmruY) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=tBDI4RTmruY)
 </td>
 </tr>
+
+<tr>
+<td width="200">
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/5E149843-AE76-4A47-A222-9706B38A2E88.PNG" width="180"/>
+</td>
+<td>
+
+### Video 14: Make Your AI Agent Search Documents | RAG Part 2: Embedding & Searching | Advanced AI Playlist | codestorywithMIK
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=s1KC4CKx8Ww) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=s1KC4CKx8Ww)
+</td>
+</tr>
 </table>
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:2C5364&height=3&section=header)
