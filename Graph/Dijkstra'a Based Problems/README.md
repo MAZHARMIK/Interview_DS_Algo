@@ -109,5 +109,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Network%20Recovery%20Pathways.cpp"> Network Recovery Pathways (Leetcode - 3620)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Dijkstra'a%20Based%20Problems/Shortest%20Path%20With%20At%20Most%20K%20Consecutive%20Identical%20Characters.cpp"> Shortest Path With At Most K Consecutive Identical Characters (Leetcode - 3970)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
