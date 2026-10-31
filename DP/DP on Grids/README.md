@@ -79,5 +79,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Check%20if%20There%20Is%20a%20Valid%20Parentheses%20String%20Path.cpp"> Check if There Is a Valid Parentheses String Path (Leetcode - 2267)</a>
 				</td>
 			</tr>
+			<tr>
+         		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/DP%20on%20Grids/Twisted%20Mirror%20Path%20Count.cpp"> Twisted Mirror Path Count (Leetcode - 3665)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
