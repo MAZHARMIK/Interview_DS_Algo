@@ -359,5 +359,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Circle%20and%20Rectangle%20Overlapping.cpp"> Circle and Rectangle Overlapping (Leetcode - 1401) </a>
 				</td>
 			</tr>
+			<tr>
+       			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Minimum%20Moves%20to%20Equal%20Array%20Elements.cpp"> Minimum Moves to Equal Array Elements (Leetcode - 453) </a>
+				</td>
+			</tr>
 		</tbody>
 </table>
