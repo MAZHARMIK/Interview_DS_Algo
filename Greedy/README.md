@@ -399,5 +399,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximize%20Sum%20of%20Squares%20of%20Digits.cpp"> Maximize Sum of Squares of Digits (Leetcode - 3723)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.cpp"> Minimum Moves to Equal Array Elements II (Leetcode - 462)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
