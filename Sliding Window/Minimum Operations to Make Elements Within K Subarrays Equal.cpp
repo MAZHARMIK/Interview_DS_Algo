@@ -1,6 +1,6 @@
 /*			Scroll below to see JAVA code also			*/
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=K2jY1LJSQ3Y
     Company Tag                 : will update later
     Leetcode Link               : https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal
 */
