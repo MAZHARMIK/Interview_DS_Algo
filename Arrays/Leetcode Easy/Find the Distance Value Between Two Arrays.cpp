@@ -1,6 +1,6 @@
 /*         Scroll down to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=OPMqFO5uOrM
     Company Tags                : will update later
     Leetcode Link               : https://leetcode.com/problems/find-the-distance-value-between-two-arrays
 */
