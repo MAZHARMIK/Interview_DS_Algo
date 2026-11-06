@@ -1,6 +1,6 @@
 /*			Scroll below to see JAVA code also			*/
 /*
-    MY YOUTUBE VIDEO ON THIS Qn : 
+    MY YOUTUBE VIDEO ON THIS Qn : https://www.youtube.com/watch?v=iMCVsCcJl_Q
     Company Tag                 : will update later
     Leetcode Link               : https://leetcode.com/problems/count-zero-request-servers/description/
 */
