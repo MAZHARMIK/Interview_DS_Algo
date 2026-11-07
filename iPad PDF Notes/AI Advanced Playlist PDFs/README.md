@@ -182,6 +182,17 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=FNZvyn1Sh_4) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=FNZvyn1Sh_4)
 </td>
 </tr>
+
+<tr>
+<td width="200">
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/IMASPWnGh2otQ.png" width="180"/>
+</td>
+<td>
+
+### Video 16: Add RAG to Your AI Agent | RAG Part 4: Knowledge Base Tool & Live Demo | Advanced AI Playlist | codestorywithMIK
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=6uMX4xr-D2Y) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=6uMX4xr-D2Y)
+</td>
+</tr>
 </table>
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:2C5364&height=3&section=header)
