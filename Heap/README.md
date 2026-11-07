@@ -219,5 +219,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Maximum%20Total%20Subarray%20Value%20II.cpp"> Maximum Total Subarray Value II (Leetcode - 3691)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Heap/Process%20Tasks%20Using%20Servers.cpp"> Process Tasks Using Servers (Leetcode - 1882)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
