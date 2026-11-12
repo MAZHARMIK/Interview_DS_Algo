@@ -193,6 +193,17 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=6uMX4xr-D2Y) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=6uMX4xr-D2Y)
 </td>
 </tr>
+
+<tr>
+<td width="200">
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/dec6d406-9a52-393f-20c7-863d7aa0fe87.jpg" width="180"/>
+</td>
+<td>
+
+### Video 17: Using Vector DB in AI Agent  | RAG Part 5: ChromaDB | Advanced AI Playlist | codestorywithMIK
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=_Bn4myaBo6A) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=_Bn4myaBo6A)
+</td>
+</tr>
 </table>
 
 ![divider](https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,100:2C5364&height=3&section=header)
