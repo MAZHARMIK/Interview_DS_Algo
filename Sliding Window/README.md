@@ -301,8 +301,12 @@ TIP : Whenever any question asks us to minimize or maximize something but in a c
       		</tr>
 			<tr>
           			<td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Zero%20Request%20Servers.cpp"> Count Zero Request Servers
- (Leetcode 2747) </a>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Zero%20Request%20Servers.cpp"> Count Zero Request Servers (Leetcode 2747) </a>
+				</td>
+      		</tr>
+			<tr>
+          			<td>
+					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Count%20Non-Decreasing%20Subarrays%20After%20K%20Operations.cpp"> Count Non-Decreasing Subarrays After K Operations (Leetcode 3420) </a>
 				</td>
       		</tr>
 		</tbody>
