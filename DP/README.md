@@ -805,5 +805,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Find%20X%20Value%20of%20Array%20I.cpp"> Find X Value of Array I (Leetcode - 3524)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Changes%20to%20Make%20K%20Semi-palindromes.cpp"> Minimum Changes to Make K Semi-palindromes (Leetcode - 2911)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
