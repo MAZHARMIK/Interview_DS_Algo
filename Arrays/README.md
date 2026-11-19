@@ -604,5 +604,10 @@
 						<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Swaps%20to%20Sort%20by%20Digit%20Sum.cpp"> Minimum Swaps to Sort by Digit Sum (Leetcode - 3551)</a>
 					</td>
 			</tr>
+			<tr>
+       				 <td>
+						<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Minimum%20Score%20by%20Changing%20Two%20Elements.cpp"> Minimum Score by Changing Two Elements (Leetcode - 2567)</a>
+					</td>
+			</tr>
 		</tbody>
 </table>
