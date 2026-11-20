@@ -139,7 +139,7 @@ class Solution {
             }
 
             long x   = (numberUpTo[r] - (numBefore * pow10[subStrLen] % MOD) + MOD) % MOD;
-            long sum = digitSumUpTo[r] - (l == 0) ? 0 : digitSumUpTo[l - 1];
+            long sum = digitSumUpTo[r] - ((l == 0) ? 0 : digitSumUpTo[l - 1]);
 
             result[i] = (int) ((x * sum) % MOD);
         }
