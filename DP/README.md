@@ -810,5 +810,10 @@ Scramble String (Leetcode-87) (Memoized) </a>
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Changes%20to%20Make%20K%20Semi-palindromes.cpp"> Minimum Changes to Make K Semi-palindromes (Leetcode - 2911)</a>
 				</td>
 			</tr>
+			</tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Maximize%20Consecutive%20Elements%20in%20an%20Array%20After%20Modification.cpp"> Maximize Consecutive Elements in an Array After Modification (Leetcode - 3041)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
