@@ -119,7 +119,7 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 
 <tr>
 <td width="200">
-<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/IMG_2117.PNG" width="180"/>
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/768AB19C-035E-45D9-878A-6EB68B342EE4.jpg" width="180"/>
 </td>
 <td>
 
@@ -202,6 +202,17 @@ This repo contains the **PDF notes** for the videos in the playlist. These will 
 
 ### Video 17: Using Vector DB in AI Agent  | RAG Part 5: ChromaDB | Advanced AI Playlist | codestorywithMIK
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=_Bn4myaBo6A) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=_Bn4myaBo6A)
+</td>
+</tr>
+
+<tr>
+<td width="200">
+<img src="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/iPad%20PDF%20Notes/AI%20Advanced%20Playlist%20PDFs/Thumbnails/dec6d406-9a52-393f-20c7-863d7aa0fe87.jpg" width="180"/>
+</td>
+<td>
+
+### Video 18: Persistent Chat Memory for Your AI Agent | Save and Resume AI Agent Chats | Advanced AI Playlist | codestorywithMIK
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=Agb-ZOLDdUo) 🎬 [YouTube Video Link](https://www.youtube.com/watch?v=Agb-ZOLDdUo)
 </td>
 </tr>
 </table>
