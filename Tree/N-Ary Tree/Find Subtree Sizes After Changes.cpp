@@ -15,9 +15,8 @@ public:
     unordered_map<int, vector<int>> adj;
     vector<int> resultSize;
     vector<int> last;
-    vector<int> par;
 
-    void dfs(int currNode, string& s) {
+    void dfs(int currNode, string& s, vector<int>& parent) {
         int c = s[currNode] - 'a';
 
         int above = last[c];
@@ -25,12 +24,12 @@ public:
         last[c] = currNode;
 
         for (int child : adj[currNode])
-            dfs(child, s);
+            dfs(child, s, parent);
 
         last[c] = above;
 
         if (currNode != 0) {
-            int newParent = par[currNode];
+            int newParent = parent[currNode];
 
             if (above != -1)
                 newParent = above;
@@ -41,7 +40,6 @@ public:
 
     vector<int> findSubtreeSizes(vector<int>& parent, string s) {
         int n = parent.size();
-        par = parent;
 
         for (int i = 1; i < n; i++) {
             int u = parent[i];
@@ -52,12 +50,11 @@ public:
         resultSize.assign(n, 1);
         last.assign(26, -1);
 
-        dfs(0, s);
+        dfs(0, s, parent);
         
         return resultSize;
     }
 };
-
 
 
 /****************************************************** JAVA ***************************************************/
@@ -68,9 +65,8 @@ class Solution {
     private Map<Integer, List<Integer>> adj = new HashMap<>();
     private int[] resultSize;
     private int[] last;
-    private int[] par;
 
-    private void dfs(int currNode, String s) {
+    private void dfs(int currNode, String s, int[] parent) {
         int c = s.charAt(currNode) - 'a';
 
         int above = last[c];
@@ -78,12 +74,12 @@ class Solution {
         last[c] = currNode;
 
         for (int child : adj.getOrDefault(currNode, Collections.emptyList()))
-            dfs(child, s);
+            dfs(child, s, parent);
 
         last[c] = above;
 
         if (currNode != 0) {
-            int newParent = par[currNode];
+            int newParent = parent[currNode];
 
             if (above != -1)
                 newParent = above;
@@ -94,7 +90,6 @@ class Solution {
 
     public int[] findSubtreeSizes(int[] parent, String s) {
         int n = parent.length;
-        par = parent;
 
         for (int i = 1; i < n; i++) {
             int u = parent[i];
@@ -108,7 +103,7 @@ class Solution {
         last = new int[26];
         Arrays.fill(last, -1);
 
-        dfs(0, s);
+        dfs(0, s, parent);
 
         return resultSize;
     }
