@@ -33,7 +33,8 @@ public:
 
             if (nearestAncestor != -1)
                 newParent = nearestAncestor;
-
+            
+            parent[currNode] = newParent;
             resultSize[newParent] += resultSize[currNode];
         }
     }
@@ -84,6 +85,7 @@ class Solution {
             if (nearestAncestor != -1)
                 newParent = nearestAncestor;
 
+            parent[currNode] = newParent;
             resultSize[newParent] += resultSize[currNode];
         }
     }
