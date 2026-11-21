@@ -4,35 +4,42 @@
 # Tree/N-Ary Tree : :triangular_flag_on_post:
 
 <h1>Questions</h1>
-<table id = "example" class="SectionTable display" >
-		<thead>
+<table id="example" class="SectionTable display">
+  <thead>
+    <tr>
       <th>Problem Name</th>
-		</thead>
-		<tbody>
-			<tr>
-          <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/Find%20Root%20of%20N-Ary%20Tree">Find Root of N-Ary Tree (Leetcode-1506)</a>
-				  </td>
-      </tr>
-			<tr>
-          			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/Maximum%20Depth%20of%20N-ary%20Tree%20(DFS%20%26%20BFS)">Maximum Depth of N-ary Tree (DFS & BFS) (Leetcode-559)</a>
-				  </td>
-      			</tr>
-			<tr>
-          			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/N-ary_Tree_Preorder_Traversal.cpp">N-ary Tree Preorder Traversal (Leetcode-589)</a>
-				  </td>
-      			</tr>
-			<tr>
-          			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/N-ary%20Tree%20Level%20Order%20Traversal.cpp">N-ary Tree Level Order Traversal (Leetcode-429)</a>
-				  </td>
-      			</tr>
-			<tr>
-          			  <td>
-					  <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/Construct%20Quad%20Tree.cpp">Construct Quad Tree (Leetcode-427)</a>
-				  </td>
-      			</tr>
-		</tbody>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/Find%20Root%20of%20N-Ary%20Tree">Find Root of N-Ary Tree (Leetcode-1506)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/Maximum%20Depth%20of%20N-ary%20Tree%20(DFS%20%26%20BFS)">Maximum Depth of N-ary Tree (DFS &amp; BFS) (Leetcode-559)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/N-ary_Tree_Preorder_Traversal.cpp">N-ary Tree Preorder Traversal (Leetcode-589)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/N-ary%20Tree%20Level%20Order%20Traversal.cpp">N-ary Tree Level Order Traversal (Leetcode-429)</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/Construct%20Quad%20Tree.cpp">Construct Quad Tree (Leetcode-427)</a>
+      </td>
+    </tr>
+	<tr>
+      <td>
+        <a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/N-Ary%20Tree/Find%20Subtree%20Sizes%20After%20Changes.cpp"> Find Subtree Sizes After Changes (Leetcode - 3331)</a>
+      </td>
+    </tr>
+  </tbody>
 </table>
