@@ -22,19 +22,23 @@ public:
         int nearestAncestor = last[c];
 
         last[c] = currNode;
-
-        for (int child : adj[currNode])
+        for(int child : adj[currNode]) {
             dfs(child, s, parent);
+        }
 
+        //back to currNode
         last[c] = nearestAncestor;
 
-        if (currNode != 0) {
-            int newParent = parent[currNode];
+        //if currNode is root, it has no ancestor
+        if(currNode != 0) {
+            int newParent = parent[currNode]; //old parent
 
-            if (nearestAncestor != -1)
+            if(nearestAncestor != -1) {
                 newParent = nearestAncestor;
-            
+            }
+
             parent[currNode] = newParent;
+
             resultSize[newParent] += resultSize[currNode];
         }
     }
@@ -42,17 +46,21 @@ public:
     vector<int> findSubtreeSizes(vector<int>& parent, string s) {
         int n = parent.size();
 
-        for (int i = 1; i < n; i++) {
-            int u = parent[i];
+        //parent[i] = node
+        //node is the parent of ith node
+        //node ---> i
+
+        for(int i = 1; i < n; i++) {
+            int u = parent[i]; //u is the parent
             int v = i;
-            adj[u].push_back(v);
+            adj[u].push_back(v); //u --> v
         }
 
         resultSize.assign(n, 1);
         last.assign(26, -1);
 
         dfs(0, s, parent);
-        
+
         return resultSize;
     }
 };
