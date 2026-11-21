@@ -19,20 +19,20 @@ public:
     void dfs(int currNode, string& s, vector<int>& parent) {
         int c = s[currNode] - 'a';
 
-        int above = last[c];
+        int nearestAncestor = last[c];
 
         last[c] = currNode;
 
         for (int child : adj[currNode])
             dfs(child, s, parent);
 
-        last[c] = above;
+        last[c] = nearestAncestor;
 
         if (currNode != 0) {
             int newParent = parent[currNode];
 
-            if (above != -1)
-                newParent = above;
+            if (nearestAncestor != -1)
+                newParent = nearestAncestor;
 
             resultSize[newParent] += resultSize[currNode];
         }
@@ -69,20 +69,20 @@ class Solution {
     private void dfs(int currNode, String s, int[] parent) {
         int c = s.charAt(currNode) - 'a';
 
-        int above = last[c];
+        int nearestAncestor = last[c];
 
         last[c] = currNode;
 
         for (int child : adj.getOrDefault(currNode, Collections.emptyList()))
             dfs(child, s, parent);
 
-        last[c] = above;
+        last[c] = nearestAncestor;
 
         if (currNode != 0) {
             int newParent = parent[currNode];
 
-            if (above != -1)
-                newParent = above;
+            if (nearestAncestor != -1)
+                newParent = nearestAncestor;
 
             resultSize[newParent] += resultSize[currNode];
         }
