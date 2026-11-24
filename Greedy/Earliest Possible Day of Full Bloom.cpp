@@ -55,3 +55,46 @@ public:
         
     }
 };
+
+/***************************************************************** JAVA ***********************************************************************************/
+
+class Solution {
+    public int earliestFullBloom(int[] plantTime, int[] growTime) {
+        int n = plantTime.length;
+        
+        // Create a list of pairs where each pair contains plantTime and growTime
+        List<Pair> vec = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            vec.add(new Pair(plantTime[i], growTime[i]));
+        }
+        
+        // Sort the pairs based on growTime in descending order
+        Collections.sort(vec, (P1, P2) -> P2.growTime - P1.growTime);
+        
+        int prevPlantDays = 0;
+        int maxBloomDays = 0;
+        for (int i = 0; i < n; i++) {
+            int currPlantTime = vec.get(i).plantTime;
+            int currGrowTime = vec.get(i).growTime;
+            
+            prevPlantDays += currPlantTime;
+            
+            int currPlantBloomTime = prevPlantDays + currGrowTime;
+            
+            maxBloomDays = Math.max(maxBloomDays, currPlantBloomTime);
+        }
+        
+        return maxBloomDays;
+    }
+}
+
+// Helper class to store the pairs of plantTime and growTime
+class Pair {
+    int plantTime;
+    int growTime;
+
+    Pair(int plantTime, int growTime) {
+        this.plantTime = plantTime;
+        this.growTime = growTime;
+    }
+}
