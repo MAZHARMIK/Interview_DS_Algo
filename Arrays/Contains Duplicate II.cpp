@@ -4,7 +4,9 @@
     Leetcode Link               : https://leetcode.com/problems/contains-duplicate-ii/
     Using sliding window        : https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Sliding%20Window/Contains%20Duplicate%20II.cpp
 */
-
+/**************************************** C++ ****************************************/
+//T.C. :O(n)
+//S.C. :O(n)
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
@@ -23,3 +25,22 @@ public:
         return false;
     }
 };
+
+/**************************************** JAVA ****************************************/
+//T.C. :O(n)
+//S.C. :O(n)
+class Solution {
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
+        Map<Integer, Integer> mp = new HashMap<>();
+        
+        for (int i = 0; i < nums.length; i++) {
+            if (mp.containsKey(nums[i]) && Math.abs(mp.get(nums[i]) - i) <= k) {
+                return true;
+            } else {
+                mp.put(nums[i], i); // {number, index}
+            }
+        }
+        
+        return false;
+    }
+}
