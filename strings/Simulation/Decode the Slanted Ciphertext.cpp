@@ -48,13 +48,15 @@ public:
         //Create matrix
         vector<vector<char>> mat(rows, vector<char>(columns));
 
-        int idx = 0;
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
-                mat[i][j] = encodedText[idx++];
-            }
+      int idx = 0;
+while (idx != l) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < columns; j++) {
+            mat[i][j] = encodedText[idx];
+            idx++;
         }
-
+    }
+}
         //Read diagonally
         for (int col = 0; col < columns; col++) {
             int i = 0;
@@ -96,9 +98,11 @@ public:
             }
         }
 
-        while(!originalText.empty() && originalText.back() == ' ') {
-            originalText.pop_back();
-        }
+     int idxx = originalText.size() - 1;
+while (!originalText.empty() && originalText[idxx] == ' ') {
+    originalText.pop_back();
+    idxx--;
+}
 
         return originalText;
     }
