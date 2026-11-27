@@ -77,6 +77,10 @@
       <td align="center">9</td>
       <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Knapsack%20Series/Target%20Sum.cpp">Target Sum - LeetCode 494</a></td>
     </tr>
+    <tr>
+      <td align="center">9</td>
+      <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Knapsack%20Series/Maximum%20Number%20of%20Items%20From%20Sale%20I.cpp">Maximum Number of Items From Sale I - LeetCode 3946</a></td>
+    </tr>
   </tbody>
 </table>
 
