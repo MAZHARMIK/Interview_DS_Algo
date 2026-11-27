@@ -1,6 +1,6 @@
 /*        Scroll below to see JAVA code also        */
 /*
-    MY YOUTUBE VIDEO LINK : 
+    MY YOUTUBE VIDEO LINK : https://www.youtube.com/watch?v=2BeIDxoeY5E
     Company Tags          : Will update later
     Leetcode Link         : https://leetcode.com/problems/maximum-number-of-items-from-sale-i/description/
 */
