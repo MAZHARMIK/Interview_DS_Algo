@@ -404,5 +404,10 @@
 					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.cpp"> Minimum Moves to Equal Array Elements II (Leetcode - 462)</a>
 				</td>
 			</tr>
+			<tr>
+        		<td>
+					<a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Greedy/Maximum%20Number%20of%20Items%20From%20Sale%20II.cpp"> Maximum Number of Items From Sale II (Leetcode - 3947)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
